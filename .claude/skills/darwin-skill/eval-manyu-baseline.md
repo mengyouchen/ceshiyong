@@ -24,6 +24,15 @@
 - 评分方式：2 个独立 judge agent 盲评（A/B 匿名对比），取共识
 - 状态：执行 agent 运行中，等待输出
 
+## 盲评分组密钥（judge 不可见）
+
+| | 测试1 | 测试2 | 测试3 |
+|---|---|---|---|
+| Judge 1 | with_skill=**B** | with_skill=**A** | with_skill=**B** |
+| Judge 2 | with_skill=**A** | with_skill=**B** | with_skill=**A** |
+
+已知混杂因素：baseline 执行 agent 的环境注入了本仓库全部技能的 frontmatter 简介（含 manyu-perspective 的特征概述），故 baseline 并非纯净对照——实测差值低估技能真实增量；对改进前后的棘轮对比无影响（两侧偏差相同）。
+
 ## 待汇总
 
 - [ ] dim8 judge 共识分
