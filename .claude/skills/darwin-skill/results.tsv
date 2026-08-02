@@ -1,0 +1,4 @@
+timestamp	commit	skill	old_score	new_score	status	dimension	note	eval_mode
+2026-07-08T00:00	baseline	manyu-perspective	-	72.2	baseline	-	结构56.1/77+dim8共识7分×23/10；J1三胜J2两胜一负	full_test
+2026-07-08T00:10	round1	manyu-perspective	72.2	76.4	keep	dim3+dim4簇	失败分支5条if-then表+🔴/⚠️标记；dim3 6→8 dim4 4→7	structural
+2026-07-08T01:00	round2	manyu-perspective	76.4	78.7	keep	dim8行为规则	最小完整稿+打分校准；2judges交叉盲评一致新版胜（改稿明显/选题微弱）	full_test
