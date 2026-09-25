@@ -15,6 +15,24 @@ import re
 from pathlib import Path
 
 
+def extract_section(content: str, *keywords: str) -> str | None:
+    """按 `## ` 标题行抽取一节的正文，抽不到返回 None。
+
+    标题关键词必须落在**标题那一行之内**。这一点是刻意的：
+    早先的写法是 `##\\s+.*关键词` 配 re.DOTALL，而 DOTALL 下的贪婪 `.*`
+    会跨行一直吃到全文**最后一次**出现的关键词，于是把正文里的普通提及
+    误当成标题——匹配起点被认成文件里第一个 `## ` 标题，捕获段则落在
+    文件末尾，检查结果变成无意义的 0。
+    （实例：某技能在版本记录里写了"诚实边界"四字，该节 9 条被误报为 0 条；
+    "来源"那一处更糟，贪婪匹配吞掉了 `### 一手来源` 标题本身，
+    使一手来源占比检查对所有技能静默失效。）
+    """
+    pattern = (r'^##[ \t]+[^\n]*(?:' + '|'.join(keywords) + r')[^\n]*$\n?'
+               r'(.*?)(?=^##[ \t]|\Z)')
+    match = re.search(pattern, content, re.DOTALL | re.IGNORECASE | re.MULTILINE)
+    return match.group(1) if match else None
+
+
 def check_mental_models(content: str) -> tuple[bool, str]:
     """检查心智模型数量（3-7个）"""
     # 匹配 ### 模型N: 或 ### N. 等模式
@@ -24,7 +42,9 @@ def check_mental_models(content: str) -> tuple[bool, str]:
         in_section = False
         count = 0
         for line in content.split('\n'):
-            if re.match(r'^##\s+.*心智模型|Mental Model', line, re.IGNORECASE):
+            # 分支必须整体括起来：写成 `^##\s+.*心智模型|Mental Model` 时，
+            # 第二个分支脱离了 `^##\s+` 约束，任何以 Mental Model 开头的行都会命中。
+            if re.match(r'^##[ \t]+[^\n]*(?:心智模型|Mental Model)', line, re.IGNORECASE):
                 in_section = True
                 continue
             if in_section and re.match(r'^##\s+', line) and '心智模型' not in line:
@@ -63,11 +83,10 @@ def check_expression_dna(content: str) -> tuple[bool, str]:
 def check_honest_boundary(content: str) -> tuple[bool, str]:
     """检查诚实边界（至少3条）"""
     # 找诚实边界section
-    boundary_match = re.search(r'(?:##\s+.*诚实边界|## Honest Boundary)(.*?)(?=\n##\s|\Z)', content, re.DOTALL | re.IGNORECASE)
-    if not boundary_match:
+    boundary_text = extract_section(content, '诚实边界', 'Honest Boundary')
+    if boundary_text is None:
         return False, "❌ 未找到诚实边界section"
 
-    boundary_text = boundary_match.group(1)
     # 计算列表项
     items = re.findall(r'^[-*]\s+', boundary_text, re.MULTILINE)
     count = len(items)
@@ -85,11 +104,10 @@ def check_tensions(content: str) -> tuple[bool, str]:
 def check_primary_sources(content: str) -> tuple[bool, str]:
     """检查一手来源占比"""
     # 找调研来源section
-    source_section = re.search(r'(?:##\s+.*来源|## Source|## Reference)(.*?)(?=\n##\s|\Z)', content, re.DOTALL | re.IGNORECASE)
-    if not source_section:
+    source_text = extract_section(content, '来源', 'Source', 'Reference')
+    if source_text is None:
         return True, "未找到来源section（跳过检查）"
 
-    source_text = source_section.group(1)
     primary = len(re.findall(r'一手|primary|本人著作|原始', source_text, re.IGNORECASE))
     secondary = len(re.findall(r'二手|secondary|转述|评论', source_text, re.IGNORECASE))
     total = primary + secondary
