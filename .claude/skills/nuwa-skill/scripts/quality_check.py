@@ -108,6 +108,13 @@ def check_primary_sources(content: str) -> tuple[bool, str]:
     if source_text is None:
         return True, "未找到来源section（跳过检查）"
 
+    # 砍掉版本记录/变更日志子节：它是元数据，不是来源清单。
+    # 不砍的话，changelog 里出现的"评论""转述"会被当成二手来源计数——
+    # 实测某技能因版本记录里写了"把解说做成通篇评论"而被误判为 1/3。
+    source_text = re.split(
+        r'^###[ \t]+[^\n]*(?:版本记录|版本历史|变更|更新记录|Version|Changelog)',
+        source_text, maxsplit=1, flags=re.MULTILINE | re.IGNORECASE)[0]
+
     primary = len(re.findall(r'一手|primary|本人著作|原始', source_text, re.IGNORECASE))
     secondary = len(re.findall(r'二手|secondary|转述|评论', source_text, re.IGNORECASE))
     total = primary + secondary
