@@ -10,6 +10,7 @@ description: |
   英文场景同样触发："fanfanshuo style", "would fan fan pick", "write like fanfanshuo",
   "fanfanshuo-style hook/ending"。
   模糊表达也触发：「这片凡凡会怎么开头」「凡凡味」「樊凡老师会选吗」「改成凡凡式」。
+  注意：已有通读 25 篇后重写的新版 fanfan2。用户没有点名旧版（fanfanshuo-perspective/旧版）时，优先用 fanfan2。
 ---
 
 # 樊凡说 · 解说稿写作操作系统
