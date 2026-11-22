@@ -1,0 +1,1645 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,1,2,20,20,13,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:24.10,0:00:28.18,Default,,0,0,0,,导演：朗·霍华德
+Dialogue: 0,0:00:29.18,0:00:35.50,Default,,0,0,0,,字幕翻译制作：goodliuwu
+Dialogue: 0,0:00:36.50,0:00:40.03,Default,,0,0,0,,梅尔·吉布森
+Dialogue: 0,0:00:41.47,0:00:45.21,Default,,0,0,0,,蕾妮·罗素
+Dialogue: 0,0:01:05.57,0:01:09.32,Default,,0,0,0,,{\fnSimHei\fs20\1c&H301EE6&}赎  金
+Dialogue: 0,0:01:09.41,0:01:12.11,Default,,0,0,0,,好了，大伙，我找到他的广告了 快进来\N{\fs10\1c&HB4DCFC&}Okay everyone, I found his commercial. Come on in.
+Dialogue: 0,0:01:12.11,0:01:13.18,Default,,0,0,0,,哦，我等不及要看了\N{\fs10\1c&HB4DCFC&}Oh, I can't wait to see it.
+Dialogue: 0,0:01:13.20,0:01:15.75,Default,,0,0,0,,这回他躲不掉了，我们要播放\N{\fs10\1c&HB4DCFC&}Oh, he...he can't weasel out of this one. We're gonna show it.
+Dialogue: 0,0:01:16.08,0:01:17.62,Default,,0,0,0,,表演时间到，乡亲们，快点\N{\fs10\1c&HB4DCFC&}It's show time, folks. Let's go.
+Dialogue: 0,0:01:18.17,0:01:19.58,Default,,0,0,0,,- 嘘  - 安静\N{\fs10\1c&HB4DCFC&}- Shh! Shh! Shh! - Hey, quiet!
+Dialogue: 0,0:01:19.97,0:01:22.29,Default,,0,0,0,,我来自纽约州北部社会底层…\N{\fs10\1c&HB4DCFC&}I came from fairly humble beginnings from upstate New York.
+Dialogue: 0,0:01:22.35,0:01:24.97,Default,,0,0,0,,- 老实说，我以前从没上过飞机  - 妆上得真好\N{\fs10\1c&HB4DCFC&}-And to be honest. I'd never even been on an aeroplane before. - Nice make-up.
+Dialogue: 0,0:01:25.10,0:01:28.17,Default,,0,0,0,,直到1969年，空军才教我飞\N{\fs10\1c&HB4DCFC&}Not until the Air Force taught me to fly in 1969.
+Dialogue: 0,0:01:28.47,0:01:31.78,Default,,0,0,0,,我一共为他们出过28次战斗任务\N{\fs10\1c&HB4DCFC&}I ended up doing 28 Combat missions for them.
+Dialogue: 0,0:01:32.72,0:01:34.26,Default,,0,0,0,,1971年，艰辛的一年\N{\fs10\1c&HB4DCFC&}In. uh. 1971...Oh. a tough year...
+Dialogue: 0,0:01:34.81,0:01:36.68,Default,,0,0,0,,我倾尽所有成立了包租航空公司\N{\fs10\1c&HB4DCFC&}I threw everything I owned into a charter serbice.
+Dialogue: 0,0:01:36.88,0:01:40.88,Default,,0,0,0,,- 你比啤酒广告的青蛙好看  - 我们有一架6座机和一架DC-3\N{\fs10\1c&HB4DCFC&}- you look better than those frog commercial. -we had a six-seater and one DC-3.
+Dialogue: 0,0:01:40.88,0:01:42.26,Default,,0,0,0,,我们哪儿都飞\N{\fs10\1c&HB4DCFC&}and we would fly anywhere.
+Dialogue: 0,0:01:42.64,0:01:44.35,Default,,0,0,0,,我们就像空中黄色出租\N{\fs10\1c&HB4DCFC&}We were like the yellow cabs of the sky.
+Dialogue: 0,0:01:44.57,0:01:47.08,Default,,0,0,0,,1979年，我们成立了协力航空公司\N{\fs10\1c&HB4DCFC&}In 1979. we started Endeavor.
+Dialogue: 0,0:01:47.13,0:01:50.52,Default,,0,0,0,,我们只飞四个不同城市，不过...\N{\fs10\1c&HB4DCFC&}and we only flew to four different cities. But uh...
+Dialogue: 0,0:01:50.63,0:01:54.12,Default,,0,0,0,,...我想乘客大概感受到 我对飞行的热爱\N{\fs10\1c&HB4DCFC&}I think the passengers picked up on my, my joy in flying.
+Dialogue: 0,0:01:54.16,0:01:56.70,Default,,0,0,0,,我们扩展航线 遍及世界上37个国家\N{\fs10\1c&HB4DCFC&}And we've grown to 37 Countries worldwide.
+Dialogue: 0,0:01:56.95,0:01:58.81,Default,,0,0,0,,我们依然是发展中的小公司\N{\fs10\1c&HB4DCFC&}We're still pretty small in the scheme of things.
+Dialogue: 0,0:01:58.81,0:02:00.33,Default,,0,0,0,,然而，我从未想成为最大的\N{\fs10\1c&HB4DCFC&}But then. I never wanted to be the biggest.
+Dialogue: 0,0:02:00.83,0:02:01.99,Default,,0,0,0,,只想最好\N{\fs10\1c&HB4DCFC&}Just the best.
+Dialogue: 0,0:02:02.33,0:02:04.09,Default,,0,0,0,,对我最重要的事情，在今天...\N{\fs10\1c&HB4DCFC&}The most important thing to me these days...
+Dialogue: 0,0:02:04.63,0:02:05.69,Default,,0,0,0,,家人\N{\fs10\1c&HB4DCFC&}family.
+Dialogue: 0,0:02:06.30,0:02:08.09,Default,,0,0,0,,我的 你的\N{\fs10\1c&HB4DCFC&}Mine. Yours.
+Dialogue: 0,0:02:08.63,0:02:10.12,Default,,0,0,0,,这是航空公司带来的好处\N{\fs10\1c&HB4DCFC&}That's the good thing about an airline.
+Dialogue: 0,0:02:10.23,0:02:13.12,Default,,0,0,0,,它切实把家人从俗事中联系更紧密\N{\fs10\1c&HB4DCFC&}It actually brings families closer together among other things.
+Dialogue: 0,0:02:13.30,0:02:14.34,Default,,0,0,0,,这让我感觉很棒\N{\fs10\1c&HB4DCFC&}And that makes me feel good.
+Dialogue: 0,0:02:14.80,0:02:17.01,Default,,0,0,0,,1971年，老兄\N{\fs10\1c&HB4DCFC&}1971. Man.
+Dialogue: 0,0:02:17.47,0:02:19.02,Default,,0,0,0,,那时我倍感压力\N{\fs10\1c&HB4DCFC&}I had the devil in me back then.
+Dialogue: 0,0:02:19.60,0:02:21.35,Default,,0,0,0,,但如今，人们改变了\N{\fs10\1c&HB4DCFC&}But today...people change.
+Dialogue: 0,0:02:23.77,0:02:25.02,Default,,0,0,0,,多少有点吧\N{\fs10\1c&HB4DCFC&}Sort of.
+Dialogue: 0,0:02:29.53,0:02:30.41,Default,,0,0,0,,他本来真的不想拍\N{\fs10\1c&HB4DCFC&}He really didn't want to do it.
+Dialogue: 0,0:02:31.50,0:02:32.93,Default,,0,0,0,,我觉得很棒，他看来很好\N{\fs10\1c&HB4DCFC&}I thought he was great. He was good.
+Dialogue: 0,0:02:33.03,0:02:36.13,Default,,0,0,0,,- 亚瑟  - 他去哪了？\N{\fs10\1c&HB4DCFC&}- Author! - Where did he go?
+Dialogue: 0,0:02:36.74,0:02:38.42,Default,,0,0,0,,好了，都冲我来吧，你们这群吃白食的\N{\fs10\1c&HB4DCFC&}Okay, get it over with, you pack of freeloaders.
+Dialogue: 0,0:02:38.42,0:02:40.12,Default,,0,0,0,,- 来吧来吧，我承受得住 - 什么时候播？\N{\fs10\1c&HB4DCFC&}- Put it there. I got big shoulders. - When's it air?
+Dialogue: 0,0:02:40.12,0:02:41.31,Default,,0,0,0,,我连问都不敢问\N{\fs10\1c&HB4DCFC&}I was afraid to ask, actually.
+Dialogue: 0,0:02:41.36,0:02:43.54,Default,,0,0,0,,你们真好心，真是好心\N{\fs10\1c&HB4DCFC&}No, you're too kind. No, you're too kind.
+Dialogue: 0,0:02:43.80,0:02:45.38,Default,,0,0,0,,事实上，它播出之前我就会自杀\N{\fs10\1c&HB4DCFC&}In fact, I'm contemplating suicide before it airs.
+Dialogue: 0,0:02:45.46,0:02:46.97,Default,,0,0,0,,是啊，因为他太害羞\N{\fs10\1c&HB4DCFC&}Oh, yes, of course. Because he's so shy.
+Dialogue: 0,0:02:47.14,0:02:49.37,Default,,0,0,0,,下个月，他要上时代广场的内衣看板广告\N{\fs10\1c&HB4DCFC&}And next month, he's doing the underwear billboard in Times Square.
+Dialogue: 0,0:03:27.46,0:03:28.75,Default,,0,0,0,,你该看看他的表情\N{\fs10\1c&HB4DCFC&}You should...You should have seen the look on his face.
+Dialogue: 0,0:03:29.42,0:03:31.17,Default,,0,0,0,,他想不出我是从哪里 弄来那些情报的\N{\fs10\1c&HB4DCFC&}He couldn't figure out where I got that information.
+Dialogue: 0,0:03:31.71,0:03:35.52,Default,,0,0,0,,- 从哪里？  -我在麻省理工修过开锁课 那家伙根本不相信\N{\fs10\1c&HB4DCFC&}- And where did you? - I took safe-cracking at MIT. - No, the guy couldn't believe it.
+Dialogue: 0,0:03:35.52,0:03:38.00,Default,,0,0,0,,- 西恩，你吃过吗？你还好吗？  - 很好\N{\fs10\1c&HB4DCFC&}- Hey, Sean, you eat something? You okay? - Yeah. Good.
+Dialogue: 0,0:03:38.30,0:03:40.20,Default,,0,0,0,,那家伙是疯子，我说真的，他就是...\N{\fs10\1c&HB4DCFC&}You know, the guy's a wacko. I mean, seriously, he's, like, whoo!
+Dialogue: 0,0:03:43.23,0:03:45.85,Default,,0,0,0,,...你可不知道他生意上的所有事情\N{\fs10\1c&HB4DCFC&}without expecting you to know everything about his business.
+Dialogue: 0,0:03:45.85,0:03:49.94,Default,,0,0,0,,- 我同意  - 总之，戴维正在考虑\N{\fs10\1c&HB4DCFC&}- I agree. - Yeah. Anyway, uh, David's on the carpet.
+Dialogue: 0,0:04:16.34,0:04:18.10,Default,,0,0,0,,好了，该收帐篷了，伙计们，来吧\N{\fs10\1c&HB4DCFC&}All right, time to fold the tent, fella. Come on.
+Dialogue: 0,0:04:18.50,0:04:19.05,Default,,0,0,0,,汤姆？\N{\fs10\1c&HB4DCFC&}Tom?
+Dialogue: 0,0:04:19.07,0:04:21.58,Default,,0,0,0,,- 什么？  - 厨房的瓷砖哪买的？很棒\N{\fs10\1c&HB4DCFC&}- Yeah? - Where did you get the tile in the kitchen? It's great.
+Dialogue: 0,0:04:21.60,0:04:23.61,Default,,0,0,0,,天，路易莎，那是凯特问题\N{\fs10\1c&HB4DCFC&}Oh, God, Louisa, that's a Kate question.
+Dialogue: 0,0:04:23.62,0:04:25.23,Default,,0,0,0,,瞧，我只回答汤姆问题，比如…\N{\fs10\1c&HB4DCFC&}See, I only answer Tom questions like
+Dialogue: 0,0:04:25.40,0:04:27.10,Default,,0,0,0,,“电锯出了什么问题？”\N{\fs10\1c&HB4DCFC&}you know,what's wrong with my chain saw?
+Dialogue: 0,0:04:27.22,0:04:28.98,Default,,0,0,0,,“杀大灰熊的最佳时机是什么时候？”\N{\fs10\1c&HB4DCFC&}What's the best time of day to kill a grizzly bear?
+Dialogue: 0,0:04:29.15,0:04:30.67,Default,,0,0,0,,我有个绝佳的汤姆问题\N{\fs10\1c&HB4DCFC&}I have a perfect Tom question.
+Dialogue: 0,0:04:30.94,0:04:36.17,Default,,0,0,0,,杰基·布朗在监狱牢房里对你提出的民事诉讼，你有何感觉？\N{\fs10\1c&HB4DCFC&}How do you feel about Jackie Brown filing a civil suit against you, from his prison cell?
+Dialogue: 0,0:04:36.59,0:04:38.82,Default,,0,0,0,,西恩，你先去刷牙准备，我马上就来\N{\fs10\1c&HB4DCFC&}Sean, why don't you, uh, brush, get ready. I'll be down in a minute.
+Dialogue: 0,0:04:39.37,0:04:40.82,Default,,0,0,0,,戴维，请你去找巴布过来\N{\fs10\1c&HB4DCFC&}David, would you get Bob, please?
+Dialogue: 0,0:04:40.87,0:04:41.32,Default,,0,0,0,,你是？\N{\fs10\1c&HB4DCFC&}And you are?
+Dialogue: 0,0:04:41.41,0:04:42.41,Default,,0,0,0,,我只是给你提个醒\N{\fs10\1c&HB4DCFC&}I'm just givin' you heads-up
+Dialogue: 0,0:04:42.59,0:04:44.36,Default,,0,0,0,,这个叫布朗的 现在说...\N{\fs10\1c&HB4DCFC&}because this Brown guy now says...
+Dialogue: 0,0:04:44.36,0:04:47.29,Default,,0,0,0,,他有证据，你付钱请他阻止机械师罢工\N{\fs10\1c&HB4DCFC&}that he has proof that you paid him to head off the machinists' strike.
+Dialogue: 0,0:04:47.79,0:04:49.62,Default,,0,0,0,,这不新奇，他都这么说了好几个月了\N{\fs10\1c&HB4DCFC&}Well, that's not novel. I mean, he's been saying that for months.
+Dialogue: 0,0:04:49.63,0:04:52.84,Default,,0,0,0,,我知道，可他现在说，他有你提供贿赂的证据\N{\fs10\1c&HB4DCFC&}I know, I know. But now he says he has proof that you even initiated the bribe.
+Dialogue: 0,0:04:53.34,0:04:55.00,Default,,0,0,0,,我是山米·阿德勒 每日新闻报的\N{\fs10\1c&HB4DCFC&}I'm Sammy Adler from the Daily News.
+Dialogue: 0,0:04:55.05,0:04:57.05,Default,,0,0,0,,我想也许我们可以花几秒钟…\N{\fs10\1c&HB4DCFC&}I just thought if we could spend a couple seconds...
+Dialogue: 0,0:04:57.72,0:04:59.84,Default,,0,0,0,,巴布·斯通、山米·亚当斯，每日新闻报的...\N{\fs10\1c&HB4DCFC&}Oh, oh, Bob Stone, Sammy Adams from the Daily News. Uh...
+Dialogue: 0,0:05:00.14,0:05:02.26,Default,,0,0,0,,-是阿德勒  - 你们何不护送他回家\N{\fs10\1c&HB4DCFC&}- Adler. - Why don't you make sure he gets home safe?
+Dialogue: 0,0:05:03.30,0:05:04.62,Default,,0,0,0,,希望你在这里过得愉快，小心开车\N{\fs10\1c&HB4DCFC&}I hope you had a good time here. Drive safely. - All right, all right.
+Dialogue: 0,0:05:05.58,0:05:06.18,Default,,0,0,0,,我们很礼貌的\N{\fs10\1c&HB4DCFC&}We're very civil here.
+Dialogue: 0,0:05:06.38,0:05:08.08,Default,,0,0,0,,伙计们，我是记者，好吗？\N{\fs10\1c&HB4DCFC&}Guys, I'm a reporter, allright?
+Dialogue: 0,0:05:08.08,0:05:09.38,Default,,0,0,0,,- 我们知道你是谁.  - 我不是狂热跟踪者，伙计们\N{\fs10\1c&HB4DCFC&}-We know who you are.  -I'm not a stalker, guys.
+Dialogue: 0,0:05:09.44,0:05:11.30,Default,,0,0,0,,听着，你们的老板得面对这个\N{\fs10\1c&HB4DCFC&}Listen, your boss is gonna have to deal with this.
+Dialogue: 0,0:05:11.31,0:05:11.94,Default,,0,0,0,,布朗说他被陷害\N{\fs10\1c&HB4DCFC&}Jackie Brown says he was set up.
+Dialogue: 0,0:05:12.65,0:05:13.73,Default,,0,0,0,,你应该找别人谈\N{\fs10\1c&HB4DCFC&}I think you gotta find someone else to talk to.
+Dialogue: 0,0:05:14.23,0:05:15.56,Default,,0,0,0,,他是清白的，你明白吗，山米？\N{\fs10\1c&HB4DCFC&}He's in the clear, you understand, Sammy?
+Dialogue: 0,0:05:15.61,0:05:16.69,Default,,0,0,0,,听我说…\N{\fs10\1c&HB4DCFC&}Listen, if I was...
+Dialogue: 0,0:05:29.29,0:05:31.92,Default,,0,0,0,,-我的出身微薄… -停！  -西恩\N{\fs10\1c&HB4DCFC&}- I Came from humble...- Cut. - Sean?
+Dialogue: 0,0:05:32.46,0:05:33.21,Default,,0,0,0,,- 再来一次…  - 四个城市，但...\N{\fs10\1c&HB4DCFC&}- Okay. try it again. -About four Cities. but I...
+Dialogue: 0,0:05:33.75,0:05:34.50,Default,,0,0,0,,西恩\N{\fs10\1c&HB4DCFC&}Sean?
+Dialogue: 0,0:05:35.46,0:05:36.71,Default,,0,0,0,,我猜他不在\N{\fs10\1c&HB4DCFC&}Oh, I guess he's not here.
+Dialogue: 0,0:05:38.60,0:05:41.27,Default,,0,0,0,,我先躺下打个盹，等他来吧\N{\fs10\1c&HB4DCFC&}So I'll lie down and take a nap while I wait for him to turn up.
+Dialogue: 0,0:05:41.84,0:05:42.97,Default,,0,0,0,,床垫凹凸不平\N{\fs10\1c&HB4DCFC&}God, this mattress is lumpy.
+Dialogue: 0,0:05:43.22,0:05:45.22,Default,,0,0,0,,还有声音，还有头发\N{\fs10\1c&HB4DCFC&}And damned noisy too. And it's got hair and...what?
+Dialogue: 0,0:05:45.97,0:05:47.27,Default,,0,0,0,,这床垫需要挠挠痒\N{\fs10\1c&HB4DCFC&}This mattress needs to be tickled!
+Dialogue: 0,0:05:47.98,0:05:49.52,Default,,0,0,0,,你不准笑\N{\fs10\1c&HB4DCFC&}No laughing. No laughing allowed.
+Dialogue: 0,0:05:50.19,0:05:51.74,Default,,0,0,0,,你又看我的出丑镜头干吗？\N{\fs10\1c&HB4DCFC&}And why are you watching my goof-ups again?
+Dialogue: 0,0:05:51.74,0:05:53.94,Default,,0,0,0,,- 虫在乱飞，抱歉  - 停！\N{\fs10\1c&HB4DCFC&}What is this bug in the...Sorry. - Cut.
+Dialogue: 0,0:05:54.44,0:05:54.98,Default,,0,0,0,,很好笑\N{\fs10\1c&HB4DCFC&}That's funny.
+Dialogue: 0,0:05:55.07,0:05:56.93,Default,,0,0,0,,是啊，一定让你内心暗爽...\N{\fs10\1c&HB4DCFC&}Yeah? Well, must make you feel good inside...
+Dialogue: 0,0:05:57.17,0:05:58.63,Default,,0,0,0,,知道你老爸连话都说不好\N{\fs10\1c&HB4DCFC&}to know your old man can't even talk.
+Dialogue: 0,0:05:58.63,0:06:00.15,Default,,0,0,0,,地球？缩小的地球\N{\fs10\1c&HB4DCFC&}Grobe? A shrinking grobe?
+Dialogue: 0,0:06:02.15,0:06:04.04,Default,,0,0,0,,楼上那个人在生你的气？\N{\fs10\1c&HB4DCFC&}Was that guy mad at you upstairs?
+Dialogue: 0,0:06:04.62,0:06:08.79,Default,,0,0,0,,不，他不是生气。他只是好奇，对\N{\fs10\1c&HB4DCFC&}No. He's, uh, not mad. He's, uh, he's curious. Yeah.
+Dialogue: 0,0:06:09.08,0:06:10.46,Default,,0,0,0,,那是他的工作，你知道的，他有…\N{\fs10\1c&HB4DCFC&}It's his job, you know. He's gotta...
+Dialogue: 0,0:06:11.08,0:06:13.33,Default,,0,0,0,,好像老是有人生你的气\N{\fs10\1c&HB4DCFC&}It seems like someone's always mad at you.
+Dialogue: 0,0:06:14.08,0:06:15.63,Default,,0,0,0,,看起来是那样吗？\N{\fs10\1c&HB4DCFC&}That the way that seems?
+Dialogue: 0,0:06:18.79,0:06:20.12,Default,,0,0,0,,哦，我想...\N{\fs10\1c&HB4DCFC&}Well, I guess that...
+Dialogue: 0,0:06:21.99,0:06:23.12,Default,,0,0,0,,你没生我的气，对吧？\N{\fs10\1c&HB4DCFC&}You're not mad at me, are you?
+Dialogue: 0,0:06:23.51,0:06:23.93,Default,,0,0,0,,没\N{\fs10\1c&HB4DCFC&}No.
+Dialogue: 0,0:06:25.47,0:06:26.51,Default,,0,0,0,,我...我有办法\N{\fs10\1c&HB4DCFC&}Well, I can...I can fix that.
+Dialogue: 0,0:06:31.69,0:06:34.26,Default,,0,0,0,,- 给我动起来！  - 上车！你他妈闭嘴！\N{\fs10\1c&HB4DCFC&}-Get your ass movin'! -Get in the car! Shut the fuck up!
+Dialogue: 0,0:06:34.26,0:06:35.26,Default,,0,0,0,,我什么也没干\N{\fs10\1c&HB4DCFC&}I ain't do nothin'!
+Dialogue: 0,0:06:35.27,0:06:39.51,Default,,0,0,0,,嘿，乔伊…别激动。把他带走\N{\fs10\1c&HB4DCFC&}Hey, hey, hey...Calm down.Joey!Joey! Take it easy. Take.. Get 'im out of here.
+Dialogue: 0,0:06:39.59,0:06:40.98,Default,,0,0,0,,他妈的短跑明星吗？\N{\fs10\1c&HB4DCFC&}A fuckin' track star, huh?
+Dialogue: 0,0:06:41.09,0:06:43.58,Default,,0,0,0,,- 你这基佬。  - 我是基佬？什么？\N{\fs10\1c&HB4DCFC&}-You little faggot. - Faggot? What?
+Dialogue: 0,0:06:43.66,0:06:46.99,Default,,0,0,0,,- 算你运气老子没捅你后面  - 嘿…放轻松，没事吧？\N{\fs10\1c&HB4DCFC&}- You're lucky I don't put one in your back, you fuck! - Hey, hey, hey. Take it easy.
+Dialogue: 0,0:06:47.00,0:06:48.16,Default,,0,0,0,,- 好吗？你没事吧？  - 我没事，吉米\N{\fs10\1c&HB4DCFC&}- All right? You all right? - I'm all right, Jimmy.
+Dialogue: 0,0:06:48.79,0:06:50.13,Default,,0,0,0,,亲爱的，你最好去送客人\N{\fs10\1c&HB4DCFC&}Honey, you better work the door.
+Dialogue: 0,0:06:50.57,0:06:51.78,Default,,0,0,0,,我想市长要走了\N{\fs10\1c&HB4DCFC&}I think the Mayor wants to leave.
+Dialogue: 0,0:06:51.78,0:06:54.08,Default,,0,0,0,,谢天谢地。你还好吧？\N{\fs10\1c&HB4DCFC&}Oh, thank God. You okay?
+Dialogue: 0,0:06:54.08,0:06:55.21,Default,,0,0,0,,- 对  - 好\N{\fs10\1c&HB4DCFC&}- Yeah. - Good.
+Dialogue: 0,0:06:55.88,0:06:57.16,Default,,0,0,0,,你刷过牙了吗？\N{\fs10\1c&HB4DCFC&}Okay, did you brush your teeth?
+Dialogue: 0,0:06:58.09,0:06:59.40,Default,,0,0,0,,我早上刷过\N{\fs10\1c&HB4DCFC&}I brushed them this morning.
+Dialogue: 0,0:06:59.77,0:07:01.71,Default,,0,0,0,,不，你现在还得刷\N{\fs10\1c&HB4DCFC&}No, no, no. We're gonna brush them now.
+Dialogue: 0,0:07:27.45,0:07:29.49,Default,,0,0,0,,天啊，我累垮了\N{\fs10\1c&HB4DCFC&}Oh, God. I'm beat.
+Dialogue: 0,0:07:30.37,0:07:33.50,Default,,0,0,0,,那家伙是哪的？每日新闻？\N{\fs10\1c&HB4DCFC&}So where was that guy from? Daily News?
+Dialogue: 0,0:07:34.29,0:07:35.01,Default,,0,0,0,,有何不同？\N{\fs10\1c&HB4DCFC&}Does it make a difference?
+Dialogue: 0,0:07:35.46,0:07:37.58,Default,,0,0,0,,我要宰了那些混蛋\N{\fs10\1c&HB4DCFC&}Ohh! I'd like to kill those bastards.
+Dialogue: 0,0:07:38.63,0:07:40.71,Default,,0,0,0,,他们骚扰你，就是在骚扰我们\N{\fs10\1c&HB4DCFC&}When they come after you, they come after us.
+Dialogue: 0,0:07:42.84,0:07:43.59,Default,,0,0,0,,好冷喔\N{\fs10\1c&HB4DCFC&}It's freezing.
+Dialogue: 0,0:07:47.22,0:07:48.80,Default,,0,0,0,,我倒想要骚扰那个承包商\N{\fs10\1c&HB4DCFC&}I'd like to come after the contractor.
+Dialogue: 0,0:07:49.30,0:07:50.85,Default,,0,0,0,,对，你得先找到他\N{\fs10\1c&HB4DCFC&}Yeah, well, you gotta find him first.
+Dialogue: 0,0:07:50.98,0:07:52.25,Default,,0,0,0,,- 这倒是真的。  - 这里真冷\N{\fs10\1c&HB4DCFC&}-Yeah, really.  -It's freezing in here.
+Dialogue: 0,0:07:54.30,0:07:56.15,Default,,0,0,0,,好舒服\N{\fs10\1c&HB4DCFC&}Oh, that feels good.
+Dialogue: 0,0:07:56.35,0:07:57.86,Default,,0,0,0,,别为那些人生气\N{\fs10\1c&HB4DCFC&}Don't let those guys get to you, okay?
+Dialogue: 0,0:07:59.35,0:08:01.36,Default,,0,0,0,,他们就想这样\N{\fs10\1c&HB4DCFC&}That's what they want.
+Dialogue: 0,0:08:05.24,0:08:06.61,Default,,0,0,0,,我只想说\N{\fs10\1c&HB4DCFC&}I just wanna say
+Dialogue: 0,0:08:06.91,0:08:08.87,Default,,0,0,0,,唱歌让我感觉舒畅\N{\fs10\1c&HB4DCFC&}Singin'makes me feel so fine
+Dialogue: 0,0:08:09.58,0:08:12.66,Default,,0,0,0,,开着卡车，急着赶路\N{\fs10\1c&HB4DCFC&}Drivin'in my truck. man I'm always on the go
+Dialogue: 0,0:08:13.04,0:08:18.36,Default,,0,0,0,,从这而送货到图普罗\N{\fs10\1c&HB4DCFC&}Makin'my deliveries from here to Tupelo - Tupelo - But singin'bass...
+Dialogue: 0,0:08:18.40,0:08:23.59,Default,,0,0,0,,现在我介绍 举办这项精彩活动的负责人\N{\fs10\1c&HB4DCFC&}Okay. now I'd like to introduce to you the person responsible for this wonderful event.
+Dialogue: 0,0:08:24.34,0:08:27.97,Default,,0,0,0,,这位不可思议的女士，是儿童科学展览会的主席\N{\fs10\1c&HB4DCFC&}Uh. a fantastiC lady. In fact. Chairlady of the junior SCienCe Fair...
+Dialogue: 0,0:08:28.64,0:08:30.30,Default,,0,0,0,,凯瑟琳·穆伦太太\N{\fs10\1c&HB4DCFC&}Mrs Katherine Mullen.
+Dialogue: 0,0:08:34.10,0:08:35.14,Default,,0,0,0,,谢谢大家\N{\fs10\1c&HB4DCFC&}Thank you.
+Dialogue: 0,0:08:35.85,0:08:37.02,Default,,0,0,0,,谢谢你，市长\N{\fs10\1c&HB4DCFC&}Thank you, Mayor.
+Dialogue: 0,0:08:37.77,0:08:41.19,Default,,0,0,0,,欢迎参加纽约市第十届 儿童科学展览会\N{\fs10\1c&HB4DCFC&}And welcome to the tenth annual New York City Junior Science Fair.
+Dialogue: 0,0:08:43.48,0:08:46.74,Default,,0,0,0,,我们有54名小发明家 参加今天的比赛\N{\fs10\1c&HB4DCFC&}We have 54 young inventors competing today...
+Dialogue: 0,0:08:47.45,0:08:49.53,Default,,0,0,0,,- 代表22所学校  - 爸，我为何不能参赛？\N{\fs10\1c&HB4DCFC&}- representing 22 schools...- Dad? - Yeah? - Why can't I enter?
+Dialogue: 0,0:08:50.20,0:08:51.92,Default,,0,0,0,,那样不公平，西恩，你母亲是评审\N{\fs10\1c&HB4DCFC&}Well, it wouldn't be fair, Sean. Your mother's a judge here.
+Dialogue: 0,0:08:52.37,0:08:54.61,Default,,0,0,0,,要是你赢了，就不太好看了\N{\fs10\1c&HB4DCFC&}And, uh, how would that look if you won?
+Dialogue: 0,0:08:54.75,0:08:56.95,Default,,0,0,0,,干吗不用别的名字参加？\N{\fs10\1c&HB4DCFC&}Why don't I enter under a different name?
+Dialogue: 0,0:08:58.33,0:08:59.61,Default,,0,0,0,,你什么意思？比如约翰·史密斯？\N{\fs10\1c&HB4DCFC&}What, you mean, like John Smith?
+Dialogue: 0,0:08:59.71,0:09:02.02,Default,,0,0,0,,不，比如X教授\N{\fs10\1c&HB4DCFC&}No. Like Professor X.
+Dialogue: 0,0:09:03.06,0:09:05.13,Default,,0,0,0,,我看你蒙混不过去，X教授\N{\fs10\1c&HB4DCFC&}Well, I don't think you'd get away with that, Professor X.
+Dialogue: 0,0:09:05.18,0:09:06.82,Default,,0,0,0,,你太年轻，不可能有职称\N{\fs10\1c&HB4DCFC&}I mean, you're too young to have a degree.
+Dialogue: 0,0:09:07.22,0:09:09.34,Default,,0,0,0,,你必须秃头，戴眼罩，知道吗\N{\fs10\1c&HB4DCFC&}You got to be bald, have an eye patch. You know.
+Dialogue: 0,0:09:09.89,0:09:12.47,Default,,0,0,0,,不，范X教授更好\N{\fs10\1c&HB4DCFC&}No, better. Professor von X.
+Dialogue: 0,0:09:13.10,0:09:15.68,Default,,0,0,0,,第三位评审，请多包涵，就是我本人，凯瑟琳·穆伦\N{\fs10\1c&HB4DCFC&}And the third judge, I regret to say, is myself, Katherine Mullen...
+Dialogue: 0,0:09:16.43,0:09:19.64,Default,,0,0,0,,中央公园125周年纪念活动会长\N{\fs10\1c&HB4DCFC&}Events Chair for the 125th Anniversary of Central Park...
+Dialogue: 0,0:09:19.69,0:09:23.23,Default,,0,0,0,,伊万德·柴尔高中前任生物老师\N{\fs10\1c&HB4DCFC&}and former teacher of biology at Evander Childs High SChool.
+Dialogue: 0,0:09:25.15,0:09:26.66,Default,,0,0,0,,现在竞赛开始\N{\fs10\1c&HB4DCFC&}So let the games begin.
+Dialogue: 0,0:09:28.24,0:09:32.42,Default,,0,0,0,,我们的评审将开始评分，所有发明家们...\N{\fs10\1c&HB4DCFC&}Ourjudges will now begin circulating.So all of our inventors...
+Dialogue: 0,0:09:32.42,0:09:33.87,Default,,0,0,0,,目的地：杨克斯\N{\fs10\1c&HB4DCFC&}Wow. Destination: Yonkers.
+Dialogue: 0,0:09:33.87,0:09:38.20,Default,,0,0,0,,- 那一定是这里最好的  - 你看会赢吗？\N{\fs10\1c&HB4DCFC&}That's gotta be the best project out here. Don't you think it's gonna win?
+Dialogue: 0,0:09:42.09,0:09:43.46,Default,,0,0,0,,风把它带起来了 左舵\N{\fs10\1c&HB4DCFC&}Yeah, the wind is taking it. Down left rudder.
+Dialogue: 0,0:09:43.75,0:09:48.97,Default,,0,0,0,,记住，我们希望所有赢家下午一点钟 到台上领奖\N{\fs10\1c&HB4DCFC&}Remember. we're going to want all of today's winners on stage at 1.:00 to receive their award.
+Dialogue: 0,0:09:49.76,0:09:51.29,Default,,0,0,0,,不公平，爸爸，我很努力\N{\fs10\1c&HB4DCFC&}It's not fair, Dad. I worked really hard.
+Dialogue: 0,0:09:51.84,0:09:54.89,Default,,0,0,0,,我知道，我知道你很努力，而且你做得很好\N{\fs10\1c&HB4DCFC&}I know. I know you worked really hard, and you did an amazing job.
+Dialogue: 0,0:09:55.52,0:09:57.39,Default,,0,0,0,,不过我们讨论过这事了，对吗，西恩？\N{\fs10\1c&HB4DCFC&}But we talked about this before, didn't we, Sean?
+Dialogue: 0,0:09:57.39,0:09:58.24,Default,,0,0,0,,对\N{\fs10\1c&HB4DCFC&}Yes.
+Dialogue: 0,0:09:59.39,0:10:01.64,Default,,0,0,0,,看开点，好好玩…好吧\N{\fs10\1c&HB4DCFC&}Come on. Lighten up a little. Enjoy the day.
+Dialogue: 0,0:10:02.44,0:10:07.32,Default,,0,0,0,,尚未登记的人，现在请立刻登记\N{\fs10\1c&HB4DCFC&}Anyone else that has not registered  must have their registration Cards in right now.
+Dialogue: 0,0:10:07.44,0:10:09.82,Default,,0,0,0,,这是你们最后的机会\N{\fs10\1c&HB4DCFC&}Because it's your last chance.
+Dialogue: 0,0:10:13.41,0:10:14.32,Default,,0,0,0,,41公立学校\N{\fs10\1c&HB4DCFC&}P.S. 41 .
+Dialogue: 0,0:10:14.41,0:10:16.08,Default,,0,0,0,,很好，41公立学校\N{\fs10\1c&HB4DCFC&}-Okay, P.S. 41. -Yeah.
+Dialogue: 0,0:10:18.20,0:10:19.33,Default,,0,0,0,,这是太阳系？\N{\fs10\1c&HB4DCFC&}Solar system here?
+Dialogue: 0,0:10:20.08,0:10:23.46,Default,,0,0,0,,- 这大家伙是什么？ - 太阳\N{\fs10\1c&HB4DCFC&}-And this big guy here is what? -The sun.
+Dialogue: 0,0:10:23.88,0:10:26.17,Default,,0,0,0,,- 太阳有多少行星？ - 九个 九个\N{\fs10\1c&HB4DCFC&}- And how many planets do we have around it? - Nine.
+Dialogue: 0,0:10:26.50,0:10:27.55,Default,,0,0,0,,我看到火星了\N{\fs10\1c&HB4DCFC&}I see Mars.
+Dialogue: 0,0:10:40.56,0:10:44.31,Default,,0,0,0,,- 还要特别感谢...  - 嘿，凯蒂，看看那艘飞船\N{\fs10\1c&HB4DCFC&}- ...And a special thanks to our...- Hey, Katie, look at the blimp.
+Dialogue: 0,0:11:07.92,0:11:10.00,Default,,0,0,0,,- 她真不可思议，我说，她在这做的工作  - 是\N{\fs10\1c&HB4DCFC&}- She's incredible. I mean, the work she's put into this. - Yeah.
+Dialogue: 0,0:11:10.59,0:11:12.38,Default,,0,0,0,,真不知她的精力打哪来的？\N{\fs10\1c&HB4DCFC&}Well, I don't know where she gets the energy.
+Dialogue: 0,0:11:14.47,0:11:15.51,Default,,0,0,0,,这个桔色的是什么？\N{\fs10\1c&HB4DCFC&}And who is this orange guy over here?
+Dialogue: 0,0:11:16.18,0:11:16.55,Default,,0,0,0,,那是金星\N{\fs10\1c&HB4DCFC&}That's Venus.
+Dialogue: 0,0:11:16.88,0:11:17.60,Default,,0,0,0,,是金星\N{\fs10\1c&HB4DCFC&}That's Venus.
+Dialogue: 0,0:11:18.89,0:11:19.76,Default,,0,0,0,,地球在哪？\N{\fs10\1c&HB4DCFC&}Where's Earth?
+Dialogue: 0,0:11:20.25,0:11:21.62,Default,,0,0,0,,- 地球是这个  - 地球在这\N{\fs10\1c&HB4DCFC&}- Earth is this one. - There's Earth.
+Dialogue: 0,0:11:34.08,0:11:35.33,Default,,0,0,0,,失陪一会\N{\fs10\1c&HB4DCFC&}Excuse me for a minute.
+Dialogue: 0,0:11:40.08,0:11:40.53,Default,,0,0,0,,西恩？\N{\fs10\1c&HB4DCFC&}Sean?
+Dialogue: 0,0:11:48.88,0:11:49.42,Default,,0,0,0,,西恩？\N{\fs10\1c&HB4DCFC&}Sean?
+Dialogue: 0,0:11:59.31,0:11:59.68,Default,,0,0,0,,西恩？\N{\fs10\1c&HB4DCFC&}Sean.
+Dialogue: 0,0:12:01.69,0:12:02.43,Default,,0,0,0,,你觉得如何？\N{\fs10\1c&HB4DCFC&}What do you think, Kate?
+Dialogue: 0,0:12:03.68,0:12:06.32,Default,,0,0,0,,凯特…？\N{\fs10\1c&HB4DCFC&}Kate?
+Dialogue: 0,0:12:06.98,0:12:09.42,Default,,0,0,0,,- 分数  - 我打过了\N{\fs10\1c&HB4DCFC&}The score. - I-I-I scored it.
+Dialogue: 0,0:12:14.44,0:12:14.94,Default,,0,0,0,,西恩！\N{\fs10\1c&HB4DCFC&}Sean?
+Dialogue: 0,0:12:18.74,0:12:19.07,Default,,0,0,0,,西恩？\N{\fs10\1c&HB4DCFC&}Sean?
+Dialogue: 0,0:12:27.08,0:12:27.46,Default,,0,0,0,,西恩！\N{\fs10\1c&HB4DCFC&}Sean?
+Dialogue: 0,0:12:48.31,0:12:49.99,Default,,0,0,0,,卡桑德拉，你看到西恩吗？\N{\fs10\1c&HB4DCFC&}Cassandra, have you seen Sean?
+Dialogue: 0,0:12:50.40,0:12:52.17,Default,,0,0,0,,没有，凯特，你没事吧？\N{\fs10\1c&HB4DCFC&}No. Kate, are you all right?
+Dialogue: 0,0:12:58.74,0:12:59.11,Default,,0,0,0,,西恩\N{\fs10\1c&HB4DCFC&}Sean.
+Dialogue: 0,0:13:01.41,0:13:01.87,Default,,0,0,0,,西恩\N{\fs10\1c&HB4DCFC&}Sean.
+Dialogue: 0,0:13:02.83,0:13:03.83,Default,,0,0,0,,西恩·穆伦\N{\fs10\1c&HB4DCFC&}Sean Mullen,
+Dialogue: 0,0:13:04.37,0:13:06.00,Default,,0,0,0,,请马上到评审席\N{\fs10\1c&HB4DCFC&}please come to the judge's stand.
+Dialogue: 0,0:13:39.20,0:13:39.99,Default,,0,0,0,,西恩？\N{\fs10\1c&HB4DCFC&}Sean?
+Dialogue: 0,0:13:50.15,0:13:51.42,Default,,0,0,0,,求求上帝\N{\fs10\1c&HB4DCFC&}Oh, please, God.
+Dialogue: 0,0:13:51.92,0:13:54.34,Default,,0,0,0,,他也许只是想跟我们捣乱，因为我们不让他参赛\N{\fs10\1c&HB4DCFC&}He's probably just bustin' chops, you know, 'cause we wouldn't let him enter the contest.
+Dialogue: 0,0:13:55.55,0:13:56.89,Default,,0,0,0,,还有谁我们没联络的？\N{\fs10\1c&HB4DCFC&}Who didn't we call?
+Dialogue: 0,0:13:59.94,0:14:00.66,Default,,0,0,0,,西恩？\N{\fs10\1c&HB4DCFC&}Sean?
+Dialogue: 0,0:14:00.93,0:14:02.97,Default,,0,0,0,,你有电子信件\N{\fs10\1c&HB4DCFC&}You have E-mail.
+Dialogue: 0,0:14:11.54,0:14:13.73,Default,,0,0,0,,“接收附件”
+Dialogue: 0,0:14:15.19,0:14:16.69,Default,,0,0,0,,你儿子在我手中\N{\fs10\1c&HB4DCFC&}I have your son.
+Dialogue: 0,0:14:17.19,0:14:17.65,Default,,0,0,0,,天啊！\N{\fs10\1c&HB4DCFC&}Oh,Jesus!
+Dialogue: 0,0:14:18.19,0:14:21.74,Default,,0,0,0,,我要两百万的五十元 和百元现钞\N{\fs10\1c&HB4DCFC&}- I want $ 2 million in fifties and hundreds. - Oh, God!
+Dialogue: 0,0:14:21.74,0:14:23.72,Default,,0,0,0,,号码不能连续\N{\fs10\1c&HB4DCFC&}No ConseCutive serial numbers.
+Dialogue: 0,0:14:24.16,0:14:26.24,Default,,0,0,0,,不要新钞票、不能做记号\N{\fs10\1c&HB4DCFC&}No new bills. No marked bills.
+Dialogue: 0,0:14:26.79,0:14:31.37,Default,,0,0,0,,钞票放进新秀丽硬皮公文包，260型\N{\fs10\1c&HB4DCFC&}The money will fit into two Samsonite hard-shell suitCases. model #260.
+Dialogue: 0,0:14:31.92,0:14:34.63,Default,,0,0,0,,不准通知警方 或是联邦调查局\N{\fs10\1c&HB4DCFC&}Do not involve the poliCe or the FBI.
+Dialogue: 0,0:14:35.21,0:14:36.85,Default,,0,0,0,,若通知，我就杀了他\N{\fs10\1c&HB4DCFC&}If you do. I will kill him.
+Dialogue: 0,0:14:37.38,0:14:39.88,Default,,0,0,0,,不准通知媒体，否则我会杀了他\N{\fs10\1c&HB4DCFC&}Do not inform the media. or I will kill him.
+Dialogue: 0,0:14:40.55,0:14:45.34,Default,,0,0,0,,不准在公事包上装追踪器，否则我会杀了他\N{\fs10\1c&HB4DCFC&}No tracking devices in the money or the cases. or I will kill him.
+Dialogue: 0,0:14:46.18,0:14:48.60,Default,,0,0,0,,你有四十八小时筹钱\N{\fs10\1c&HB4DCFC&}You have 48 hours to get the money.
+Dialogue: 0,0:14:49.10,0:14:50.14,Default,,0,0,0,,我会再跟你联络\N{\fs10\1c&HB4DCFC&}I will contact you.
+Dialogue: 0,0:14:57.86,0:14:58.88,Default,,0,0,0,,张开嘴\N{\fs10\1c&HB4DCFC&}Open your mouth.
+Dialogue: 0,0:14:59.15,0:14:59.91,Default,,0,0,0,,张开！\N{\fs10\1c&HB4DCFC&}Open your mou...
+Dialogue: 0,0:15:00.15,0:15:02.21,Default,,0,0,0,,你张不张嘴？张开\N{\fs10\1c&HB4DCFC&}Would you open your mouth now? Open it.
+Dialogue: 0,0:15:03.35,0:15:04.51,Default,,0,0,0,,吞下去\N{\fs10\1c&HB4DCFC&}Swallow it.
+Dialogue: 0,0:15:05.99,0:15:07.53,Default,,0,0,0,,你这个臭小子\N{\fs10\1c&HB4DCFC&}You little prick.
+Dialogue: 0,0:15:13.28,0:15:14.30,Default,,0,0,0,,你在干嘛？\N{\fs10\1c&HB4DCFC&}What are you doing?
+Dialogue: 0,0:15:14.90,0:15:16.61,Default,,0,0,0,,你去弄干净你的衬衫吧\N{\fs10\1c&HB4DCFC&}Why don't you just clean your shirt?
+Dialogue: 0,0:15:16.70,0:15:18.21,Default,,0,0,0,,听着，我们谈过的\N{\fs10\1c&HB4DCFC&}Look, we talked about this.
+Dialogue: 0,0:15:18.67,0:15:19.88,Default,,0,0,0,,是啊，我忘了\N{\fs10\1c&HB4DCFC&}Oh, yeah. Forgot.
+Dialogue: 0,0:15:31.07,0:15:31.99,Default,,0,0,0,,婊子\N{\fs10\1c&HB4DCFC&}Bitch.
+Dialogue: 0,0:15:34.02,0:15:36.34,Default,,0,0,0,,凯特，凯特，你打给谁？\N{\fs10\1c&HB4DCFC&}Kate. Kate! Who are you calling?
+Dialogue: 0,0:15:36.35,0:15:38.82,Default,,0,0,0,,他说过不准报警，他说如果报警会杀了他\N{\fs10\1c&HB4DCFC&}He said no police. He said he'd kill him if you called the police.
+Dialogue: 0,0:15:38.82,0:15:40.56,Default,,0,0,0,,- 我3小时内就能弄到钱  - 你为何离开他？\N{\fs10\1c&HB4DCFC&}- I can have the money inside 3 hours. - Why did you leave him?
+Dialogue: 0,0:15:40.56,0:15:42.85,Default,,0,0,0,,- 你为何离开他？ - 我没有…\N{\fs10\1c&HB4DCFC&}- Why did you leave him? - I didn't.
+Dialogue: 0,0:15:43.56,0:15:45.41,Default,,0,0,0,,我看到了，你走开了\N{\fs10\1c&HB4DCFC&}I saw you. You walked away.
+Dialogue: 0,0:15:49.41,0:15:50.34,Default,,0,0,0,,好吧\N{\fs10\1c&HB4DCFC&}All right.
+Dialogue: 0,0:15:54.92,0:15:56.10,Default,,0,0,0,,好，那我报警\N{\fs10\1c&HB4DCFC&}All right, I'm calling the police.
+Dialogue: 0,0:15:56.14,0:15:56.82,Default,,0,0,0,,找FBI\N{\fs10\1c&HB4DCFC&}Call the FBI.
+Dialogue: 0,0:15:56.92,0:15:58.29,Default,,0,0,0,,看在基督份上，让我付钱给这个杂种吧\N{\fs10\1c&HB4DCFC&}For Christ's sake, just let me pay this bastard.
+Dialogue: 0,0:15:58.29,0:15:59.79,Default,,0,0,0,,汤姆，求你，给FBI打电话\N{\fs10\1c&HB4DCFC&}Tom, please, call the FBI.
+Dialogue: 0,0:16:00.84,0:16:02.88,Default,,0,0,0,,凯特，FBI花了3个月想整死我们\N{\fs10\1c&HB4DCFC&}Kate, the FBI just spent three months trying to bury us.
+Dialogue: 0,0:16:03.42,0:16:04.63,Default,,0,0,0,,你觉得他们会在乎你我或是...\N{\fs10\1c&HB4DCFC&}Do you think they give a good goddam about you or me or...
+Dialogue: 0,0:16:05.18,0:16:10.01,Default,,0,0,0,,汤姆，他们认识我们 求求你\N{\fs10\1c&HB4DCFC&}Tom, they know us. They know us. Please.
+Dialogue: 0,0:16:12.30,0:16:12.90,Default,,0,0,0,,好吧\N{\fs10\1c&HB4DCFC&}All right.
+Dialogue: 0,0:16:15.64,0:16:18.77,Default,,0,0,0,,- 蓝宁油漆  - 等等，什么？\N{\fs10\1c&HB4DCFC&}- Lennon Paints. - Wait. What? What?
+Dialogue: 0,0:16:19.36,0:16:22.57,Default,,0,0,0,,对，我们要去穆伦的公寓，我们要漆完书房\N{\fs10\1c&HB4DCFC&}Yeah, we're goin' to the Mullen apartment. Uh, we're just finishin' work on the library.
+Dialogue: 0,0:16:22.67,0:16:25.19,Default,,0,0,0,,对对，我接到过电话，上去吧\N{\fs10\1c&HB4DCFC&}Oh, yes. Yeah. I get this call. Go ahead. Okay.
+Dialogue: 0,0:16:29.69,0:16:31.32,Default,,0,0,0,,- 穆伦先生和太太在等你们   - 谢谢你\N{\fs10\1c&HB4DCFC&}- Mr and Mrs Mullen are waiting for you. - Thank you.
+Dialogue: 0,0:16:31.45,0:16:34.58,Default,,0,0,0,,穆伦先生，你好，朗尼·霍金斯\N{\fs10\1c&HB4DCFC&}Uh, Mr Mullen, how are you? Lonnie. Hawkins.
+Dialogue: 0,0:16:35.04,0:16:37.33,Default,,0,0,0,,- 这是金巴·韦尔奇、杰克·斯科勒  - 你好\N{\fs10\1c&HB4DCFC&}-Uh, we got Kimba Welch,Jack Sickler... -How do you do? -How are you, sir?
+Dialogue: 0,0:16:37.88,0:16:39.71,Default,,0,0,0,,- 戴维·莱文、罗恩·兰伯特  - 你们好\N{\fs10\1c&HB4DCFC&}- David Levin, Ron Lambert. - How do you do?
+Dialogue: 0,0:16:40.25,0:16:43.84,Default,,0,0,0,,- 去找电话板  - 法蒂玛，请你帮这些先生们找任何想要的东西\N{\fs10\1c&HB4DCFC&}- Find the phone panel. - Fatima, could you show these gentlemen everything they want to know?
+Dialogue: 0,0:16:45.18,0:16:46.65,Default,,0,0,0,,- 保罗  - 谁在扫？\N{\fs10\1c&HB4DCFC&}- Paul. - Who's sweepin'?
+Dialogue: 0,0:16:47.09,0:16:48.66,Default,,0,0,0,,- 这是保罗·洛德  - 你好\N{\fs10\1c&HB4DCFC&}- And this is Paul Rhodes. - How do you do?
+Dialogue: 0,0:16:49.16,0:16:50.18,Default,,0,0,0,,你好\N{\fs10\1c&HB4DCFC&}Hi. How you doing?
+Dialogue: 0,0:16:50.22,0:16:53.22,Default,,0,0,0,,- 他是我们能找到的最像你的人了  - 我明白\N{\fs10\1c&HB4DCFC&}-This here is as close as we could get to a look-alike.- Oh, I see.
+Dialogue: 0,0:16:53.51,0:16:56.70,Default,,0,0,0,,瞧，穆伦先生，我没被允许给你这种建议…\N{\fs10\1c&HB4DCFC&}Now, look, Mr Mullen, I'm not allowed to advise you on this...
+Dialogue: 0,0:16:56.70,0:16:58.14,Default,,0,0,0,,但如果你决定付钱...\N{\fs10\1c&HB4DCFC&}but if you decide to pay the money...
+Dialogue: 0,0:16:58.14,0:16:59.74,Default,,0,0,0,,在这，都在这儿\N{\fs10\1c&HB4DCFC&}It's here. It's right over here.
+Dialogue: 0,0:17:00.65,0:17:02.73,Default,,0,0,0,,- 这是钱？ - 是的，两百万元\N{\fs10\1c&HB4DCFC&}- This the money? - Yeah, $2 million.
+Dialogue: 0,0:17:03.27,0:17:05.92,Default,,0,0,0,,- 保罗会替你送钱  - 当然当然\N{\fs10\1c&HB4DCFC&}- Well, Paul here can make the drop for you. - Sure, sure.
+Dialogue: 0,0:17:07.15,0:17:07.73,Default,,0,0,0,,汤姆\N{\fs10\1c&HB4DCFC&}Tom?
+Dialogue: 0,0:17:07.99,0:17:08.86,Default,,0,0,0,,戴维？\N{\fs10\1c&HB4DCFC&}Yeah, David?
+Dialogue: 0,0:17:08.99,0:17:10.03,Default,,0,0,0,,巴布有东西给你\N{\fs10\1c&HB4DCFC&}Bob's got some stuff for you right here.
+Dialogue: 0,0:17:10.32,0:17:13.32,Default,,0,0,0,,汤姆，这是我从国家失踪儿童中心找到的全部资料\N{\fs10\1c&HB4DCFC&}Tom, this is all I could get from the National Center for Missing Children.
+Dialogue: 0,0:17:13.32,0:17:15.50,Default,,0,0,0,,很好，霍金斯探员，这是戴维·托雷斯\N{\fs10\1c&HB4DCFC&}Good good. Uh, Agent Hawkins, this is David Torres.
+Dialogue: 0,0:17:15.62,0:17:16.16,Default,,0,0,0,,幸会\N{\fs10\1c&HB4DCFC&}Pleased to meet you.
+Dialogue: 0,0:17:16.16,0:17:19.37,Default,,0,0,0,,- 电动锉刀怎么样？ - 你们的电话仪表板在哪，穆伦太太？\N{\fs10\1c&HB4DCFC&}- What about the electric files? - Where's your phone panel, Mrs Mullen?
+Dialogue: 0,0:17:19.67,0:17:20.87,Default,,0,0,0,,我不晓得\N{\fs10\1c&HB4DCFC&}I-I have no idea.
+Dialogue: 0,0:17:21.50,0:17:22.50,Default,,0,0,0,,没关系，我们会找到的\N{\fs10\1c&HB4DCFC&}That's okay. We'll find it.
+Dialogue: 0,0:17:22.54,0:17:24.63,Default,,0,0,0,,你看，我不明白的是\N{\fs10\1c&HB4DCFC&}You know, what I don't understand
+Dialogue: 0,0:17:25.17,0:17:28.44,Default,,0,0,0,,这些人，他、她、它，不管是谁\N{\fs10\1c&HB4DCFC&}is these people...this he, she, it, whoever...
+Dialogue: 0,0:17:29.14,0:17:33.25,Default,,0,0,0,,有头脑在我眼皮底下绑走我儿子，却只跟我要两百万\N{\fs10\1c&HB4DCFC&}has got enough brains to snatch my son right from under my nose...but they only ask me for $2 million.
+Dialogue: 0,0:17:33.55,0:17:35.06,Default,,0,0,0,,他们不知道我的身家吗\N{\fs10\1c&HB4DCFC&}Don't they know what I'm worth?
+Dialogue: 0,0:17:35.18,0:17:37.56,Default,,0,0,0,,不不，他很聪明\N{\fs10\1c&HB4DCFC&}No, no. He's being smart, okay?
+Dialogue: 0,0:17:38.18,0:17:39.66,Default,,0,0,0,,让你简单易行\N{\fs10\1c&HB4DCFC&}Keepin' it nice and simple for you.
+Dialogue: 0,0:17:40.44,0:17:44.22,Default,,0,0,0,,他知道你搞得掂，知道你筹集这些钱没问题\N{\fs10\1c&HB4DCFC&}Now, he knows you got it. Knows you won't have a problem coughin' it up.
+Dialogue: 0,0:17:44.47,0:17:47.44,Default,,0,0,0,,也许…他只需要那么多\N{\fs10\1c&HB4DCFC&}Maybe, uh, that's all he needs.
+Dialogue: 0,0:17:48.15,0:17:50.24,Default,,0,0,0,,我能不能…\N{\fs10\1c&HB4DCFC&}Uh, uh, can I...can I just, uh...
+Dialogue: 0,0:17:53.12,0:17:58.00,Default,,0,0,0,,我们找你们而不是警察 是因为我们…\N{\fs10\1c&HB4DCFC&}Look, the-the reason you're here and not the police... is that we,
+Dialogue: 0,0:17:58.00,0:18:03.17,Default,,0,0,0,,我妻子和我，我们相信这可能和机械师工会的控告有关\N{\fs10\1c&HB4DCFC&}my wife and I, we believe that this might be somehow connected...with the, uh, machinists' union indictments. - Okay.
+Dialogue: 0,0:18:03.67,0:18:05.54,Default,,0,0,0,,所以，杰基·布朗…\N{\fs10\1c&HB4DCFC&}So, uh,Jackie Brown.
+Dialogue: 0,0:18:06.67,0:18:09.15,Default,,0,0,0,,他收钱的经过 被人录下来\N{\fs10\1c&HB4DCFC&}The man was caught on tape takin' a pay-off...
+Dialogue: 0,0:18:09.15,0:18:12.65,Default,,0,0,0,,就在和另一家航空公司谈判的过程中，无限航空\N{\fs10\1c&HB4DCFC&}during contract negotiations with another airline, uh, Infinite Air.
+Dialogue: 0,0:18:12.65,0:18:13.85,Default,,0,0,0,,这是一个刺激，对吧\N{\fs10\1c&HB4DCFC&}It was a sting, okay?
+Dialogue: 0,0:18:13.99,0:18:15.57,Default,,0,0,0,,所以他完了，落了网\N{\fs10\1c&HB4DCFC&}So there he is, dead in the water.
+Dialogue: 0,0:18:15.59,0:18:17.52,Default,,0,0,0,,他跟你们的人说：“我们能不能搞点事？”\N{\fs10\1c&HB4DCFC&}He says to your people, "Can we do something here?"
+Dialogue: 0,0:18:17.78,0:18:20.86,Default,,0,0,0,,于是他把我供出来\N{\fs10\1c&HB4DCFC&}And, uh, so he offers me up.
+Dialogue: 0,0:18:20.98,0:18:24.78,Default,,0,0,0,,对，他说汤姆给他二十五万 去摆平工会会\N{\fs10\1c&HB4DCFC&}Yeah, he said Tom gave him a quarter of a million dollars... for a sweetheart deal with the union.
+Dialogue: 0,0:18:25.11,0:18:27.19,Default,,0,0,0,,现在，我受到彻底的调查\N{\fs10\1c&HB4DCFC&}Now, I have been investigated exhaustively;
+Dialogue: 0,0:18:27.65,0:18:30.99,Default,,0,0,0,,我、我公司、我家人…\N{\fs10\1c&HB4DCFC&}me, my company, my-my family. My family.
+Dialogue: 0,0:18:31.53,0:18:34.53,Default,,0,0,0,,我们被拖到小报上，全赖FBI的透露\N{\fs10\1c&HB4DCFC&}We've been dragged through the tabloid mud, courtesy of FBI leaks
+Dialogue: 0,0:18:34.53,0:18:36.20,Default,,0,0,0,,却什么也没有，明白？没有\N{\fs10\1c&HB4DCFC&}and nothing. All right? Nothing.
+Dialogue: 0,0:18:36.29,0:18:38.28,Default,,0,0,0,,杰基·布朗在牢里，罪有应得，被惹毛了\N{\fs10\1c&HB4DCFC&}Now Jackie Brown's in jail where he belongs, and he's pissed
+Dialogue: 0,0:18:38.29,0:18:40.20,Default,,0,0,0,,我想他有些很难搞的伙伴在外面…\N{\fs10\1c&HB4DCFC&}Nand I think he's got some pretty unsavoury associates out there.
+Dialogue: 0,0:18:40.25,0:18:42.63,Default,,0,0,0,,穆伦先生，显然我们很清楚杰基·布朗这件事\N{\fs10\1c&HB4DCFC&}Uh, Mr Mullen, obviously we're very aware of the Jackie Brown situation, Mr Mull...
+Dialogue: 0,0:18:42.63,0:18:44.50,Default,,0,0,0,,- 然后呢？ - 我们仍然在调查\N{\fs10\1c&HB4DCFC&}- An-And? - We're still working on it.
+Dialogue: 0,0:18:44.54,0:18:46.77,Default,,0,0,0,,天啊，我认为你们应该多注意…\N{\fs10\1c&HB4DCFC&}Jesus Christ, I think you should pay a little more attention.
+Dialogue: 0,0:18:46.77,0:18:48.97,Default,,0,0,0,,- 我们是在...不，我能提个建议吗，穆伦先生  - 什么\N{\fs10\1c&HB4DCFC&}- We're paying...No. Can I make a suggestion, Mr Mullen? - What? What?
+Dialogue: 0,0:18:48.97,0:18:51.31,Default,,0,0,0,,我们会适时搞清整个情况的\N{\fs10\1c&HB4DCFC&}Now, we are going to get into all of this in time
+Dialogue: 0,0:18:51.34,0:18:53.01,Default,,0,0,0,,但现在，请放松\N{\fs10\1c&HB4DCFC&}but for now, just hang loose.
+Dialogue: 0,0:18:53.01,0:18:54.78,Default,,0,0,0,,安稳下来，我们可以拟个计划\N{\fs10\1c&HB4DCFC&}Just sit tight so we can get a plan...
+Dialogue: 0,0:18:54.78,0:18:56.41,Default,,0,0,0,,- 放松？安稳？到底怎样？ - 汤姆\N{\fs10\1c&HB4DCFC&}-Hang loose? Hang loose? Sit tight? Which one? -Tom
+Dialogue: 0,0:18:56.45,0:18:58.15,Default,,0,0,0,,汤姆，让他说完\N{\fs10\1c&HB4DCFC&}Tom, just let him finish.
+Dialogue: 0,0:18:58.97,0:19:00.91,Default,,0,0,0,,不，没事没事，你看\N{\fs10\1c&HB4DCFC&}No, it's okay. It's okay. No, look, look.
+Dialogue: 0,0:19:01.53,0:19:02.01,Default,,0,0,0,,对不起\N{\fs10\1c&HB4DCFC&}I'm sorry.
+Dialogue: 0,0:19:02.06,0:19:04.44,Default,,0,0,0,,如果是我的孩子，我也会这样，相信我\N{\fs10\1c&HB4DCFC&}If this were my child, I'd be the same way. Believe me.
+Dialogue: 0,0:19:05.04,0:19:06.15,Default,,0,0,0,,这完全不是问题\N{\fs10\1c&HB4DCFC&}It's not a problem at all.
+Dialogue: 0,0:19:18.83,0:19:20.87,Default,,0,0,0,,好了，孩子，我知道对你很难\N{\fs10\1c&HB4DCFC&}All right, kid, I know this is hard on you, all right?
+Dialogue: 0,0:19:22.14,0:19:23.28,Default,,0,0,0,,但你得撑着点\N{\fs10\1c&HB4DCFC&}But you gotta hang in there.
+Dialogue: 0,0:19:28.71,0:19:30.13,Default,,0,0,0,,你以前办过几件绑票案？\N{\fs10\1c&HB4DCFC&}How many kidnappings have you worked before?
+Dialogue: 0,0:19:30.99,0:19:32.59,Default,,0,0,0,,全算起来，33件\N{\fs10\1c&HB4DCFC&}All together, 33.
+Dialogue: 0,0:19:33.18,0:19:36.93,Default,,0,0,0,,排除监护权的、黑帮的、毒品相关的，我办过10件\N{\fs10\1c&HB4DCFC&}Uh, now you take away the custodial, gang, drug-related, I've worked ten.
+Dialogue: 0,0:19:37.47,0:19:41.22,Default,,0,0,0,,10件传统的赎金绑票案，过去五年里\N{\fs10\1c&HB4DCFC&}Now, that's ten traditional, ransom-oriented abductions in the last five years.
+Dialogue: 0,0:19:41.32,0:19:42.57,Default,,0,0,0,,算很多了\N{\fs10\1c&HB4DCFC&}Now, that's a lot.
+Dialogue: 0,0:19:42.83,0:19:45.10,Default,,0,0,0,,信不信由你，这类事情比较少见\N{\fs10\1c&HB4DCFC&}Believe it or not, this kind of thing is kind of rare.
+Dialogue: 0,0:19:45.90,0:19:48.44,Default,,0,0,0,,那么10件里面你们带回了多少人？\N{\fs10\1c&HB4DCFC&}Well, um, out of the ten, how many did you get back?
+Dialogue: 0,0:19:48.88,0:19:49.97,Default,,0,0,0,,带回七个\N{\fs10\1c&HB4DCFC&}Got back seven.
+Dialogue: 0,0:19:52.69,0:19:55.78,Default,,0,0,0,,其他的…出了什么错？\N{\fs10\1c&HB4DCFC&}Well, the others. What, um, went wrong?
+Dialogue: 0,0:19:56.87,0:20:00.73,Default,,0,0,0,,世事难料，我们称为“X”因素\N{\fs10\1c&HB4DCFC&}Oh, life. What we call the ""X"" factor.
+Dialogue: 0,0:20:01.08,0:20:02.74,Default,,0,0,0,,什么“X”因素？什么意思？\N{\fs10\1c&HB4DCFC&}What's the ""X"" factor? What is that?
+Dialogue: 0,0:20:04.16,0:20:05.51,Default,,0,0,0,,- 弄好了吗？ - 还没有\N{\fs10\1c&HB4DCFC&}- Are we set? - No!
+Dialogue: 0,0:20:05.75,0:20:06.75,Default,,0,0,0,,妈蛋，杰克！\N{\fs10\1c&HB4DCFC&}Shit,Jack!
+Dialogue: 0,0:20:08.34,0:20:11.14,Default,,0,0,0,,任何需求提出来，你只管同意\N{\fs10\1c&HB4DCFC&}Any demands that come up, now, you just agree.
+Dialogue: 0,0:20:11.14,0:20:14.42,Default,,0,0,0,,让他知道他控制局面，你唯一优先考虑的是让你儿子回来\N{\fs10\1c&HB4DCFC&}Let him know he's in charge. Your only priority is getting your boy back.
+Dialogue: 0,0:20:15.01,0:20:17.22,Default,,0,0,0,,救回你的儿子，你听懂没？\N{\fs10\1c&HB4DCFC&}Get your boy back. You follow me?
+Dialogue: 0,0:20:17.80,0:20:19.51,Default,,0,0,0,,你必须给我们争取时间，穆伦先生\N{\fs10\1c&HB4DCFC&}Now, you've got to give us some time, Mr Mullen.
+Dialogue: 0,0:20:19.68,0:20:22.01,Default,,0,0,0,,要求跟你儿子说话，要求证明他还活着\N{\fs10\1c&HB4DCFC&}You ask to speak to your son. Ask for some sign that he's alive.
+Dialogue: 0,0:20:22.11,0:20:23.39,Default,,0,0,0,,什么线索都行\N{\fs10\1c&HB4DCFC&}Any information you can get.
+Dialogue: 0,0:20:23.97,0:20:26.92,Default,,0,0,0,,告诉他说他有过敏症，身体有状况\N{\fs10\1c&HB4DCFC&}Then tell him he has an allergy, he has, uh, some medical condition.
+Dialogue: 0,0:20:27.03,0:20:30.36,Default,,0,0,0,,你想知道他那里的天气，他是在户外或室内\N{\fs10\1c&HB4DCFC&}You want to know what kind of weather is he in. Is he indoors? Is he outdoors?
+Dialogue: 0,0:20:31.11,0:20:32.62,Default,,0,0,0,,- 好了吗？  - 可以了\N{\fs10\1c&HB4DCFC&}- Are we set? - Go!
+Dialogue: 0,0:20:33.42,0:20:35.82,Default,,0,0,0,,- 救回你儿子  - 好的\N{\fs10\1c&HB4DCFC&}- Get your boy back. - Okay.
+Dialogue: 0,0:20:38.77,0:20:39.67,Default,,0,0,0,,哈罗？\N{\fs10\1c&HB4DCFC&}Hello?
+Dialogue: 0,0:20:44.83,0:20:45.87,Default,,0,0,0,,取消它\N{\fs10\1c&HB4DCFC&}Cancel it.
+Dialogue: 0,0:20:47.04,0:20:47.66,Default,,0,0,0,,查到了\N{\fs10\1c&HB4DCFC&}We got it.
+Dialogue: 0,0:20:48.50,0:20:51.79,Default,,0,0,0,,布伦达·钱斯，公园路4108号\N{\fs10\1c&HB4DCFC&}Brenda Chance, 4108 Utopia Parkway.
+Dialogue: 0,0:20:53.17,0:20:54.46,Default,,0,0,0,,那是他的秘书\N{\fs10\1c&HB4DCFC&}That's his secretary.
+Dialogue: 0,0:20:55.26,0:20:56.21,Default,,0,0,0,,对，我们知道\N{\fs10\1c&HB4DCFC&}Yeah, we know.
+Dialogue: 0,0:21:06.09,0:21:07.35,Default,,0,0,0,,我们的儿子死了吗？\N{\fs10\1c&HB4DCFC&}Is our son dead?
+Dialogue: 0,0:21:09.75,0:21:11.00,Default,,0,0,0,,千万别这么想\N{\fs10\1c&HB4DCFC&}Don't ever think that.
+Dialogue: 0,0:21:32.79,0:21:35.92,Default,,0,0,0,,张开嘴巴，没事，这是食物\N{\fs10\1c&HB4DCFC&}Open your mouth. It's all right. It's food.
+Dialogue: 0,0:21:38.30,0:21:40.34,Default,,0,0,0,,我问你\N{\fs10\1c&HB4DCFC&}So,
+Dialogue: 0,0:21:41.14,0:21:43.26,Default,,0,0,0,,沙漠为何饿不着？\N{\fs10\1c&HB4DCFC&}why can't you starve in the desert?
+Dialogue: 0,0:21:46.55,0:21:48.73,Default,,0,0,0,,因为到处是沙拉\N{\fs10\1c&HB4DCFC&}'Cause of all the sandwiches there.
+Dialogue: 0,0:22:00.11,0:22:01.15,Default,,0,0,0,,你在干什么？\N{\fs10\1c&HB4DCFC&}What are you doin'?
+Dialogue: 0,0:22:03.91,0:22:05.03,Default,,0,0,0,,搞什么…\N{\fs10\1c&HB4DCFC&}What the...
+Dialogue: 0,0:22:08.21,0:22:10.71,Default,,0,0,0,,东南部选民明天将去投票...\N{\fs10\1c&HB4DCFC&}Voters on the of eastsouth will be headed to the polls tomorrow...
+Dialogue: 0,0:22:10.71,0:22:11.79,Default,,0,0,0,,你在搞什么鬼？\N{\fs10\1c&HB4DCFC&}What the hell is going on?
+Dialogue: 0,0:22:12.42,0:22:14.29,Default,,0,0,0,,我在跟这孩子说笑话，有什么大不了的？\N{\fs10\1c&HB4DCFC&}I was tellin' the kid a joke. What's the big deal?
+Dialogue: 0,0:22:14.50,0:22:18.17,Default,,0,0,0,,你喜欢这孩子？你想了解他？混熟一点吗？\N{\fs10\1c&HB4DCFC&}You like this kid? You wanna get to know him? Get a little relationship goin'?
+Dialogue: 0,0:22:18.47,0:22:20.05,Default,,0,0,0,,你认为这样会让事情更简单还是更困难？\N{\fs10\1c&HB4DCFC&}You think that's gonna make things easier or harder?
+Dialogue: 0,0:22:20.82,0:22:22.08,Default,,0,0,0,,让什么更简单，玛丽丝？\N{\fs10\1c&HB4DCFC&}Make what easier, Maris?
+Dialogue: 0,0:22:22.84,0:22:23.89,Default,,0,0,0,,他是来真的吗？\N{\fs10\1c&HB4DCFC&}Is he for real?
+Dialogue: 0,0:22:24.26,0:22:25.97,Default,,0,0,0,,我是来真的，婊子，你是吗？\N{\fs10\1c&HB4DCFC&}- Yeah, I'm for real, bitch. Are you for real? - Whoa, whoa, whoa, whoa, whoa.
+Dialogue: 0,0:22:28.18,0:22:29.46,Default,,0,0,0,,你们都退一步好吗？\N{\fs10\1c&HB4DCFC&}Whoa! Whoa. Why don't you just back off, all right?
+Dialogue: 0,0:22:29.89,0:22:31.19,Default,,0,0,0,,你进步点，我就退一步\N{\fs10\1c&HB4DCFC&}You step up, and I'll back off.
+Dialogue: 0,0:22:33.64,0:22:34.61,Default,,0,0,0,,过来\N{\fs10\1c&HB4DCFC&}Come here.
+Dialogue: 0,0:22:36.27,0:22:37.44,Default,,0,0,0,,听我说\N{\fs10\1c&HB4DCFC&}Listen to me.
+Dialogue: 0,0:22:38.27,0:22:39.33,Default,,0,0,0,,你看\N{\fs10\1c&HB4DCFC&}Look
+Dialogue: 0,0:22:40.61,0:22:42.78,Default,,0,0,0,,巧克力棒什么的\N{\fs10\1c&HB4DCFC&}With the candy bars and shit...
+Dialogue: 0,0:22:44.95,0:22:49.27,Default,,0,0,0,,你这只不过瞎子点灯白费蜡\N{\fs10\1c&HB4DCFC&}It's just that you might be makin' beds in a burnin' house.
+Dialogue: 0,0:22:50.85,0:22:51.90,Default,,0,0,0,,你明白我说的吗？\N{\fs10\1c&HB4DCFC&}You understand what I'm sayin'?
+Dialogue: 0,0:22:53.88,0:22:56.21,Default,,0,0,0,,明白，但克拉克，那孩子戴着头罩\N{\fs10\1c&HB4DCFC&}Yeah, but, Clark, man, the kid's in a cocoon.
+Dialogue: 0,0:22:57.48,0:22:58.88,Default,,0,0,0,,他谁也不能指认\N{\fs10\1c&HB4DCFC&}And he can't ID anybody.
+Dialogue: 0,0:22:59.62,0:23:01.46,Default,,0,0,0,,他能告诉警方什么？\N{\fs10\1c&HB4DCFC&}What the hell he's supposed to tell 'em?
+Dialogue: 0,0:23:09.64,0:23:13.29,Default,,0,0,0,,等他妈一下，克拉克，你可从没跟我说过要杀小孩\N{\fs10\1c&HB4DCFC&}Wait a goddam second, man. Clark, you never said nothin' to me about killin' no kids!
+Dialogue: 0,0:23:13.74,0:23:15.18,Default,,0,0,0,,现在你搞懂状况了吗？\N{\fs10\1c&HB4DCFC&}Do you understand what is goin' on now?
+Dialogue: 0,0:23:15.73,0:23:17.65,Default,,0,0,0,,别跟那小孩说笑，别陪他玩\N{\fs10\1c&HB4DCFC&}You do not joke with this kid. You don't play with him.
+Dialogue: 0,0:23:18.11,0:23:19.30,Default,,0,0,0,,别跟他说话\N{\fs10\1c&HB4DCFC&}You don't talk to him.
+Dialogue: 0,0:23:19.35,0:23:20.81,Default,,0,0,0,,- 别跟我弟弟说话，行吗？  - 他不是你的宠物\N{\fs10\1c&HB4DCFC&}- Don't talk to my brother, all right? - He is not your pet.
+Dialogue: 0,0:23:20.81,0:23:21.64,Default,,0,0,0,,这事真的\N{\fs10\1c&HB4DCFC&}This is real.
+Dialogue: 0,0:23:21.64,0:23:23.86,Default,,0,0,0,,你不需要跟我弟弟说话，你和他没什么好说的\N{\fs10\1c&HB4DCFC&}You don't gotta talk to my brother, all right? You got nothin' to say to him.
+Dialogue: 0,0:23:24.36,0:23:26.71,Default,,0,0,0,,你以为你是谁？等等，你以为你管事吗？\N{\fs10\1c&HB4DCFC&}Who do you think you are? Wait a minute, you think you're runnin' shit here?
+Dialogue: 0,0:23:26.71,0:23:28.71,Default,,0,0,0,,不，我不管事，我男人管事\N{\fs10\1c&HB4DCFC&}No, I'm not runnin' shit. My man is runnin' shit.
+Dialogue: 0,0:23:28.71,0:23:29.53,Default,,0,0,0,,噢，你男人，是啊\N{\fs10\1c&HB4DCFC&}Oh. Your man. Right.
+Dialogue: 0,0:23:29.65,0:23:31.02,Default,,0,0,0,,但如果有问题，我得搞定\N{\fs10\1c&HB4DCFC&}But if I have a problem, I'm going to address it.
+Dialogue: 0,0:23:31.19,0:23:32.56,Default,,0,0,0,,好，我懂了\N{\fs10\1c&HB4DCFC&}Yeah, I understand. All right.
+Dialogue: 0,0:23:32.62,0:23:35.83,Default,,0,0,0,,我得告诉你，兄弟，她把我吓得屁滚尿流\N{\fs10\1c&HB4DCFC&}I gotta tell you, boys. She's scarin' the bejeepers outta me.
+Dialogue: 0,0:23:36.73,0:23:37.92,Default,,0,0,0,,你又他妈在喝酒\N{\fs10\1c&HB4DCFC&}And you're fuckin' drinkin' again.
+Dialogue: 0,0:23:38.59,0:23:41.09,Default,,0,0,0,,没关系的，瞧，我又没和那孩子一起喝\N{\fs10\1c&HB4DCFC&}Well, that's okay, though...see, 'cause I haven't been drinkin' with the kid.
+Dialogue: 0,0:23:45.63,0:23:48.05,Default,,0,0,0,,有件事我得告诉你，你应该知道\N{\fs10\1c&HB4DCFC&}I have to tell you something that I think you should know.
+Dialogue: 0,0:23:49.49,0:23:50.14,Default,,0,0,0,,好吧\N{\fs10\1c&HB4DCFC&}Okay.
+Dialogue: 0,0:23:55.47,0:23:56.45,Default,,0,0,0,,我贿赂了他\N{\fs10\1c&HB4DCFC&}I paid him off.
+Dialogue: 0,0:23:56.81,0:23:58.40,Default,,0,0,0,,你知道我不是神父\N{\fs10\1c&HB4DCFC&}You understand I'm not a priest.
+Dialogue: 0,0:23:58.98,0:24:01.69,Default,,0,0,0,,我不是心理医生，我不是律师\N{\fs10\1c&HB4DCFC&}I'm not a psychiatrist. I'm not a lawyer.
+Dialogue: 0,0:24:02.24,0:24:05.28,Default,,0,0,0,,汤姆，这次谈话不受保护\N{\fs10\1c&HB4DCFC&}Tom, this is not a protected conversation.
+Dialogue: 0,0:24:05.99,0:24:06.41,Default,,0,0,0,,我知道\N{\fs10\1c&HB4DCFC&}I understand.
+Dialogue: 0,0:24:07.45,0:24:10.44,Default,,0,0,0,,瞧，多数的精英，他们的航空公司都是现成得来的\N{\fs10\1c&HB4DCFC&}See, most guys at the top, they've acquired their airline.
+Dialogue: 0,0:24:11.12,0:24:14.08,Default,,0,0,0,,我不是，我从头建立了协力航空\N{\fs10\1c&HB4DCFC&}But not me, no, I built Endeavor from the ground up.
+Dialogue: 0,0:24:14.41,0:24:14.83,Default,,0,0,0,,它是我的\N{\fs10\1c&HB4DCFC&}And it's mine,
+Dialogue: 0,0:24:15.46,0:24:17.21,Default,,0,0,0,,哪个王八蛋也不能从我这夺走\N{\fs10\1c&HB4DCFC&}and no bastard's takin' it away from me.
+Dialogue: 0,0:24:17.75,0:24:21.09,Default,,0,0,0,,不管是工会、政府，或是杰基·布朗那种流氓都一样\N{\fs10\1c&HB4DCFC&}No union, no government, no gangster like Jackie Brown.
+Dialogue: 0,0:24:21.95,0:24:24.33,Default,,0,0,0,,我提出贿赂，我得做生意\N{\fs10\1c&HB4DCFC&}I initiated the bribe. I had a business to run.
+Dialogue: 0,0:24:24.84,0:24:26.57,Default,,0,0,0,,还有二千名员工，天知道多少顾客\N{\fs10\1c&HB4DCFC&}I had 2,000 employees, God knows how many customers...
+Dialogue: 0,0:24:24.71,0:24:28.55,Default,,0,0,0,,我没时间应付该死的机师罢工\N{\fs10\1c&HB4DCFC&}and I didn't have time for a goddam machinists' strike.
+Dialogue: 0,0:24:29.76,0:24:32.83,Default,,0,0,0,,所以，我做了这事之后\N{\fs10\1c&HB4DCFC&}So, after what I did
+Dialogue: 0,0:24:33.56,0:24:35.73,Default,,0,0,0,,我策划并实施的事情之后\N{\fs10\1c&HB4DCFC&}what I proposed and, and carried out
+Dialogue: 0,0:24:38.06,0:24:39.56,Default,,0,0,0,,他坐牢，而我没有\N{\fs10\1c&HB4DCFC&}he's in jail and I'm not.
+Dialogue: 0,0:24:40.36,0:24:41.72,Default,,0,0,0,,所以，我要问你的是\N{\fs10\1c&HB4DCFC&}So my question to you is:
+Dialogue: 0,0:24:43.61,0:24:45.24,Default,,0,0,0,,是不是杰基·布朗绑走我儿子？\N{\fs10\1c&HB4DCFC&}Did Jackie Brown take my son?
+Dialogue: 0,0:24:46.69,0:24:47.99,Default,,0,0,0,,你去想问他吗？\N{\fs10\1c&HB4DCFC&}Do you wanna go ask him?
+Dialogue: 0,0:25:22.79,0:25:24.01,Default,,0,0,0,,我一直在想着你\N{\fs10\1c&HB4DCFC&}I been thinking about you.
+Dialogue: 0,0:25:27.95,0:25:28.73,Default,,0,0,0,,我儿子在哪？\N{\fs10\1c&HB4DCFC&}Where's my son?
+Dialogue: 0,0:25:30.13,0:25:30.90,Default,,0,0,0,,什么？\N{\fs10\1c&HB4DCFC&}What?
+Dialogue: 0,0:25:31.41,0:25:34.70,Default,,0,0,0,,你以为关在这地方，对你来说就是最惨的事情了？\N{\fs10\1c&HB4DCFC&}Do you think that ending up in this place is the worst thing that can happen to you?
+Dialogue: 0,0:25:37.46,0:25:40.42,Default,,0,0,0,,- 你在说什么？  - 我儿子在哪？\N{\fs10\1c&HB4DCFC&}- What are you talkin' about? - Where is my son?
+Dialogue: 0,0:25:43.71,0:25:45.99,Default,,0,0,0,,有人绑走你儿子\N{\fs10\1c&HB4DCFC&}Somebody nabbed your kid...
+Dialogue: 0,0:25:47.50,0:25:49.30,Default,,0,0,0,,而你认为是我干的？\N{\fs10\1c&HB4DCFC&}and you think that it's me.
+Dialogue: 0,0:25:52.38,0:25:53.88,Default,,0,0,0,,怎么可能？\N{\fs10\1c&HB4DCFC&}How?
+Dialogue: 0,0:25:55.86,0:26:00.16,Default,,0,0,0,,我没有关系，我没有朋友\N{\fs10\1c&HB4DCFC&}I don't got no connections. I don't got no friends.
+Dialogue: 0,0:26:01.18,0:26:05.87,Default,,0,0,0,,我没有工作，我没有钱\N{\fs10\1c&HB4DCFC&}I got no job. I got no money.
+Dialogue: 0,0:26:06.78,0:26:09.28,Default,,0,0,0,,而你，妈了个逼，跑来问罪？\N{\fs10\1c&HB4DCFC&}And you, motherfucker, are accusing me?
+Dialogue: 0,0:26:09.87,0:26:11.17,Default,,0,0,0,,嘿，放开他\N{\fs10\1c&HB4DCFC&}Hey! Hey, get off of him!
+Dialogue: 0,0:26:11.36,0:26:14.45,Default,,0,0,0,,我自己有六个孩子，我愿为任何一个去死\N{\fs10\1c&HB4DCFC&}I got six of my own kids, and I would die for every one of them.
+Dialogue: 0,0:26:14.60,0:26:15.60,Default,,0,0,0,,把他带出去\N{\fs10\1c&HB4DCFC&}Get him outta here!
+Dialogue: 0,0:26:15.60,0:26:19.20,Default,,0,0,0,,从我被关在这里我就没见过他们，都是你害的\N{\fs10\1c&HB4DCFC&}And I haven't seen them since I got locked up in here because of you!
+Dialogue: 0,0:26:19.54,0:26:21.03,Default,,0,0,0,,- 把他带出去  - 你为什么没在这里？\N{\fs10\1c&HB4DCFC&}- Get him outta here. Come on! - Why aren't you in here? Huh?
+Dialogue: 0,0:26:21.58,0:26:24.06,Default,,0,0,0,,你他妈的应该待在这！你贿赂谁了？\N{\fs10\1c&HB4DCFC&}You fuckin' belong in jail! Who did you bribe?
+Dialogue: 0,0:26:24.16,0:26:26.06,Default,,0,0,0,,我跟你没完，你他妈的！\N{\fs10\1c&HB4DCFC&}I ain't done with you, you fuck!
+Dialogue: 0,0:26:26.23,0:26:27.74,Default,,0,0,0,,- 我要宰了你的  - 把他带出去\N{\fs10\1c&HB4DCFC&}-I'll kill you! - Get him outta there!
+Dialogue: 0,0:26:27.78,0:26:29.80,Default,,0,0,0,,- 你付钱给谁来陷害我，妈的？  - 把他带出去…\N{\fs10\1c&HB4DCFC&}- Who'd you pay to set me up, you fuck? - Get him outta here!
+Dialogue: 0,0:26:53.45,0:26:55.79,Default,,0,0,0,,来，你再跟我说一遍，再说一次，来\N{\fs10\1c&HB4DCFC&}Come on. You tell me that again. Say it again. Come on.
+Dialogue: 0,0:26:55.95,0:26:58.45,Default,,0,0,0,,我说我没有跑出这道门\N{\fs10\1c&HB4DCFC&}I said that I wasn't runnin' out this door...
+Dialogue: 0,0:26:58.45,0:26:59.66,Default,,0,0,0,,你没有跑？\N{\fs10\1c&HB4DCFC&}You weren't runnin'?
+Dialogue: 0,0:26:59.68,0:27:02.15,Default,,0,0,0,,该死，老兄，我是说我没有跟他一起跑\N{\fs10\1c&HB4DCFC&}Damn, man. I said I wasn't runnin' with him.
+Dialogue: 0,0:27:02.17,0:27:03.97,Default,,0,0,0,,我是在躲着他跑\N{\fs10\1c&HB4DCFC&}I was runnin' away from him
+Dialogue: 0,0:27:04.19,0:27:05.32,Default,,0,0,0,,因为他像是在追我\N{\fs10\1c&HB4DCFC&}'cause he was, like, chasin' me.
+Dialogue: 0,0:27:05.35,0:27:07.43,Default,,0,0,0,,好，看着我的眼睛再跟我说\N{\fs10\1c&HB4DCFC&}Yeah, look me in the eye and tell me that now.
+Dialogue: 0,0:27:07.65,0:27:09.40,Default,,0,0,0,,我是在躲…\N{\fs10\1c&HB4DCFC&}I was, I was runnin'
+Dialogue: 0,0:27:09.45,0:27:10.91,Default,,0,0,0,,- 对，你去哪  - 找到枪了，吉米\N{\fs10\1c&HB4DCFC&}- Yeah, where were you goin'? -Got the gat,Jimmy.
+Dialogue: 0,0:27:12.73,0:27:13.53,Default,,0,0,0,,看看那个\N{\fs10\1c&HB4DCFC&}Look at that.
+Dialogue: 0,0:27:13.55,0:27:15.05,Default,,0,0,0,,你见过这把枪吗？\N{\fs10\1c&HB4DCFC&}- You ever seen that before? - Uh-uh.
+Dialogue: 0,0:27:15.76,0:27:16.99,Default,,0,0,0,,没？我会在上面发现你的指纹吗？\N{\fs10\1c&HB4DCFC&}No? I'm not gonna find your prints on there?
+Dialogue: 0,0:27:16.99,0:27:17.94,Default,,0,0,0,,不会\N{\fs10\1c&HB4DCFC&}No.
+Dialogue: 0,0:27:18.09,0:27:20.16,Default,,0,0,0,,不会？装起来\N{\fs10\1c&HB4DCFC&}No? Bag that up.
+Dialogue: 0,0:27:24.19,0:27:27.85,Default,,0,0,0,,吉米，有个问题，这家伙不肯现在关店\N{\fs10\1c&HB4DCFC&}Jimmy, uh, we got a problem here. This guy doesn't want to close his store right now.
+Dialogue: 0,0:27:28.36,0:27:30.44,Default,,0,0,0,,妈的，算了，来说说你朋友\N{\fs10\1c&HB4DCFC&}Fuck it. Forget about it. Now, tell me about your buddy.
+Dialogue: 0,0:27:31.05,0:27:33.39,Default,,0,0,0,,老兄，我不知道，我以前没见过他\N{\fs10\1c&HB4DCFC&}Oh, man. Uh, I don't know. I never saw him before.
+Dialogue: 0,0:27:33.40,0:27:34.49,Default,,0,0,0,,- 这是我第一次见他  - 来，摸摸看\N{\fs10\1c&HB4DCFC&}- It was the first time I saw him. - Here. Feel that.
+Dialogue: 0,0:27:35.62,0:27:37.20,Default,,0,0,0,,天，这玩意在狂跳\N{\fs10\1c&HB4DCFC&}Christ, this thing's pumpin' Kool-Aid.
+Dialogue: 0,0:27:37.20,0:27:38.37,Default,,0,0,0,,你有心脏病吗？\N{\fs10\1c&HB4DCFC&}Yeah, you got a heart problem, there?
+Dialogue: 0,0:27:38.37,0:27:39.74,Default,,0,0,0,,我刚才在跑，我不是...\N{\fs10\1c&HB4DCFC&}I was runnin'. I wasn't...
+Dialogue: 0,0:27:42.25,0:27:45.55,Default,,0,0,0,,我嗅到胡扯的气味，我认为他想跟我玩花样\N{\fs10\1c&HB4DCFC&}Wait. I smell a little bullshit here. I think he's runnin' a game on me.
+Dialogue: 0,0:27:45.58,0:27:46.90,Default,,0,0,0,,我认为他是狗骗\N{\fs10\1c&HB4DCFC&}I think he's an LAD.
+Dialogue: 0,0:27:47.10,0:27:48.48,Default,,0,0,0,,你是狗屎骗子吗？\N{\fs10\1c&HB4DCFC&}You a lyin'-ass dog?
+Dialogue: 0,0:27:48.55,0:27:50.96,Default,,0,0,0,,- 你有带棉花糖的小熊麦片吗？  - 你们在追我...\N{\fs10\1c&HB4DCFC&}- You got any, uh, Frankenberry cereal with the marshmallows? - The guy was chasin' me and I...
+Dialogue: 0,0:27:52.01,0:27:53.38,Default,,0,0,0,,你给我找个律师，行吗\N{\fs10\1c&HB4DCFC&}Yo, you get me a lawyer, all right?
+Dialogue: 0,0:27:53.97,0:27:55.26,Default,,0,0,0,,你自己找他妈的律师吧\N{\fs10\1c&HB4DCFC&}You get your own fuckin' lawyer.
+Dialogue: 0,0:27:59.31,0:28:00.98,Default,,0,0,0,,老兄，手铐太紧了\N{\fs10\1c&HB4DCFC&}Yo, man, these cuffs are too tight, man.
+Dialogue: 0,0:28:01.53,0:28:03.81,Default,,0,0,0,,因为它是新的，会松的，给它点时间\N{\fs10\1c&HB4DCFC&}That's cause they're new. They'll stretch. You gotta give them a little time.
+Dialogue: 0,0:28:04.44,0:28:04.81,Default,,0,0,0,,上车\N{\fs10\1c&HB4DCFC&}Get in the car.
+Dialogue: 0,0:28:05.77,0:28:07.85,Default,,0,0,0,,- 你想要披萨？想要热狗吗？ - 拿着，吉米\N{\fs10\1c&HB4DCFC&}You want a pizza? You want a hot dog? What do you want? - Here you go,Jimmy.
+Dialogue: 0,0:28:08.36,0:28:08.73,Default,,0,0,0,,谢了\N{\fs10\1c&HB4DCFC&}Thanks.
+Dialogue: 0,0:28:09.56,0:28:10.44,Default,,0,0,0,,咱们回局里去\N{\fs10\1c&HB4DCFC&}Let's go back to the house.
+Dialogue: 0,0:29:24.39,0:29:27.10,Default,,0,0,0,,你是这一带知名的混混吗？\N{\fs10\1c&HB4DCFC&}Are you a known scumbag in this precinct or not?
+Dialogue: 0,0:29:27.14,0:29:28.42,Default,,0,0,0,,摇摇头\N{\fs10\1c&HB4DCFC&}Shake your head.
+Dialogue: 0,0:29:30.26,0:29:31.15,Default,,0,0,0,,快点\N{\fs10\1c&HB4DCFC&}Go on.
+Dialogue: 0,0:29:33.40,0:29:36.31,Default,,0,0,0,,昨天有个引人注目的孩子被绑架\N{\fs10\1c&HB4DCFC&}Now, a high-profile kid got snatched yesterday.
+Dialogue: 0,0:29:36.34,0:29:38.04,Default,,0,0,0,,你并不知道谁知道这件事，对吧？\N{\fs10\1c&HB4DCFC&}You have no idea who knows about it, huh?
+Dialogue: 0,0:29:38.04,0:29:41.36,Default,,0,0,0,,纽约警方，联邦调查局，你知道吗？\N{\fs10\1c&HB4DCFC&}NYPD, FBI. Do you?
+Dialogue: 0,0:29:41.82,0:29:42.87,Default,,0,0,0,,摇头\N{\fs10\1c&HB4DCFC&}Shake your head.
+Dialogue: 0,0:29:44.66,0:29:47.33,Default,,0,0,0,,不知道，结果你怎么做？\N{\fs10\1c&HB4DCFC&}No. So what do you do?
+Dialogue: 0,0:29:48.08,0:29:50.16,Default,,0,0,0,,你，这个知名的混混\N{\fs10\1c&HB4DCFC&}You, a known scumbag,
+Dialogue: 0,0:29:50.83,0:29:54.54,Default,,0,0,0,,跑进满是警察的店里 买小孩吃的麦片\N{\fs10\1c&HB4DCFC&}walks into a grocery store filled with cops...and you ask for a box of kiddie cereal.
+Dialogue: 0,0:29:55.30,0:29:56.12,Default,,0,0,0,,我不知道你怎么想\N{\fs10\1c&HB4DCFC&}I don't know about you,
+Dialogue: 0,0:29:56.12,0:29:58.51,Default,,0,0,0,,但我觉得这么一来你就是个四星级笨蛋\N{\fs10\1c&HB4DCFC&}but I think that makes you a four-star asshole.
+Dialogue: 0,0:29:59.22,0:29:59.86,Default,,0,0,0,,你觉得呢？\N{\fs10\1c&HB4DCFC&}What do you think?
+Dialogue: 0,0:30:10.81,0:30:12.90,Default,,0,0,0,,你租卡通录影带干嘛？\N{\fs10\1c&HB4DCFC&}What the hell were you gonna do with the videos? Huh?
+Dialogue: 0,0:30:14.40,0:30:16.90,Default,,0,0,0,,那小子眼睛被蒙住了，看在基督份上\N{\fs10\1c&HB4DCFC&}The kid's got tape on his eyes, for Christ's sake.
+Dialogue: 0,0:30:17.65,0:30:19.36,Default,,0,0,0,,我想他可以用听的\N{\fs10\1c&HB4DCFC&}I thought he could listen to 'em.
+Dialogue: 0,0:30:24.37,0:30:25.62,Default,,0,0,0,,别再做蠢事了\N{\fs10\1c&HB4DCFC&}Don't be stupid again.
+Dialogue: 0,0:30:35.22,0:30:37.57,Default,,0,0,0,,- 吉米  - 嘿\N{\fs10\1c&HB4DCFC&}-Jimmy. - Hey.
+Dialogue: 0,0:30:38.02,0:30:39.37,Default,,0,0,0,,我刚梦到你\N{\fs10\1c&HB4DCFC&}I was just dreamin' about you.
+Dialogue: 0,0:30:40.71,0:30:41.89,Default,,0,0,0,,- 是好梦吗？  - 呣\N{\fs10\1c&HB4DCFC&}- Was it good? - Mm-mmm.
+Dialogue: 0,0:30:43.64,0:30:45.50,Default,,0,0,0,,不是，我老爸回来了\N{\fs10\1c&HB4DCFC&}No. My father was back
+Dialogue: 0,0:30:45.50,0:30:46.80,Default,,0,0,0,,然后\N{\fs10\1c&HB4DCFC&}and then
+Dialogue: 0,0:30:47.10,0:30:50.30,Default,,0,0,0,,他又开始打我，然后...\N{\fs10\1c&HB4DCFC&}he was beating me up again. and then
+Dialogue: 0,0:30:51.11,0:30:54.61,Default,,0,0,0,,你也在场，但你...你什么也没做\N{\fs10\1c&HB4DCFC&}you were there, but you...you didn't do anything.
+Dialogue: 0,0:30:54.61,0:30:56.31,Default,,0,0,0,,你只是袖手旁观\N{\fs10\1c&HB4DCFC&}You were just standing there and watching.
+Dialogue: 0,0:30:56.82,0:31:00.07,Default,,0,0,0,,哦，你知道那只是个梦\N{\fs10\1c&HB4DCFC&}Yeah, well, you know that's just a dream.
+Dialogue: 0,0:31:00.78,0:31:02.15,Default,,0,0,0,,我把他关起来了，记得吗？\N{\fs10\1c&HB4DCFC&}I locked his ass up, remember?
+Dialogue: 0,0:31:02.91,0:31:03.92,Default,,0,0,0,,我知道\N{\fs10\1c&HB4DCFC&}Yeah. I know.
+Dialogue: 0,0:31:08.99,0:31:11.24,Default,,0,0,0,,你上哪儿去了？我在这都快被逼疯了\N{\fs10\1c&HB4DCFC&}Where you been, man? I'm goin' out of my mind here, you know.
+Dialogue: 0,0:31:11.70,0:31:12.61,Default,,0,0,0,,没事了\N{\fs10\1c&HB4DCFC&}Hey, it's all right.
+Dialogue: 0,0:31:14.04,0:31:16.56,Default,,0,0,0,,这些人...这些人都是疯子\N{\fs10\1c&HB4DCFC&}These guys...These guys are wacko.
+Dialogue: 0,0:31:17.20,0:31:19.17,Default,,0,0,0,,他们不听我的 也不尊重我\N{\fs10\1c&HB4DCFC&}They don't listen to me. They don't respect me.
+Dialogue: 0,0:31:19.67,0:31:20.69,Default,,0,0,0,,我不信任他们\N{\fs10\1c&HB4DCFC&}I don't trust them.
+Dialogue: 0,0:31:20.70,0:31:22.61,Default,,0,0,0,,别担心他们，他们怕我\N{\fs10\1c&HB4DCFC&}Don't worry about them. They're afraid of me.
+Dialogue: 0,0:31:22.63,0:31:23.94,Default,,0,0,0,,我们为什么要找他们？为什么？\N{\fs10\1c&HB4DCFC&}Why do we need them? Why?
+Dialogue: 0,0:31:24.53,0:31:25.84,Default,,0,0,0,,我们自己干不了\N{\fs10\1c&HB4DCFC&}We can't do this alone.
+Dialogue: 0,0:31:26.39,0:31:28.76,Default,,0,0,0,,还有那孩子 我好怕那个孩子\N{\fs10\1c&HB4DCFC&}And the kid. I'm scared shit of this kid.
+Dialogue: 0,0:31:29.22,0:31:31.05,Default,,0,0,0,,我觉得我们应该现在就干，除掉他\N{\fs10\1c&HB4DCFC&}I think we should just do this now. Get rid of him.
+Dialogue: 0,0:31:31.05,0:31:33.18,Default,,0,0,0,,了结这事，因为他是个定时炸弹\N{\fs10\1c&HB4DCFC&}Get it over with, 'cause he's like a time bomb.
+Dialogue: 0,0:31:33.20,0:31:34.44,Default,,0,0,0,,嘿嘿，听我说\N{\fs10\1c&HB4DCFC&}Hey, hey, hey, listen to me.
+Dialogue: 0,0:31:35.99,0:31:39.82,Default,,0,0,0,,你因为自己怕那孩子，但你... 你知道你怕的是什么吗？\N{\fs10\1c&HB4DCFC&}You think you're scared of the kid, but you...you know what you're really scared of?
+Dialogue: 0,0:31:41.39,0:31:42.74,Default,,0,0,0,,你自己的人性\N{\fs10\1c&HB4DCFC&}Your own humanity.
+Dialogue: 0,0:31:44.98,0:31:49.16,Default,,0,0,0,,你自己的…好心\N{\fs10\1c&HB4DCFC&}Your own decency.
+Dialogue: 0,0:31:50.08,0:31:53.12,Default,,0,0,0,,因为你很善良，没事的，没关系\N{\fs10\1c&HB4DCFC&}'Cause you're good, and that's okay. That's all right.
+Dialogue: 0,0:31:57.13,0:31:58.67,Default,,0,0,0,,我就需要你这样\N{\fs10\1c&HB4DCFC&}That's what I need from you.
+Dialogue: 0,0:32:06.26,0:32:09.55,Default,,0,0,0,,等时候到了，那孩子是我的问题，不是你的，好吗？\N{\fs10\1c&HB4DCFC&}When the time comes, the kid's my problem, not yours. All right?
+Dialogue: 0,0:32:10.43,0:32:11.97,Default,,0,0,0,,你还相信我，对吧？\N{\fs10\1c&HB4DCFC&}Well, you still trust me, don't you?
+Dialogue: 0,0:32:14.48,0:32:17.02,Default,,0,0,0,,因为你知道我做得到的，对吧？\N{\fs10\1c&HB4DCFC&}'Cause you know I can do this, right?
+Dialogue: 0,0:32:18.36,0:32:18.90,Default,,0,0,0,,- 对 - 对不对？\N{\fs10\1c&HB4DCFC&}- Yeah.- Right?
+Dialogue: 0,0:32:19.44,0:32:19.90,Default,,0,0,0,,对\N{\fs10\1c&HB4DCFC&}Yeah.
+Dialogue: 0,0:32:24.14,0:32:24.97,Default,,0,0,0,,很好\N{\fs10\1c&HB4DCFC&}Good.
+Dialogue: 0,0:32:26.99,0:32:28.36,Default,,0,0,0,,是时候领报酬了\N{\fs10\1c&HB4DCFC&}'Cause it's time to get paid.
+Dialogue: 0,0:32:29.41,0:32:31.99,Default,,0,0,0,,“失踪及受虐孩童”
+Dialogue: 0,0:32:40.24,0:32:41.32,Default,,0,0,0,,有什么资料？\N{\fs10\1c&HB4DCFC&}Is there anything in the reports?
+Dialogue: 0,0:32:41.84,0:32:42.72,Default,,0,0,0,,有\N{\fs10\1c&HB4DCFC&}Yeah.
+Dialogue: 0,0:32:43.51,0:32:45.64,Default,,0,0,0,,很多我们早就知道\N{\fs10\1c&HB4DCFC&}A lot of stuff we already know.
+Dialogue: 0,0:32:46.30,0:32:47.63,Default,,0,0,0,,还有我们不知道的\N{\fs10\1c&HB4DCFC&}A lot of stuff we don't know.
+Dialogue: 0,0:32:48.93,0:32:50.26,Default,,0,0,0,,你不想知道的\N{\fs10\1c&HB4DCFC&}Stuff you don't want to know.
+Dialogue: 0,0:32:53.10,0:32:56.48,Default,,0,0,0,,你跟自己说，不，你骗自己说\N{\fs10\1c&HB4DCFC&}You know, you tell yourself...No, you lie to yourself...
+Dialogue: 0,0:32:56.98,0:33:04.02,Default,,0,0,0,,这一切都是为了家人\N{\fs10\1c&HB4DCFC&}that, uh, you're doing all this... for your family.
+Dialogue: 0,0:33:04.19,0:33:07.65,Default,,0,0,0,,安全保障，金钱，未来\N{\fs10\1c&HB4DCFC&}Security, money, the future.
+Dialogue: 0,0:33:07.65,0:33:12.35,Default,,0,0,0,,什么人生赢家全都是狗屁，狗屁\N{\fs10\1c&HB4DCFC&}All this-this-this king of the mountain bullshit. It's bullshit.
+Dialogue: 0,0:33:14.33,0:33:18.71,Default,,0,0,0,,我总是看见他，就那样被手铐铐住，然而...\N{\fs10\1c&HB4DCFC&}I keep seeing him, tied up like that with those handcuffs, and, uh...
+Dialogue: 0,0:33:23.17,0:33:29.20,Default,,0,0,0,,我却救不了他，救不了他\N{\fs10\1c&HB4DCFC&}I can't help him. I can't help him. I can't...
+Dialogue: 0,0:33:34.09,0:33:34.95,Default,,0,0,0,,是楼上的\N{\fs10\1c&HB4DCFC&}It's upstairs.
+Dialogue: 0,0:33:34.99,0:33:36.45,Default,,0,0,0,,凯特，汤姆在哪？\N{\fs10\1c&HB4DCFC&}Kate, where's Tom?
+Dialogue: 0,0:33:36.58,0:33:38.71,Default,,0,0,0,,来吧，我们上吧，来\N{\fs10\1c&HB4DCFC&}Come on, now. Let's do this. Come on. Come on.
+Dialogue: 0,0:33:41.48,0:33:43.44,Default,,0,0,0,,- 快来  - 好了，他们来了\N{\fs10\1c&HB4DCFC&}- Comin' in. - All right, here they come. Here they come.
+Dialogue: 0,0:33:43.97,0:33:45.10,Default,,0,0,0,,记住我说的\N{\fs10\1c&HB4DCFC&}Remember the drill.
+Dialogue: 0,0:33:45.60,0:33:46.48,Default,,0,0,0,,杰克\N{\fs10\1c&HB4DCFC&}Jack!
+Dialogue: 0,0:33:49.65,0:33:50.47,Default,,0,0,0,,喂？\N{\fs10\1c&HB4DCFC&}Hello?
+Dialogue: 0,0:33:51.32,0:33:52.27,Default,,0,0,0,,穆伦先生？\N{\fs10\1c&HB4DCFC&}Mr Mullen?
+Dialogue: 0,0:33:52.70,0:33:53.32,Default,,0,0,0,,是的\N{\fs10\1c&HB4DCFC&}Yes.
+Dialogue: 0,0:33:53.90,0:33:54.74,Default,,0,0,0,,你准备完毕了吗？\N{\fs10\1c&HB4DCFC&}Are you good to go?
+Dialogue: 0,0:33:55.24,0:33:56.38,Default,,0,0,0,,我...什么？\N{\fs10\1c&HB4DCFC&}Am I...Am I...Am I what?
+Dialogue: 0,0:33:57.12,0:33:58.54,Default,,0,0,0,,“准备完毕   军事术语？”
+Dialogue: 0,0:33:58.74,0:34:02.50,Default,,0,0,0,,上车，开到96西街，一个人来\N{\fs10\1c&HB4DCFC&}Get in the Car and drive. 96th Street West. Come alone.
+Dialogue: 0,0:34:02.83,0:34:04.17,Default,,0,0,0,,北上西滨高速公路\N{\fs10\1c&HB4DCFC&}Take the Westside Highway North.
+Dialogue: 0,0:34:04.67,0:34:08.21,Default,,0,0,0,,我...我还没拿到钱，还没，我还需要点时间\N{\fs10\1c&HB4DCFC&}I'm...I-I-I don't have the money yet. Not yet. But I need more time.
+Dialogue: 0,0:34:08.27,0:34:09.93,Default,,0,0,0,,- 我有钱，只是...  - 别耍我\N{\fs10\1c&HB4DCFC&}- I'll get it. I-I just...- Don't fuck with me.
+Dialogue: 0,0:34:10.51,0:34:11.80,Default,,0,0,0,,我要，我要和我儿子说话\N{\fs10\1c&HB4DCFC&}I want. I want to talk to my son.
+Dialogue: 0,0:34:12.39,0:34:13.00,Default,,0,0,0,,一个人来\N{\fs10\1c&HB4DCFC&}Come alone.
+Dialogue: 0,0:34:13.55,0:34:17.37,Default,,0,0,0,,等等，别挂，西恩有气喘病\N{\fs10\1c&HB4DCFC&}Wait. Hold on. uh. S...Uh, Sean has asthma.
+Dialogue: 0,0:34:17.70,0:34:18.54,Default,,0,0,0,,很严重\N{\fs10\1c&HB4DCFC&}Uh, it's very serious.
+Dialogue: 0,0:34:18.55,0:34:19.73,Default,,0,0,0,,“天气怎么样”？\N{\fs10\1c&HB4DCFC&}So. what's the weather like?
+Dialogue: 0,0:34:20.85,0:34:23.61,Default,,0,0,0,,下雨吗？潮湿吗？\N{\fs10\1c&HB4DCFC&}Is it rainy? Damp?
+Dialogue: 0,0:34:24.86,0:34:27.98,Default,,0,0,0,,他在地窖？还是在高山上？\N{\fs10\1c&HB4DCFC&}Is he in a Cellar? On a mountaintop?
+Dialogue: 0,0:34:28.07,0:34:28.99,Default,,0,0,0,,“联邦调查局”
+Dialogue: 0,0:34:29.99,0:34:32.57,Default,,0,0,0,,请别，我儿子有惧高症\N{\fs10\1c&HB4DCFC&}Please. don't. My son gets vertigo.
+Dialogue: 0,0:34:33.75,0:34:35.57,Default,,0,0,0,,语言专家怎么分析我的口音？\N{\fs10\1c&HB4DCFC&}How's the linguist doing with my accent?
+Dialogue: 0,0:34:35.57,0:34:36.87,Default,,0,0,0,,什么？语言专...\N{\fs10\1c&HB4DCFC&}The w-what? The ling...
+Dialogue: 0,0:34:37.16,0:34:38.95,Default,,0,0,0,,这里没别人，只有我\N{\fs10\1c&HB4DCFC&}N...Hey, there's no one here. Just me.
+Dialogue: 0,0:34:41.28,0:34:42.05,Default,,0,0,0,,你确定？\N{\fs10\1c&HB4DCFC&}Are you sure?
+Dialogue: 0,0:34:43.50,0:34:45.54,Default,,0,0,0,,你以为我是他妈白痴吗？\N{\fs10\1c&HB4DCFC&}Hey, you think I'm a fuckin' idiot?
+Dialogue: 0,0:34:46.50,0:34:47.94,Default,,0,0,0,,我想结束这事\N{\fs10\1c&HB4DCFC&}I want to get this over with.
+Dialogue: 0,0:34:48.71,0:34:51.21,Default,,0,0,0,,很好，咱们就这么办\N{\fs10\1c&HB4DCFC&}Very good. Let's keep it that way.
+Dialogue: 0,0:34:51.51,0:34:53.01,Default,,0,0,0,,那我该怎么救回我儿子？\N{\fs10\1c&HB4DCFC&}So how do I get my son back?
+Dialogue: 0,0:34:53.49,0:34:54.13,Default,,0,0,0,,你会付钱吗？\N{\fs10\1c&HB4DCFC&}Are you going to pay me?
+Dialogue: 0,0:34:54.50,0:34:55.19,Default,,0,0,0,,当然会\N{\fs10\1c&HB4DCFC&}Of course I am.
+Dialogue: 0,0:34:57.21,0:34:58.82,Default,,0,0,0,,那就应该不成问题了\N{\fs10\1c&HB4DCFC&}Then it shouldn't be a problem.
+Dialogue: 0,0:35:03.10,0:35:04.02,Default,,0,0,0,,他会和你联络\N{\fs10\1c&HB4DCFC&}He'll call you.
+Dialogue: 0,0:35:04.48,0:35:08.08,Default,,0,0,0,,他...几时？谁？不，你联系我吗？什么时候？\N{\fs10\1c&HB4DCFC&}He'll...When? Who? No, you'll call? He'll call me? When?
+Dialogue: 0,0:35:08.09,0:35:09.64,Default,,0,0,0,,96街，一个人来\N{\fs10\1c&HB4DCFC&}96th Street. Come alone.
+Dialogue: 0,0:35:11.49,0:35:12.33,Default,,0,0,0,,该死的！\N{\fs10\1c&HB4DCFC&}Goddam it!
+Dialogue: 0,0:35:12.74,0:35:14.40,Default,,0,0,0,,好，轻而易举\N{\fs10\1c&HB4DCFC&}Yes. Sweet and pretty.
+Dialogue: 0,0:35:15.66,0:35:17.75,Default,,0,0,0,,他们干扰我们 什么都冻结了\N{\fs10\1c&HB4DCFC&}They jammed us. Everything's frozen.
+Dialogue: 0,0:35:18.62,0:35:20.41,Default,,0,0,0,,找到他们了吗？你们追踪到哪？\N{\fs10\1c&HB4DCFC&}Um, did you get it? Where...Where did you trace it to?
+Dialogue: 0,0:35:21.33,0:35:22.79,Default,,0,0,0,,他们弄垮了电脑\N{\fs10\1c&HB4DCFC&}They crashed the computer.
+Dialogue: 0,0:35:26.96,0:35:29.17,Default,,0,0,0,,- 我找对了人，对不对？ - 对\N{\fs10\1c&HB4DCFC&}- Did I pick the right guy or what? - Yeah.
+Dialogue: 0,0:35:29.17,0:35:30.71,Default,,0,0,0,,- 我跟你说过  - 没错…\N{\fs10\1c&HB4DCFC&}- Huh? What'd I tell you? - Yeah. Yeah.
+Dialogue: 0,0:35:31.31,0:35:32.32,Default,,0,0,0,,我们会拿到钱的\N{\fs10\1c&HB4DCFC&}We're gonna get it.
+Dialogue: 0,0:35:34.21,0:35:35.49,Default,,0,0,0,,咱们给保罗装追踪器\N{\fs10\1c&HB4DCFC&}Let's get Paul wired up.
+Dialogue: 0,0:35:36.34,0:35:37.34,Default,,0,0,0,,我要去\N{\fs10\1c&HB4DCFC&}Whoa, whoa. I'll do it.
+Dialogue: 0,0:35:39.94,0:35:40.65,Default,,0,0,0,,我要去\N{\fs10\1c&HB4DCFC&}I'll do it.
+Dialogue: 0,0:35:43.15,0:35:44.06,Default,,0,0,0,,让我来\N{\fs10\1c&HB4DCFC&}Let me.
+Dialogue: 0,0:35:52.39,0:35:53.69,Default,,0,0,0,,他可以吧？\N{\fs10\1c&HB4DCFC&}He gonna be all right?
+Dialogue: 0,0:35:54.27,0:35:56.39,Default,,0,0,0,,- 他完全可以  - 是吗？\N{\fs10\1c&HB4DCFC&}-He's gonna be great. -Yeah?
+Dialogue: 0,0:35:56.67,0:35:57.49,Default,,0,0,0,,是的\N{\fs10\1c&HB4DCFC&}Yeah.
+Dialogue: 0,0:35:58.27,0:35:58.95,Default,,0,0,0,,最好如此\N{\fs10\1c&HB4DCFC&}He better be.
+Dialogue: 0,0:36:00.33,0:36:01.72,Default,,0,0,0,,我的处境是\N{\fs10\1c&HB4DCFC&}I got a situation here.
+Dialogue: 0,0:36:02.27,0:36:03.84,Default,,0,0,0,,依法我不能阻止你这么做\N{\fs10\1c&HB4DCFC&}Legally, I can't stop you from doing this.
+Dialogue: 0,0:36:04.32,0:36:06.48,Default,,0,0,0,,要知道这家伙，我不知道他的来历\N{\fs10\1c&HB4DCFC&}Understand that this guy...I don't know where he's coming from...
+Dialogue: 0,0:36:06.48,0:36:07.98,Default,,0,0,0,,而我认为他是专业的\N{\fs10\1c&HB4DCFC&}and I think he's a professional.
+Dialogue: 0,0:36:08.67,0:36:11.80,Default,,0,0,0,,如果他在那边玩些高难度的，我们就得随机应变\N{\fs10\1c&HB4DCFC&}Now, if he starts throwing us curve balls out there...we are gonna have to improvise,
+Dialogue: 0,0:36:11.80,0:36:14.57,Default,,0,0,0,,我们可能没办法保护你，穆伦先生\N{\fs10\1c&HB4DCFC&}and we might not be able to protect you, Mr Mullen.
+Dialogue: 0,0:36:15.01,0:36:18.38,Default,,0,0,0,,我认为更聪明的办法是让我们的人去\N{\fs10\1c&HB4DCFC&}I think it would be wiser if you just let one of our guys make the drop.
+Dialogue: 0,0:36:19.09,0:36:20.14,Default,,0,0,0,,也许你不该去\N{\fs10\1c&HB4DCFC&}Ma-Maybe you shouldn't do it.
+Dialogue: 0,0:36:20.47,0:36:22.01,Default,,0,0,0,,瞧，我没问题，真的\N{\fs10\1c&HB4DCFC&}Look, I'm okay. I'm okay, really.
+Dialogue: 0,0:36:22.02,0:36:24.64,Default,,0,0,0,,我，我只是，他要的我就给他\N{\fs10\1c&HB4DCFC&}I...I just want to give him what he expects.
+Dialogue: 0,0:36:27.96,0:36:30.77,Default,,0,0,0,,瞧，就快结束了，孩子\N{\fs10\1c&HB4DCFC&}Look. It's almost over, kid.
+Dialogue: 0,0:36:31.61,0:36:34.03,Default,,0,0,0,,我会让你回家跟父母一起，保证\N{\fs10\1c&HB4DCFC&}I'm gonna get you back with your parents. Promise.
+Dialogue: 0,0:36:34.74,0:36:36.36,Default,,0,0,0,,- 什么时候？  - 就快了\N{\fs10\1c&HB4DCFC&}- When? - Soon.
+Dialogue: 0,0:36:36.51,0:36:37.86,Default,,0,0,0,,什么时候？\N{\fs10\1c&HB4DCFC&}When?
+Dialogue: 0,0:36:40.49,0:36:41.12,Default,,0,0,0,,什么时候？\N{\fs10\1c&HB4DCFC&}When?
+Dialogue: 0,0:36:42.04,0:36:43.48,Default,,0,0,0,,袋子有追踪器\N{\fs10\1c&HB4DCFC&}There are tracking devices in the bags.
+Dialogue: 0,0:36:43.48,0:36:44.36,Default,,0,0,0,,蒙蒂想要包里...\N{\fs10\1c&HB4DCFC&}Monty wants the packages...
+Dialogue: 0,0:36:44.37,0:36:46.47,Default,,0,0,0,,- 你还有别的问题吗？ - 好了，车子已装好追踪器\N{\fs10\1c&HB4DCFC&}- Do you have any other questions? - All right, the car's completely wired.
+Dialogue: 0,0:36:46.47,0:36:48.17,Default,,0,0,0,,有问题，我们就在那里\N{\fs10\1c&HB4DCFC&}Any problems, we'll be right there.
+Dialogue: 0,0:36:48.17,0:36:49.32,Default,,0,0,0,,他说过我一个人去\N{\fs10\1c&HB4DCFC&}He said I was to come alone.
+Dialogue: 0,0:36:49.33,0:36:50.96,Default,,0,0,0,,- 我们所做的就是跟钱走，汤姆  - 好\N{\fs10\1c&HB4DCFC&}- All we're doin' is following the money, Tom. - Okay.
+Dialogue: 0,0:36:50.96,0:36:52.91,Default,,0,0,0,,- 我们会和你保持安全距离  - 好\N{\fs10\1c&HB4DCFC&}- We'll always be a safe distance away. - Okay.
+Dialogue: 0,0:36:52.93,0:36:54.26,Default,,0,0,0,,听着，我给你点贴士\N{\fs10\1c&HB4DCFC&}Listen. Let me give you a tip.
+Dialogue: 0,0:36:54.94,0:36:57.25,Default,,0,0,0,,这是一次生意交接，好吗？\N{\fs10\1c&HB4DCFC&}This here's a business transaction. All right?
+Dialogue: 0,0:36:57.33,0:36:58.92,Default,,0,0,0,,你是个生意人，他是个生意人\N{\fs10\1c&HB4DCFC&}You're a businessman. He's a businessman.
+Dialogue: 0,0:36:59.54,0:37:01.51,Default,,0,0,0,,你把它当作生意，你就没事\N{\fs10\1c&HB4DCFC&}You think of this as business, you'll be fine.
+Dialogue: 0,0:37:03.57,0:37:04.44,Default,,0,0,0,,好吗？\N{\fs10\1c&HB4DCFC&}All right?
+Dialogue: 0,0:37:12.97,0:37:13.74,Default,,0,0,0,,把他带回来\N{\fs10\1c&HB4DCFC&}Get him back.
+Dialogue: 0,0:37:34.00,0:37:39.43,Default,,0,0,0,,中心呼叫特别小组，所有单位到269西125街集合\N{\fs10\1c&HB4DCFC&}CP to S.O. units. All units Converge on 269 West 125 Street.
+Dialogue: 0,0:37:39.51,0:37:42.05,Default,,0,0,0,,500小组呼叫中心，我们看见目标了\N{\fs10\1c&HB4DCFC&}500 Unit to CP. We have a visual on the package.
+Dialogue: 0,0:37:49.57,0:37:50.07,Default,,0,0,0,,喂？\N{\fs10\1c&HB4DCFC&}Yeah?
+Dialogue: 0,0:37:51.31,0:37:53.56,Default,,0,0,0,,好了，听好，我只说一遍\N{\fs10\1c&HB4DCFC&}Okay, listen up. I'm only gonna say this once.
+Dialogue: 0,0:37:54.18,0:37:56.27,Default,,0,0,0,,在125街下交流道\N{\fs10\1c&HB4DCFC&}Get off at 125th Street,
+Dialogue: 0,0:37:56.48,0:38:00.17,Default,,0,0,0,,开过三个路口 到卡沙达休闲中心\N{\fs10\1c&HB4DCFC&}go right three blocks... to the Kasarda ReC Center.
+Dialogue: 0,0:38:00.41,0:38:02.47,Default,,0,0,0,,带着公事箱一起进去\N{\fs10\1c&HB4DCFC&}Take the suitCases inside with you.
+Dialogue: 0,0:38:02.48,0:38:03.97,Default,,0,0,0,,狗娘养的在耍我们\N{\fs10\1c&HB4DCFC&}Son of a bitch is scrolling us.
+Dialogue: 0,0:38:04.45,0:38:10.58,Default,,0,0,0,,泳池底有一把衣柜钥匙，在排水槽边，水底\N{\fs10\1c&HB4DCFC&}In the swimming pool, there's a locker key down by the drain... in the deep end.
+Dialogue: 0,0:38:11.07,0:38:12.57,Default,,0,0,0,,有人会监视你\N{\fs10\1c&HB4DCFC&}There'll be somebody watching you.
+Dialogue: 0,0:38:13.24,0:38:15.04,Default,,0,0,0,,你看不到他们，但他们看得到你\N{\fs10\1c&HB4DCFC&}You won't see them, but they'll see you.
+Dialogue: 0,0:38:15.42,0:38:17.49,Default,,0,0,0,,我要你去拿钥匙\N{\fs10\1c&HB4DCFC&}I want you to get that key.
+Dialogue: 0,0:38:17.72,0:38:20.69,Default,,0,0,0,,我要你穿着衣服下水\N{\fs10\1c&HB4DCFC&}I want you fully clothed when you do.
+Dialogue: 0,0:38:21.01,0:38:25.64,Default,,0,0,0,,你要是敢脱掉手表 你儿子就没命\N{\fs10\1c&HB4DCFC&}You so much as remove your wristwatch, your son dies.
+Dialogue: 0,0:38:26.11,0:38:28.89,Default,,0,0,0,,拿到钥匙之后，去找到那只衣柜\N{\fs10\1c&HB4DCFC&}When you have the key. go find the locker.
+Dialogue: 0,0:38:29.76,0:38:30.78,Default,,0,0,0,,你有七分钟\N{\fs10\1c&HB4DCFC&}You got seven minutes.
+Dialogue: 0,0:38:31.26,0:38:34.26,Default,,0,0,0,,好的，我会照你说的去做，我只想你重复一遍让我确认\N{\fs10\1c&HB4DCFC&}All right, I'll do everything you say. I just need you to repeat it so I could be very clear.
+Dialogue: 0,0:38:34.65,0:38:35.40,Default,,0,0,0,,七分钟\N{\fs10\1c&HB4DCFC&}Seven minutes.
+Dialogue: 0,0:38:35.69,0:38:39.01,Default,,0,0,0,,做什么？到那边？跳进池里？该死的\N{\fs10\1c&HB4DCFC&}To do what? To get there? To jump in the pool? Goddam it.
+Dialogue: 0,0:38:40.89,0:38:41.81,Default,,0,0,0,,天啊\N{\fs10\1c&HB4DCFC&}Ah,Jesus.
+Dialogue: 0,0:38:44.82,0:38:45.42,Default,,0,0,0,,成功了\N{\fs10\1c&HB4DCFC&}We got it.
+Dialogue: 0,0:38:46.12,0:38:46.96,Default,,0,0,0,,他什么？\N{\fs10\1c&HB4DCFC&}He what?
+Dialogue: 0,0:38:47.01,0:38:48.82,Default,,0,0,0,,阻塞了追踪，我们要放弃吗？\N{\fs10\1c&HB4DCFC&}Blocked out the trace. Should we pull it?
+Dialogue: 0,0:38:48.82,0:38:51.22,Default,,0,0,0,,不，再追踪一次\N{\fs10\1c&HB4DCFC&}No. Run the trace again.
+Dialogue: 0,0:38:52.17,0:38:55.17,Default,,0,0,0,,好了，我们开始搜索简报里的黑客和电话入侵者，任何高科技人员\N{\fs10\1c&HB4DCFC&}All right, let's start dumping hackers and phreakers in the profile. Anybody high tech.
+Dialogue: 0,0:38:55.60,0:38:59.67,Default,,0,0,0,,我们要交叉比对军事背景，警方背景...\N{\fs10\1c&HB4DCFC&}Uh, we'll cross match that with military background, police background...
+Dialogue: 0,0:39:00.13,0:39:03.13,Default,,0,0,0,,安保人员、人质谈判专家\N{\fs10\1c&HB4DCFC&}uh, security training, uh, hostage negotiations.
+Dialogue: 0,0:39:06.26,0:39:11.48,Default,,0,0,0,,“卡沙达休闲中心”
+Dialogue: 0,0:39:15.99,0:39:16.89,Default,,0,0,0,,泳池在哪儿？\N{\fs10\1c&HB4DCFC&}Where's the pool?
+Dialogue: 0,0:39:16.93,0:39:17.71,Default,,0,0,0,,在那儿\N{\fs10\1c&HB4DCFC&}It's over there.
+Dialogue: 0,0:39:37.21,0:39:38.46,Default,,0,0,0,,该死，失去讯号了\N{\fs10\1c&HB4DCFC&}Shit! We lost him.
+Dialogue: 0,0:39:44.71,0:39:46.59,Default,,0,0,0,,跟踪所有离开那栋建筑的不明身份者\N{\fs10\1c&HB4DCFC&}Track all unsubs that exit the building.
+Dialogue: 0,0:40:09.49,0:40:11.54,Default,,0,0,0,,你的动作太慢，搞快点\N{\fs10\1c&HB4DCFC&}You're going too slow. Get your ass moving.
+Dialogue: 0,0:40:12.07,0:40:14.08,Default,,0,0,0,,现在，戴上帽子穿上工装\N{\fs10\1c&HB4DCFC&}Now. put on the hat and the overalls.
+Dialogue: 0,0:40:14.75,0:40:17.25,Default,,0,0,0,,把帆布袋拿到锅炉室\N{\fs10\1c&HB4DCFC&}Take the canvas bags downstairs to the boiler room.
+Dialogue: 0,0:40:17.88,0:40:20.38,Default,,0,0,0,,走淋浴室旁的楼梯\N{\fs10\1c&HB4DCFC&}Use the stairs by the shower.
+Dialogue: 0,0:40:21.00,0:40:22.84,Default,,0,0,0,,把钱放在新的袋子里\N{\fs10\1c&HB4DCFC&}Put the money into the new bags.
+Dialogue: 0,0:40:23.76,0:40:26.26,Default,,0,0,0,,出去找一辆蒙地卡罗车\N{\fs10\1c&HB4DCFC&}Then leave the building and find a Monte Carlo.
+Dialogue: 0,0:40:27.05,0:40:28.97,Default,,0,0,0,,电话上粘着车钥匙\N{\fs10\1c&HB4DCFC&}There's a key taped to the phone.
+Dialogue: 0,0:40:29.80,0:40:32.65,Default,,0,0,0,,把电话和手提箱留下 开车到荷伦隧道\N{\fs10\1c&HB4DCFC&}Leave the phone with the suitcases and drive to the Holland Tunnel.
+Dialogue: 0,0:40:32.67,0:40:33.72,Default,,0,0,0,,我们会监视着你，汤姆\N{\fs10\1c&HB4DCFC&}We'll be watching you, Tom.
+Dialogue: 0,0:41:05.00,0:41:07.92,Default,,0,0,0,,我们收到公文包的信号，它们没移动\N{\fs10\1c&HB4DCFC&}We're getting a reading on those suitcases. They haven't moved.
+Dialogue: 0,0:41:07.92,0:41:09.62,Default,,0,0,0,,告诉特别组长们，我要清除那栋建筑物\N{\fs10\1c&HB4DCFC&}Tell the S.O. leader I want that building cleared.
+Dialogue: 0,0:41:14.72,0:41:17.90,Default,,0,0,0,,500呼叫特别组，我们看到车子了\N{\fs10\1c&HB4DCFC&}500 to S.O. units. We got an eyeball. We got the Car.
+Dialogue: 0,0:41:18.12,0:41:19.50,Default,,0,0,0,,车没有移动\N{\fs10\1c&HB4DCFC&}The car has not moved.
+Dialogue: 0,0:41:34.58,0:41:35.70,Default,,0,0,0,,15组呼叫指挥部\N{\fs10\1c&HB4DCFC&}S.O. 15 to CP.
+Dialogue: 0,0:41:36.09,0:41:38.16,Default,,0,0,0,,找到公事箱，是空的\N{\fs10\1c&HB4DCFC&}Located the packages. They're empty.
+Dialogue: 0,0:41:38.71,0:41:42.78,Default,,0,0,0,,长官，范围内我们发现四辆可疑车辆，有一辆的尾灯是破的\N{\fs10\1c&HB4DCFC&}Sir, we've got four vehicles ID'd in the perimeter, one with a broken taillight.
+Dialogue: 0,0:41:43.11,0:41:45.13,Default,,0,0,0,,将特征通知所有的单位\N{\fs10\1c&HB4DCFC&}Put out a description of those vehicles.
+Dialogue: 0,0:41:46.84,0:41:48.51,Default,,0,0,0,,让所有单位拉网定位它们\N{\fs10\1c&HB4DCFC&}Have all units grid out and locate them.
+Dialogue: 0,0:42:01.65,0:42:02.78,Default,,0,0,0,,把我拿起来，浑球\N{\fs10\1c&HB4DCFC&}Pick me up. asshole.
+Dialogue: 0,0:42:07.96,0:42:08.50,Default,,0,0,0,,现在呢？\N{\fs10\1c&HB4DCFC&}Now what?
+Dialogue: 0,0:42:10.00,0:42:12.29,Default,,0,0,0,,你还支持得住么？游泳好玩吗？\N{\fs10\1c&HB4DCFC&}So how you holding up? Did you have a nice swim?
+Dialogue: 0,0:42:13.03,0:42:15.05,Default,,0,0,0,,不错，你好吗？\N{\fs10\1c&HB4DCFC&}Not bad. How're you doing?
+Dialogue: 0,0:42:15.42,0:42:18.47,Default,,0,0,0,,我很好，我很好，你知道，多谢关心\N{\fs10\1c&HB4DCFC&}Hey, I'm good. I'm good. You know, thanks for asking.
+Dialogue: 0,0:42:20.16,0:42:20.76,Default,,0,0,0,,西恩好吗？\N{\fs10\1c&HB4DCFC&}How's Sean?
+Dialogue: 0,0:42:21.92,0:42:23.56,Default,,0,0,0,,他玩得很高兴\N{\fs10\1c&HB4DCFC&}Havin' the time of his life.
+Dialogue: 0,0:42:25.81,0:42:28.63,Default,,0,0,0,,我看过你的电视广告，不错，相当漂亮\N{\fs10\1c&HB4DCFC&}Hey. I saw your TVCommerCial. It's not bad. It's pretty good.
+Dialogue: 0,0:42:28.68,0:42:31.60,Default,,0,0,0,,不过我想问你个事，你们有飞行常客计划吗？\N{\fs10\1c&HB4DCFC&}But let me ask you something. You got a frequent flyer programme?
+Dialogue: 0,0:42:31.69,0:42:33.37,Default,,0,0,0,,如果有的话\N{\fs10\1c&HB4DCFC&}'Cause if you do.
+Dialogue: 0,0:42:33.39,0:42:37.33,Default,,0,0,0,,也许等这一切结束，我可能会坐协力航班离开这鬼地方\N{\fs10\1c&HB4DCFC&}When this is over...I might just take an Endeavor flight the hell outta here.
+Dialogue: 0,0:42:39.29,0:42:41.08,Default,,0,0,0,,为什么？为什么找我？\N{\fs10\1c&HB4DCFC&}Why? Why me?
+Dialogue: 0,0:42:42.09,0:42:42.52,Default,,0,0,0,,为什么找你？\N{\fs10\1c&HB4DCFC&}Why you?
+Dialogue: 0,0:42:45.47,0:42:48.93,Default,,0,0,0,,因为你用钱解决麻烦\N{\fs10\1c&HB4DCFC&}'Cause you buy your way out of trouble.
+Dialogue: 0,0:42:49.81,0:42:50.68,Default,,0,0,0,,不是吗？\N{\fs10\1c&HB4DCFC&}Don't you?
+Dialogue: 0,0:42:51.52,0:42:53.14,Default,,0,0,0,,我读过你和那个工会的人的报告\N{\fs10\1c&HB4DCFC&}I read about you and that union guy.
+Dialogue: 0,0:42:53.21,0:42:57.98,Default,,0,0,0,,你该为此坐牢的，不过我估计你他妈是撒谎高手，对吧？\N{\fs10\1c&HB4DCFC&}You should've gone to jail for that, but I guess you're a pretty goddam good liar, huh?
+Dialogue: 0,0:42:59.03,0:43:00.65,Default,,0,0,0,,我在电视上看到你，汤姆\N{\fs10\1c&HB4DCFC&}I saw you on TV. Tom...
+Dialogue: 0,0:43:01.31,0:43:03.76,Default,,0,0,0,,跟每个人说着你有多么无辜\N{\fs10\1c&HB4DCFC&}telling everybody how innocent you were.
+Dialogue: 0,0:43:04.76,0:43:06.66,Default,,0,0,0,,我看着你的双眼\N{\fs10\1c&HB4DCFC&}I looked at your eyes.
+Dialogue: 0,0:43:07.86,0:43:12.13,Default,,0,0,0,,你知道吗？你是个可耻的骗人狗，伙计\N{\fs10\1c&HB4DCFC&}You know what? You're a lyin'-ass dog. pal.
+Dialogue: 0,0:43:13.30,0:43:16.22,Default,,0,0,0,,我知道你贿赂了那家伙\N{\fs10\1c&HB4DCFC&}I know you paid that guy off.
+Dialogue: 0,0:43:16.56,0:43:17.80,Default,,0,0,0,,你是付钱的人\N{\fs10\1c&HB4DCFC&}You're a payer.
+Dialogue: 0,0:43:18.85,0:43:19.89,Default,,0,0,0,,你做过一次\N{\fs10\1c&HB4DCFC&}You did it once.
+Dialogue: 0,0:43:21.55,0:43:23.10,Default,,0,0,0,,现在你还要再做一次\N{\fs10\1c&HB4DCFC&}Now you're gonna do it again.
+Dialogue: 0,0:43:39.31,0:43:40.24,Default,,0,0,0,,你还好吧？\N{\fs10\1c&HB4DCFC&}You okay?
+Dialogue: 0,0:43:41.31,0:43:42.14,Default,,0,0,0,,对\N{\fs10\1c&HB4DCFC&}Yeah.
+Dialogue: 0,0:43:43.54,0:43:44.92,Default,,0,0,0,,听着，卡布，你要我去吗？\N{\fs10\1c&HB4DCFC&}Listen, Cub. You want me to do this?
+Dialogue: 0,0:43:45.00,0:43:47.01,Default,,0,0,0,,- 吉米叫我去 - 去他的吉米\N{\fs10\1c&HB4DCFC&}-Jimmy said me. - Fuck what Jimmy said.
+Dialogue: 0,0:43:47.09,0:43:48.60,Default,,0,0,0,,瞧，我知道怎么做\N{\fs10\1c&HB4DCFC&}Look, I know the job, man.
+Dialogue: 0,0:43:56.62,0:43:57.33,Default,,0,0,0,,克拉克\N{\fs10\1c&HB4DCFC&}Clark, man.
+Dialogue: 0,0:43:59.23,0:44:01.82,Default,,0,0,0,,吉米不放小孩，我就不给他钱\N{\fs10\1c&HB4DCFC&}I ain't giving Jimmy the money until he cuts the kid loose.
+Dialogue: 0,0:44:06.83,0:44:07.87,Default,,0,0,0,,我就是不会给他\N{\fs10\1c&HB4DCFC&}I...I just ain't gonna do it, man.
+Dialogue: 0,0:44:08.18,0:44:10.96,Default,,0,0,0,,你这是...卡布\N{\fs10\1c&HB4DCFC&}What are you...Cub.
+Dialogue: 0,0:44:25.61,0:44:27.02,Default,,0,0,0,,你是电影迷吗，汤姆？\N{\fs10\1c&HB4DCFC&}You a movie fan. Tom?
+Dialogue: 0,0:44:30.36,0:44:32.37,Default,,0,0,0,,看过《时光机器》吗？\N{\fs10\1c&HB4DCFC&}Ever see that movie The Time Machine?
+Dialogue: 0,0:44:32.91,0:44:33.45,Default,,0,0,0,,没有\N{\fs10\1c&HB4DCFC&}No.
+Dialogue: 0,0:44:34.46,0:44:37.04,Default,,0,0,0,,那是在未来的世界，对吧？\N{\fs10\1c&HB4DCFC&}It's the, uh, land of the future, right?
+Dialogue: 0,0:44:37.18,0:44:39.96,Default,,0,0,0,,当时世界上只有两种人\N{\fs10\1c&HB4DCFC&}There's only two kinds of people in the world now:
+Dialogue: 0,0:44:41.17,0:44:44.38,Default,,0,0,0,,摩拉人和伊洛人\N{\fs10\1c&HB4DCFC&}the Morlocks and the Eloi.
+Dialogue: 0,0:44:46.51,0:44:47.14,Default,,0,0,0,,怎样？\N{\fs10\1c&HB4DCFC&}Okay.
+Dialogue: 0,0:44:48.10,0:44:51.84,Default,,0,0,0,,伊洛人住在地上，他们穿着宽袍\N{\fs10\1c&HB4DCFC&}And the Elois, they live above ground. They wear togas.
+Dialogue: 0,0:44:51.85,0:44:54.87,Default,,0,0,0,,他们都金发碧眼，他们吃葡萄之类的玩意\N{\fs10\1c&HB4DCFC&}They're all blond. They eat grapes and shit like that.
+Dialogue: 0,0:44:54.88,0:44:56.51,Default,,0,0,0,,就像是伊甸园\N{\fs10\1c&HB4DCFC&}But it's like the Garden of Eden there.
+Dialogue: 0,0:44:56.53,0:45:02.39,Default,,0,0,0,,我是说，基本上每个人就是到处躺着，听着竖琴\N{\fs10\1c&HB4DCFC&}I mean, basically, everybody just lays around, listens to harp music.
+Dialogue: 0,0:45:02.58,0:45:03.83,Default,,0,0,0,,我要怎么救回我儿子？\N{\fs10\1c&HB4DCFC&}How do I get my boy back?
+Dialogue: 0,0:45:03.90,0:45:05.46,Default,,0,0,0,,现在说摩拉人...\N{\fs10\1c&HB4DCFC&}Now. the MorloCks...
+Dialogue: 0,0:45:06.90,0:45:09.06,Default,,0,0,0,,他们住在地底，懂吗\N{\fs10\1c&HB4DCFC&}they live underground, right?
+Dialogue: 0,0:45:09.18,0:45:14.06,Default,,0,0,0,,巨大，长毛，丑陋的怪物，你对人猿想象就是那样，懂吧\N{\fs10\1c&HB4DCFC&}Big, hairy, ugly suckers like you wouldn't wish on an ape, right?
+Dialogue: 0,0:45:14.10,0:45:17.12,Default,,0,0,0,,他们跟所有机器待在下面，他们干所有的苦工\N{\fs10\1c&HB4DCFC&}They're down there with all this machinery. They're doing all the labour.
+Dialogue: 0,0:45:17.12,0:45:22.48,Default,,0,0,0,,他们确保伊洛人有足够的食物和...宽袍\N{\fs10\1c&HB4DCFC&}They're making sure that the Elois have enough food and...and togas.
+Dialogue: 0,0:45:22.58,0:45:23.60,Default,,0,0,0,,你回不回答我？\N{\fs10\1c&HB4DCFC&}Are you gonna answer me?
+Dialogue: 0,0:45:23.92,0:45:28.47,Default,,0,0,0,,如果你是伊洛人可太好了，懂吧？只有一件事…\N{\fs10\1c&HB4DCFC&}Well, this is a great deal if you're an Eloi, right? There's only one thing.
+Dialogue: 0,0:45:29.70,0:45:34.61,Default,,0,0,0,,每隔一段时间，会有个摩拉人到地面上掳走一名伊洛人\N{\fs10\1c&HB4DCFC&}Every once in a while, a Morlock comes up to the surface and snatches an Eloi
+Dialogue: 0,0:45:36.22,0:45:37.58,Default,,0,0,0,,把他带到底下\N{\fs10\1c&HB4DCFC&}takes him down there.
+Dialogue: 0,0:45:37.64,0:45:40.50,Default,,0,0,0,,好了，你不告诉我我想知道的事我就不开车\N{\fs10\1c&HB4DCFC&}All right, I'm done driving 'til you tell me what I want to know.
+Dialogue: 0,0:45:41.76,0:45:46.84,Default,,0,0,0,,摩拉人，他们不吃葡萄，他们是食人族，他们吃伊洛人\N{\fs10\1c&HB4DCFC&}The MorloCks. they don't eat grapes. They're Cannibals. They eat Elois.
+Dialogue: 0,0:45:49.39,0:45:55.77,Default,,0,0,0,,所以当我想到《时光机器》，差不多就想起纽约市，你知道吗？\N{\fs10\1c&HB4DCFC&}So when I think about, uh, The Time MaChine... it kind of reminds me of New York City, you know?
+Dialogue: 0,0:45:58.04,0:46:00.53,Default,,0,0,0,,瞧，你是个伊洛人\N{\fs10\1c&HB4DCFC&}See, you're an Eloi.
+Dialogue: 0,0:46:01.18,0:46:07.37,Default,,0,0,0,,你和你所有的朋友，行尸走肉，不知地下他妈的有多烂\N{\fs10\1c&HB4DCFC&}You and all your friends, walking around like zombies... with no fuckin'idea of the shit goin'on down below.
+Dialogue: 0,0:46:07.83,0:46:10.46,Default,,0,0,0,,这么一来我就是摩拉人吗？\N{\fs10\1c&HB4DCFC&}So does this make me a Morlock?
+Dialogue: 0,0:46:12.92,0:46:14.55,Default,,0,0,0,,我不喜欢这么想\N{\fs10\1c&HB4DCFC&}I don't like to think of myself like...
+Dialogue: 0,0:46:16.18,0:46:17.85,Default,,0,0,0,,我猜是吧\N{\fs10\1c&HB4DCFC&}I guess it does.
+Dialogue: 0,0:46:19.21,0:46:23.27,Default,,0,0,0,,每隔一段时间，你们中有一个会被掳走\N{\fs10\1c&HB4DCFC&}And every once in a while, one of you gets snatched.
+Dialogue: 0,0:46:25.81,0:46:28.20,Default,,0,0,0,,我猜那就是...\N{\fs10\1c&HB4DCFC&}I guess that's...
+Dialogue: 0,0:46:44.34,0:46:50.39,Default,,0,0,0,,瞧，好棒的城市，惠特尼美术馆见\N{\fs10\1c&HB4DCFC&}See ya. What a City. See you at the Whitney.
+Dialogue: 0,0:46:51.86,0:46:54.31,Default,,0,0,0,,四季饭店见\N{\fs10\1c&HB4DCFC&}See you at the Four Seasons.
+Dialogue: 0,0:46:55.41,0:46:59.07,Default,,0,0,0,,大都会博物馆见，待会见\N{\fs10\1c&HB4DCFC&}See you at the Met. See ya.
+Dialogue: 0,0:46:59.79,0:47:03.45,Default,,0,0,0,,待会见、待会见\N{\fs10\1c&HB4DCFC&}See you. See you.
+Dialogue: 0,0:47:07.05,0:47:08.33,Default,,0,0,0,,你又开车了，汤姆？\N{\fs10\1c&HB4DCFC&}You on the move again, Tom?
+Dialogue: 0,0:47:09.55,0:47:10.30,Default,,0,0,0,,是的\N{\fs10\1c&HB4DCFC&}Yeah.
+Dialogue: 0,0:47:11.17,0:47:12.38,Default,,0,0,0,,好吧，我们开始\N{\fs10\1c&HB4DCFC&}Okay, here we go.
+Dialogue: 0,0:47:12.68,0:47:14.93,Default,,0,0,0,,前方一英里有岔路\N{\fs10\1c&HB4DCFC&}About a mile up ahead, the road splits.
+Dialogue: 0,0:47:15.11,0:47:19.06,Default,,0,0,0,,从马鞍河出口下去，开到砂石场\N{\fs10\1c&HB4DCFC&}Take the exit onto Saddle River Road, go to the stone quarry.
+Dialogue: 0,0:47:19.31,0:47:21.02,Default,,0,0,0,,时速十英里驾驶\N{\fs10\1c&HB4DCFC&}Drive ten miles an hour.
+Dialogue: 0,0:47:21.50,0:47:24.62,Default,,0,0,0,,我全都照你的操纵办，我要怎么救回我儿子？\N{\fs10\1c&HB4DCFC&}I'm jumpin' through all your goddam hoops. How am I gonna get my boy back?
+Dialogue: 0,0:47:24.83,0:47:28.45,Default,,0,0,0,,我们会交换的，你把袋子给我，我就给你地址\N{\fs10\1c&HB4DCFC&}We'll swap. You give me the bags, I'll give you an address.
+Dialogue: 0,0:47:30.90,0:47:32.33,Default,,0,0,0,,祝你好运，女士\N{\fs10\1c&HB4DCFC&}Good luck to you, laddie.
+Dialogue: 0,0:47:40.55,0:47:42.76,Default,,0,0,0,,“马鞍河路”
+Dialogue: 0,0:48:41.92,0:48:43.34,Default,,0,0,0,,回到他妈的车上\N{\fs10\1c&HB4DCFC&}Get back in the fucking car!
+Dialogue: 0,0:48:44.59,0:48:45.63,Default,,0,0,0,,把钥匙丢出来\N{\fs10\1c&HB4DCFC&}Now, throw out the keys.
+Dialogue: 0,0:48:48.41,0:48:49.52,Default,,0,0,0,,把钱给我，老兄\N{\fs10\1c&HB4DCFC&}Give me the money, man.
+Dialogue: 0,0:48:50.48,0:48:51.40,Default,,0,0,0,,给我地址\N{\fs10\1c&HB4DCFC&}Give me the address.
+Dialogue: 0,0:48:51.65,0:48:53.02,Default,,0,0,0,,给我他妈的钱，老兄\N{\fs10\1c&HB4DCFC&}Give me the fuckin' money, man!
+Dialogue: 0,0:48:53.17,0:48:54.43,Default,,0,0,0,,你说要给我地址的\N{\fs10\1c&HB4DCFC&}You said you were gonna give me the address.
+Dialogue: 0,0:48:55.14,0:48:55.88,Default,,0,0,0,,什么？\N{\fs10\1c&HB4DCFC&}What?
+Dialogue: 0,0:48:57.41,0:49:00.24,Default,,0,0,0,,想再见到你儿子，老兄？就快给钱\N{\fs10\1c&HB4DCFC&}Do you want to see your kid again, man? Then give me the money!
+Dialogue: 0,0:49:01.96,0:49:04.34,Default,,0,0,0,,该死的，把地址给我，你这该死的！\N{\fs10\1c&HB4DCFC&}Goddam it! Give me that address, goddam you!
+Dialogue: 0,0:49:09.76,0:49:11.03,Default,,0,0,0,,别他妈的犯傻，伙计\N{\fs10\1c&HB4DCFC&}Don't be fuckin' stupid, man!
+Dialogue: 0,0:49:11.04,0:49:12.43,Default,,0,0,0,,这是FBI\N{\fs10\1c&HB4DCFC&}This is the FBI.
+Dialogue: 0,0:49:12.71,0:49:14.76,Default,,0,0,0,,把枪丢掉，然后下车\N{\fs10\1c&HB4DCFC&}Drop the gun and step away from the vehicle.
+Dialogue: 0,0:49:15.74,0:49:18.98,Default,,0,0,0,,- 举起双手，从车上下来  - 婊子养的\N{\fs10\1c&HB4DCFC&}-Put your hands in the air. Step away from the vehicle. -Son of a bitch!
+Dialogue: 0,0:49:19.20,0:49:21.58,Default,,0,0,0,,穆伦，退后，趴下\N{\fs10\1c&HB4DCFC&}Mullen, stay back. Get down.
+Dialogue: 0,0:49:21.68,0:49:23.71,Default,,0,0,0,,指挥中心，需要支援\N{\fs10\1c&HB4DCFC&}CP, need some help here.
+Dialogue: 0,0:49:23.72,0:49:25.48,Default,,0,0,0,,他被包围了，我们现身了\N{\fs10\1c&HB4DCFC&}He's surrounded. We've gone overt.
+Dialogue: 0,0:49:25.89,0:49:29.76,Default,,0,0,0,,地面上有一名嫌犯，开着全地形车\N{\fs10\1c&HB4DCFC&}We have one subject on the ground operating an ATV.
+Dialogue: 0,0:49:29.77,0:49:32.60,Default,,0,0,0,,白人男子，拿着手枪…\N{\fs10\1c&HB4DCFC&}A white male armed with a handgun, and he's got...
+Dialogue: 0,0:49:32.65,0:49:34.28,Default,,0,0,0,,- 我们正盯着他  - 很好\N{\fs10\1c&HB4DCFC&}-We have an eye on him. - Good.
+Dialogue: 0,0:49:34.98,0:49:36.01,Default,,0,0,0,,那是谁？\N{\fs10\1c&HB4DCFC&}Who is that?
+Dialogue: 0,0:49:37.84,0:49:40.00,Default,,0,0,0,,加油，卡比，加油\N{\fs10\1c&HB4DCFC&}Come on, Cubby. Come on, Cubby.
+Dialogue: 0,0:49:47.40,0:49:52.32,Default,,0,0,0,,- 停下，否则开枪  - 快下车，趴下，你无路可逃\N{\fs10\1c&HB4DCFC&}- Stop. or we'll shoot. - Get off the vehicle and lie down. You have no way out.
+Dialogue: 0,0:49:55.74,0:49:58.35,Default,,0,0,0,,你被包围了 投降吧\N{\fs10\1c&HB4DCFC&}You are surrounded. Give yourself up.
+Dialogue: 0,0:49:58.68,0:50:00.91,Default,,0,0,0,,- 这是FBI  - 你没地方逃了\N{\fs10\1c&HB4DCFC&}- This is the FBI. - You've got nowhere to go.
+Dialogue: 0,0:50:01.01,0:50:02.41,Default,,0,0,0,,你被包围了\N{\fs10\1c&HB4DCFC&}You're surrounded
+Dialogue: 0,0:50:13.09,0:50:14.71,Default,,0,0,0,,这是你最后的警告\N{\fs10\1c&HB4DCFC&}This is your last warning.
+Dialogue: 0,0:50:21.09,0:50:22.41,Default,,0,0,0,,投降，马上！\N{\fs10\1c&HB4DCFC&}Surrender yourself, now.
+Dialogue: 0,0:50:24.71,0:50:28.86,Default,,0,0,0,,这是FBI，没地方逃了\N{\fs10\1c&HB4DCFC&}This is the FBI. There is nowhere to go.
+Dialogue: 0,0:50:29.48,0:50:32.19,Default,,0,0,0,,把枪丢下，立刻停车\N{\fs10\1c&HB4DCFC&}Drop the gun. Stop at once.
+Dialogue: 0,0:50:40.45,0:50:41.82,Default,,0,0,0,,快！快！\N{\fs10\1c&HB4DCFC&}Move! Move!
+Dialogue: 0,0:50:42.65,0:50:45.59,Default,,0,0,0,,SWAT组长报告中心，我们已展开，我们在行动\N{\fs10\1c&HB4DCFC&}SWAT Team Leader to CP. We have deployed. We're movin'in.
+Dialogue: 0,0:50:54.92,0:50:56.53,Default,,0,0,0,,绿灯！把他撂倒\N{\fs10\1c&HB4DCFC&}Got a green light! Take him out!
+Dialogue: 0,0:51:01.04,0:51:01.50,Default,,0,0,0,,可恶\N{\fs10\1c&HB4DCFC&}Oh, shit.
+Dialogue: 0,0:51:04.17,0:51:05.42,Default,,0,0,0,,SWAT组长报告中心\N{\fs10\1c&HB4DCFC&}SWA T Team Leader to CP.
+Dialogue: 0,0:51:05.66,0:51:08.76,Default,,0,0,0,,一名特工倒地，一名嫌犯倒地\N{\fs10\1c&HB4DCFC&}We have an agent down. We have a subject down.
+Dialogue: 0,0:51:10.47,0:51:12.51,Default,,0,0,0,,谁被射伤？到底是谁？\N{\fs10\1c&HB4DCFC&}Who got shot? Who the hell was shot?
+Dialogue: 0,0:51:30.10,0:51:31.88,Default,,0,0,0,,他在哪儿？你们对他干了什么？\N{\fs10\1c&HB4DCFC&}Where is he? What have you done with him?
+Dialogue: 0,0:51:34.33,0:51:34.96,Default,,0,0,0,,什么？\N{\fs10\1c&HB4DCFC&}What?
+Dialogue: 0,0:51:37.21,0:51:38.76,Default,,0,0,0,,说吧，快说\N{\fs10\1c&HB4DCFC&}Say it. Come on.
+Dialogue: 0,0:51:39.84,0:51:41.18,Default,,0,0,0,,退后，快，退后\N{\fs10\1c&HB4DCFC&}Stand back. Come on. Step back.
+Dialogue: 0,0:51:41.27,0:51:43.34,Default,,0,0,0,,不不，他...他想跟我说些什么\N{\fs10\1c&HB4DCFC&}No, no, he...he's trying to tell me something.
+Dialogue: 0,0:51:43.35,0:51:45.08,Default,,0,0,0,,退后，让我们稳定他的情况\N{\fs10\1c&HB4DCFC&}Look, back off. Let us stabilize him.
+Dialogue: 0,0:51:45.11,0:51:45.85,Default,,0,0,0,,医护人员\N{\fs10\1c&HB4DCFC&}Medic!
+Dialogue: 0,0:51:46.18,0:51:48.10,Default,,0,0,0,,他想要告诉我我儿子在哪，我肯定\N{\fs10\1c&HB4DCFC&}He's trying to tell me where my son is. I'm sure of it.
+Dialogue: 0,0:51:50.19,0:51:52.63,Default,,0,0,0,,你们在干什么？我没授权过\N{\fs10\1c&HB4DCFC&}What are you people do...I did not authorize this!
+Dialogue: 0,0:51:52.68,0:51:53.78,Default,,0,0,0,,我们是奉命行事\N{\fs10\1c&HB4DCFC&}We're here under orders.
+Dialogue: 0,0:51:53.82,0:51:55.20,Default,,0,0,0,,那个他妈的骗子\N{\fs10\1c&HB4DCFC&}That fucking liar!
+Dialogue: 0,0:51:56.32,0:51:58.13,Default,,0,0,0,,- 他要死了  - 别让他死，天啊！\N{\fs10\1c&HB4DCFC&}- Oh, we're losin' him. - Don't let him die.
+Dialogue: 0,0:51:58.14,0:52:00.62,Default,,0,0,0,,耶稣基督，别让他死了，天，别让他死了\N{\fs10\1c&HB4DCFC&}Jesus Christ, don't let him die. God, don't let him die.
+Dialogue: 0,0:52:05.27,0:52:06.27,Default,,0,0,0,,别放弃\N{\fs10\1c&HB4DCFC&}Don't give up.
+Dialogue: 0,0:52:13.17,0:52:14.01,Default,,0,0,0,,该死！\N{\fs10\1c&HB4DCFC&}Shit!
+Dialogue: 0,0:52:14.69,0:52:15.47,Default,,0,0,0,,怎么了？\N{\fs10\1c&HB4DCFC&}What?
+Dialogue: 0,0:52:16.14,0:52:17.52,Default,,0,0,0,,10-7，长官\N{\fs10\1c&HB4DCFC&}Ten-seven, sir.
+Dialogue: 0,0:52:20.66,0:52:21.40,Default,,0,0,0,,他死了\N{\fs10\1c&HB4DCFC&}He's dead.
+Dialogue: 0,0:52:34.96,0:52:36.49,Default,,0,0,0,,现在我该怎么找西恩？\N{\fs10\1c&HB4DCFC&}How...How am I gonna find Sean now?
+Dialogue: 0,0:52:53.19,0:52:54.42,Default,,0,0,0,,你们害死我儿子\N{\fs10\1c&HB4DCFC&}You killed my son.
+Dialogue: 0,0:53:22.90,0:53:24.07,Default,,0,0,0,,尽量给我线索\N{\fs10\1c&HB4DCFC&}Give me as much as you can.
+Dialogue: 0,0:53:24.65,0:53:27.28,Default,,0,0,0,,这家伙一定是被假释、缓刑什么的…\N{\fs10\1c&HB4DCFC&}This guy's got to be on parole, probation, something.
+Dialogue: 0,0:53:27.33,0:53:28.99,Default,,0,0,0,,- 找到名字...- 我跟你说过不准报警的\N{\fs10\1c&HB4DCFC&}- Get the name of...- I told you no cops.
+Dialogue: 0,0:53:29.18,0:53:30.29,Default,,0,0,0,,老天\N{\fs10\1c&HB4DCFC&}Ah, jeez!
+Dialogue: 0,0:53:33.50,0:53:34.86,Default,,0,0,0,,你们本应只跟踪钱箱\N{\fs10\1c&HB4DCFC&}You were supposed to follow the money!
+Dialogue: 0,0:53:34.90,0:53:36.26,Default,,0,0,0,,他们是跟着钱箱，汤姆\N{\fs10\1c&HB4DCFC&}They were following the money, Tom.
+Dialogue: 0,0:53:36.36,0:53:38.90,Default,,0,0,0,,可是那家伙拿枪指着你，他们没有选择\N{\fs10\1c&HB4DCFC&}The guy had a gun in your face. They didn't have a choice.
+Dialogue: 0,0:53:38.91,0:53:41.31,Default,,0,0,0,,他们认为你处于直接危险中\N{\fs10\1c&HB4DCFC&}They thought you were in direct danger.
+Dialogue: 0,0:53:41.51,0:53:42.91,Default,,0,0,0,,那个...那是什么意思？\N{\fs10\1c&HB4DCFC&}What does...what does that mean?
+Dialogue: 0,0:53:42.92,0:53:44.07,Default,,0,0,0,,我是说，他是不是死了？\N{\fs10\1c&HB4DCFC&}I mean is he dead?
+Dialogue: 0,0:53:44.08,0:53:45.77,Default,,0,0,0,,如果他死了，就说他死了\N{\fs10\1c&HB4DCFC&}Because if he's dead, just say he's dead.
+Dialogue: 0,0:53:45.78,0:53:48.54,Default,,0,0,0,,别告诉我出了问题，就说我儿子死了！\N{\fs10\1c&HB4DCFC&}Don't tell me something went wrong. Just say my son is dead!
+Dialogue: 0,0:53:48.77,0:53:51.44,Default,,0,0,0,,凯特，我们在假设他活着的前提下运作\N{\fs10\1c&HB4DCFC&}Kate, we are operating under the assumption that he's alive.
+Dialogue: 0,0:53:51.49,0:53:52.87,Default,,0,0,0,,你是说你们不知道\N{\fs10\1c&HB4DCFC&}You mean you don't know!
+Dialogue: 0,0:53:52.92,0:53:54.93,Default,,0,0,0,,你们不知道他在哪儿 不知道他是否活着\N{\fs10\1c&HB4DCFC&}You don't know where he is! You don't know if he is!
+Dialogue: 0,0:53:55.01,0:53:58.06,Default,,0,0,0,,你们是该死的FBI，但你们屁都不知道\N{\fs10\1c&HB4DCFC&}You're the goddam FBI, and you don't know shit!
+Dialogue: 0,0:53:58.07,0:54:00.86,Default,,0,0,0,,- 我们每一个特工...每个特工  - 你们杀了那混蛋 现在怎么办？\N{\fs10\1c&HB4DCFC&}- We have every agent...every agent...- You killed the son of a bitch and now...What?
+Dialogue: 0,0:54:00.87,0:54:02.88,Default,,0,0,0,,- 凯特，凯特  - 走开...天啊\N{\fs10\1c&HB4DCFC&}- Katie. Katie. - Get...God!
+Dialogue: 0,0:54:04.54,0:54:06.46,Default,,0,0,0,,走吧，走吧\N{\fs10\1c&HB4DCFC&}Go. Go away.
+Dialogue: 0,0:54:06.48,0:54:07.12,Default,,0,0,0,,走开\N{\fs10\1c&HB4DCFC&}Go. Go.
+Dialogue: 0,0:54:09.63,0:54:10.52,Default,,0,0,0,,我们知道\N{\fs10\1c&HB4DCFC&}We know
+Dialogue: 0,0:54:11.03,0:54:14.02,Default,,0,0,0,,采石场的绑匪不是单独行动，我们知道这一点\N{\fs10\1c&HB4DCFC&}that the kidnapper at the quarry was not alone. We know that.
+Dialogue: 0,0:54:15.52,0:54:18.41,Default,,0,0,0,,他的同伙是谁我们也有很好的看法\N{\fs10\1c&HB4DCFC&}We also have a real good idea about who he was teamed up with.
+Dialogue: 0,0:54:18.42,0:54:19.65,Default,,0,0,0,,我给你们看看这个\N{\fs10\1c&HB4DCFC&}Now, let me show you something.
+Dialogue: 0,0:54:20.15,0:54:23.54,Default,,0,0,0,,采石场那家伙，卡比·邦恩，两次因入室抢劫入狱\N{\fs10\1c&HB4DCFC&}The guy at the quarry, Cubby Barnes, has been in jail twice for burglary.
+Dialogue: 0,0:54:23.55,0:54:25.50,Default,,0,0,0,,他不是高科技人才\N{\fs10\1c&HB4DCFC&}This is no high-tech mastermind.
+Dialogue: 0,0:54:25.57,0:54:26.53,Default,,0,0,0,,但这个家伙\N{\fs10\1c&HB4DCFC&}This guy right here...
+Dialogue: 0,0:54:27.03,0:54:30.60,Default,,0,0,0,,凯特，汤姆，你们认得他吗？\N{\fs10\1c&HB4DCFC&}Kate, Tom, you recognize him?
+Dialogue: 0,0:54:35.96,0:54:37.13,Default,,0,0,0,,- 认得吗？ - 不\N{\fs10\1c&HB4DCFC&}- Do you? - No.
+Dialogue: 0,0:54:37.37,0:54:41.14,Default,,0,0,0,,好，这是克拉克·邦恩，嫌犯的哥哥\N{\fs10\1c&HB4DCFC&}Okay. Now, this is Clark Barnes, brother to the subject.
+Dialogue: 0,0:54:41.52,0:54:45.05,Default,,0,0,0,,我们回溯，在你儿子的公园视频中发现了他\N{\fs10\1c&HB4DCFC&}Now, we went back and we found him in your son's video of the park.
+Dialogue: 0,0:54:45.66,0:54:51.21,Default,,0,0,0,,这个人是家里的头脑，我们也知道他在犯罪食物链中位置很高\N{\fs10\1c&HB4DCFC&}This guy is the brains in the family and we also know he's a lot higher up the criminal food chain.
+Dialogue: 0,0:54:51.32,0:54:54.86,Default,,0,0,0,,根据纽约警方说，这个克拉克，和他的弟弟卡比，他俩向来在一起\N{\fs10\1c&HB4DCFC&}According to the NYPD, this guy Clark, his brother Cubby, they're supposed to be inseparable.
+Dialogue: 0,0:54:55.17,0:54:57.36,Default,,0,0,0,,现在我保证我们会抓紧这一点\N{\fs10\1c&HB4DCFC&}Now, I guarantee you, we are gonna do our homework on this...
+Dialogue: 0,0:54:57.37,0:54:59.26,Default,,0,0,0,,我们会查出另一个同伙\N{\fs10\1c&HB4DCFC&}and we will come up with another player.
+Dialogue: 0,0:54:59.79,0:55:01.12,Default,,0,0,0,,同时，我们要做的…\N{\fs10\1c&HB4DCFC&}In the meantime, what we gotta do...
+Dialogue: 0,0:55:02.63,0:55:05.32,Default,,0,0,0,,- 基督，不是吧  - 有摄影记者\N{\fs10\1c&HB4DCFC&}Aw, Christ. Not this shit. - We got a cameraman.
+Dialogue: 0,0:55:05.43,0:55:06.52,Default,,0,0,0,,杰克\N{\fs10\1c&HB4DCFC&}Jack.
+Dialogue: 0,0:55:07.37,0:55:09.11,Default,,0,0,0,,我们能派探员出去吗？\N{\fs10\1c&HB4DCFC&}Can we get some agents out there?
+Dialogue: 0,0:55:12.62,0:55:15.39,Default,,0,0,0,,- 刚收到的，纽约局的爆炸性消息  - 朗尼，消息走漏了\N{\fs10\1c&HB4DCFC&}- This just in. A breaking story from our New York bureau. - Lonnie. It's out.
+Dialogue: 0,0:55:16.02,0:55:17.36,Default,,0,0,0,,州警的消息来源告诉我们\N{\fs10\1c&HB4DCFC&}State police sources tell us
+Dialogue: 0,0:55:17.37,0:55:21.26,Default,,0,0,0,,在一次赎金交付中一名男子遭到枪杀\N{\fs10\1c&HB4DCFC&}a man has been shot and killed in an apparent botched ransom drop.
+Dialogue: 0,0:55:21.32,0:55:25.91,Default,,0,0,0,,同时有传言说千万富翁航空大亨汤姆·穆伦也在现场\N{\fs10\1c&HB4DCFC&}There's also word that multimillionaire airline mogul Tom Mullen has been placed at the scene.
+Dialogue: 0,0:55:26.29,0:55:27.32,Default,,0,0,0,,更多消息\N{\fs10\1c&HB4DCFC&}With more on that story.
+Dialogue: 0,0:55:27.33,0:55:30.82,Default,,0,0,0,,我们转到唐娜·汉诺威现场，就在纽约汤姆·穆伦家的前面\N{\fs10\1c&HB4DCFC&}Let's go to Donna Hanover live...in front of Tom Mullen's New York home.
+Dialogue: 0,0:55:30.89,0:55:31.52,Default,,0,0,0,,唐娜\N{\fs10\1c&HB4DCFC&}Donna
+Dialogue: 0,0:55:31.67,0:55:36.99,Default,,0,0,0,,我们没得到死者身份，或其与西恩·穆伦绑架案之关系的官方报告\N{\fs10\1c&HB4DCFC&}We have no official report yet on the identity of the victim... or his role in the Sean Mullen kidnapping.
+Dialogue: 0,0:55:37.01,0:55:40.08,Default,,0,0,0,,希望我们能在晚些时候为您带来更多消息\N{\fs10\1c&HB4DCFC&}Hopefully. we'll have more information for you later in this hour...
+Dialogue: 0,0:55:40.47,0:55:44.52,Default,,0,0,0,,但诸多细节正从警方和FBI消息来源慢慢透出\N{\fs10\1c&HB4DCFC&}but details have been slow to come from the police and FBI sources.
+Dialogue: 0,0:55:44.53,0:55:48.77,Default,,0,0,0,,明早我们将在“日安纽约”中带给您全面报道，当然...\N{\fs10\1c&HB4DCFC&}We'll bring you full developments tomorrow morning... beginning with Good Day, New York, and of course...
+Dialogue: 0,0:55:48.80,0:55:50.89,Default,,0,0,0,,至于穆伦公寓这里的进展情况…\N{\fs10\1c&HB4DCFC&}as things happen here at the Mullen apartment building...
+Dialogue: 0,0:55:50.90,0:55:52.26,Default,,0,0,0,,- 嘿，你干什么？- 我们将带给您信息...\N{\fs10\1c&HB4DCFC&}Hey, wh-what are you doing?- we'll bring you the information.
+Dialogue: 0,0:55:52.27,0:55:53.29,Default,,0,0,0,,打电话给我妈\N{\fs10\1c&HB4DCFC&}Calling my mother.
+Dialogue: 0,0:55:53.30,0:55:54.99,Default,,0,0,0,,不，你不能这么干，不能用这部电话\N{\fs10\1c&HB4DCFC&}No, man, you can't do that. Not from this phone.
+Dialogue: 0,0:55:55.00,0:55:56.01,Default,,0,0,0,,他妈的滚开\N{\fs10\1c&HB4DCFC&}Get the fuck outta here.
+Dialogue: 0,0:55:56.10,0:55:57.65,Default,,0,0,0,,嘿嘿，放下电话\N{\fs10\1c&HB4DCFC&}Hey, hey, put the phone down.
+Dialogue: 0,0:55:57.99,0:55:58.70,Default,,0,0,0,,怎么了，吉米？\N{\fs10\1c&HB4DCFC&}What's the matter,Jimmy?
+Dialogue: 0,0:55:58.75,0:56:01.47,Default,,0,0,0,,你不想让我妈知道她儿子死了，就因为你搞砸了？\N{\fs10\1c&HB4DCFC&}You don't want my mother to know that her son's dead 'cause you fucked up?
+Dialogue: 0,0:56:02.25,0:56:04.50,Default,,0,0,0,,- 关掉那玩意  - 我说事情就是那样，不是吗？\N{\fs10\1c&HB4DCFC&}-Turn that shit off. -I mean, that's what happened, isn't it?
+Dialogue: 0,0:56:06.63,0:56:08.18,Default,,0,0,0,,这人没有完全照办，对吧吉米？\N{\fs10\1c&HB4DCFC&}I mean, it's not exactly like this guy just rolled over, is it, Jim?
+Dialogue: 0,0:56:08.79,0:56:10.72,Default,,0,0,0,,别激动，放下该死的电话\N{\fs10\1c&HB4DCFC&}Just take it easy. Put the goddam phone down.
+Dialogue: 0,0:56:16.69,0:56:17.90,Default,,0,0,0,,他他妈的是个孩子\N{\fs10\1c&HB4DCFC&}He's a fuckin' kid.
+Dialogue: 0,0:56:23.42,0:56:25.07,Default,,0,0,0,,嘿嘿，冷静，放轻松\N{\fs10\1c&HB4DCFC&}Hey, hey, calm down. Take it easy.
+Dialogue: 0,0:56:26.16,0:56:27.36,Default,,0,0,0,,你要我冷静？\N{\fs10\1c&HB4DCFC&}You want me to calm down, huh?
+Dialogue: 0,0:56:27.46,0:56:29.02,Default,,0,0,0,,你他妈的要我冷静？\N{\fs10\1c&HB4DCFC&}You want me to fucking calm down?
+Dialogue: 0,0:56:29.37,0:56:31.50,Default,,0,0,0,,你有没有意识到他们正在找我，吉米？\N{\fs10\1c&HB4DCFC&}You realize they're looking for me right now, Jimmy?
+Dialogue: 0,0:56:32.05,0:56:34.16,Default,,0,0,0,,我被指认了！我没法回归自己的生活了\N{\fs10\1c&HB4DCFC&}I'm fingered! I can't go back to my life!
+Dialogue: 0,0:56:34.25,0:56:35.56,Default,,0,0,0,,你要我怎么办？你说啊\N{\fs10\1c&HB4DCFC&}What do you want me to do? You tell me!
+Dialogue: 0,0:56:35.59,0:56:36.49,Default,,0,0,0,,- 闭嘴  - 你说啊\N{\fs10\1c&HB4DCFC&}-Shut up. - You tell me, huh?
+Dialogue: 0,0:56:36.52,0:56:39.10,Default,,0,0,0,,你知道你也不能参加弟弟的葬礼了，老兄\N{\fs10\1c&HB4DCFC&}You know, you're not gonna be able to go to your brother's funeral either, man.
+Dialogue: 0,0:56:39.12,0:56:40.50,Default,,0,0,0,,闭上你他妈的嘴\N{\fs10\1c&HB4DCFC&}Shut the fuck up!
+Dialogue: 0,0:56:41.26,0:56:42.40,Default,,0,0,0,,埋了那孩子，吉米\N{\fs10\1c&HB4DCFC&}The kid goes in the ground,Jim.
+Dialogue: 0,0:56:42.60,0:56:44.96,Default,,0,0,0,,就这么着，就这么着，去他妈的钱\N{\fs10\1c&HB4DCFC&}That's it. That's it. Fuck the money.
+Dialogue: 0,0:56:44.97,0:56:46.00,Default,,0,0,0,,我们做掉那孩子，我离开这里\N{\fs10\1c&HB4DCFC&}We do the kid, and I'm outta here.
+Dialogue: 0,0:56:46.01,0:56:47.25,Default,,0,0,0,,喔喔，慢着\N{\fs10\1c&HB4DCFC&}Whoa, whoa, whoa. Wait a minute.
+Dialogue: 0,0:56:47.29,0:56:48.15,Default,,0,0,0,,他说得对\N{\fs10\1c&HB4DCFC&}He's right.
+Dialogue: 0,0:56:48.66,0:56:51.63,Default,,0,0,0,,- 我的意思是，你说过反正要杀他的  - 闭嘴\N{\fs10\1c&HB4DCFC&}-I mean, you said you were gonna do it anyhow. -Shut up!
+Dialogue: 0,0:56:53.03,0:56:54.07,Default,,0,0,0,,- 你上哪儿？ - 他妈的滚开\N{\fs10\1c&HB4DCFC&}- Where are you goin'? - Get out of my fuckin'...
+Dialogue: 0,0:57:06.35,0:57:06.97,Default,,0,0,0,,吸口气\N{\fs10\1c&HB4DCFC&}Take a breath.
+Dialogue: 0,0:57:08.59,0:57:10.22,Default,,0,0,0,,快点，吸口气\N{\fs10\1c&HB4DCFC&}Come on, come on. Take a breath.
+Dialogue: 0,0:57:13.83,0:57:16.46,Default,,0,0,0,,我带你干这票，是因为你有头脑和胆识\N{\fs10\1c&HB4DCFC&}I brought you in on this 'cause you had brains and balls.
+Dialogue: 0,0:57:18.86,0:57:19.94,Default,,0,0,0,,想想\N{\fs10\1c&HB4DCFC&}Think.
+Dialogue: 0,0:57:22.41,0:57:26.77,Default,,0,0,0,,那孩子要死...等我们不再需要他时\N{\fs10\1c&HB4DCFC&}Hmm? The kid's gonna die... when we don't need him any more.
+Dialogue: 0,0:57:27.20,0:57:28.45,Default,,0,0,0,,现在，你他妈用点脑子\N{\fs10\1c&HB4DCFC&}Now, use your fuckin' head.
+Dialogue: 0,0:57:34.66,0:57:35.71,Default,,0,0,0,,去查看那孩子\N{\fs10\1c&HB4DCFC&}Go check on the kid.
+Dialogue: 0,0:57:42.18,0:57:43.27,Default,,0,0,0,,没关系，去吧\N{\fs10\1c&HB4DCFC&}It's all right. Go on.
+Dialogue: 0,0:57:44.48,0:57:44.85,Default,,0,0,0,,去啊\N{\fs10\1c&HB4DCFC&}Go on.
+Dialogue: 0,0:57:54.32,0:57:56.66,Default,,0,0,0,,他们杀了你弟弟 你却想一走了之？\N{\fs10\1c&HB4DCFC&}They kill your brother, and you wanna walk away?
+Dialogue: 0,0:57:57.70,0:57:59.04,Default,,0,0,0,,那样你算什么鬼东西？\N{\fs10\1c&HB4DCFC&}What the hell does that make you?
+Dialogue: 0,0:58:03.05,0:58:04.55,Default,,0,0,0,,这事情没完\N{\fs10\1c&HB4DCFC&}This thing is not over.
+Dialogue: 0,0:58:05.25,0:58:10.45,Default,,0,0,0,,我现在向你发誓，尤其是现在\N{\fs10\1c&HB4DCFC&}I swear to you right now... now, more than ever...
+Dialogue: 0,0:58:12.10,0:58:15.31,Default,,0,0,0,,这家伙将付出代价\N{\fs10\1c&HB4DCFC&}this guy will pay.
+Dialogue: 0,0:58:28.12,0:58:29.71,Default,,0,0,0,,我能吃块士力架吗？\N{\fs10\1c&HB4DCFC&}Can I have a chocolate bar?
+Dialogue: 0,0:58:37.59,0:58:38.59,Default,,0,0,0,,我认识你\N{\fs10\1c&HB4DCFC&}I know you.
+Dialogue: 0,0:58:39.05,0:58:40.01,Default,,0,0,0,,不，你不认识\N{\fs10\1c&HB4DCFC&}No, you don't.
+Dialogue: 0,0:58:40.45,0:58:42.49,Default,,0,0,0,,别看我，别看我！\N{\fs10\1c&HB4DCFC&}Don't look at me! Don't look at me.
+Dialogue: 0,0:58:43.60,0:58:46.37,Default,,0,0,0,,士力架，什么，你以为这都没发生过？\N{\fs10\1c&HB4DCFC&}Chocolate bar. What, do you think this isn't happening?
+Dialogue: 0,0:58:46.86,0:58:48.58,Default,,0,0,0,,什么，你以为你爸会来救你？\N{\fs10\1c&HB4DCFC&}What, you think your dad's gonna come in and save you?
+Dialogue: 0,0:58:48.98,0:58:52.46,Default,,0,0,0,,你是这么想的吗？他不会，没人会来，明白吗？\N{\fs10\1c&HB4DCFC&}Is that what you think? Well, he ain't. Nobody's comin', all right?
+Dialogue: 0,0:58:52.47,0:58:56.01,Default,,0,0,0,,你明白吗？没有人会来，因为你就这命了\N{\fs10\1c&HB4DCFC&}You understand that? Nobody's comin', 'cause this is it for you.
+Dialogue: 0,0:58:59.32,0:59:03.64,Default,,0,0,0,,围绕备受瞩目的汤姆·穆伦的儿子西恩绑架案…\N{\fs10\1c&HB4DCFC&}...surfacing surrounding the high-profile kidnapping case of Tom Mullen's son. Sean.
+Dialogue: 0,0:59:03.65,0:59:05.10,Default,,0,0,0,,纽约一台有独家消息...\N{\fs10\1c&HB4DCFC&}New York One has exclusive information about...
+Dialogue: 0,0:59:05.11,0:59:07.10,Default,,0,0,0,,你知道黑人兄弟怎么说吗\N{\fs10\1c&HB4DCFC&}You know what the brothers call this?
+Dialogue: 0,0:59:07.31,0:59:09.13,Default,,0,0,0,,这叫“真扯”，懂吧？\N{\fs10\1c&HB4DCFC&}This is "more drama" right?
+Dialogue: 0,0:59:09.68,0:59:15.47,Default,,0,0,0,,比如“狗屎，老兄，真扯？今天最好待在家里，”\N{\fs10\1c&HB4DCFC&}Like, "Shit, man, more drama? Best stay indoors today."
+Dialogue: 0,0:59:15.68,0:59:20.57,Default,,0,0,0,,你听过吗？“真扯”…\N{\fs10\1c&HB4DCFC&}You ever hear that? "More drama."
+Dialogue: 0,0:59:21.28,0:59:22.27,Default,,0,0,0,,我真扯…\N{\fs10\1c&HB4DCFC&}"More drama me"
+Dialogue: 0,0:59:23.48,0:59:24.57,Default,,0,0,0,,兄弟真扯\N{\fs10\1c&HB4DCFC&}"More drama boy"
+Dialogue: 0,0:59:26.58,0:59:28.90,Default,,0,0,0,,- 你还好吧？ - 不，对，好\N{\fs10\1c&HB4DCFC&}- You all right? - No, yeah. Yeah, good.
+Dialogue: 0,0:59:37.74,0:59:38.69,Default,,0,0,0,,金巴，听听这个\N{\fs10\1c&HB4DCFC&}Kimba, listen to this.
+Dialogue: 0,0:59:39.17,0:59:40.61,Default,,0,0,0,,那就不成问题\N{\fs10\1c&HB4DCFC&}It shouldn't be a problem.
+Dialogue: 0,0:59:40.67,0:59:41.57,Default,,0,0,0,,这个\N{\fs10\1c&HB4DCFC&}That.
+Dialogue: 0,0:59:41.67,0:59:44.37,Default,,0,0,0,,“那就不成问题”后面，你听到什么？\N{\fs10\1c&HB4DCFC&}After "It shouldn't be a problem" what do you hear?
+Dialogue: 0,0:59:44.73,0:59:46.00,Default,,0,0,0,,等等，再放一次\N{\fs10\1c&HB4DCFC&}Wait. Play it back again.
+Dialogue: 0,0:59:49.22,0:59:50.36,Default,,0,0,0,,那就不成问题\N{\fs10\1c&HB4DCFC&}It shouldn't be a problem.
+Dialogue: 0,0:59:50.92,0:59:52.76,Default,,0,0,0,,听起来像是某种号角\N{\fs10\1c&HB4DCFC&}It sounds like some kind of horn.
+Dialogue: 0,0:59:52.77,0:59:54.21,Default,,0,0,0,,对，我知道是号角，但...\N{\fs10\1c&HB4DCFC&}Yeah, I know it's a horn, but what...
+Dialogue: 0,0:59:54.92,0:59:57.62,Default,,0,0,0,,像是...像是有号角，某种雾号\N{\fs10\1c&HB4DCFC&}It's like...It's like there's a horn, a sort of foghorn.
+Dialogue: 0,0:59:57.63,0:59:58.82,Default,,0,0,0,,太快，不是渡船\N{\fs10\1c&HB4DCFC&}It's too fast for a ferry.
+Dialogue: 0,1:00:02.84,1:00:03.92,Default,,0,0,0,,那就不成问题\N{\fs10\1c&HB4DCFC&}It shouldn't be a problem.
+Dialogue: 0,1:00:07.62,1:00:10.18,Default,,0,0,0,,同时，你现在替我给她一个大拥抱\N{\fs10\1c&HB4DCFC&}In the meantime, now you give her a big hug from me.
+Dialogue: 0,1:00:11.22,1:00:13.43,Default,,0,0,0,,不，我不管，你叫醒她\N{\fs10\1c&HB4DCFC&}Nah, I don't care. You wake her up.
+Dialogue: 0,1:00:14.27,1:00:16.44,Default,,0,0,0,,不了，别叫醒她，我只是...\N{\fs10\1c&HB4DCFC&}Nah, don't wake her up. I'm just...
+Dialogue: 0,1:00:17.28,1:00:20.49,Default,,0,0,0,,姑娘，我真高兴我们不是有钱人\N{\fs10\1c&HB4DCFC&}Ah, girl, I am so glad we are not rich.
+Dialogue: 0,1:00:21.01,1:00:24.08,Default,,0,0,0,,你得为你所拥有的感谢上帝\N{\fs10\1c&HB4DCFC&}You just gotta thank God for what you have.
+Dialogue: 0,1:00:25.29,1:00:28.37,Default,,0,0,0,,我也爱你，我得挂了，我会再打给你\N{\fs10\1c&HB4DCFC&}I love you too. I gotta go. I'm gonna call you back.
+Dialogue: 0,1:00:28.46,1:00:29.50,Default,,0,0,0,,好，再见\N{\fs10\1c&HB4DCFC&}Okay. Bye-bye. Hey.
+Dialogue: 0,1:00:37.40,1:00:37.80,Default,,0,0,0,,为什么？\N{\fs10\1c&HB4DCFC&}Why...
+Dialogue: 0,1:00:43.65,1:00:45.62,Default,,0,0,0,,为什么这个人，这些人…为什么他们...\N{\fs10\1c&HB4DCFC&}Why would this guy, these people...Why would they...
+Dialogue: 0,1:00:49.65,1:00:54.85,Default,,0,0,0,,他们为什么要放了我儿子？不管我怎么做\N{\fs10\1c&HB4DCFC&}Why would they ever let my son go no matter what I do?
+Dialogue: 0,1:00:54.91,1:01:00.04,Default,,0,0,0,,我是说，不管我做什么，付钱或不付钱，抱怨，告诉他们去死\N{\fs10\1c&HB4DCFC&}I mean, no matter what I do. I mean, pay, don't pay, comply, tell him to go fuck himself.
+Dialogue: 0,1:01:00.05,1:01:01.84,Default,,0,0,0,,为什么他们要放他回来？\N{\fs10\1c&HB4DCFC&}Why would they give him back?
+Dialogue: 0,1:01:02.34,1:01:04.57,Default,,0,0,0,,我是说，你怎么说他都是证人\N{\fs10\1c&HB4DCFC&}I mean, he's a witness any way you cut it.
+Dialogue: 0,1:01:04.58,1:01:08.88,Default,,0,0,0,,全是胡扯，全是...十个带回七个\N{\fs10\1c&HB4DCFC&}It's all bullshit. It's all just...just seven out of ten.
+Dialogue: 0,1:01:09.43,1:01:10.56,Default,,0,0,0,,你在说什么？\N{\fs10\1c&HB4DCFC&}What are you saying?
+Dialogue: 0,1:01:15.57,1:01:18.83,Default,,0,0,0,,好吧，摩拉人拿到了钱\N{\fs10\1c&HB4DCFC&}All right. Morlock Man gets his money,
+Dialogue: 0,1:01:19.28,1:01:21.59,Default,,0,0,0,,我认为我们也不能再看到西恩\N{\fs10\1c&HB4DCFC&}I don't think we'll ever see Sean again.
+Dialogue: 0,1:01:21.60,1:01:23.53,Default,,0,0,0,,就算他一开始还活着\N{\fs10\1c&HB4DCFC&}That's if he's still alive to begin with.
+Dialogue: 0,1:01:23.54,1:01:24.83,Default,,0,0,0,,- 这个... - 汤姆？\N{\fs10\1c&HB4DCFC&}- Well, now... - Tom?
+Dialogue: 0,1:01:25.55,1:01:27.18,Default,,0,0,0,,你是说你不付钱？\N{\fs10\1c&HB4DCFC&}Are you talkin' about not paying?
+Dialogue: 0,1:01:27.19,1:01:29.08,Default,,0,0,0,,不，不，我们付钱\N{\fs10\1c&HB4DCFC&}No. No, we pay him.
+Dialogue: 0,1:01:29.11,1:01:30.53,Default,,0,0,0,,等等，听我说\N{\fs10\1c&HB4DCFC&}Now, wait a minute. Listen to me.
+Dialogue: 0,1:01:30.55,1:01:33.84,Default,,0,0,0,,摩拉人说，收钱的人会给我西恩的地址\N{\fs10\1c&HB4DCFC&}Morlock Man says the pick-up guy will give me an address for Sean.
+Dialogue: 0,1:01:34.43,1:01:36.76,Default,,0,0,0,,我到了那里，那人拿枪指着我\N{\fs10\1c&HB4DCFC&}I get there, the guy sticks a gun in my face.
+Dialogue: 0,1:01:37.10,1:01:39.15,Default,,0,0,0,,我说：“你要钱？把地址给我，地址呢？”\N{\fs10\1c&HB4DCFC&}I said, "You want the money? Now give me the address. Where's the address?"
+Dialogue: 0,1:01:39.19,1:01:40.93,Default,,0,0,0,,你们应该看看他的表情\N{\fs10\1c&HB4DCFC&}You should have seen his face.
+Dialogue: 0,1:01:41.60,1:01:45.11,Default,,0,0,0,,他就，根本就不知道我在说什么，一点不\N{\fs10\1c&HB4DCFC&}He had no, absolutely no idea what I was talking about. None.
+Dialogue: 0,1:01:45.12,1:01:45.92,Default,,0,0,0,,好了\N{\fs10\1c&HB4DCFC&}Okay.
+Dialogue: 0,1:01:45.93,1:01:49.27,Default,,0,0,0,,这对他不是生意，这是私愤\N{\fs10\1c&HB4DCFC&}This is not business to him. This is very personal.
+Dialogue: 0,1:01:49.40,1:01:52.41,Default,,0,0,0,,我告诉你，人人都付钱，十个里面我们带回七个\N{\fs10\1c&HB4DCFC&}I tell you that everybody pays, and we get back seven out of ten.
+Dialogue: 0,1:01:52.82,1:01:54.45,Default,,0,0,0,,要是我们给了他想要的，他就会杀了西恩\N{\fs10\1c&HB4DCFC&}If we give him what he wants, he will kill Sean.
+Dialogue: 0,1:01:54.45,1:01:56.54,Default,,0,0,0,,汤姆，你必须陪他玩，老兄\N{\fs10\1c&HB4DCFC&}Tom, you gotta play the odds, man.
+Dialogue: 0,1:01:57.41,1:01:59.71,Default,,0,0,0,,我干这个有18年了\N{\fs10\1c&HB4DCFC&}I've been doing this for 18 years.
+Dialogue: 0,1:01:59.81,1:02:04.51,Default,,0,0,0,,如果我是赌徒，我每次出门都会押那些付钱的人\N{\fs10\1c&HB4DCFC&}And if I were a betting man, I would bet on the people who pay every time out of the gate.
+Dialogue: 0,1:02:06.64,1:02:09.31,Default,,0,0,0,,你带回尸体的那些次你押注了没？\N{\fs10\1c&HB4DCFC&}Did you bet on the ones where you got back a corpse?
+Dialogue: 0,1:02:17.64,1:02:18.35,Default,,0,0,0,,凯特…\N{\fs10\1c&HB4DCFC&}Kate.
+Dialogue: 0,1:02:21.72,1:02:23.56,Default,,0,0,0,,如果你想再见到你的孩子...\N{\fs10\1c&HB4DCFC&}If you want to see your child again...
+Dialogue: 0,1:02:26.38,1:02:28.06,Default,,0,0,0,,你必须帮我劝他\N{\fs10\1c&HB4DCFC&}you gotta help me with him.
+Dialogue: 0,1:02:30.87,1:02:32.57,Default,,0,0,0,,- 就位  - 标记了\N{\fs10\1c&HB4DCFC&}- Stations! - Mark it.
+Dialogue: 0,1:02:36.75,1:02:37.22,Default,,0,0,0,,穆伦\N{\fs10\1c&HB4DCFC&}Mullen.
+Dialogue: 0,1:02:37.83,1:02:40.42,Default,,0,0,0,,你以为可以跟我玩游戏，整走我的钱吗？\N{\fs10\1c&HB4DCFC&}You think you can run a game on me and fuck me out of my money?
+Dialogue: 0,1:02:41.17,1:02:42.13,Default,,0,0,0,,不，我…\N{\fs10\1c&HB4DCFC&}No. I...
+Dialogue: 0,1:02:43.38,1:02:46.61,Default,,0,0,0,,那个我控制不了，我完全照你的吩咐做了\N{\fs10\1c&HB4DCFC&}It was out of my control. I did exactly what you said.
+Dialogue: 0,1:02:47.03,1:02:47.60,Default,,0,0,0,,是吗？\N{\fs10\1c&HB4DCFC&}You did?
+Dialogue: 0,1:02:49.39,1:02:52.06,Default,,0,0,0,,你就想这么玩吗？你要跟我胡扯，汤姆？\N{\fs10\1c&HB4DCFC&}This is how you want to play it, huh? You're gonna bullshit me, Tom?
+Dialogue: 0,1:02:52.77,1:02:54.19,Default,,0,0,0,,你以为跟谁打交道呢？\N{\fs10\1c&HB4DCFC&}Who do you think you're dealin' with?
+Dialogue: 0,1:02:54.86,1:02:55.41,Default,,0,0,0,,他们告诉你\N{\fs10\1c&HB4DCFC&}They told you
+Dialogue: 0,1:02:55.66,1:02:57.94,Default,,0,0,0,,他们只会盯住钞票，对不？\N{\fs10\1c&HB4DCFC&}they were just gonna follow the cash, right? Huh?
+Dialogue: 0,1:02:57.99,1:03:01.26,Default,,0,0,0,,你在那边听哪个混蛋的话？是联邦的人吗？\N{\fs10\1c&HB4DCFC&}Who's the asshole you're listening to over there? Is he a fed?
+Dialogue: 0,1:03:02.47,1:03:04.53,Default,,0,0,0,,我说过不准报警，不准找FBI\N{\fs10\1c&HB4DCFC&}I said no Cops. No FBI.
+Dialogue: 0,1:03:04.54,1:03:05.96,Default,,0,0,0,,你付我钱就没问题\N{\fs10\1c&HB4DCFC&}You pay me. It shouldn't be a problem.
+Dialogue: 0,1:03:06.03,1:03:07.77,Default,,0,0,0,,现在我们整成他妈的马戏团\N{\fs10\1c&HB4DCFC&}Now we got a fuckin' circus out there.
+Dialogue: 0,1:03:07.84,1:03:10.13,Default,,0,0,0,,好了，你有话就说\N{\fs10\1c&HB4DCFC&}All right. Just say what you want to say.
+Dialogue: 0,1:03:10.30,1:03:10.91,Default,,0,0,0,,钱\N{\fs10\1c&HB4DCFC&}The money.
+Dialogue: 0,1:03:11.41,1:03:12.72,Default,,0,0,0,,我要和我儿子说话\N{\fs10\1c&HB4DCFC&}I want to talk to my son.
+Dialogue: 0,1:03:12.73,1:03:16.22,Default,,0,0,0,,走罗斯福路到威廉堡桥出口\N{\fs10\1c&HB4DCFC&}Take the FDR drive down to the Williamsburg Bridge exit.
+Dialogue: 0,1:03:17.33,1:03:18.30,Default,,0,0,0,,不，我知道他死了\N{\fs10\1c&HB4DCFC&}No. I know he's dead.
+Dialogue: 0,1:03:18.41,1:03:22.03,Default,,0,0,0,,你屁都不知道，走罗斯福路到威廉堡桥\N{\fs10\1c&HB4DCFC&}You don't know shit. Take FDR Drive down to the Williamsburg Bridge...
+Dialogue: 0,1:03:22.04,1:03:23.77,Default,,0,0,0,,我儿子死了，下地狱吧！\N{\fs10\1c&HB4DCFC&}My son is dead. Go to hell!
+Dialogue: 0,1:03:24.07,1:03:26.50,Default,,0,0,0,,你干什么？汤姆，你干什么？\N{\fs10\1c&HB4DCFC&}What did you do? Tom, what did you do?
+Dialogue: 0,1:03:26.57,1:03:30.70,Default,,0,0,0,,上帝，上帝啊，求求你…\N{\fs10\1c&HB4DCFC&}Oh, God. Please, God. Please, God. Please, God. Please. Please, God.
+Dialogue: 0,1:03:40.67,1:03:41.10,Default,,0,0,0,,穆伦\N{\fs10\1c&HB4DCFC&}Mullen.
+Dialogue: 0,1:03:42.17,1:03:43.00,Default,,0,0,0,,爸？\N{\fs10\1c&HB4DCFC&}Dad?
+Dialogue: 0,1:03:43.87,1:03:44.70,Default,,0,0,0,,西恩？\N{\fs10\1c&HB4DCFC&}Sean?
+Dialogue: 0,1:03:45.95,1:03:47.14,Default,,0,0,0,,威堡桥\N{\fs10\1c&HB4DCFC&}Williamsburg Bridge.
+Dialogue: 0,1:03:47.89,1:03:49.22,Default,,0,0,0,,你们这些监听的混蛋\N{\fs10\1c&HB4DCFC&}And you assholes listening in
+Dialogue: 0,1:03:49.23,1:03:51.82,Default,,0,0,0,,如果我在钱周围十英里内闻到你们这些小丑\N{\fs10\1c&HB4DCFC&}if I smell you clowns within ten miles of that money
+Dialogue: 0,1:03:51.83,1:03:53.40,Default,,0,0,0,,我就把这孩子当鱼开膛\N{\fs10\1c&HB4DCFC&}I'll gut this kid like a fish.
+Dialogue: 0,1:04:20.31,1:04:21.66,Default,,0,0,0,,我一个人去\N{\fs10\1c&HB4DCFC&}I'm going alone.
+Dialogue: 0,1:04:22.90,1:04:24.14,Default,,0,0,0,,明白吗？\N{\fs10\1c&HB4DCFC&}Is that understood?
+Dialogue: 0,1:04:24.57,1:04:27.03,Default,,0,0,0,,没有直升机，没有监听器，只有我\N{\fs10\1c&HB4DCFC&}No helicopters, no wires. Just me.
+Dialogue: 0,1:04:36.84,1:04:37.79,Default,,0,0,0,,你拿着电话吧？\N{\fs10\1c&HB4DCFC&}You got the phone?
+Dialogue: 0,1:04:38.04,1:04:39.34,Default,,0,0,0,,对，我拿着\N{\fs10\1c&HB4DCFC&}Yeah, I got the phone.
+Dialogue: 0,1:04:41.09,1:04:41.97,Default,,0,0,0,,你可以吧？\N{\fs10\1c&HB4DCFC&}You gonna be all right?
+Dialogue: 0,1:04:43.69,1:04:44.61,Default,,0,0,0,,对，我可以\N{\fs10\1c&HB4DCFC&}Yeah, I'm gonna be all right.
+Dialogue: 0,1:05:15.14,1:05:16.92,Default,,0,0,0,,穆伦先生，不是穆伦\N{\fs10\1c&HB4DCFC&}Mr Mullen...It's not Mullen.
+Dialogue: 0,1:05:21.43,1:05:22.97,Default,,0,0,0,,我们走，是他\N{\fs10\1c&HB4DCFC&}Let's go. That's him.
+Dialogue: 0,1:05:50.40,1:05:51.15,Default,,0,0,0,,约翰，继续拍\N{\fs10\1c&HB4DCFC&}Hey, John, keep shooting.
+Dialogue: 0,1:05:51.56,1:05:52.86,Default,,0,0,0,,老兄，真他妈棒！\N{\fs10\1c&HB4DCFC&}Man, this is fucking great.
+Dialogue: 0,1:06:00.46,1:06:01.20,Default,,0,0,0,,拜托…\N{\fs10\1c&HB4DCFC&}Come on!
+Dialogue: 0,1:06:43.95,1:06:49.26,Default,,0,0,0,,协力航空CEO汤姆·穆伦及其家人，对于公众并不陌生\N{\fs10\1c&HB4DCFC&}Endeavor Airline CEO Tom Mullen and his family... are no strangers to the public eye.
+Dialogue: 0,1:06:49.30,1:06:52.66,Default,,0,0,0,,身为全国第四大航空公司的老板，汤姆·穆伦…\N{\fs10\1c&HB4DCFC&}As head of the Country's fourth largest airline... Tom Mullen.
+Dialogue: 0,1:06:52.70,1:06:55.96,Default,,0,0,0,,独立支持自己的公司，早先被报道...\N{\fs10\1c&HB4DCFC&}has been personally staking his company, was reported earlier...
+Dialogue: 0,1:07:06.00,1:07:07.90,Default,,0,0,0,,...劫走他9岁大的儿子...\N{\fs10\1c&HB4DCFC&}...taken his nine-year-old son...
+Dialogue: 0,1:07:13.87,1:07:14.60,Default,,0,0,0,,你在哪儿？\N{\fs10\1c&HB4DCFC&}Where are you at now?
+Dialogue: 0,1:07:16.10,1:07:16.52,Default,,0,0,0,,我不知道\N{\fs10\1c&HB4DCFC&}I don't know.
+Dialogue: 0,1:07:19.31,1:07:20.42,Default,,0,0,0,,开到休斯顿和百老汇街口\N{\fs10\1c&HB4DCFC&}Head up to Houston and Broadway.
+Dialogue: 0,1:07:24.43,1:07:26.92,Default,,0,0,0,,但现在，这个城市和这个国家正焦急等待...\NBut for now，the City and the Country anxiously await word...
+Dialogue: 0,1:07:26.94,1:07:28.00,Default,,0,0,0,,听到吗？\N{\fs10\1c&HB4DCFC&}You hear me?
+Dialogue: 0,1:07:30.95,1:07:31.43,Default,,0,0,0,,穆伦？\N{\fs10\1c&HB4DCFC&}Mullen?
+Dialogue: 0,1:07:35.83,1:07:36.60,Default,,0,0,0,,计划改变了\N{\fs10\1c&HB4DCFC&}Change of plan.
+Dialogue: 0,1:07:38.71,1:07:39.26,Default,,0,0,0,,什么？\N{\fs10\1c&HB4DCFC&}What?
+Dialogue: 0,1:07:39.78,1:07:42.89,Default,,0,0,0,,打开你的电视，第五频道，看着它\N{\fs10\1c&HB4DCFC&}Turn on your TV. Channel 5. Keep watching.
+Dialogue: 0,1:07:43.41,1:07:45.06,Default,,0,0,0,,不会超过一到两个小时\N{\fs10\1c&HB4DCFC&}It shouldn't be more than an hour or two.
+Dialogue: 0,1:07:49.51,1:07:50.86,Default,,0,0,0,,你明白我跟你说的吗？\N{\fs10\1c&HB4DCFC&}You understand what I'm telling you?
+Dialogue: 0,1:07:52.23,1:07:53.98,Default,,0,0,0,,穆伦，他妈的...\N{\fs10\1c&HB4DCFC&}Mullen, what the fuck...
+Dialogue: 0,1:08:12.72,1:08:13.24,Default,,0,0,0,,是我的\N{\fs10\1c&HB4DCFC&}It's mine.
+Dialogue: 0,1:08:14.61,1:08:15.33,Default,,0,0,0,,哈罗\N{\fs10\1c&HB4DCFC&}Hello?
+Dialogue: 0,1:08:15.44,1:08:16.14,Default,,0,0,0,,戴维\N{\fs10\1c&HB4DCFC&}David,
+Dialogue: 0,1:08:17.02,1:08:19.98,Default,,0,0,0,,我要你联络WNYW台的唐·坎贝尔\N{\fs10\1c&HB4DCFC&}I need you to contact Don Campbell at WNYW.
+Dialogue: 0,1:08:23.74,1:08:24.95,Default,,0,0,0,,- 好的  - 很好\N{\fs10\1c&HB4DCFC&}- All right. - Good.
+Dialogue: 0,1:08:28.78,1:08:30.30,Default,,0,0,0,,- 巴布，我能跟你谈一下吗？ - 当然\N{\fs10\1c&HB4DCFC&}- Bob, can I talk to you, please? - Sure.
+Dialogue: 0,1:08:34.22,1:08:34.83,Default,,0,0,0,,戴维\N{\fs10\1c&HB4DCFC&}David.
+Dialogue: 0,1:08:36.97,1:08:38.14,Default,,0,0,0,,好了，我们上\N{\fs10\1c&HB4DCFC&}All right, here we go.
+Dialogue: 0,1:08:38.47,1:08:39.94,Default,,0,0,0,,好，他们准备好了\N{\fs10\1c&HB4DCFC&}Okay, they're ready.
+Dialogue: 0,1:08:56.62,1:08:58.62,Default,,0,0,0,,穆伦先生，我们准备把你安置在这里\N{\fs10\1c&HB4DCFC&}Mr Mullen, we're gonna get you set up right over here.
+Dialogue: 0,1:08:58.62,1:09:00.14,Default,,0,0,0,,我们会给你装好麦克风\N{\fs10\1c&HB4DCFC&}We'll get you wired up with a mike.
+Dialogue: 0,1:09:01.65,1:09:04.12,Default,,0,0,0,,我会在摄像机旁给你信号\N{\fs10\1c&HB4DCFC&}I will signal to you from next to the camera.
+Dialogue: 0,1:09:05.50,1:09:10.62,Default,,0,0,0,,准备好了？五、四、三、二…\N{\fs10\1c&HB4DCFC&}Ready to go? On five, four...three, two...
+Dialogue: 0,1:09:11.18,1:09:11.79,Default,,0,0,0,,下午好\N{\fs10\1c&HB4DCFC&}Good afternoon.
+Dialogue: 0,1:09:11.80,1:09:15.60,Default,,0,0,0,,我们中断本节目，为您带来独家报导\N{\fs10\1c&HB4DCFC&}We are interrupting this programme to bring you an exclusive report.
+Dialogue: 0,1:09:15.63,1:09:20.21,Default,,0,0,0,,如您所知，我们持续跟进穆伦绑票案已有一天多\N{\fs10\1c&HB4DCFC&}As you know, we've been following the Mullen kidnapping for about a day or so.
+Dialogue: 0,1:09:20.32,1:09:23.19,Default,,0,0,0,,我们将回到正常节目，但现在我们要播出的\N{\fs10\1c&HB4DCFC&}We will get back to our regular programme, but right now we're going to show you something...
+Dialogue: 0,1:09:23.20,1:09:25.55,Default,,0,0,0,,您只可能在这里见到\N{\fs10\1c&HB4DCFC&}that you will only see right here...
+Dialogue: 0,1:09:25.72,1:09:27.53,Default,,0,0,0,,汤姆·穆伦，西恩·穆伦的父亲\N{\fs10\1c&HB4DCFC&}Tom Mullen. Sean Mullen's father.
+Dialogue: 0,1:09:28.10,1:09:29.09,Default,,0,0,0,,穆伦先生？\N{\fs10\1c&HB4DCFC&}Mr Mullen?
+Dialogue: 0,1:09:35.71,1:09:36.40,Default,,0,0,0,,汤姆，你入镜\N{\fs10\1c&HB4DCFC&}Tom, you're on.
+Dialogue: 0,1:09:39.91,1:09:41.67,Default,,0,0,0,,整个世界现在知道\N{\fs10\1c&HB4DCFC&}The whole world now knows...
+Dialogue: 0,1:09:41.91,1:09:46.47,Default,,0,0,0,,我儿子，西恩·穆伦，三天前被绑架索要赎金\N{\fs10\1c&HB4DCFC&}my son, Sean Mullen. was kidnapped for ransom three days ago.
+Dialogue: 0,1:09:46.79,1:09:48.39,Default,,0,0,0,,这是他的近照\N{\fs10\1c&HB4DCFC&}This is a recent photograph of him.
+Dialogue: 0,1:09:49.59,1:09:52.54,Default,,0,0,0,,西恩，如果你在看，我们爱你\N{\fs10\1c&HB4DCFC&}Sean, if you're watching, we love you.
+Dialogue: 0,1:09:54.10,1:09:55.00,Default,,0,0,0,,而这些...\N{\fs10\1c&HB4DCFC&}And this...
+Dialogue: 0,1:09:55.70,1:09:58.20,Default,,0,0,0,,这是给绑走他的人准备的\N{\fs10\1c&HB4DCFC&}Well, this is what waits for the man that took him.
+Dialogue: 0,1:09:58.80,1:09:59.90,Default,,0,0,0,,这是你要的赎金\N{\fs10\1c&HB4DCFC&}This is your ransom.
+Dialogue: 0,1:10:00.55,1:10:01.90,Default,,0,0,0,,等等，我想看这个\N{\fs10\1c&HB4DCFC&}Wait, I wanna see this
+Dialogue: 0,1:10:02.16,1:10:06.00,Default,,0,0,0,,两百万美元，没记号的钞票，正如你要的\N{\fs10\1c&HB4DCFC&}Two million dollars in unmarked bills, just like you wanted.
+Dialogue: 0,1:10:06.87,1:10:09.64,Default,,0,0,0,,但这是你最接近它的一次了\N{\fs10\1c&HB4DCFC&}But this is as close as you'll ever get to it.
+Dialogue: 0,1:10:09.94,1:10:12.10,Default,,0,0,0,,这钱你一美元都见不着\N{\fs10\1c&HB4DCFC&}You'll never see one dollar of this money...
+Dialogue: 0,1:10:13.02,1:10:16.10,Default,,0,0,0,,因为我儿子的赎金不会付\N{\fs10\1c&HB4DCFC&}because no ransom will ever be paid for my son.
+Dialogue: 0,1:10:17.27,1:10:19.44,Default,,0,0,0,,一毛一分都不付\N{\fs10\1c&HB4DCFC&}Not one dime. Not one penny.
+Dialogue: 0,1:10:20.18,1:10:24.35,Default,,0,0,0,,相反，我提供这笔钱，作为你脑袋的悬赏\N{\fs10\1c&HB4DCFC&}Instead, I'm offering this money as a reward on your head.
+Dialogue: 0,1:10:25.91,1:10:27.25,Default,,0,0,0,,是死是活没关系\N{\fs10\1c&HB4DCFC&}Dead or alive. It doesn't matter.
+Dialogue: 0,1:10:29.25,1:10:32.52,Default,,0,0,0,,所以恭喜了，你刚成为两百万的奖金彩券\N{\fs10\1c&HB4DCFC&}So Congratulations. You've just become a $ 2 million lottery ticket.
+Dialogue: 0,1:10:32.53,1:10:35.22,Default,,0,0,0,,不过中奖机率相当相当高\N{\fs10\1c&HB4DCFC&}Except the odds are much, much better.
+Dialogue: 0,1:10:35.86,1:10:39.03,Default,,0,0,0,,你认识的人有谁不会为两百万去告发你？\N{\fs10\1c&HB4DCFC&}Do you know anyone that wouldn't turn you in for $ 2 million?
+Dialogue: 0,1:10:39.39,1:10:41.77,Default,,0,0,0,,我认为没有，我怀疑会有\N{\fs10\1c&HB4DCFC&}I don't think you do. I doubt it.
+Dialogue: 0,1:10:42.72,1:10:46.85,Default,,0,0,0,,所以不管你去哪里，你干什么，这笔钱会追你到老\N{\fs10\1c&HB4DCFC&}So wherever you go and whatever you do, this money will be tracking you down for all time.
+Dialogue: 0,1:10:47.44,1:10:50.65,Default,,0,0,0,,为了确保能做到，为了保持住兴趣\N{\fs10\1c&HB4DCFC&}And to ensure that it does, to keep interest alive...
+Dialogue: 0,1:10:50.69,1:10:54.90,Default,,0,0,0,,我会在各大报上刊登全版广告，每周日\N{\fs10\1c&HB4DCFC&}I'm running a full-page ad in every major newspaper every Sunday...
+Dialogue: 0,1:10:54.94,1:10:56.33,Default,,0,0,0,,需要多久就登多久\N{\fs10\1c&HB4DCFC&}for as long as it takes.
+Dialogue: 0,1:10:57.49,1:10:58.41,Default,,0,0,0,,不过...\N{\fs10\1c&HB4DCFC&}But...
+Dialogue: 0,1:11:00.09,1:11:01.59,Default,,0,0,0,,这也是你最后的机会\N{\fs10\1c&HB4DCFC&}and this is your last chance...
+Dialogue: 0,1:11:01.81,1:11:05.48,Default,,0,0,0,,你放回我儿子，活着，没受伤\N{\fs10\1c&HB4DCFC&}if you return my son alive, uninjured...
+Dialogue: 0,1:11:05.76,1:11:07.31,Default,,0,0,0,,我就撤回赏金\N{\fs10\1c&HB4DCFC&}I'll withdraw the bounty.
+Dialogue: 0,1:11:07.63,1:11:09.83,Default,,0,0,0,,运气够好，你只要消失就行\N{\fs10\1c&HB4DCFC&}With any luck, you can simply disappear.
+Dialogue: 0,1:11:11.45,1:11:14.72,Default,,0,0,0,,搞清楚，你永远见不到这笔钱\N{\fs10\1c&HB4DCFC&}Understand...you will never see this money.
+Dialogue: 0,1:11:15.68,1:11:17.19,Default,,0,0,0,,一块钱都拿不到\N{\fs10\1c&HB4DCFC&}Not one dollar.
+Dialogue: 0,1:11:18.27,1:11:20.19,Default,,0,0,0,,所以你还有一次机会做正确的事\N{\fs10\1c&HB4DCFC&}So you still have a chance to do the right thing.
+Dialogue: 0,1:11:22.92,1:11:24.11,Default,,0,0,0,,如果你不做\N{\fs10\1c&HB4DCFC&}If you don't.
+Dialogue: 0,1:11:24.27,1:11:27.74,Default,,0,0,0,,愿上帝与你同在，因为地球上没别人与你同在\N{\fs10\1c&HB4DCFC&}Well, then God be with you because nobody else on this Earth will be.
+Dialogue: 0,1:11:33.12,1:11:33.99,Default,,0,0,0,,就这样\N{\fs10\1c&HB4DCFC&}That's it.
+Dialogue: 0,1:11:36.51,1:11:38.05,Default,,0,0,0,,哦，你听到了，罗珊娜\N{\fs10\1c&HB4DCFC&}Well, there you have it. Rosanna.
+Dialogue: 0,1:11:38.06,1:11:42.03,Default,,0,0,0,,令人震惊的逆转，赎金变成二百万赏金\N{\fs10\1c&HB4DCFC&}A shocking turn of events. The ransom has turned into a $ 2-million bounty.
+Dialogue: 0,1:11:42.04,1:11:44.48,Default,,0,0,0,,托尼，显然这是很危险的状况\N{\fs10\1c&HB4DCFC&}Tony. it's obviously a very dangerous situation.
+Dialogue: 0,1:11:44.50,1:11:47.48,Default,,0,0,0,,什么事都可能发生，当然，让我们祝他好运\N{\fs10\1c&HB4DCFC&}Anything could happen. Of course, we wish him the best of luck.
+Dialogue: 0,1:11:47.50,1:11:52.14,Default,,0,0,0,,你注意到他，把绑匪说成是两百万元彩券？\N{\fs10\1c&HB4DCFC&}Did you notice he, uh, described the kidnapper as a $2 million lottery ticket?
+Dialogue: 0,1:11:52.15,1:11:53.30,Default,,0,0,0,,这一注下大了\N{\fs10\1c&HB4DCFC&}The stakes are high on this one.
+Dialogue: 0,1:11:53.32,1:11:55.40,Default,,0,0,0,,对，正如你提到的...\N{\fs10\1c&HB4DCFC&}Yeah, as you mentioned also...
+Dialogue: 0,1:11:59.81,1:12:00.75,Default,,0,0,0,,你能关掉它吗？\N{\fs10\1c&HB4DCFC&}Could you turn it off?
+Dialogue: 0,1:12:00.76,1:12:02.45,Default,,0,0,0,,穆伦先生也对儿子喊了话\N{\fs10\1c&HB4DCFC&}Mr Mullen also appealed to his son.
+Dialogue: 0,1:12:02.50,1:12:04.88,Default,,0,0,0,,他说：西恩，如果你在听着，我爱你\N{\fs10\1c&HB4DCFC&}His said, Sean, if you're there, listening, I love you.
+Dialogue: 0,1:12:04.90,1:12:08.48,Default,,0,0,0,,- 真让人心碎  - 同时，我们的制片人告诉我...\N{\fs10\1c&HB4DCFC&}- It was very heartbreaking. -Also. our producer is telling me. uh...
+Dialogue: 0,1:12:10.18,1:12:10.64,Default,,0,0,0,,是的\N{\fs10\1c&HB4DCFC&}Yeah.
+Dialogue: 0,1:12:11.17,1:12:15.17,Default,,0,0,0,,- 穆伦，你这笨蛋  - 蠢蛋！\N{\fs10\1c&HB4DCFC&}- Mullen, you're a fool!  - Stupid ass!
+Dialogue: 0,1:12:18.14,1:12:21.18,Default,,0,0,0,,- 我以你为傲  - 你干了件烂事！\N{\fs10\1c&HB4DCFC&}-I'm proud of you! -You did a damn thing!
+Dialogue: 0,1:12:32.84,1:12:34.70,Default,,0,0,0,,嘿，他们把那孩子带哪去了？\N{\fs10\1c&HB4DCFC&}Hey, where'd they take the kid?
+Dialogue: 0,1:12:34.82,1:12:36.92,Default,,0,0,0,,你知道的 我们说好的地方啊\N{\fs10\1c&HB4DCFC&}You know. The place we said.
+Dialogue: 0,1:12:42.18,1:12:43.22,Default,,0,0,0,,我必须这么干\N{\fs10\1c&HB4DCFC&}I had to do this.
+Dialogue: 0,1:12:44.07,1:12:45.39,Default,,0,0,0,,你必须这么干？\N{\fs10\1c&HB4DCFC&}You had to do this?
+Dialogue: 0,1:12:49.34,1:12:50.45,Default,,0,0,0,,你必须这么干…\N{\fs10\1c&HB4DCFC&}You had to do this?
+Dialogue: 0,1:12:52.34,1:12:53.65,Default,,0,0,0,,凯特，求求你\N{\fs10\1c&HB4DCFC&}Kate, please.
+Dialogue: 0,1:12:54.99,1:12:56.45,Default,,0,0,0,,我好害怕\N{\fs10\1c&HB4DCFC&}I'm so scared,
+Dialogue: 0,1:12:57.03,1:12:59.45,Default,,0,0,0,,可我知道如果给他钱，他会杀了西恩\N{\fs10\1c&HB4DCFC&}but I know if I give him the money, he'll kill Sean.
+Dialogue: 0,1:12:59.47,1:13:01.01,Default,,0,0,0,,如果我是他就会\N{\fs10\1c&HB4DCFC&}I would if I was him.
+Dialogue: 0,1:13:01.03,1:13:02.15,Default,,0,0,0,,你刚说什么？\N{\fs10\1c&HB4DCFC&}What did you just say?
+Dialogue: 0,1:13:02.18,1:13:03.92,Default,,0,0,0,,从他的角度看待这事\N{\fs10\1c&HB4DCFC&}Just look at it from his point of view.
+Dialogue: 0,1:13:04.30,1:13:07.13,Default,,0,0,0,,你以为你很聪明，你让人人乱了阵脚\N{\fs10\1c&HB4DCFC&}You think you're smart. You've got everybody off balance.
+Dialogue: 0,1:13:07.16,1:13:08.94,Default,,0,0,0,,你以为全都想好了\N{\fs10\1c&HB4DCFC&}You think you've got it all figured out.
+Dialogue: 0,1:13:08.96,1:13:10.20,Default,,0,0,0,,你们想坏我的事吗？\N{\fs10\1c&HB4DCFC&}You tryin' to screw me?
+Dialogue: 0,1:13:10.20,1:13:13.83,Default,,0,0,0,,可是突然间，左外野处，你以为绝不可能的事情发生了\N{\fs10\1c&HB4DCFC&}And then suddenly, out of left field, the one thing you thought would never happen does.
+Dialogue: 0,1:13:13.98,1:13:15.52,Default,,0,0,0,,- 我们得结束这事  - 你在干嘛？\N{\fs10\1c&HB4DCFC&}- We gotta end this. - What are you doin'?
+Dialogue: 0,1:13:15.57,1:13:18.82,Default,,0,0,0,,没有赎金，没有钱，没有利益，都没有，只有麻烦\N{\fs10\1c&HB4DCFC&}No ransom, no money, no profit. Nothing. Nothing but downside.
+Dialogue: 0,1:13:18.84,1:13:23.86,Default,,0,0,0,,因为这孩子的父亲，像个神经错乱的疯子冲过来\N{\fs10\1c&HB4DCFC&}Because you've got this boy's father...he's coming on like a stark, raving mad lunatic.
+Dialogue: 0,1:13:24.18,1:13:25.32,Default,,0,0,0,,你教唆她，是不是？\N{\fs10\1c&HB4DCFC&}You turned her around, didn't you?
+Dialogue: 0,1:13:25.32,1:13:27.32,Default,,0,0,0,,我是说，一个能砸出2百万的人\N{\fs10\1c&HB4DCFC&}I mean, the guy can piss $2 million
+Dialogue: 0,1:13:27.32,1:13:29.82,Default,,0,0,0,,而他愿意冒任何风险来搞垮你\N{\fs10\1c&HB4DCFC&}but he's willing to risk everything just to fuck you up.
+Dialogue: 0,1:13:30.27,1:13:33.02,Default,,0,0,0,,跟这样的疯子怎么谈？不行的\N{\fs10\1c&HB4DCFC&}How can you negotiate with a lunatic like that, huh? You can't.
+Dialogue: 0,1:13:33.17,1:13:34.68,Default,,0,0,0,,现在是你乱了阵脚\N{\fs10\1c&HB4DCFC&}Now you're off balance.
+Dialogue: 0,1:13:35.37,1:13:38.26,Default,,0,0,0,,躺下！你想永远倒在下面吗，蛆虫？\N{\fs10\1c&HB4DCFC&}Get down. Lay down!You wanna stay down there forever, maggot?
+Dialogue: 0,1:13:38.34,1:13:39.56,Default,,0,0,0,,我拿到我的钱了吗\N{\fs10\1c&HB4DCFC&}Did I get my money?
+Dialogue: 0,1:13:39.60,1:13:43.31,Default,,0,0,0,,很快的你就意识到要是不尽快把那孩子好好放回去\N{\fs10\1c&HB4DCFC&}Pretty soon you realize if you don't return this kid in mint condition as soon as possible...
+Dialogue: 0,1:13:43.32,1:13:45.77,Default,,0,0,0,,你就成了世上头号被追捕的人\N{\fs10\1c&HB4DCFC&}you're gonna be the most hunted man on the face of the Earth.
+Dialogue: 0,1:13:45.91,1:13:50.03,Default,,0,0,0,,而这个疯子逮不到你就决不罢休\N{\fs10\1c&HB4DCFC&}And this maniac will never, ever quit until he's got you.
+Dialogue: 0,1:13:50.59,1:13:52.13,Default,,0,0,0,,任何人都别想退出\N{\fs10\1c&HB4DCFC&}Nobody pulls out on me.
+Dialogue: 0,1:13:53.83,1:13:54.83,Default,,0,0,0,,你很清楚我的\N{\fs10\1c&HB4DCFC&}You know me.
+Dialogue: 0,1:13:56.44,1:13:59.33,Default,,0,0,0,,这是我的演出，什么时候结束我说了算\N{\fs10\1c&HB4DCFC&}This is my show. I say when it's over.
+Dialogue: 0,1:13:59.38,1:14:00.47,Default,,0,0,0,,- 收回吧… - 不！\N{\fs10\1c&HB4DCFC&}- Take it back. - No.
+Dialogue: 0,1:14:00.50,1:14:01.87,Default,,0,0,0,,告诉他你错了\N{\fs10\1c&HB4DCFC&}Tell him that you were wrong.
+Dialogue: 0,1:14:01.90,1:14:04.40,Default,,0,0,0,,凯特，不行，凯特，没别的办法，没有\N{\fs10\1c&HB4DCFC&}Kate, no, I can't. No, Kate, there is no other way. None.
+Dialogue: 0,1:14:04.42,1:14:05.80,Default,,0,0,0,,他也是我的儿子 我要你付钱\N{\fs10\1c&HB4DCFC&}He's my son too, and I want you to pay him.
+Dialogue: 0,1:14:05.83,1:14:07.23,Default,,0,0,0,,凯特，他们会杀了他\N{\fs10\1c&HB4DCFC&}Kate. They will kill him.
+Dialogue: 0,1:14:07.68,1:14:09.25,Default,,0,0,0,,求你，我们只能彼此依靠\N{\fs10\1c&HB4DCFC&}Please, all we have is each other.
+Dialogue: 0,1:14:09.88,1:14:14.15,Default,,0,0,0,,你以为他们有人会...你以为他们在乎...只有我们\N{\fs10\1c&HB4DCFC&}Do you think any of them...Do you think they give...It's just us.
+Dialogue: 0,1:14:14.43,1:14:16.86,Default,,0,0,0,,你以为我不想救他回来吗？是这样吗？\N{\fs10\1c&HB4DCFC&}Do you think I don't want him back? Is that it?
+Dialogue: 0,1:14:16.90,1:14:19.84,Default,,0,0,0,,你以为我不愿意竭尽全力救他回来？\N{\fs10\1c&HB4DCFC&}You think I wouldn't do absolutely everything in my power to get him back?
+Dialogue: 0,1:14:19.85,1:14:24.03,Default,,0,0,0,,我愿意砍掉一只手，我愿意...我一心想他回来\N{\fs10\1c&HB4DCFC&}I'd cut my arm off. I'd...I want him back so bad.
+Dialogue: 0,1:14:24.68,1:14:28.33,Default,,0,0,0,,凯特，求求你，没有你我撑不下去\N{\fs10\1c&HB4DCFC&}Katie, please. I don't think I can take this if you're not with me.
+Dialogue: 0,1:14:43.92,1:14:44.79,Default,,0,0,0,,别跟我拆伙\N{\fs10\1c&HB4DCFC&}Don't quit on me.
+Dialogue: 0,1:14:57.24,1:14:58.19,Default,,0,0,0,,汤姆\N{\fs10\1c&HB4DCFC&}Tom.
+Dialogue: 0,1:14:59.24,1:14:59.99,Default,,0,0,0,,现在\N{\fs10\1c&HB4DCFC&}Now...
+Dialogue: 0,1:15:03.91,1:15:05.41,Default,,0,0,0,,我认为你所做的是错的\N{\fs10\1c&HB4DCFC&}I think what you did was wrong.
+Dialogue: 0,1:15:06.61,1:15:08.21,Default,,0,0,0,,你把你儿子置于更大的危险中\N{\fs10\1c&HB4DCFC&}You put your son at greater risk.
+Dialogue: 0,1:15:09.60,1:15:15.16,Default,,0,0,0,,现在，我要你收回赏金，付钱给这王八蛋好了\N{\fs10\1c&HB4DCFC&}Now, I need you to withdraw that reward. Just pay this bastard.
+Dialogue: 0,1:15:15.63,1:15:18.60,Default,,0,0,0,,我相信你会把你儿子带回来\N{\fs10\1c&HB4DCFC&}Now, I believe that you will get your son back.
+Dialogue: 0,1:15:19.82,1:15:24.60,Default,,0,0,0,,到时候… 我们会钉死这个婊子养的\N{\fs10\1c&HB4DCFC&}And when we do, we will nail this son of a bitch.
+Dialogue: 0,1:15:25.23,1:15:30.50,Default,,0,0,0,,要是老天不让你...你儿子...\N{\fs10\1c&HB4DCFC&}Now, God forbid you don't... your son...
+Dialogue: 0,1:15:31.04,1:15:32.38,Default,,0,0,0,,我向你发誓\N{\fs10\1c&HB4DCFC&}I swear to you
+Dialogue: 0,1:15:32.84,1:15:36.88,Default,,0,0,0,,我别的什么都不干，必要的话，我跟FBI请长假\N{\fs10\1c&HB4DCFC&}I will work on nothing else. If I have to, I will take a leave of absence from the FBI...
+Dialogue: 0,1:15:36.89,1:15:39.27,Default,,0,0,0,,你可以雇佣我当你的私人安全顾问\N{\fs10\1c&HB4DCFC&}and you can hire me as your personal security consultant.
+Dialogue: 0,1:15:39.30,1:15:42.48,Default,,0,0,0,,只要身体允许，我会一直做这件事\N{\fs10\1c&HB4DCFC&}And I will work on this as long as I am physically able.
+Dialogue: 0,1:15:42.50,1:15:44.42,Default,,0,0,0,,- 朗尼，拜托  - 汤姆\N{\fs10\1c&HB4DCFC&}-Lonnie, please. I...-Tom.
+Dialogue: 0,1:15:44.49,1:15:46.90,Default,,0,0,0,,我从没跟任何人说过，任何我们的人\N{\fs10\1c&HB4DCFC&}I never told anybody, any of my people
+Dialogue: 0,1:15:46.91,1:15:49.30,Default,,0,0,0,,你和杰基·布朗的事，事情的真相\N{\fs10\1c&HB4DCFC&}about you and Jackie Brown, the real truth of it
+Dialogue: 0,1:15:49.85,1:15:51.30,Default,,0,0,0,,而且也许我永远不会\N{\fs10\1c&HB4DCFC&}and maybe I never will.
+Dialogue: 0,1:15:54.40,1:15:56.74,Default,,0,0,0,,你以为我是怕去坐牢吗？\N{\fs10\1c&HB4DCFC&}You think I'm worried about going to jail?
+Dialogue: 0,1:16:02.22,1:16:05.63,Default,,0,0,0,,巴雷西市长今天发声，不赞成汤姆·穆伦的决定\N{\fs10\1c&HB4DCFC&}Mayor Barresi today voiced his disapproval of Tom Mullen's decision.
+Dialogue: 0,1:16:06.02,1:16:07.64,Default,,0,0,0,,唐娜·汉诺威稍后加入直播…\N{\fs10\1c&HB4DCFC&}Donna Hanover joins us later in the broadcast.
+Dialogue: 0,1:16:07.71,1:16:10.07,Default,,0,0,0,,- 你要听听最新情况吗？ - 好啊\N{\fs10\1c&HB4DCFC&}-You, uh, care for an update? -Oh, yeah.
+Dialogue: 0,1:16:11.30,1:16:16.73,Default,,0,0,0,,你丈夫上电视以来的两小时内，我们接到四千通电话\N{\fs10\1c&HB4DCFC&}Well, in the last two hours since your husband's TV thing, we've had 4,000 calls.
+Dialogue: 0,1:16:16.77,1:16:19.05,Default,,0,0,0,,你知道真实、牢靠的线索有多少？\N{\fs10\1c&HB4DCFC&}And you know how many real, good, solid leads?
+Dialogue: 0,1:16:19.09,1:16:20.03,Default,,0,0,0,,有多少？\N{\fs10\1c&HB4DCFC&}How many?
+Dialogue: 0,1:16:21.04,1:16:22.14,Default,,0,0,0,,零\N{\fs10\1c&HB4DCFC&}Zero.
+Dialogue: 0,1:16:22.25,1:16:28.49,Default,,0,0,0,,而每次这些...贪心鬼有一个打电话来\N{\fs10\1c&HB4DCFC&}And every time one of these...greedy little whack jobs calls...
+Dialogue: 0,1:16:28.50,1:16:31.13,Default,,0,0,0,,就少一个特工找你的儿子\N{\fs10\1c&HB4DCFC&}that is one less agent looking for your child.
+Dialogue: 0,1:16:31.88,1:16:33.38,Default,,0,0,0,,我得告诉你，凯特\N{\fs10\1c&HB4DCFC&}Now, I gotta tell you, Kate.
+Dialogue: 0,1:16:34.28,1:16:39.19,Default,,0,0,0,,我从未见过有父母在想要找回孩子的时候\N{\fs10\1c&HB4DCFC&}I have never been confronted with such an unbelievable act of sabotage...
+Dialogue: 0,1:16:39.22,1:16:44.04,Default,,0,0,0,,有象你丈夫今天干的，如此不可思议的破坏活动\N{\fs10\1c&HB4DCFC&}by a parent toward the recovery of their child... as what your husband pulled off here today.
+Dialogue: 0,1:16:44.17,1:16:47.49,Default,,0,0,0,,现在全靠你，跟你丈夫谈谈\N{\fs10\1c&HB4DCFC&}It is all on you now to talk to your husband
+Dialogue: 0,1:16:47.50,1:16:50.49,Default,,0,0,0,,叫他收回悬赏金，否则我们就有大麻烦了\N{\fs10\1c&HB4DCFC&}get him to withdraw this money. Otherwise we are in deep trouble.
+Dialogue: 0,1:16:50.50,1:16:51.78,Default,,0,0,0,,收回赏...万一他是对的呢？\N{\fs10\1c&HB4DCFC&}Withdraw the mo...What if he's right?
+Dialogue: 0,1:16:51.92,1:16:55.12,Default,,0,0,0,,万一他们完全没有送回西恩的意图呢？\N{\fs10\1c&HB4DCFC&}What if they have no intention of returning Sean at all?
+Dialogue: 0,1:16:56.81,1:16:57.71,Default,,0,0,0,,我相信他\N{\fs10\1c&HB4DCFC&}I trust him.
+Dialogue: 0,1:16:58.80,1:16:59.46,Default,,0,0,0,,你相信他？\N{\fs10\1c&HB4DCFC&}You trust him?
+Dialogue: 0,1:16:59.86,1:17:02.21,Default,,0,0,0,,对，我对他有信心\N{\fs10\1c&HB4DCFC&}Yeah. I believe in him.
+Dialogue: 0,1:17:03.06,1:17:04.20,Default,,0,0,0,,我支持汤姆\N{\fs10\1c&HB4DCFC&}I stick with Tom...
+Dialogue: 0,1:17:06.09,1:17:08.80,Default,,0,0,0,,而我们一向都能逢凶化吉\N{\fs10\1c&HB4DCFC&}and we always manage to land on high ground.
+Dialogue: 0,1:17:09.63,1:17:10.85,Default,,0,0,0,,逢凶化吉？\N{\fs10\1c&HB4DCFC&}High ground?
+Dialogue: 0,1:17:15.03,1:17:17.48,Default,,0,0,0,,像是杰基·布朗那件事\N{\fs10\1c&HB4DCFC&}Like with the Jackie Brown situation?
+Dialogue: 0,1:17:19.81,1:17:20.66,Default,,0,0,0,,没错\N{\fs10\1c&HB4DCFC&}Yeah.
+Dialogue: 0,1:17:26.35,1:17:28.20,Default,,0,0,0,,你丈夫到底是怎么对你说的？\N{\fs10\1c&HB4DCFC&}What exactly did your husband tell you
+Dialogue: 0,1:17:30.35,1:17:31.30,Default,,0,0,0,,杰基·布朗的事\N{\fs10\1c&HB4DCFC&}about Jackie Brown?
+Dialogue: 0,1:17:40.88,1:17:41.62,Default,,0,0,0,,戴维\N{\fs10\1c&HB4DCFC&}David?
+Dialogue: 0,1:17:41.98,1:17:42.47,Default,,0,0,0,,是\N{\fs10\1c&HB4DCFC&}Yeah.
+Dialogue: 0,1:17:42.48,1:17:44.05,Default,,0,0,0,,- 能跟你说几句吗？  - 当然\N{\fs10\1c&HB4DCFC&}- Can I talk to you for a minute? - Yeah, sure.
+Dialogue: 0,1:17:45.57,1:17:49.80,Default,,0,0,0,,霍金说若我筹出两百万，他能安排我去交钱\N{\fs10\1c&HB4DCFC&}Look, Hawkins said that if I can come up with the $2 million, that he'd work it so that I can make the drop.
+Dialogue: 0,1:17:49.81,1:17:52.05,Default,,0,0,0,,- 别这样，凯特  - 我只有大约五十万\N{\fs10\1c&HB4DCFC&}- Come on, Kate...- Now, all I can raise is about a half a million.
+Dialogue: 0,1:17:52.20,1:17:54.77,Default,,0,0,0,,我知道你能动用自主基金\N{\fs10\1c&HB4DCFC&}I know you have access to a discretionary fund.
+Dialogue: 0,1:17:54.78,1:17:56.86,Default,,0,0,0,,凯特，天啊，拜托，你应该和汤姆商量这事\N{\fs10\1c&HB4DCFC&}Kate. Jesus, please. Listen, you should talk to Tom about this.
+Dialogue: 0,1:17:56.87,1:17:59.51,Default,,0,0,0,,这跟汤姆无关 这是为了西恩\N{\fs10\1c&HB4DCFC&}This isn't about Tom. This is Sean.
+Dialogue: 0,1:18:03.62,1:18:05.58,Default,,0,0,0,,凯特，我办不到，好吗？\N{\fs10\1c&HB4DCFC&}Uh, Kate, I-I can't do it. All right?
+Dialogue: 0,1:18:09.16,1:18:11.58,Default,,0,0,0,,他叫你别给我钱，是不是？\N{\fs10\1c&HB4DCFC&}He told you not to give me any money, didn't he?
+Dialogue: 0,1:18:12.65,1:18:14.56,Default,,0,0,0,,凯特，他是我老板，对吧？\N{\fs10\1c&HB4DCFC&}Kate, he's my boss. Okay?
+Dialogue: 0,1:18:33.27,1:18:33.97,Default,,0,0,0,,吃吧，吃了它\N{\fs10\1c&HB4DCFC&}Okay, eat this.
+Dialogue: 0,1:18:37.65,1:18:38.47,Default,,0,0,0,,谢谢你\N{\fs10\1c&HB4DCFC&}Thank you.
+Dialogue: 0,1:18:48.82,1:18:51.57,Default,,0,0,0,,再说一次，要是我儿子，我就会付钱\N{\fs10\1c&HB4DCFC&}Again. I say if it were my kid. I would pay.
+Dialogue: 0,1:18:52.02,1:18:54.62,Default,,0,0,0,,我喜欢这个，“你想要钱，来拿啊，”\N{\fs10\1c&HB4DCFC&}I like the idea. "Yeah. you want the money. Come and get it. "
+Dialogue: 0,1:18:54.65,1:18:57.53,Default,,0,0,0,,等他来的时候，我希望有人把他们脑袋割下来，你知道？\N{\fs10\1c&HB4DCFC&}And when he comes and gets it. I hope somebody cuts their heads off. you know?
+Dialogue: 0,1:18:57.58,1:18:59.03,Default,,0,0,0,,我会找我布朗克斯的弟兄\N{\fs10\1c&HB4DCFC&}I'd get my boys from the Bronx.
+Dialogue: 0,1:18:59.45,1:19:01.73,Default,,0,0,0,,然后我们就好好...\N{\fs10\1c&HB4DCFC&}and we'd just totally...
+Dialogue: 0,1:19:02.25,1:19:04.39,Default,,0,0,0,,- 教训他  - 我们要胖揍他一顿\N{\fs10\1c&HB4DCFC&}- Take Care of him. -We'd mess him up big time.
+Dialogue: 0,1:19:04.41,1:19:06.72,Default,,0,0,0,,我认为他在拿儿子的命冒险\N{\fs10\1c&HB4DCFC&}I think he's risking his son's life.
+Dialogue: 0,1:19:07.46,1:19:09.68,Default,,0,0,0,,我认为他是笨蛋，他孩子命在旦夕\N{\fs10\1c&HB4DCFC&}I think he's a fool. His child's life is in danger.
+Dialogue: 0,1:19:09.70,1:19:11.67,Default,,0,0,0,,付钱，继续生活下去\N{\fs10\1c&HB4DCFC&}Pay the money. Get on with your life.
+Dialogue: 0,1:19:11.77,1:19:15.27,Default,,0,0,0,,我会去乞讨、借钱、偷钱，必要的话，他该付钱的\N{\fs10\1c&HB4DCFC&}I'd beg, borrow and steal. if I had to. He should pay.
+Dialogue: 0,1:19:17.74,1:19:20.41,Default,,0,0,0,,今天有人打电话到我家\N{\fs10\1c&HB4DCFC&}A man calls me at my home today.
+Dialogue: 0,1:19:21.16,1:19:23.44,Default,,0,0,0,,他要我看我的信箱\N{\fs10\1c&HB4DCFC&}He ask me to look in my mailbox.
+Dialogue: 0,1:19:24.29,1:19:27.47,Default,,0,0,0,,他要我把这个给你，不让别人看\N{\fs10\1c&HB4DCFC&}He told me to give you this, and nobody else.
+Dialogue: 0,1:19:27.59,1:19:31.96,Default,,0,0,0,,他说如果警察知道这个\N{\fs10\1c&HB4DCFC&}He said if the police know anything about this...
+Dialogue: 0,1:19:32.09,1:19:34.28,Default,,0,0,0,,如果穆伦先生知道了\N{\fs10\1c&HB4DCFC&}if Mr Mullen knows about this...
+Dialogue: 0,1:19:35.76,1:19:38.57,Default,,0,0,0,,{\an8}“妈妈，凌晨两点，一个人来”
+Dialogue: 0,1:19:35.86,1:19:38.57,Default,,0,0,0,,他们就会杀死西恩\N{\fs10\1c&HB4DCFC&}they'll kill Sean.
+Dialogue: 0,1:19:56.72,1:19:57.30,Default,,0,0,0,,是谁？\N{\fs10\1c&HB4DCFC&}Who is it?
+Dialogue: 0,1:20:45.61,1:20:46.44,Default,,0,0,0,,很简单\N{\fs10\1c&HB4DCFC&}It's very simple.
+Dialogue: 0,1:20:47.74,1:20:50.83,Default,,0,0,0,,我越来越厌烦这狗屁了\N{\fs10\1c&HB4DCFC&}I'm growing very, very tired of this bullshit.
+Dialogue: 0,1:20:51.44,1:20:54.37,Default,,0,0,0,,- 那你能不能... - 现在全看你了\N{\fs10\1c&HB4DCFC&}- Then could you...- Now it's up to you.
+Dialogue: 0,1:20:55.29,1:20:58.50,Default,,0,0,0,,叫他收回悬赏金 把钱给我\N{\fs10\1c&HB4DCFC&}Get him to take back the reward and pay me my money...
+Dialogue: 0,1:20:59.09,1:21:02.43,Default,,0,0,0,,否则你会发现你儿子的碎尸遍布纽约\N{\fs10\1c&HB4DCFC&}or you're gonna find pieces of your little boy all over New York.
+Dialogue: 0,1:21:03.68,1:21:05.30,Default,,0,0,0,,我不会浪费一颗子弹\N{\fs10\1c&HB4DCFC&}I'm not gonna waste a bullet.
+Dialogue: 0,1:21:06.96,1:21:10.00,Default,,0,0,0,,我只会磨利我的刀子\N{\fs10\1c&HB4DCFC&}I'm just gonna sharpen my knife.
+Dialogue: 0,1:21:13.02,1:21:14.69,Default,,0,0,0,,噢，天啊！求你！\N{\fs10\1c&HB4DCFC&}Oh, God! Please!
+Dialogue: 0,1:21:29.46,1:21:31.31,Default,,0,0,0,,他没有提高声音，凯特？\N{\fs10\1c&HB4DCFC&}And he never raised his voice at all, Kate?
+Dialogue: 0,1:21:32.18,1:21:37.69,Default,,0,0,0,,没有，他...他一直低语，我...他在低语\N{\fs10\1c&HB4DCFC&}No, he...No, he was whispering. I...He was whispering.
+Dialogue: 0,1:21:38.85,1:21:40.94,Default,,0,0,0,,好吧，来，我们送到化验室\N{\fs10\1c&HB4DCFC&}Okay. Come on. We'll take it to the lab.
+Dialogue: 0,1:21:44.94,1:21:47.20,Default,,0,0,0,,你付钱拯救你的航空公司\N{\fs10\1c&HB4DCFC&}You paid off to save your airline.
+Dialogue: 0,1:21:49.57,1:21:52.12,Default,,0,0,0,,为何你不付钱救你儿子？\N{\fs10\1c&HB4DCFC&}Why won't you pay off to save your son?
+Dialogue: 0,1:22:03.84,1:22:08.06,Default,,0,0,0,,我不是婚姻顾问，我来这里是救你儿子回来\N{\fs10\1c&HB4DCFC&}I'm not a marriage counsellor. I'm here to get your boy back.
+Dialogue: 0,1:22:30.21,1:22:31.13,Default,,0,0,0,,对不起\N{\fs10\1c&HB4DCFC&}I'm sorry.
+Dialogue: 0,1:22:33.80,1:22:37.63,Default,,0,0,0,,我希望...这事你能原谅我\N{\fs10\1c&HB4DCFC&}I hope... that you can forgive me for that.
+Dialogue: 0,1:22:41.98,1:22:43.86,Default,,0,0,0,,也原谅我现在要做的\N{\fs10\1c&HB4DCFC&}And for what I have to do now.
+Dialogue: 0,1:22:47.47,1:22:49.28,Default,,0,0,0,,把T恤送去验证室\N{\fs10\1c&HB4DCFC&}Get the shirt to Forensics.
+Dialogue: 0,1:22:49.29,1:22:51.81,Default,,0,0,0,,- 确保他们检查不止一种血型  - 好的，朗尼\N{\fs10\1c&HB4DCFC&}- Make sure they check for more than one blood type. - Sure, Lonnie.
+Dialogue: 0,1:22:52.19,1:22:53.58,Default,,0,0,0,,你要去哪，汤姆？\N{\fs10\1c&HB4DCFC&}Where are you goin', Tom?
+Dialogue: 0,1:22:54.69,1:22:55.58,Default,,0,0,0,,你要去哪里？你要干...\N{\fs10\1c&HB4DCFC&}Where are you goin'? What you...
+Dialogue: 0,1:22:57.63,1:22:58.47,Default,,0,0,0,,我不...\N{\fs10\1c&HB4DCFC&}I'm not...
+Dialogue: 0,1:22:59.13,1:23:01.57,Default,,0,0,0,,好吧，行动前最好想清楚\N{\fs10\1c&HB4DCFC&}All right. Just think before you act.
+Dialogue: 0,1:23:06.94,1:23:08.08,Default,,0,0,0,,- 他在那 - 穆伦先生\N{\fs10\1c&HB4DCFC&}- There he is. - Mr Mullen!
+Dialogue: 0,1:23:08.10,1:23:09.18,Default,,0,0,0,,嘿，那是汤姆\N{\fs10\1c&HB4DCFC&}Hey, Tom.
+Dialogue: 0,1:23:22.90,1:23:24.56,Default,,0,0,0,,- 我想发表一个声明  - 安静\N{\fs10\1c&HB4DCFC&}- I'd like to make a statement. - Quiet.
+Dialogue: 0,1:23:25.13,1:23:29.98,Default,,0,0,0,,那就是… 我的行动步骤并未被阻\N{\fs10\1c&HB4DCFC&}And that is that I'm undeterred in my course of action.
+Dialogue: 0,1:23:33.52,1:23:35.49,Default,,0,0,0,,我要提高赏金\N{\fs10\1c&HB4DCFC&}And I'm raising the reward. Uh.
+Dialogue: 0,1:23:37.48,1:23:39.49,Default,,0,0,0,,我再提高两百万元\N{\fs10\1c&HB4DCFC&}I'm raising it by $ 2 million.
+Dialogue: 0,1:23:40.54,1:23:42.07,Default,,0,0,0,,穆伦先生，你为什么这么做？\N{\fs10\1c&HB4DCFC&}Mr Mullen. why are you doing this?
+Dialogue: 0,1:23:42.09,1:23:43.07,Default,,0,0,0,,我要我儿子回来\N{\fs10\1c&HB4DCFC&}I want my son back.
+Dialogue: 0,1:23:45.29,1:23:46.87,Default,,0,0,0,,谢谢你们…\N{\fs10\1c&HB4DCFC&}Thank you. Thank you.
+Dialogue: 0,1:23:57.58,1:23:58.61,Default,,0,0,0,,刚收到的\N{\fs10\1c&HB4DCFC&}This just in.
+Dialogue: 0,1:23:58.68,1:24:04.51,Default,,0,0,0,,据报道，汤姆·穆伦把他儿子的赏金 提高了二百万元\N{\fs10\1c&HB4DCFC&}Tom Mullen has reportedly raised the reward money for his son's life...by $ 2 million.
+Dialogue: 0,1:24:22.63,1:24:26.30,Default,,0,0,0,,嘿…你要去哪？\N{\fs10\1c&HB4DCFC&}Hey. Where are you goin'?
+Dialogue: 0,1:24:38.51,1:24:39.58,Default,,0,0,0,,你已毁了我的生活\N{\fs10\1c&HB4DCFC&}You've ruined my life.
+Dialogue: 0,1:24:42.31,1:24:43.83,Default,,0,0,0,,你以为我做这些到底是为了谁？\N{\fs10\1c&HB4DCFC&}Who the hell you think I'm doing this for?
+Dialogue: 0,1:24:44.27,1:24:48.50,Default,,0,0,0,,今晚一个轰动性的进展，汤姆·穆伦加倍了赏金\N{\fs10\1c&HB4DCFC&}A stunning development tonight as Tom Mullen doubles the reward money...
+Dialogue: 0,1:24:48.51,1:24:51.61,Default,,0,0,0,,到4百万，为了捕捉…\N{\fs10\1c&HB4DCFC&}to $4 million for the capture of...
+Dialogue: 0,1:24:55.12,1:24:55.72,Default,,0,0,0,,什么？\N{\fs10\1c&HB4DCFC&}What?
+Dialogue: 0,1:24:55.94,1:24:57.02,Default,,0,0,0,,想和你儿子说话吗？\N{\fs10\1c&HB4DCFC&}Wanna talk to your son?
+Dialogue: 0,1:24:58.69,1:24:59.66,Default,,0,0,0,,是，我当然想\N{\fs10\1c&HB4DCFC&}Yes, of course I do.
+Dialogue: 0,1:25:00.72,1:25:02.06,Default,,0,0,0,,爹地？爸爸？\N{\fs10\1c&HB4DCFC&}Mmm, Daddy? Dad?
+Dialogue: 0,1:25:02.75,1:25:03.69,Default,,0,0,0,,西恩…\N{\fs10\1c&HB4DCFC&}Sean.
+Dialogue: 0,1:25:04.38,1:25:07.04,Default,,0,0,0,,- 西恩，儿子  - 西恩？我要听\N{\fs10\1c&HB4DCFC&}- Sean. Sean. Son. - Sean? I wanna listen.
+Dialogue: 0,1:25:08.33,1:25:09.31,Default,,0,0,0,,这就够了\N{\fs10\1c&HB4DCFC&}That's enough.
+Dialogue: 0,1:25:09.46,1:25:10.95,Default,,0,0,0,,不，让他继续听电话 我要跟他说话\N{\fs10\1c&HB4DCFC&}No, put him back on. I wanna...I wanna talk to him.
+Dialogue: 0,1:25:11.03,1:25:12.17,Default,,0,0,0,,你说过了\N{\fs10\1c&HB4DCFC&}You just did.
+Dialogue: 0,1:25:12.83,1:25:15.80,Default,,0,0,0,,现在，你听着...\N{\fs10\1c&HB4DCFC&}Now. you listen...
+Dialogue: 0,1:25:16.33,1:25:18.38,Default,,0,0,0,,仔仔细细听着\N{\fs10\1c&HB4DCFC&}real, real good.
+Dialogue: 0,1:25:19.03,1:25:21.38,Default,,0,0,0,,你还有一次付钱的机会\N{\fs10\1c&HB4DCFC&}You got one more chance to pay up
+Dialogue: 0,1:25:21.69,1:25:24.19,Default,,0,0,0,,否则你再也不能跟他说话了，别再乱搞\N{\fs10\1c&HB4DCFC&}or you're never gonna talk to him again. No more fuckin' around.
+Dialogue: 0,1:25:25.37,1:25:27.15,Default,,0,0,0,,现在就是了断\N{\fs10\1c&HB4DCFC&}This is it right now.
+Dialogue: 0,1:25:27.97,1:25:29.15,Default,,0,0,0,,怎么办呢？\N{\fs10\1c&HB4DCFC&}What's it gonna be?
+Dialogue: 0,1:25:36.23,1:25:37.18,Default,,0,0,0,,不\N{\fs10\1c&HB4DCFC&}No.
+Dialogue: 0,1:25:37.53,1:25:40.33,Default,,0,0,0,,唬人，你不会碰他，你没那么蠢\N{\fs10\1c&HB4DCFC&}Bullshit. You're not gonna touch him. You can't be that stupid.
+Dialogue: 0,1:25:40.34,1:25:42.54,Default,,0,0,0,,你知道我会给你降下什么腥风血雨吗？\N{\fs10\1c&HB4DCFC&}Do you have any idea the rain of shit I can put on you?
+Dialogue: 0,1:25:42.58,1:25:43.87,Default,,0,0,0,,看看你太太\N{\fs10\1c&HB4DCFC&}Look at your wife.
+Dialogue: 0,1:25:43.88,1:25:45.72,Default,,0,0,0,,看看她的脸，妈了个逼\N{\fs10\1c&HB4DCFC&}Look at her face, motherfucker.
+Dialogue: 0,1:25:45.73,1:25:47.22,Default,,0,0,0,,你知道我会对你儿子干什么吗？\N{\fs10\1c&HB4DCFC&}Do you know what I can do to your boy?
+Dialogue: 0,1:25:47.36,1:25:50.01,Default,,0,0,0,,你打电话的地方黑暗吗？你有一副黑暗图景吧？\N{\fs10\1c&HB4DCFC&}Is it dark where you're calling from? You got the shades drawn?
+Dialogue: 0,1:25:50.02,1:25:52.21,Default,,0,0,0,,像是个地窖，对吧？像是个洞穴？\N{\fs10\1c&HB4DCFC&}Kind of like a cellar, right? Like a cave?
+Dialogue: 0,1:25:52.22,1:25:53.65,Default,,0,0,0,,对了，你最好习惯它\N{\fs10\1c&HB4DCFC&}Well, you better get used to that.
+Dialogue: 0,1:25:53.67,1:25:56.22,Default,,0,0,0,,你最好习惯余生在黑暗中爬行\N{\fs10\1c&HB4DCFC&}You better get used to crawling in the dark for the rest of your days...
+Dialogue: 0,1:25:56.24,1:25:59.42,Default,,0,0,0,,因为我要找来这个国家最好的追捕团队\N{\fs10\1c&HB4DCFC&}because I am going to get the best group of manhunters in this country...
+Dialogue: 0,1:25:59.44,1:26:01.82,Default,,0,0,0,,而且我会付出一生来追你到死！\N{\fs10\1c&HB4DCFC&}and I am gonna dedicate my life to tracking you down!
+Dialogue: 0,1:26:01.83,1:26:03.49,Default,,0,0,0,,- 你明白吗？ - 嘿，别发清秋大梦了！\N{\fs10\1c&HB4DCFC&}- You understand? - Hey, hey, get your head out of your ass!
+Dialogue: 0,1:26:03.80,1:26:05.23,Default,,0,0,0,,你以为你可以威胁我？\N{\fs10\1c&HB4DCFC&}You think you can threaten me, huh?
+Dialogue: 0,1:26:05.25,1:26:07.31,Default,,0,0,0,,你以为跟谁打交道呢？把钱给我！\N{\fs10\1c&HB4DCFC&}Who do you think you're dealing with? Give me the money!
+Dialogue: 0,1:26:07.34,1:26:08.44,Default,,0,0,0,,去你的2百万！\N{\fs10\1c&HB4DCFC&}Fuck you and your $2 million!
+Dialogue: 0,1:26:08.87,1:26:11.58,Default,,0,0,0,,你听不懂英语吗，你这没用的屎蛋？\N{\fs10\1c&HB4DCFC&}Don't you understand English, you useless piece of shit?
+Dialogue: 0,1:26:11.59,1:26:12.50,Default,,0,0,0,,不付钱！没钱！\N{\fs10\1c&HB4DCFC&}No money! None!
+Dialogue: 0,1:26:12.54,1:26:14.92,Default,,0,0,0,,我跟你说吧，你以为你现在够受罪了？\N{\fs10\1c&HB4DCFC&}Let me tell you something. You think you're suffering right now? Huh?
+Dialogue: 0,1:26:14.95,1:26:16.44,Default,,0,0,0,,你都不知道什么叫受罪\N{\fs10\1c&HB4DCFC&}You got no idea what suffering is.
+Dialogue: 0,1:26:16.45,1:26:19.86,Default,,0,0,0,,我一小时内拿不到现金，这孩子就死定了！\N{\fs10\1c&HB4DCFC&}If I don't get the cash in one hour, this kid is dead!
+Dialogue: 0,1:26:19.88,1:26:23.92,Default,,0,0,0,,如果我儿子没回来，而且要很快，那你最好杀了你自己！\N{\fs10\1c&HB4DCFC&}I don't get my son back, and I mean real soon, you better kill yourself...
+Dialogue: 0,1:26:23.93,1:26:26.77,Default,,0,0,0,,因为等我逮到你，我会慢慢折磨你\N{\fs10\1c&HB4DCFC&}because when I catch up with you I'm gonna take my goddam time!
+Dialogue: 0,1:26:27.44,1:26:29.48,Default,,0,0,0,,到我整完你的时候，你会希望自己从没出生过\N{\fs10\1c&HB4DCFC&}By the time we're finished. you're gonna wish you weren't born!
+Dialogue: 0,1:26:29.53,1:26:31.95,Default,,0,0,0,,我要把你的脑袋穿在他妈一支矛上！你明白吗？\N{\fs10\1c&HB4DCFC&}I'll have your head on a fuckin' pike! You understand me?
+Dialogue: 0,1:26:31.96,1:26:34.41,Default,,0,0,0,,操你娘的！我他妈现在就宰了他！\N{\fs10\1c&HB4DCFC&}Fuck you! I'll fuckin' kill him right now!
+Dialogue: 0,1:26:34.46,1:26:35.25,Default,,0,0,0,,让我来说\N{\fs10\1c&HB4DCFC&}I wanna talk!
+Dialogue: 0,1:26:35.26,1:26:37.51,Default,,0,0,0,,你杀了他，你就自杀吧，妈了个逼！\N{\fs10\1c&HB4DCFC&}You kill him, you kill yourself, you motherfucker!
+Dialogue: 0,1:26:37.56,1:26:38.91,Default,,0,0,0,,把我儿子还给我！\N{\fs10\1c&HB4DCFC&}Give me back my son!
+Dialogue: 0,1:26:39.16,1:26:40.07,Default,,0,0,0,,哈罗\N{\fs10\1c&HB4DCFC&}Hello!
+Dialogue: 0,1:26:40.23,1:26:40.90,Default,,0,0,0,,你要他\N{\fs10\1c&HB4DCFC&}You want him?
+Dialogue: 0,1:26:40.90,1:26:41.52,Default,,0,0,0,,没错\N{\fs10\1c&HB4DCFC&}Yes!
+Dialogue: 0,1:26:41.53,1:26:42.75,Default,,0,0,0,,你要他？\N{\fs10\1c&HB4DCFC&}You want him?
+Dialogue: 0,1:26:42.83,1:26:43.37,Default,,0,0,0,,爹地！\N{\fs10\1c&HB4DCFC&}Daddy!
+Dialogue: 0,1:26:45.29,1:26:46.67,Default,,0,0,0,,天啊、天啊\N{\fs10\1c&HB4DCFC&}Oh!Jesus!Jesus!
+Dialogue: 0,1:26:48.29,1:26:50.17,Default,,0,0,0,,我的天，哦\N{\fs10\1c&HB4DCFC&}Oh, Jesus! Oh! Oh!
+Dialogue: 0,1:26:59.21,1:27:00.58,Default,,0,0,0,,我他妈要宰了你，穆伦\N{\fs10\1c&HB4DCFC&}I'll fuckin' kill you, Mullen!
+Dialogue: 0,1:27:08.86,1:27:13.40,Default,,0,0,0,,你这混蛋，你害死他，你这混蛋！\N{\fs10\1c&HB4DCFC&}You son of a bitch! You killed him, you son of a bitch!
+Dialogue: 0,1:27:13.44,1:27:17.41,Default,,0,0,0,,- 天杀的，天啊 - 别，别，凯特\N{\fs10\1c&HB4DCFC&}-Goddam it! Oh, God. Oh, God. - Come on. Easy. Come on. - Kate!
+Dialogue: 0,1:27:17.87,1:27:19.49,Default,,0,0,0,,你俩听我说\N{\fs10\1c&HB4DCFC&}Both of you listen to me!
+Dialogue: 0,1:27:19.50,1:27:22.15,Default,,0,0,0,,你害死了他！不是他们！是你！\N{\fs10\1c&HB4DCFC&}You killed him! Not them! You!
+Dialogue: 0,1:27:24.50,1:27:25.87,Default,,0,0,0,,带她到别的房间\N{\fs10\1c&HB4DCFC&}Take her in the other room.
+Dialogue: 0,1:27:27.33,1:27:30.31,Default,,0,0,0,,- 天啊，我想和他说话… - 我知道\N{\fs10\1c&HB4DCFC&}- Oh, God. I wanted to talk to him. - I know.
+Dialogue: 0,1:27:30.33,1:27:33.41,Default,,0,0,0,,- 我想和他说话… - 我也想和他说，你会的，你会的\N{\fs10\1c&HB4DCFC&}- I wanted to talk to him. - I wanted to talk to him too. You will, you will.
+Dialogue: 0,1:27:39.66,1:27:40.90,Default,,0,0,0,,我们拿这孩子怎么办？\N{\fs10\1c&HB4DCFC&}What do we do about this kid?
+Dialogue: 0,1:27:40.94,1:27:42.28,Default,,0,0,0,,再不是我的问题了\N{\fs10\1c&HB4DCFC&}Ain't my problem any more.
+Dialogue: 0,1:27:42.42,1:27:43.99,Default,,0,0,0,,他不能指认任何人，对吧？去他的\N{\fs10\1c&HB4DCFC&}Can't ID anybody, right? Fuck 'im.
+Dialogue: 0,1:28:18.72,1:28:24.73,Default,,0,0,0,,上帝啊，上帝，请你救救我…\N{\fs10\1c&HB4DCFC&}Oh, God. Oh, God. Oh, please, help me. Please.
+Dialogue: 0,1:28:24.78,1:28:29.20,Default,,0,0,0,,凯特，没事的，不会有事的…\N{\fs10\1c&HB4DCFC&}Okay, Katie, all right. It's okay. It's okay.
+Dialogue: 0,1:30:27.21,1:30:28.50,Default,,0,0,0,,南区44号呼叫总局\N{\fs10\1c&HB4DCFC&}South 44 to Base.
+Dialogue: 0,1:30:30.05,1:30:31.14,Default,,0,0,0,,天啊…\N{\fs10\1c&HB4DCFC&}Oh, God. Oh, God.
+Dialogue: 0,1:30:31.18,1:30:32.35,Default,,0,0,0,,南区44号，请说\N{\fs10\1c&HB4DCFC&}South 44. go.
+Dialogue: 0,1:30:33.10,1:30:37.35,Default,,0,0,0,,18街2627号，10-13，警探需要支援\N{\fs10\1c&HB4DCFC&}2627 18th Street. 10-13. Officer needs assistance.
+Dialogue: 0,1:30:37.69,1:30:40.70,Default,,0,0,0,,屋内有几名武装人员，可能是绑架案\N{\fs10\1c&HB4DCFC&}I have several armed men in a house. Possible kidnap situation.
+Dialogue: 0,1:30:40.72,1:30:42.61,Default,,0,0,0,,重复，可能是绑架案\N{\fs10\1c&HB4DCFC&}Repeat, possible kidnap situation.
+Dialogue: 0,1:30:43.15,1:30:45.89,Default,,0,0,0,,10-13，便衣警探\N{\fs10\1c&HB4DCFC&}1 0-13. Officer in civilian clothes.
+Dialogue: 0,1:31:09.01,1:31:09.92,Default,,0,0,0,,警察！\N{\fs10\1c&HB4DCFC&}Police!
+Dialogue: 0,1:31:10.28,1:31:10.78,Default,,0,0,0,,可恶\N{\fs10\1c&HB4DCFC&}Shit.
+Dialogue: 0,1:31:13.50,1:31:14.85,Default,,0,0,0,,给我他妈的下车\N{\fs10\1c&HB4DCFC&}Get the fuck out of the van!
+Dialogue: 0,1:31:15.62,1:31:16.96,Default,,0,0,0,,走啊，老兄，快啊\N{\fs10\1c&HB4DCFC&}Go, man. Come on.
+Dialogue: 0,1:31:37.13,1:31:38.22,Default,,0,0,0,,把枪扔掉！\N{\fs10\1c&HB4DCFC&}Drop the gun!
+Dialogue: 0,1:33:13.63,1:33:15.32,Default,,0,0,0,,快！快！去！\N{\fs10\1c&HB4DCFC&}Move! Move! Go!
+Dialogue: 0,1:33:21.50,1:33:25.07,Default,,0,0,0,,安全！安全！\N{\fs10\1c&HB4DCFC&}Clear! Clear!
+Dialogue: 0,1:33:25.67,1:33:27.04,Default,,0,0,0,,警察！别动！\N{\fs10\1c&HB4DCFC&}Police! Freeze!
+Dialogue: 0,1:33:27.06,1:33:29.23,Default,,0,0,0,,喂喂喂，我是警察\N{\fs10\1c&HB4DCFC&}Whoa! Whoa, whoa, whoa! I'm a cop!
+Dialogue: 0,1:33:29.24,1:33:31.09,Default,,0,0,0,,- 安全  - 别开枪，我是警察\N{\fs10\1c&HB4DCFC&}- Clear! - Hold your fire. I'm a cop.
+Dialogue: 0,1:33:31.88,1:33:32.84,Default,,0,0,0,,他没事\N{\fs10\1c&HB4DCFC&}He's all right.
+Dialogue: 0,1:33:35.30,1:33:36.22,Default,,0,0,0,,我是警察\N{\fs10\1c&HB4DCFC&}I'm a cop.
+Dialogue: 0,1:33:42.65,1:33:44.22,Default,,0,0,0,,凯特？汤姆？\N{\fs10\1c&HB4DCFC&}Kate. Tom.
+Dialogue: 0,1:33:52.33,1:33:53.81,Default,,0,0,0,,FBI，让开，让开\N{\fs10\1c&HB4DCFC&}FBI. Comin' through. Comin' through.
+Dialogue: 0,1:33:54.24,1:33:55.30,Default,,0,0,0,,跟着我，跟着我\N{\fs10\1c&HB4DCFC&}Stay with me. Stay with me.
+Dialogue: 0,1:33:55.34,1:33:57.00,Default,,0,0,0,,让开，伙计们，让开\N{\fs10\1c&HB4DCFC&}Comin' through, fellas. Comin' through.
+Dialogue: 0,1:34:01.74,1:34:03.20,Default,,0,0,0,,他人呢？人呢？\N{\fs10\1c&HB4DCFC&}Wh...Where is...Where is...
+Dialogue: 0,1:34:05.26,1:34:07.30,Default,,0,0,0,,老天啊\N{\fs10\1c&HB4DCFC&}Oh,Jesus Christ.
+Dialogue: 0,1:34:08.96,1:34:10.83,Default,,0,0,0,,在哪...朗尼？西恩在哪？\N{\fs10\1c&HB4DCFC&}Wh-Where is...L-Lonnie? Where's Sean?
+Dialogue: 0,1:34:10.97,1:34:12.38,Default,,0,0,0,,在屋里，在屋里，就在这边\N{\fs10\1c&HB4DCFC&}In the house. In the house. Right over here.
+Dialogue: 0,1:34:13.48,1:34:16.10,Default,,0,0,0,,别在这停留，伙计们，让开整条路\N{\fs10\1c&HB4DCFC&}Don't stop here, guys. Keep movin' all the way through.
+Dialogue: 0,1:34:16.52,1:34:17.84,Default,,0,0,0,,让开门口\N{\fs10\1c&HB4DCFC&}Clear the doorway here, okay?
+Dialogue: 0,1:34:17.96,1:34:19.64,Default,,0,0,0,,孩子在里头，孩子的父亲来了\N{\fs10\1c&HB4DCFC&}The boy's in there. All right, here comes the boy's father.
+Dialogue: 0,1:34:19.65,1:34:23.15,Default,,0,0,0,,西恩，西恩，我是他父亲，西恩？\N{\fs10\1c&HB4DCFC&}Sean? Sean? I'm...I'm the father. Sean?
+Dialogue: 0,1:34:25.27,1:34:27.81,Default,,0,0,0,,- 是谁？ - 西恩，是我，我是爹地\N{\fs10\1c&HB4DCFC&}- Who is it? - Sean. It's me. It's Daddy.
+Dialogue: 0,1:34:28.77,1:34:29.27,Default,,0,0,0,,爹地？\N{\fs10\1c&HB4DCFC&}Daddy?
+Dialogue: 0,1:34:31.65,1:34:32.41,Default,,0,0,0,,他没事吧？\N{\fs10\1c&HB4DCFC&}Is he...Is he all right?
+Dialogue: 0,1:34:32.75,1:34:34.41,Default,,0,0,0,,我能带走他吗？能抱他吗？\N{\fs10\1c&HB4DCFC&}Can I pick him up? Can I hold him?
+Dialogue: 0,1:34:34.44,1:34:35.68,Default,,0,0,0,,- 他没事的  - 哦，西恩\N{\fs10\1c&HB4DCFC&}Oh, he's gonna be all right. - Oh, Sean.
+Dialogue: 0,1:34:35.77,1:34:38.96,Default,,0,0,0,,他还好，手上割伤较重，还有一点脱水\N{\fs10\1c&HB4DCFC&}He's just got a nasty cut on his hand, and he's, uh, a little dehydrated.
+Dialogue: 0,1:34:38.97,1:34:41.54,Default,,0,0,0,,- 西恩，是妈妈  - 你没事了，伙计，我们找到你了\N{\fs10\1c&HB4DCFC&}- Sean, it's Mommy. - You're okay, buddy. You're okay. We got ya.
+Dialogue: 0,1:34:41.56,1:34:42.60,Default,,0,0,0,,我们找到你了\N{\fs10\1c&HB4DCFC&}We got ya now.
+Dialogue: 0,1:34:42.61,1:34:45.20,Default,,0,0,0,,- 嗨，妈  - 嗨，小乖乖\N{\fs10\1c&HB4DCFC&}- Hi, Mom. - Hi, sweetheart.
+Dialogue: 0,1:34:45.31,1:34:46.66,Default,,0,0,0,,你没事了\N{\fs10\1c&HB4DCFC&}You're okay.
+Dialogue: 0,1:34:47.83,1:34:50.12,Default,,0,0,0,,- 带我回家，好吗？ - 当然，当然\N{\fs10\1c&HB4DCFC&}- Take me home, okay? - Oh, sure. Sure.
+Dialogue: 0,1:34:51.17,1:34:52.21,Default,,0,0,0,,带我回家\N{\fs10\1c&HB4DCFC&}Take me home.
+Dialogue: 0,1:34:52.83,1:34:54.13,Default,,0,0,0,,好的，甜心\N{\fs10\1c&HB4DCFC&}Okay, honey.
+Dialogue: 0,1:34:56.34,1:34:58.22,Default,,0,0,0,,- 我爱你，西恩  - 我也是\N{\fs10\1c&HB4DCFC&}- I love you, Sean. - Me too.
+Dialogue: 0,1:35:06.81,1:35:08.20,Default,,0,0,0,,妈妈在这儿，西恩\N{\fs10\1c&HB4DCFC&}Mama's here, Sean.
+Dialogue: 0,1:35:11.91,1:35:13.10,Default,,0,0,0,,你没事了\N{\fs10\1c&HB4DCFC&}You're okay.
+Dialogue: 0,1:35:22.24,1:35:24.30,Default,,0,0,0,,他...他伤得很重吗？\N{\fs10\1c&HB4DCFC&}-Is-Is-Is-Is he seriously injured?
+Dialogue: 0,1:35:24.32,1:35:26.71,Default,,0,0,0,,他不会有事，请让开\N{\fs10\1c&HB4DCFC&}He's gonna be okay. Step to the side, please.
+Dialogue: 0,1:35:27.02,1:35:30.11,Default,,0,0,0,,全都让开，让开，退后\N{\fs10\1c&HB4DCFC&}All the way back. Get back, get back. Back off.
+Dialogue: 0,1:35:31.53,1:35:34.33,Default,,0,0,0,,- 谢克先生  - 退后，请往后\N{\fs10\1c&HB4DCFC&}- Mr Shaker? - Step back, please. Step back. Step back.
+Dialogue: 0,1:35:36.90,1:35:38.12,Default,,0,0,0,,谢谢你\N{\fs10\1c&HB4DCFC&}Thank you.
+Dialogue: 0,1:35:47.09,1:35:48.32,Default,,0,0,0,,伙计们，让我们出去，好吗？\N{\fs10\1c&HB4DCFC&}Guys, help us out, will ya?
+Dialogue: 0,1:35:48.33,1:35:49.32,Default,,0,0,0,,谢谢你\N{\fs10\1c&HB4DCFC&}Thank you.
+Dialogue: 0,1:35:53.35,1:35:55.55,Default,,0,0,0,,汤姆，汤姆，过这边来\N{\fs10\1c&HB4DCFC&}Tom. Tom? Just come this way.
+Dialogue: 0,1:36:01.88,1:36:02.70,Default,,0,0,0,,你认识她？\N{\fs10\1c&HB4DCFC&}You know her?
+Dialogue: 0,1:36:05.20,1:36:08.83,Default,,0,0,0,,是的，我认得\N{\fs10\1c&HB4DCFC&}Yeah. I do.
+Dialogue: 0,1:36:10.54,1:36:14.87,Default,,0,0,0,,天啊，她给我干过活，外烩\N{\fs10\1c&HB4DCFC&}Jesus Christ. I mean, she w-worked for me. Catering.
+Dialogue: 0,1:36:23.10,1:36:26.12,Default,,0,0,0,,- 穆伦先生，汤姆，汤姆  - 穆伦先生，这边！\N{\fs10\1c&HB4DCFC&}- Mr Mullen! Tom! Tom! - Mr Mullen, this way!
+Dialogue: 0,1:36:27.20,1:36:30.52,Default,,0,0,0,,这边，这边，就在这边，请过来\N{\fs10\1c&HB4DCFC&}Right here, right here. Right over here, please
+Dialogue: 0,1:36:31.36,1:36:32.02,Default,,0,0,0,,你没事吧？\N{\fs10\1c&HB4DCFC&}You okay?
+Dialogue: 0,1:36:32.36,1:36:33.92,Default,,0,0,0,,现在不行，好了，后退\N{\fs10\1c&HB4DCFC&}Not now. Come on, back off.
+Dialogue: 0,1:36:44.02,1:36:46.11,Default,,0,0,0,,啊！开灯！开灯！\N{\fs10\1c&HB4DCFC&}Aaah! Turn the lights on! Turn the lights on!
+Dialogue: 0,1:36:47.53,1:36:48.82,Default,,0,0,0,,- 嘿  - 没事了\N{\fs10\1c&HB4DCFC&}- Hey. - It's all right.
+Dialogue: 0,1:36:49.56,1:36:53.46,Default,,0,0,0,,我怕黑，我不喜欢黑暗 把灯开着\N{\fs10\1c&HB4DCFC&}I'm afraid of the dark. I don't like the dark. Leave the light on.
+Dialogue: 0,1:36:53.58,1:36:56.55,Default,,0,0,0,,好，我们会开着灯，我们一直开着灯的\N{\fs10\1c&HB4DCFC&}Yeah, we'll leave 'em on. We'll leave 'em on all the time.
+Dialogue: 0,1:36:59.04,1:37:00.19,Default,,0,0,0,,接下来我只知道\N{\fs10\1c&HB4DCFC&}Next thing I know
+Dialogue: 0,1:37:01.24,1:37:03.39,Default,,0,0,0,,一个家伙开始冲我开火\N{\fs10\1c&HB4DCFC&}one guy starts blastin' away at me.
+Dialogue: 0,1:37:03.40,1:37:07.83,Default,,0,0,0,,另一个人，他开车来撞我\N{\fs10\1c&HB4DCFC&}The...The other guy, he goes to run me over.
+Dialogue: 0,1:37:08.30,1:37:10.88,Default,,0,0,0,,所以，你知道，我干了必须干的事\N{\fs10\1c&HB4DCFC&}So, you know, I just did what I had to do.
+Dialogue: 0,1:37:11.93,1:37:12.97,Default,,0,0,0,,那个女人呢？\N{\fs10\1c&HB4DCFC&}What about the woman?
+Dialogue: 0,1:37:16.79,1:37:17.34,Default,,0,0,0,,吉米？\N{\fs10\1c&HB4DCFC&}Jimmy?
+Dialogue: 0,1:37:21.19,1:37:24.52,Default,,0,0,0,,喔，你知道，我被子弹打得转过身\N{\fs10\1c&HB4DCFC&}Uh, you know, I just, uh, got spun around by the bullet.
+Dialogue: 0,1:37:24.77,1:37:26.94,Default,,0,0,0,,我不知道那是个女人，后来才知\N{\fs10\1c&HB4DCFC&}I didn't know it was a woman 'til after.
+Dialogue: 0,1:37:34.02,1:37:36.45,Default,,0,0,0,,他是个诚实的警察，他工作极其出色\N{\fs10\1c&HB4DCFC&}He's a. an honest Cop. He does a hell of a job.
+Dialogue: 0,1:37:36.99,1:37:40.11,Default,,0,0,0,,不，只要一张，取消另一张\N{\fs10\1c&HB4DCFC&}No, just one. Cancel the other one.
+Dialogue: 0,1:37:40.12,1:37:42.01,Default,,0,0,0,,这就是为什么我要跟他一起\N{\fs10\1c&HB4DCFC&}That's why I wanna with him
+Dialogue: 0,1:37:42.85,1:37:46.88,Default,,0,0,0,,- 我什么感觉？我跟你说，这是第二次，吉米·谢克中枪 …- 不，只要单程\N{\fs10\1c&HB4DCFC&}- How do I feel? I'll tell ya. this is the second time Jimmy Shaker's been shot. -Just one-way.
+Dialogue: 0,1:37:46.88,1:37:49.78,Default,,0,0,0,,一次是1992年前，有个人不停还击...\N{\fs10\1c&HB4DCFC&}One's before 1992, this guy keeps shooting back...
+Dialogue: 0,1:37:50.05,1:37:53.13,Default,,0,0,0,,对，肯尼先生，对，谢谢\N{\fs10\1c&HB4DCFC&}Yeah. Uh, Mr Kinney. Yeah. Thanks.
+Dialogue: 0,1:37:53.18,1:37:55.54,Default,,0,0,0,,继续我们对穆伦绑票案的报道...\N{\fs10\1c&HB4DCFC&}Continuing our coverage of the Mullen kidnapping case...
+Dialogue: 0,1:37:55.58,1:37:58.60,Default,,0,0,0,,围绕玛莉斯·康纳仍有很多疑问\N{\fs10\1c&HB4DCFC&}questions still surround Maris Conner.
+Dialogue: 0,1:37:59.04,1:38:03.21,Default,,0,0,0,,由于没有前科，当局正在询问其亲朋好友...\N{\fs10\1c&HB4DCFC&}With no prior criminal record, authorities are interrogating family and friends...
+Dialogue: 0,1:38:03.22,1:38:07.61,Default,,0,0,0,,查找她与其他已死嫌犯的任何关联\N{\fs10\1c&HB4DCFC&}seeking any associations that would connect her to the other slain suspects.
+Dialogue: 0,1:38:07.86,1:38:10.73,Default,,0,0,0,,消息来源今天透露，调查仍在继续...\N{\fs10\1c&HB4DCFC&}Sources reveal today that the investigation continues...
+Dialogue: 0,1:38:10.74,1:38:14.36,Default,,0,0,0,,而且对其他嫌犯的搜索绝没有结束\N{\fs10\1c&HB4DCFC&}and the search for other suspects is by no means over.
+Dialogue: 0,1:38:14.49,1:38:15.54,Default,,0,0,0,,许多调查人员相信\N{\fs10\1c&HB4DCFC&}Many investigators believe.
+Dialogue: 0,1:38:15.59,1:38:20.00,Default,,0,0,0,,事实上穆伦绑票案的主谋可能仍然在逃\N{\fs10\1c&HB4DCFC&}that, indeed, the mastermind of the Mullen kidnapping... may still be at large.
+Dialogue: 0,1:38:24.46,1:38:25.36,Default,,0,0,0,,我们可以办到\N{\fs10\1c&HB4DCFC&}We can make it.
+Dialogue: 0,1:38:26.96,1:38:29.09,Default,,0,0,0,,- 你冷吗，宝贝？ - 对，我的双手\N{\fs10\1c&HB4DCFC&}- You cold, honey? - Yeah. My hands.
+Dialogue: 0,1:38:29.44,1:38:30.55,Default,,0,0,0,,- 你想回家吗？ - 我没带着手套，不想…\N{\fs10\1c&HB4DCFC&}- Do you wanna go home? - I didn't bring my gloves.
+Dialogue: 0,1:38:30.56,1:38:32.58,Default,,0,0,0,,- 不不  - 你确定？\N{\fs10\1c&HB4DCFC&}-No. No. No. -You sure?
+Dialogue: 0,1:38:32.63,1:38:34.30,Default,,0,0,0,,你有点眯眼睛，阳光还是刺眼吗？\N{\fs10\1c&HB4DCFC&}Hey, you're squinting a little. Is the sun still bothering you?
+Dialogue: 0,1:38:34.34,1:38:35.76,Default,,0,0,0,,- 戴上这个 - 对\N{\fs10\1c&HB4DCFC&}- Put these on. - Yeah.
+Dialogue: 0,1:38:36.80,1:38:38.01,Default,,0,0,0,,- 我去给你拿手套  - 好\N{\fs10\1c&HB4DCFC&}- I'll go get your gloves. - Okay.
+Dialogue: 0,1:38:38.93,1:38:40.22,Default,,0,0,0,,你要练习，我就回来\N{\fs10\1c&HB4DCFC&}You'd better practise. I'll be back.
+Dialogue: 0,1:38:43.24,1:38:46.52,Default,,0,0,0,,看着我，你戴眼镜好帅，宝贝\N{\fs10\1c&HB4DCFC&}Look at me. You look good in those, honey.
+Dialogue: 0,1:38:46.55,1:38:48.31,Default,,0,0,0,,看着我的眼镜，能看到吗？\N{\fs10\1c&HB4DCFC&}Look at my glasses. Can you see?
+Dialogue: 0,1:38:48.95,1:38:50.11,Default,,0,0,0,,戴着它像是你爸爸\N{\fs10\1c&HB4DCFC&}Look like your daddy in those.
+Dialogue: 0,1:38:50.94,1:38:54.11,Default,,0,0,0,,戴维，现在我有点不能专注，能等等吗？\N{\fs10\1c&HB4DCFC&}Well, David, it's a little hard to focus right now. Can it wait?
+Dialogue: 0,1:38:55.15,1:38:57.70,Default,,0,0,0,,不行？管他的，那就让他去吧，算了\N{\fs10\1c&HB4DCFC&}No? Well, the hell with it, then. Let him have it. Let it go.
+Dialogue: 0,1:38:58.95,1:39:01.41,Default,,0,0,0,,对，听着，西恩在公园等我，也许我们…\N{\fs10\1c&HB4DCFC&}Yeah. Listen, I got Sean waitin' for me in the park, so maybe we...
+Dialogue: 0,1:39:02.24,1:39:03.24,Default,,0,0,0,,- 嘿…  - 嘿…\N{\fs10\1c&HB4DCFC&}- Hey. - Hey.
+Dialogue: 0,1:39:03.95,1:39:05.50,Default,,0,0,0,,我回头打给你，戴维，回头打给你\N{\fs10\1c&HB4DCFC&}Uh, I'll call you back, David. Call you back.
+Dialogue: 0,1:39:06.08,1:39:06.62,Default,,0,0,0,,穆伦先生\N{\fs10\1c&HB4DCFC&}Mr Mullen. .
+Dialogue: 0,1:39:07.22,1:39:09.81,Default,,0,0,0,,门房刚呼叫，说谢克先生想见你\N{\fs10\1c&HB4DCFC&}The doorman just called up, Mr Shaker wants to see you.
+Dialogue: 0,1:39:09.82,1:39:11.81,Default,,0,0,0,,对对，我很抱歉就这么出现了\N{\fs10\1c&HB4DCFC&}Yeah, yeah, I'm sorry to show up like this.
+Dialogue: 0,1:39:11.84,1:39:13.82,Default,,0,0,0,,哦，完全不用，进来，我想跟你聊聊\N{\fs10\1c&HB4DCFC&}Oh, hell, no. Come in. I-I wanna talk to you.
+Dialogue: 0,1:39:13.83,1:39:14.48,Default,,0,0,0,,谢谢\N{\fs10\1c&HB4DCFC&}Thanks.
+Dialogue: 0,1:39:14.96,1:39:16.80,Default,,0,0,0,,进来进来，肩伤如何？\N{\fs10\1c&HB4DCFC&}Come in. Come in. How's the shoulder?
+Dialogue: 0,1:39:10.16,1:39:19.97,Default,,0,0,0,,还好，我死不了的\N{\fs10\1c&HB4DCFC&}Ahh, you know. I'll live.
+Dialogue: 0,1:39:20.05,1:39:21.95,Default,,0,0,0,,我很惊讶这么就见到你\N{\fs10\1c&HB4DCFC&}Yeah. Well, I'm surprised to see you up and about so quick.
+Dialogue: 0,1:39:21.96,1:39:23.76,Default,,0,0,0,,呃，法蒂玛，这是吉米·谢克\N{\fs10\1c&HB4DCFC&}Uh, uh, Fatima, this is, uh,Jimmy Shaker.
+Dialogue: 0,1:39:24.65,1:39:28.26,Default,,0,0,0,,我真骄傲能见到你，真以你为傲\N{\fs10\1c&HB4DCFC&}I'm very proud to meet you. Very proud.
+Dialogue: 0,1:39:28.27,1:39:28.84,Default,,0,0,0,,谢谢\N{\fs10\1c&HB4DCFC&}Thanks.
+Dialogue: 0,1:39:32.40,1:39:34.58,Default,,0,0,0,,那个...孩子好吗？\N{\fs10\1c&HB4DCFC&}How's the, uh, kid doin'?
+Dialogue: 0,1:39:34.69,1:39:36.11,Default,,0,0,0,,他很好，你知道\N{\fs10\1c&HB4DCFC&}Oh, he's fine, you know,
+Dialogue: 0,1:39:36.86,1:39:40.07,Default,,0,0,0,,- 经历了这么多，需要点时间  - 是啊\N{\fs10\1c&HB4DCFC&}- all things considered. It'll take a while. - Yeah.
+Dialogue: 0,1:39:41.03,1:39:43.23,Default,,0,0,0,,嗯，请原谅我\N{\fs10\1c&HB4DCFC&}Um, uh, forgive me.
+Dialogue: 0,1:39:43.37,1:39:47.06,Default,,0,0,0,,我以为我们要在周一见，也许是我搞错了，我不...\N{\fs10\1c&HB4DCFC&}I, uh, I thought we were gonna meet on Monday. M-Maybe I screwed up. I don't...I...
+Dialogue: 0,1:39:47.08,1:39:51.05,Default,,0,0,0,,喔，对的，你是对的，周一，我们…我们是这么说定的\N{\fs10\1c&HB4DCFC&}Uh, yeah, uh, you're right. Monday. We...That's what we said, uh...
+Dialogue: 0,1:39:51.28,1:39:53.65,Default,,0,0,0,,呼叫特派警员4-5-9...\N{\fs10\1c&HB4DCFC&}See the special officer holding 4-5-9...
+Dialogue: 0,1:39:56.25,1:39:59.90,Default,,0,0,0,,瞧，我不想你对我有什么错误的印象...\N{\fs10\1c&HB4DCFC&}Look, I don't want you to get the wrong impression of me here...
+Dialogue: 0,1:39:59.92,1:40:03.85,Default,,0,0,0,,不过我希望我们能今天办这事\N{\fs10\1c&HB4DCFC&}but I was hopin' we could do this today.
+Dialogue: 0,1:40:04.85,1:40:06.26,Default,,0,0,0,,- 你知道，奖金的事  - 当然...\N{\fs10\1c&HB4DCFC&}- You know, the reward and all? - Of course.
+Dialogue: 0,1:40:06.27,1:40:07.72,Default,,0,0,0,,因为，我得跟你说\N{\fs10\1c&HB4DCFC&}'Cause I gotta tell ya it's
+Dialogue: 0,1:40:07.77,1:40:11.32,Default,,0,0,0,,我被缠得差不多疯了，你知道，压力啊乱七八糟的\N{\fs10\1c&HB4DCFC&}'uh, kinda crazy around me, you know, with the, the press and everything.
+Dialogue: 0,1:40:11.43,1:40:13.31,Default,,0,0,0,,哦，我了解，瞧，他们都是疯子\N{\fs10\1c&HB4DCFC&}Oh, I understand. Yeah. Look, they're maniacs.
+Dialogue: 0,1:40:13.33,1:40:15.21,Default,,0,0,0,,- 是啊  - 啥都不容易，跟我来\N{\fs10\1c&HB4DCFC&}- Yeah. - Nothin' easier. Follow me.
+Dialogue: 0,1:40:16.15,1:40:20.15,Default,,0,0,0,,我不习惯这个，你知道，我只是...我得离开这儿\N{\fs10\1c&HB4DCFC&}I'm not used to this, you know. I...I just gotta get outta here.
+Dialogue: 0,1:40:21.70,1:40:24.66,Default,,0,0,0,,我算是个...安静的人，你要知道\N{\fs10\1c&HB4DCFC&}Kind of a private person, you know.
+Dialogue: 0,1:40:26.41,1:40:29.17,Default,,0,0,0,,跟你说实话，我以前从没杀过人\N{\fs10\1c&HB4DCFC&}To tell you the truth, I never killed anybody before.
+Dialogue: 0,1:40:30.51,1:40:32.57,Default,,0,0,0,,这段时间很难受\N{\fs10\1c&HB4DCFC&}Havin' a hard time with it.
+Dialogue: 0,1:40:34.22,1:40:36.42,Default,,0,0,0,,是的，那个，我很遗憾\N{\fs10\1c&HB4DCFC&}Yeah, well, I'm sorry.
+Dialogue: 0,1:40:37.12,1:40:39.52,Default,,0,0,0,,我很高兴你所做的事情\N{\fs10\1c&HB4DCFC&}Uh, I'm glad you did what you did.
+Dialogue: 0,1:40:41.05,1:40:42.26,Default,,0,0,0,,不过很遗憾\N{\fs10\1c&HB4DCFC&}But I'm sorry.
+Dialogue: 0,1:40:44.22,1:40:44.96,Default,,0,0,0,,请坐吧\N{\fs10\1c&HB4DCFC&}Sit down, please.
+Dialogue: 0,1:40:46.18,1:40:46.55,Default,,0,0,0,,谢谢\N{\fs10\1c&HB4DCFC&}Thanks.
+Dialogue: 0,1:40:46.81,1:40:50.93,Default,,0,0,0,,呃，那么是...吉米？还是詹姆斯？\N{\fs10\1c&HB4DCFC&}Uh, so, is it, uh...is it Jimmy? James?
+Dialogue: 0,1:40:52.19,1:40:52.98,Default,,0,0,0,,詹姆斯\N{\fs10\1c&HB4DCFC&}James.
+Dialogue: 0,1:40:57.52,1:40:58.48,Default,,0,0,0,,詹姆斯就行了\N{\fs10\1c&HB4DCFC&}James'll do.
+Dialogue: 0,1:41:06.02,1:41:08.90,Default,,0,0,0,,（4百万美元）
+Dialogue: 0,1:41:15.75,1:41:17.27,Default,,0,0,0,,我能问你一个私人问题吗？\N{\fs10\1c&HB4DCFC&}Can I ask you a personal question?
+Dialogue: 0,1:41:17.75,1:41:18.47,Default,,0,0,0,,当然\N{\fs10\1c&HB4DCFC&}Sure.
+Dialogue: 0,1:41:20.75,1:41:22.30,Default,,0,0,0,,你为何不付赎金？\N{\fs10\1c&HB4DCFC&}Why didn't you pay the ransom?
+Dialogue: 0,1:41:25.93,1:41:28.59,Default,,0,0,0,,因为我是在跟人渣垃圾打交道\N{\fs10\1c&HB4DCFC&}Well, because I was dealing with human garbage.
+Dialogue: 0,1:41:29.43,1:41:31.51,Default,,0,0,0,,约定不会被遵守，他们不会\N{\fs10\1c&HB4DCFC&}No contract would have been honoured, not by them.
+Dialogue: 0,1:41:32.77,1:41:33.60,Default,,0,0,0,,你知道，好玩的是\N{\fs10\1c&HB4DCFC&}You know, the funny thing is,
+Dialogue: 0,1:41:33.68,1:41:36.71,Default,,0,0,0,,我愿意付10倍赎金，只要我感觉他们会遵守交易\N{\fs10\1c&HB4DCFC&}I would have paid ten times as much...if I had any sense that they'd stick to the deal,
+Dialogue: 0,1:41:36.72,1:41:37.77,Default,,0,0,0,,但...没有\N{\fs10\1c&HB4DCFC&}but no.
+Dialogue: 0,1:41:38.06,1:41:39.44,Default,,0,0,0,,- 真的吗？  - 哦，真的\N{\fs10\1c&HB4DCFC&}- Really. - Oh, yeah. Really.
+Dialogue: 0,1:41:43.73,1:41:45.32,Default,,0,0,0,,真正让我痛心的是那个女人\N{\fs10\1c&HB4DCFC&}The thing that really kills me about that is the woman.
+Dialogue: 0,1:41:45.53,1:41:48.32,Default,,0,0,0,,去年她来过这房子五、六次，人很好\N{\fs10\1c&HB4DCFC&}She'd been in this house five, six times over the last year. Nice.
+Dialogue: 0,1:41:48.33,1:41:50.82,Default,,0,0,0,,但是，你知道，你就是不能...\N{\fs10\1c&HB4DCFC&}But, you know. You just can't, uh...
+Dialogue: 0,1:41:51.43,1:41:53.95,Default,,0,0,0,,我不知道人怎么能就这么在你周围，同时...\N{\fs10\1c&HB4DCFC&}I-I don't know how people can walk around with that...
+Dialogue: 0,1:41:54.43,1:41:59.55,Default,,0,0,0,,又那么冷血，双面...那么贱\N{\fs10\1c&HB4DCFC&}That cold-blooded, two-faced...That bitch.
+Dialogue: 0,1:41:59.58,1:42:02.13,Default,,0,0,0,,你知道，出于对死者公平...\N{\fs10\1c&HB4DCFC&}Well, uh, you know, in fairness to the dead...
+Dialogue: 0,1:42:02.98,1:42:06.33,Default,,0,0,0,,如今，在这年纪，我们都有点两面性\N{\fs10\1c&HB4DCFC&}we're all a little two-faced in this day and age.
+Dialogue: 0,1:42:09.76,1:42:12.97,Default,,0,0,0,,这是一种幸存机制，你明白我说的吗？\N{\fs10\1c&HB4DCFC&}It's a survival mechanism. You kn...You know what I'm saying?
+Dialogue: 0,1:42:18.82,1:42:19.85,Default,,0,0,0,,我是说...\N{\fs10\1c&HB4DCFC&}I mean
+Dialogue: 0,1:42:21.12,1:42:22.31,Default,,0,0,0,,你知道，我当警察的\N{\fs10\1c&HB4DCFC&}you know, as a cop...
+Dialogue: 0,1:42:22.32,1:42:25.76,Default,,0,0,0,,你应该听听那些我多年来一直在听的东西\N{\fs10\1c&HB4DCFC&}you should hear some of the stuff that's been thrown my way over the years.
+Dialogue: 0,1:42:25.78,1:42:28.48,Default,,0,0,0,,汤姆，别拿手套了，他想回家\N{\fs10\1c&HB4DCFC&}Tom, just forget about the gloves, honey. He wanted to come home.
+Dialogue: 0,1:42:28.90,1:42:31.24,Default,,0,0,0,,凯特，谢克先生来了\N{\fs10\1c&HB4DCFC&}Kate, uh...Mr Shaker's here.
+Dialogue: 0,1:42:32.07,1:42:32.90,Default,,0,0,0,,谢克先生\N{\fs10\1c&HB4DCFC&}Mr Shaker.
+Dialogue: 0,1:42:46.67,1:42:49.05,Default,,0,0,0,,上帝保佑你，谢谢你\N{\fs10\1c&HB4DCFC&}God bless you. Uh, thank you.
+Dialogue: 0,1:42:51.22,1:42:51.84,Default,,0,0,0,,别客气\N{\fs10\1c&HB4DCFC&}You're welcome.
+Dialogue: 0,1:42:52.29,1:42:55.05,Default,,0,0,0,,听着，你得见见西恩，我去带他来\N{\fs10\1c&HB4DCFC&}Listen, you...you gotta meet Sean. I'll go get him.
+Dialogue: 0,1:42:55.72,1:43:00.10,Default,,0,0,0,,不，他，经历够痛苦了，咱们让他缓缓吧\N{\fs10\1c&HB4DCFC&}No, uh, he's, you know, had enough. Let's give him a breather. Yeah?
+Dialogue: 0,1:43:04.06,1:43:06.44,Default,,0,0,0,,没错，他是受够了\N{\fs10\1c&HB4DCFC&}Yeah, yeah. He's-He's had enough.
+Dialogue: 0,1:43:07.11,1:43:09.56,Default,,0,0,0,,好吧，我能为你做点什么？\N{\fs10\1c&HB4DCFC&}Okay. Uh, can I get you anything?
+Dialogue: 0,1:43:09.61,1:43:11.76,Default,,0,0,0,,不用，我很好\N{\fs10\1c&HB4DCFC&}No, I'm fine.
+Dialogue: 0,1:43:12.20,1:43:16.08,Default,,0,0,0,,- 我，我不知该如何...  - 我了解，不用挂心\N{\fs10\1c&HB4DCFC&}-Oh, well, again, I...I can't even begin to... -I understand. Don't mention it.
+Dialogue: 0,1:43:22.25,1:43:25.33,Default,,0,0,0,,法蒂玛，你能下楼来帮帮我吗？\N{\fs10\1c&HB4DCFC&}Fatima, would you please help me with some things downstairs?
+Dialogue: 0,1:43:25.88,1:43:27.08,Default,,0,0,0,,我马上就来\N{\fs10\1c&HB4DCFC&}I'll be right there.
+Dialogue: 0,1:43:35.14,1:43:37.43,Default,,0,0,0,,这个，你这可是一大笔存款呀\N{\fs10\1c&HB4DCFC&}Well, this is, uh, one hell of a deposit you've got here.
+Dialogue: 0,1:43:38.81,1:43:40.18,Default,,0,0,0,,那应该不成问题的\N{\fs10\1c&HB4DCFC&}Shouldn't be a problem.
+Dialogue: 0,1:43:51.11,1:43:53.28,Default,,0,0,0,,你大概想走了\N{\fs10\1c&HB4DCFC&}Well, you'll probably wanna be on your way.
+Dialogue: 0,1:43:54.07,1:43:55.95,Default,,0,0,0,,我还能帮你什么忙吗？\N{\fs10\1c&HB4DCFC&}Uh, unless there's anything else I can do for you.
+Dialogue: 0,1:44:01.31,1:44:01.77,Default,,0,0,0,,很好\N{\fs10\1c&HB4DCFC&}Good.
+Dialogue: 0,1:44:02.92,1:44:06.54,Default,,0,0,0,,对，我知道外面那些秃鹫会把你逼疯\N{\fs10\1c&HB4DCFC&}Right. Well, I know how these vultures out there can drive ya nuts, so...
+Dialogue: 0,1:44:07.67,1:44:13.15,Default,,0,0,0,,- 这里有后门，如果你想有点…  - 这张支票是废纸，汤姆\N{\fs10\1c&HB4DCFC&}You know, there's a back door out if you, you know, wanna be a little more s...This check is bullshit, Tom.
+Dialogue: 0,1:44:14.42,1:44:18.47,Default,,0,0,0,,你怎么打算的？我就这么出去了，你他妈的大骗子\N{\fs10\1c&HB4DCFC&}What'd you think, I'm just gonna waltz outta here, you lying motherfucker? Huh?
+Dialogue: 0,1:44:19.10,1:44:20.30,Default,,0,0,0,,让你打电话报警\N{\fs10\1c&HB4DCFC&}Let you make a phone call,
+Dialogue: 0,1:44:20.59,1:44:24.43,Default,,0,0,0,,纽约的一半警察等着我去兑现金？\N{\fs10\1c&HB4DCFC&}have half the cops in New York waitin' for me while I cash this thing?
+Dialogue: 0,1:44:24.45,1:44:25.60,Default,,0,0,0,,你别想耍我\N{\fs10\1c&HB4DCFC&}You can't lie to me.
+Dialogue: 0,1:44:26.10,1:44:27.69,Default,,0,0,0,,- 听着…  - 给我闭嘴\N{\fs10\1c&HB4DCFC&}- Look...- Shut your mouth.
+Dialogue: 0,1:44:30.63,1:44:31.96,Default,,0,0,0,,c----ao 操！\N{\fs10\1c&HB4DCFC&}Fuck!
+Dialogue: 0,1:44:43.74,1:44:47.08,Default,,0,0,0,,你知道我是谁，给我坐下\N{\fs10\1c&HB4DCFC&}You know who I am. Now you sit down.
+Dialogue: 0,1:44:49.08,1:44:51.54,Default,,0,0,0,,大家本来会好好的\N{\fs10\1c&HB4DCFC&}Everybody was gonna make out fine.
+Dialogue: 0,1:44:52.79,1:44:55.34,Default,,0,0,0,,可你非得较这个劲\N{\fs10\1c&HB4DCFC&}But you had to go and put it together...
+Dialogue: 0,1:44:55.92,1:44:59.09,Default,,0,0,0,,所以现在我们有点小问题了，不是吗？\N{\fs10\1c&HB4DCFC&}and now we got a little problem here, don't we?
+Dialogue: 0,1:45:01.22,1:45:03.76,Default,,0,0,0,,再跟我说说这个，你为何不付赎金？\N{\fs10\1c&HB4DCFC&}Tell me that part again about why you didn't pay the ransom.
+Dialogue: 0,1:45:04.26,1:45:05.26,Default,,0,0,0,,我觉得我们还有办法…\N{\fs10\1c&HB4DCFC&}I think we can do something here...
+Dialogue: 0,1:45:05.26,1:45:08.56,Default,,0,0,0,,说啊，你是跟什么打交道？\N{\fs10\1c&HB4DCFC&}Say it! You were dealing with what?
+Dialogue: 0,1:45:10.52,1:45:11.59,Default,,0,0,0,,你绑走我儿子\N{\fs10\1c&HB4DCFC&}You had my son.
+Dialogue: 0,1:45:11.60,1:45:14.23,Default,,0,0,0,,你根本就不懂什么是人渣垃圾，妈了个逼\N{\fs10\1c&HB4DCFC&}You have no idea what human garbage is, motherfucker.
+Dialogue: 0,1:45:14.94,1:45:17.99,Default,,0,0,0,,你知道你他妈说的是什么吗？不，你不知道\N{\fs10\1c&HB4DCFC&}Do you know what the fuck you're talking about? No, I don't think you do.
+Dialogue: 0,1:45:18.57,1:45:20.57,Default,,0,0,0,,看看你他妈住的地方\N{\fs10\1c&HB4DCFC&}'Cause look where you fuckin' live, man.
+Dialogue: 0,1:45:21.03,1:45:26.58,Default,,0,0,0,,航空业大亨，却他妈不肯付一分钱，去救唯一的孩子\N{\fs10\1c&HB4DCFC&}Look at the airline man here. This fucker won't pay one cent to save his only kid.
+Dialogue: 0,1:45:26.66,1:45:28.04,Default,,0,0,0,,付钱就不回他来，对吧？\N{\fs10\1c&HB4DCFC&}It wasn't gonna get him back, was it?
+Dialogue: 0,1:45:28.08,1:45:31.97,Default,,0,0,0,,嘿，你读过报纸吗？你看过电视吗？\N{\fs10\1c&HB4DCFC&}Hey, did you read the papers? Huh? Did you see the TV?
+Dialogue: 0,1:45:32.14,1:45:35.08,Default,,0,0,0,,我挨了一颗子弹，我冒生命危险救你儿子\N{\fs10\1c&HB4DCFC&}I took a bullet. I risked my life to save your kid.
+Dialogue: 0,1:45:35.59,1:45:39.27,Default,,0,0,0,,我挨了一颗子弹，现在你又想在钱上整我？\N{\fs10\1c&HB4DCFC&}I took a bullet, and now you're gonna try to fuck me out of my money. Huh?
+Dialogue: 0,1:45:39.28,1:45:40.97,Default,,0,0,0,,- 这里有什么？ - 你要上哪去？\N{\fs10\1c&HB4DCFC&}- What's over here? - Where are you going?
+Dialogue: 0,1:45:41.22,1:45:44.36,Default,,0,0,0,,- 妈妈和孩子呢？ - 我现在付，现在\N{\fs10\1c&HB4DCFC&}- Where's Mommy and Junior? - Now I'll pay. Now.
+Dialogue: 0,1:45:44.39,1:45:48.57,Default,,0,0,0,,哦，是啊，你要付出代价，现在\N{\fs10\1c&HB4DCFC&}Oh, yeah. You're gonna pay, all right. Right now.
+Dialogue: 0,1:45:49.00,1:45:50.55,Default,,0,0,0,,你有银行户头 可以让我汇钱进去吧？\N{\fs10\1c&HB4DCFC&}Do you have an account I can wire the money to?
+Dialogue: 0,1:45:50.60,1:45:52.50,Default,,0,0,0,,我是说，这些你一定全都安排好了，对吧？\N{\fs10\1c&HB4DCFC&}I mean, you got to have been all set up for this, right?
+Dialogue: 0,1:45:52.52,1:45:53.39,Default,,0,0,0,,我是说，你并不笨\N{\fs10\1c&HB4DCFC&}I mean, you're not dumb.
+Dialogue: 0,1:45:53.85,1:45:56.33,Default,,0,0,0,,你跟我，我们现在到我的银行去\N{\fs10\1c&HB4DCFC&}You and me, we go right now to my bank...
+Dialogue: 0,1:45:56.86,1:46:01.50,Default,,0,0,0,,把钱从我的账户转到你的，只要按一个按钮，仅仅如此\N{\fs10\1c&HB4DCFC&}and we wire the money from my account to yours. Just the push of a button. Just like that.
+Dialogue: 0,1:46:01.69,1:46:04.45,Default,,0,0,0,,我们只要到银行去，就能办妥\N{\fs10\1c&HB4DCFC&}We'll just go down to the bank and get it done.
+Dialogue: 0,1:46:06.20,1:46:08.20,Default,,0,0,0,,拿起电话，从这里汇钱\N{\fs10\1c&HB4DCFC&}Pick up the phone. Wire it from here.
+Dialogue: 0,1:46:12.41,1:46:14.91,Default,,0,0,0,,不行，我们到银行汇\N{\fs10\1c&HB4DCFC&}Uh, no, we'll go to the bank and do it.
+Dialogue: 0,1:46:15.63,1:46:20.27,Default,,0,0,0,,你会拿到钱，我要的回报，只是你现在离开这所房子\N{\fs10\1c&HB4DCFC&}And you'll get the money and all I want in return is you out of this house now.
+Dialogue: 0,1:46:23.51,1:46:26.22,Default,,0,0,0,,嘿，轮不到你作主\N{\fs10\1c&HB4DCFC&}Hey. You do not call the shots.
+Dialogue: 0,1:46:26.93,1:46:30.31,Default,,0,0,0,,那你来吧，此时此刻就杀了我，狗娘养的\N{\fs10\1c&HB4DCFC&}Well, then, you just go ahead and kill me right here and now, you son of a bitch.
+Dialogue: 0,1:46:31.97,1:46:34.62,Default,,0,0,0,,你他妈的，去你的，我不会拿起电话\N{\fs10\1c&HB4DCFC&}You fuck! Fuck you! I'm not pickin' up that phone.
+Dialogue: 0,1:46:34.92,1:46:36.82,Default,,0,0,0,,听到了吗？我不拿电话\N{\fs10\1c&HB4DCFC&}You got that? I'm not pickin' it up.
+Dialogue: 0,1:46:38.56,1:46:42.26,Default,,0,0,0,,瞧，你可以杀了我，来，杀了我，杀了我们\N{\fs10\1c&HB4DCFC&}Look, uh, you can kill me. Go ahead. Kill me. Just kill us.
+Dialogue: 0,1:46:42.30,1:46:44.99,Default,,0,0,0,,留我们活命，无关紧要，不管你怎么选都得跑路\N{\fs10\1c&HB4DCFC&}Let us live. Doesn't matter. Any way you cut it, you're on the run.
+Dialogue: 0,1:46:45.00,1:46:48.50,Default,,0,0,0,,你可以跟我去银行，带着4百万跑路\N{\fs10\1c&HB4DCFC&}Now, you can come with me to the bank and be on the run with $4 million...
+Dialogue: 0,1:46:48.51,1:46:52.11,Default,,0,0,0,,要么你现在开枪，带着你钱包里那点东西跑路\N{\fs10\1c&HB4DCFC&}or you can just start shootin' and be on the run with whatever you got in your wallet.
+Dialogue: 0,1:46:52.14,1:46:53.58,Default,,0,0,0,,全看你\N{\fs10\1c&HB4DCFC&}It's up to you.
+Dialogue: 0,1:46:54.33,1:46:58.37,Default,,0,0,0,,拜托，吉米 我们去银行吧  天啊…\N{\fs10\1c&HB4DCFC&}Come on,Jimmy. Let's go to the bank. Oh,Jesus Christ.
+Dialogue: 0,1:46:58.96,1:47:00.13,Default,,0,0,0,,我如愿以偿\N{\fs10\1c&HB4DCFC&}I got what I want.
+Dialogue: 0,1:47:00.38,1:47:02.66,Default,,0,0,0,,底线就是：我救回我儿子\N{\fs10\1c&HB4DCFC&}Bottom line: I got my son back.
+Dialogue: 0,1:47:02.73,1:47:04.63,Default,,0,0,0,,你把他送回来了\N{\fs10\1c&HB4DCFC&}And you d...you delivered him.
+Dialogue: 0,1:47:05.22,1:47:08.43,Default,,0,0,0,,我有私人飞机，我本人可以带你飞到任何想去的地方\N{\fs10\1c&HB4DCFC&}I got my own plane. I can fly you out of here myself anywhere you wanna go.
+Dialogue: 0,1:47:09.51,1:47:11.05,Default,,0,0,0,,你还是能赢的\N{\fs10\1c&HB4DCFC&}You can still win this thing.
+Dialogue: 0,1:47:12.06,1:47:14.43,Default,,0,0,0,,想想，你还是能赢\N{\fs10\1c&HB4DCFC&}Think. You can still win.
+Dialogue: 0,1:47:32.66,1:47:34.99,Default,,0,0,0,,我们照你说的做，我们去银行\N{\fs10\1c&HB4DCFC&}We do what you say. We go to the bank.
+Dialogue: 0,1:47:35.54,1:47:40.12,Default,,0,0,0,,如果出差错，你要反水，我会逃得很快\N{\fs10\1c&HB4DCFC&}If anything goes wrong, you're gonna turn around and I'll be gone.
+Dialogue: 0,1:47:40.83,1:47:41.71,Default,,0,0,0,,果真如此\N{\fs10\1c&HB4DCFC&}Okay? And if that happens...
+Dialogue: 0,1:47:43.29,1:47:44.67,Default,,0,0,0,,从今天起\N{\fs10\1c&HB4DCFC&}from this day on...
+Dialogue: 0,1:47:45.67,1:47:49.17,Default,,0,0,0,,任何时候你儿子离开这房子去上学...\N{\fs10\1c&HB4DCFC&}any time your kid leaves this house to go to school...
+Dialogue: 0,1:47:49.15,1:47:56.15,Default,,0,0,0,,去玩，找朋友，去买他妈的漫画 你都得自问…\N{\fs10\1c&HB4DCFC&}go play, see a friend... to buy a fuckin' comic book, you're gonna have to ask yourself:
+Dialogue: 0,1:47:57.81,1:48:02.81,Default,,0,0,0,,今天...吉米·谢克会来吗？\N{\fs10\1c&HB4DCFC&}Is today... Jimmy Shaker day?
+Dialogue: 0,1:48:03.36,1:48:04.52,Default,,0,0,0,,我逮过他一次\N{\fs10\1c&HB4DCFC&}I got to him once.
+Dialogue: 0,1:48:06.08,1:48:07.23,Default,,0,0,0,,我还能再逮到他\N{\fs10\1c&HB4DCFC&}I'll get him again.
+Dialogue: 0,1:48:08.82,1:48:10.32,Default,,0,0,0,,下次逮到他\N{\fs10\1c&HB4DCFC&}And when I do...
+Dialogue: 0,1:48:11.90,1:48:15.18,Default,,0,0,0,,我不会再要钱了\N{\fs10\1c&HB4DCFC&}I'm not gonna want money any more.
+Dialogue: 0,1:48:15.50,1:48:17.38,Default,,0,0,0,,咱们互相清楚了吗？\N{\fs10\1c&HB4DCFC&}Do we understand each other?
+Dialogue: 0,1:48:18.20,1:48:19.24,Default,,0,0,0,,当然\N{\fs10\1c&HB4DCFC&}Sure.
+Dialogue: 0,1:48:39.06,1:48:40.28,Default,,0,0,0,,这是为玛莉斯\N{\fs10\1c&HB4DCFC&}That's from Maris.
+Dialogue: 0,1:48:48.44,1:48:49.48,Default,,0,0,0,,打电话给机场\N{\fs10\1c&HB4DCFC&}Call the airport.
+Dialogue: 0,1:48:56.43,1:48:57.28,Default,,0,0,0,,我们去哪？\N{\fs10\1c&HB4DCFC&}Where are we goin'?
+Dialogue: 0,1:48:58.62,1:49:00.99,Default,,0,0,0,,墨西哥，瓜达拉哈纳\N{\fs10\1c&HB4DCFC&}Mexico. Guadalajara.
+Dialogue: 0,1:49:05.64,1:49:06.88,Default,,0,0,0,,戴维，这是汤姆\N{\fs10\1c&HB4DCFC&}David, this is Tom.
+Dialogue: 0,1:49:07.96,1:49:10.17,Default,,0,0,0,,飞机加油 我要去瓜达拉哈纳\N{\fs10\1c&HB4DCFC&}Uh, fuel up the jet. I'm going to Guadalajara.
+Dialogue: 0,1:49:11.21,1:49:14.51,Default,,0,0,0,,对，突然有事，我正要去银行\N{\fs10\1c&HB4DCFC&}Yeah, well, something came up. I'm on my way to the bank now.
+Dialogue: 0,1:49:15.63,1:49:16.59,Default,,0,0,0,,“免持听筒”
+Dialogue: 0,1:49:17.04,1:49:19.30,Default,,0,0,0,,绑匪和你在一起吗？ 没错\N{\fs10\1c&HB4DCFC&}- Is the kidnapper with you? - Absolutely.
+Dialogue: 0,1:49:21.22,1:49:23.67,Default,,0,0,0,,以后再解释，给凯特打个电话，再见\N{\fs10\1c&HB4DCFC&}I'll explain everything later. Give Katie a call. Bye.
+Dialogue: 0,1:49:26.69,1:49:28.06,Default,,0,0,0,,安东，帮我接穆伦家\N{\fs10\1c&HB4DCFC&}Antone, get me the Mullen house.
+Dialogue: 0,1:49:28.48,1:49:30.25,Default,,0,0,0,,西恩，怎么了，宝贝？\N{\fs10\1c&HB4DCFC&}Sean, what's the matter, honey?
+Dialogue: 0,1:49:32.28,1:49:32.78,Default,,0,0,0,,过来\N{\fs10\1c&HB4DCFC&}Come here.
+Dialogue: 0,1:49:36.32,1:49:38.80,Default,,0,0,0,,出租车，出租车\N{\fs10\1c&HB4DCFC&}Taxi. Taxi.
+Dialogue: 0,1:49:42.61,1:49:43.80,Default,,0,0,0,,走在我右边\N{\fs10\1c&HB4DCFC&}Stay on my right.
+Dialogue: 0,1:49:46.79,1:49:48.37,Default,,0,0,0,,你们干嘛？不能在这里停车\N{\fs10\1c&HB4DCFC&}What are you guys doin'? You can't park there.
+Dialogue: 0,1:49:48.92,1:49:50.73,Default,,0,0,0,,我只进银行去，五分钟\N{\fs10\1c&HB4DCFC&}Oh, we're just goin' to the bank. Five minutes.
+Dialogue: 0,1:49:53.19,1:49:53.64,Default,,0,0,0,,谢克？\N{\fs10\1c&HB4DCFC&}Shaker?
+Dialogue: 0,1:49:54.42,1:49:55.36,Default,,0,0,0,,是啊\N{\fs10\1c&HB4DCFC&}Yeah.
+Dialogue: 0,1:49:58.44,1:49:59.58,Default,,0,0,0,,你好吗，吉米？\N{\fs10\1c&HB4DCFC&}How you doin',Jimmy?
+Dialogue: 0,1:49:59.84,1:50:00.68,Default,,0,0,0,,- 你好吗？ - 幸会\N{\fs10\1c&HB4DCFC&}- How are ya?- Nice to meet you.
+Dialogue: 0,1:50:00.70,1:50:04.82,Default,,0,0,0,,- 是啊，幸会， - 你好吗，穆伦先生？幸会\N{\fs10\1c&HB4DCFC&}- Yeah? You too. - How you doin', Mr Mullen? Good to meet you.
+Dialogue: 0,1:50:04.91,1:50:06.89,Default,,0,0,0,,只是想跟你握握手，老大，你给我们增光\N{\fs10\1c&HB4DCFC&}Just wanna shake your hand, boss. You made us proud.
+Dialogue: 0,1:50:07.60,1:50:09.05,Default,,0,0,0,,- 我只是尽职而已  - 是啊\N{\fs10\1c&HB4DCFC&}- Well, you know, just doin' the job. - Yeah.
+Dialogue: 0,1:50:09.35,1:50:11.06,Default,,0,0,0,,你觉得他如何？穆伦先生\N{\fs10\1c&HB4DCFC&}What do you think of this guy, Mr Mullen?
+Dialogue: 0,1:50:12.56,1:50:14.65,Default,,0,0,0,,- 我还能说什么？他是条汉子  - 是啊\N{\fs10\1c&HB4DCFC&}- Well, what can I say? He's the man. - Yeah!
+Dialogue: 0,1:50:14.98,1:50:16.23,Default,,0,0,0,,好了各位，别激动\N{\fs10\1c&HB4DCFC&}Okay, guys, uh, take it easy.
+Dialogue: 0,1:50:16.29,1:50:17.78,Default,,0,0,0,,- 以后见，吉米  - 好\N{\fs10\1c&HB4DCFC&}- Later, Jimbo. - Okay.
+Dialogue: 0,1:50:17.81,1:50:18.74,Default,,0,0,0,,- 你们别太激动  - 好好\N{\fs10\1c&HB4DCFC&}- You guys take it easy now. - All right.
+Dialogue: 0,1:50:18.81,1:50:20.14,Default,,0,0,0,,你们不会太久吧？\N{\fs10\1c&HB4DCFC&}You guys not gonna be long, right?
+Dialogue: 0,1:50:20.28,1:50:21.28,Default,,0,0,0,,- 只是五分钟  - 没事，没问题\N{\fs10\1c&HB4DCFC&}- No, just five minutes. - No, no, no. - No problem.
+Dialogue: 0,1:50:29.58,1:50:32.71,Default,,0,0,0,,穆伦先生，荣幸加惊喜，欢迎\N{\fs10\1c&HB4DCFC&}Mr Mullen, what a pleasant surprise. Wellcome!
+Dialogue: 0,1:50:36.13,1:50:38.17,Default,,0,0,0,,我在这银行还有钱吧？\N{\fs10\1c&HB4DCFC&}Uh, have I still got any money in this bank?
+Dialogue: 0,1:50:38.18,1:50:40.17,Default,,0,0,0,,我和谢克先生有点业务要办，这位是迈克尔\N{\fs10\1c&HB4DCFC&}I have to do some business with Mr Shaker here. This is Michael.
+Dialogue: 0,1:50:40.21,1:50:42.09,Default,,0,0,0,,谢克先生，当然，这边请\N{\fs10\1c&HB4DCFC&}Mr Shaker, of course. Right this way.
+Dialogue: 0,1:50:50.64,1:50:51.38,Default,,0,0,0,,太好了\N{\fs10\1c&HB4DCFC&}Terrific.
+Dialogue: 0,1:50:51.64,1:50:54.60,Default,,0,0,0,,好，够了，我们把钱给他吧\N{\fs10\1c&HB4DCFC&}Okay, that's enough. Let's get this man his money.
+Dialogue: 0,1:50:55.57,1:50:56.15,Default,,0,0,0,,多谢了\N{\fs10\1c&HB4DCFC&}Thanks very much.
+Dialogue: 0,1:50:56.49,1:50:57.23,Default,,0,0,0,,不客气\N{\fs10\1c&HB4DCFC&}No, not a problem.
+Dialogue: 0,1:50:57.88,1:51:01.15,Default,,0,0,0,,22各单位，寻找警探吉米·谢克\N{\fs10\1c&HB4DCFC&}All units in the 22. looking for Detective James Shaker...
+Dialogue: 0,1:51:01.20,1:51:04.36,Default,,0,0,0,,白人男子，四十一岁 身着黑色外套，白衬衣\N{\fs10\1c&HB4DCFC&}white male. 41 years. wearing blaCk jacket. white shirt.
+Dialogue: 0,1:51:04.61,1:51:08.25,Default,,0,0,0,,谢克据认为在麦迪逊和90街附近\N{\fs10\1c&HB4DCFC&}Shaker is thought to be in the vicinity of Madison and 90th Street.
+Dialogue: 0,1:51:08.29,1:51:10.36,Default,,0,0,0,,嫌犯是一名武装的纽约市警探…\N{\fs10\1c&HB4DCFC&}Subject is an armed New York City detective.
+Dialogue: 0,1:51:10.37,1:51:13.26,Default,,0,0,0,,只要按下“输入”键，就是你的了\N{\fs10\1c&HB4DCFC&}Just push enter and it's yours.
+Dialogue: 0,1:51:14.00,1:51:15.46,Default,,0,0,0,,四百万\N{\fs10\1c&HB4DCFC&}Four million.
+Dialogue: 0,1:51:20.42,1:51:23.59,Default,,0,0,0,,“转帐金额，四百万元” “转帐已完成”
+Dialogue: 0,1:51:23.88,1:51:24.48,Default,,0,0,0,,恭喜你\N{\fs10\1c&HB4DCFC&}Congratulations.
+Dialogue: 0,1:51:25.68,1:51:26.18,Default,,0,0,0,,谢谢\N{\fs10\1c&HB4DCFC&}Yeah, thanks.
+Dialogue: 0,1:51:27.80,1:51:28.14,Default,,0,0,0,,好了\N{\fs10\1c&HB4DCFC&}Okay.
+Dialogue: 0,1:51:35.90,1:51:37.10,Default,,0,0,0,,嘿，谢克\N{\fs10\1c&HB4DCFC&}Hey, Shaker.
+Dialogue: 0,1:51:37.90,1:51:40.40,Default,,0,0,0,,怎么回事？ 我刚听到无线电通报\N{\fs10\1c&HB4DCFC&}What's goin' on? I just got a call over the radio.
+Dialogue: 0,1:51:40.53,1:51:43.61,Default,,0,0,0,,嘿，嘿，今天我生日，你知道，伙计们想拿我开涮\N{\fs10\1c&HB4DCFC&}Oh, hey, hey, it's my birthday. You know, the guys are tryin' to pull something.
+Dialogue: 0,1:51:43.85,1:51:45.05,Default,,0,0,0,,我，我没事的\N{\fs10\1c&HB4DCFC&}I-I got it covered.
+Dialogue: 0,1:51:45.32,1:51:46.57,Default,,0,0,0,,我们能跟你谈谈吗？\N{\fs10\1c&HB4DCFC&}Can we talk to you for a second, man?
+Dialogue: 0,1:51:47.78,1:51:49.07,Default,,0,0,0,,不，我们得拘捕你\N{\fs10\1c&HB4DCFC&}No, we have to detain you.
+Dialogue: 0,1:51:54.00,1:51:55.04,Default,,0,0,0,,谢克，别动！\N{\fs10\1c&HB4DCFC&}Shaker! Freeze!
+Dialogue: 0,1:52:25.73,1:52:28.03,Default,,0,0,0,,嘿，他在这儿！\N{\fs10\1c&HB4DCFC&}Hey, he's over here!
+Dialogue: 0,1:53:44.69,1:53:46.06,Default,,0,0,0,,放下，放下\N{\fs10\1c&HB4DCFC&}Put it down! Put it down!
+Dialogue: 0,1:53:46.65,1:53:47.77,Default,,0,0,0,,把枪放下\N{\fs10\1c&HB4DCFC&}Put the gun down!
+Dialogue: 0,1:53:50.19,1:53:51.86,Default,,0,0,0,,把枪放下\N{\fs10\1c&HB4DCFC&}Put the gun down!
+Dialogue: 0,1:53:52.57,1:53:53.95,Default,,0,0,0,,汤姆，是我，朗尼\N{\fs10\1c&HB4DCFC&}Hold your fire! Tom, it's me, Lonnie.
+Dialogue: 0,1:53:54.53,1:53:57.74,Default,,0,0,0,,FBI！别开枪！结束了，谢克，结束了！\N{\fs10\1c&HB4DCFC&}F.B.I.! F.B.I.! Hold your fire!  It's over, Shaker. Over!
+Dialogue: 0,1:53:58.12,1:53:59.29,Default,,0,0,0,,扔掉\N{\fs10\1c&HB4DCFC&}Drop it!
+Dialogue: 0,1:54:00.04,1:54:02.71,Default,,0,0,0,,把枪放下，汤姆，放下枪\N{\fs10\1c&HB4DCFC&}Put the gun down, Tom. Put the gun down.
+Dialogue: 0,1:54:03.13,1:54:04.75,Default,,0,0,0,,- 不！  - 走开！\N{\fs10\1c&HB4DCFC&}- No! - Step away!
+Dialogue: 0,1:54:05.79,1:54:08.66,Default,,0,0,0,,- 扔掉，扔掉  - 把枪放下，汤姆，然后走开\N{\fs10\1c&HB4DCFC&}- Drop it now! Drop it now! - Put the gun down, Tom, and walk away.
+Dialogue: 0,1:54:08.71,1:54:10.56,Default,,0,0,0,,穆伦，放下该死的枪！\N{\fs10\1c&HB4DCFC&}Mullen, put the god damn gun down
+Dialogue: 0,1:54:11.57,1:54:16.24,Default,,0,0,0,,- 放下，穆伦，立刻！ - 来吧，放下枪\N{\fs10\1c&HB4DCFC&}- Down, Mullen! Now! - Come on. Come on. Put the gun down.
+Dialogue: 0,1:54:16.85,1:54:19.18,Default,,0,0,0,,- 扔掉枪！  - 来吧，往我这走\N{\fs10\1c&HB4DCFC&}- Drop the gun! - Come on. Walk toward me.
+Dialogue: 0,1:54:19.22,1:54:21.14,Default,,0,0,0,,汤姆，别干傻事\N{\fs10\1c&HB4DCFC&}Tom, don't do nothin' stupid.
+Dialogue: 0,1:54:21.55,1:54:23.72,Default,,0,0,0,,- 把枪放下，汤姆  - 扔掉它！\N{\fs10\1c&HB4DCFC&}- Put the gun down, Tom! - Drop it!
+Dialogue: 0,1:54:28.28,1:54:29.50,Default,,0,0,0,,趴在地上，谢克\N{\fs10\1c&HB4DCFC&}On the ground, Shaker!
+Dialogue: 0,1:54:30.27,1:54:31.82,Default,,0,0,0,,趴在地上\N{\fs10\1c&HB4DCFC&}On the ground!
+Dialogue: 0,1:54:32.33,1:54:34.03,Default,,0,0,0,,汤姆，立刻放下枪\N{\fs10\1c&HB4DCFC&}Tom, put the gun down now!
+Dialogue: 0,1:54:34.13,1:54:37.14,Default,,0,0,0,,- 趴下！ - 待在那！别动！\N{\fs10\1c&HB4DCFC&}Down! Stay right there! Now, don't move!
+Dialogue: 0,1:54:38.53,1:54:39.95,Default,,0,0,0,,把枪放下\N{\fs10\1c&HB4DCFC&}Put the gun down.
+Dialogue: 0,1:54:40.83,1:54:43.37,Default,,0,0,0,,没错，现在退后，汤姆，走开吧\N{\fs10\1c&HB4DCFC&}That's right. Now, back off, Tom. Just walk away.
+Dialogue: 0,1:55:16.73,1:55:19.06,Default,,0,0,0,,转身对墙！快！伸展四肢！\N{\fs10\1c&HB4DCFC&}Get up against the wall! Move! Spread 'em!
+Dialogue: 0,1:55:19.14,1:55:20.21,Default,,0,0,0,,汤姆·穆伦是跟我们一起的！\N{\fs10\1c&HB4DCFC&}Tom Mullen is with us!
+Dialogue: 0,1:55:20.37,1:55:25.51,Default,,0,0,0,,- 退后！  - 不！不！\N{\fs10\1c&HB4DCFC&}Back away! -No! No!
+Dialogue: 0,1:56:00.75,1:56:05.83,Default,,0,0,0,,卡司大家都知道，梅尔·吉布森，蕾妮·罗素 搭档过《轰天炮》系列
+Dialogue: 0,1:56:06.05,1:56:13.83,Default,,0,0,0,,可怜老梅尔，好演员好导演 得罪了好莱坞犹太权贵 星光黯淡
+

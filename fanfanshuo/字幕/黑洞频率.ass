@@ -1,0 +1,1482 @@
+﻿[Script Info]
+;aBu 2020♪
+
+Title: Frequency.2000.1080p.BluRay.H264.AAC-RARBG
+Original Script: aBu 2020-10-13
+Original Translation: CMCT
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,微软雅黑,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+Style: Chs,微软雅黑,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+Style: Eng,微软雅黑,12,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+
+Dialogue: 0,0:00:38.33,0:00:40.27,Default,,0,0,0,,你可以相信眼前所见\N{\rEng}Yes,believe your eyes. Those are the northern lights...
+Dialogue: 0,0:00:40.27,0:00:44.96,Default,,0,0,0,,八十年来天空首度出现北极光\N{\rEng}on view above the city for the first time in nearly 80 years.
+Dialogue: 0,0:00:51.54,0:00:53.38,Default,,0,0,0,,现在是清晨五点 早安纽约!\N{\rEng}It's 5:00 a.m. Hello,New York.
+Dialogue: 0,0:00:53.38,0:00:56.45,Default,,0,0,0,,头条新闻是纽约大都会队\N{\rEng}The big story this morning is...
+Dialogue: 0,0:00:56.45,0:00:58.25,Default,,0,0,0,,今天进驻巴尔的摩球场\N{\rEng}the Amazins taking the field today in Baltimore...
+Dialogue: 0,0:00:58.25,0:01:02.86,Default,,0,0,0,,在明天一九六九年世界杯 开幕赛前作最后练习...\N{\rEng}for their final practice before tomorrow's opener of the 1969 World S...
+Dialogue: 0,0:01:02.86,0:01:08.16,Default,,0,0,0,,今天凌晨在皇后区的垃圾堆发现另一名护士的尸体\N{\rEng}Sanitation workers discovered the dead body of another nurse in Queens.
+Dialogue: 0,0:01:08.16,0:01:12.35,Default,,0,0,0,,这是南丁格尔凶杀案 受害的第三位护士\N{\rEng}This is the third nurse killed in what New York papers are now calling the "Nightingale Murders."
+Dialogue: 0,0:01:20.24,0:01:22.31,Default,,0,0,0,,三名死者都是护士\N{\rEng}All three victims have been nurses,
+Dialogue: 0,0:01:22.31,0:01:26.79,Default,,0,0,0,,双手均被胶带绑在背后再勒死\N{\rEng}each found strangled with their hands gruesomely bound behind their backs with tape.
+Dialogue: 0,0:01:27.98,0:01:31.52,Default,,0,0,0,,这就是所谓的北极光...\N{\rEng}The lights,also known as the aurora borealis...
+Dialogue: 0,0:01:31.52,0:01:32.60,Default,,0,0,0,,小心!\N{\rEng}Look out!
+Dialogue: 0,0:01:45.31,0:01:48.33,Default,,0,0,0,,{\fs32\b1}黑洞频率
+Dialogue: 0,0:01:48.33,0:01:49.43,Default,,0,0,0,,曼哈顿呼叫暴风眼 12号消防车及93号云梯车\N{\rEng}Manhattan calling Eye of the Storm. Engine Company 12, Ladder Company 93...
+Dialogue: 0,0:01:51.70,0:01:53.97,Default,,0,0,0,,请赶往乔治华盛顿桥出口处\N{\rEng}respond to Manhattan box 132 off-ramp of...
+Dialogue: 0,0:01:53.97,0:01:56.09,Default,,0,0,0,,曼哈顿132号哨站\N{\rEng}the George Washington Bridge.
+Dialogue: 0,0:01:57.44,0:01:58.61,Default,,0,0,0,,我马上去\N{\rEng}On our way.
+Dialogue: 0,0:01:58.61,0:02:01.01,Default,,0,0,0,,已证实有油罐车翻覆\N{\rEng}Confirm overturned tanker.
+Dialogue: 0,0:02:01.01,0:02:03.38,Default,,0,0,0,,两名工人受困在地下变电所\N{\rEng}Workers trapped in underground substation.
+Dialogue: 0,0:02:03.38,0:02:04.48,Default,,0,0,0,,弗兰克!\N{\rEng}Frank!
+Dialogue: 0,0:02:04.48,0:02:06.45,Default,,0,0,0,,我们第二批抵达 负责救人\N{\rEng}We're second in. We got the rescue.
+Dialogue: 0,0:02:06.45,0:02:07.34,Default,,0,0,0,,好极了\N{\rEng}Okay.
+Dialogue: 0,0:02:36.12,0:02:38.08,Default,,0,0,0,,队长 要怎么救?\N{\rEng}Commander,what do you need done?
+Dialogue: 0,0:02:38.08,0:02:39.69,Default,,0,0,0,,快爆炸了\N{\rEng}It's gonna blow up.
+Dialogue: 0,0:02:39.69,0:02:41.42,Default,,0,0,0,,只要引起火花就会轰掉整条街\N{\rEng}That dike's about to go,and we're one spark away from losing the block.
+Dialogue: 0,0:02:41.42,0:02:42.19,Default,,0,0,0,,有别的入口吗?\N{\rEng}Is there another way in?
+Dialogue: 0,0:02:42.19,0:02:43.81,Default,,0,0,0,,只有那个入口通往地下变电所\N{\rEng}That manhole leads to the vault.
+Dialogue: 0,0:02:44.96,0:02:46.56,Default,,0,0,0,,不行 沙利文\N{\rEng}Forget it,Sullivan.
+Dialogue: 0,0:02:46.56,0:02:49.35,Default,,0,0,0,,出入门封死 电力又关不掉\N{\rEng}Vault door's rusted shut, and they can't kill the juice.
+Dialogue: 0,0:02:50.83,0:02:52.87,Default,,0,0,0,,来不及救人了 时间不够!\N{\rEng}Isn't enough time to make it!
+Dialogue: 0,0:02:52.87,0:02:55.03,Default,,0,0,0,,来不及看世界杯?\N{\rEng}What? Miss the World Series?
+Dialogue: 0,0:02:55.03,0:02:57.36,Default,,0,0,0,,不可能 把工具给我\N{\rEng}Not a chance. Gimme my tools.
+Dialogue: 0,0:03:01.77,0:03:05.31,Default,,0,0,0,,沙利文 我是欧康诺队长\N{\rEng}Sullivan! This is Commander O'Connell.
+Dialogue: 0,0:03:05.31,0:03:06.28,Default,,0,0,0,,听得见吗?\N{\rEng}Can you hear me?
+Dialogue: 0,0:03:06.28,0:03:07.68,Default,,0,0,0,,我听见了\N{\rEng}I hear you,Commander.
+Dialogue: 0,0:03:07.68,0:03:09.92,Default,,0,0,0,,地下室里的汽油愈来愈多\N{\rEng}The gasoline is risin'in the vault.
+Dialogue: 0,0:03:09.92,0:03:12.27,Default,,0,0,0,,散落的电线碰到汽油就会爆炸\N{\rEng}Those downed cables hit that gas, it's gonna blow.
+Dialogue: 0,0:03:13.39,0:03:15.02,Default,,0,0,0,,干得好 吉森\N{\rEng}Way to go,Gib.
+Dialogue: 0,0:03:15.02,0:03:16.67,Default,,0,0,0,,早知道我就去当邮差\N{\rEng}I shoulda been a goddamn mailman.
+Dialogue: 0,0:03:20.33,0:03:22.68,Default,,0,0,0,,空出这个频道 随时会爆炸\N{\rEng}Clear this channel. Explosion's imminent.
+Dialogue: 0,0:03:28.84,0:03:31.00,Default,,0,0,0,,你们听得见吗?\N{\rEng}Hey,guys! Can you hear me?
+Dialogue: 0,0:03:31.00,0:03:32.54,Default,,0,0,0,,我们在这里面 马上进去!\N{\rEng}Yeah,we're in here. We're comin' in.
+Dialogue: 0,0:03:32.54,0:03:34.21,Default,,0,0,0,,快救我们出去!\N{\rEng}Get us outta here!
+Dialogue: 0,0:03:34.21,0:03:37.79,Default,,0,0,0,,他的腿断了!救我们出去!\N{\rEng}He's got a broken leg! Get us out!
+Dialogue: 0,0:03:39.48,0:03:42.46,Default,,0,0,0,,弗兰克 要爆炸了 快离开\N{\rEng}It's gonna flash. Get outta there.
+Dialogue: 0,0:03:43.22,0:03:45.02,Default,,0,0,0,,没必要给他们希望\N{\rEng}Dike isn't holdin'.
+Dialogue: 0,0:03:45.02,0:03:46.19,Default,,0,0,0,,救我们出去!\N{\rEng}Get us out!
+Dialogue: 0,0:03:46.19,0:03:47.89,Default,,0,0,0,,弗兰克 听见没?\N{\rEng}Frank,do you hear me?
+Dialogue: 0,0:03:47.89,0:03:50.82,Default,,0,0,0,,听见了 布区 斧头给我\N{\rEng}Yeah,I hear you,Butch. Grab that ax.
+Dialogue: 0,0:03:50.82,0:03:51.61,Default,,0,0,0,,拿去\N{\rEng}Here.
+Dialogue: 0,0:03:53.06,0:03:55.56,Default,,0,0,0,,用力劈 别劈出火花\N{\rEng}Gimme a whack. No sparks.
+Dialogue: 0,0:03:55.56,0:03:56.31,Default,,0,0,0,,再来\N{\rEng}Again.
+Dialogue: 0,0:03:57.10,0:03:57.98,Default,,0,0,0,,再一次\N{\rEng}One more.
+Dialogue: 0,0:03:59.17,0:04:00.25,Default,,0,0,0,,好 退后\N{\rEng}Okay,stand back.
+Dialogue: 0,0:04:11.01,0:04:12.26,Default,,0,0,0,,谢天谢地\N{\rEng}Oh,thank God.
+Dialogue: 0,0:04:13.58,0:04:15.16,Default,,0,0,0,,我的腿断了\N{\rEng}Oh. Yeah,my leg's all busted up.
+Dialogue: 0,0:04:15.75,0:04:17.04,Default,,0,0,0,,快点!\N{\rEng}Please hurry.
+Dialogue: 0,0:04:19.05,0:04:20.42,Default,,0,0,0,,我们进来了 布区\N{\rEng}We're in,Butch.
+Dialogue: 0,0:04:20.42,0:04:22.69,Default,,0,0,0,,很好 快救他们离开\N{\rEng}Get 'em and get the hell out.
+Dialogue: 0,0:04:22.69,0:04:25.24,Default,,0,0,0,,可以回家罗!\N{\rEng}Hey,fellas,time to go home.
+Dialogue: 0,0:04:25.79,0:04:27.15,Default,,0,0,0,,小心...\N{\rEng}Watch it,watch it!
+Dialogue: 0,0:04:28.26,0:04:29.73,Default,,0,0,0,,油罐车快裂开了!\N{\rEng}It's gone! It's gonna break!
+Dialogue: 0,0:04:29.73,0:04:32.88,Default,,0,0,0,,撤退!这是命令 大家撤退!\N{\rEng}Back,back! Let's go!
+Dialogue: 0,0:04:37.24,0:04:39.52,Default,,0,0,0,,趁汽油爆炸前快走吧\N{\rEng}That's an order. Everybody goes.
+Dialogue: 0,0:04:41.24,0:04:42.25,Default,,0,0,0,,小心电线!\N{\rEng}Watch that wire.
+Dialogue: 0,0:04:43.84,0:04:45.20,Default,,0,0,0,,快出来!\N{\rEng}Get out,for Christ's sake.
+Dialogue: 0,0:04:45.85,0:04:46.96,Default,,0,0,0,,抓住你了\N{\rEng}I gotcha.
+Dialogue: 0,0:04:52.19,0:04:53.85,Default,,0,0,0,,布区 我们要出来了\N{\rEng}Butch,Butch, we're comin' out right now.
+Dialogue: 0,0:04:53.85,0:04:54.79,Default,,0,0,0,,好的\N{\rEng}Go!
+Dialogue: 0,0:04:54.79,0:04:56.51,Default,,0,0,0,,我们马上出来!\N{\rEng}We're coming out right now!
+Dialogue: 0,0:04:57.76,0:04:59.77,Default,,0,0,0,,没事吧?小心你的头\N{\rEng}You all right? Watch your head.
+Dialogue: 0,0:05:02.33,0:05:04.55,Default,,0,0,0,,快上梯子!快!\N{\rEng}Get up that ladder. Go ahead.
+Dialogue: 0,0:05:05.23,0:05:06.42,Default,,0,0,0,,上去!\N{\rEng}Get up,get up!
+Dialogue: 0,0:05:10.97,0:05:11.82,Default,,0,0,0,,快上去!\N{\rEng}Go on up!
+Dialogue: 0,0:05:14.47,0:05:15.74,Default,,0,0,0,,快点!我跟在你后面!\N{\rEng}Go! Right behind you.
+Dialogue: 0,0:05:15.74,0:05:17.44,Default,,0,0,0,,我在快了! 继续爬\N{\rEng}Keep going.
+Dialogue: 0,0:05:17.44,0:05:18.20,Default,,0,0,0,,拉他出去!\N{\rEng}Pull him out.
+Dialogue: 0,0:05:19.28,0:05:21.01,Default,,0,0,0,,快!快!\N{\rEng}Come on! Come on,come on.
+Dialogue: 0,0:05:21.01,0:05:23.20,Default,,0,0,0,,快点 我抓到你了\N{\rEng}Come on. I gotcha. I gotcha.
+Dialogue: 0,0:05:58.99,0:06:00.74,Default,,0,0,0,,欢迎加入 吉森\N{\rEng}Welcome to the company,Gib.
+Dialogue: 0,0:06:27.71,0:06:31.04,Default,,0,0,0,,{\an8\fs16\b1}(皇后区少年棒球队)
+Dialogue: 0,0:06:48.53,0:06:49.55,Default,,0,0,0,,大家好\N{\rEng}Hey,fellas.
+Dialogue: 0,0:06:55.21,0:06:56.04,Default,,0,0,0,,爸\N{\rEng}Hey,Dad.
+Dialogue: 0,0:06:56.04,0:06:58.31,Default,,0,0,0,,嗨!戈登\N{\rEng}Hey. Hey,Gordo.
+Dialogue: 0,0:06:58.31,0:07:00.21,Default,,0,0,0,,沙利文先生\N{\rEng}Hey,Mr. Sullivan.
+Dialogue: 0,0:07:00.21,0:07:01.19,Default,,0,0,0,,你好啊\N{\rEng}How you doin'?
+Dialogue: 0,0:07:04.12,0:07:05.62,Default,,0,0,0,,我的小队长好吗?\N{\rEng}How's my Little Chief,huh?
+Dialogue: 0,0:07:05.62,0:07:06.29,Default,,0,0,0,,很好\N{\rEng}Good.
+Dialogue: 0,0:07:06.29,0:07:07.09,Default,,0,0,0,,你妈呢?\N{\rEng}Where's your mother?
+Dialogue: 0,0:07:07.09,0:07:08.13,Default,,0,0,0,,在屋里\N{\rEng}Inside the house.
+Dialogue: 0,0:07:09.39,0:07:13.44,Default,,0,0,0,,{\an8\fs16\b1}(一九六九年十月十日)\N{\rEng}N "October 10th 1969"
+Dialogue: 0,0:07:18.23,0:07:19.28,Default,,0,0,0,,茱莉亚\N{\rEng}Hey,Jules.
+Dialogue: 0,0:07:21.93,0:07:22.57,Default,,0,0,0,,嗨!伙伴\N{\rEng}Hey,bud.
+Dialogue: 0,0:07:22.57,0:07:23.37,Default,,0,0,0,,嗨!伙伴\N{\rEng}Hey,bud.
+Dialogue: 0,0:07:23.37,0:07:26.87,Default,,0,0,0,,这是玛莎与范卓斯的"热浪"\N{\rEng}That was "Heat Wave."
+Dialogue: 0,0:07:26.87,0:07:28.31,Default,,0,0,0,,这里是WOR纽约电台\N{\rEng}Martha and the Vandellas on WOR New York radio.
+Dialogue: 0,0:07:28.31,0:07:31.14,Default,,0,0,0,,听几首猫王的歌吧?\N{\rEng}Hey,how about a little bit of the King,huh?
+Dialogue: 0,0:07:31.14,0:07:32.93,Default,,0,0,0,,好啊 听几首猫王的歌\N{\rEng}Yeah,why not a little of the King?
+Dialogue: 0,0:07:34.25,0:07:35.20,Default,,0,0,0,,真是的!\N{\rEng}Damn!
+Dialogue: 0,0:07:36.08,0:07:36.88,Default,,0,0,0,,你没事吧?\N{\rEng}You all right?
+Dialogue: 0,0:07:36.88,0:07:41.22,Default,,0,0,0,,没事 酱又烧焦了\N{\rEng}Yeah! I think I ruined the sauce. Again.
+Dialogue: 0,0:07:41.22,0:07:42.62,Default,,0,0,0,,怎么了?\N{\rEng}What's the matter,bud?
+Dialogue: 0,0:07:42.62,0:07:45.46,Default,,0,0,0,,你没办法在医院工作八小时\N{\rEng}You havin' trouble working an eight-hour shift at the hospital...
+Dialogue: 0,0:07:45.46,0:07:48.32,Default,,0,0,0,,回家带小孩兼准备晚餐吗?\N{\rEng}watchin' the kid, whippin' up a little Bolognese?
+Dialogue: 0,0:07:49.03,0:07:50.76,Default,,0,0,0,,你以为你娶的是女超人哦\N{\rEng}You didn't marry Donna Reed.
+Dialogue: 0,0:07:50.76,0:07:55.82,Default,,0,0,0,,我宁可选择你 吃外带中国菜\N{\rEng}I'd go for you and Chinese takeout over her any day.
+Dialogue: 0,0:07:56.54,0:08:01.96,Default,,0,0,0,,因为我太爱你 宝贝\N{\rEng}Because I love you too much Baby
+Dialogue: 0,0:08:05.61,0:08:08.07,Default,,0,0,0,,你为何不明了...\N{\rEng}Why can't you see
+Dialogue: 0,0:08:08.91,0:08:10.98,Default,,0,0,0,,你是如何对待我\N{\rEng}What you're doin'to me
+Dialogue: 0,0:08:10.98,0:08:11.82,Default,,0,0,0,,今天工作如何?\N{\rEng}How was your tour?
+Dialogue: 0,0:08:11.82,0:08:13.02,Default,,0,0,0,,和平常一样\N{\rEng}The usual. You know.
+Dialogue: 0,0:08:13.02,0:08:14.55,Default,,0,0,0,,布区来过电话\N{\rEng}Butch called.
+Dialogue: 0,0:08:14.55,0:08:15.09,Default,,0,0,0,,是吗?\N{\rEng}Did he?
+Dialogue: 0,0:08:15.09,0:08:16.20,Default,,0,0,0,,对啊\N{\rEng}He did.
+Dialogue: 0,0:08:17.86,0:08:19.76,Default,,0,0,0,,一切都在掌控中\N{\rEng}It was under control,bud.
+Dialogue: 0,0:08:19.76,0:08:22.80,Default,,0,0,0,,布区年纪愈大就愈死板\N{\rEng}Butchy,he's gettin' a little tight in his old age.
+Dialogue: 0,0:08:22.80,0:08:24.53,Default,,0,0,0,,年纪大没什么不对\N{\rEng}Nothing wrong with old age,Frank.
+Dialogue: 0,0:08:24.53,0:08:25.85,Default,,0,0,0,,等你老了就知道\N{\rEng}Long as you get there.
+Dialogue: 0,0:09:06.11,0:09:09.54,Default,,0,0,0,,队长 我一放手你就继续踩\N{\rEng}All right,Chief,when I let go, I want you to keep peddling.
+Dialogue: 0,0:09:09.54,0:09:11.74,Default,,0,0,0,,爸 装回小轮子 我快跌倒了\N{\rEng}Daddy,put the wheels back on. I'm gonna fall.
+Dialogue: 0,0:09:11.74,0:09:15.21,Default,,0,0,0,,别怕跌倒 你可以自己骑了\N{\rEng}Don't worry about falling. You're ready to do this.
+Dialogue: 0,0:09:15.21,0:09:17.76,Default,,0,0,0,,别这样 打起精神 鼓起勇气\N{\rEng}Come on. Spirit and guts,okay?
+Dialogue: 0,0:09:19.99,0:09:22.59,Default,,0,0,0,,好了 继续踩\N{\rEng}All right. Keep pedalin'.
+Dialogue: 0,0:09:22.59,0:09:24.02,Default,,0,0,0,,我要放手了\N{\rEng}I'm gonna let go.
+Dialogue: 0,0:09:24.02,0:09:25.19,Default,,0,0,0,,很好\N{\rEng}That's it!
+Dialogue: 0,0:09:25.19,0:09:28.06,Default,,0,0,0,,继续踩...\N{\rEng}Keep pedalin...
+Dialogue: 0,0:09:28.06,0:09:29.18,Default,,0,0,0,,对 那样...\N{\rEng}Keep pedalin',keep pedalin'. Yeah!
+Dialogue: 0,0:09:29.80,0:09:31.13,Default,,0,0,0,,你没事吧?\N{\rEng}You all right?
+Dialogue: 0,0:09:31.13,0:09:32.30,Default,,0,0,0,,你没事吧?\N{\rEng}You all right?
+Dialogue: 0,0:09:32.30,0:09:33.76,Default,,0,0,0,,小约翰\N{\rEng}Johnny!
+Dialogue: 0,0:09:34.93,0:09:37.07,Default,,0,0,0,,你没事吧?有没有受伤?\N{\rEng}You okay? You hurt? You okay?
+Dialogue: 0,0:09:37.07,0:09:38.50,Default,,0,0,0,,妈 我想回房间\N{\rEng}I wanna go to my room.
+Dialogue: 0,0:09:38.50,0:09:40.81,Default,,0,0,0,,还好吧?好 去吧 没事了\N{\rEng}Okay. Go on,honey. It's okay.
+Dialogue: 0,0:09:40.81,0:09:43.24,Default,,0,0,0,,队长 别轻言放弃!\N{\rEng}Hey,come on,Chief. Don't quit on me now.
+Dialogue: 0,0:09:43.24,0:09:46.13,Default,,0,0,0,,别太逼他了 他年纪还小\N{\rEng}Don't be so tough on him,Frank. He's just a kid.
+Dialogue: 0,0:09:48.18,0:09:50.70,Default,,0,0,0,,你只要给他支持就行了\N{\rEng}He just needs to know you're behind him.
+Dialogue: 0,0:09:52.55,0:09:55.45,Default,,0,0,0,,好吧 你说得对\N{\rEng}Okay. You're right. All right.
+Dialogue: 0,0:09:55.45,0:09:56.64,Default,,0,0,0,,好吧\N{\rEng}Okay.
+Dialogue: 0,0:10:39.43,0:10:40.70,Default,,0,0,0,,CQ-22\N{\rEng}CQ-22,
+Dialogue: 0,0:10:40.70,0:10:43.24,Default,,0,0,0,,这里是W2QYV 请回答\N{\rEng}CQ-22,this is W-2-QYV, by for call.
+Dialogue: 0,0:10:43.24,0:10:45.14,Default,,0,0,0,,这是太阳活动导致的现象\N{\rEng}Because of the solar activity.
+Dialogue: 0,0:10:45.14,0:10:48.21,Default,,0,0,0,,好美 天空亮得像营火似的\N{\rEng}Yeah,it's beautiful. We got the sky over my house lit up like a bonfire.
+Dialogue: 0,0:10:48.21,0:10:51.21,Default,,0,0,0,,太阳黑子射出的火花\N{\rEng}Word is the sunspots are shooting off flares...
+Dialogue: 0,0:10:51.21,0:10:52.61,Default,,0,0,0,,可绵延五十万公里\N{\rEng}that stretch out half a million kilometers.
+Dialogue: 0,0:10:52.61,0:10:53.91,Default,,0,0,0,,还用你说?\N{\rEng}Tell me about it.
+Dialogue: 0,0:10:53.91,0:10:57.42,Default,,0,0,0,,连我都接收到不明的讯号\N{\rEng}I'm pickin'up signals from places I could never reach before.
+Dialogue: 0,0:10:57.42,0:10:59.75,Default,,0,0,0,,弗兰克 是你吗?你好吗?\N{\rEng}Francis,is that you? How are you doing?
+Dialogue: 0,0:10:59.75,0:11:01.45,Default,,0,0,0,,我很好 你呢?\N{\rEng}Hey,I'm doing just great. How you doing?
+Dialogue: 0,0:11:01.45,0:11:04.81,Default,,0,0,0,,很好 我老婆苏菲亚又要生了\N{\rEng}Fantastic. My wife,Sophia, she's gonna give me another baby.
+Dialogue: 0,0:11:23.51,0:11:26.56,Default,,0,0,0,,{\an8\fs16\b1}(一九九九年十月十日)\N{\rEng}N "October 10th 1999"
+Dialogue: 0,0:11:40.63,0:11:43.26,Default,,0,0,0,,你打算就这样离开 珊曼莎?\N{\rEng}So,that's it,Samantha? You're just walkin' out?
+Dialogue: 0,0:11:43.26,0:11:45.36,Default,,0,0,0,,我们之间的问题已存在很久了\N{\rEng}I've been walkin' out for six months,John.
+Dialogue: 0,0:11:45.36,0:11:47.19,Default,,0,0,0,,你一点也不关心\N{\rEng}You just didn't notice or care.
+Dialogue: 0,0:11:53.41,0:11:56.56,Default,,0,0,0,,你说得对 我们早该分手了\N{\rEng}You were right. We shoulda quit a long time ago.
+Dialogue: 0,0:12:01.71,0:12:05.05,Default,,0,0,0,,对不起 我知道是我的错\N{\rEng}I'm sorry. I know it's my fault.
+Dialogue: 0,0:12:05.05,0:12:08.39,Default,,0,0,0,,我很想改变 可惜本性难移\N{\rEng}I can't change,Sam. I wish I could,but I can't.
+Dialogue: 0,0:12:08.39,0:12:12.54,Default,,0,0,0,,不对 是你不肯改变\N{\rEng}John,it's that you won't change.
+Dialogue: 0,0:12:13.89,0:12:15.47,Default,,0,0,0,,这点令我最痛心\N{\rEng}And that's what hurts so much.
+Dialogue: 0,0:12:18.46,0:12:19.55,Default,,0,0,0,,再见了 队长\N{\rEng}Good-bye,Chief.
+Dialogue: 0,0:13:17.12,0:13:20.34,Default,,0,0,0,,下一棒是约翰·沙利文\N{\rEng}Next up,Johnny Sullivan.
+Dialogue: 0,0:13:25.00,0:13:26.89,Default,,0,0,0,,中外野安打\N{\rEng}It's a hit up the middle.
+Dialogue: 0,0:13:30.57,0:13:32.58,Default,,0,0,0,,小约翰停留在一垒\N{\rEng}Johnny's gonna hold at first.
+Dialogue: 0,0:13:33.47,0:13:38.40,Default,,0,0,0,,接着是约翰的爸爸和纽曼教练\N{\rEng}And now batting forJohnny's father, Coach Newman.
+Dialogue: 0,0:13:45.88,0:13:48.89,Default,,0,0,0,,投手看了看跑者 球投出\N{\rEng}Checks the runner and fires.
+Dialogue: 0,0:13:48.89,0:13:50.61,Default,,0,0,0,,球击向右外野\N{\rEng}Lined hard to right.
+Dialogue: 0,0:13:51.36,0:13:53.73,Default,,0,0,0,,接杀了 一人在垒 一人出局\N{\rEng}No problem. One on,one out.
+Dialogue: 0,0:13:53.73,0:13:54.46,Default,,0,0,0,,约翰叔叔\N{\rEng}Hi,Uncle John.
+Dialogue: 0,0:13:54.46,0:13:55.86,Default,,0,0,0,,我不是你的叔叔\N{\rEng}I'm not your uncle,kid.
+Dialogue: 0,0:13:55.86,0:13:57.15,Default,,0,0,0,,沙利文 是你吗?\N{\rEng}Hey,Sully,is that you?
+Dialogue: 0,0:13:57.73,0:14:00.53,Default,,0,0,0,,戈登 你们来我家干嘛?\N{\rEng}Gordo,why are you guys in my house?
+Dialogue: 0,0:14:00.53,0:14:02.74,Default,,0,0,0,,我的电视又坏了\N{\rEng}My TV's out again.
+Dialogue: 0,0:14:02.74,0:14:06.37,Default,,0,0,0,,要不要喝啤酒?\N{\rEng}Hey,uh,you want a brewski?
+Dialogue: 0,0:14:06.37,0:14:07.59,Default,,0,0,0,,好啊\N{\rEng}Yeah.
+Dialogue: 0,0:14:08.87,0:14:09.94,Default,,0,0,0,,中外野高飞球\N{\rEng}Deep fly ball into center field.
+Dialogue: 0,0:14:09.94,0:14:12.66,Default,,0,0,0,,琳达居然还是不让我下厨\N{\rEng}Do you believe Linda still won't let me cook in the house?
+Dialogue: 0,0:14:13.31,0:14:15.71,Default,,0,0,0,,我曾烧焦过一只平底锅\N{\rEng}I melt one lousy frying pan.
+Dialogue: 0,0:14:15.71,0:14:18.62,Default,,0,0,0,,约翰 我爸要带我去钓鱼\N{\rEng}John,guess what. Dad's takin' me fishin'.
+Dialogue: 0,0:14:18.62,0:14:19.75,Default,,0,0,0,,要不要一起去?\N{\rEng}Wanna come?
+Dialogue: 0,0:14:19.75,0:14:23.56,Default,,0,0,0,,我不能去 钓只大鱼回来给我\N{\rEng}I wish I could,Gordy. But you bring me back a big one,okay?
+Dialogue: 0,0:14:23.56,0:14:25.76,Default,,0,0,0,,你的旧钓具可以借戈迪用吗?\N{\rEng}Is it okay if Gordy uses your old gear?
+Dialogue: 0,0:14:25.76,0:14:29.13,Default,,0,0,0,,好 你去走廊的橱柜里找找看\N{\rEng}Yeah,I think it's in the hall closet. If you can find it.
+Dialogue: 0,0:14:29.13,0:14:30.64,Default,,0,0,0,,戈迪 你去看看\N{\rEng}Gordy,have a look,huh?
+Dialogue: 0,0:14:31.16,0:14:31.98,Default,,0,0,0,,好\N{\rEng}Okay.
+Dialogue: 0,0:14:32.73,0:14:35.87,Default,,0,0,0,,雅虎的股价今天又涨了五点\N{\rEng}So Yahoo went up another five points today.
+Dialogue: 0,0:14:35.87,0:14:37.77,Default,,0,0,0,,早知道就买那张股票\N{\rEng}Man,did I miss the boat on that one.
+Dialogue: 0,0:14:37.77,0:14:39.52,Default,,0,0,0,,千金难买早知道\N{\rEng}Shoulda,woulda,coulda,pal.
+Dialogue: 0,0:14:41.11,0:14:43.19,Default,,0,0,0,,珊曼莎打过电话给琳达\N{\rEng}So Sam called Linda.
+Dialogue: 0,0:14:44.48,0:14:46.25,Default,,0,0,0,,爸 约翰 过来一下\N{\rEng}Dad,John,come here.
+Dialogue: 0,0:14:46.25,0:14:48.81,Default,,0,0,0,,戈迪 你在那里干嘛?\N{\rEng}What are you doin' back there?
+Dialogue: 0,0:14:48.81,0:14:50.07,Default,,0,0,0,,爸 快过来看\N{\rEng}Dad,check it out.
+Dialogue: 0,0:14:51.42,0:14:55.05,Default,,0,0,0,,消防队的东西 可以打开吗?\N{\rEng}Fire department. Can I open it up?
+Dialogue: 0,0:14:55.05,0:14:56.14,Default,,0,0,0,,好啊\N{\rEng}Yeah.
+Dialogue: 0,0:15:04.23,0:15:05.03,Default,,0,0,0,,好耶\N{\rEng}Yeah!
+Dialogue: 0,0:15:05.03,0:15:08.05,Default,,0,0,0,,那把枪给我\N{\rEng}Eh,eh,eh,gimme that gun.
+Dialogue: 0,0:15:11.44,0:15:12.72,Default,,0,0,0,,这是什么 爸?\N{\rEng}Hey,what's this,Dad?
+Dialogue: 0,0:15:13.44,0:15:15.17,Default,,0,0,0,,天哪\N{\rEng}Oh,my God.
+Dialogue: 0,0:15:15.17,0:15:18.46,Default,,0,0,0,,约翰 这是你爸的旧无线电\N{\rEng}John,it's your dad's old ham radio.
+Dialogue: 0,0:15:18.98,0:15:22.78,Default,,0,0,0,,记得我们以前常求他让我们玩\N{\rEng}Remember how we used to beg him to let us talk on this thing?
+Dialogue: 0,0:15:22.78,0:15:25.52,Default,,0,0,0,,这可不是玩具\N{\rEng}This is not a toy.
+Dialogue: 0,0:15:25.52,0:15:27.02,Default,,0,0,0,,可不可以用用看 爸?\N{\rEng}Is not a toy. Can we try it,Dad?
+Dialogue: 0,0:15:27.02,0:15:28.12,Default,,0,0,0,,去问约翰叔叔\N{\rEng}Ask Uncle John.
+Dialogue: 0,0:15:28.12,0:15:29.62,Default,,0,0,0,,可以用吗?\N{\rEng}Can we try it?
+Dialogue: 0,0:15:29.62,0:15:31.02,Default,,0,0,0,,好啊\N{\rEng}What the hell.
+Dialogue: 0,0:15:31.02,0:15:34.86,Default,,0,0,0,,好吧 先搬出来\N{\rEng}All right. Let's grab this baby out.
+Dialogue: 0,0:15:34.86,0:15:38.93,Default,,0,0,0,,这是我们那个时代的无线电\N{\rEng}This is what we used when I was your age.
+Dialogue: 0,0:15:38.93,0:15:41.91,Default,,0,0,0,,我们去书房回忆儿时吧\N{\rEng}Let's go over to the den,huh? Plug it in,just like old times.
+Dialogue: 0,0:15:42.47,0:15:44.87,Default,,0,0,0,,选择等幅波或低频带\N{\rEng}We want CW or LSB.
+Dialogue: 0,0:15:44.87,0:15:48.23,Default,,0,0,0,,待机状态 快接收信息\N{\rEng}Standby function. Operator,come on.
+Dialogue: 0,0:15:48.77,0:15:50.24,Default,,0,0,0,,我不知道这是怎么回事\N{\rEng}I don't know what's goin' on.
+Dialogue: 0,0:15:50.24,0:15:51.76,Default,,0,0,0,,拆开来修理吧\N{\rEng}Let's take a look under the hood,huh?
+Dialogue: 0,0:15:52.61,0:15:54.40,Default,,0,0,0,,看看这里有什么\N{\rEng}See what we got here.
+Dialogue: 0,0:15:56.78,0:16:00.55,Default,,0,0,0,,检查一下 拆开了\N{\rEng}Check this baby out. There she is.
+Dialogue: 0,0:16:00.55,0:16:03.36,Default,,0,0,0,,没电脑网路时就是用这个?\N{\rEng}So this is what people used before the Net,huh?
+Dialogue: 0,0:16:03.36,0:16:05.69,Default,,0,0,0,,不尽然 无线电是...\N{\rEng}Well,not exactly. I'll tell ya. Hams were...
+Dialogue: 0,0:16:05.69,0:16:08.43,Default,,0,0,0,,找到了 网路和无线电不同\N{\rEng}Ah,bingo. These babies were different.
+Dialogue: 0,0:16:08.43,0:16:10.23,Default,,0,0,0,,无线电可不是人人都有\N{\rEng}Not everybody had one of these...
+Dialogue: 0,0:16:10.23,0:16:13.55,Default,,0,0,0,,要取得特殊执照才能使用\N{\rEng}and you needed a special license just to be able to talk on 'em.
+Dialogue: 0,0:16:14.10,0:16:18.47,Default,,0,0,0,,真是的 根本不能用了\N{\rEng}Damn. I just... I don't think it's gonna work here.
+Dialogue: 0,0:16:18.47,0:16:21.41,Default,,0,0,0,,这是破铜烂铁 已经没人用了\N{\rEng}It's junk,kid. Nobody uses those things anymore.
+Dialogue: 0,0:16:21.41,0:16:24.38,Default,,0,0,0,,戈登 你知道现在几点了吗?\N{\rEng}Gordo! Do you know what time it is?
+Dialogue: 0,0:16:24.38,0:16:25.34,Default,,0,0,0,,嗨!约翰\N{\rEng}Hey,John.
+Dialogue: 0,0:16:25.34,0:16:26.85,Default,,0,0,0,,琳达\N{\rEng}Hi,Linda.
+Dialogue: 0,0:16:26.85,0:16:28.74,Default,,0,0,0,,戈迪 回家罗\N{\rEng}Come on,Gordy,let's go.
+Dialogue: 0,0:16:29.58,0:16:31.87,Default,,0,0,0,,待会儿见 如果我能逃过一劫\N{\rEng}I'll catch you later,all right? If I'm lucky.
+Dialogue: 0,0:16:34.79,0:16:36.57,Default,,0,0,0,,喂他吧\N{\rEng}So feed him.
+Dialogue: 0,0:16:37.16,0:16:39.52,Default,,0,0,0,,放在那里让他自己吃\N{\rEng}Put it down there for him.
+Dialogue: 0,0:16:39.52,0:16:43.35,Default,,0,0,0,,你再说那个字 我们就不说话\N{\rEng}I'm not gonna speak if you continue to say that word.
+Dialogue: 0,0:16:46.20,0:16:47.80,Default,,0,0,0,,我是茱莉亚·沙利文\N{\rEng}Hi,this is Julia Sullivan.
+Dialogue: 0,0:16:47.80,0:16:50.12,Default,,0,0,0,,请在哔声后留话\N{\rEng}Please leave a message after the tone.
+Dialogue: 0,0:16:50.87,0:16:55.34,Default,,0,0,0,,妈 是我 只是想问候一下\N{\rEng}Hey,Ma,it's me. Just checkin' in.
+Dialogue: 0,0:16:55.34,0:16:57.21,Default,,0,0,0,,你可能正在上班\N{\rEng}You're probably at work.
+Dialogue: 0,0:16:57.21,0:17:04.07,Default,,0,0,0,,我明晚去找你 我爱你\N{\rEng}Anyways,um,I'll see you tomorrow night. I love you.
+Dialogue: 0,0:17:18.30,0:17:24.84,Default,,0,0,0,,看过北极光的人都终生难忘\N{\rEng}The aurora borealis, to anyone who's seen it is one of the stunning events of your lifetime.
+Dialogue: 0,0:17:24.84,0:17:29.04,Default,,0,0,0,,最近变更亮了 是什么原因?\N{\rEng}They're brighter these days. Is something going on there?
+Dialogue: 0,0:17:29.04,0:17:30.71,Default,,0,0,0,,你的研究可否提供解释?\N{\rEng}Do they tie in with your field? Where do they come from?
+Dialogue: 0,0:17:30.71,0:17:33.11,Default,,0,0,0,,这景象真令人咋舌 美不胜收\N{\rEng}It's a stunning sight. It's beautiful to look at.
+Dialogue: 0,0:17:33.11,0:17:36.82,Default,,0,0,0,,已有三十年没见过这么亮的光\N{\rEng}I don't think we've seen one quite this bright for maybe 30 years.
+Dialogue: 0,0:17:36.82,0:17:40.42,Default,,0,0,0,,但根据物理学及线理论\N{\rEng}But,from the point of view of physics and string theory...
+Dialogue: 0,0:17:40.42,0:17:44.29,Default,,0,0,0,,北极光的研究仍毫无结论\N{\rEng}there's nothing really that we gain from studying the aurora borealis.
+Dialogue: 0,0:17:44.29,0:17:48.06,Default,,0,0,0,,反观历史我们每次理解了某事\N{\rEng}Now history does teach us every time we thought we had it figured out...
+Dialogue: 0,0:17:48.06,0:17:51.66,Default,,0,0,0,,就会产生重大发现\N{\rEng}there was some major discovery right around the bend...
+Dialogue: 0,0:17:51.66,0:17:55.40,Default,,0,0,0,,颠覆既有物理学的原理\N{\rEng}that required a dramatic change in our understanding of the laws of physics.
+Dialogue: 0,0:17:55.40,0:17:58.07,Default,,0,0,0,,线理论便是因此产生的\N{\rEng}This is a phrase people have begun to hear... string theory.
+Dialogue: 0,0:17:58.07,0:18:04.41,Default,,0,0,0,,对 它推翻了时空的定义...\N{\rEng}Yes. Yes,that's right. String theory dramatically changes...our understanding of space and time.
+Dialogue: 0,0:18:04.41,0:18:10.48,Default,,0,0,0,,认为宇宙有十至十一个次元\N{\rEng}For example, string theory requires our universe to have ten...or possibly even eleven dimensions.
+Dialogue: 0,0:18:10.48,0:18:12.58,Default,,0,0,0,,奇怪的是有些物理学家\N{\rEng}And the strange thing is some physicists are even pursuing the idea...
+Dialogue: 0,0:18:12.58,0:18:15.59,Default,,0,0,0,,甚至认为时间次元也不只一个\N{\rEng}that there might be more than one time dimension.
+Dialogue: 0,0:18:15.59,0:18:17.72,Default,,0,0,0,,除了一般我们所认知的时间\N{\rEng}So,in addition to time as we know it,
+Dialogue: 0,0:18:17.72,0:18:21.62,Default,,0,0,0,,组织人类事件发生的顺序以外\N{\rEng}psychological time which seems to organize events...
+Dialogue: 0,0:18:23.43,0:18:25.68,Default,,0,0,0,,{\an8\fs16\b1}(仓库大火夺走消防员性命)
+Dialogue: 0,0:18:28.13,0:18:31.09,Default,,0,0,0,,CQ-15 听到请回答\N{\rEng}CQ-15,W-2-QYV,by for call.
+Dialogue: 0,0:18:33.57,0:18:35.72,Default,,0,0,0,,有人吗?\N{\rEng}Uh,hello?
+Dialogue: 0,0:18:36.54,0:18:39.73,Default,,0,0,0,,这里是W2QYV 你是谁?\N{\rEng}Hey,W-2-QYVhere. Who have I got?
+Dialogue: 0,0:18:40.78,0:18:42.24,Default,,0,0,0,,我叫约翰\N{\rEng}Name's John.
+Dialogue: 0,0:18:44.72,0:18:46.67,Default,,0,0,0,,你有通讯执照吗?\N{\rEng}License to broadcast,buddy?
+Dialogue: 0,0:18:48.19,0:18:51.63,Default,,0,0,0,,我不记得这玩意儿怎么用\N{\rEng}Look,I really don't remember how this thing works.
+Dialogue: 0,0:18:52.26,0:18:55.46,Default,,0,0,0,,没执照就不能通讯\N{\rEng}Listen,you can't broadcast without a license.
+Dialogue: 0,0:18:55.46,0:18:58.08,Default,,0,0,0,,除非有急事 否则要停止通讯\N{\rEng}Unless this is an emergency, you're gonna have to get off the band.
+Dialogue: 0,0:18:58.90,0:19:02.60,Default,,0,0,0,,我需要人来拯救我的人生\N{\rEng}Hey,pal,my whole life's an emergency.
+Dialogue: 0,0:19:02.60,0:19:04.02,Default,,0,0,0,,你从哪里发送讯息?\N{\rEng}Where you transmittin' from?
+Dialogue: 0,0:19:05.17,0:19:06.72,Default,,0,0,0,,纽约皇后区\N{\rEng}Queens,New York.
+Dialogue: 0,0:19:07.27,0:19:10.81,Default,,0,0,0,,真巧 我在这里土生土长\N{\rEng}Well,what do you know? Bayside,born and raised.
+Dialogue: 0,0:19:10.81,0:19:14.45,Default,,0,0,0,,真的?我以为这是国际通讯\N{\rEng}No kidding? I thought these things were for talking around the world.
+Dialogue: 0,0:19:14.45,0:19:17.35,Default,,0,0,0,,对 晚上会关闭十五个波段\N{\rEng}Yeah,well,the 15 band closes down at night...
+Dialogue: 0,0:19:17.35,0:19:21.32,Default,,0,0,0,,但白天甚至能和中国大陆通讯\N{\rEng}but during the day you can chew the band with China if you want.
+Dialogue: 0,0:19:21.32,0:19:24.29,Default,,0,0,0,,居然还有人在用这种无线电\N{\rEng}I can't believe people are still using these things.
+Dialogue: 0,0:19:24.29,0:19:26.39,Default,,0,0,0,,你一定是个LKK\N{\rEng}You must be a real old-timer,huh?
+Dialogue: 0,0:19:26.39,0:19:28.87,Default,,0,0,0,,这种时候就觉得自己老了\N{\rEng}Days like this... I feel like I'm gettin' there, you know?
+Dialogue: 0,0:19:29.76,0:19:33.17,Default,,0,0,0,,皇后区朋友 你迷世界杯吗?\N{\rEng}So,queens,you psyched for the Series,huh?
+Dialogue: 0,0:19:33.17,0:19:36.52,Default,,0,0,0,,我不太看棒球了\N{\rEng}You know,I really don't follow baseball anymore.
+Dialogue: 0,0:19:37.47,0:19:38.59,Default,,0,0,0,,什么?\N{\rEng}What?
+Dialogue: 0,0:19:39.60,0:19:41.81,Default,,0,0,0,,我受够了他们的胡搞瞎搞\N{\rEng}I got fed up with all the bullshit.
+Dialogue: 0,0:19:41.81,0:19:43.24,Default,,0,0,0,,你在胡说什么?\N{\rEng}What are you talkin'about?
+Dialogue: 0,0:19:43.24,0:19:47.48,Default,,0,0,0,,千年后学校教小朋友美国史时\N{\rEng}Let me tell you, a thousand years from now when school kids study about America...
+Dialogue: 0,0:19:47.48,0:19:49.01,Default,,0,0,0,,有三样东西必学:\N{\rEng}they're gonna learn about three things:
+Dialogue: 0,0:19:49.01,0:19:53.84,Default,,0,0,0,,宪法 摇滚乐和棒球\N{\rEng}The Constitution,rock and roll and baseball.
+Dialogue: 0,0:19:55.19,0:19:58.44,Default,,0,0,0,,住皇后区怎会不迷大都会队?\N{\rEng}How can you live in Queens and not love the Amazins?
+Dialogue: 0,0:19:59.09,0:20:03.76,Default,,0,0,0,,大都会队?六九年世界杯?\N{\rEng}The Amazin' Mets? What,the '69 Series?
+Dialogue: 0,0:20:03.76,0:20:07.67,Default,,0,0,0,,我爱死朗史沃波了 至死不渝\N{\rEng}Man,I'll love Ron Swoboda till the day I die.
+Dialogue: 0,0:20:07.67,0:20:10.14,Default,,0,0,0,,我有同感 他满腔勇气与热诚\N{\rEng}Well,now I'm with ya. He's got the heart of a lion.
+Dialogue: 0,0:20:10.14,0:20:12.25,Default,,0,0,0,,大都会少了他第一场会赢不了\N{\rEng}Mets can't win game one without him.
+Dialogue: 0,0:20:12.97,0:20:14.27,Default,,0,0,0,,你听得见吗?\N{\rEng}Can you hear me?
+Dialogue: 0,0:20:14.27,0:20:16.61,Default,,0,0,0,,第一场?你在说什么?\N{\rEng}Game one? What are you talkin' about?
+Dialogue: 0,0:20:16.61,0:20:20.95,Default,,0,0,0,,彪佛打出全垒打就定了江山\N{\rEng}It was all over after Buford nailed Seaver's second pitch outta the park.
+Dialogue: 0,0:20:20.95,0:20:25.32,Default,,0,0,0,,不可能 球赛又还没开始\N{\rEng}Hey,no way,buddy. Ain't gonna happen.
+Dialogue: 0,0:20:25.32,0:20:27.10,Default,,0,0,0,,CQ-15 你还在吗?\N{\rEng}Hey,CQ-15. CQ-15. Are you there?
+Dialogue: 0,0:20:31.99,0:20:34.09,Default,,0,0,0,,刚才那人到底是谁?\N{\rEng}Who the hell was that?
+Dialogue: 0,0:20:34.09,0:20:37.03,Default,,0,0,0,,你在吗 皇后区?断讯了吗?\N{\rEng}Queens? Are you there,queens? Did I lose ya?
+Dialogue: 0,0:20:37.03,0:20:42.10,Default,,0,0,0,,弗兰克 别玩了 儿子要道晚安\N{\rEng}Hey,Frank,give the radio a rest. Your son wants to say good night.
+Dialogue: 0,0:20:42.10,0:20:43.65,Default,,0,0,0,,好 我马上过去\N{\rEng}All right,I'll be right there.
+Dialogue: 0,0:20:49.88,0:20:50.94,Default,,0,0,0,,猫王 你还好吧?\N{\rEng}Elvis,you all right?
+Dialogue: 0,0:20:50.94,0:20:51.91,Default,,0,0,0,,对不起 猫王\N{\rEng}Oh,sorry.
+Dialogue: 0,0:20:51.91,0:20:52.78,Default,,0,0,0,,你没事吧 弗兰克?\N{\rEng}You okay,Frank?
+Dialogue: 0,0:20:52.78,0:20:53.71,Default,,0,0,0,,没事\N{\rEng}We're fine.
+Dialogue: 0,0:20:53.71,0:20:54.67,Default,,0,0,0,,你还好吗?朋友\N{\rEng}You all right?
+Dialogue: 0,0:20:56.48,0:20:57.87,Default,,0,0,0,,你还好吗?朋友\N{\rEng}You okay,buddy?
+Dialogue: 0,0:20:59.18,0:21:05.79,Default,,0,0,0,,太阳黑子未来六 七天 将严重干扰无线电通讯\N{\rEng}The sunspots are going to have a serious impact on radio communication for the next six or seven days.
+Dialogue: 0,0:21:05.79,0:21:08.06,Default,,0,0,0,,量子理论指出...\N{\rEng}In fact,quantum theory tells us the rigid notions...
+Dialogue: 0,0:21:08.06,0:21:11.06,Default,,0,0,0,,过去 现在和未来的观念\N{\rEng}of past,present and future, although useful in day-to-day life...
+Dialogue: 0,0:21:11.06,0:21:14.37,Default,,0,0,0,,对日常生活也许很有用\N{\rEng}may dissolve and be replaced by a complex formulation...
+Dialogue: 0,0:21:14.37,0:21:18.24,Default,,0,0,0,,但时间的形式变化莫测\N{\rEng}in which time is far more fluid
+Dialogue: 0,0:21:18.24,0:21:20.26,Default,,0,0,0,,超乎人类想像\N{\rEng}than anybody would have imagined.
+Dialogue: 0,0:22:13.36,0:22:14.13,Default,,0,0,0,,实习消防员\N{\rEng}Proby.
+Dialogue: 0,0:22:14.13,0:22:14.96,Default,,0,0,0,,什么事?\N{\rEng}What?
+Dialogue: 0,0:22:14.96,0:22:18.33,Default,,0,0,0,,把天线从屋顶底下伸出来一点\N{\rEng}Point the antenna out from under the house a little bit.
+Dialogue: 0,0:22:18.33,0:22:20.50,Default,,0,0,0,,这就对了...\N{\rEng}There it is. Hey!
+Dialogue: 0,0:22:20.50,0:22:23.07,Default,,0,0,0,,我要喝啤酒 沙利文要不要?\N{\rEng}I'm gonna get a beer. Want one?
+Dialogue: 0,0:22:23.07,0:22:23.85,Default,,0,0,0,,好啊\N{\rEng}Yeah,yeah.
+Dialogue: 0,0:22:24.80,0:22:26.84,Default,,0,0,0,,实习消防员 让开\N{\rEng}Hey,hey,hey,hey! Proby,walk away.
+Dialogue: 0,0:22:26.84,0:22:28.49,Default,,0,0,0,,电视机没坏就不必修了\N{\rEng}If it ain't broke,don't fix it.
+Dialogue: 0,0:22:29.71,0:22:30.72,Default,,0,0,0,,送来了 布区\N{\rEng}Here we go,Butch. Here we go.
+Dialogue: 0,0:22:32.84,0:22:34.85,Default,,0,0,0,,塞奇 找张椅子坐吧\N{\rEng}Hey,Satch. Grab a seat. Come on.
+Dialogue: 0,0:22:34.85,0:22:37.08,Default,,0,0,0,,沙利文 我要换新止滑片\N{\rEng}Sully,I think I need to get a new set of cleats.
+Dialogue: 0,0:22:37.08,0:22:39.25,Default,,0,0,0,,刚才差点滑倒\N{\rEng}I lost my footing there.
+Dialogue: 0,0:22:39.25,0:22:40.45,Default,,0,0,0,,对啊\N{\rEng}Yeah!
+Dialogue: 0,0:22:40.45,0:22:41.99,Default,,0,0,0,,对啊\N{\rEng}Right.
+Dialogue: 0,0:22:41.99,0:22:44.66,Default,,0,0,0,,德里安医生 你还是来了\N{\rEng}Dr. DeLeon,you decided to join us.
+Dialogue: 0,0:22:44.66,0:22:46.22,Default,,0,0,0,,你不会想知道的\N{\rEng}You don't wanna know.
+Dialogue: 0,0:22:46.22,0:22:48.59,Default,,0,0,0,,连续36小时 我快发疯了\N{\rEng}Thirty-six hours, I was bouncing off the walls.
+Dialogue: 0,0:22:48.59,0:22:50.31,Default,,0,0,0,,对 所以你是医生 我是护士\N{\rEng}That's why you're the doctor and I'm the nurse.
+Dialogue: 0,0:22:51.00,0:22:52.06,Default,,0,0,0,,宝贝\N{\rEng}Hey,baby.
+Dialogue: 0,0:22:52.06,0:22:52.73,Default,,0,0,0,,需要什么吗?\N{\rEng}Can I get you something?
+Dialogue: 0,0:22:52.73,0:22:54.42,Default,,0,0,0,,不用了 没关系\N{\rEng}No,it's all right.
+Dialogue: 0,0:22:55.10,0:22:56.18,Default,,0,0,0,,我快饿扁了\N{\rEng}I am starving.
+Dialogue: 0,0:22:59.44,0:23:00.59,Default,,0,0,0,,坐下\N{\rEng}Sit down.
+Dialogue: 0,0:23:01.31,0:23:02.31,Default,,0,0,0,,你们好吗?\N{\rEng}How you boys doin'?
+Dialogue: 0,0:23:02.31,0:23:03.98,Default,,0,0,0,,很好 塞奇\N{\rEng}Good,Satch.
+Dialogue: 0,0:23:03.98,0:23:05.73,Default,,0,0,0,,我有东西要送你\N{\rEng}Okay,I got something for you.
+Dialogue: 0,0:23:06.98,0:23:08.65,Default,,0,0,0,,我真不敢相信!\N{\rEng}I can't believe it!
+Dialogue: 0,0:23:08.65,0:23:10.33,Default,,0,0,0,,我也有东西要送你\N{\rEng}And I got something for you.
+Dialogue: 0,0:23:11.95,0:23:13.79,Default,,0,0,0,,爸 你看!\N{\rEng}Dad,look!
+Dialogue: 0,0:23:13.79,0:23:15.29,Default,,0,0,0,,什么?你一定是...\N{\rEng}What? You gotta be...
+Dialogue: 0,0:23:15.29,0:23:18.06,Default,,0,0,0,,塞奇 你是耶诞老人吗?\N{\rEng}Hey,Satch,you Santa Claus?
+Dialogue: 0,0:23:18.06,0:23:19.42,Default,,0,0,0,,第三场比赛的门票\N{\rEng}Game three tickets.
+Dialogue: 0,0:23:19.42,0:23:20.26,Default,,0,0,0,,塞奇\N{\rEng}Satch.
+Dialogue: 0,0:23:20.26,0:23:20.96,Default,,0,0,0,,有没有跟叔叔说谢谢?\N{\rEng}Did you say thank you or what?
+Dialogue: 0,0:23:20.96,0:23:22.36,Default,,0,0,0,,谢谢你 塞奇叔叔\N{\rEng}Thank you,Uncle Satch.
+Dialogue: 0,0:23:22.36,0:23:23.09,Default,,0,0,0,,别客气\N{\rEng}You're welcome.
+Dialogue: 0,0:23:23.09,0:23:25.16,Default,,0,0,0,,谢谢你 塞奇\N{\rEng}Thank you. Thank you,Satch.
+Dialogue: 0,0:23:25.16,0:23:25.96,Default,,0,0,0,,比赛开始了\N{\rEng}Hey,hey,all right.
+Dialogue: 0,0:23:25.96,0:23:28.37,Default,,0,0,0,,大家等一下\N{\rEng}Wait,wait,wait,wait,wait. Everybody.
+Dialogue: 0,0:23:28.37,0:23:31.77,Default,,0,0,0,,一起说"大都会队万岁"\N{\rEng}Everybody say,"Amazin' Mets."
+Dialogue: 0,0:23:31.77,0:23:34.13,Default,,0,0,0,,大都会队万岁!\N{\rEng}Amazing Mets!
+Dialogue: 0,0:23:54.33,0:23:56.61,Default,,0,0,0,,自尊心不要太强\N{\rEng}Don't choke on your pride,Sull.
+Dialogue: 0,0:23:57.26,0:23:59.43,Default,,0,0,0,,像珊曼莎这样的好女人难找了\N{\rEng}You ain't never gonna find another one like Sam.
+Dialogue: 0,0:23:59.43,0:24:02.27,Default,,0,0,0,,她下定了决心 就很难改变\N{\rEng}She made up her mind,Satch. Nothin' I do is gonna change it.
+Dialogue: 0,0:24:02.27,0:24:03.35,Default,,0,0,0,,你只是不愿意做而已\N{\rEng}Nothin' you're willing to do.
+Dialogue: 0,0:24:04.04,0:24:05.24,Default,,0,0,0,,怎么回事?\N{\rEng}What's the story?
+Dialogue: 0,0:24:05.24,0:24:07.17,Default,,0,0,0,,建筑工人发现了一具尸体\N{\rEng}Construction crew found a body,
+Dialogue: 0,0:24:07.17,0:24:09.06,Default,,0,0,0,,其实是一具骸骨\N{\rEng}actually,a skeleton.
+Dialogue: 0,0:24:12.38,0:24:17.15,Default,,0,0,0,,拖出来时要小心点\N{\rEng}Okay. Well,be real careful when you pull it out.
+Dialogue: 0,0:24:17.15,0:24:18.32,Default,,0,0,0,,沾附的尘土也要采集\N{\rEng}Make sure you get the dirt around it.
+Dialogue: 0,0:24:18.32,0:24:19.53,Default,,0,0,0,,好的\N{\rEng}Yes,sir.
+Dialogue: 0,0:24:20.45,0:24:22.42,Default,,0,0,0,,这是什么工程?\N{\rEng}So,what's this construction?
+Dialogue: 0,0:24:22.42,0:24:24.57,Default,,0,0,0,,我去拜访邻居 塞奇\N{\rEng}I think I'll visit the neighbors.
+Dialogue: 0,0:24:25.22,0:24:26.76,Default,,0,0,0,,好的\N{\rEng}Yeah,okay.
+Dialogue: 0,0:24:26.76,0:24:27.89,Default,,0,0,0,,这里在拆什么?\N{\rEng}What did they tear down here?
+Dialogue: 0,0:24:27.89,0:24:28.79,Default,,0,0,0,,希腊餐馆\N{\rEng}Greek diner.
+Dialogue: 0,0:24:28.79,0:24:31.12,Default,,0,0,0,,我以前常到那里吃早餐\N{\rEng}Used to get breakfast there all the time.
+Dialogue: 0,0:24:32.76,0:24:35.02,Default,,0,0,0,,那些希腊人都很好\N{\rEng}Them Greeks were good people.
+Dialogue: 0,0:24:36.00,0:24:37.10,Default,,0,0,0,,小心点 很烫\N{\rEng}Careful. It's hot.
+Dialogue: 0,0:24:37.10,0:24:38.54,Default,,0,0,0,,谢谢你 薛波太太\N{\rEng}Thank you,Mrs. Shepard.
+Dialogue: 0,0:24:38.54,0:24:41.01,Default,,0,0,0,,戴克曼街开了麦当劳之后\N{\rEng}Once that McDonald's opened up on Dyckman,
+Dialogue: 0,0:24:41.01,0:24:42.90,Default,,0,0,0,,他们就没生意了\N{\rEng}they lost all their business.
+Dialogue: 0,0:24:43.51,0:24:45.88,Default,,0,0,0,,你儿子也是警察\N{\rEng}I see your son's on the job.
+Dialogue: 0,0:24:45.88,0:24:49.51,Default,,0,0,0,,曾经是 杰克死了好多年\N{\rEng}Was. Jack died a while back.
+Dialogue: 0,0:24:49.51,0:24:51.88,Default,,0,0,0,,你一定不好受 我了解\N{\rEng}It's hard,I know.
+Dialogue: 0,0:24:51.88,0:24:54.14,Default,,0,0,0,,感觉好像昨天才发生的事\N{\rEng}It just seems like yesterday.
+Dialogue: 0,0:24:55.72,0:24:58.61,Default,,0,0,0,,我儿子生前是尽职的警察\N{\rEng}My son lived and bled blue.
+Dialogue: 0,0:24:59.79,0:25:00.69,Default,,0,0,0,,我要走了\N{\rEng}I wanna get outta here.
+Dialogue: 0,0:25:00.69,0:25:01.39,Default,,0,0,0,,好的 警探\N{\rEng}Okay,Detective.
+Dialogue: 0,0:25:01.39,0:25:02.36,Default,,0,0,0,,代我问候史蒂夫\N{\rEng}Give my regards to Steph.
+Dialogue: 0,0:25:02.36,0:25:03.21,Default,,0,0,0,,没问题\N{\rEng}Sure will.
+Dialogue: 0,0:25:07.70,0:25:10.89,Default,,0,0,0,,想必是个旧案子 回局里吧\N{\rEng}This isn't gonna be anything but a history lesson. Let's go back to the house.
+Dialogue: 0,0:25:25.82,0:25:27.42,Default,,0,0,0,,巴尼 你好吗?\N{\rEng}Hey,Barney. How you doin'?
+Dialogue: 0,0:25:27.42,0:25:28.38,Default,,0,0,0,,很好\N{\rEng}Good.
+Dialogue: 0,0:25:31.49,0:25:32.26,Default,,0,0,0,,好了 晚安\N{\rEng}There you go. Have a good night.
+Dialogue: 0,0:25:32.26,0:25:33.21,Default,,0,0,0,,再见\N{\rEng}Bye.
+Dialogue: 0,0:25:35.39,0:25:37.40,Default,,0,0,0,,我觉得在家里吃饭比较好\N{\rEng}I thought it'd be nicer to eat here.
+Dialogue: 0,0:25:37.40,0:25:38.94,Default,,0,0,0,,好主意\N{\rEng}Hey,sounds good.
+Dialogue: 0,0:25:40.17,0:25:42.35,Default,,0,0,0,,可惜珊曼莎不能来\N{\rEng}I'm sorry Samantha couldn't make it.
+Dialogue: 0,0:25:42.97,0:25:47.95,Default,,0,0,0,,是啊 她忙着申请研究所\N{\rEng}Yeah,those grad school applications are drivin' her crazy.
+Dialogue: 0,0:25:49.91,0:25:50.98,Default,,0,0,0,,情况如何?\N{\rEng}How's it comin'?
+Dialogue: 0,0:25:50.98,0:25:54.30,Default,,0,0,0,,录影机接好了 时钟还没设好\N{\rEng}I got the VCR hooked up. It's just this friggin' clock.
+Dialogue: 0,0:25:54.88,0:25:56.43,Default,,0,0,0,,没关系\N{\rEng}Doesn't matter.
+Dialogue: 0,0:25:59.75,0:26:01.89,Default,,0,0,0,,该死 对不起 妈\N{\rEng}Goddamn it. I'm sorry,Mom.
+Dialogue: 0,0:26:01.89,0:26:03.74,Default,,0,0,0,,没关系\N{\rEng}Hey,you know,it's all right.
+Dialogue: 0,0:26:04.82,0:26:06.58,Default,,0,0,0,,事情一定会解决的\N{\rEng}I'm sure everything'll work out.
+Dialogue: 0,0:26:07.33,0:26:08.93,Default,,0,0,0,,什么事?\N{\rEng}What's that?
+Dialogue: 0,0:26:08.93,0:26:09.89,Default,,0,0,0,,你和珊曼莎的事\N{\rEng}With Sam.
+Dialogue: 0,0:26:09.89,0:26:13.83,Default,,0,0,0,,是啊 只是遇上了瓶颈\N{\rEng}Oh,yeah,just a tough time right now, you know.
+Dialogue: 0,0:26:13.83,0:26:16.47,Default,,0,0,0,,医院的工作还好吧?\N{\rEng}So how are things at the hospital?
+Dialogue: 0,0:26:16.47,0:26:20.10,Default,,0,0,0,,很好 斯沃兹医生上个月退休\N{\rEng}Hey,Dr. Schwartz retired last month.
+Dialogue: 0,0:26:20.10,0:26:21.67,Default,,0,0,0,,真的啊\N{\rEng}No kidding.
+Dialogue: 0,0:26:21.67,0:26:23.07,Default,,0,0,0,,他大概快九十岁了吧\N{\rEng}He must've been pushing 90.
+Dialogue: 0,0:26:23.07,0:26:24.55,Default,,0,0,0,,差不多\N{\rEng}Close,yeah.
+Dialogue: 0,0:26:26.88,0:26:29.15,Default,,0,0,0,,狮子王舞台剧好看吗?\N{\rEng}So,how'd you like The Lion King?
+Dialogue: 0,0:26:29.15,0:26:31.42,Default,,0,0,0,,我很喜欢 你真贴心\N{\rEng}Oh,I loved it,you sweet kid.
+Dialogue: 0,0:26:31.42,0:26:32.65,Default,,0,0,0,,可惜你没能陪我去\N{\rEng}I wish you'd gone.
+Dialogue: 0,0:26:32.65,0:26:35.35,Default,,0,0,0,,我知道 抱歉 我工作太忙\N{\rEng}Yeah,I know,I'm sorry. It's just work.
+Dialogue: 0,0:26:35.35,0:26:37.47,Default,,0,0,0,,你工作太辛苦了\N{\rEng}Yeah,well,you work too hard.
+Dialogue: 0,0:26:38.26,0:26:39.80,Default,,0,0,0,,你也半斤八两\N{\rEng}Look who's talkin'.
+Dialogue: 0,0:26:50.77,0:26:52.50,Default,,0,0,0,,明天是爸的忌日\N{\rEng}It's tomorrow.
+Dialogue: 0,0:26:52.50,0:26:53.89,Default,,0,0,0,,三十年了\N{\rEng}Thirty years.
+Dialogue: 0,0:26:57.54,0:26:59.80,Default,,0,0,0,,真希望我能多一些对他的记忆\N{\rEng}I wish I could remember him better.
+Dialogue: 0,0:27:00.51,0:27:05.48,Default,,0,0,0,,他是个大孩子 只想打棒球\N{\rEng}He was just a big kid. He wanted to play baseball forever.
+Dialogue: 0,0:27:05.48,0:27:08.31,Default,,0,0,0,,还有救火 他乐在其中\N{\rEng}And fighting fires,he loved that.
+Dialogue: 0,0:27:09.52,0:27:14.21,Default,,0,0,0,,还有你...他很爱你\N{\rEng}And you... he loved you.
+Dialogue: 0,0:27:15.63,0:27:17.96,Default,,0,0,0,,睡觉时间到了\N{\rEng}Okay,guys,bedtime.
+Dialogue: 0,0:27:17.96,0:27:19.25,Default,,0,0,0,,好的 妈\N{\rEng}Okay,Mom.
+Dialogue: 0,0:27:20.00,0:27:22.37,Default,,0,0,0,,表现不错 明天再继续 队长\N{\rEng}Looking good. We'll do it again tomorrow,Chief.
+Dialogue: 0,0:27:22.37,0:27:23.62,Default,,0,0,0,,晚安 爸\N{\rEng}Good night,Dad.
+Dialogue: 0,0:27:28.17,0:27:30.82,Default,,0,0,0,,CQ-15.\N{\rEng}CQ-15
+Dialogue: 0,0:27:31.78,0:27:38.15,Default,,0,0,0,,W2QYV呼叫皇后区不明站\N{\rEng}W-2-QYV calling unidentified station,Queens.
+Dialogue: 0,0:27:38.15,0:27:40.87,Default,,0,0,0,,CQ-15.\N{\rEng}CQ-15
+Dialogue: 0,0:27:42.45,0:27:46.52,Default,,0,0,0,,W2QYV呼叫皇后区不明站\N{\rEng}W-2-QYV calling unidentified station,Queens.
+Dialogue: 0,0:27:46.52,0:27:49.11,Default,,0,0,0,,CQ-15 皇后区听到请回答\N{\rEng}CQ-15. Come in,Queens.
+Dialogue: 0,0:27:50.13,0:27:51.35,Default,,0,0,0,,嗨\N{\rEng}Hello.
+Dialogue: 0,0:27:52.86,0:27:54.97,Default,,0,0,0,,是你吗?\N{\rEng}Hey,hey,is that you?
+Dialogue: 0,0:27:54.97,0:27:57.57,Default,,0,0,0,,我呼叫了整晚 你上哪去了?\N{\rEng}I've been tryin' to q you all night. Where you been?
+Dialogue: 0,0:27:57.57,0:27:59.99,Default,,0,0,0,,你是怎么办到的?\N{\rEng}Hey,I... How the hell did you do it?
+Dialogue: 0,0:28:01.64,0:28:03.27,Default,,0,0,0,,办到什么?\N{\rEng}Do what?
+Dialogue: 0,0:28:03.27,0:28:06.38,Default,,0,0,0,,世界杯啊 你说比尔福打全垒打\N{\rEng}Do what? The Series. You called Buford's homer.
+Dialogue: 0,0:28:06.38,0:28:07.46,Default,,0,0,0,,你怎么会知道?\N{\rEng}How the hell did you do it?
+Dialogue: 0,0:28:08.25,0:28:11.52,Default,,0,0,0,,不难啊 那是三十年前的比赛\N{\rEng}It wasn't too tough,buddy, the game happened 30 years ago.
+Dialogue: 0,0:28:11.52,0:28:14.89,Default,,0,0,0,,三十年前?你真爱说笑\N{\rEng}Yeah,right,right,yeah. Thirty years ago. Yeah,sure.
+Dialogue: 0,0:28:14.89,0:28:17.39,Default,,0,0,0,,第二场比赛你也知道罗?\N{\rEng}So I suppose you could tell me what happened in game two,huh?
+Dialogue: 0,0:28:17.39,0:28:21.56,Default,,0,0,0,,对 九局上韦斯打了胜利打点\N{\rEng}Yeah,sure. Top of the ninth. Al Weis,game-winning RBI single.
+Dialogue: 0,0:28:21.56,0:28:24.80,Default,,0,0,0,,罗宾森打了滚地球结束比赛\N{\rEng}Brooks Robinson grounds out to end the game.
+Dialogue: 0,0:28:24.80,0:28:27.30,Default,,0,0,0,,爸 快来唱棒球歌\N{\rEng}Daddy,come up and sing the baseball song.
+Dialogue: 0,0:28:27.30,0:28:30.34,Default,,0,0,0,,小队长 你还好吧?\N{\rEng}Hey,Little Chief. You all right?
+Dialogue: 0,0:28:30.34,0:28:32.94,Default,,0,0,0,,你先上楼 我马上过去\N{\rEng}Well,you just go on up. I'll be there in a minute,
+Dialogue: 0,0:28:32.94,0:28:33.64,Default,,0,0,0,,好吧\N{\rEng}all right?
+Dialogue: 0,0:28:33.64,0:28:34.53,Default,,0,0,0,,好\N{\rEng}All right.
+Dialogue: 0,0:28:36.61,0:28:38.24,Default,,0,0,0,,抱歉 刚才是我儿子\N{\rEng}Sorry about that. That was my kid.
+Dialogue: 0,0:28:38.24,0:28:39.34,Default,,0,0,0,,你刚说什么?\N{\rEng}What'd you just say?
+Dialogue: 0,0:28:39.34,0:28:41.45,Default,,0,0,0,,我说抱歉 刚才是我儿子\N{\rEng}I said,sorry about that. My kid just came in.
+Dialogue: 0,0:28:41.45,0:28:43.27,Default,,0,0,0,,你叫你儿子"小队长"?\N{\rEng}You call your son "Little Chief"?
+Dialogue: 0,0:28:44.22,0:28:45.40,Default,,0,0,0,,对啊\N{\rEng}Yeah.
+Dialogue: 0,0:28:46.18,0:28:48.20,Default,,0,0,0,,你说你叫什么名字?\N{\rEng}What'd you say your name was?
+Dialogue: 0,0:28:49.02,0:28:50.60,Default,,0,0,0,,弗兰克 弗兰克·沙利文\N{\rEng}Frank. Frank Sullivan.
+Dialogue: 0,0:28:51.56,0:28:53.32,Default,,0,0,0,,你在开玩笑吗?\N{\rEng}Is this some kind of joke?
+Dialogue: 0,0:28:53.32,0:28:56.06,Default,,0,0,0,,戈登 是你吗?你在耍我吗?\N{\rEng}Gordo, is that you? Are you messing with me?
+Dialogue: 0,0:28:56.06,0:28:58.56,Default,,0,0,0,,我没在耍你 我是想搞清楚...\N{\rEng}No,I ain't messin' with you. Look,I'm just tryin' to figure out...
+Dialogue: 0,0:28:58.56,0:29:01.60,Default,,0,0,0,,你叫弗兰克·沙利文 住在皇后区\N{\rEng}You're tellin'me your name is Frank Sullivan,you live in Queens...
+Dialogue: 0,0:29:01.60,0:29:04.77,Default,,0,0,0,,你想问我为何知道一九六九年\N{\rEng}and you wanna know how I called
+Dialogue: 0,0:29:04.77,0:29:06.64,Default,,0,0,0,,世界杯第一场比赛的结果?\N{\rEng}the first game of the 1969 World Series?
+Dialogue: 0,0:29:06.64,0:29:08.82,Default,,0,0,0,,对 我想搞清楚\N{\rEng}Yeah,that's exactly what I wanna know.
+Dialogue: 0,0:29:10.54,0:29:14.68,Default,,0,0,0,,戈登 若真是你 拜托别闹了\N{\rEng}Gordo,if this is you,so help me.
+Dialogue: 0,0:29:14.68,0:29:15.35,Default,,0,0,0,,你刚才说你...\N{\rEng}What'd you say your...
+Dialogue: 0,0:29:15.35,0:29:16.01,Default,,0,0,0,,戈登?\N{\rEng}Gordo?
+Dialogue: 0,0:29:16.01,0:29:20.03,Default,,0,0,0,,你的台号或代号是多少?\N{\rEng}What'd you say your call station... or your call letters were?
+Dialogue: 0,0:29:22.09,0:29:25.10,Default,,0,0,0,,W-2-QYV.\N{\rEng}W-2-QYV.
+Dialogue: 0,0:29:28.36,0:29:32.50,Default,,0,0,0,,听我说 我叫约翰·弗兰克·沙利文\N{\rEng}Now you listen to me. My name is John Francis Sullivan.
+Dialogue: 0,0:29:32.50,0:29:36.77,Default,,0,0,0,,我从小就住42大道343号\N{\rEng}I live at 34342nd Avenue, where I lived my whole life...
+Dialogue: 0,0:29:36.77,0:29:43.11,Default,,0,0,0,,我三十年前就在这栋屋子里 看一九六九年世界杯\N{\rEng}and I saw the first game of the 1969 World Series right here in this house 30 years ago.
+Dialogue: 0,0:29:43.11,0:29:43.84,Default,,0,0,0,,胡扯\N{\rEng}Bullshit.
+Dialogue: 0,0:29:43.84,0:29:46.74,Default,,0,0,0,,我爸叫弗兰西斯·帕特里克·沙利文\N{\rEng}My father's name is Francis patrick Sullivan.
+Dialogue: 0,0:29:46.74,0:29:50.05,Default,,0,0,0,,是消防员 死忠的大都会球迷\N{\rEng}He was a firefighter and a die-hard Mets fan...
+Dialogue: 0,0:29:50.05,0:29:50.78,Default,,0,0,0,,我每晚睡前...\N{\rEng}and every night when I went to bed,he sang,
+Dialogue: 0,0:29:50.78,0:29:51.72,Default,,0,0,0,,胡扯\N{\rEng}Bullshit.
+Dialogue: 0,0:29:51.72,0:29:54.23,Default,,0,0,0,,他都会唱"带我去看球赛"\N{\rEng}"Take Me Out to the Ball Game."
+Dialogue: 0,0:29:59.72,0:30:01.31,Default,,0,0,0,,你到底是谁?\N{\rEng}Hey,who the hell are you?
+Dialogue: 0,0:30:02.69,0:30:04.08,Default,,0,0,0,,混帐东西!\N{\rEng}Son of a bitch.
+Dialogue: 0,0:30:06.16,0:30:07.17,Default,,0,0,0,,出了什么事?\N{\rEng}What's goin' on?
+Dialogue: 0,0:30:07.17,0:30:08.95,Default,,0,0,0,,没什么\N{\rEng}Nothin's goin'on.
+Dialogue: 0,0:30:16.17,0:30:17.51,Default,,0,0,0,,天哪\N{\rEng}Oh,my God.
+Dialogue: 0,0:30:17.51,0:30:20.30,Default,,0,0,0,,你把桌子烧焦了 我看得见\N{\rEng}You burnt the desk. I can see it.
+Dialogue: 0,0:30:20.81,0:30:22.78,Default,,0,0,0,,你还在吗?\N{\rEng}Are you still there?
+Dialogue: 0,0:30:22.78,0:30:25.48,Default,,0,0,0,,你把桌子烧焦了 我看得见\N{\rEng}I said,you burnt the desk. I can see it.
+Dialogue: 0,0:30:25.48,0:30:27.22,Default,,0,0,0,,喂?\N{\rEng}Hello?
+Dialogue: 0,0:30:27.22,0:30:29.95,Default,,0,0,0,,喂?你还在吗?\N{\rEng}Hello? Are you still there?
+Dialogue: 0,0:30:29.95,0:30:32.24,Default,,0,0,0,,回来!跟我说话!\N{\rEng}Come back. Talk to me.
+Dialogue: 0,0:30:32.82,0:30:34.36,Default,,0,0,0,,喂?\N{\rEng}Hello?
+Dialogue: 0,0:30:34.36,0:30:35.78,Default,,0,0,0,,{\an8\fs16\b1}(太阳光晕引燃北极光)
+Dialogue: 0,0:30:37.50,0:30:42.07,Default,,0,0,0,,听我说 我不知道你是谁\N{\rEng}Hey,hey,listen to me. You listen to me right now.I don't know who you are.
+Dialogue: 0,0:30:42.07,0:30:45.47,Default,,0,0,0,,不懂你用意何在 但我告诉你\N{\rEng}I don't know why you're doing this. But let me tell you something, asshole.
+Dialogue: 0,0:30:45.47,0:30:48.24,Default,,0,0,0,,离我和我家人远一点\N{\rEng}You stay away from me and my family.
+Dialogue: 0,0:30:48.24,0:30:52.88,Default,,0,0,0,,相信我 我不知道为何会这样\N{\rEng}No,no,no,you gotta believe me.
+Dialogue: 0,0:30:52.88,0:30:55.15,Default,,0,0,0,,但真的是我 我是小队长\N{\rEng}I don't know how this is happening, but it's me,Little Chief.
+Dialogue: 0,0:30:55.15,0:30:57.75,Default,,0,0,0,,我警告你\N{\rEng}Hey,hey,hey,look,look, I am warning you!
+Dialogue: 0,0:30:57.75,0:30:59.52,Default,,0,0,0,,你若敢碰我儿子\N{\rEng}If you touch my kid,
+Dialogue: 0,0:30:59.52,0:31:02.27,Default,,0,0,0,,我死也不放过你 听见没?\N{\rEng}I will hunt you down till the day I die. You got that?
+Dialogue: 0,0:31:03.79,0:31:05.59,Default,,0,0,0,,你已经死了\N{\rEng}But you already died.
+Dialogue: 0,0:31:05.59,0:31:06.91,Default,,0,0,0,,你在胡说什么?\N{\rEng}What are you talkin' about?
+Dialogue: 0,0:31:07.43,0:31:09.11,Default,,0,0,0,,巴斯顿大火\N{\rEng}The Buxton fire.
+Dialogue: 0,0:31:10.33,0:31:11.43,Default,,0,0,0,,是吗?\N{\rEng}Oh,yeah?
+Dialogue: 0,0:31:11.43,0:31:13.23,Default,,0,0,0,,几时的事?三十年前?\N{\rEng}And when did that happen? Thirty years ago?
+Dialogue: 0,0:31:13.23,0:31:15.60,Default,,0,0,0,,一九六九年十月十二日\N{\rEng}October 12,1969.
+Dialogue: 0,0:31:15.60,0:31:17.47,Default,,0,0,0,,你是说我明天就会死?\N{\rEng}Tomorrow. You're tellin' me I'm gonna d...
+Dialogue: 0,0:31:17.47,0:31:20.57,Default,,0,0,0,,明天不会有火灾 我也不会死\N{\rEng}Look,I ain't dyin'in no fire tomorrow or any other day,you got that?
+Dialogue: 0,0:31:20.57,0:31:22.01,Default,,0,0,0,,明天的事还没发生\N{\rEng}Listen,tomorrow hasn't happened.
+Dialogue: 0,0:31:22.01,0:31:23.84,Default,,0,0,0,,对 还没发生 也不可能发生\N{\rEng}That's right,it hasn't happened. It ain't gonna happen.
+Dialogue: 0,0:31:23.84,0:31:25.18,Default,,0,0,0,,请你听我说\N{\rEng}You gotta listen to me.
+Dialogue: 0,0:31:25.18,0:31:26.74,Default,,0,0,0,,那是废弃仓库火灾\N{\rEng}It was an abandoned warehouse.
+Dialogue: 0,0:31:26.74,0:31:28.68,Default,,0,0,0,,布区常跟妈说那不是你的错\N{\rEng}Butch always told Ma it wasn't your fault.
+Dialogue: 0,0:31:28.68,0:31:29.88,Default,,0,0,0,,你只是凭直觉行事\N{\rEng}You went with your instincts.
+Dialogue: 0,0:31:31.68,0:31:35.02,Default,,0,0,0,,如果改走别的路就不会死了\N{\rEng}If you'd gone the other way, you would've made it.
+Dialogue: 0,0:31:35.02,0:31:36.10,Default,,0,0,0,,喂?\N{\rEng}Hello?
+Dialogue: 0,0:31:37.69,0:31:38.91,Default,,0,0,0,,喂?\N{\rEng}Hello?
+Dialogue: 0,0:31:45.06,0:31:47.32,Default,,0,0,0,,喂?可恶!\N{\rEng}Hello? Shit.
+Dialogue: 0,0:32:17.09,0:32:19.56,Default,,0,0,0,,沙利文 你在干嘛?\N{\rEng}Sully,what are you doing,man?
+Dialogue: 0,0:32:19.56,0:32:22.60,Default,,0,0,0,,我跟我爸说话了 戈登\N{\rEng}I talked to him. I talked to my dad.
+Dialogue: 0,0:32:22.60,0:32:25.80,Default,,0,0,0,,快进屋里 我再去你家找你聊\N{\rEng}Sull,go in the house,all right? I'm gonna come over,we'll hang out.
+Dialogue: 0,0:32:25.80,0:32:29.51,Default,,0,0,0,,我要再呼叫他 阻止他进去\N{\rEng}No,no,no,I gotta get him back so he doesn't go in.
+Dialogue: 0,0:32:29.51,0:32:31.31,Default,,0,0,0,,你在胡说什么?进去哪里?\N{\rEng}Go in? What are you... Go in where?
+Dialogue: 0,0:32:31.31,0:32:34.13,Default,,0,0,0,,巴斯顿的仓库 就是明天\N{\rEng}The warehouse in Buxton. It's tomorrow.
+Dialogue: 0,0:32:50.53,0:32:54.23,Default,,0,0,0,,三十年前?你真爱说笑\N{\rEng}Yeah,right,right,yeah. Thirty years ago? Yeah,sure.
+Dialogue: 0,0:32:54.23,0:32:57.40,Default,,0,0,0,,第二场比赛你也知道罗?\N{\rEng}So I suppose you can tell me what happened in game two,huh?
+Dialogue: 0,0:32:57.40,0:33:03.24,Default,,0,0,0,,对 九局上韦斯打了胜利打点\N{\rEng}Yeah,sure. Top of the ninth, Al Weis,game-winnin'RBI single.
+Dialogue: 0,0:33:03.24,0:33:04.91,Default,,0,0,0,,快打出去\N{\rEng}Come on,hit it out.
+Dialogue: 0,0:33:04.91,0:33:06.37,Default,,0,0,0,,艾尔 打支全垒打吧\N{\rEng}Come on,Al. One run.
+Dialogue: 0,0:33:07.78,0:33:09.46,Default,,0,0,0,,你看看他的打击成绩\N{\rEng}Look at the stats. Look at them.
+Dialogue: 0,0:33:09.98,0:33:11.30,Default,,0,0,0,,加油 韦斯\N{\rEng}Let's go,Weis.
+Dialogue: 0,0:33:19.42,0:33:22.23,Default,,0,0,0,,发生了中级火灾 93云梯车\N{\rEng}We have a three and two response, Ladder 93.
+Dialogue: 0,0:33:22.23,0:33:23.66,Default,,0,0,0,,你们要最先抵达现场\N{\rEng}You're first due. It's reported to be an abandoned warehouse...
+Dialogue: 0,0:33:23.66,0:33:28.13,Default,,0,0,0,,沃特街与第三街口的废弃仓库\N{\rEng}at the foot of Water Street and Third.
+Dialogue: 0,0:33:28.13,0:33:30.92,Default,,0,0,0,,附近有工地 出入受限\N{\rEng}Now,you got some construction limiting access.
+Dialogue: 0,0:33:57.90,0:33:59.85,Default,,0,0,0,,他们赢了!\N{\rEng}Al Weis is having a great Series.
+Dialogue: 0,0:34:02.80,0:34:04.02,Default,,0,0,0,,你还好吧?\N{\rEng}You all right?
+Dialogue: 0,0:34:31.70,0:34:33.36,Default,,0,0,0,,大楼里没人\N{\rEng}We know it's vacant.
+Dialogue: 0,0:34:33.36,0:34:36.45,Default,,0,0,0,,没人在里面 围起来灌水吧\N{\rEng}Nobody goes in. Surround and drown.
+Dialogue: 0,0:34:40.04,0:34:41.55,Default,,0,0,0,,请求云梯塔支援\N{\rEng}Call for a tower.
+Dialogue: 0,0:34:43.04,0:34:44.44,Default,,0,0,0,,救命啊!\N{\rEng}Help!
+Dialogue: 0,0:34:44.44,0:34:46.02,Default,,0,0,0,,糟了!有人擅自进入\N{\rEng}Shit. We got squatters inside.
+Dialogue: 0,0:34:46.58,0:34:47.83,Default,,0,0,0,,救命啊!\N{\rEng}Help!
+Dialogue: 0,0:34:51.18,0:34:54.49,Default,,0,0,0,,救救我妹妹!\N{\rEng}Help me! My sister's...
+Dialogue: 0,0:34:54.49,0:34:55.92,Default,,0,0,0,,她在上面!她昏倒了!\N{\rEng}She's up there. She passed out.
+Dialogue: 0,0:34:55.92,0:34:57.36,Default,,0,0,0,,你妹妹在哪里?在几楼?\N{\rEng}Where is your sister?
+Dialogue: 0,0:34:57.36,0:34:58.56,Default,,0,0,0,,我试过了!我想救她!\N{\rEng}I tried to help her.
+Dialogue: 0,0:34:58.56,0:34:59.89,Default,,0,0,0,,告诉我!在几楼?\N{\rEng}Tell me! What floor?
+Dialogue: 0,0:34:59.89,0:35:02.63,Default,,0,0,0,,她在顶楼!我试着救她!\N{\rEng}She's up there on the top floor. I tried,I tried.
+Dialogue: 0,0:35:02.63,0:35:04.03,Default,,0,0,0,,{\an8\fs16\b1}(巴斯顿种籽公司)
+Dialogue: 0,0:35:04.03,0:35:06.00,Default,,0,0,0,,请救救她!求求你们!\N{\rEng}Please,help her! Please!
+Dialogue: 0,0:35:06.00,0:35:08.82,Default,,0,0,0,,布区 带她去休息 你跟我来 大楼里还有别人吗?\N{\rEng}Butch,take her. Come on,follow me. Anybody else up there?
+Dialogue: 0,0:35:20.28,0:35:22.53,Default,,0,0,0,,莱恩 送她去就医\N{\rEng}Ryan,get her medical treatment.
+Dialogue: 0,0:35:35.09,0:35:36.38,Default,,0,0,0,,把装备给我\N{\rEng}Gimme my gear.
+Dialogue: 0,0:35:41.50,0:35:42.93,Default,,0,0,0,,沙利文\N{\rEng}Hey,Sully.
+Dialogue: 0,0:35:42.93,0:35:43.87,Default,,0,0,0,,塞奇\N{\rEng}Satch.
+Dialogue: 0,0:35:43.87,0:35:44.88,Default,,0,0,0,,他来了\N{\rEng}Hey,here he is.
+Dialogue: 0,0:35:45.80,0:35:47.23,Default,,0,0,0,,觉得怎样 沙利文?\N{\rEng}How you feelin'?
+Dialogue: 0,0:35:47.77,0:35:49.61,Default,,0,0,0,,我还能说什么?\N{\rEng}What can I tell you?
+Dialogue: 0,0:35:49.61,0:35:50.84,Default,,0,0,0,,这是你的\N{\rEng}Here you go.
+Dialogue: 0,0:35:50.84,0:35:53.53,Default,,0,0,0,,谢谢你 塞奇 我好多了\N{\rEng}Thanks. Better.
+Dialogue: 0,0:35:59.78,0:36:02.21,Default,,0,0,0,,一 二楼都没看到火苗\N{\rEng}No visible fire first or second floor.
+Dialogue: 0,0:36:05.69,0:36:08.34,Default,,0,0,0,,小心脚步 地板快塌掉了\N{\rEng}Watch your step,Proby. This floor's rotten.
+Dialogue: 0,0:36:09.33,0:36:12.50,Default,,0,0,0,,三楼有火苗\N{\rEng}Fire on the third floor.
+Dialogue: 0,0:36:12.50,0:36:16.47,Default,,0,0,0,,派人进来灌救 我们要上去了\N{\rEng}We need a line. We're goin'up.
+Dialogue: 0,0:36:16.47,0:36:18.43,Default,,0,0,0,,弗兰克 已派两组人员进去了\N{\rEng}We got two lines comin'.
+Dialogue: 0,0:36:44.56,0:36:46.30,Default,,0,0,0,,先出去等灌救人员进来\N{\rEng}Back out,kid. Wait for the line.
+Dialogue: 0,0:36:46.30,0:36:48.00,Default,,0,0,0,,别管他们了 我再找路上去\N{\rEng}I'll find another way up.
+Dialogue: 0,0:36:48.00,0:36:49.68,Default,,0,0,0,,不行 你在这里帮不上忙\N{\rEng}No,you can't help me here.
+Dialogue: 0,0:37:04.88,0:37:06.77,Default,,0,0,0,,现在不需要 准备待命就好\N{\rEng}No need now, just to be prepared.
+Dialogue: 0,0:37:20.63,0:37:22.50,Default,,0,0,0,,你还好吧 约翰?\N{\rEng}So you doin' okay,John?
+Dialogue: 0,0:37:22.50,0:37:24.69,Default,,0,0,0,,不好 今天真累\N{\rEng}You know,tough day,you know?
+Dialogue: 0,0:37:30.17,0:37:33.08,Default,,0,0,0,,这杯敬你爸\N{\rEng}Hey,here's to your dad,huh?
+Dialogue: 0,0:37:33.08,0:37:34.61,Default,,0,0,0,,三十年前的今天\N{\rEng}Thirty years today.
+Dialogue: 0,0:37:34.61,0:37:35.76,Default,,0,0,0,,敬你爸\N{\rEng}To your dad.
+Dialogue: 0,0:37:36.51,0:37:37.70,Default,,0,0,0,,敬我爸\N{\rEng}To my dad.
+Dialogue: 0,0:37:44.02,0:37:46.24,Default,,0,0,0,,撤回大楼里的所有人员\N{\rEng}We're pullin' everyone outta the building.
+Dialogue: 0,0:37:53.16,0:37:55.52,Default,,0,0,0,,顶楼被大火吞噬了 快去灌救\N{\rEng}Get that ladder on the top floor. It's cooking up here.
+Dialogue: 0,0:37:56.60,0:37:59.44,Default,,0,0,0,,那次坐消防车庆祝万圣节\N{\rEng}So after that Halloween thing with the fire truck...
+Dialogue: 0,0:37:59.44,0:38:00.47,Default,,0,0,0,,你还记得吗?\N{\rEng}You remember?
+Dialogue: 0,0:38:00.47,0:38:04.44,Default,,0,0,0,,我记得和布区 你爸一起游街\N{\rEng}Yeah,I remember riding with Butch and your dad...
+Dialogue: 0,0:38:04.44,0:38:05.81,Default,,0,0,0,,附近居民都跑出来看\N{\rEng}and the whole neighborhood was watching.
+Dialogue: 0,0:38:05.81,0:38:07.46,Default,,0,0,0,,我还记得 我原本想扮成警察\N{\rEng}I remember. I wanted to go as a cop.
+Dialogue: 0,0:38:08.75,0:38:10.71,Default,,0,0,0,,对 茱莉亚还逼你爸\N{\rEng}Yeah,so Jules makes your dad buy you that...
+Dialogue: 0,0:38:10.71,0:38:13.42,Default,,0,0,0,,买警察玩具给你当生日礼物\N{\rEng}that cop kit for your birthday.
+Dialogue: 0,0:38:13.42,0:38:14.85,Default,,0,0,0,,我还记得\N{\rEng}Oh,I remember that.
+Dialogue: 0,0:38:14.85,0:38:17.29,Default,,0,0,0,,我每次都扮强盗 被人戴手铐\N{\rEng}I was always the robber. I was always being handcuffed.
+Dialogue: 0,0:38:17.29,0:38:19.18,Default,,0,0,0,,对 那是我教你的\N{\rEng}That's right. I taught you to do that.
+Dialogue: 0,0:38:46.48,0:38:48.27,Default,,0,0,0,,呼叫队长 我找到那女孩了\N{\rEng}10-45,I found the girl.
+Dialogue: 0,0:38:48.79,0:38:50.35,Default,,0,0,0,,她还有呼吸\N{\rEng}She's breathin'.
+Dialogue: 0,0:38:50.35,0:38:51.21,Default,,0,0,0,,快救他们出来\N{\rEng}We're gettin' 'em out.
+Dialogue: 0,0:39:03.10,0:39:06.55,Default,,0,0,0,,撑着点!出了什么事?\N{\rEng}Hang on! What the hell is goin' on?
+Dialogue: 0,0:39:07.50,0:39:09.41,Default,,0,0,0,,吉诺 怎么了?\N{\rEng}Gino,what's the matter?
+Dialogue: 0,0:39:09.41,0:39:11.98,Default,,0,0,0,,齿轮匣裂了\N{\rEng}The gear box,it's cracked.
+Dialogue: 0,0:39:11.98,0:39:14.04,Default,,0,0,0,,弗兰克 云梯卡住了\N{\rEng}Frank,the ladder's jammed.
+Dialogue: 0,0:39:14.04,0:39:17.45,Default,,0,0,0,,弗兰克 找别条路出来!\N{\rEng}You gotta find another way out.
+Dialogue: 0,0:39:17.45,0:39:18.96,Default,,0,0,0,,弗兰克 你听见了吗?\N{\rEng}Frank,can you hear me?
+Dialogue: 0,0:39:33.03,0:39:35.13,Default,,0,0,0,,结果还算不错\N{\rEng}It worked out okay,though.
+Dialogue: 0,0:39:35.13,0:39:38.57,Default,,0,0,0,,你当警察总比当消防员好\N{\rEng}You're a better cop than a fireman.
+Dialogue: 0,0:39:38.57,0:39:40.20,Default,,0,0,0,,我也觉得不错\N{\rEng}No doubt about it.Worked out good for me too.
+Dialogue: 0,0:39:40.20,0:39:42.74,Default,,0,0,0,,真庆幸我不必听他指使十年\N{\rEng}I'm glad I didn't have to spend ten years as his hose man.
+Dialogue: 0,0:39:42.74,0:39:45.43,Default,,0,0,0,,是啊 我想也是\N{\rEng}Yeah,I bet you are.
+Dialogue: 0,0:39:51.02,0:39:52.03,Default,,0,0,0,,巴斯顿大火\N{\rEng}The Buxton fire.
+Dialogue: 0,0:39:53.98,0:39:56.81,Default,,0,0,0,,你若改走别的路就不会死了\N{\rEng}If you'd just gone the other way.
+Dialogue: 0,0:40:18.88,0:40:20.61,Default,,0,0,0,,弗兰克 火势快无法控制了\N{\rEng}Frank,we're losin' the building.
+Dialogue: 0,0:40:20.61,0:40:21.90,Default,,0,0,0,,我知道\N{\rEng}I know.
+Dialogue: 0,0:40:54.65,0:40:56.43,Default,,0,0,0,,关上 我们要出去了\N{\rEng}Hay man,we're going out.
+Dialogue: 0,0:41:31.35,0:41:33.33,Default,,0,0,0,,这可不是玩具\N{\rEng}Hey,hey,this is not a toy.
+Dialogue: 0,0:41:45.70,0:41:46.60,Default,,0,0,0,,向妈妈挥手\N{\rEng}Wave to your ma.
+Dialogue: 0,0:41:46.60,0:41:47.75,Default,,0,0,0,,妈 你看我们!\N{\rEng}Look at us.
+Dialogue: 0,0:42:03.65,0:42:05.37,Default,,0,0,0,,你将来一定是了不起的球员\N{\rEng}You're gonna be some ball player.
+Dialogue: 0,0:42:21.33,0:42:22.67,Default,,0,0,0,,约翰 你没事吧?\N{\rEng}Whoa! John,are you all right?
+Dialogue: 0,0:42:22.67,0:42:24.33,Default,,0,0,0,,约翰...\N{\rEng}John,John.
+Dialogue: 0,0:42:24.33,0:42:25.40,Default,,0,0,0,,抱歉 我...\N{\rEng}I'm sorry...
+Dialogue: 0,0:42:25.40,0:42:26.20,Default,,0,0,0,,怎么了?\N{\rEng}What is it?
+Dialogue: 0,0:42:26.20,0:42:27.07,Default,,0,0,0,,没事吧?\N{\rEng}Is everything okay?
+Dialogue: 0,0:42:27.07,0:42:28.65,Default,,0,0,0,,请你拿条毛巾给我们\N{\rEng}Yeah,can you bring a towel?
+Dialogue: 0,0:42:48.29,0:42:51.60,Default,,0,0,0,,塞奇 我爸没死在火灾里\N{\rEng}Satch,my father didn't die in a fire,right?
+Dialogue: 0,0:42:51.60,0:42:53.64,Default,,0,0,0,,戈登 我爸没死在火灾里\N{\rEng}Gordo,my father didn't die in a fire.
+Dialogue: 0,0:42:59.60,0:43:01.86,Default,,0,0,0,,你胡说什么?他得了癌症\N{\rEng}No. What are you talking about? He had cancer.
+Dialogue: 0,0:43:07.98,0:43:10.28,Default,,0,0,0,,是因为抽烟得了癌症?\N{\rEng}Cancer because of his cigarettes,right? The cigarettes?
+Dialogue: 0,0:43:10.28,0:43:12.76,Default,,0,0,0,,对 他十年前得了肺癌\N{\rEng}Yeah. Lung cancer. Ten years ago.
+Dialogue: 0,0:43:24.26,0:43:26.13,Default,,0,0,0,,小队长\N{\rEng}Little Chief.
+Dialogue: 0,0:43:26.13,0:43:27.10,Default,,0,0,0,,戈登 我不是在作梦\N{\rEng}Gordo,I ain't dreamin'here.
+Dialogue: 0,0:43:27.10,0:43:28.85,Default,,0,0,0,,我真的跟他说过话\N{\rEng}I talked to him. It was real.
+Dialogue: 0,0:43:30.53,0:43:32.54,Default,,0,0,0,,小队长!\N{\rEng}Little Chief!
+Dialogue: 0,0:43:32.54,0:43:34.22,Default,,0,0,0,,约翰 你在说什么?\N{\rEng}John,what are you talkin'about?
+Dialogue: 0,0:43:35.41,0:43:38.73,Default,,0,0,0,,是因为无线电 才让他没死\N{\rEng}It was the ham radio. That's how come he didn't die.
+Dialogue: 0,0:43:40.44,0:43:42.83,Default,,0,0,0,,小队长!\N{\rEng}Little Chief!
+Dialogue: 0,0:43:49.79,0:43:51.71,Default,,0,0,0,,所以他没死\N{\rEng}That's how come he didn't die.
+Dialogue: 0,0:43:53.09,0:43:56.28,Default,,0,0,0,,约翰...约翰·沙利文 你在吗?\N{\rEng}John. John Sullivan, are you there?
+Dialogue: 0,0:43:57.53,0:43:58.92,Default,,0,0,0,,快回答我\N{\rEng}Come on,answer me.
+Dialogue: 0,0:44:02.77,0:44:05.32,Default,,0,0,0,,队长...队长 你在吗?\N{\rEng}Chief. Chief,are you there?
+Dialogue: 0,0:44:06.47,0:44:08.43,Default,,0,0,0,,我在这里 爸\N{\rEng}I'm right here,Daddy.
+Dialogue: 0,0:44:10.04,0:44:11.46,Default,,0,0,0,,过来\N{\rEng}Come here.
+Dialogue: 0,0:44:12.88,0:44:14.16,Default,,0,0,0,,过来\N{\rEng}Come on.
+Dialogue: 0,0:44:18.65,0:44:20.25,Default,,0,0,0,,猫王呢?\N{\rEng}Where's Elvis?
+Dialogue: 0,0:44:20.25,0:44:21.29,Default,,0,0,0,,在睡觉\N{\rEng}Sleepin'.
+Dialogue: 0,0:44:21.29,0:44:22.72,Default,,0,0,0,,你为什么没在睡觉?\N{\rEng}Sleepin'. Why aren't you sleepin'?
+Dialogue: 0,0:44:22.72,0:44:23.62,Default,,0,0,0,,你把我吵醒了\N{\rEng}You woke me up.
+Dialogue: 0,0:44:23.62,0:44:24.91,Default,,0,0,0,,是吗?\N{\rEng}I did?
+Dialogue: 0,0:44:28.63,0:44:30.56,Default,,0,0,0,,我有个主意\N{\rEng}Hey,I got an idea.
+Dialogue: 0,0:44:30.56,0:44:31.95,Default,,0,0,0,,什么主意?\N{\rEng}What's that?
+Dialogue: 0,0:44:35.90,0:44:37.95,Default,,0,0,0,,好吧 队长\N{\rEng}All right,Chief.
+Dialogue: 0,0:44:39.54,0:44:41.91,Default,,0,0,0,,我们一起驯服这匹野马吧?\N{\rEng}What do you say we tame this bronco,huh?
+Dialogue: 0,0:44:41.91,0:44:43.37,Default,,0,0,0,,我害怕\N{\rEng}I'm scared.
+Dialogue: 0,0:44:43.37,0:44:44.47,Default,,0,0,0,,我知道\N{\rEng}I know.
+Dialogue: 0,0:44:44.47,0:44:50.03,Default,,0,0,0,,我会一直陪着你\N{\rEng}And you know what? I'm gonna be right here with you. Always.
+Dialogue: 0,0:44:50.55,0:44:52.37,Default,,0,0,0,,爸 我办不到\N{\rEng}Daddy,I can't.
+Dialogue: 0,0:44:53.05,0:44:56.55,Default,,0,0,0,,我们可以一起学\N{\rEng}Well,we can. We can do it together.
+Dialogue: 0,0:44:56.55,0:44:58.66,Default,,0,0,0,,你和我 打起精神 鼓起勇气\N{\rEng}You and me,spirit and guts.
+Dialogue: 0,0:44:58.66,0:44:59.99,Default,,0,0,0,,你说好吗?\N{\rEng}What do you say?
+Dialogue: 0,0:44:59.99,0:45:01.26,Default,,0,0,0,,好吧\N{\rEng}Okay.
+Dialogue: 0,0:45:01.26,0:45:02.27,Default,,0,0,0,,我们走\N{\rEng}All right,come on.
+Dialogue: 0,0:45:03.96,0:45:09.60,Default,,0,0,0,,慢慢来 等你说好我再放手\N{\rEng}Now you just take your time. I'm not gonna let go until you say it's okay.
+Dialogue: 0,0:45:09.60,0:45:10.97,Default,,0,0,0,,好吧\N{\rEng}Okay.
+Dialogue: 0,0:45:10.97,0:45:12.52,Default,,0,0,0,,开始踩\N{\rEng}All right? Start pedaling.
+Dialogue: 0,0:45:13.37,0:45:16.07,Default,,0,0,0,,就是这样 保持平衡\N{\rEng}That's it. Get your balance.
+Dialogue: 0,0:45:16.07,0:45:16.84,Default,,0,0,0,,- 准备好了吗? - 等一下!\N{\rEng}- Ready? - Wait.
+Dialogue: 0,0:45:16.84,0:45:18.56,Default,,0,0,0,,好 我没放手\N{\rEng}Okay,I'm still here.
+Dialogue: 0,0:45:19.11,0:45:19.74,Default,,0,0,0,,好了\N{\rEng}Okay.
+Dialogue: 0,0:45:19.74,0:45:21.28,Default,,0,0,0,,很好\N{\rEng}All right.
+Dialogue: 0,0:45:21.28,0:45:21.85,Default,,0,0,0,,你会自己骑了\N{\rEng}It's all you.
+Dialogue: 0,0:45:21.85,0:45:22.45,Default,,0,0,0,,你看我!\N{\rEng}Look at me.
+Dialogue: 0,0:45:22.45,0:45:25.12,Default,,0,0,0,,你会自己骑了 队长\N{\rEng}It's all you. It's all you,Chief.
+Dialogue: 0,0:45:25.12,0:45:26.35,Default,,0,0,0,,你看我 爸!\N{\rEng}Look at me,Dad.
+Dialogue: 0,0:45:26.35,0:45:28.25,Default,,0,0,0,,瞧瞧你 你会骑车了!\N{\rEng}Hey,look at you. You're doin' it.
+Dialogue: 0,0:45:28.25,0:45:29.79,Default,,0,0,0,,我会骑车了!\N{\rEng}I'm doin' it.
+Dialogue: 0,0:45:29.79,0:45:30.45,Default,,0,0,0,,你会骑车了\N{\rEng}You're doin' it.
+Dialogue: 0,0:45:30.45,0:45:31.43,Default,,0,0,0,,我会骑车了\N{\rEng}I'm doin' it.
+Dialogue: 0,0:45:32.29,0:45:33.79,Default,,0,0,0,,感觉怎样?\N{\rEng}How's it feel?
+Dialogue: 0,0:45:33.79,0:45:34.80,Default,,0,0,0,,很棒\N{\rEng}Good.
+Dialogue: 0,0:45:35.43,0:45:37.06,Default,,0,0,0,,棒极了\N{\rEng}This is great.
+Dialogue: 0,0:45:37.06,0:45:38.23,Default,,0,0,0,,你平衡得真好\N{\rEng}Look at your balance.
+Dialogue: 0,0:45:38.23,0:45:39.86,Default,,0,0,0,,好像坐在高空秋千上一样\N{\rEng}Like I'm on a flying trapeze.
+Dialogue: 0,0:45:39.86,0:45:41.10,Default,,0,0,0,,你好像马戏团艺人 瞧瞧你\N{\rEng}You're like a circus act.
+Dialogue: 0,0:45:41.10,0:45:42.43,Default,,0,0,0,,感觉好棒\N{\rEng}This feels great.
+Dialogue: 0,0:45:42.43,0:45:43.43,Default,,0,0,0,,瞧瞧你!你可以环游世界了\N{\rEng}You're goin' around the world.
+Dialogue: 0,0:45:43.43,0:45:44.40,Default,,0,0,0,,感觉好像在飞\N{\rEng}It's like flying.
+Dialogue: 0,0:45:44.40,0:45:46.12,Default,,0,0,0,,待会儿表演给妈妈看\N{\rEng}Wait till your mother sees this,huh?
+Dialogue: 0,0:45:46.80,0:45:48.51,Default,,0,0,0,,你看我!\N{\rEng}Look at me.
+Dialogue: 0,0:45:48.51,0:45:49.99,Default,,0,0,0,,我们叫醒全世界吧\N{\rEng}Let's wake up the world,huh?
+Dialogue: 0,0:46:24.11,0:46:25.62,Default,,0,0,0,,{\an8\fs16\b1}(大都会队拿下第二场胜利)
+Dialogue: 0,0:46:26.64,0:46:30.54,Default,,0,0,0,,{\an8\fs16\b1}(消防员从火场救出逃家女)
+Dialogue: 0,0:46:34.85,0:46:35.77,Default,,0,0,0,,天哪\N{\rEng}Oh,my God.
+Dialogue: 0,0:46:36.35,0:46:39.40,Default,,0,0,0,,{\an8\fs16\b1}(我还在 队长)
+Dialogue: 0,0:47:19.50,0:47:20.71,Default,,0,0,0,,喂?\N{\rEng}Hello?
+Dialogue: 0,0:47:24.40,0:47:25.27,Default,,0,0,0,,喂?\N{\rEng}Hello?
+Dialogue: 0,0:47:25.27,0:47:29.19,Default,,0,0,0,,约翰?约翰·沙利文?\N{\rEng}John? John Sullivan?
+Dialogue: 0,0:47:32.04,0:47:33.73,Default,,0,0,0,,是我\N{\rEng}It's me.
+Dialogue: 0,0:47:43.99,0:47:46.49,Default,,0,0,0,,你简直是天使的化身\N{\rEng}You're the voice of an angel.
+Dialogue: 0,0:47:46.49,0:47:51.11,Default,,0,0,0,,从天堂伸出援手救我逃出火场\N{\rEng}Reached right outta heaven and you pulled my butt outta the fire.
+Dialogue: 0,0:47:51.86,0:47:55.41,Default,,0,0,0,,我没在作梦吧?真的是你?\N{\rEng}Tell me I'm not dreamin' here. Tell me it's really you.
+Dialogue: 0,0:47:56.30,0:48:00.97,Default,,0,0,0,,真的是我 你没在作梦\N{\rEng}It's me,John. This ain't no dream.
+Dialogue: 0,0:48:00.97,0:48:01.97,Default,,0,0,0,,这怎么可能?\N{\rEng}But how could it be?
+Dialogue: 0,0:48:01.97,0:48:04.01,Default,,0,0,0,,我也不知道\N{\rEng}I don't know. I don't know...
+Dialogue: 0,0:48:04.01,0:48:07.38,Default,,0,0,0,,想必是太阳黑子让我们连上线\N{\rEng}but we gotta be talkin' off the mother sunspot of all time.
+Dialogue: 0,0:48:07.38,0:48:09.06,Default,,0,0,0,,我想也是\N{\rEng}Yeah,I'd say so.
+Dialogue: 0,0:48:13.28,0:48:15.45,Default,,0,0,0,,你还好吧 队长?\N{\rEng}You okay,Chief?
+Dialogue: 0,0:48:15.45,0:48:16.97,Default,,0,0,0,,我很好\N{\rEng}Yeah,I'm fine.
+Dialogue: 0,0:48:18.46,0:48:19.84,Default,,0,0,0,,你确定?\N{\rEng}You sure?
+Dialogue: 0,0:48:20.72,0:48:27.56,Default,,0,0,0,,我现在心情很复杂\N{\rEng}It's tough to explain.
+Dialogue: 0,0:48:27.56,0:48:29.07,Default,,0,0,0,,我有了新记忆\N{\rEng}I mean,I got all these new memories,
+Dialogue: 0,0:48:29.07,0:48:32.32,Default,,0,0,0,,但不知道该相信什么\N{\rEng}but I don't know what to believe.
+Dialogue: 0,0:48:32.97,0:48:34.54,Default,,0,0,0,,什么意思?\N{\rEng}What do you mean?
+Dialogue: 0,0:48:34.54,0:48:37.91,Default,,0,0,0,,我还保有你死在火场中的记忆\N{\rEng}'Cause I still remember what it was like when you died in the fire.
+Dialogue: 0,0:48:37.91,0:48:40.21,Default,,0,0,0,,但只有我记得\N{\rEng}But I'm the only one.
+Dialogue: 0,0:48:40.21,0:48:42.96,Default,,0,0,0,,我不懂你的意思\N{\rEng}I don't understand what you're talkin' about.
+Dialogue: 0,0:48:43.98,0:48:47.78,Default,,0,0,0,,我同时拥有两种记忆\N{\rEng}I remember both at the same time.
+Dialogue: 0,0:48:47.78,0:48:51.25,Default,,0,0,0,,就好像梦醒时 分不清真假\N{\rEng}It... It's like wakin' up from a dream, and you're not sure what's real.
+Dialogue: 0,0:48:51.25,0:48:55.26,Default,,0,0,0,,我记得你活着 也记得你死了\N{\rEng}I remember you bein' here, but I also remember when you weren't.
+Dialogue: 0,0:48:55.26,0:48:57.01,Default,,0,0,0,,对不起 约翰\N{\rEng}Oh,I'm sorry,John.
+Dialogue: 0,0:48:58.13,0:49:00.16,Default,,0,0,0,,对不起 我没想到...\N{\rEng}I'm sorry. I never thought that...
+Dialogue: 0,0:49:00.16,0:49:02.60,Default,,0,0,0,,你一定要想想\N{\rEng}Well,you gotta think about that.
+Dialogue: 0,0:49:02.60,0:49:06.14,Default,,0,0,0,,你要更小心 我不能再失去你\N{\rEng}And you gotta be more careful, 'cause I can't lose you again.
+Dialogue: 0,0:49:06.14,0:49:07.96,Default,,0,0,0,,不能再那样失去你\N{\rEng}Not like that.
+Dialogue: 0,0:49:10.44,0:49:12.64,Default,,0,0,0,,不会的 约翰\N{\rEng}You won't,John,you won't.
+Dialogue: 0,0:49:12.64,0:49:15.91,Default,,0,0,0,,我发誓绝不会再发生意外\N{\rEng}I swear to God,no matter what, not like that.
+Dialogue: 0,0:49:15.91,0:49:19.92,Default,,0,0,0,,听见没 队长?\N{\rEng}You got it? You hear me,Chief?
+Dialogue: 0,0:49:19.92,0:49:21.31,Default,,0,0,0,,我听见了\N{\rEng}I hear you.
+Dialogue: 0,0:49:26.69,0:49:28.17,Default,,0,0,0,,你今年几岁了?\N{\rEng}So how old are you?
+Dialogue: 0,0:49:31.09,0:49:32.68,Default,,0,0,0,,我36岁\N{\rEng}I'm 36.
+Dialogue: 0,0:49:33.40,0:49:35.41,Default,,0,0,0,,36岁?\N{\rEng}Thirty-six?
+Dialogue: 0,0:49:36.03,0:49:40.60,Default,,0,0,0,,你长大了 结婚了吧?\N{\rEng}Well,you're all grown up. You gotta be married and everything.
+Dialogue: 0,0:49:40.60,0:49:42.32,Default,,0,0,0,,我还没结婚\N{\rEng}No,I'm not married.
+Dialogue: 0,0:49:43.54,0:49:45.59,Default,,0,0,0,,为什么?你整天忙着打球?\N{\rEng}Why? What are you, too busy playin' ball?
+Dialogue: 0,0:49:46.11,0:49:51.58,Default,,0,0,0,,我放弃打棒球了\N{\rEng}No,uh,it didn't work out. I gave it up.
+Dialogue: 0,0:49:51.58,0:49:53.38,Default,,0,0,0,,出了什么事?\N{\rEng}What happened?
+Dialogue: 0,0:49:53.38,0:49:59.66,Default,,0,0,0,,高三伤了手臂 无法进职棒\N{\rEng}I just blew my arm out my senior year and didn't have a shot.
+Dialogue: 0,0:49:59.66,0:50:03.76,Default,,0,0,0,,抱歉 你一定很难受\N{\rEng}Oh,I'm sorry. I'm sorry,Johnny. I know that had to hurt.
+Dialogue: 0,0:50:03.76,0:50:07.46,Default,,0,0,0,,是啊 谢谢你\N{\rEng}Yeah,thanks.
+Dialogue: 0,0:50:07.46,0:50:10.45,Default,,0,0,0,,结果你进哪行?当消防员?\N{\rEng}So,what'd you wind up doing? You join the department?
+Dialogue: 0,0:50:11.57,0:50:16.79,Default,,0,0,0,,我进了另一行 我现在是警察\N{\rEng}Actually,I went the other way. I'm a cop.
+Dialogue: 0,0:50:18.88,0:50:21.11,Default,,0,0,0,,你是我们消防世家的第三代\N{\rEng}You're third-generation firefighter.
+Dialogue: 0,0:50:21.11,0:50:23.01,Default,,0,0,0,,我以为你长大就不想当警察了\N{\rEng}Come on,I thought you were gonna grow outta that cop phase.
+Dialogue: 0,0:50:23.01,0:50:25.32,Default,,0,0,0,,这点你要感谢塞奇\N{\rEng}Well,you got Satch to thank for that one.
+Dialogue: 0,0:50:25.32,0:50:28.85,Default,,0,0,0,,别开玩笑了 塞奇?\N{\rEng}You gotta be kiddin'me,huh? Satch?
+Dialogue: 0,0:50:28.85,0:50:32.78,Default,,0,0,0,,从你出生开始 他就很喜欢你\N{\rEng}Well,he always was crazy about you ever since you were born.
+Dialogue: 0,0:50:36.23,0:50:39.36,Default,,0,0,0,,你还是我的小队长吧?\N{\rEng}You're still my Little Chief. Right?
+Dialogue: 0,0:50:39.36,0:50:43.31,Default,,0,0,0,,对吧?\N{\rEng}Right?
+Dialogue: 0,0:50:44.83,0:50:49.09,Default,,0,0,0,,对 我一直在努力\N{\rEng}Yeah,I'm tryin' to be. I'm tryin'.
+Dialogue: 0,0:50:53.28,0:50:55.25,Default,,0,0,0,,谈谈你自己吧\N{\rEng}Well,tell me about yourself.
+Dialogue: 0,0:50:55.25,0:50:57.20,Default,,0,0,0,,谈谈你的生活\N{\rEng}Tell me about your life.
+Dialogue: 0,0:50:57.81,0:51:01.21,Default,,0,0,0,,我不知道该从何说起\N{\rEng}I mean,where do I start, you know?
+Dialogue: 0,0:51:02.62,0:51:05.76,Default,,0,0,0,,野马?我没有野马跑车\N{\rEng}Mustang? I don't own a Mustang.
+Dialogue: 0,0:51:05.76,0:51:08.49,Default,,0,0,0,,你会有的 而且你会爱死它\N{\rEng}Well,you will. And you loved it.
+Dialogue: 0,0:51:08.49,0:51:09.73,Default,,0,0,0,,它有消防车的红色\N{\rEng}Fire-engine red.
+Dialogue: 0,0:51:09.73,0:51:10.46,Default,,0,0,0,,是吗?\N{\rEng}Yeah?
+Dialogue: 0,0:51:10.46,0:51:11.23,Default,,0,0,0,,地板上写了个4\N{\rEng}Four on the floor.
+Dialogue: 0,0:51:11.23,0:51:12.03,Default,,0,0,0,,七十支全垒打?\N{\rEng}Seventy home runs?
+Dialogue: 0,0:51:12.03,0:51:13.20,Default,,0,0,0,,反正你...\N{\rEng}Anyway,you...
+Dialogue: 0,0:51:13.20,0:51:14.13,Default,,0,0,0,,那种记录永远不可能被打破\N{\rEng}That's a record that'll never be broken.
+Dialogue: 0,0:51:14.13,0:51:17.27,Default,,0,0,0,,我可不确定 有人打了66支\N{\rEng}I wouldn't be too sure. The other guy hit 66.
+Dialogue: 0,0:51:17.27,0:51:18.27,Default,,0,0,0,,真的吗?\N{\rEng}Really?
+Dialogue: 0,0:51:18.27,0:51:21.07,Default,,0,0,0,,像那种大型军用战地无线电?\N{\rEng}You mean,like those big field radios you use in the army?
+Dialogue: 0,0:51:21.07,0:51:24.47,Default,,0,0,0,,不是 小多了 靠卫星来通讯\N{\rEng}No,much smaller. Works off a satellite or something.
+Dialogue: 0,0:51:24.47,0:51:26.18,Default,,0,0,0,,可以放在口袋里\N{\rEng}You carry it around in your pocket.
+Dialogue: 0,0:51:26.18,0:51:29.71,Default,,0,0,0,,阿波罗任务呢?成功了吗?\N{\rEng}Hey,what about Apollo? How'd it all work out?
+Dialogue: 0,0:51:29.71,0:51:31.98,Default,,0,0,0,,连胜好几场 厉害得很\N{\rEng}It was a great Series,Pop. Amazing.
+Dialogue: 0,0:51:31.98,0:51:32.88,Default,,0,0,0,,所以我们赢了?\N{\rEng}So we win,right?
+Dialogue: 0,0:51:32.88,0:51:35.19,Default,,0,0,0,,耐心点 我快讲到结果了\N{\rEng}Hold your horses. I'm gettin' there.
+Dialogue: 0,0:51:35.19,0:51:36.15,Default,,0,0,0,,第三场比赛\N{\rEng}Game three.
+Dialogue: 0,0:51:36.15,0:51:38.76,Default,,0,0,0,,二局艾吉击全垒打送帕马得分\N{\rEng}Agee came through, homered off palmer in the second.
+Dialogue: 0,0:51:38.76,0:51:41.22,Default,,0,0,0,,我就知道艾吉会有好表现\N{\rEng}I knew it! I knew Agee was gonna have a great Series.
+Dialogue: 0,0:51:41.22,0:51:45.40,Default,,0,0,0,,别管艾吉 快听琼斯的表现\N{\rEng}Forget about Agee. Wait until you hear what happened to Cleon Jones.
+Dialogue: 0,0:51:45.40,0:51:46.63,Default,,0,0,0,,你现在的语气好像你妈\N{\rEng}You sound like your mother.
+Dialogue: 0,0:51:46.63,0:51:47.66,Default,,0,0,0,,才不 我是认真的\N{\rEng}Nah,I'm serious.
+Dialogue: 0,0:51:47.66,0:51:51.10,Default,,0,0,0,,拜托 你爷爷每天抽两包烟\N{\rEng}Oh,come on. Your grandfather... he smoked,what,two packs a day.
+Dialogue: 0,0:51:51.10,0:51:51.84,Default,,0,0,0,,现在还不是活得好好的\N{\rEng}He's still kickin'.
+Dialogue: 0,0:51:51.84,0:51:55.85,Default,,0,0,0,,你可不同 抽烟会害死你\N{\rEng}Not you. It's gonna get the better of you.
+Dialogue: 0,0:51:59.14,0:52:01.71,Default,,0,0,0,,好吗?\N{\rEng}Okay?
+Dialogue: 0,0:52:01.71,0:52:04.78,Default,,0,0,0,,我就是知道\N{\rEng}Well,I just knew.
+Dialogue: 0,0:52:04.78,0:52:07.17,Default,,0,0,0,,她融化了我的心 就是她\N{\rEng}She melted my heart. That was it.
+Dialogue: 0,0:52:08.59,0:52:10.79,Default,,0,0,0,,你有女友吗?\N{\rEng}You got anybody?
+Dialogue: 0,0:52:10.79,0:52:14.01,Default,,0,0,0,,算有吧\N{\rEng}Yeah,kinda.
+Dialogue: 0,0:52:15.36,0:52:21.41,Default,,0,0,0,,有些问题待解决 但她值得\N{\rEng}There's somethin' I gotta work out,but...she's worth it.
+Dialogue: 0,0:52:24.43,0:52:33.01,Default,,0,0,0,,你先断线 休息吧 我也累了\N{\rEng}You,uh,get some rest. I'm... I'm tired too.
+Dialogue: 0,0:52:33.01,0:52:36.61,Default,,0,0,0,,我真不想断线\N{\rEng}I almost don't wanna click off here like...
+Dialogue: 0,0:52:36.61,0:52:39.78,Default,,0,0,0,,好像断掉就再也连不上线\N{\rEng}maybe we won't get this back.
+Dialogue: 0,0:52:39.78,0:52:41.48,Default,,0,0,0,,一定会的\N{\rEng}We will.
+Dialogue: 0,0:52:41.48,0:52:43.41,Default,,0,0,0,,好吧\N{\rEng}Okay.
+Dialogue: 0,0:52:44.69,0:52:47.24,Default,,0,0,0,,我明天会在这里等\N{\rEng}I'll be here tomorrow.
+Dialogue: 0,0:52:48.53,0:52:50.98,Default,,0,0,0,,我知道\N{\rEng}I know.
+Dialogue: 0,0:53:02.21,0:53:04.16,Default,,0,0,0,,我爱你 儿子\N{\rEng}I love you,son.
+Dialogue: 0,0:53:07.91,0:53:13.10,Default,,0,0,0,,我也爱你 爸\N{\rEng}I love you,too,Dad.
+Dialogue: 0,0:53:14.08,0:53:20.10,Default,,0,0,0,,我好想你\N{\rEng}I've missed you so much.
+Dialogue: 0,0:53:39.11,0:53:40.64,Default,,0,0,0,,我是茱莉亚·沙利文\N{\rEng}Hi,this is Julia Sullivan.
+Dialogue: 0,0:53:40.64,0:53:42.60,Default,,0,0,0,,请在哔声后留话\N{\rEng}Please leave a message after the tone.
+Dialogue: 0,0:53:45.65,0:53:47.66,Default,,0,0,0,,妈 是我\N{\rEng}Hey,Ma,it's me.
+Dialogue: 0,0:53:50.89,0:53:54.24,Default,,0,0,0,,回电话给我 我有事找你谈\N{\rEng}Just call me. We gotta talk.
+Dialogue: 0,0:54:21.25,0:54:22.32,Default,,0,0,0,,替我看一下\N{\rEng}Take over for me?
+Dialogue: 0,0:54:22.32,0:54:23.21,Default,,0,0,0,,好啊\N{\rEng}All right.
+Dialogue: 0,0:54:24.99,0:54:26.26,Default,,0,0,0,,弗兰克 出了什么事?\N{\rEng}Frank,what's going on?
+Dialogue: 0,0:54:26.26,0:54:28.06,Default,,0,0,0,,没什么事 我只是想看看你\N{\rEng}Nothin'. Just wanted to see you.
+Dialogue: 0,0:54:28.06,0:54:28.91,Default,,0,0,0,,是吗?\N{\rEng}Yeah?
+Dialogue: 0,0:54:31.29,0:54:35.70,Default,,0,0,0,,下半辈子我都不会离开你\N{\rEng}I'm not goin' anywhere,Jules. Not for the rest of your life.
+Dialogue: 0,0:54:35.70,0:54:36.80,Default,,0,0,0,,是吗?\N{\rEng}Yeah?
+Dialogue: 0,0:54:36.80,0:54:38.40,Default,,0,0,0,,对啊\N{\rEng}Yeah.
+Dialogue: 0,0:54:38.40,0:54:40.79,Default,,0,0,0,,我今天有不祥预感 我好担心\N{\rEng}I got a bad feeling today. I was worried.
+Dialogue: 0,0:54:41.50,0:54:43.94,Default,,0,0,0,,看着我 我毫发未伤\N{\rEng}Hmm? Look at me. Not a scratch.
+Dialogue: 0,0:54:43.94,0:54:45.14,Default,,0,0,0,,小约翰在哪里?\N{\rEng}Where's Johnny?
+Dialogue: 0,0:54:45.14,0:54:47.94,Default,,0,0,0,,他在戈登家 我已经哄他睡觉\N{\rEng}He's at Gordo's. I tucked him in.
+Dialogue: 0,0:54:47.94,0:54:49.28,Default,,0,0,0,,有替他滴耳药吗?\N{\rEng}You give him his drops?
+Dialogue: 0,0:54:49.28,0:54:50.96,Default,,0,0,0,,每只耳朵一滴\N{\rEng}One in each ear.
+Dialogue: 0,0:54:51.68,0:54:53.02,Default,,0,0,0,,如果没有我 你会怎样?\N{\rEng}What would you do without me?
+Dialogue: 0,0:54:53.02,0:54:57.20,Default,,0,0,0,,可能会嫁给有钱医生当少奶奶\N{\rEng}Probably marry some rich doctor. Never have to work.
+Dialogue: 0,0:54:57.82,0:54:59.66,Default,,0,0,0,,天哪 他在干嘛?\N{\rEng}Oh,my God. What is he doin'?
+Dialogue: 0,0:54:59.66,0:55:00.87,Default,,0,0,0,,弗兰克 我要...\N{\rEng}Frank,I gotta...
+Dialogue: 0,0:55:01.93,0:55:04.06,Default,,0,0,0,,抱歉 医生 那是抗组织胺?\N{\rEng}Excuse me,Doctor. Is that benazepril?
+Dialogue: 0,0:55:04.06,0:55:06.20,Default,,0,0,0,,我按指示替病人注射了五西西\N{\rEng}I gave this patient 50 mils of Benadryl on admittance.
+Dialogue: 0,0:55:06.20,0:55:07.13,Default,,0,0,0,,再混进去他就死定了\N{\rEng}Mix them,and he's dead.
+Dialogue: 0,0:55:07.13,0:55:07.96,Default,,0,0,0,,为何没人告诉我?\N{\rEng}Why wasn't I made aware of this?
+Dialogue: 0,0:55:07.96,0:55:09.39,Default,,0,0,0,,都写在他的病历上\N{\rEng}It's in his chart.
+Dialogue: 0,0:55:12.67,0:55:14.54,Default,,0,0,0,,我爱你\N{\rEng}I love you.
+Dialogue: 0,0:55:14.54,0:55:16.15,Default,,0,0,0,,我更爱你\N{\rEng}I love you more.
+Dialogue: 0,0:57:30.04,0:57:30.87,Default,,0,0,0,,妈?\N{\rEng}Hello mam.
+Dialogue: 0,0:57:30.87,0:57:32.41,Default,,0,0,0,,诺亚快餐店\N{\rEng}Noah's Deli.
+Dialogue: 0,0:57:32.41,0:57:33.66,Default,,0,0,0,,对不起\N{\rEng}I'm sorry.
+Dialogue: 0,0:57:43.29,0:57:45.47,Default,,0,0,0,,这里是诺亚快餐店\N{\rEng}This is Noah's Deli.
+Dialogue: 0,0:58:02.71,0:58:05.91,Default,,0,0,0,,珊曼莎 我要和你谈一谈\N{\rEng}Sam,I gotta talk to you.
+Dialogue: 0,0:58:05.91,0:58:06.88,Default,,0,0,0,,你说什么?\N{\rEng}Excuse me?
+Dialogue: 0,0:58:06.88,0:58:09.98,Default,,0,0,0,,抱歉 我要和你谈一谈\N{\rEng}Look,I'm sorry, but I gotta talk to you.
+Dialogue: 0,0:58:09.98,0:58:11.94,Default,,0,0,0,,你怎么知道我的名字?\N{\rEng}How do you know my name?
+Dialogue: 0,0:58:12.45,0:58:13.58,Default,,0,0,0,,你是谁?\N{\rEng}Who are you?
+Dialogue: 0,0:58:13.58,0:58:15.69,Default,,0,0,0,,我是谁?\N{\rEng}Who am I?
+Dialogue: 0,0:58:15.69,0:58:17.34,Default,,0,0,0,,我又不认识你\N{\rEng}Look,I don't know you.
+Dialogue: 0,0:58:18.05,0:58:21.04,Default,,0,0,0,,你不认识我?什么意思?\N{\rEng}You don't know me? What do you mean,you don't know me?
+Dialogue: 0,0:58:22.56,0:58:23.96,Default,,0,0,0,,等一下 我认识你\N{\rEng}Wait. I do know you.
+Dialogue: 0,0:58:23.96,0:58:28.03,Default,,0,0,0,,琳达和戈登的邻居 你是警察\N{\rEng}You're Linda and Gordo's friend. The neighbor,the cop.
+Dialogue: 0,0:58:28.03,0:58:30.15,Default,,0,0,0,,你来这里干嘛?\N{\rEng}What are you doin' here?
+Dialogue: 0,0:58:37.21,0:58:39.44,Default,,0,0,0,,我不应该来这里的\N{\rEng}I shouldn't have come here.
+Dialogue: 0,0:58:39.44,0:58:44.20,Default,,0,0,0,,我不是故意要让你不安 抱歉\N{\rEng}I didn't mean to upset you. I'm sorry.
+Dialogue: 0,0:58:49.25,0:58:50.50,Default,,0,0,0,,好 我会处理\N{\rEng}Yeah,I'll take care of it.
+Dialogue: 0,0:59:17.51,0:59:18.95,Default,,0,0,0,,什么事?\N{\rEng}What?
+Dialogue: 0,0:59:18.95,0:59:21.58,Default,,0,0,0,,昨晚又喝醉了吗?\N{\rEng}Another rough night?
+Dialogue: 0,0:59:21.58,0:59:23.89,Default,,0,0,0,,没错\N{\rEng}Yeah,that's it.
+Dialogue: 0,0:59:23.89,0:59:25.90,Default,,0,0,0,,别对我失礼 约翰\N{\rEng}Do not disrespect me,John.
+Dialogue: 0,0:59:27.09,0:59:28.93,Default,,0,0,0,,你可以对自己失礼\N{\rEng}Disrespect yourself all you want to,
+Dialogue: 0,0:59:28.93,0:59:33.11,Default,,0,0,0,,但别对我或别人失礼 懂吗?\N{\rEng}but not me or anybody else here.
+Dialogue: 0,0:59:41.74,0:59:44.47,Default,,0,0,0,,那具骸骨已完成初步验尸工作\N{\rEng}We got the preliminary forensics on the skeleton.
+Dialogue: 0,0:59:44.47,0:59:45.73,Default,,0,0,0,,你看这份报告\N{\rEng}Take a look at this.
+Dialogue: 0,0:59:54.82,0:59:56.64,Default,,0,0,0,,真是不好的记忆\N{\rEng}Bad memories.
+Dialogue: 0,0:59:58.62,1:00:01.84,Default,,0,0,0,,居然挖到南丁格尔命案的尸体\N{\rEng}Can you imagine the odds of digging up a Nightingale murder?
+Dialogue: 0,1:00:02.79,1:00:04.33,Default,,0,0,0,,她是第十个被害人\N{\rEng}She makes ten.
+Dialogue: 0,1:00:04.33,1:00:07.86,Default,,0,0,0,,十个?我还记得这件案子\N{\rEng}Ten? No. I remember this case.
+Dialogue: 0,1:00:07.86,1:00:10.48,Default,,0,0,0,,他杀了三名女性\N{\rEng}It was three. He killed three women.
+Dialogue: 0,1:00:11.43,1:00:13.14,Default,,0,0,0,,你在胡说什么?\N{\rEng}What are you talkin'?
+Dialogue: 0,1:00:13.14,1:00:15.49,Default,,0,0,0,,你比任何人更清楚 约翰\N{\rEng}You know better than anybody,John.
+Dialogue: 0,1:00:18.94,1:00:21.26,Default,,0,0,0,,这些档案你看过上千遍了\N{\rEng}You looked through these files a thousand times.
+Dialogue: 0,1:00:32.79,1:00:34.94,Default,,0,0,0,,不会吧\N{\rEng}No.
+Dialogue: 0,1:00:43.97,1:00:45.89,Default,,0,0,0,,{\an8\fs16\b1}(茱莉亚·沙利文)
+Dialogue: 0,1:00:59.95,1:01:01.91,Default,,0,0,0,,爸 你在吗?\N{\rEng}Dad? You there?
+Dialogue: 0,1:01:03.29,1:01:04.61,Default,,0,0,0,,你听得见吗?\N{\rEng}Can you hear me?
+Dialogue: 0,1:01:05.92,1:01:07.74,Default,,0,0,0,,爸 我有事找你\N{\rEng}Dad,I need you to be there.
+Dialogue: 0,1:01:08.59,1:01:11.46,Default,,0,0,0,,队长 我马上来\N{\rEng}Yeah,Chief,I'm comin'.
+Dialogue: 0,1:01:11.46,1:01:14.94,Default,,0,0,0,,我有件事要告诉...\N{\rEng}Listen,there's something I need to t...
+Dialogue: 0,1:01:16.63,1:01:17.89,Default,,0,0,0,,我来了 队长\N{\rEng}Right here.
+Dialogue: 0,1:01:20.40,1:01:21.87,Default,,0,0,0,,队长?\N{\rEng}Chief?
+Dialogue: 0,1:01:21.87,1:01:24.90,Default,,0,0,0,,出事了 大事不好了\N{\rEng}Something happened. Something pretty bad.
+Dialogue: 0,1:01:24.90,1:01:26.49,Default,,0,0,0,,怎么了?出了什么事?\N{\rEng}What's the matter,Johnny?
+Dialogue: 0,1:01:27.01,1:01:30.01,Default,,0,0,0,,妈出事了 她...\N{\rEng}Mom. Something happened to her.
+Dialogue: 0,1:01:30.01,1:01:31.09,Default,,0,0,0,,你妈怎么了?\N{\rEng}Your mom. What?
+Dialogue: 0,1:01:31.64,1:01:33.41,Default,,0,0,0,,她不在了\N{\rEng}She's not here.
+Dialogue: 0,1:01:33.41,1:01:35.39,Default,,0,0,0,,什么意思?她为什么不在?\N{\rEng}What do you mean,she's not there?
+Dialogue: 0,1:01:38.12,1:01:42.37,Default,,0,0,0,,她死了 但就像是刚发生的事\N{\rEng}She died. But it's like it just happened though.
+Dialogue: 0,1:01:43.32,1:01:45.39,Default,,0,0,0,,她死了?你妈刚死了?\N{\rEng}She died? Your mom just died?
+Dialogue: 0,1:01:45.39,1:01:49.06,Default,,0,0,0,,不是 她很多年前就死了\N{\rEng}No,Dad. It happened a long time ago.
+Dialogue: 0,1:01:49.06,1:01:50.45,Default,,0,0,0,,对我来说是很多年前\N{\rEng}A long time ago for me.
+Dialogue: 0,1:01:51.60,1:01:53.20,Default,,0,0,0,,几时?\N{\rEng}When?
+Dialogue: 0,1:01:53.20,1:01:57.59,Default,,0,0,0,,一九六九年十月廿二日\N{\rEng}October 22,1969.
+Dialogue: 0,1:01:58.70,1:02:01.87,Default,,0,0,0,,就是现在 那是下星期的事\N{\rEng}That's now,Johnny. That's next week.
+Dialogue: 0,1:02:01.87,1:02:04.09,Default,,0,0,0,,怎么会?你快告诉我\N{\rEng}How? You gotta tell me how.
+Dialogue: 0,1:02:05.68,1:02:07.08,Default,,0,0,0,,她被人谋杀了\N{\rEng}She was murdered.
+Dialogue: 0,1:02:07.08,1:02:08.01,Default,,0,0,0,,谋杀?你在说什么?\N{\rEng}What are you talking about?
+Dialogue: 0,1:02:08.01,1:02:11.52,Default,,0,0,0,,听我说 当时发生了连续命案\N{\rEng}Listen to me. There was this case.
+Dialogue: 0,1:02:11.52,1:02:13.92,Default,,0,0,0,,凶手没逮到 他杀了三名女性\N{\rEng}A serial. They never caught him, but he murdered three women.
+Dialogue: 0,1:02:13.92,1:02:16.82,Default,,0,0,0,,都是护士 六八至六九年之间\N{\rEng}All nurses between '68 and '69.
+Dialogue: 0,1:02:16.82,1:02:18.52,Default,,0,0,0,,他被称为"南丁格尔杀人魔"\N{\rEng}They call him the Nightingale.
+Dialogue: 0,1:02:18.52,1:02:19.63,Default,,0,0,0,,南丁格尔杀人魔?\N{\rEng}The Nightingale?
+Dialogue: 0,1:02:19.63,1:02:20.23,Default,,0,0,0,,没错\N{\rEng}Yeah.
+Dialogue: 0,1:02:20.23,1:02:21.59,Default,,0,0,0,,我们在电视上看过 我好担心\N{\rEng}We've been watching it on the news. I was worried about it.
+Dialogue: 0,1:02:21.59,1:02:22.50,Default,,0,0,0,,但你妈说...\N{\rEng}But your mother said...
+Dialogue: 0,1:02:22.50,1:02:26.57,Default,,0,0,0,,爸 我们改变历史却铸下大祸\N{\rEng}Dad,we did something. Something to make it worse.
+Dialogue: 0,1:02:26.57,1:02:27.53,Default,,0,0,0,,我不明白\N{\rEng}I don't understand.
+Dialogue: 0,1:02:27.53,1:02:31.70,Default,,0,0,0,,他本来杀了三人 却变成十个\N{\rEng}He didn't just kill three women anymore. He's killed ten.
+Dialogue: 0,1:02:31.70,1:02:33.54,Default,,0,0,0,,我们改变了过去\N{\rEng}Something we did changed the past.
+Dialogue: 0,1:02:33.54,1:02:34.54,Default,,0,0,0,,但你妈怎么会...\N{\rEng}But how come your mother...
+Dialogue: 0,1:02:34.54,1:02:37.78,Default,,0,0,0,,想想看 如果你死在大火中\N{\rEng}Just think about it!Everything you did is different than
+Dialogue: 0,1:02:37.78,1:02:40.28,Default,,0,0,0,,每件事都会变得不一样\N{\rEng}if you hadn't gotten out of that warehouse.
+Dialogue: 0,1:02:40.28,1:02:42.55,Default,,0,0,0,,你昨晚做了什么事 爸?\N{\rEng}Now,what'd you do last night,Dad?
+Dialogue: 0,1:02:42.55,1:02:46.24,Default,,0,0,0,,和你聊完就带你去骑脚踏车\N{\rEng}I talked to you. I put you on the bike.
+Dialogue: 0,1:02:47.39,1:02:49.89,Default,,0,0,0,,送你去戈登家 哄你睡着\N{\rEng}I tucked you in at Gordo's.
+Dialogue: 0,1:02:49.89,1:02:51.42,Default,,0,0,0,,然后就去医院找你妈\N{\rEng}I went to see your mother at the hospital.
+Dialogue: 0,1:02:51.42,1:02:55.73,Default,,0,0,0,,就是这样 她不应该在医院\N{\rEng}Oh,shit! That's it. She wasn't supposed to be there.
+Dialogue: 0,1:02:55.73,1:02:56.73,Default,,0,0,0,,应该是布区去接她回家\N{\rEng}Butch went and got her
+Dialogue: 0,1:02:56.73,1:02:58.70,Default,,0,0,0,,因为你那天在火场中殉职\N{\rEng}because that was the night of the fire.
+Dialogue: 0,1:02:58.70,1:03:00.23,Default,,0,0,0,,你是说在医院发生了事情?\N{\rEng}Something happened at that hospital?
+Dialogue: 0,1:03:00.23,1:03:02.97,Default,,0,0,0,,这只是开端 因为你没死\N{\rEng}It could have been anywhere or time that
+Dialogue: 0,1:03:02.97,1:03:05.04,Default,,0,0,0,,她不该那时候出现在那个地方\N{\rEng}she wouldn't have been if you'd died.
+Dialogue: 0,1:03:05.04,1:03:07.57,Default,,0,0,0,,我要去医院接她 小约翰\N{\rEng}I have to take her away from here.
+Dialogue: 0,1:03:07.57,1:03:10.71,Default,,0,0,0,,只要带她离开 他就伤不了她\N{\rEng}He cannot hurt her if I take her.
+Dialogue: 0,1:03:10.71,1:03:13.60,Default,,0,0,0,,其他被害人怎么办 爸?\N{\rEng}What about the others?
+Dialogue: 0,1:03:14.35,1:03:15.38,Default,,0,0,0,,我去警告她们\N{\rEng}I'll warn them.
+Dialogue: 0,1:03:15.38,1:03:17.42,Default,,0,0,0,,行不通的 她们会觉得你疯了\N{\rEng}They'll just think you're crazy.
+Dialogue: 0,1:03:17.42,1:03:19.55,Default,,0,0,0,,但我非想办法不可\N{\rEng}I gotta do something.
+Dialogue: 0,1:03:19.55,1:03:20.85,Default,,0,0,0,,你连凶手长什么模样都不知道\N{\rEng}You don't even know what this guy looks like.
+Dialogue: 0,1:03:20.85,1:03:21.65,Default,,0,0,0,,那是因为...\N{\rEng}No,because...
+Dialogue: 0,1:03:21.65,1:03:22.29,Default,,0,0,0,,你根本不知道他是谁\N{\rEng}You don't know who he is!
+Dialogue: 0,1:03:22.29,1:03:23.51,Default,,0,0,0,,没人知道...\N{\rEng}No,but...
+Dialogue: 0,1:03:24.32,1:03:26.14,Default,,0,0,0,,等一下\N{\rEng}Wait a minute.
+Dialogue: 0,1:03:28.53,1:03:30.63,Default,,0,0,0,,爸 我或许不知道他是谁\N{\rEng}Dad,I may not know who he is...
+Dialogue: 0,1:03:30.63,1:03:34.43,Default,,0,0,0,,但我知道他会做什么 去哪里\N{\rEng}but I know where he's gonna to be and what he's gonna do before he gets there.
+Dialogue: 0,1:03:34.43,1:03:35.10,Default,,0,0,0,,我该怎么做?\N{\rEng}What should I do?
+Dialogue: 0,1:03:35.10,1:03:37.77,Default,,0,0,0,,报警吗?他们绝对不会相信我\N{\rEng}Do I call the police? They won't believe me.
+Dialogue: 0,1:03:37.77,1:03:39.51,Default,,0,0,0,,只要当场逮到他 就会相信\N{\rEng}They will if they catch him in the act.
+Dialogue: 0,1:03:39.51,1:03:40.91,Default,,0,0,0,,只有你能办到了 爸\N{\rEng}And you can make that happen.
+Dialogue: 0,1:03:40.91,1:03:43.41,Default,,0,0,0,,不行 小约翰 我不知道\N{\rEng}No,I don't know about...
+Dialogue: 0,1:03:43.41,1:03:44.84,Default,,0,0,0,,我是消防员 不是警察\N{\rEng}I'm a firefighter.
+Dialogue: 0,1:03:44.84,1:03:46.65,Default,,0,0,0,,我是警察 这是我的职责\N{\rEng}I'm a cop! This is what I do!
+Dialogue: 0,1:03:46.65,1:03:47.93,Default,,0,0,0,,我们非这么做不可\N{\rEng}This is something we have to do!
+Dialogue: 0,1:03:48.92,1:03:51.18,Default,,0,0,0,,若无线电联络不上你怎么办?\N{\rEng}What if the ham stops working? What if I can't reach you?
+Dialogue: 0,1:03:51.18,1:03:52.92,Default,,0,0,0,,那你就去把妈救出来\N{\rEng}Then get Mom out.
+Dialogue: 0,1:03:52.92,1:03:56.32,Default,,0,0,0,,爸 其他被害人根本不该死\N{\rEng}But,Dad,those other women were not supposed to die.
+Dialogue: 0,1:03:56.32,1:04:01.22,Default,,0,0,0,,我们再不阻止他就会后悔到老\N{\rEng}If we don't try and stop this guy we'll have to live with that for the rest of our lives.
+Dialogue: 0,1:04:03.23,1:04:06.80,Default,,0,0,0,,好吧 告诉我该怎么做\N{\rEng}Okay. Tell me what to do.
+Dialogue: 0,1:04:06.80,1:04:08.30,Default,,0,0,0,,好\N{\rEng}All right.
+Dialogue: 0,1:04:08.30,1:04:10.10,Default,,0,0,0,,下一位被害人是凯莉·雷诺兹\N{\rEng}The next victim is Carrie Reynolds.
+Dialogue: 0,1:04:10.10,1:04:11.24,Default,,0,0,0,,时间是明天\N{\rEng}It happens tomorrow.
+Dialogue: 0,1:04:11.24,1:04:14.51,Default,,0,0,0,,她六点离开罗斯福医院\N{\rEng}Case file says she left Roosevelt Hospital at 6:00.
+Dialogue: 0,1:04:14.51,1:04:17.04,Default,,0,0,0,,六点半左右会去柯西酒吧\N{\rEng}Showed up at Cozy's Bar around 6:30.
+Dialogue: 0,1:04:17.04,1:04:19.71,Default,,0,0,0,,她七点半左右走出酒吧\N{\rEng}She walked out of that bar around 7:30.
+Dialogue: 0,1:04:19.71,1:04:23.88,Default,,0,0,0,,八点被人发现死在后面的巷子\N{\rEng}And they found her dead in an alley behind the bar at 8:00.
+Dialogue: 0,1:04:23.88,1:04:25.48,Default,,0,0,0,,你去跟踪她\N{\rEng}Follow her.
+Dialogue: 0,1:04:25.48,1:04:28.02,Default,,0,0,0,,看看有没有人在注意她\N{\rEng}See if anybody's watching her or hitting on her.
+Dialogue: 0,1:04:28.02,1:04:30.52,Default,,0,0,0,,我打赌她一走出酒吧\N{\rEng}I'm betting when she walks out of that place,
+Dialogue: 0,1:04:30.52,1:04:32.46,Default,,0,0,0,,就会有人跟着她一起出来\N{\rEng}somebody'll go out with her.
+Dialogue: 0,1:04:32.46,1:04:34.64,Default,,0,0,0,,你一发现就打电话报警\N{\rEng}When they do,you call the cops.
+Dialogue: 0,1:04:35.36,1:04:36.33,Default,,0,0,0,,嗨!凯莉\N{\rEng}Hi,Carrie.
+Dialogue: 0,1:04:36.33,1:04:37.81,Default,,0,0,0,,葛伦 你好吗?\N{\rEng}Hiya,Glen. How you doin'?
+Dialogue: 0,1:05:00.85,1:05:01.61,Default,,0,0,0,,干杯\N{\rEng}Cheers.
+Dialogue: 0,1:05:26.75,1:05:27.96,Default,,0,0,0,,那几个女孩一起请的\N{\rEng}From the girls,all of them.
+Dialogue: 0,1:05:37.12,1:05:38.17,Default,,0,0,0,,谢谢\N{\rEng}Thanks.
+Dialogue: 0,1:05:46.87,1:05:47.80,Default,,0,0,0,,我...\N{\rEng}I...
+Dialogue: 0,1:05:47.80,1:05:48.81,Default,,0,0,0,,坐吧\N{\rEng}Sit down.
+Dialogue: 0,1:05:50.20,1:05:51.04,Default,,0,0,0,,你是消防员?\N{\rEng}A fireman,huh?
+Dialogue: 0,1:05:51.04,1:05:52.27,Default,,0,0,0,,对 我不想...\N{\rEng}Yeah,I'm not really...
+Dialogue: 0,1:05:52.27,1:05:54.47,Default,,0,0,0,,原来是已婚的消防员\N{\rEng}Ah,a married fireman.
+Dialogue: 0,1:05:54.47,1:05:55.47,Default,,0,0,0,,没错\N{\rEng}Yeah.
+Dialogue: 0,1:05:55.47,1:05:57.56,Default,,0,0,0,,管他的 怎么称呼你?\N{\rEng}What the hell! What do they call you?
+Dialogue: 0,1:05:58.21,1:05:59.76,Default,,0,0,0,,弗兰克\N{\rEng}Frank.
+Dialogue: 0,1:06:05.42,1:06:07.72,Default,,0,0,0,,74管区 凶案组\N{\rEng}7-4. Homicide.
+Dialogue: 0,1:06:07.72,1:06:08.90,Default,,0,0,0,,对 是我\N{\rEng}Yeah,it's me.
+Dialogue: 0,1:06:10.29,1:06:11.75,Default,,0,0,0,,别开玩笑了\N{\rEng}You're kiddin'.
+Dialogue: 0,1:06:13.79,1:06:17.20,Default,,0,0,0,,等一下 拼给我听\N{\rEng}Hold on. Spell that for me.
+Dialogue: 0,1:06:17.20,1:06:19.98,Default,,0,0,0,,好 谢谢你 马里欧\N{\rEng}Okay. Thanks,Mario.
+Dialogue: 0,1:06:22.60,1:06:24.30,Default,,0,0,0,,好运来了!\N{\rEng}Our lucky break.
+Dialogue: 0,1:06:24.30,1:06:27.71,Default,,0,0,0,,根据牙医纪录死者是玛丽·费奈利\N{\rEng}Mario ID'd the dental. Her name's Mary Finelli.
+Dialogue: 0,1:06:27.71,1:06:30.98,Default,,0,0,0,,一九六八年四月十六日失踪\N{\rEng}Reported missing April 16,1968.
+Dialogue: 0,1:06:30.98,1:06:32.52,Default,,0,0,0,,四月十六日?\N{\rEng}April 16?
+Dialogue: 0,1:06:33.61,1:06:34.75,Default,,0,0,0,,这表示她是第一个被害人\N{\rEng}That means she was the first.
+Dialogue: 0,1:06:34.75,1:06:37.17,Default,,0,0,0,,通常凶手第一次会找熟人下手\N{\rEng}Which means he probably knew her.
+Dialogue: 0,1:06:37.78,1:06:39.60,Default,,0,0,0,,这件案子又起死回生了\N{\rEng}This case just got hot.
+Dialogue: 0,1:06:41.95,1:06:46.38,Default,,0,0,0,,不见了 没凯莉·雷诺兹的档案\N{\rEng}She's gone. Carrie Reynolds isn't in here.
+Dialogue: 0,1:06:47.99,1:06:49.58,Default,,0,0,0,,谁?\N{\rEng}Who?
+Dialogue: 0,1:06:52.03,1:06:53.85,Default,,0,0,0,,他办到了\N{\rEng}He did it.
+Dialogue: 0,1:06:58.10,1:07:00.49,Default,,0,0,0,,凯莉·雷诺兹还活得好好的 爸\N{\rEng}Carrie Reynolds is alive and well,Dad.
+Dialogue: 0,1:07:01.21,1:07:02.61,Default,,0,0,0,,我真该死\N{\rEng}I'll be damned.
+Dialogue: 0,1:07:02.61,1:07:03.44,Default,,0,0,0,,你看见他了吗?\N{\rEng}Did you see him?
+Dialogue: 0,1:07:03.44,1:07:03.94,Default,,0,0,0,,没有\N{\rEng}No.
+Dialogue: 0,1:07:03.94,1:07:04.54,Default,,0,0,0,,知道他是谁吗?\N{\rEng}Figure who he is?
+Dialogue: 0,1:07:04.54,1:07:06.23,Default,,0,0,0,,我搞砸了\N{\rEng}No,I messed up.
+Dialogue: 0,1:07:06.95,1:07:09.88,Default,,0,0,0,,一直陪她聊天 怕她离开视线\N{\rEng}I kept talking to her. I was afraid to let her out of my sight.
+Dialogue: 0,1:07:09.88,1:07:11.88,Default,,0,0,0,,凶手想必是放弃了\N{\rEng}Whoever it was, he must've backed off.
+Dialogue: 0,1:07:11.88,1:07:13.02,Default,,0,0,0,,没关系\N{\rEng}That's okay.
+Dialogue: 0,1:07:13.02,1:07:15.19,Default,,0,0,0,,我们会逮到他的 一定行得通\N{\rEng}We're gonna get him. This is gonna work.
+Dialogue: 0,1:07:15.19,1:07:19.53,Default,,0,0,0,,希望如此 你还有什么线索?\N{\rEng}I hope so. What else you got?
+Dialogue: 0,1:07:19.53,1:07:22.90,Default,,0,0,0,,案情有发展 找到第一名死者\N{\rEng}We caught a break. Found his first victim.
+Dialogue: 0,1:07:22.90,1:07:24.70,Default,,0,0,0,,她的名字是玛丽·费奈利\N{\rEng}Her name is Mary Finelli.
+Dialogue: 0,1:07:24.70,1:07:25.63,Default,,0,0,0,,谢谢你 沙利文太太\N{\rEng}Thank you,Mrs Sullivan.
+Dialogue: 0,1:07:25.63,1:07:28.67,Default,,0,0,0,,等一下 约翰...茱莉亚?\N{\rEng}Hang on a sec,John.Jules,
+Dialogue: 0,1:07:28.67,1:07:31.09,Default,,0,0,0,,我想请你跟一个人聊聊\N{\rEng}there's somebody I want you to talk to,okay?
+Dialogue: 0,1:07:31.87,1:07:34.41,Default,,0,0,0,,记得我提过的约翰吗?\N{\rEng}Remember I told you about this guy John?
+Dialogue: 0,1:07:34.41,1:07:36.58,Default,,0,0,0,,向他打声招呼吧\N{\rEng}I want you to say hello to him.
+Dialogue: 0,1:07:36.58,1:07:37.48,Default,,0,0,0,,约翰\N{\rEng}John,
+Dialogue: 0,1:07:37.48,1:07:38.31,Default,,0,0,0,,我还在\N{\rEng}Yeah.
+Dialogue: 0,1:07:38.31,1:07:40.33,Default,,0,0,0,,向内人茱莉亚打声招呼吧\N{\rEng}say hello to my wife,Julia.
+Dialogue: 0,1:07:42.95,1:07:44.58,Default,,0,0,0,,嗨\N{\rEng}Hi.
+Dialogue: 0,1:07:44.58,1:07:47.74,Default,,0,0,0,,约翰 弗兰克说你是警察\N{\rEng}Hi,John. Frank tells me you're a cop.
+Dialogue: 0,1:07:48.49,1:07:49.79,Default,,0,0,0,,对啊\N{\rEng}Yeah,that's right.
+Dialogue: 0,1:07:49.79,1:07:53.23,Default,,0,0,0,,我六岁大的儿子常说\N{\rEng}My six-year-old keeps telling us
+Dialogue: 0,1:07:53.23,1:07:57.20,Default,,0,0,0,,从大联盟退休之后要当警察\N{\rEng}he wants to be a policeman right after he retires from the majors.
+Dialogue: 0,1:07:57.20,1:08:00.03,Default,,0,0,0,,他生日时我们送他警徽和哨子\N{\rEng}We bought him a badge and whistle for his birthday.
+Dialogue: 0,1:08:00.03,1:08:03.84,Default,,0,0,0,,我记得小时候常玩警察捉小偷\N{\rEng}I remember. I used to play cops and robbers...
+Dialogue: 0,1:08:03.84,1:08:06.42,Default,,0,0,0,,我妈都不肯买玩具枪给我\N{\rEng}but you... my mom wouldn't let me have a toy gun.
+Dialogue: 0,1:08:06.97,1:08:09.29,Default,,0,0,0,,我和你妈一定很谈得来\N{\rEng}Sounds like your mom and I would get along.
+Dialogue: 0,1:08:10.18,1:08:14.01,Default,,0,0,0,,对 她很特别 我以她为傲\N{\rEng}Yeah,she's pretty special. I'm real proud of her.
+Dialogue: 0,1:08:14.01,1:08:17.44,Default,,0,0,0,,她一定也以你这警察儿子为傲\N{\rEng}Bet she's proud of you,too, being a cop and all.
+Dialogue: 0,1:08:18.15,1:08:23.32,Default,,0,0,0,,希望如此 希望她知道我爱她\N{\rEng}I hope so. I hope she knows how much I love her.
+Dialogue: 0,1:08:23.32,1:08:25.09,Default,,0,0,0,,她一定知道\N{\rEng}Oh,she knows.
+Dialogue: 0,1:08:25.09,1:08:27.96,Default,,0,0,0,,妈妈都知道小孩有多爱她们\N{\rEng}Moms always know how much their kids love them.
+Dialogue: 0,1:08:27.96,1:08:31.65,Default,,0,0,0,,就算小孩很少说出口也一样\N{\rEng}Even if they don't tell them all the time like they should.
+Dialogue: 0,1:08:33.37,1:08:37.34,Default,,0,0,0,,我得走了 很高兴能跟你聊天\N{\rEng}Well,I gotta go. It was good talking to you,John.
+Dialogue: 0,1:08:37.34,1:08:38.44,Default,,0,0,0,,我也是\N{\rEng}Yeah,you too.
+Dialogue: 0,1:08:38.44,1:08:40.21,Default,,0,0,0,,我想用爸爸的无线电\N{\rEng}I wanna talk on Daddy's radio.
+Dialogue: 0,1:08:40.21,1:08:41.31,Default,,0,0,0,,好啊 队长\N{\rEng}Okay,Chief,go ahead.
+Dialogue: 0,1:08:41.31,1:08:43.08,Default,,0,0,0,,好了 甜心 跟约翰道晚安\N{\rEng}Sweetheart,say good night to John.
+Dialogue: 0,1:08:43.08,1:08:44.50,Default,,0,0,0,,晚安 约翰\N{\rEng}Good night,John.
+Dialogue: 0,1:08:47.45,1:08:49.56,Default,,0,0,0,,晚安 队长\N{\rEng}Good night there,Chief.
+Dialogue: 0,1:08:50.98,1:08:53.22,Default,,0,0,0,,睡觉时间到了\N{\rEng}Okay,guys. Bedtime.
+Dialogue: 0,1:08:53.22,1:08:55.49,Default,,0,0,0,,我也要用无线电讲话\N{\rEng}No,I wanna talk on the radio,too.
+Dialogue: 0,1:08:55.49,1:08:56.82,Default,,0,0,0,,好 戈登 你过来\N{\rEng}All right,Gordo,come here.
+Dialogue: 0,1:08:56.82,1:08:59.71,Default,,0,0,0,,戈登 再两分钟就要睡觉了\N{\rEng}Gordo,two minutes,then bedtime.
+Dialogue: 0,1:09:04.60,1:09:06.47,Default,,0,0,0,,我是太空牛仔\N{\rEng}This is the space cowboy.
+Dialogue: 0,1:09:06.47,1:09:09.98,Default,,0,0,0,,来自地球环游星际的旅人\N{\rEng}I'm an intergalactic traveler from the federation planet Earth.
+Dialogue: 0,1:09:10.57,1:09:12.27,Default,,0,0,0,,戈登?\N{\rEng}Gordo?
+Dialogue: 0,1:09:12.27,1:09:13.89,Default,,0,0,0,,你怎么知道我的名字?\N{\rEng}How do you know my name,mister?
+Dialogue: 0,1:09:17.38,1:09:21.38,Default,,0,0,0,,戈登 我是耶诞老公公\N{\rEng}Listen,Gordo...my name is Santa Claus.
+Dialogue: 0,1:09:21.38,1:09:25.03,Default,,0,0,0,,我要送你一份最大的耶诞礼物\N{\rEng}And I'm going to give you the biggest Christmas present you ever had.
+Dialogue: 0,1:09:26.32,1:09:28.55,Default,,0,0,0,,那我应该先告诉你地址\N{\rEng}I better give you my address then.
+Dialogue: 0,1:09:28.55,1:09:32.16,Default,,0,0,0,,不必了 这件事很重要\N{\rEng}No,don't worry about it. Now,this is important.
+Dialogue: 0,1:09:32.16,1:09:36.30,Default,,0,0,0,,有个字你要永远记住...雅虎\N{\rEng}Something you got to remember for a long time. Yahoo.
+Dialogue: 0,1:09:36.30,1:09:38.06,Default,,0,0,0,,那是什么?\N{\rEng}What's that?
+Dialogue: 0,1:09:38.06,1:09:39.80,Default,,0,0,0,,这是一个神奇的字\N{\rEng}It's a magic word. It's like...
+Dialogue: 0,1:09:39.80,1:09:43.64,Default,,0,0,0,,就像咒语一样 不过更好\N{\rEng}It's like abracadabra,but even better.
+Dialogue: 0,1:09:43.64,1:09:45.79,Default,,0,0,0,,你念念看...雅虎\N{\rEng}Try it out,kid. Yahoo.
+Dialogue: 0,1:09:46.91,1:09:48.17,Default,,0,0,0,,雅虎\N{\rEng}Yahoo.
+Dialogue: 0,1:09:48.17,1:09:49.81,Default,,0,0,0,,就是这样念 太空牛仔\N{\rEng}You got it,space cowboy.
+Dialogue: 0,1:09:49.81,1:09:52.18,Default,,0,0,0,,好了 戈登 两分钟到了\N{\rEng}Gordo,your two minutes are up.
+Dialogue: 0,1:09:52.18,1:09:54.01,Default,,0,0,0,,快上楼去写下来\N{\rEng}Now go upstairs and write it down.
+Dialogue: 0,1:09:54.01,1:09:57.05,Default,,0,0,0,,好的 耶诞老公公\N{\rEng}Okay,mister.I mean,Santa.
+Dialogue: 0,1:09:57.05,1:09:58.78,Default,,0,0,0,,我们走吧\N{\rEng}Come on.
+Dialogue: 0,1:09:58.78,1:10:00.95,Default,,0,0,0,,先别走 约翰 我马上回来\N{\rEng}Let's go. Stay there,John. I'll be right back.
+Dialogue: 0,1:10:00.95,1:10:02.52,Default,,0,0,0,,我们上楼吧\N{\rEng}Upstairs.
+Dialogue: 0,1:10:02.52,1:10:06.04,Default,,0,0,0,,茱莉亚 还有一个马上送过来\N{\rEng}Jules,got a live one down here coming your way.
+Dialogue: 0,1:10:07.66,1:10:09.26,Default,,0,0,0,,小队长?\N{\rEng}Yeah,Chief?
+Dialogue: 0,1:10:09.26,1:10:10.10,Default,,0,0,0,,你还在吗?\N{\rEng}You still there?
+Dialogue: 0,1:10:10.10,1:10:11.86,Default,,0,0,0,,我还在 接下来怎么做?\N{\rEng}What do we do now?
+Dialogue: 0,1:10:11.86,1:10:14.47,Default,,0,0,0,,好 西西·柯拉克\N{\rEng}Okay,Sissy Clark.
+Dialogue: 0,1:10:14.47,1:10:15.87,Default,,0,0,0,,格林威治街423号\N{\rEng}423 Greenwich Street.
+Dialogue: 0,1:10:15.87,1:10:16.92,Default,,0,0,0,,等一下\N{\rEng}Hang on,hang on.
+Dialogue: 0,1:10:17.50,1:10:18.34,Default,,0,0,0,,说吧\N{\rEng}Go ahead.
+Dialogue: 0,1:10:18.34,1:10:19.34,Default,,0,0,0,,西西·柯拉克\N{\rEng}Sissy Clark.
+Dialogue: 0,1:10:19.34,1:10:21.67,Default,,0,0,0,,格林威治街423号\N{\rEng}423 Greenwich Street,
+Dialogue: 0,1:10:21.67,1:10:23.51,Default,,0,0,0,,2E栋公寓 明天\N{\rEng}apartment 2E,tomorrow.
+Dialogue: 0,1:10:23.51,1:10:24.81,Default,,0,0,0,,好 2E栋公寓\N{\rEng}Okay,2E.
+Dialogue: 0,1:10:24.81,1:10:25.48,Default,,0,0,0,,护士\N{\rEng}Nurse.
+Dialogue: 0,1:10:25.48,1:10:26.08,Default,,0,0,0,,好的\N{\rEng}Okay.
+Dialogue: 0,1:10:26.08,1:10:28.25,Default,,0,0,0,,在西63街的"万花筒"\N{\rEng}Moonlights as a cocktail waitress
+Dialogue: 0,1:10:28.25,1:10:31.55,Default,,0,0,0,,兼职担任鸡尾酒女侍\N{\rEng}at the Kaleidoscope on West 63rd.
+Dialogue: 0,1:10:31.55,1:10:33.79,Default,,0,0,0,,凌晨两点下班\N{\rEng}Left work at 2 a. M...
+Dialogue: 0,1:10:33.79,1:10:38.56,Default,,0,0,0,,两点十五到五点之间死于住处\N{\rEng}was killed in her apartment between 2:15 and 5:00.
+Dialogue: 0,1:10:38.56,1:10:40.16,Default,,0,0,0,,我记下来了\N{\rEng}Okay,I got it.
+Dialogue: 0,1:10:40.16,1:10:44.00,Default,,0,0,0,,爸 我不知道还要多久时间\N{\rEng}Dad,I don't know how long this thing is gonna keep workin'.
+Dialogue: 0,1:10:44.00,1:10:46.27,Default,,0,0,0,,也不知道能否再连上线\N{\rEng}Or if we'll be able to talk again.
+Dialogue: 0,1:10:46.27,1:10:48.38,Default,,0,0,0,,你一定要小心\N{\rEng}Just be careful.
+Dialogue: 0,1:11:23.50,1:11:26.67,Default,,0,0,0,,很高兴你找到了她 警探\N{\rEng}I'm happy you found her,Detective.
+Dialogue: 0,1:11:26.67,1:11:33.23,Default,,0,0,0,,确定之后就安心多了\N{\rEng}It makes it easier now, to know for sure.
+Dialogue: 0,1:11:34.31,1:11:35.58,Default,,0,0,0,,{\an8\fs16\b1}(日记)
+Dialogue: 0,1:11:35.58,1:11:38.67,Default,,0,0,0,,能否暂借一下 费利太太?\N{\rEng}Can I keep these for a while?
+Dialogue: 0,1:11:40.72,1:11:43.89,Default,,0,0,0,,让我详细说给你听\N{\rEng}Okay,just let me walk you through it.
+Dialogue: 0,1:11:43.89,1:11:45.28,Default,,0,0,0,,洗耳恭听\N{\rEng}I'm all ears.
+Dialogue: 0,1:11:46.99,1:11:49.82,Default,,0,0,0,,毕业册和日记都出现的有三人\N{\rEng}Three guys show up in both the yearbook and diary.
+Dialogue: 0,1:11:51.66,1:11:54.21,Default,,0,0,0,,第一个十年前过世了\N{\rEng}First guy passed away ten years ago.
+Dialogue: 0,1:11:55.60,1:11:57.39,Default,,0,0,0,,第二个死于越战\N{\rEng}Second guy died in Vietnam.
+Dialogue: 0,1:11:58.70,1:12:00.99,Default,,0,0,0,,第三个是戴洛·辛普森\N{\rEng}And the third one is Daryl Simpson.
+Dialogue: 0,1:12:01.74,1:12:05.41,Default,,0,0,0,,我从他的前科记录中找到线索\N{\rEng}So I ran him through BCI. Got a hit.
+Dialogue: 0,1:12:05.41,1:12:09.72,Default,,0,0,0,,他在最后一件南丁格尔命案的 八天后因性侵害罪名被捕\N{\rEng}Busted for sexual assault eight days after the last Nightingale murder.
+Dialogue: 0,1:12:09.72,1:12:12.02,Default,,0,0,0,,一九七0年三月廿二日\N{\rEng}March 22,1970.
+Dialogue: 0,1:12:12.02,1:12:16.32,Default,,0,0,0,,你认为他被捕后命案就没了?\N{\rEng}So the murders stopped because he was off the street...
+Dialogue: 0,1:12:16.32,1:12:19.66,Default,,0,0,0,,他获假释之后就可以自制了?\N{\rEng}and by the time he got paroled he had smartened up enough to control himself?
+Dialogue: 0,1:12:19.66,1:12:21.93,Default,,0,0,0,,这种推论屡试不爽\N{\rEng}That's not the first time that's been true.
+Dialogue: 0,1:12:21.93,1:12:26.08,Default,,0,0,0,,我有预感凶手就是他 塞奇\N{\rEng}I got a feeling about this guy. This is him,Satch.
+Dialogue: 0,1:12:27.07,1:12:30.25,Default,,0,0,0,,{\an8\fs16\b1}(戴洛·辛普森 多才多艺)
+Dialogue: 0,1:12:47.62,1:12:48.99,Default,,0,0,0,,还要再来一杯吗?\N{\rEng}Can I get you another one?
+Dialogue: 0,1:12:48.99,1:12:50.34,Default,,0,0,0,,不用了 谢谢\N{\rEng}No thanks,I'm good.
+Dialogue: 0,1:12:54.63,1:12:56.13,Default,,0,0,0,,好吧 还需要什么吗?\N{\rEng}Anything else?
+Dialogue: 0,1:12:56.13,1:12:58.68,Default,,0,0,0,,性侵害 戴洛 被判刑五年\N{\rEng}Sexual assault,Daryl. Five years.
+Dialogue: 0,1:12:59.40,1:13:01.57,Default,,0,0,0,,你运气真不错\N{\rEng}But you got lucky,right?
+Dialogue: 0,1:13:01.57,1:13:03.94,Default,,0,0,0,,你躲过了另一项罪名\N{\rEng}You got away with something else.
+Dialogue: 0,1:13:03.94,1:13:06.21,Default,,0,0,0,,你以为没人会知道\N{\rEng}Something you figured nobody knows about.
+Dialogue: 0,1:13:06.21,1:13:07.97,Default,,0,0,0,,我知道的全都告诉你了\N{\rEng}What I know is what I told you.
+Dialogue: 0,1:13:07.97,1:13:09.54,Default,,0,0,0,,告诉你我知道什么 戴洛\N{\rEng}Let me tell you what I know.
+Dialogue: 0,1:13:09.54,1:13:11.54,Default,,0,0,0,,你和玛丽是高中同学\N{\rEng}You went to Saint Ambrose with Mary.
+Dialogue: 0,1:13:11.54,1:13:13.48,Default,,0,0,0,,你们是邻居 你很喜欢她\N{\rEng}You lived five blocks from her. You liked her,
+Dialogue: 0,1:13:13.48,1:13:14.91,Default,,0,0,0,,但她对你没兴趣\N{\rEng}but she ain't interested.
+Dialogue: 0,1:13:14.91,1:13:16.88,Default,,0,0,0,,你一定很伤心吧?\N{\rEng}That must've hurt,huh?
+Dialogue: 0,1:13:16.88,1:13:17.75,Default,,0,0,0,,那又怎样?\N{\rEng}So what?
+Dialogue: 0,1:13:17.75,1:13:19.35,Default,,0,0,0,,你如何看待这件事 戴洛?\N{\rEng}So,what'd you do about it?
+Dialogue: 0,1:13:19.35,1:13:20.24,Default,,0,0,0,,没什么啊\N{\rEng}Nothing!
+Dialogue: 0,1:13:29.06,1:13:30.63,Default,,0,0,0,,有香烟吗?\N{\rEng}Spare a smoke?
+Dialogue: 0,1:13:30.63,1:13:34.45,Default,,0,0,0,,有 拿去 我正想戒烟\N{\rEng}Here,I'm trying to quit.
+Dialogue: 0,1:13:38.90,1:13:42.21,Default,,0,0,0,,天哪 这是什么?\N{\rEng}Oh,my God! What is this?
+Dialogue: 0,1:13:42.21,1:13:45.88,Default,,0,0,0,,天哪 快拿开!\N{\rEng}Jesus! Jesus! Get that away from me!
+Dialogue: 0,1:13:45.88,1:13:47.88,Default,,0,0,0,,桑德拉·摩尔 佩蒂·莱恩\N{\rEng}Sandra Moore. Patty Ryan.
+Dialogue: 0,1:13:47.88,1:13:50.92,Default,,0,0,0,,玛丽·费奈利 想起什么了吗?\N{\rEng}Mary Finelli. These names mean anything to you?
+Dialogue: 0,1:13:50.92,1:13:53.35,Default,,0,0,0,,茱莉亚·沙利文 有意义吗?\N{\rEng}Julia Sullivan. Does she mean anything?
+Dialogue: 0,1:13:53.35,1:13:55.11,Default,,0,0,0,,她对我意义可重大了!\N{\rEng}Well,she means something to me!
+Dialogue: 0,1:14:07.93,1:14:11.17,Default,,0,0,0,,再见 下次别这么多话\N{\rEng}See ya,fireman. Don't talk so much next time.
+Dialogue: 0,1:14:11.17,1:14:13.47,Default,,0,0,0,,葛斯 我去更衣 替我算小费\N{\rEng}Will you run my tips while I go change?
+Dialogue: 0,1:14:13.47,1:14:14.21,Default,,0,0,0,,好的 西西\N{\rEng}Sure,Sisi.
+Dialogue: 0,1:14:14.21,1:14:15.22,Default,,0,0,0,,谢谢你\N{\rEng}Thanks.
+Dialogue: 0,1:14:33.06,1:14:39.04,Default,,0,0,0,,戴洛 尽管我们警察受过训练\N{\rEng}You know,Daryl...sometimes,despite all the training we cops go through...
+Dialogue: 0,1:14:40.00,1:14:43.25,Default,,0,0,0,,尽管我们了解是非善恶\N{\rEng}despite all that we are taught about right and wrong...
+Dialogue: 0,1:14:44.24,1:14:47.16,Default,,0,0,0,,尽管我们以荣誉为重\N{\rEng}despite all that we would like to honor in ourselves...
+Dialogue: 0,1:14:48.04,1:14:53.23,Default,,0,0,0,,一旦卯起来 我们什么都不鸟\N{\rEng}we can come to a place...where we don't give a damn.
+Dialogue: 0,1:14:54.05,1:14:55.73,Default,,0,0,0,,懂我的意思吗?\N{\rEng}Know what I mean?
+Dialogue: 0,1:14:56.72,1:14:59.54,Default,,0,0,0,,快把事实真相都告诉我\N{\rEng}You'll tell me everything I need to know now.
+Dialogue: 0,1:15:00.19,1:15:03.72,Default,,0,0,0,,约翰 能否借一步说话?\N{\rEng}You got a minute?
+Dialogue: 0,1:15:03.72,1:15:06.58,Default,,0,0,0,,好啊\N{\rEng}Yeah,sure.
+Dialogue: 0,1:15:13.60,1:15:15.73,Default,,0,0,0,,他不是凶手 约翰\N{\rEng}He ain't the guy,John.
+Dialogue: 0,1:15:15.73,1:15:18.34,Default,,0,0,0,,不想看照片不表示他不是凶手\N{\rEng}Because he didn't want to look at the photos?
+Dialogue: 0,1:15:18.34,1:15:19.77,Default,,0,0,0,,不是每个人都符合条件的\N{\rEng}Not everyone fits the profile.
+Dialogue: 0,1:15:19.77,1:15:23.16,Default,,0,0,0,,他若要招供 早就全盘托出了\N{\rEng}If he was gonna give up something, he would've done it already.
+Dialogue: 0,1:15:35.95,1:15:37.82,Default,,0,0,0,,你在跟踪我?\N{\rEng}You following me?
+Dialogue: 0,1:15:37.82,1:15:38.97,Default,,0,0,0,,你在跟踪我?\N{\rEng}You following me?
+Dialogue: 0,1:15:41.93,1:15:44.61,Default,,0,0,0,,我在问你话 混球!\N{\rEng}I asked you a question,asshole.
+Dialogue: 0,1:15:45.46,1:15:47.48,Default,,0,0,0,,玛丽·费奈利\N{\rEng}Mary Finelli.
+Dialogue: 0,1:16:16.36,1:16:19.43,Default,,0,0,0,,他怎么了?\N{\rEng}Whoa,dude! What happened to him?
+Dialogue: 0,1:16:19.43,1:16:21.27,Default,,0,0,0,,这是嗑药之后的反应\N{\rEng}It was a bad trip,man.
+Dialogue: 0,1:16:21.27,1:16:23.87,Default,,0,0,0,,只要吐一吐就会没事了\N{\rEng}A little time kissing the porcelain,he'll be fine.
+Dialogue: 0,1:16:23.87,1:16:24.97,Default,,0,0,0,,我了解\N{\rEng}I understand that.
+Dialogue: 0,1:16:24.97,1:16:26.43,Default,,0,0,0,,好了 过来吧\N{\rEng}All right,come on,pal.
+Dialogue: 0,1:16:49.53,1:16:54.22,Default,,0,0,0,,{\an8\fs16\b1}(西西·柯拉克 格林威治街423号2E)
+Dialogue: 0,1:17:18.02,1:17:19.09,Default,,0,0,0,,开门!\N{\rEng}Open up!
+Dialogue: 0,1:17:19.09,1:17:22.03,Default,,0,0,0,,柯拉克小姐!开门!\N{\rEng}Miss Clark! Open the door!
+Dialogue: 0,1:17:22.03,1:17:23.92,Default,,0,0,0,,我是警察!开门!\N{\rEng}It's the police! Open the door!
+Dialogue: 0,1:17:24.93,1:17:27.33,Default,,0,0,0,,没事 进去吧 我是警察\N{\rEng}It's okay,ma'am. Go back inside. It's the police.
+Dialogue: 0,1:17:27.33,1:17:31.05,Default,,0,0,0,,你在吗?开门!我知道你在家\N{\rEng}Are you in there? Open up! I know you're in there!
+Dialogue: 0,1:17:33.07,1:17:36.50,Default,,0,0,0,,西西·柯拉克!快开门!\N{\rEng}Sissy Clark! Open the door! Open the door!
+Dialogue: 0,1:18:24.82,1:18:28.93,Default,,0,0,0,,他杀了她 我却无法阻止\N{\rEng}He killed her. I couldn't do a damn thing to stop it.
+Dialogue: 0,1:18:28.93,1:18:31.20,Default,,0,0,0,,爸 这不是你的错\N{\rEng}It's not your fault.
+Dialogue: 0,1:18:31.20,1:18:32.83,Default,,0,0,0,,是我的错\N{\rEng}Yes,it is.
+Dialogue: 0,1:18:32.83,1:18:36.40,Default,,0,0,0,,我们改变了一切 好像在作弊\N{\rEng}We changed everything,Johnny. It's like we cheated.
+Dialogue: 0,1:18:36.40,1:18:39.20,Default,,0,0,0,,爸 覆水难收\N{\rEng}Dad,we can't go back.
+Dialogue: 0,1:18:39.20,1:18:40.97,Default,,0,0,0,,你没死在那场大火中\N{\rEng}'Cause you didn't die in that fire.
+Dialogue: 0,1:18:40.97,1:18:43.51,Default,,0,0,0,,这事实已改变不了\N{\rEng}No matter what you do, nothing is going to change it.
+Dialogue: 0,1:18:43.51,1:18:46.91,Default,,0,0,0,,现在我们只能设法改善现况\N{\rEng}So all we can do is deal with this and try to make it right.
+Dialogue: 0,1:18:46.91,1:18:48.08,Default,,0,0,0,,我不是警察 我知道\N{\rEng}I'm not a cop.
+Dialogue: 0,1:18:49.21,1:18:49.78,Default,,0,0,0,,我不能...\N{\rEng}I can't...
+Dialogue: 0,1:18:49.78,1:18:52.02,Default,,0,0,0,,但我们可以一起努力\N{\rEng}We can do it together.
+Dialogue: 0,1:18:52.02,1:18:54.00,Default,,0,0,0,,记得打起精神 鼓起勇气吗?\N{\rEng}Remember spirit and guts?
+Dialogue: 0,1:18:56.19,1:18:58.89,Default,,0,0,0,,约翰 他拿了我的驾照\N{\rEng}He's got my driver's license.
+Dialogue: 0,1:18:58.89,1:18:59.96,Default,,0,0,0,,什么?\N{\rEng}What?
+Dialogue: 0,1:18:59.96,1:19:03.26,Default,,0,0,0,,他拿了我的驾照 知道我住哪\N{\rEng}He took my driver's license. He knows where we live.
+Dialogue: 0,1:19:03.26,1:19:05.80,Default,,0,0,0,,他拿走了你的皮夹?\N{\rEng}He took your... He took your wallet?
+Dialogue: 0,1:19:05.80,1:19:08.67,Default,,0,0,0,,对 他把皮夹扔了 只留驾照\N{\rEng}Well,he tossed the wallet, but he kept the license.
+Dialogue: 0,1:19:08.67,1:19:10.20,Default,,0,0,0,,他碰了你的皮夹 皮夹呢?\N{\rEng}He touched your wallet? Where is it?
+Dialogue: 0,1:19:10.20,1:19:11.00,Default,,0,0,0,,在我的口袋里\N{\rEng}In my pocket.
+Dialogue: 0,1:19:11.00,1:19:13.07,Default,,0,0,0,,天哪 你逮到他了 爸\N{\rEng}We got him,Dad. You got him.
+Dialogue: 0,1:19:13.07,1:19:13.77,Default,,0,0,0,,什么?\N{\rEng}What?
+Dialogue: 0,1:19:13.77,1:19:16.04,Default,,0,0,0,,你采到了他的指纹\N{\rEng}You got his prints.
+Dialogue: 0,1:19:16.04,1:19:18.18,Default,,0,0,0,,把皮夹给我\N{\rEng}Listen, you gotta get me that wallet.
+Dialogue: 0,1:19:18.18,1:19:20.21,Default,,0,0,0,,我要怎么拿给你?\N{\rEng}How the hell am I supposed to do that?
+Dialogue: 0,1:19:20.21,1:19:22.01,Default,,0,0,0,,尽量小心\N{\rEng}As carefully as possible.
+Dialogue: 0,1:19:22.01,1:19:24.28,Default,,0,0,0,,用指尖捏着边缘取出皮夹\N{\rEng}Take your wallet out by the corners.
+Dialogue: 0,1:19:24.28,1:19:25.02,Default,,0,0,0,,你在说什么?\N{\rEng}What are you talking about?
+Dialogue: 0,1:19:25.02,1:19:26.42,Default,,0,0,0,,照做就好了 爸\N{\rEng}Dad,just do it.
+Dialogue: 0,1:19:26.42,1:19:27.55,Default,,0,0,0,,好吧\N{\rEng}All right.
+Dialogue: 0,1:19:27.55,1:19:31.22,Default,,0,0,0,,好 我拿到了\N{\rEng}All right. Right. Okay. I got it.
+Dialogue: 0,1:19:31.22,1:19:35.83,Default,,0,0,0,,拿东西把皮夹包起来\N{\rEng}I want you to wrap it up.
+Dialogue: 0,1:19:35.83,1:19:38.26,Default,,0,0,0,,放在装电晶体的塑胶袋里\N{\rEng}Put it in one of them plastic bags you keep the extra transistors in.
+Dialogue: 0,1:19:38.26,1:19:40.37,Default,,0,0,0,,好 我懂你的意思了 队长\N{\rEng}I see where you're going!
+Dialogue: 0,1:19:40.37,1:19:43.70,Default,,0,0,0,,好极了 把皮夹藏起来\N{\rEng}Beautiful. Now,I want you to hide it somewhere.
+Dialogue: 0,1:19:43.70,1:19:46.92,Default,,0,0,0,,藏在三十年没人找得到的地方\N{\rEng}Somewhere where nobody's gonna find it for the next 30 years.
+Dialogue: 0,1:19:48.04,1:19:49.57,Default,,0,0,0,,那就藏在...\N{\rEng}I think maybe...
+Dialogue: 0,1:19:49.57,1:19:50.78,Default,,0,0,0,,哪里?\N{\rEng}Where?
+Dialogue: 0,1:19:50.78,1:19:52.88,Default,,0,0,0,,餐厅里的窗座椅...\N{\rEng}The window seat in the dining room.
+Dialogue: 0,1:19:52.88,1:19:55.98,Default,,0,0,0,,左边底下有块木板松了\N{\rEng}There's a loose board on the left, on the bottom.
+Dialogue: 0,1:19:55.98,1:19:57.46,Default,,0,0,0,,太棒了!\N{\rEng}Perfect! Beautiful!
+Dialogue: 0,1:20:14.60,1:20:15.53,Default,,0,0,0,,放进去了\N{\rEng}It's in!
+Dialogue: 0,1:20:15.53,1:20:17.72,Default,,0,0,0,,很好 我马上去找\N{\rEng}Great! Okay,I'm after it.
+Dialogue: 0,1:20:29.41,1:20:33.10,Default,,0,0,0,,计划开始 安心等我的消息吧\N{\rEng}We're in business! Now just sit tight and don't worry.
+Dialogue: 0,1:21:04.68,1:21:06.33,Default,,0,0,0,,答案揭晓...\N{\rEng}And the winner is...
+Dialogue: 0,1:21:08.19,1:21:10.62,Default,,0,0,0,,天哪 他是警察\N{\rEng}Oh,man. It's a cop.
+Dialogue: 0,1:21:10.62,1:21:12.01,Default,,0,0,0,,怎么搞的?\N{\rEng}What the hell?
+Dialogue: 0,1:21:20.60,1:21:22.68,Default,,0,0,0,,混帐东西\N{\rEng}Son of a bitch.
+Dialogue: 0,1:21:36.88,1:21:39.43,Default,,0,0,0,,薛波先生 你好\N{\rEng}Hey,Mr. Shepard. How are you?
+Dialogue: 0,1:21:40.12,1:21:42.69,Default,,0,0,0,,哪位?嗨 警探\N{\rEng}Who's that? Oh,hi,Detective.
+Dialogue: 0,1:21:42.69,1:21:44.99,Default,,0,0,0,,来这儿处理一下事情\N{\rEng}I came by to wrap things up over there.
+Dialogue: 0,1:21:44.99,1:21:46.29,Default,,0,0,0,,顺道来打声招呼\N{\rEng}Thought I'd say hello.
+Dialogue: 0,1:21:46.29,1:21:49.13,Default,,0,0,0,,我很高兴你来 请进吧\N{\rEng}I'm glad you did. Come on in.
+Dialogue: 0,1:21:49.13,1:21:50.05,Default,,0,0,0,,谢谢你\N{\rEng}Thank you.
+Dialogue: 0,1:21:53.97,1:21:54.70,Default,,0,0,0,,谢谢你\N{\rEng}Thank you.
+Dialogue: 0,1:21:54.70,1:21:55.50,Default,,0,0,0,,要不要喝杯咖啡?\N{\rEng}Buy you a cup of coffee?
+Dialogue: 0,1:21:55.50,1:21:56.42,Default,,0,0,0,,好啊\N{\rEng}Sure.
+Dialogue: 0,1:21:57.17,1:21:58.70,Default,,0,0,0,,黑咖啡?加糖?加奶精?\N{\rEng}Black? Sugar? Milk?
+Dialogue: 0,1:21:58.70,1:22:00.81,Default,,0,0,0,,随便都好\N{\rEng}Oh,you know. It's all good.
+Dialogue: 0,1:22:00.81,1:22:02.06,Default,,0,0,0,,那就喝黑咖啡吧\N{\rEng}You'll get black.
+Dialogue: 0,1:22:08.01,1:22:09.70,Default,,0,0,0,,这壶刚煮好\N{\rEng}Fresh pot.
+Dialogue: 0,1:22:10.75,1:22:11.78,Default,,0,0,0,,你认识杰克?\N{\rEng}You know Jack?
+Dialogue: 0,1:22:11.78,1:22:13.65,Default,,0,0,0,,不认识\N{\rEng}Not really.
+Dialogue: 0,1:22:13.65,1:22:15.02,Default,,0,0,0,,他还在当警察?\N{\rEng}He's still on the job?
+Dialogue: 0,1:22:15.02,1:22:18.84,Default,,0,0,0,,他现在是私家侦探 快退休了\N{\rEng}He does a little P.I., but he's mostly retired.
+Dialogue: 0,1:22:19.99,1:22:21.95,Default,,0,0,0,,靠养老金度日?\N{\rEng}Living off his pension,huh?
+Dialogue: 0,1:22:23.46,1:22:26.44,Default,,0,0,0,,杰克被卷入奈普案\N{\rEng}Jack got caught up in them Knapp hearings.
+Dialogue: 0,1:22:27.60,1:22:31.20,Default,,0,0,0,,贪污的警察陷害他背黑锅\N{\rEng}Set up by some dirty cops who needed a fall guy.
+Dialogue: 0,1:22:31.20,1:22:32.54,Default,,0,0,0,,对他打击很大\N{\rEng}Hurt him bad.
+Dialogue: 0,1:22:32.54,1:22:34.04,Default,,0,0,0,,若他母亲知道 一定很伤心\N{\rEng}Would've broke his mother's heart.
+Dialogue: 0,1:22:34.04,1:22:35.01,Default,,0,0,0,,她在吗?\N{\rEng}Is she around?
+Dialogue: 0,1:22:35.01,1:22:36.17,Default,,0,0,0,,谁?\N{\rEng}Who?
+Dialogue: 0,1:22:36.17,1:22:37.08,Default,,0,0,0,,你太太\N{\rEng}Your wife.
+Dialogue: 0,1:22:37.08,1:22:41.37,Default,,0,0,0,,她很多年前就过世了\N{\rEng}No. She passed on a long time ago.
+Dialogue: 0,1:22:43.18,1:22:45.57,Default,,0,0,0,,很多年前\N{\rEng}Long time ago.
+Dialogue: 0,1:22:51.42,1:22:52.82,Default,,0,0,0,,抱歉\N{\rEng}I'm sorry.
+Dialogue: 0,1:22:52.82,1:22:54.28,Default,,0,0,0,,没关系\N{\rEng}Oh,that's okay.
+Dialogue: 0,1:23:01.33,1:23:03.19,Default,,0,0,0,,请问她是怎么死的?\N{\rEng}Can I ask you how she died?
+Dialogue: 0,1:23:08.84,1:23:11.63,Default,,0,0,0,,她...\N{\rEng}Well,she...
+Dialogue: 0,1:23:13.31,1:23:15.91,Default,,0,0,0,,她被人谋杀 警探\N{\rEng}She was murdered.
+Dialogue: 0,1:23:15.91,1:23:18.34,Default,,0,0,0,,手法残酷\N{\rEng}An ugly one,to tell you the truth.
+Dialogue: 0,1:23:19.18,1:23:23.01,Default,,0,0,0,,她是警察的妈 凶手却没抓到\N{\rEng}Mother of a cop,and they never found the bastard who did it.
+Dialogue: 0,1:23:35.53,1:23:36.55,Default,,0,0,0,,嗨\N{\rEng}Hi.
+Dialogue: 0,1:23:57.86,1:23:59.54,Default,,0,0,0,,你还在当警察吗?\N{\rEng}You on the job?
+Dialogue: 0,1:24:03.26,1:24:04.91,Default,,0,0,0,,那是很久以前的事了\N{\rEng}A long time ago.
+Dialogue: 0,1:24:06.43,1:24:07.53,Default,,0,0,0,,我认识你吗?\N{\rEng}Do I know you?
+Dialogue: 0,1:24:07.53,1:24:08.43,Default,,0,0,0,,我看起来面熟吗?\N{\rEng}I look familiar?
+Dialogue: 0,1:24:08.43,1:24:09.90,Default,,0,0,0,,没见过\N{\rEng}No.
+Dialogue: 0,1:24:09.90,1:24:10.90,Default,,0,0,0,,你是哪个单位的?\N{\rEng}What house you work?
+Dialogue: 0,1:24:10.90,1:24:12.59,Default,,0,0,0,,74管区凶案组\N{\rEng}The 7-4. Homicide.
+Dialogue: 0,1:24:13.61,1:24:14.71,Default,,0,0,0,,很优秀嘛\N{\rEng}Mmm,a hotshot.
+Dialogue: 0,1:24:14.71,1:24:17.28,Default,,0,0,0,,没有 只是善尽职责\N{\rEng}No,just working the job.
+Dialogue: 0,1:24:17.28,1:24:18.71,Default,,0,0,0,,我也有同感\N{\rEng}Yeah,I hear that,pal.
+Dialogue: 0,1:24:18.71,1:24:22.81,Default,,0,0,0,,我正在侦办你那年代的案子\N{\rEng}As a matter of fact,I caught a case that goes back to your day.
+Dialogue: 0,1:24:22.81,1:24:25.27,Default,,0,0,0,,南丁格尔命案\N{\rEng}One of the Nightingale murders.
+Dialogue: 0,1:24:26.32,1:24:27.09,Default,,0,0,0,,别扯了!\N{\rEng}No kidding?
+Dialogue: 0,1:24:27.09,1:24:29.05,Default,,0,0,0,,失踪的年轻女孩\N{\rEng}No. Missing teenager.
+Dialogue: 0,1:24:29.05,1:24:33.22,Default,,0,0,0,,六八年失踪 上周发现骨骸\N{\rEng}Disappeared back in '68. We found her bones last week...
+Dialogue: 0,1:24:33.22,1:24:36.49,Default,,0,0,0,,被埋在戴曼街旁的旧餐馆后面\N{\rEng}buried behind some old diner out by Dyckman Street.
+Dialogue: 0,1:24:36.49,1:24:38.73,Default,,0,0,0,,玛丽·费奈利\N{\rEng}Mary Finelli.
+Dialogue: 0,1:24:38.73,1:24:40.73,Default,,0,0,0,,完全是靠运气\N{\rEng}Talk about dumb luck!
+Dialogue: 0,1:24:40.73,1:24:42.60,Default,,0,0,0,,三十年后发现尸体 鉴定身份\N{\rEng}The odds of finding that girl 30 years later and of hitting a dental...
+Dialogue: 0,1:24:42.60,1:24:44.64,Default,,0,0,0,,这机会几乎不可能\N{\rEng}Forget about it.
+Dialogue: 0,1:24:44.64,1:24:49.14,Default,,0,0,0,,最精彩的是 她是第一个死者\N{\rEng}The best part is, she's the first victim.
+Dialogue: 0,1:24:49.14,1:24:51.16,Default,,0,0,0,,这表示她认识凶手\N{\rEng}And she knew the killer,so...
+Dialogue: 0,1:24:51.88,1:24:55.50,Default,,0,0,0,,从她的骨骸应该能知道不少事\N{\rEng}I'm betting those old bones are gonna do a lot of talking.
+Dialogue: 0,1:24:58.75,1:25:01.65,Default,,0,0,0,,追查过去 这次一定能破案\N{\rEng}But not for nothing. The past is a funny thing.
+Dialogue: 0,1:25:01.65,1:25:03.52,Default,,0,0,0,,我们都有见不得人的秘密\N{\rEng}We all have skeletons in the closet.
+Dialogue: 0,1:25:03.52,1:25:06.72,Default,,0,0,0,,你永远不知道何时会露出马脚\N{\rEng}You never know when they're going to pop up and bite you in the ass.
+Dialogue: 0,1:25:06.72,1:25:08.11,Default,,0,0,0,,对吧 杰克?\N{\rEng}Huh,Jack?
+Dialogue: 0,1:25:12.60,1:25:14.30,Default,,0,0,0,,你改变了犯案手法\N{\rEng}You changed your M.O.
+Dialogue: 0,1:25:14.30,1:25:16.57,Default,,0,0,0,,若被人发现你妈也是护士\N{\rEng}If they knew your mom was a Nightingale,
+Dialogue: 0,1:25:16.57,1:25:19.14,Default,,0,0,0,,警方就会从家人着手调查\N{\rEng}they would've looked at the family.
+Dialogue: 0,1:25:19.14,1:25:21.53,Default,,0,0,0,,就会查到你身上\N{\rEng}They would've looked at you.
+Dialogue: 0,1:25:26.88,1:25:28.68,Default,,0,0,0,,有什么好查的?\N{\rEng}And what are you lookin' at?
+Dialogue: 0,1:25:28.68,1:25:31.04,Default,,0,0,0,,你会坐一辈子的牢\N{\rEng}Stealin' your life away.
+Dialogue: 0,1:25:31.55,1:25:34.29,Default,,0,0,0,,你三十年前就完了\N{\rEng}You went down 30 years ago,pal.
+Dialogue: 0,1:25:34.29,1:25:37.40,Default,,0,0,0,,你只是没发现\N{\rEng}You just don't know it yet.
+Dialogue: 0,1:26:02.85,1:26:05.72,Default,,0,0,0,,他是警察?\N{\rEng}A cop? He's a cop?
+Dialogue: 0,1:26:05.72,1:26:07.29,Default,,0,0,0,,我该怎么做?\N{\rEng}What the hell am I supposed to do with that?
+Dialogue: 0,1:26:07.29,1:26:09.85,Default,,0,0,0,,找公用电话打给联邦调查局\N{\rEng}Call the FBI. Use a pay phone.
+Dialogue: 0,1:26:09.85,1:26:13.16,Default,,0,0,0,,别报姓名 就说薛波杀害了...\N{\rEng}Don't give him your name,Dad.Say Shepard killed Finelli,
+Dialogue: 0,1:26:13.16,1:26:14.89,Default,,0,0,0,,费利和柯拉克等人\N{\rEng}Clark and the others.
+Dialogue: 0,1:26:14.89,1:26:16.09,Default,,0,0,0,,他就是南丁格尔杀人魔\N{\rEng}That he's the Nightingale.
+Dialogue: 0,1:26:16.09,1:26:19.06,Default,,0,0,0,,再指出费利被埋葬的地点\N{\rEng}Say where Finelli's body's buried.
+Dialogue: 0,1:26:19.06,1:26:21.20,Default,,0,0,0,,让他们联想到他和她的关系\N{\rEng}They'll connect him to her.
+Dialogue: 0,1:26:21.20,1:26:23.67,Default,,0,0,0,,他们会去他住处搜出纪念品\N{\rEng}They'll search his place.They'll find some souvenirs.
+Dialogue: 0,1:26:23.67,1:26:25.42,Default,,0,0,0,,他习惯收藏被害人的首饰\N{\rEng}He always took a piece of his victims' jewelry.
+Dialogue: 0,1:26:26.50,1:26:27.79,Default,,0,0,0,,弗兰克\N{\rEng}Hey,Frank.
+Dialogue: 0,1:26:30.21,1:26:32.83,Default,,0,0,0,,什么事?你今天休假吗?\N{\rEng}What are you doing here? Are you off?
+Dialogue: 0,1:26:33.61,1:26:34.65,Default,,0,0,0,,我们有事找你谈\N{\rEng}We need to talk.
+Dialogue: 0,1:26:34.65,1:26:35.41,Default,,0,0,0,,怎么了 爸?\N{\rEng}Dad?
+Dialogue: 0,1:26:35.41,1:26:37.65,Default,,0,0,0,,等一下 约翰\N{\rEng}Hang on a sec,John.
+Dialogue: 0,1:26:37.65,1:26:41.15,Default,,0,0,0,,我正在忙 能不能...\N{\rEng}I'm in the middle of something important here. Mind if we do this...
+Dialogue: 0,1:26:41.15,1:26:45.79,Default,,0,0,0,,不行 抱歉 我们现在出去谈\N{\rEng}I'm sorry,Frank,but we need to step outside right now.
+Dialogue: 0,1:26:45.79,1:26:47.06,Default,,0,0,0,,爸 告诉我出了什么事\N{\rEng}What's happening?
+Dialogue: 0,1:26:47.06,1:26:52.66,Default,,0,0,0,,约翰 塞奇和他的搭档来我家\N{\rEng}John,Satch is here.He's with his partner.
+Dialogue: 0,1:26:52.66,1:26:54.60,Default,,0,0,0,,到底出了什么事?\N{\rEng}What's going on?
+Dialogue: 0,1:26:54.60,1:26:58.37,Default,,0,0,0,,等一下 你搭档跟来干嘛?\N{\rEng}Hang on a sec. What's your partner doing here?
+Dialogue: 0,1:26:58.37,1:27:00.10,Default,,0,0,0,,你的眼睛怎么了?\N{\rEng}What happened to your eye?
+Dialogue: 0,1:27:00.10,1:27:01.61,Default,,0,0,0,,撞伤了\N{\rEng}Banged it up.
+Dialogue: 0,1:27:01.61,1:27:04.31,Default,,0,0,0,,我们去外面谈 一定要现在谈\N{\rEng}Let's talk outside. We need to do that.
+Dialogue: 0,1:27:04.31,1:27:05.48,Default,,0,0,0,,谈什么?\N{\rEng}About what?
+Dialogue: 0,1:27:05.48,1:27:07.01,Default,,0,0,0,,走吧 别让大家为难\N{\rEng}Let's go. Do us both a favor.
+Dialogue: 0,1:27:07.01,1:27:07.65,Default,,0,0,0,,好吧\N{\rEng}All right.
+Dialogue: 0,1:27:07.65,1:27:08.31,Default,,0,0,0,,很好\N{\rEng}Okay.
+Dialogue: 0,1:27:08.31,1:27:09.13,Default,,0,0,0,,好吧\N{\rEng}All right.
+Dialogue: 0,1:27:12.48,1:27:15.03,Default,,0,0,0,,等我一下 约翰 我马上回来\N{\rEng}Stay there. I'll be back.
+Dialogue: 0,1:27:16.75,1:27:17.80,Default,,0,0,0,,我马上回来\N{\rEng}Be right back,all right?
+Dialogue: 0,1:27:31.87,1:27:33.52,Default,,0,0,0,,你昨晚在哪里 弗兰克?\N{\rEng}So where were you last night,Frank?
+Dialogue: 0,1:27:35.87,1:27:37.89,Default,,0,0,0,,你觉得我在哪里 塞奇?\N{\rEng}Where do you think I was,Satch?
+Dialogue: 0,1:27:39.74,1:27:41.76,Default,,0,0,0,,我找到了这个\N{\rEng}Same place I found this.
+Dialogue: 0,1:27:43.31,1:27:45.50,Default,,0,0,0,,在一具女尸底下\N{\rEng}Under the body of a dead woman.
+Dialogue: 0,1:27:48.25,1:27:51.70,Default,,0,0,0,,事情不是你想的那样\N{\rEng}No,this isn't what you think.
+Dialogue: 0,1:27:52.46,1:27:54.29,Default,,0,0,0,,事情不是你想的那样\N{\rEng}This isn't what you think.
+Dialogue: 0,1:27:54.29,1:27:55.73,Default,,0,0,0,,我也希望自己猜错 弗兰克\N{\rEng}I want to be wrong.
+Dialogue: 0,1:27:55.73,1:27:59.00,Default,,0,0,0,,我们回局里谈谈\N{\rEng}So let's take a ride down to the precinct and talk about it.
+Dialogue: 0,1:27:59.00,1:28:01.80,Default,,0,0,0,,我也想找你谈 我必须找你谈\N{\rEng}Yeah,I need to talk to you,too.
+Dialogue: 0,1:28:01.80,1:28:03.23,Default,,0,0,0,,我们回局里\N{\rEng}Come on,we'll take a ride.
+Dialogue: 0,1:28:03.23,1:28:06.44,Default,,0,0,0,,我先进去告诉我家人一声\N{\rEng}All right. Let me tell my family where I'm going.
+Dialogue: 0,1:28:06.44,1:28:07.76,Default,,0,0,0,,马上就回来\N{\rEng}All right? Be right back.
+Dialogue: 0,1:28:11.28,1:28:12.99,Default,,0,0,0,,没事的 放心好了\N{\rEng}It's all right. Don't worry.
+Dialogue: 0,1:28:21.95,1:28:23.76,Default,,0,0,0,,他们发现了西西·柯拉克的尸体\N{\rEng}They found Sissy Clark.
+Dialogue: 0,1:28:23.76,1:28:24.46,Default,,0,0,0,,认定是我干的\N{\rEng}They think that I did it.
+Dialogue: 0,1:28:24.46,1:28:25.46,Default,,0,0,0,,弗兰克 弗兰克 出了什么事?\N{\rEng}Frank. What's going on?
+Dialogue: 0,1:28:25.46,1:28:26.17,Default,,0,0,0,,先等我一下\N{\rEng}Give me a second.
+Dialogue: 0,1:28:28.89,1:28:30.03,Default,,0,0,0,,先等我一下!\N{\rEng}Give me a second.
+Dialogue: 0,1:28:30.03,1:28:31.00,Default,,0,0,0,,出了什么事?\N{\rEng}What's going on?
+Dialogue: 0,1:28:31.00,1:28:32.70,Default,,0,0,0,,塞奇叔叔 别抓走我爸\N{\rEng}Uncle Satch,don't!
+Dialogue: 0,1:28:32.70,1:28:33.56,Default,,0,0,0,,出了什么事?\N{\rEng}What's going on?
+Dialogue: 0,1:28:33.56,1:28:34.95,Default,,0,0,0,,塞奇 出了什么事?\N{\rEng}What's going on?
+Dialogue: 0,1:29:05.93,1:29:07.17,Default,,0,0,0,,他是警察\N{\rEng}He's a cop.
+Dialogue: 0,1:29:07.17,1:29:08.25,Default,,0,0,0,,警察?\N{\rEng}A cop?
+Dialogue: 0,1:29:11.20,1:29:16.21,Default,,0,0,0,,杰克·薛波 第15管区的警探\N{\rEng}Jack Shepard. He's a detective in the 15th precinct.
+Dialogue: 0,1:29:16.21,1:29:17.84,Default,,0,0,0,,我可以发誓 塞奇\N{\rEng}I swear,Satch.
+Dialogue: 0,1:29:17.84,1:29:22.86,Default,,0,0,0,,你儿子在未来用无线电告诉你\N{\rEng}And you got all this from the guy on the radio,from your son in the future.
+Dialogue: 0,1:29:23.51,1:29:26.13,Default,,0,0,0,,听起来很荒谬 但确实如此\N{\rEng}Yeah. As nuts as that sounds,yeah.
+Dialogue: 0,1:29:30.05,1:29:32.62,Default,,0,0,0,,你一定要听我说 别骤下结论\N{\rEng}You've gotta listen to me,open up your mind and try to understand what I say.
+Dialogue: 0,1:29:32.62,1:29:33.86,Default,,0,0,0,,弗兰克 别再说了\N{\rEng}Frank,stop.
+Dialogue: 0,1:29:33.86,1:29:34.86,Default,,0,0,0,,你一定要听懂我的意思\N{\rEng}You gotta know what I'm saying.
+Dialogue: 0,1:29:34.86,1:29:38.40,Default,,0,0,0,,你和这个女孩有一腿\N{\rEng}You got something going on with this girl,that's one thing.
+Dialogue: 0,1:29:38.40,1:29:40.05,Default,,0,0,0,,但你得告诉我\N{\rEng}But you gotta tell me.
+Dialogue: 0,1:29:42.50,1:29:45.94,Default,,0,0,0,,你有在听我说吗?你麻烦大了\N{\rEng}Are you listening to me? You're in a world of shit!
+Dialogue: 0,1:29:45.94,1:29:49.24,Default,,0,0,0,,目击者指证你到过她公寓门口\N{\rEng}An eyewitness puts you outside the dead girl's apartment.
+Dialogue: 0,1:29:49.24,1:29:53.21,Default,,0,0,0,,住处沾满你的指纹 还有驾照\N{\rEng}Your prints are all over the place, not to mention the license.
+Dialogue: 0,1:29:53.21,1:29:56.05,Default,,0,0,0,,查克去申请搜索状上你家搜查\N{\rEng}Chuck is getting a search warrant for your house.
+Dialogue: 0,1:29:56.05,1:29:57.08,Default,,0,0,0,,他会找到什么 弗兰克?\N{\rEng}What's he going to find,huh?
+Dialogue: 0,1:29:57.08,1:29:59.45,Default,,0,0,0,,什么也没有\N{\rEng}Nothing.
+Dialogue: 0,1:29:59.45,1:30:02.20,Default,,0,0,0,,你必须给我不在场证明\N{\rEng}Give me something, something I can believe.
+Dialogue: 0,1:30:13.16,1:30:15.77,Default,,0,0,0,,若我能证明呢?\N{\rEng}What if I can prove it to you?
+Dialogue: 0,1:30:15.77,1:30:16.75,Default,,0,0,0,,怎么证明?\N{\rEng}How's that?
+Dialogue: 0,1:30:17.94,1:30:20.57,Default,,0,0,0,,世界杯打到哪?四局?五局?\N{\rEng}World Series. Where are they right now? What? Fifth inning?
+Dialogue: 0,1:30:20.57,1:30:22.34,Default,,0,0,0,,我不知道\N{\rEng}I don't know.
+Dialogue: 0,1:30:22.34,1:30:27.58,Default,,0,0,0,,我知道六局下半\N{\rEng}What if I were to tell you that in the bottom of the sixth inning...
+Dialogue: 0,1:30:27.58,1:30:30.58,Default,,0,0,0,,大都会队会以三比零落后\N{\rEng}the Mets are gonna be down three-zip?
+Dialogue: 0,1:30:30.58,1:30:32.82,Default,,0,0,0,,轮到琼斯上场打击\N{\rEng}Cleon Jones is gonna come to bat.
+Dialogue: 0,1:30:32.82,1:30:38.22,Default,,0,0,0,,他会被暴投的球击中脚\N{\rEng}He's going to get hit...in the foot by a wild pitch.
+Dialogue: 0,1:30:38.22,1:30:40.55,Default,,0,0,0,,球上还会留下鞋油印\N{\rEng}It's gonna leave a shoe polish mark on the ball.
+Dialogue: 0,1:30:41.13,1:30:43.06,Default,,0,0,0,,先听我说完\N{\rEng}Hear me out! Hear me out,all right?
+Dialogue: 0,1:30:43.06,1:30:47.03,Default,,0,0,0,,他上一垒 轮到克蓝德农打击\N{\rEng}He goes to first. Clendenon comes up.
+Dialogue: 0,1:30:47.03,1:30:49.60,Default,,0,0,0,,两好两坏时击出左外野全垒打\N{\rEng}He's gonna hit a two-two pitch into the left field bleachers.
+Dialogue: 0,1:30:49.60,1:30:51.14,Default,,0,0,0,,这太荒谬了 弗兰克\N{\rEng}This is insane.
+Dialogue: 0,1:30:51.14,1:30:55.37,Default,,0,0,0,,七局下韦斯会击出阳春全垒打\N{\rEng}In the bottom of the seventh, Weis is gonna hit a solo home run...
+Dialogue: 0,1:30:55.37,1:30:58.04,Default,,0,0,0,,琼斯和索波达八局都会得分\N{\rEng}and Jones and Swoboda are gonna score in the eighth.
+Dialogue: 0,1:30:58.04,1:30:59.74,Default,,0,0,0,,大都会队会以五比三赢得比赛\N{\rEng}The Mets are gonna win that game, five to three.
+Dialogue: 0,1:30:59.74,1:31:01.95,Default,,0,0,0,,你去看球赛 不对就是我骗你\N{\rEng}Go watch that game. If it don't happen,I'm a liar.
+Dialogue: 0,1:31:03.18,1:31:05.16,Default,,0,0,0,,去看球... 去看球赛\N{\rEng}- Go watch... - Go watch the game.
+Dialogue: 0,1:31:05.85,1:31:09.72,Default,,0,0,0,,弗兰克 你被控谋杀西西·柯拉克\N{\rEng}Frank,they're gonna make you for Sissy Clark's murder!
+Dialogue: 0,1:31:09.72,1:31:12.69,Default,,0,0,0,,可能与南丁格尔命案扯上关系\N{\rEng}And they're gonna match that with the Nightingale murders.
+Dialogue: 0,1:31:12.69,1:31:15.86,Default,,0,0,0,,你知道这是什么意思吗?\N{\rEng}Do you understand what that means?
+Dialogue: 0,1:31:15.86,1:31:17.30,Default,,0,0,0,,什么事?\N{\rEng}Yeah?
+Dialogue: 0,1:31:17.30,1:31:20.41,Default,,0,0,0,,他太太来了 她想找你谈\N{\rEng}His wife is here. She wants to talk to you.
+Dialogue: 0,1:31:38.82,1:31:42.71,Default,,0,0,0,,{\an8\fs16\b1}(南丁格尔杀人魔再度犯案 嫌犯是消防队员)
+Dialogue: 0,1:32:04.31,1:32:07.36,Default,,0,0,0,,我们出去走走 喝杯咖啡\N{\rEng}Let's walk,Jules. Get a cup of coffee.
+Dialogue: 0,1:32:34.44,1:32:37.07,Default,,0,0,0,,抓到南丁格尔命案的嫌犯了?\N{\rEng}You got a collar in here for the Nightingale murders?
+Dialogue: 0,1:32:37.07,1:32:38.12,Default,,0,0,0,,对啊\N{\rEng}Yeah.
+Dialogue: 0,1:32:51.49,1:32:54.79,Default,,0,0,0,,你和弗兰克没事吧?\N{\rEng}Everything okay with you and Frank?
+Dialogue: 0,1:32:54.79,1:32:56.89,Default,,0,0,0,,我们很好 他拼命工作\N{\rEng}Yeah,we're good. He works hard.
+Dialogue: 0,1:32:56.89,1:32:59.10,Default,,0,0,0,,我拼命工作 我们都很好\N{\rEng}I work hard. We're good.
+Dialogue: 0,1:32:59.10,1:33:00.92,Default,,0,0,0,,西西·柯拉克是谁 塞奇?\N{\rEng}Who's Sissy Clark,Satch?
+Dialogue: 0,1:33:05.60,1:33:08.84,Default,,0,0,0,,你知道弗兰克昨晚去哪儿吗?\N{\rEng}Do you know where Frank was last night?
+Dialogue: 0,1:33:08.84,1:33:11.42,Default,,0,0,0,,他在上班 昨晚要值勤\N{\rEng}Yeah,he was working. He had a tour.
+Dialogue: 0,1:33:38.64,1:33:40.06,Default,,0,0,0,,坐下\N{\rEng}Sit down.
+Dialogue: 0,1:33:43.91,1:33:46.03,Default,,0,0,0,,你刚才有听见我的话吗?\N{\rEng}Did you hear what I said?
+Dialogue: 0,1:33:58.06,1:33:59.60,Default,,0,0,0,,你是怎么知道的?\N{\rEng}So how'd you know?
+Dialogue: 0,1:34:03.56,1:34:04.23,Default,,0,0,0,,出了什么事?\N{\rEng}What's happening?
+Dialogue: 0,1:34:04.23,1:34:05.43,Default,,0,0,0,,去找塞奇! 闭嘴 浑蛋!\N{\rEng}Shut up,asshole.
+Dialogue: 0,1:34:05.43,1:34:06.93,Default,,0,0,0,,告诉他杰克·薛波警探在这里!\N{\rEng}Mind if we take this outside?
+Dialogue: 0,1:34:06.93,1:34:07.97,Default,,0,0,0,,我们出去谈吧 他想杀我\N{\rEng}He's trying to kill me.
+Dialogue: 0,1:34:07.97,1:34:12.12,Default,,0,0,0,,去找塞奇!他想杀我!\N{\rEng}Find Satch! He's trying to kill me.
+Dialogue: 0,1:34:15.64,1:34:17.29,Default,,0,0,0,,你想对我的嫌犯怎样?\N{\rEng}What are you doing with my collar?
+Dialogue: 0,1:34:20.31,1:34:23.28,Default,,0,0,0,,抱歉 我不是故意要逾越权限\N{\rEng}Listen,I'm sorry,pal. I didn't mean to step on your toes.
+Dialogue: 0,1:34:23.28,1:34:26.82,Default,,0,0,0,,他们派我上来 我以为你也在\N{\rEng}They sent me from downstairs. I thought you'd be with him.
+Dialogue: 0,1:34:26.82,1:34:28.65,Default,,0,0,0,,你找他有什么事?\N{\rEng}What are you looking at him for?
+Dialogue: 0,1:34:28.65,1:34:34.13,Default,,0,0,0,,他和持枪抢劫的嫌犯特征吻合\N{\rEng}He matches a description of an armed robbery suspect.
+Dialogue: 0,1:34:34.13,1:34:36.33,Default,,0,0,0,,告诉我无线电的事\N{\rEng}So tell me about the radio.
+Dialogue: 0,1:34:36.33,1:34:37.86,Default,,0,0,0,,他用无线电和谁说话?\N{\rEng}Who's he talking to on that thing?
+Dialogue: 0,1:34:37.86,1:34:40.36,Default,,0,0,0,,他叫约翰 是个警察\N{\rEng}John. He's a cop.
+Dialogue: 0,1:34:40.36,1:34:43.52,Default,,0,0,0,,他常和他聊天 我也和他聊过\N{\rEng}He talks to him all the time. I've talked to him,too.
+Dialogue: 0,1:34:44.10,1:34:46.34,Default,,0,0,0,,你用无线电和小约翰聊天?\N{\rEng}You talk to Johnny on the radio?
+Dialogue: 0,1:34:46.34,1:34:50.21,Default,,0,0,0,,对 他叫约翰 到底怎么了?\N{\rEng}Yeah. John. What's going on?
+Dialogue: 0,1:34:50.21,1:34:51.88,Default,,0,0,0,,你来我家带走弗兰克\N{\rEng}You come and take Frank
+Dialogue: 0,1:34:51.88,1:34:53.73,Default,,0,0,0,,现在又用警察的语气跟我说话\N{\rEng}and now you're talking to me like a cop.
+Dialogue: 0,1:34:56.58,1:34:59.65,Default,,0,0,0,,我是以朋友的身份跟你说话\N{\rEng}I'm talking to you as a friend.
+Dialogue: 0,1:34:59.65,1:35:03.20,Default,,0,0,0,,以警察身份我根本不该在这里\N{\rEng}'Cause as a cop I wouldn't be here at all.
+Dialogue: 0,1:35:05.79,1:35:10.53,Default,,0,0,0,,茱莉亚 这件案子会给别人办\N{\rEng}Listen,Jules...they're gonna take me off this case.
+Dialogue: 0,1:35:10.53,1:35:14.42,Default,,0,0,0,,弗兰克会对他们说同样的话\N{\rEng}And then Frank is gonna tell them what he's been tellin' me.
+Dialogue: 0,1:35:16.07,1:35:20.12,Default,,0,0,0,,那就没人能帮他了\N{\rEng}And then nobody is gonna be able to help him. Okay?
+Dialogue: 0,1:35:25.14,1:35:28.15,Default,,0,0,0,,员警多半在看球赛或外出值勤\N{\rEng}Half the uniforms are at the game.
+Dialogue: 0,1:35:28.15,1:35:29.66,Default,,0,0,0,,大都会队赢球必定会引起骚动\N{\rEng}It'll be a riot if they pull it off.
+Dialogue: 0,1:35:30.38,1:35:32.72,Default,,0,0,0,,他跟你说些什么 塞奇?\N{\rEng}What is he telling you?
+Dialogue: 0,1:35:32.72,1:35:36.55,Default,,0,0,0,,他说他用无线电和约翰聊天\N{\rEng}That he's talking to Johnny on the radio.
+Dialogue: 0,1:35:36.55,1:35:39.12,Default,,0,0,0,,对 就是那个警察 我说过了\N{\rEng}Yeah. John,the cop. I told you that.
+Dialogue: 0,1:35:39.12,1:35:44.46,Default,,0,0,0,,不是 他指的是你儿子约翰\N{\rEng}No,he says that John...
+Dialogue: 0,1:35:44.46,1:35:48.77,Default,,0,0,0,,就是在未来世界的约翰\N{\rEng}is your son,Johnny,little Johnny...
+Dialogue: 0,1:35:48.77,1:35:50.72,Default,,0,0,0,,他们透过无线电聊天\N{\rEng}on the radio in the future.
+Dialogue: 0,1:35:53.44,1:35:57.45,Default,,0,0,0,,不对 你误解他了\N{\rEng}No. You misunderstood him.
+Dialogue: 0,1:36:11.96,1:36:14.59,Default,,0,0,0,,茱莉亚 那个西西·柯拉克?\N{\rEng}Sissy Clark?
+Dialogue: 0,1:36:14.59,1:36:16.16,Default,,0,0,0,,怎样?\N{\rEng}Yeah.
+Dialogue: 0,1:36:16.16,1:36:20.59,Default,,0,0,0,,她是护士 昨天被人杀害\N{\rEng}She's a nurse. And she was murdered yesterday.
+Dialogue: 0,1:36:22.27,1:36:25.40,Default,,0,0,0,,弗兰克有嫌疑\N{\rEng}And Frank is connected.
+Dialogue: 0,1:36:25.40,1:36:29.89,Default,,0,0,0,,他若非目击者就是共犯或凶手\N{\rEng}He is either a material witness or accomplice or the perpetrator.
+Dialogue: 0,1:36:33.71,1:36:36.23,Default,,0,0,0,,操控权完全在麦奈里手上\N{\rEng}McNally,who's been thoroughly in command.
+Dialogue: 0,1:36:43.05,1:36:46.54,Default,,0,0,0,,琼斯上一垒 狄米洛叫他回来\N{\rEng}Cleon starts down to first base, and DeMiro calls him back.
+Dialogue: 0,1:36:50.96,1:36:54.53,Default,,0,0,0,,塞奇 你知道他不会做这种事\N{\rEng}Satch,you know he didn't do this. Right?
+Dialogue: 0,1:36:54.53,1:36:56.90,Default,,0,0,0,,他拿着球走过来了\N{\rEng}Carrying the baseball, he's coming over now.
+Dialogue: 0,1:36:56.90,1:36:58.64,Default,,0,0,0,,哈吉斯把球拿给狄米洛看\N{\rEng}Hodges showing the baseball to DeMiro.
+Dialogue: 0,1:36:58.64,1:36:59.84,Default,,0,0,0,,我能去看他吗?\N{\rEng}Can I see him?
+Dialogue: 0,1:36:59.84,1:37:02.07,Default,,0,0,0,,哈吉斯说球上沾了鞋油\N{\rEng}Hodges... We might have a shoe polish play here.
+Dialogue: 0,1:37:02.07,1:37:03.81,Default,,0,0,0,,不行 我...\N{\rEng}No, I...
+Dialogue: 0,1:37:03.81,1:37:05.44,Default,,0,0,0,,还记得一九五七年密尔瓦基的\N{\rEng}Remember the Nippy Jones shoe polish play in the 1957 World Series...
+Dialogue: 0,1:37:05.44,1:37:07.37,Default,,0,0,0,,世界杯也发生过类似事件吗?\N{\rEng}Hodges showing it to DeMiro, who awards first base!
+Dialogue: 0,1:37:08.85,1:37:11.75,Default,,0,0,0,,哈吉斯把球拿给狄米洛看\N{\rEng}Haggis to see the ball to Dimi Luo
+Dialogue: 0,1:37:11.75,1:37:12.80,Default,,0,0,0,,他判琼斯上一垒\N{\rEng}He sentenced Jones on first base
+Dialogue: 0,1:37:16.52,1:37:17.70,Default,,0,0,0,,天哪\N{\rEng}My God.
+Dialogue: 0,1:37:19.52,1:37:21.17,Default,,0,0,0,,塞奇 什么事?\N{\rEng}Satch,what's going on?
+Dialogue: 0,1:37:22.93,1:37:25.10,Default,,0,0,0,,我先去侦讯那个消防员\N{\rEng}Mind if I go back at the fireboy?
+Dialogue: 0,1:37:25.10,1:37:26.42,Default,,0,0,0,,听听他怎么说\N{\rEng}I wanna see what he's got.
+Dialogue: 0,1:37:50.99,1:37:52.78,Default,,0,0,0,,停电了!\N{\rEng}It's out down here!
+Dialogue: 0,1:40:44.39,1:40:45.48,Default,,0,0,0,,{\an8\fs16\b1}(南丁格尔命案再添一冤魂)
+Dialogue: 0,1:43:55.62,1:43:56.87,Default,,0,0,0,,弗兰克\N{\rEng}Frank.
+Dialogue: 0,1:43:58.99,1:44:00.24,Default,,0,0,0,,嗨!\N{\rEng}Hey,bud.
+Dialogue: 0,1:44:17.24,1:44:19.51,Default,,0,0,0,,水上警察\N{\rEng}Water police.
+Dialogue: 0,1:44:19.51,1:44:21.58,Default,,0,0,0,,请说吧 水上警察\N{\rEng}Go ahead. Water police
+Dialogue: 0,1:44:21.58,1:44:25.08,Default,,0,0,0,,问问空中警察有没有直升机\N{\rEng}See if aviation's got a helicopter...
+Dialogue: 0,1:44:25.08,1:44:28.20,Default,,0,0,0,,能来这里搜索水中的一具尸体\N{\rEng}for commencing an air search for body in water.
+Dialogue: 0,1:44:55.91,1:45:00.38,Default,,0,0,0,,对该队和世界杯最有价值球员\N{\rEng}It was a season and World Series for the ages for the Mets and MVp Don Clendenon.
+Dialogue: 0,1:45:00.38,1:45:02.37,Default,,0,0,0,,一垒手克蓝德农而言\N{\rEng}For the Mets faithful, the New York fans,wow!
+Dialogue: 0,1:45:21.37,1:45:24.35,Default,,0,0,0,,这是你的咖啡和香烟\N{\rEng}This is your coffee and cigarettes.
+Dialogue: 0,1:45:34.85,1:45:36.43,Default,,0,0,0,,我去楼上\N{\rEng}I'll be upstairs.
+Dialogue: 0,1:46:26.47,1:46:27.69,Default,,0,0,0,,约翰 你在吗?\N{\rEng}John,are you there?
+Dialogue: 0,1:46:28.54,1:46:29.72,Default,,0,0,0,,约翰 我回来了\N{\rEng}John,I'm back.
+Dialogue: 0,1:46:30.67,1:46:31.88,Default,,0,0,0,,约翰 你在吗?\N{\rEng}John,are you there?
+Dialogue: 0,1:46:31.88,1:46:33.39,Default,,0,0,0,,我在这里 爸\N{\rEng}I'm here,Dad.
+Dialogue: 0,1:46:34.14,1:46:35.57,Default,,0,0,0,,我们办到了 儿子\N{\rEng}We did it,son.
+Dialogue: 0,1:46:37.28,1:46:38.01,Default,,0,0,0,,是吗?\N{\rEng}We did?
+Dialogue: 0,1:46:38.01,1:46:39.52,Default,,0,0,0,,对啊\N{\rEng}Yeah.
+Dialogue: 0,1:46:39.52,1:46:42.94,Default,,0,0,0,,有点不对劲 我觉得...\N{\rEng}There's something... Something's wrong. I don't...
+Dialogue: 0,1:46:43.92,1:46:45.34,Default,,0,0,0,,怎么了?\N{\rEng}What's wrong?
+Dialogue: 0,1:46:46.42,1:46:50.33,Default,,0,0,0,,若阻止了他 为何妈不在?\N{\rEng}If we stopped him, why isn't Mom here?
+Dialogue: 0,1:46:50.33,1:46:53.40,Default,,0,0,0,,为何我记忆里她没好好的?\N{\rEng}Why don't I remember her being okay?
+Dialogue: 0,1:46:53.40,1:46:56.84,Default,,0,0,0,,但我杀了他 他已经死了\N{\rEng}But I killed him. He's dead.
+Dialogue: 0,1:47:02.87,1:47:06.94,Default,,0,0,0,,轮到我来取你性命了\N{\rEng}My turn to steal your life away.
+Dialogue: 0,1:47:06.94,1:47:09.16,Default,,0,0,0,,约翰 你在吗?\N{\rEng}John? Johnny,you there?
+Dialogue: 0,1:47:50.22,1:47:51.61,Default,,0,0,0,,伙伴\N{\rEng}Hey,bud.
+Dialogue: 0,1:48:11.04,1:48:12.46,Default,,0,0,0,,弗兰克!\N{\rEng}Frank!
+Dialogue: 0,1:48:13.61,1:48:16.71,Default,,0,0,0,,茱莉亚\N{\rEng}Julia!
+Dialogue: 0,1:48:16.71,1:48:17.90,Default,,0,0,0,,老婆!\N{\rEng}Honey!
+Dialogue: 0,1:48:35.40,1:48:36.17,Default,,0,0,0,,茱莉亚\N{\rEng}Julia!
+Dialogue: 0,1:48:36.17,1:48:37.09,Default,,0,0,0,,妈?\N{\rEng}Mommy?
+Dialogue: 0,1:48:37.77,1:48:39.02,Default,,0,0,0,,不要!\N{\rEng}No!
+Dialogue: 0,1:48:43.34,1:48:44.70,Default,,0,0,0,,妈?\N{\rEng}Mommy?
+Dialogue: 0,1:48:48.21,1:48:49.57,Default,,0,0,0,,小约翰\N{\rEng}Hey,Johnny.
+Dialogue: 0,1:49:02.53,1:49:04.61,Default,,0,0,0,,没事 小家伙\N{\rEng}It's okay,it's okay.
+Dialogue: 0,1:49:08.33,1:49:10.43,Default,,0,0,0,,你想怎样 弗兰克?\N{\rEng}What are you gonna do,Frank?
+Dialogue: 0,1:49:10.43,1:49:11.74,Default,,0,0,0,,把枪放下\N{\rEng}Put the gun down.
+Dialogue: 0,1:49:11.74,1:49:13.16,Default,,0,0,0,,放他走\N{\rEng}Let him go!
+Dialogue: 0,1:49:13.70,1:49:15.39,Default,,0,0,0,,只要你把枪放下\N{\rEng}You put the gun down.
+Dialogue: 0,1:49:19.91,1:49:22.70,Default,,0,0,0,,我会扭断他的脖子 把枪放下\N{\rEng}I'll snap his neck. Put the gun down now.
+Dialogue: 0,1:49:35.96,1:49:37.73,Default,,0,0,0,,你的死期到了 沙利文\N{\rEng}Time to die,Sullivan.
+Dialogue: 0,1:49:37.73,1:49:39.38,Default,,0,0,0,,你的死期到了 沙利文\N{\rEng}Time to die.
+Dialogue: 0,1:49:40.56,1:49:41.43,Default,,0,0,0,,弗兰克!\N{\rEng}Frank!
+Dialogue: 0,1:49:41.43,1:49:45.05,Default,,0,0,0,,快跑啊 小约翰!\N{\rEng}Run,Johnny,run,run,run!
+Dialogue: 0,1:49:50.84,1:49:53.30,Default,,0,0,0,,不要!\N{\rEng}No!
+Dialogue: 0,1:50:02.15,1:50:04.25,Default,,0,0,0,,过来这里 你没事吧?\N{\rEng}Come here. You all right?
+Dialogue: 0,1:50:04.25,1:50:05.64,Default,,0,0,0,,你没事吧?\N{\rEng}You all right?
+Dialogue: 0,1:50:54.80,1:50:57.09,Default,,0,0,0,,我还在这里 队长\N{\rEng}I'm still here,Chief.
+Dialogue: 0,1:51:32.71,1:51:34.11,Default,,0,0,0,,加油 塞奇!\N{\rEng}Come,Satch.
+Dialogue: 0,1:51:34.11,1:51:35.12,Default,,0,0,0,,加油 塞奇\N{\rEng}Come,Satch.
+Dialogue: 0,1:51:35.88,1:51:37.23,Default,,0,0,0,,投球削过本垒板!\N{\rEng}Run the whole.
+Dialogue: 0,1:51:42.05,1:51:43.51,Default,,0,0,0,,加油 弗兰克\N{\rEng}Come on,Frank!
+Dialogue: 0,1:51:45.22,1:51:47.02,Default,,0,0,0,,打不到球...\N{\rEng}Come. No better,no better,no better.
+Dialogue: 0,1:51:47.02,1:51:48.14,Default,,0,0,0,,加油 弗兰克!\N{\rEng}Come on, Frank.
+Dialogue: 0,1:51:51.56,1:51:53.54,Default,,0,0,0,,别打中我的宾士!\N{\rEng}The Benz! Not the Benz!
+Dialogue: 0,1:51:56.17,1:51:58.09,Default,,0,0,0,,天哪 别打中我的宾士!\N{\rEng}Oh,my God. Not the Benz!
+Dialogue: 0,1:52:00.57,1:52:02.69,Default,,0,0,0,,天哪...\N{\rEng}Oh,my God.
+Dialogue: 0,1:52:04.61,1:52:06.86,Default,,0,0,0,,打得好 弗兰克 干得好\N{\rEng}Nice hittin',Frank.
+Dialogue: 0,1:52:08.18,1:52:09.53,Default,,0,0,0,,多谢你了\N{\rEng}Thank you very much.
+Dialogue: 0,1:52:10.41,1:52:12.39,Default,,0,0,0,,{\an8\fs16\b1}(纽约 雅虎)
+Dialogue: 0,1:52:13.38,1:52:15.49,Default,,0,0,0,,来吧 我们开球了\N{\rEng}Come on, let's make the ball..
+Dialogue: 0,1:52:15.49,1:52:17.03,Default,,0,0,0,,打不到球...\N{\rEng}Come. No better,no better,no better.
+Dialogue: 0,1:52:21.42,1:52:22.81,Default,,0,0,0,,加油 宝贝!\N{\rEng}Come on,baby.
+Dialogue: 0,1:52:28.77,1:52:29.90,Default,,0,0,0,,加油 小约翰!\N{\rEng}Come on,Johnny.
+Dialogue: 0,1:52:29.90,1:52:31.12,Default,,0,0,0,,一棒送我回本垒吧 队长\N{\rEng}Bring me home,Chief.
+
+

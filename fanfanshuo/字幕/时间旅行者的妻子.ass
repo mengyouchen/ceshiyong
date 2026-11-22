@@ -1,0 +1,1269 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: Anita
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,微软雅黑,20,&H00DFDFDF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,3,134
+Style: E,微软雅黑,12,&H00DFDFDF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,3,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:31.20,0:00:38.20,Default,NTP,0,0,0,,{\fad(1200,1200)\move(195,195,195,190)}{\{\fs20\t(\fs36)\1c&H57C7FF&\b1}时间旅行者的妻子
+Dialogue: 0,0:01:02.36,0:01:03.75,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我唱不好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I can't sing.{\r}
+Dialogue: 0,0:01:03.92,0:01:05.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利，你唱得很好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That was fine, Henry.{\r}
+Dialogue: 0,0:01:05.89,0:01:07.55,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我没法唱的和你一样{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I can't sing like you.{\r}
+Dialogue: 0,0:01:07.73,0:01:10.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}本来就不用一样，你要唱出你自己的风格{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Of course not. You're supposed to sing like you.{\r}
+Dialogue: 0,0:01:10.63,0:01:13.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸说我根本找不着调儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Dad says I can't carry a tune in a wheelbarrow.{\r}
+Dialogue: 0,0:01:13.23,0:01:14.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸是故意逗你的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Dad was joking.{\r}
+Dialogue: 0,0:01:14.87,0:01:18.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我喜欢你的声音，我们都喜欢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I love your voice. We both love your voice.{\r}
+Dialogue: 0,0:01:21.84,0:01:23.54,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们来唱“铃儿响叮当”吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How about "Jingle Bells"?{\r}
+Dialogue: 0,0:01:23.71,0:01:25.40,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那首你会{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That you can sing.{\r}
+Dialogue: 0,0:01:50.04,0:01:51.63,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}妈妈！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Mommy!{\r}
+Dialogue: 0,0:01:53.11,0:01:54.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry.{\r}
+Dialogue: 0,0:01:59.41,0:02:01.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}“他说，如果这次我又帮你…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}"... for the third time and said:{\r}
+Dialogue: 0,0:02:01.91,0:02:04.58,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}把麦秆纺成金子,你要给我什么”{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}'What will you give me if I spin the straw for you this time also?'{\r}
+Dialogue: 0,0:02:04.75,0:02:05.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}“女孩儿说…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}answered the girl.{\r}
+Dialogue: 0,0:02:05.92,0:02:08.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我已经没有东西可以给你了”{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}'I have nothing left that I could give, '{\r}
+Dialogue: 0,0:02:08.96,0:02:11.22,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}“那你答应我，如果你当上了皇后…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}'Then promise me, if you should become queen,{\r}
+Dialogue: 0,0:02:11.39,0:02:13.38,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我就要你的第一个孩子”{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}your first child.'{\r}
+Dialogue: 0,0:02:13.56,0:02:17.36,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}“磨坊主的女儿心想…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}'Who knows whether that will ever happen?'{\r}
+Dialogue: 0,0:02:17.53,0:02:19.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这种事根本不可能发生…”{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}thought the miller's daughter."{\r}
+Dialogue: 0,0:02:28.88,0:02:30.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不！妈妈！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No! Mommy!{\r}
+Dialogue: 0,0:02:30.74,0:02:32.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利！你改变不了…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry！There's nothing you can do..{\r}
+Dialogue: 0,0:02:32.21,0:02:33.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}放开我！妈妈！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Let me go! Mommy!{\r}
+Dialogue: 0,0:02:34.08,0:02:36.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你改变不了这个…听着，听我说{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}There's nothing you can do. Listen. Listen to me.{\r}
+Dialogue: 0,0:02:36.48,0:02:37.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我没太多时间{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't have much time.{\r}
+Dialogue: 0,0:02:38.02,0:02:40.14,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你刚才在车里，车在打转{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You were in the car. It was spinning. {\r}
+Dialogue: 0,0:02:40.32,0:02:41.65,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但突然，你又回到了家里{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And all of a sudden...you were home {\r}
+Dialogue: 0,0:02:41.82,0:02:44.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}而且是两星期前，然后你看见了自己{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}it was two weeks ago，and you were watching yourself.{\r}
+Dialogue: 0,0:02:45.06,0:02:48.12,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看见你爸爸妈妈在给你自己讲故事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Watching your mom and dad read to you.{\r}
+Dialogue: 0,0:02:48.90,0:02:50.36,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你这是在穿越时空，明白吗{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You time-traveled, okay?{\r}
+Dialogue: 0,0:02:50.53,0:02:52.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}就像我来这儿看你一样{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Just like I did to come to see you.{\r}
+Dialogue: 0,0:02:53.00,0:02:55.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我就是你，亨利，懂吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm you, Henry. Understand?{\r}
+Dialogue: 0,0:02:55.54,0:02:56.93,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是长大后的你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}When you're grown up.{\r}
+Dialogue: 0,0:02:57.10,0:02:59.44,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们是同一个人{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're the same person.{\r}
+Dialogue: 0,0:02:59.61,0:03:02.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我知道现在你听不懂，但你迟早会懂{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I know that's hard to understand, but you will someday.{\r}
+Dialogue: 0,0:03:04.71,0:03:06.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我得走了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I have to go now.{\r}
+Dialogue: 0,0:03:07.15,0:03:08.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利，不要害怕{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But you don't need to be afraid, Henry.{\r}
+Dialogue: 0,0:03:09.08,0:03:11.98,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你会没事的，我保证{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're gonna be okay, I promise.{\r}
+Dialogue: 0,0:03:17.99,0:03:19.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}帮助那个小男孩！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Help that little boy!{\r}
+Dialogue: 0,0:04:22.69,0:04:23.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你这时间花的足够长的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That took you long enough.{\r}
+Dialogue: 0,0:04:23.76,0:04:25.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是吗，我不觉得{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I have no idea.{\r}
+Dialogue: 0,0:04:26.29,0:04:27.22,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,0:04:27.39,0:04:30.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}今晚是圣诞夜，有安排了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So Christmas Eve. Got any plans?{\r}
+Dialogue: 0,0:04:30.33,0:04:32.23,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}有啊，而且很重要{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, yeah. Big plans.{\r}
+Dialogue: 0,0:04:34.10,0:04:35.12,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}还需要什么吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Anything else?{\r}
+Dialogue: 0,0:04:35.30,0:04:36.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不用，谢谢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No, thank you.{\r}
+Dialogue: 0,0:04:42.54,0:04:45.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}圣诞快乐，很感谢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Merry Christmas. Thank you very much.{\r}
+Dialogue: 0,0:05:12.20,0:05:13.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}早上好，芝加哥{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Good morning, Chicago.{\r}
+Dialogue: 0,0:05:13.24,0:05:15.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}芝城电台时间早上8点{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}ChiTown radio time is 8 a.m.{\r}
+Dialogue: 0,0:05:15.24,0:05:16.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}稍后为您带来体育新闻{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}News and sports are coming up next.{\r}
+Dialogue: 0,0:05:17.04,0:05:20.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}气温上升，今天是这个多风的城市入春以来最暖和的一天{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Shaping up to be a warm first day of spring here in the Windy City.{\r}
+Dialogue: 0,0:05:25.69,0:05:26.52,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}请问一下{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Excuse me.{\r}
+Dialogue: 0,0:05:26.69,0:05:29.95,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我在找关于凯姆斯科特造纸术方面的资料{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm looking for something on papermaking at Kelmscott.{\r}
+Dialogue: 0,0:05:30.12,0:05:32.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}专业资料类的图书管理员可以帮你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Our special-collections librarian can help you with that.{\r}
+Dialogue: 0,0:05:35.16,0:05:36.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}需要帮忙吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Can I help you?{\r}
+Dialogue: 0,0:05:41.17,0:05:43.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry?{\r}
+Dialogue: 0,0:05:44.50,0:05:46.63,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}呃，是的…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yes?{\r}
+Dialogue: 0,0:05:51.74,0:05:53.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry.{\r}
+Dialogue: 0,0:05:53.88,0:05:55.90,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}真的是你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's you.{\r}
+Dialogue: 0,0:05:57.48,0:06:00.38,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你说过我们会相遇的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You told me this would happen.{\r}
+Dialogue: 0,0:06:00.55,0:06:01.58,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我应该表现的正常点{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm supposed to act normal,{\r}
+Dialogue: 0,0:06:01.75,0:06:05.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但我真的没法控制得住…。{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}but I'm not really acting very normal.{\r}
+Dialogue: 0,0:06:10.13,0:06:14.33,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}抱歉，我真的不认识你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm sorry. I really have no idea who you are.{\r}
+Dialogue: 0,0:06:15.80,0:06:17.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是克莱儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm Clare.{\r}
+Dialogue: 0,0:06:17.64,0:06:20.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}克莱儿·艾布希尔{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Clare Abshire.{\r}
+Dialogue: 0,0:06:20.24,0:06:23.64,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我知道你还不认识我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Now, I know... I know you don't know me.{\r}
+Dialogue: 0,0:06:24.61,0:06:27.44,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我知道这对你来说一定很怪异{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Look, I know how odd this must be for you.{\r}
+Dialogue: 0,0:06:27.61,0:06:28.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对我来说也是{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's odd for me.{\r}
+Dialogue: 0,0:06:29.08,0:06:31.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不过…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But, um...{\r}
+Dialogue: 0,0:06:32.05,0:06:34.21,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你愿意和我一起吃晚餐吗{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...would you like to have dinner with me,{\r}
+Dialogue: 0,0:06:34.39,0:06:37.22,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}到时我会跟你解释{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}and I'll explain?{\r}
+Dialogue: 0,0:06:37.39,0:06:41.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利，这顿晚餐我们已经计划很久了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry, we've been planning this dinner for a long time.{\r}
+Dialogue: 0,0:06:42.19,0:06:44.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}有吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We have?{\r}
+Dialogue: 0,0:06:45.00,0:06:49.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们去泰国餐厅，你的最爱{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Go to the Beau Thai. It's your favorite.{\r}
+Dialogue: 0,0:06:49.47,0:06:51.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那倒真没错{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It is. {\r}
+Dialogue: 0,0:06:57.81,0:07:00.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你看起来吃了不少苦{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You look like you've been having a hard time.{\r}
+Dialogue: 0,0:07:03.58,0:07:06.75,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不过一切都会好起来的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You know, everything's gonna be okay.{\r}
+Dialogue: 0,0:07:10.52,0:07:16.19,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那么，你答应和我共进晚餐吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So, is it "yes" then...to dinner?{\r}
+Dialogue: 0,0:07:16.93,0:07:18.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,0:07:19.93,0:07:21.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,0:07:23.74,0:07:24.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,0:07:24.74,0:07:27.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好啊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah.{\r}
+Dialogue: 0,0:07:27.27,0:07:29.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那就，泰国餐馆，7点{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So Beau Thai, 7:00pm . {\r}
+Dialogue: 0,0:07:30.04,0:07:31.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}到时候见{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}See you there.{\r}
+Dialogue: 0,0:07:58.70,0:07:59.73,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}糟糕{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, shit.{\r}
+Dialogue: 0,0:08:36.84,0:08:37.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}喂{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hey.{\r}
+Dialogue: 0,0:08:38.04,0:08:38.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不是吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, man.{\r}
+Dialogue: 0,0:08:39.08,0:08:40.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}想跑吗？混蛋{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Going somewhere, asshole?{\r}
+Dialogue: 0,0:08:40.58,0:08:41.67,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我根本用不着跑{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I wouldn't bother.{\r}
+Dialogue: 0,0:08:41.85,0:08:43.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是吗，那现在如何{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah? Why's that?{\r}
+Dialogue: 0,0:08:44.52,0:08:45.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你会知道的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You'll see.{\r}
+Dialogue: 0,0:08:45.48,0:08:46.61,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}闭嘴{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Shut up.{\r}
+Dialogue: 0,0:08:56.66,0:08:58.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}总部，11小队{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Dispatch, Unit 11.{\r}
+Dialogue: 0,0:08:58.26,0:08:59.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}请说，11小队{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Go ahead, 11.{\r}
+Dialogue: 0,0:08:59.33,0:09:00.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我逮到一个…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I got a...{\r}
+Dialogue: 0,0:09:04.67,0:09:06.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}见鬼了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Jesus Christ.{\r}
+Dialogue: 0,0:09:08.97,0:09:10.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}再来一杯葡萄酒吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Would you like another glass of wine?{\r}
+Dialogue: 0,0:09:10.51,0:09:12.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好的，谢谢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Sure. Thank you.{\r}
+Dialogue: 0,0:09:15.25,0:09:18.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对不起，我因为一些事…耽搁了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Sorry. I was... detained.{\r}
+Dialogue: 0,0:09:18.68,0:09:19.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你没事吧？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Are you okay?{\r}
+Dialogue: 0,0:09:19.52,0:09:21.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}没事，小问题{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, no big deal.{\r}
+Dialogue: 0,0:09:23.29,0:09:24.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谢谢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Thank you.{\r}
+Dialogue: 0,0:09:24.59,0:09:27.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你真的明白我不认识你的原因？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You do understand why it is I don't know you?{\r}
+Dialogue: 0,0:09:28.63,0:09:30.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}当然{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Uh, of course.{\r}
+Dialogue: 0,0:09:30.60,0:09:33.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}再过几年，你会穿越到过去见一个小女孩{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}When you're older, you'll travel back to when I'm a little girl.{\r}
+Dialogue: 0,0:09:33.63,0:09:35.40,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那就是小时候的我…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}For me, ahh...{\r}
+Dialogue: 0,0:09:35.57,0:09:39.40,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}所以我的意思是，我6岁起就认识你了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I mean, I've known you since... Since I was 6 years old.{\r}
+Dialogue: 0,0:09:39.57,0:09:41.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}自从你出现在…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Since, um, you appeared in the meadow ...{\r}
+Dialogue: 0,0:09:41.37,0:09:44.21,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我父母家后面的草地上开始{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}behind my parents' house where I used to play.{\r}
+Dialogue: 0,0:09:47.21,0:09:50.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你不该喝酒的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're not really supposed to drink.{\r}
+Dialogue: 0,0:09:50.32,0:09:52.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}为什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Why's that?{\r}
+Dialogue: 0,0:09:52.85,0:09:53.55,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你告诉过我…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, you told me that Dr.{\r}
+Dialogue: 0,0:09:53.72,0:09:55.65,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}肯德瑞克医生劝你戒酒{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Kendrick said that you should stop drinking...{\r}
+Dialogue: 0,0:09:55.82,0:09:58.52,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为喝酒会诱发你穿越时空{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...because it makes you travel.{\r}
+Dialogue: 0,0:09:58.69,0:09:59.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}肯德瑞克医生是谁？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Who's Dr. Kendrick?{\r}
+Dialogue: 0,0:09:59.96,0:10:02.48,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他是你的医生{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He's your doctor.{\r}
+Dialogue: 0,0:10:02.66,0:10:06.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他因遗传学方面的研究获得了柏格奖{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He wins the Berger for his work in genetics.{\r}
+Dialogue: 0,0:10:06.73,0:10:08.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他帮了你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He helps you.{\r}
+Dialogue: 0,0:10:10.00,0:10:11.99,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}有点难理解{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This is too much.{\r}
+Dialogue: 0,0:10:12.97,0:10:15.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对不起{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm sorry.{\r}
+Dialogue: 0,0:10:15.31,0:10:19.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你要我别吓到你，可我却没做到{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You told me to go easy on you, and, um, I'm not.{\r}
+Dialogue: 0,0:10:26.55,0:10:29.95,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我记下每次你来找我的日子{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I wrote down every time that you came to visit me.{\r}
+Dialogue: 0,0:10:30.12,0:10:34.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我以前经常，或者说我以后也经常去吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Which I gather I did, or will do, fairly often.{\r}
+Dialogue: 0,0:10:34.33,0:10:37.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我最后一次见你时大概18岁{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}The last time that I saw you, I was 18.{\r}
+Dialogue: 0,0:10:37.23,0:10:40.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看来有些地方你会常回去{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Seems that you go back to the same places a lot.{\r}
+Dialogue: 0,0:10:40.87,0:10:42.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}没错，就像万有引力{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, it's like gravity.{\r}
+Dialogue: 0,0:10:43.00,0:10:46.63,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}重要的事情会吸引着你回去{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Big events pull you in.{\r}
+Dialogue: 0,0:10:46.81,0:10:49.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那我算是那个重要的了…。{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I was a big event.{\r}
+Dialogue: 0,0:10:49.27,0:10:51.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看来的确如此{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So it would seem.{\r}
+Dialogue: 0,0:11:00.99,0:11:03.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你叫克莱儿，对吧？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Clare, right?{\r}
+Dialogue: 0,0:11:04.26,0:11:05.99,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah.{\r}
+Dialogue: 0,0:11:06.16,0:11:08.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们可不可以稍微装作一下…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Could we pretend just for a minute{\r}
+Dialogue: 0,0:11:08.23,0:11:10.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这是初次见面{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}that this is the first time we've met?{\r}
+Dialogue: 0,0:11:13.90,0:11:15.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,0:11:16.14,0:11:18.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}没问题{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Sure.{\r}
+Dialogue: 0,0:11:19.20,0:11:21.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}只是…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's just that....{\r}
+Dialogue: 0,0:11:21.34,0:11:24.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为你是我最好的朋友{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's just that you're my best friend.{\r}
+Dialogue: 0,0:11:24.64,0:11:28.24,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我一生都和你在一起{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've been in love with you all my life.{\r}
+Dialogue: 0,0:11:31.12,0:11:32.28,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}有必要这样吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Is this really necessary?{\r}
+Dialogue: 0,0:11:32.45,0:11:34.98,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}没错，数到一千{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah. Count to 1000.{\r}
+Dialogue: 0,0:11:35.92,0:11:37.48,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,0:11:38.20,0:11:39.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}One{\r}
+Dialogue: 0,0:11:40.70,0:11:42.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}二{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Two{\r}
+Dialogue: 0,0:11:44.00,0:11:45.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}三{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Three{\r}
+Dialogue: 0,0:11:46.50,0:11:47.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}四百{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Four hundred{\r}
+Dialogue: 0,0:11:48.70,0:11:50.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}六百{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Six hundred{\r}
+Dialogue: 0,0:11:50.70,0:11:52.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}八百{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Eight hundred{\r}
+Dialogue: 0,0:11:52.70,0:11:54.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一千{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}A thousand{\r}
+Dialogue: 0,0:12:05.22,0:12:07.24,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}想喝一杯吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do you want a drink?{\r}
+Dialogue: 0,0:12:17.23,0:12:19.36,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不想喝酒{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't want a drink.{\r}
+Dialogue: 0,0:12:44.52,0:12:46.82,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}天啊，你好年轻{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}God, you're so young.{\r}
+Dialogue: 0,0:13:07.58,0:13:09.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}再说一次{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Tell me again.{\r}
+Dialogue: 0,0:13:09.68,0:13:11.65,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们怎么相遇的？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How did we meet?{\r}
+Dialogue: 0,0:13:14.59,0:13:17.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你比现在年纪大{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're older than you are now.{\r}
+Dialogue: 0,0:13:17.96,0:13:21.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}或许我不该告诉你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Maybe I'm not supposed to tell you.{\r}
+Dialogue: 0,0:13:21.83,0:13:23.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我必须知道{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, I think I need to know.{\r}
+Dialogue: 0,0:14:00.30,0:14:01.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谁在那里？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Who's there?{\r}
+Dialogue: 0,0:14:01.87,0:14:03.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你好，地球人{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Greetings, Earthling.{\r}
+Dialogue: 0,0:14:03.60,0:14:05.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}马克，你这傻瓜{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Mark, you idiot.{\r}
+Dialogue: 0,0:14:09.98,0:14:12.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}克莱儿！我不会伤害你的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Ow! Clare, I'm not gonna hurt you.{\r}
+Dialogue: 0,0:14:12.64,0:14:13.98,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}别扔东西砸我了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Just please don't throw anything at me.{\r}
+Dialogue: 0,0:14:14.15,0:14:16.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你是谁？你怎么知道我的名字？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Who are you, how do you know my name,{\r}
+Dialogue: 0,0:14:16.48,0:14:18.38,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你干嘛躲着不出来？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}and why can't you come out?{\r}
+Dialogue: 0,0:14:19.12,0:14:21.45,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}能递给我那条毯子吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Can you just hand me the blanket?{\r}
+Dialogue: 0,0:14:21.62,0:14:22.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}也许我该喊妈妈过来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Maybe I should call my mom.{\r}
+Dialogue: 0,0:14:23.02,0:14:25.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不不不，别喊你妈妈，拜托{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No, no, no. Don't call your mom, please.{\r}
+Dialogue: 0,0:14:25.69,0:14:29.63,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}把那条毯子递给我，我就离开{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Just hand me the blanket and I'll leave.{\r}
+Dialogue: 0,0:14:43.38,0:14:45.54,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你要毯子干什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What do you need the blanket for?{\r}
+Dialogue: 0,0:14:45.71,0:14:47.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是个时间旅行者{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm a time traveler.{\r}
+Dialogue: 0,0:14:49.75,0:14:51.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我来自未来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I come from the future.{\r}
+Dialogue: 0,0:14:52.52,0:14:55.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我穿越时空时，带不走衣服{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And when I do, I don't get to bring my clothes.{\r}
+Dialogue: 0,0:14:55.95,0:14:58.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}才没有穿越时空这回事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}There's no such thing as time travelers.{\r}
+Dialogue: 0,0:14:58.59,0:15:00.08,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不，有的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yes, there is.{\r}
+Dialogue: 0,0:15:00.26,0:15:04.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}其实，在将来我们是好朋友{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}In fact, you and I are friends in the future.{\r}
+Dialogue: 0,0:15:04.30,0:15:05.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}当你长大以后{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}When you're a lady.{\r}
+Dialogue: 0,0:15:06.03,0:15:07.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我长大后漂亮吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Am I pretty?{\r}
+Dialogue: 0,0:15:07.77,0:15:11.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对，非常漂亮{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yes.{\r}
+Dialogue: 0,0:15:11.70,0:15:14.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}证明你来自未来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Prove you're from the future.{\r}
+Dialogue: 0,0:15:14.54,0:15:17.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你叫做克莱儿·艾布希尔{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, your name is Clare Abshire.{\r}
+Dialogue: 0,0:15:17.74,0:15:20.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}出生于1972年5月24日{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Born May 24th, 1972.{\r}
+Dialogue: 0,0:15:20.68,0:15:22.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你父母是菲利普和露西…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Your parents are Philip and Lucille...{\r}
+Dialogue: 0,0:15:22.31,0:15:23.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你虽然知道一些事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So you know things.{\r}
+Dialogue: 0,0:15:23.88,0:15:26.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但这不能证明你来自未来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That doesn't prove you're from the future.{\r}
+Dialogue: 0,0:15:26.55,0:15:29.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,0:15:29.42,0:15:32.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这个周末，你哥哥马克{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This weekend, your brother, Mark,{\r}
+Dialogue: 0,0:15:32.46,0:15:34.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那个讨厌鬼{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}who's a real pain in the ass...{\r}
+Dialogue: 0,0:15:34.56,0:15:36.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}会从树上掉下来，摔断胳膊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...falls out of a tree and breaks his arm.{\r}
+Dialogue: 0,0:15:37.13,0:15:39.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好啊，不过只有等到那时候…。{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, but I won't know till then{\r}
+Dialogue: 0,0:15:39.90,0:15:41.89,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我才能知道你说的是不是真的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}if you're telling the truth or not.{\r}
+Dialogue: 0,0:15:42.07,0:15:46.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}如果你能多待一会儿，就会看见我消失的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, if you hang around long enough, you'll see me disappear.{\r}
+Dialogue: 0,0:15:46.31,0:15:48.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可是你才刚来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But you just got here.{\r}
+Dialogue: 0,0:15:49.14,0:15:51.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我还会再回来的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'll be back again.{\r}
+Dialogue: 0,0:15:51.48,0:15:53.64,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}会经常来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Lots of times.{\r}
+Dialogue: 0,0:15:53.81,0:15:56.11,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}实际上…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}In fact...{\r}
+Dialogue: 0,0:15:56.28,0:16:00.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我下周二4点就会来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...I'll be back next Tuesday at 4.{\r}
+Dialogue: 0,0:16:00.85,0:16:05.95,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}到时你能带几件衣服给我就太好了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And it'd be great if, when you come then, you could bring me some clothes.{\r}
+Dialogue: 0,0:16:06.12,0:16:08.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}挑你爸爸那些不喜欢的衣服就行{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Something your dad won't miss.{\r}
+Dialogue: 0,0:16:09.73,0:16:11.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}很高兴认识你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Nice to meet you.{\r}
+Dialogue: 0,0:18:12.08,0:18:15.61,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}别为这个担心，都是很久以前的事了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Don't worry about that. It's been over for a while.{\r}
+Dialogue: 0,0:18:19.79,0:18:21.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}感觉有点奇怪{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This is weird.{\r}
+Dialogue: 0,0:18:22.83,0:18:24.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我从未认识过这个年纪的你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I never knew you at this age. I mean,{\r}
+Dialogue: 0,0:18:24.63,0:18:26.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一直以来我认识的你是一个…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've only known you as this...{\r}
+Dialogue: 0,0:18:28.40,0:18:30.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}成熟又稳重的男人{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...mature, worldly person.{\r}
+Dialogue: 0,0:18:30.97,0:18:33.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看来我得和自己竞争了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm competing against myself.{\r}
+Dialogue: 0,0:18:36.71,0:18:39.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}知道吗{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}you know{\r}
+Dialogue: 0,0:18:44.12,0:18:47.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那时的你，是我心目中的完美男人{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You were just kind of my perfect guy.{\r}
+Dialogue: 0,0:18:54.29,0:18:56.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我还是有点不习惯{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I just can't get used to this.{\r}
+Dialogue: 0,0:18:56.56,0:18:59.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是说，我以前总是在等着你消失{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I mean, I just keep waiting for you to disappear.{\r}
+Dialogue: 0,0:18:59.23,0:19:01.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}会发生的，相信我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, it'll happen, believe me.{\r}
+Dialogue: 0,0:19:02.67,0:19:04.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那是什么感觉？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How's it feel?{\r}
+Dialogue: 0,0:19:04.74,0:19:07.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是说，我知道眼睁睁看着你消失的感觉{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I mean, I know what it's like to watch you go...{\r}
+Dialogue: 0,0:19:07.77,0:19:11.14,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但当时你自己是什么感觉？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...but what's it like to always be the one that's going?{\r}
+Dialogue: 0,0:19:12.84,0:19:17.58,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}有时候，比如像是突然起身站起{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Sometimes it feels like you've stood up too quickly.{\r}
+Dialogue: 0,0:19:17.75,0:19:22.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}手脚会有些刺痛感，然后他们就不见了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Your hands and feet are tingling, and then they're not there at all.{\r}
+Dialogue: 0,0:19:23.05,0:19:27.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}有时又像是突然走神了一下{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Sometimes it feels like your attention has wandered just for an instant...{\r}
+Dialogue: 0,0:19:27.43,0:19:30.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}然后就赤身裸体站在某个地方了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...then you're standing naked someplace.{\r}
+Dialogue: 0,0:19:30.43,0:19:34.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可能是去过的地方，也可能不是{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Maybe you've been there before, maybe you haven't.{\r}
+Dialogue: 0,0:19:34.20,0:19:35.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你不知道这会持续多久{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You don't know how long it's gonna last,{\r}
+Dialogue: 0,0:19:35.63,0:19:38.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}所以不能一直待在那儿，你得找些衣服穿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}so you start walking......till you find some clothes.{\r}
+Dialogue: 0,0:19:41.94,0:19:44.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这样你看起来就像个正常人了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Then you seem just like everybody else.{\r}
+Dialogue: 0,0:19:45.48,0:19:47.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但是你在那里独自一人，无依无靠{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Except you're stranded and all alone,{\r}
+Dialogue: 0,0:19:47.75,0:19:49.08,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}只能等着自己再度消失{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}just waiting to disappear.{\r}
+Dialogue: 0,0:19:49.25,0:19:51.61,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可是你能看见过去的人{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But you get to see people from the past.{\r}
+Dialogue: 0,0:19:51.78,0:19:54.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}逝去的人，比如说你母亲{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}People who are gone, like your mom.{\r}
+Dialogue: 0,0:19:54.69,0:19:55.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对，但关键是…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, but the thing is,{\r}
+Dialogue: 0,0:19:55.79,0:19:58.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你无法改变他们的命运{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}you can't change what happens to them.{\r}
+Dialogue: 0,0:19:58.42,0:20:01.98,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我试过，可发生过的还是会发生{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've tried. It just happens anyway.{\r}
+Dialogue: 0,0:20:34.43,0:20:35.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这是查莉丝{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This is Charisse{\r}
+Dialogue: 0,0:20:35.43,0:20:37.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我的室友兼闺蜜{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}My roommate and my best friend.{\r}
+Dialogue: 0,0:20:37.76,0:20:39.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}同时也是今晚的大厨{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And our excellent cook for tonight.{\r}
+Dialogue: 0,0:20:40.03,0:20:41.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为我不会做饭{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Because I don't cook.{\r}
+Dialogue: 0,0:20:41.80,0:20:43.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你别在意这个{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, you should know that going in.{\r}
+Dialogue: 0,0:20:43.24,0:20:45.64,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她是个好女孩，但连烤面包都不会{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She's a lovely girl, but she can't cook toast.{\r}
+Dialogue: 0,0:20:45.80,0:20:46.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}戈麦斯？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Gomez?{\r}
+Dialogue: 0,0:20:46.94,0:20:47.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}全名是戈莫林斯基{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, short for Gomolinski.{\r}
+Dialogue: 0,0:20:48.01,0:20:50.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}很高兴见到你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's really nice to meet you.{\r}
+Dialogue: 0,0:20:50.18,0:20:51.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不，其实我们不是很想见你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We didn't wanna meet you,{\r}
+Dialogue: 0,0:20:51.51,0:20:53.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但这好像是见到克莱儿的唯一方法{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}but seems to be the only way to catch a glimpse of Clare.{\r}
+Dialogue: 0,0:20:53.98,0:20:55.61,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}别理戈麦斯{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Please ignore Gomez.{\r}
+Dialogue: 0,0:20:55.78,0:20:56.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}来点葡萄酒？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do you want some wine? {\r}
+Dialogue: 0,0:20:57.05,0:20:57.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谢谢，不用了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No, thanks.{\r}
+Dialogue: 0,0:20:57.98,0:20:58.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那喝点水吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do you want some water?{\r}
+Dialogue: 0,0:20:58.98,0:21:00.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好啊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, sure.{\r}
+Dialogue: 0,0:21:06.19,0:21:08.22,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你可没告诉我他这么帅{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You didn't tell me how cute he was.{\r}
+Dialogue: 0,0:21:08.39,0:21:10.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}也没多帅，话也不多{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He's not that cute. Doesn't talk much either.{\r}
+Dialogue: 0,0:21:10.83,0:21:11.82,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}除了知道他是个图书馆管理员{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I couldn't get anything out of him{\r}
+Dialogue: 0,0:21:12.00,0:21:13.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}其他什么都没问出来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}except he's a librarian.{\r}
+Dialogue: 0,0:21:13.47,0:21:16.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}也许你该停止审问他{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, maybe if you would stop interrogating him....{\r}
+Dialogue: 0,0:21:16.70,0:21:18.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这么多年来你一直没交男朋友{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You never had a boyfriend.{\r}
+Dialogue: 0,0:21:18.27,0:21:19.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但突然就跟他在一起了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You spend every minute with the guy.{\r}
+Dialogue: 0,0:21:19.64,0:21:20.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我只是想搞清楚原因{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Wondering what the draw is.{\r}
+Dialogue: 0,0:21:20.74,0:21:21.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}别烦她了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Leave her alone.{\r}
+Dialogue: 0,0:21:21.64,0:21:23.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她跟你我一样都是成年人{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She's codependent.{\r}
+Dialogue: 0,0:21:23.51,0:21:24.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你认为她就不该有感情生活？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You thought she was gonna dodge that bullet?{\r}
+Dialogue: 0,0:21:25.01,0:21:26.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不知道{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't know.{\r}
+Dialogue: 0,0:21:26.68,0:21:28.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我只是觉得他没那么帅{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I just think he's not that cute.{\r}
+Dialogue: 0,0:21:29.81,0:21:33.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}现在能放土豆了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}All right, so can we put the potatoes in yet?{\r}
+Dialogue: 0,0:21:33.18,0:21:35.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}还是要等到菜都熟透了之后再放？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Or do you wanna wait until the vegetables are done?{\r}
+Dialogue: 0,0:21:41.13,0:21:42.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}平底锅呢？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Where's the pan?{\r}
+Dialogue: 0,0:21:42.19,0:21:43.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我哪知道？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How do I know?{\r}
+Dialogue: 0,0:21:43.53,0:21:44.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你应该帮忙的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You can help.{\r}
+Dialogue: 0,0:21:44.76,0:21:45.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我又不住这里{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't even live here.{\r}
+Dialogue: 0,0:21:45.86,0:21:47.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}首先，我是个男人{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}First, I'm a man.{\r}
+Dialogue: 0,0:21:47.30,0:21:49.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}第二，我还是客人呢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Second of all, I'm a guest here.{\r}
+Dialogue: 0,0:22:24.97,0:22:27.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你在看我的日记吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Are you reading my diary?{\r}
+Dialogue: 0,0:22:28.54,0:22:31.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那可是我的隐私{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Told you that was private.{\r}
+Dialogue: 0,0:22:33.14,0:22:34.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我没看{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I didn't read it.{\r}
+Dialogue: 0,0:22:34.21,0:22:36.98,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但看上去你看了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, it kind of looked like you did.{\r}
+Dialogue: 0,0:22:37.92,0:22:40.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我想找出那些日期{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I was trying to find the dates.{\r}
+Dialogue: 0,0:22:40.89,0:22:43.65,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我回去找你的日期{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}The dates that I go to see you.{\r}
+Dialogue: 0,0:22:43.82,0:22:46.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这样我就能告诉草地上的小女孩{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So I could tell the little girl in the meadow.{\r}
+Dialogue: 0,0:22:46.52,0:22:47.55,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为这对她很重要{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}For that's important to her...{\r}
+Dialogue: 0,0:22:47.73,0:22:49.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我想告诉她我何时会去见她{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I wanted to tell her when I was coming to see her{\r}
+Dialogue: 0,0:22:49.96,0:22:52.49,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这样她就不用傻等了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}so she wouldn't have to wait.{\r}
+Dialogue: 0,0:22:54.27,0:22:55.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}天啊，对不起{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Christ, I'm sorry.{\r}
+Dialogue: 0,0:22:56.13,0:22:58.36,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不知道我在想什么{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't know what I was thinking.{\r}
+Dialogue: 0,0:22:58.54,0:23:00.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我该走了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I should go.{\r}
+Dialogue: 0,0:23:05.18,0:23:07.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可我希望你留下来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'd like you to stay{\r}
+Dialogue: 0,0:23:21.43,0:23:23.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}快点，痛扁他{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come on, kick his ass.{\r}
+Dialogue: 0,0:23:23.23,0:23:24.89,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}各位，来看好戏{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Guys, check this out.{\r}
+Dialogue: 0,0:23:29.40,0:23:32.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}就这样，死基佬，狠狠地揍他{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come on, he's a fag. Kick his ass. Oh, no.{\r}
+Dialogue: 0,0:23:32.12,0:23:33.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}加油…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come on.{\r}
+Dialogue: 0,0:23:38.04,0:23:39.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨，别打了，别打了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hey, hey, hey. Break it up, break it up.{\r}
+Dialogue: 0,0:23:40.04,0:23:41.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}- 亨利！  - 戈麦斯？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}- Henry.   - Gomez.{\r}
+Dialogue: 0,0:23:41.38,0:23:42.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你在干嘛？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What are you doing?{\r}
+Dialogue: 0,0:23:43.11,0:23:44.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}靠，你个恐同症者{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Goddamn homophobe.{\r}
+Dialogue: 0,0:23:45.05,0:23:47.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}老兄，你这穿的是什么啊？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Dude, what in the hell are you wearing?{\r}
+Dialogue: 0,0:23:48.09,0:23:49.38,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}今天是几号？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What's the date?{\r}
+Dialogue: 0,0:23:49.55,0:23:51.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你问这什么意思？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What do you mean, "what's the date?"{\r}
+Dialogue: 0,0:23:51.52,0:23:52.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}现在是哪一年？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What year?{\r}
+Dialogue: 0,0:23:52.46,0:23:53.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}问哪一年又是什么意思？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What do you mean, "what year?"{\r}
+Dialogue: 0,0:23:54.09,0:23:55.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}算了，我得去找衣服穿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Forget it. I gotta get some clothes.{\r}
+Dialogue: 0,0:23:55.89,0:23:57.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}没错，这才是现在该干的事儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, the pink's not working for you. Hey.{\r}
+Dialogue: 0,0:23:57.86,0:23:59.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你在干嘛？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What are you doing now?{\r}
+Dialogue: 0,0:23:59.93,0:24:01.40,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}撬锁{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Picking a lock.{\r}
+Dialogue: 0,0:24:01.57,0:24:03.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}关门{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Close the door.{\r}
+Dialogue: 0,0:24:05.50,0:24:07.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你能告诉我这是怎么回事吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You wanna tell me what the hell's going on here?{\r}
+Dialogue: 0,0:24:07.94,0:24:09.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你到底想干嘛？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What do you want?{\r}
+Dialogue: 0,0:24:09.21,0:24:11.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}说真的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Seriously.{\r}
+Dialogue: 0,0:24:11.61,0:24:15.27,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}要是你有麻烦，或许我能帮忙{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hey, you know,if you have a problem, maybe I can help.{\r}
+Dialogue: 0,0:24:15.45,0:24:17.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}得了吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, right.{\r}
+Dialogue: 0,0:24:18.15,0:24:20.58,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}听着，我并不在乎你，但我关心克莱儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't give a shit about you, but Clare I care about.{\r}
+Dialogue: 0,0:24:20.75,0:24:22.55,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}所以你应该告诉我是怎么回事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Why don't you tell me what this is about?{\r}
+Dialogue: 0,0:24:22.72,0:24:25.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你想知道吗？那我就告诉你吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You wanna know? I'm gonna tell you.{\r}
+Dialogue: 0,0:24:25.76,0:24:28.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}反正我们将会是长久的朋友{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Because you and I are gonna be friends for a long time.{\r}
+Dialogue: 0,0:24:28.43,0:24:29.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}所以现在你应该知道实情了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You might as well know now.{\r}
+Dialogue: 0,0:24:29.89,0:24:30.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}知道什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Know what?{\r}
+Dialogue: 0,0:24:30.90,0:24:33.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是不是看起来有点老，对吧？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I look older, right?{\r}
+Dialogue: 0,0:24:33.97,0:24:35.52,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为我确实老了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's because I am.{\r}
+Dialogue: 0,0:24:35.70,0:24:38.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是从未来回到了今晚{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've come back to this night from the future.{\r}
+Dialogue: 0,0:24:38.20,0:24:40.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是个时间旅行者{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm a time traveler.{\r}
+Dialogue: 0,0:24:41.57,0:24:44.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我的天啊，你疯了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, my God, you are out of your mind.{\r}
+Dialogue: 0,0:24:44.58,0:24:46.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}从我六岁开始就这样{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Started when I was 6 years old.{\r}
+Dialogue: 0,0:24:46.91,0:24:49.21,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我会发生痉挛、然后就会消失{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I have fits. I disappear.{\r}
+Dialogue: 0,0:24:49.38,0:24:50.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我在时空中穿梭{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I travel through time.{\r}
+Dialogue: 0,0:24:51.05,0:24:52.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这次我是从2003年回到今晚{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've come to this night from 2003. What year is this?{\r}
+Dialogue: 0,0:24:53.08,0:24:53.48,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}今年是哪一年？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What year is this?{\r}
+Dialogue: 0,0:24:53.65,0:24:54.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}1995年，别吓我了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}1995. I don't like this.{\r}
+Dialogue: 0,0:24:55.05,0:24:56.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我迷失在时间里{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I get dislocated in time.{\r}
+Dialogue: 0,0:24:56.22,0:24:59.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我也不知道这会什么时候发生，什么时候结束{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I never know when it's gonna happen or where I'm gonna end up.{\r}
+Dialogue: 0,0:24:59.22,0:25:00.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我得有自己的一些应对办法{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I have to break and enter,{\r}
+Dialogue: 0,0:25:00.43,0:25:02.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}像这样最先见到谁，就偷谁衣服…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}steal clothes from the first person I see.{\r}
+Dialogue: 0,0:25:02.89,0:25:03.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}比这更麻烦的情况我都遇到过{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You name it, I've done it.{\r}
+Dialogue: 0,0:25:04.10,0:25:05.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}呃…看起来你是有大麻烦{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Uh-huh. There's something wrong with you.{\r}
+Dialogue: 0,0:25:06.13,0:25:07.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}没错{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, there is.{\r}
+Dialogue: 0,0:25:07.80,0:25:10.27,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但我对克莱儿的在乎超出你的想象{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But I care about Clare more than you can imagine,{\r}
+Dialogue: 0,0:25:10.44,0:25:11.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}所以这一点你就不用担心了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}so don't worry about that.{\r}
+Dialogue: 0,0:25:11.77,0:25:14.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}喔，这还真令我安心咧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Whoa, hey, I'm reassured.{\r}
+Dialogue: 0,0:25:14.61,0:25:16.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那未来我跟查莉丝会结婚吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Listen, in the future, do Charisse and I get married?{\r}
+Dialogue: 0,0:25:16.88,0:25:18.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我会秃顶吗？查莉丝会秃顶吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do I go bald? Does Charisse go bald?{\r}
+Dialogue: 0,0:25:18.98,0:25:20.95,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}听着，我不会透露你以后的人生{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm not gonna tell you things about your life.{\r}
+Dialogue: 0,0:25:21.11,0:25:22.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}预知结果会让人抓狂的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Knowing stuff in advance makes you crazy.{\r}
+Dialogue: 0,0:25:23.05,0:25:26.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}知道吗，你在胡说八道{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're full of shit, you know that?{\r}
+Dialogue: 0,0:25:26.25,0:25:27.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你待会儿就明白了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You won't think that in a minute.{\r}
+Dialogue: 0,0:25:27.85,0:25:29.95,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是吗？为什么{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah? Why's that?{\r}
+Dialogue: 0,0:25:33.85,0:25:36.95,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}喔，我的天啊...{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}oh，gods，man...{\r}
+Dialogue: 0,0:25:44.90,0:25:45.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}查莉丝出去了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Charisse is out.{\r}
+Dialogue: 0,0:25:45.87,0:25:47.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利在吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry here?{\r}
+Dialogue: 0,0:25:47.24,0:25:48.33,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不在，他在图书馆{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No, he's at the library.{\r}
+Dialogue: 0,0:25:48.51,0:25:50.63,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}别嫁给他，克莱儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Don't marry him, Clare.{\r}
+Dialogue: 0,0:25:50.81,0:25:51.33,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What?{\r}
+Dialogue: 0,0:25:51.51,0:25:54.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}反正别嫁给亨利，懂吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Just don't marry Henry, okay?{\r}
+Dialogue: 0,0:25:54.18,0:25:55.61,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他又没跟我求婚{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You know, he hasn't asked me yet.{\r}
+Dialogue: 0,0:25:55.78,0:25:58.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你知道我在说什么{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, you know what I'm talking about.{\r}
+Dialogue: 0,0:25:59.75,0:26:01.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我爱他{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I love him.{\r}
+Dialogue: 0,0:26:02.62,0:26:04.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}过来，坐下{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Here. Come here.{\r}
+Dialogue: 0,0:26:08.76,0:26:11.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}昨晚我在酒吧旁看到他{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I saw him last night at the Vic.{\r}
+Dialogue: 0,0:26:11.40,0:26:13.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可真精彩，首先他在巷子里痛打一个家伙{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Barrel of laughs. First, he beats up a guy in the alley{\r}
+Dialogue: 0,0:26:13.80,0:26:15.40,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}然后我们破门盗窃了军事用品店{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And then we burglarize the Army-Navy store.{\r}
+Dialogue: 0,0:26:15.45,0:26:18.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}接着，他却告诉我…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And then， he tells me that...{\r}
+Dialogue: 0,0:26:18.10,0:26:21.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他是个…时间旅行者{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}he's a... time traveler.{\r}
+Dialogue: 0,0:26:22.31,0:26:26.40,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为他会在时空中穿梭{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You know, because he travels through time.{\r}
+Dialogue: 0,0:26:26.58,0:26:28.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那你相信他吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And did you believe him?{\r}
+Dialogue: 0,0:26:30.52,0:26:32.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他在我面前突然消失后我就信了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Not until he disappeared right in front of me{\r}
+Dialogue: 0,0:26:32.65,0:26:34.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}知道吗？就这么一下就消失了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}you know，like he just disappeared.{\r}
+Dialogue: 0,0:26:35.09,0:26:38.54,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是啊，这是个问题{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, it's a problem.{\r}
+Dialogue: 0,0:26:41.69,0:26:43.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你是说你知道这事儿？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Are you saying you know about this?{\r}
+Dialogue: 0,0:26:43.86,0:26:47.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我老早就知道了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've known for a very long time.{\r}
+Dialogue: 0,0:26:48.17,0:26:50.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好吧，我不懂到底是怎么回事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay, I don't know what the hell's going on, all right?{\r}
+Dialogue: 0,0:26:51.04,0:26:53.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我也没必要知道来龙去脉{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't need to know how the whole thing works,{\r}
+Dialogue: 0,0:26:53.17,0:26:54.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为我不在意{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}because I don't care.{\r}
+Dialogue: 0,0:26:54.17,0:26:58.54,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不过暂时假设我们都没疯{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But, uh, just presuming for a second that we're not all out of our fricking minds...{\r}
+Dialogue: 0,0:26:58.71,0:27:01.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不管亨利怎样，这都…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...whatever Henry has, it's, uh....{\r}
+Dialogue: 0,0:27:01.88,0:27:03.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这都不是什么好事儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's not good.{\r}
+Dialogue: 0,0:27:05.28,0:27:07.65,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我一生都在等他{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've been waiting for him my entire life,{\r}
+Dialogue: 0,0:27:07.82,0:27:09.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}而现在他就在我身边{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}and now he's here.{\r}
+Dialogue: 0,0:27:09.52,0:27:11.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}事情已经是这样了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I mean, it's already happened.{\r}
+Dialogue: 0,0:27:11.32,0:27:14.12,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不是我想改就能改的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I couldn't even change it if I wanted to.{\r}
+Dialogue: 0,0:27:18.96,0:27:21.40,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你比我想像中的还离谱{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, you're worse off than I thought.{\r}
+Dialogue: 0,0:27:23.74,0:27:25.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}大概吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Maybe I am.{\r}
+Dialogue: 0,0:27:32.94,0:27:34.38,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那个家伙偷了我的皮夹{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That guy stole my wallet.{\r}
+Dialogue: 0,0:27:34.55,0:27:36.38,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那是我的皮夹{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}My wallet!{\r}
+Dialogue: 0,0:27:39.28,0:27:40.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那个家伙偷了我的皮夹{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That guy stole my wallet.{\r}
+Dialogue: 0,0:27:41.12,0:27:42.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}停车！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hold the train.{\r}
+Dialogue: 0,0:28:05.71,0:28:07.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}请问一下{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Excuse me.{\r}
+Dialogue: 0,0:28:08.78,0:28:10.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你是安妮特·德坦布尔？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Are you Annette DeTamble?{\r}
+Dialogue: 0,0:28:10.55,0:28:12.38,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yes.{\r}
+Dialogue: 0,0:28:12.55,0:28:14.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我爱你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I love you.{\r}
+Dialogue: 0,0:28:14.85,0:28:17.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是指你的作品，你的演唱{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I mean, your work. Your singing.{\r}
+Dialogue: 0,0:28:17.89,0:28:20.98,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你的歌声美极了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You have a great voice.{\r}
+Dialogue: 0,0:28:21.83,0:28:24.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谢谢，你过奖了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Thank you. I appreciate that.{\r}
+Dialogue: 0,0:28:24.43,0:28:26.19,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一般人们不会认出我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}People don't usually recognize me.{\r}
+Dialogue: 0,0:28:26.36,0:28:28.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}至少在地铁上不会{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Not on the subway, anyway. Ha, ha.{\r}
+Dialogue: 0,0:28:28.97,0:28:31.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我叫做亨利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}My name's Henry.{\r}
+Dialogue: 0,0:28:31.74,0:28:32.73,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}真巧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How funny.{\r}
+Dialogue: 0,0:28:32.90,0:28:34.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我的儿子也叫做亨利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I have a son named Henry.{\r}
+Dialogue: 0,0:28:34.47,0:28:36.63,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但他现在只有三岁{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But he's just 3.{\r}
+Dialogue: 0,0:28:39.84,0:28:41.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我遇见一个女孩儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I met a girl.{\r}
+Dialogue: 0,0:28:42.15,0:28:46.08,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}自从我跟她在一起，我才有了安全感{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And since I've been with her, I feel safe.{\r}
+Dialogue: 0,0:28:46.25,0:28:48.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我好久没有这种感觉了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I haven't felt that way for a long time.{\r}
+Dialogue: 0,0:28:49.05,0:28:51.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}除了小时候{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Not since I was a kid.{\r}
+Dialogue: 0,0:28:52.12,0:28:54.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我真希望她能听到你唱歌{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I wish she could hear you sing.{\r}
+Dialogue: 0,0:28:54.96,0:28:57.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}也许会有那么一天{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Maybe she will one day.{\r}
+Dialogue: 0,0:29:06.17,0:29:09.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}见到你真得很高兴{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm really glad I met you.{\r}
+Dialogue: 0,0:29:09.17,0:29:11.44,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我也是{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm glad I met you too.{\r}
+Dialogue: 0,0:29:18.68,0:29:21.45,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一定要让那个女孩知道你的心意{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Make sure that girl knows how you feel about her.{\r}
+Dialogue: 0,0:29:24.32,0:29:27.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你的儿子非常爱你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Your son loves you very much.{\r}
+Dialogue: 0,0:29:28.49,0:29:30.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我知道{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I know.{\r}
+Dialogue: 0,0:30:13.44,0:30:16.24,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}有人在吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hello?{\r}
+Dialogue: 0,0:30:17.78,0:30:19.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Dad?{\r}
+Dialogue: 0,0:30:26.88,0:30:28.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你来这里干嘛？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What are you doing here?{\r}
+Dialogue: 0,0:30:32.99,0:30:34.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我很担心你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I was worried.{\r}
+Dialogue: 0,0:30:35.49,0:30:38.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我打了好几通电话给你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I called you several times.{\r}
+Dialogue: 0,0:30:38.43,0:30:41.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我身体不舒服{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've been ill.{\r}
+Dialogue: 0,0:30:42.03,0:30:43.73,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是喔{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah.{\r}
+Dialogue: 0,0:30:44.74,0:30:47.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我给乐团打过电话{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I called the orchestra.{\r}
+Dialogue: 0,0:30:47.34,0:30:49.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他们说你从九月开始就一直请病假{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}They told me you've been on sick leave since September.{\r}
+Dialogue: 0,0:30:50.01,0:30:51.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是八月{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}August.{\r}
+Dialogue: 0,0:30:57.25,0:30:59.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我这样子很难拉小提琴{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Makes it hard to play the violin.{\r}
+Dialogue: 0,0:31:01.62,0:31:03.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这样没用的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's not gonna help.{\r}
+Dialogue: 0,0:31:03.99,0:31:07.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}当然有用，来一杯吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Sure it does. Want one?{\r}
+Dialogue: 0,0:31:07.46,0:31:10.55,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不，我戒酒了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No. I don't drink anymore.{\r}
+Dialogue: 0,0:31:11.70,0:31:13.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可惜{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Pity.{\r}
+Dialogue: 0,0:31:14.07,0:31:16.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这是我们的共同爱好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It was our one shared enthusiasm.{\r}
+Dialogue: 0,0:31:16.93,0:31:19.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们首先得找人把你这儿收拾干净{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}First thing we gotta do is get someone in here to clean the place up.{\r}
+Dialogue: 0,0:31:20.14,0:31:22.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}给你做点吃的，你有吃东西吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Make you some meals. I mean, do you even eat?{\r}
+Dialogue: 0,0:31:22.87,0:31:26.11,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}还是希望我经常过来…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I mean, do you want me to come around more often?{\r}
+Dialogue: 0,0:31:26.28,0:31:29.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}带你看医生，帮你付账之类的？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Take you to the doctor，Help pay some bills?{\r}
+Dialogue: 0,0:31:29.35,0:31:30.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不用{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What? No.{\r}
+Dialogue: 0,0:31:30.21,0:31:31.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不用？不用什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No? "No" to what,{\r}
+Dialogue: 0,0:31:32.05,0:31:33.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是全部，还是一部份？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}everything? Or just some of that?{\r}
+Dialogue: 0,0:31:33.48,0:31:35.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你先管好你自己的生活{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Get your own life in order{\r}
+Dialogue: 0,0:31:35.42,0:31:37.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}再来说教我吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}before you start telling me how to live mine.{\r}
+Dialogue: 0,0:31:40.19,0:31:42.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我要结婚了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm getting married.{\r}
+Dialogue: 0,0:31:44.66,0:31:47.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谁会想嫁给你？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Who would marry you?{\r}
+Dialogue: 0,0:31:50.57,0:31:51.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那她知道…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Does she know about...?{\r}
+Dialogue: 0,0:31:51.87,0:31:56.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她知道我的一切，所有事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She knows everything about me. Everything.{\r}
+Dialogue: 0,0:31:57.04,0:31:58.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她叫做克莱儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Her name's Clare.{\r}
+Dialogue: 0,0:31:58.88,0:31:59.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}克莱儿·艾布希尔{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Clare Abshire.{\r}
+Dialogue: 0,0:31:59.94,0:32:01.67,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她是个艺术工作者{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She's an artist.{\r}
+Dialogue: 0,0:32:01.85,0:32:05.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我很想用妈妈的结婚戒指向她求婚{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'd really like to give her Mom's wedding and engagement rings.{\r}
+Dialogue: 0,0:32:05.58,0:32:08.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这就是我来这儿的原因 我想妈妈也希望如此{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's why I'm here. And I think Mom would really like that.{\r}
+Dialogue: 0,0:32:08.49,0:32:11.75,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你怎么知道你母亲希望什么{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How would you know what your mother would like?{\r}
+Dialogue: 0,0:32:11.92,0:32:13.22,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你几乎不记得她{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You barely knew her.{\r}
+Dialogue: 0,0:32:13.39,0:32:15.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我记得{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I knew her.{\r}
+Dialogue: 0,0:32:15.46,0:32:17.09,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我到现在还记得她{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I still know her now.{\r}
+Dialogue: 0,0:32:17.26,0:32:19.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我刚才还在地铁上见过她{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've just seen her on the subway.{\r}
+Dialogue: 0,0:32:20.20,0:32:22.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我曾看见她推着婴儿车里的我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I see her pushing me in the stroller.{\r}
+Dialogue: 0,0:32:22.30,0:32:23.89,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我还见过她跟你在一起{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You know, I see her with you too.{\r}
+Dialogue: 0,0:32:24.07,0:32:26.33,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我的能力不见得全是诅咒{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This thing I have isn't always a curse.{\r}
+Dialogue: 0,0:32:26.50,0:32:29.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那你怎么不阻止她开那辆该死的车？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Then why don't you keep her from getting into that goddamn car?{\r}
+Dialogue: 0,0:32:29.74,0:32:32.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}如果可以我当然会，你知道的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I would if I could. You know that.{\r}
+Dialogue: 0,0:32:37.18,0:32:40.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她在我眼前死了好几百次{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've watched her die hundreds of times.{\r}
+Dialogue: 0,0:32:40.35,0:32:43.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但我就是无法及时赶到去改变结果{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I can never get there in time to change it.{\r}
+Dialogue: 0,0:33:07.85,0:33:10.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我仍想念着她{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I still miss her.{\r}
+Dialogue: 0,0:33:12.88,0:33:15.44,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}每天都想{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I miss her every day.{\r}
+Dialogue: 0,0:33:16.25,0:33:18.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我也是{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So do I.{\r}
+Dialogue: 0,0:34:15.28,0:34:16.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry.{\r}
+Dialogue: 0,0:34:21.65,0:34:24.99,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我一生从不想拥有任何东西…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I never wanted to have anything in my life{\r}
+Dialogue: 0,0:34:25.16,0:34:27.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为我无法忍受失去{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}that I couldn't stand losing.{\r}
+Dialogue: 0,0:34:30.09,0:34:32.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但现在来不及了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But it's too late for that.{\r}
+Dialogue: 0,0:34:33.33,0:34:37.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不是因为你漂亮、聪明或是完美{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's not because you're beautiful and smart and perfect.{\r}
+Dialogue: 0,0:34:40.87,0:34:43.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}而是有了你，我不会再感到孤单{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't feel alone anymore.{\r}
+Dialogue: 0,0:34:46.94,0:34:49.14,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你愿意嫁给我吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Will you marry me?{\r}
+Dialogue: 0,0:34:56.09,0:34:57.82,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,0:35:00.02,0:35:02.82,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不是那个意思{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I didn't mean that.{\r}
+Dialogue: 0,0:35:02.99,0:35:04.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我只是想说…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I just wanted to try it...{\r}
+Dialogue: 0,0:35:05.03,0:35:08.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我对你说不，是为了让我表达我自己的意愿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...to say it to assert my own sense of freewill. I....{\r}
+Dialogue: 0,0:35:09.10,0:35:11.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但我自己的意愿就是，我想嫁给你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But my freewill wants you.{\r}
+Dialogue: 0,0:35:11.47,0:35:11.99,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}所以你答应了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So it's a yes?{\r}
+Dialogue: 0,0:35:12.17,0:35:15.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yes.{\r}
+Dialogue: 0,0:35:15.17,0:35:16.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}当然{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Of course.{\r}
+Dialogue: 0,0:35:22.61,0:35:24.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}多少次都愿意{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}A thousand times yes.{\r}
+Dialogue: 0,0:35:46.74,0:35:48.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你开过枪吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You ever handled a gun before?{\r}
+Dialogue: 0,0:35:48.17,0:35:49.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我对枪没兴趣{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Not exactly. I...{\r}
+Dialogue: 0,0:35:49.17,0:35:50.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}妈妈，我们回来了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Mom, we're home.{\r}
+Dialogue: 0,0:35:51.01,0:35:52.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你会乐在其中的，朋友{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You are in for a treat, my friend.{\r}
+Dialogue: 0,0:35:52.74,0:35:56.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}老天，这件礼服好像打过仗{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, my God. That dress looks like it's been through the wars.{\r}
+Dialogue: 0,0:35:57.11,0:35:58.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我说了让你换一件的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I told you to have it shipped.{\r}
+Dialogue: 0,0:35:58.58,0:36:00.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}妈妈，这没事的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Mom, it'll be fine.{\r}
+Dialogue: 0,0:36:00.18,0:36:01.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利，别嫌我啰嗦{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry, I don't mean to be a nag,{\r}
+Dialogue: 0,0:36:01.95,0:36:03.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但你父亲决定来了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}but any word on your father?{\r}
+Dialogue: 0,0:36:03.35,0:36:04.75,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们会调整座位{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We'll need to adjust the seating plan.{\r}
+Dialogue: 0,0:36:04.92,0:36:07.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不知道他能不能参加{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm not sure he'll make it.{\r}
+Dialogue: 0,0:36:07.19,0:36:09.82,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}真可惜，他本可以加入狩猎游戏的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Shame. He could've joined in on the killing spree.{\r}
+Dialogue: 0,0:36:09.99,0:36:12.22,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这很容易拉近人们之间的关系{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's how men bond, apparently.{\r}
+Dialogue: 0,0:36:12.40,0:36:14.99,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}菲利普，菲利普，他们来了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Philip. Philip, they're here.{\r}
+Dialogue: 0,0:36:20.74,0:36:23.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你准备好一切了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Are you ready for this?{\r}
+Dialogue: 0,0:36:23.27,0:36:25.33,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这可是个大挑战{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's a real circus.{\r}
+Dialogue: 0,0:36:25.51,0:36:27.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的，我准备好了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yes, I am, sir.{\r}
+Dialogue: 0,0:36:30.98,0:36:32.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}希望你能明白你承担的责任{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hope you know what you've signed on for.{\r}
+Dialogue: 0,0:36:32.65,0:36:35.21,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是说娶克莱儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}With Clare, I mean.{\r}
+Dialogue: 0,0:36:35.39,0:36:38.55,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不太了解您的意思{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm not sure I understand.{\r}
+Dialogue: 0,0:36:38.72,0:36:41.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}恐怕我和她妈妈没能替她…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Her mother and I didn't succeed in preparing her{\r}
+Dialogue: 0,0:36:41.53,0:36:43.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}做好准备面对现实，她太理想化了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}for the real world, I'm afraid.{\r}
+Dialogue: 0,0:36:43.59,0:36:45.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我倒没那么觉得{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't know about that.{\r}
+Dialogue: 0,0:36:45.20,0:36:47.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她把自己照顾的很好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She seems to manage pretty well for herself.{\r}
+Dialogue: 0,0:36:47.46,0:36:50.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我很高兴听到这些{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, that's good to hear.{\r}
+Dialogue: 0,0:36:53.67,0:36:57.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你打过猎吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do you ever do any hunting?{\r}
+Dialogue: 0,0:36:58.78,0:36:59.90,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}没有{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,0:37:00.08,0:37:02.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}从来没有{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Never.{\r}
+Dialogue: 0,0:37:02.61,0:37:05.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}或许改天我们能一起去{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, maybe I could take you out sometime.{\r}
+Dialogue: 0,0:37:05.48,0:37:07.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}非常乐意{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'd like that. Yeah.{\r}
+Dialogue: 0,0:37:07.89,0:37:11.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}通常我只有被追的份儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Usually I'm the one who's getting chased.{\r}
+Dialogue: 0,0:37:12.99,0:37:16.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}知道吗，人们常说{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You know what they say.{\r}
+Dialogue: 0,0:37:16.23,0:37:18.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}人生就是一场狩猎{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Life's a hunt.{\r}
+Dialogue: 0,0:37:22.90,0:37:23.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}早上好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Good morning.{\r}
+Dialogue: 0,0:37:23.60,0:37:24.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}早上好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Morning.{\r}
+Dialogue: 0,0:37:24.74,0:37:26.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}请坐{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Have a seat.{\r}
+Dialogue: 0,0:37:27.74,0:37:30.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}今天需要什么服务？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What can we do for you today?{\r}
+Dialogue: 0,0:37:30.44,0:37:31.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}剪短{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Cut it off.{\r}
+Dialogue: 0,0:37:31.98,0:37:33.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}全部吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}All of it?{\r}
+Dialogue: 0,0:37:33.38,0:37:35.21,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对，我明天结婚{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, I'm getting married tomorrow.{\r}
+Dialogue: 0,0:37:35.38,0:37:38.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我妻子她，喜欢短发{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And my wife, she likes short hair.{\r}
+Dialogue: 0,0:37:38.35,0:37:40.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}恭喜了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Congratulations.{\r}
+Dialogue: 0,0:37:40.52,0:37:42.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看看我们来做些什么{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}See what we can do for you.{\r}
+Dialogue: 0,0:37:42.85,0:37:45.48,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}会让你们俩个都满意{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Try to make you happy, the both of you.{\r}
+Dialogue: 0,0:37:51.36,0:37:51.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}需要替您提袋子吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Take your bags?{\r}
+Dialogue: 0,0:37:52.03,0:37:53.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我自己来，谢谢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've got it. Thank you.{\r}
+Dialogue: 0,0:37:53.60,0:37:54.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}悉听尊便{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Very well.{\r}
+Dialogue: 0,0:38:04.58,0:38:07.44,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸，你来了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Dad. You came.{\r}
+Dialogue: 0,0:38:20.39,0:38:22.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我想我该见见她的父母{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...I suppose I'll have to meet her parents.{\r}
+Dialogue: 0,0:38:22.99,0:38:25.09,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她父亲是个共和党员{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Her dad's a Republican.{\r}
+Dialogue: 0,0:38:25.26,0:38:27.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}喜欢打猎{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And a hunter.{\r}
+Dialogue: 0,0:38:28.20,0:38:30.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}哦，天啊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, dear.{\r}
+Dialogue: 0,0:38:31.30,0:38:32.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}等一下，我得服颗安定片{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Give us a second. I gotta take a Valium.{\r}
+Dialogue: 0,0:38:33.00,0:38:35.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}安定片？这是为啥？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Valium? Is that a good idea?{\r}
+Dialogue: 0,0:38:35.37,0:38:37.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}婚礼中新郎总不能消失吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Wouldn't be a wedding without a groom.{\r}
+Dialogue: 0,0:38:38.01,0:38:39.44,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你这人真是…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Freak.{\r}
+Dialogue: 0,0:38:39.61,0:38:41.27,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}怎么了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You okay in there?{\r}
+Dialogue: 0,0:38:46.75,0:38:48.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}天啊，糟了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, shit.{\r}
+Dialogue: 0,0:38:49.05,0:38:49.98,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我来替女士开门{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Let me get this for you, ladies.{\r}
+Dialogue: 0,0:38:50.05,0:38:51.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谢谢你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Thank you.{\r}
+Dialogue: 0,0:38:52.02,0:38:54.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你这头发怎么总是弄不好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This hair, it's always been difficult.{\r}
+Dialogue: 0,0:38:54.56,0:38:56.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}妈妈，别弄了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Mom. Stop already, okay?{\r}
+Dialogue: 0,0:38:56.56,0:38:58.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}头发挺好的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's fine.{\r}
+Dialogue: 0,0:38:58.56,0:39:02.19,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我的天啊，你好美{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But, my God, you are beautiful.{\r}
+Dialogue: 0,0:39:02.90,0:39:04.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利看到你走出来时{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}When Henry sees you coming down the aisle...{\r}
+Dialogue: 0,0:39:04.37,0:39:07.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可能会当场被迷倒的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...he's gonna pass out on the spot.{\r}
+Dialogue: 0,0:39:08.97,0:39:11.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你能去看看他们吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Could you go check on the boys?{\r}
+Dialogue: 0,0:39:11.21,0:39:13.27,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}天啊，天啊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay. Oh, God.{\r}
+Dialogue: 0,0:39:14.04,0:39:16.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好吧，这下完蛋了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay. Oh, shit.{\r}
+Dialogue: 0,0:39:17.25,0:39:18.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你们快准备好了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Are you guys nearly ready?{\r}
+Dialogue: 0,0:39:18.88,0:39:20.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对，我们很好，非常好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah. Yeah, we're good. We're fine.{\r}
+Dialogue: 0,0:39:20.85,0:39:22.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这可是个结婚的好日子{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Great day for a wedding, huh{\r}
+Dialogue: 0,0:39:23.02,0:39:24.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}花也很好，一切都很好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Flowers look really pretty and everything.{\r}
+Dialogue: 0,0:39:24.56,0:39:26.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}宾客都在楼下等着呢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Everyone else is downstairs waiting.{\r}
+Dialogue: 0,0:39:26.22,0:39:27.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}要我怎么跟克莱儿说？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So，what do you want me to tell Clare?{\r}
+Dialogue: 0,0:39:27.96,0:39:30.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们可能还要…半小时左右…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We'll just probably be like another，or get half an hour...{\r}
+Dialogue: 0,0:39:30.43,0:39:31.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}才能打扮好…然后…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}so to get pretty, and then...{\r}
+Dialogue: 0,0:39:32.03,0:39:34.73,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}然后…穿好裤子{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And then, you know, put some pants on,{\r}
+Dialogue: 0,0:39:34.90,0:39:36.73,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}接着就下去{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}and then we'll be ready to go.{\r}
+Dialogue: 0,0:39:37.50,0:39:38.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}五分钟就好…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Five minutes.{\r}
+Dialogue: 0,0:39:39.60,0:39:41.63,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那我去告诉克莱儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'll let Clare know.{\r}
+Dialogue: 0,0:39:43.14,0:39:44.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你来自哪一年？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What year are you from?{\r}
+Dialogue: 0,0:39:44.17,0:39:44.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你看起来像我爷爷那么大了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You look like my grandpa.{\r}
+Dialogue: 0,0:39:45.04,0:39:47.27,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}别担心，会搞定的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Don't worry. It all works out.{\r}
+Dialogue: 0,0:39:47.95,0:39:49.67,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}真是好极了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, great.{\r}
+Dialogue: 0,0:39:49.85,0:39:51.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我只希望没人发现你头发都白了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I just hope no one notices the gray hair.{\r}
+Dialogue: 0,0:39:51.58,0:39:53.38,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}也没时间刮胡子了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're not gonna have time to shave.{\r}
+Dialogue: 0,0:39:55.05,0:39:57.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我真不知道他们在干嘛{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't know where they are.{\r}
+Dialogue: 0,0:40:50.11,0:40:52.08,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}祝你幸福，宝贝{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Good luck, darling.{\r}
+Dialogue: 0,0:40:52.24,0:40:54.21,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他的头发都花白了…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He's got gray hair.{\r}
+Dialogue: 0,0:40:58.12,0:40:59.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你搞什么鬼？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What the hell?{\r}
+Dialogue: 0,0:40:59.52,0:41:01.64,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}先别闹，我们要结婚了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Don't swear. We're getting married.{\r}
+Dialogue: 0,0:41:01.82,0:41:03.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}今天我们相聚在这里庆祝…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We are gathered here today to celebrate{\r}
+Dialogue: 0,0:41:03.99,0:41:06.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利和克莱儿的婚礼{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}the marriage of Henry and Clare.{\r}
+Dialogue: 0,0:41:06.56,0:41:08.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}在家人和朋友的见证下{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}In the presence of family and friends{\r}
+Dialogue: 0,0:41:08.59,0:41:09.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}以及在上帝面前{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}and before God,{\r}
+Dialogue: 0,0:41:09.59,0:41:12.12,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他们彼此交换誓言{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}to have and to hold from this day forward,{\r}
+Dialogue: 0,0:41:12.30,0:41:15.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}上帝作证，从今以后…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}to have and to hold from this day forward...{\r}
+Dialogue: 0,0:41:15.33,0:41:17.23,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不论富有或贫穷{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}for richer or for poorer...{\r}
+Dialogue: 0,0:41:17.40,0:41:18.89,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不论顺境或逆境{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...for better or for worse,{\r}
+Dialogue: 0,0:41:19.07,0:41:21.63,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不论疾病或健康...{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}in sickness and in health...{\r}
+Dialogue: 0,0:41:24.94,0:41:27.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}现在我想邀请我美丽的女儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And now I'd like to invite my lovely daughter...{\r}
+Dialogue: 0,0:41:27.48,0:41:32.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}还有我的女婿步入舞池{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...and my gallant new son-in-law to the dance floor.{\r}
+Dialogue: 0,0:42:07.48,0:42:09.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你好，陌生人{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Howdy, stranger.{\r}
+Dialogue: 0,0:42:11.62,0:42:14.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对不起，我错过了婚礼{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Sorry I missed the ceremony.{\r}
+Dialogue: 0,0:42:14.59,0:42:17.12,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你没错过{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You didn't.{\r}
+Dialogue: 0,0:42:18.56,0:42:21.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你希望我是他吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do you wish I was him?{\r}
+Dialogue: 0,0:42:23.50,0:42:25.49,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你就是他啊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But you are.{\r}
+Dialogue: 0,0:42:37.28,0:42:40.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我怀疑我犯了重婚罪{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I wonder if I'm a bigamist.{\r}
+Dialogue: 0,0:42:40.35,0:42:42.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我想只要你愿意{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I think you're allowed to marry the same person{\r}
+Dialogue: 0,0:42:42.49,0:42:44.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}和同一个人结多少次婚都行{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}as many times as you want.{\r}
+Dialogue: 0,0:43:22.29,0:43:23.28,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}哦，别…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, no.{\r}
+Dialogue: 0,0:43:23.46,0:43:24.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不要！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Don't.{\r}
+Dialogue: 0,0:44:46.51,0:44:48.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你终于来了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Finally.{\r}
+Dialogue: 0,0:44:48.25,0:44:49.21,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}克莱儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Clare.{\r}
+Dialogue: 0,0:44:49.38,0:44:51.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}除了我还能是谁？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Who'd you expect?{\r}
+Dialogue: 0,0:44:53.68,0:44:55.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我带了个火鸡腿给你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I brought you a turkey leg.{\r}
+Dialogue: 0,0:44:55.52,0:44:58.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我家厨师做的火鸡是这附近最好吃的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Our cook roasts the best turkey around.{\r}
+Dialogue: 0,0:44:58.56,0:45:02.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}反正大家都这么说{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, that's what everyone says, anyway.{\r}
+Dialogue: 0,0:45:06.20,0:45:09.22,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我爸爸本打算留作午餐吃{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}My dad was saving it for lunch.{\r}
+Dialogue: 0,0:45:09.40,0:45:10.89,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但他总是忽视我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He's been ignoring me,{\r}
+Dialogue: 0,0:45:11.07,0:45:14.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}所以我觉得他不配吃{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}so I really didn't think he deserved it.{\r}
+Dialogue: 0,0:45:15.67,0:45:17.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他也常忽视我妈妈{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He's been ignoring my mom too.{\r}
+Dialogue: 0,0:45:18.01,0:45:22.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}艾莉西亚说，他们这次准会离婚{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Alicia says they're really gonna get a divorce this time.{\r}
+Dialogue: 0,0:45:25.28,0:45:27.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他们不会的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}They're not.{\r}
+Dialogue: 0,0:45:28.72,0:45:32.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你从没告诉我这些事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You never told me anything like that before.{\r}
+Dialogue: 0,0:45:32.32,0:45:35.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不想让你自寻烦恼{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, I don't want you to worry if you don't have to.{\r}
+Dialogue: 0,0:45:37.93,0:45:40.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}或许他们应该离婚{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Maybe they should get a divorce.{\r}
+Dialogue: 0,0:45:40.46,0:45:42.63,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是啊，或许吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, maybe.{\r}
+Dialogue: 0,0:45:44.97,0:45:47.33,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你结婚了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Are you married?{\r}
+Dialogue: 0,0:45:48.07,0:45:50.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的，我结婚了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yes, I am.{\r}
+Dialogue: 0,0:45:50.87,0:45:52.54,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你妻子也能穿越时空吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Is your wife a time traveler?{\r}
+Dialogue: 0,0:45:52.71,0:45:55.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不，还好不是{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No. No, thank God.{\r}
+Dialogue: 0,0:45:56.15,0:45:58.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你爱她吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do you love her?{\r}
+Dialogue: 0,0:45:58.92,0:46:00.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yes.{\r}
+Dialogue: 0,0:46:00.35,0:46:02.11,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}非常爱她{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Very much.{\r}
+Dialogue: 0,0:46:06.42,0:46:07.36,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}怎么了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What's wrong?{\r}
+Dialogue: 0,0:46:07.52,0:46:12.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}没什么，我只是希望和你结婚的是我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Nothing. I was just hoping you're married to me.{\r}
+Dialogue: 0,0:46:23.84,0:46:25.90,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你有没有想过时间…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Did you ever think about time?{\r}
+Dialogue: 0,0:46:26.08,0:46:27.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}它一直在流逝…亚力克{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It goes, Alec.{\r}
+Dialogue: 0,0:46:27.88,0:46:30.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}就像人生一样…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's the business of time.{\r}
+Dialogue: 0,0:46:30.25,0:46:33.27,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}滴答，滴答，滴答{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Tick, tick, tick...{\r}
+Dialogue: 0,0:46:45.96,0:46:49.19,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我刚才跟你在草地上{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I was with you in the meadow.{\r}
+Dialogue: 0,0:46:49.37,0:46:51.36,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}真的吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You were?{\r}
+Dialogue: 0,0:46:52.87,0:46:55.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你在嫉妒我的妻子{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You were jealous of my wife.{\r}
+Dialogue: 0,0:46:57.77,0:46:59.90,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是有{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I was.{\r}
+Dialogue: 0,0:47:00.91,0:47:04.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那时我还常常安慰自己说…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I used to try and convince myself...{\r}
+Dialogue: 0,0:47:04.88,0:47:08.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你娶了个满脸胡子的大肥婆{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...that you were married to someone fat with a mustache.{\r}
+Dialogue: 0,0:47:09.00,0:47:11.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}呃，这正是我喜欢的类型{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, that is my type.{\r}
+Dialogue: 0,0:47:23.92,0:47:26.09,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}来 一起{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come on, let's do this.{\r}
+Dialogue: 0,0:47:29.24,0:47:30.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}太好了，谢了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's great, guys. Thanks.{\r}
+Dialogue: 0,0:47:30.77,0:47:32.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不客气{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're welcome.{\r}
+Dialogue: 0,0:47:34.28,0:47:35.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亲爱的？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Honey?{\r}
+Dialogue: 0,0:47:44.45,0:47:45.82,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}抓住他，查理{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Get him, Charlie.{\r}
+Dialogue: 0,0:47:46.29,0:47:47.52,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}东西放下{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Drop it.{\r}
+Dialogue: 0,0:48:43.08,0:48:44.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}回来，混帐东西{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Get back here, you son of a bitch.{\r}
+Dialogue: 0,0:48:51.52,0:48:53.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你回来了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're back.{\r}
+Dialogue: 0,0:48:53.19,0:48:55.45,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我错过圣诞节了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Did I miss Christmas?{\r}
+Dialogue: 0,0:48:55.63,0:48:57.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的，还有新年{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah. And New Year's.{\r}
+Dialogue: 0,0:48:59.46,0:49:02.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利，你离开两周了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry, you've been gone two weeks.{\r}
+Dialogue: 0,0:49:02.20,0:49:05.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我回不来，用尽所有办法{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I couldn't get back. I tried everything.{\r}
+Dialogue: 0,0:49:05.77,0:49:07.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}甚至把自己灌醉想制造机会{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Even got drunk trying to trigger it.{\r}
+Dialogue: 0,0:49:08.14,0:49:10.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看来没成功{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Guess that didn't work.{\r}
+Dialogue: 0,0:49:14.21,0:49:15.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我得出去了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Um, I have to go.{\r}
+Dialogue: 0,0:49:16.11,0:49:17.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}现在？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Now?{\r}
+Dialogue: 0,0:49:17.38,0:49:18.24,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我才刚回来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I just got here.{\r}
+Dialogue: 0,0:49:18.42,0:49:20.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我知道，但两周后我有展览{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I know, but I have a show in two weeks.{\r}
+Dialogue: 0,0:49:20.85,0:49:22.48,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}杰洛米给我找了个工作室{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Jeremy gave me a space to work in.{\r}
+Dialogue: 0,0:49:22.65,0:49:24.12,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这地方太小了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I mean, this place is too small.{\r}
+Dialogue: 0,0:49:24.29,0:49:26.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我没法在这里工作{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I can't work here anymore.{\r}
+Dialogue: 0,0:49:26.42,0:49:29.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利，我的生活不能因为你的离开而停止{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And, Henry, my life doesn't stop because you're gone.{\r}
+Dialogue: 0,0:49:29.46,0:49:31.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我从没这样想过{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I never said it did.{\r}
+Dialogue: 0,0:49:34.13,0:49:35.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们能谈谈吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Could we talk about this? {\r}
+Dialogue: 0,0:49:35.50,0:49:36.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谈什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Talk?{\r}
+Dialogue: 0,0:49:36.33,0:49:39.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我在两周都在这里等你和我谈{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I have been here for two weeks wanting to talk to you.{\r}
+Dialogue: 0,0:49:39.34,0:49:41.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你想要谈什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What do you wanna talk about?{\r}
+Dialogue: 0,0:49:41.67,0:49:46.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谈我坐在这里等你有多难受吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I mean, how bad it feels to sit here and wait for you?{\r}
+Dialogue: 0,0:49:46.18,0:49:47.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我要去工作了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm going to work.{\r}
+Dialogue: 0,0:49:55.49,0:49:57.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一定会成功，别担心{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This is gonna be great. Have no worries.{\r}
+Dialogue: 0,0:49:57.50,0:49:59.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好的，谢谢你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}All right. Thank you sir.{\r}
+Dialogue: 0,0:49:59.32,0:50:00.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}- 晚安了   - 晚安{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}- Good night.   - Good night.{\r}
+Dialogue: 0,0:50:38.23,0:50:39.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们快赶不上了…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We'll never make it in time.{\r}
+Dialogue: 0,0:50:40.03,0:50:41.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}赶不上什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}In time for what?{\r}
+Dialogue: 0,0:50:41.83,0:50:43.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}在美国某处{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Somewhere in America,{\r}
+Dialogue: 0,0:50:43.13,0:50:45.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}从此刻起，又将会产生一位新的百万富翁{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}moments from now, there could be a new multimillionaire.{\r}
+Dialogue: 0,0:50:46.04,0:50:49.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}晚安，我是戴夫·隆，今天是周二…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Good evening, everybody. I'm Dave Long. It's Tuesday....{\r}
+Dialogue: 0,0:50:49.20,0:50:51.11,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利，你在干嘛？我们不能进来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henny,what are you doing? You can't be in here.{\r}
+Dialogue: 0,0:50:51.17,0:50:51.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你一定得看看{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We have to watch .{\r}
+Dialogue: 0,0:50:51.90,0:50:53.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}电视的辐射会让你穿越的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}The TV set is gonna set you off.{\r}
+Dialogue: 0,0:50:53.68,0:50:55.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我要你看点东西{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}you have to watch something...{\r}
+Dialogue: 0,0:50:56.10,0:50:57.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那是什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What's that?{\r}
+Dialogue: 0,0:50:59.38,0:51:00.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}祝好运{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Good luck.{\r}
+Dialogue: 0,0:51:03.25,0:51:04.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你做了什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What'd you do?{\r}
+Dialogue: 0,0:51:04.92,0:51:06.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}第一个乐透号码是…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Our first winning number is...{\r}
+Dialogue: 0,0:51:06.80,0:51:08.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}- 17     - 17{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}- 17...     - 17..{\r}
+Dialogue: 0,0:51:14.33,0:51:16.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}下一个{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Up next:{\r}
+Dialogue: 0,0:51:16.23,0:51:17.82,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可能是23{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Maybe a 23.{\r}
+Dialogue: 0,0:51:18.00,0:51:19.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}23号{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Number 23.{\r}
+Dialogue: 0,0:51:20.50,0:51:22.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}下一个或许是32{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Or even a 32.{\r}
+Dialogue: 0,0:51:23.94,0:51:26.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}32是下一个{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}32 is next.{\r}
+Dialogue: 0,0:51:27.54,0:51:29.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不会是40吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Couldn't possibly be a 40.{\r}
+Dialogue: 0,0:51:29.88,0:51:32.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}接下来是40{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Followed by 40.{\r}
+Dialogue: 0,0:51:33.25,0:51:34.27,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可能不是12{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That shouldn't be a 12. {\r}
+Dialogue: 0,0:51:34.45,0:51:37.28,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}最后一个数是 12{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And the last number is...a 12.{\r}
+Dialogue: 0,0:51:39.49,0:51:44.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}本期中奖号码是17、23、32…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So here are your winning numbers: 17, 23, 32{\r}
+Dialogue: 0,0:51:44.33,0:51:46.52,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你刚赢了5百万{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You just won $5 million.{\r}
+Dialogue: 0,0:51:46.70,0:51:49.67,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}…40和12{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...40 and 12.{\r}
+Dialogue: 0,0:51:49.83,0:51:51.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你不能这么做{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You can't do that.{\r}
+Dialogue: 0,0:51:51.63,0:51:54.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这是作弊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's... It's cheating.{\r}
+Dialogue: 0,0:51:54.24,0:51:57.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那好，咱们撕掉吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay. Let's rip it up.{\r}
+Dialogue: 0,0:51:57.44,0:51:58.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不要！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,0:52:00.31,0:52:03.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}听着，我的情况有很多坏处{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Look, there are a lot of downsides to my condition, okay?{\r}
+Dialogue: 0,0:52:04.08,0:52:06.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但这个算是个福利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But this is not one of them.{\r}
+Dialogue: 0,0:52:07.95,0:52:10.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}每个房间都有精致的灰泥墙{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Exquisite plasterwork in every room of the house.{\r}
+Dialogue: 0,0:52:11.12,0:52:13.45,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}很美吧？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Isn't it gorgeous?{\r}
+Dialogue: 0,0:52:14.49,0:52:16.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这间不好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This is not it.{\r}
+Dialogue: 0,0:52:17.26,0:52:17.99,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可是我喜欢…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But I like it.{\r}
+Dialogue: 0,0:52:18.16,0:52:20.36,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你会更喜欢另一间的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You'll like another one more.{\r}
+Dialogue: 0,0:52:22.93,0:52:26.73,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看这个壁炉，简直令人赞叹{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Just look at the fireplace. It's got the "wow" factor.{\r}
+Dialogue: 0,0:52:26.90,0:52:29.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这些细节、结构、窗户…。{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}The details, the architecture, the windows.{\r}
+Dialogue: 0,0:52:29.57,0:52:30.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}美极了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Spectacular.{\r}
+Dialogue: 0,0:52:30.27,0:52:33.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不，这间不好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No. Not the one.{\r}
+Dialogue: 0,0:52:33.54,0:52:34.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}呃，谢谢你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Uh, thank you.{\r}
+Dialogue: 0,0:52:39.25,0:52:41.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}瞧这美丽景观{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Just look at this landscaping.{\r}
+Dialogue: 0,0:52:41.58,0:52:44.28,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}很期待春天的景象吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Wouldn't you love to see it in the spring?{\r}
+Dialogue: 0,0:52:44.45,0:52:48.75,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这间比其他地方要小一点，但毫不逊色{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Now, it's a little smaller than the other places, but big on charm.{\r}
+Dialogue: 0,0:52:49.36,0:52:52.23,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这幢房子的正门实际在后面{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Now, the main entrance of this house is actually towards the rear...{\r}
+Dialogue: 0,0:52:52.40,0:52:55.73,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}正对着一个美丽的花园{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...where there is a charming garden.{\r}
+Dialogue: 0,0:52:55.90,0:52:58.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看看这些装饰，壁炉…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But look at these features. The fireplace.{\r}
+Dialogue: 0,0:52:58.84,0:53:01.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}还有楼梯，多漂亮{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That staircase, it's so handsome.{\r}
+Dialogue: 0,0:53:01.60,0:53:04.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}宽厚板地面，也非常不错{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}The wide-plank flooring. Love that.{\r}
+Dialogue: 0,0:53:07.81,0:53:09.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}克莱儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Clare.{\r}
+Dialogue: 0,0:53:11.85,0:53:13.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这就是我们的家了，看到那间车库了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're home. See the garage? {\r}
+Dialogue: 0,0:53:14.08,0:53:15.14,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}- 那是你的工作室   - 哇哦{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}- That's your studio.   - Aah!{\r}
+Dialogue: 0,0:53:15.32,0:53:18.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}快点，跟我来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come on. Come on.{\r}
+Dialogue: 0,0:53:21.52,0:53:25.12,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这里是花园，那边是我的工作室{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So here's the garden. And over there is my studio. {\r}
+Dialogue: 0,0:53:26.30,0:53:28.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}- 一切都好吗   - 是的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}- All things gone okay.   - Yes....{\r}
+Dialogue: 0,0:53:28.77,0:53:29.36,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}加点薄荷？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Mint?{\r}
+Dialogue: 0,0:53:29.53,0:53:30.19,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yes.{\r}
+Dialogue: 0,0:53:30.37,0:53:31.49,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你的黑咖啡{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And black for you.{\r}
+Dialogue: 0,0:53:31.67,0:53:33.19,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}还要几个？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How many more of these do you want?{\r}
+Dialogue: 0,0:53:33.37,0:53:34.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}三个就够了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Three's good.{\r}
+Dialogue: 0,0:53:34.24,0:53:35.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}宝宝在动{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He's awake.{\r}
+Dialogue: 0,0:53:35.87,0:53:38.36,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他在踢我，麦克斯在踢我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He's kicking. Max is kicking. {\r}
+Dialogue: 0,0:54:23.35,0:54:25.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你知道你死的时间吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do you know when you're going to die?{\r}
+Dialogue: 0,0:54:33.86,0:54:35.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不知道{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,0:54:37.53,0:54:40.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我从没看过你老的时候{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've never seen you older.{\r}
+Dialogue: 0,0:54:41.97,0:54:45.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我从没见过超过40多岁的你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've never seen you older than 40 something.{\r}
+Dialogue: 0,0:54:45.21,0:54:47.64,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}从来没有{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Never.{\r}
+Dialogue: 0,0:54:48.81,0:54:50.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可能是你停止了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Maybe you stop...{\r}
+Dialogue: 0,0:54:50.48,0:54:52.95,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可能你停止穿越时空了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Maybe you stop traveling.{\r}
+Dialogue: 0,0:54:57.25,0:55:00.09,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}有人…有人找到了治疗的方法{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Somebody... Somebody finds a cure.{\r}
+Dialogue: 0,0:55:00.26,0:55:01.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一定有某种能对你起作用的药{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}There's gotta be some kind of drug you can take.{\r}
+Dialogue: 0,0:55:02.06,0:55:04.49,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}也可能会有某个人…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}There's gotta be someone....{\r}
+Dialogue: 0,0:55:04.66,0:55:07.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}或者某种东西，能帮助到你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Something. Something that can help.{\r}
+Dialogue: 0,0:55:15.97,0:55:18.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我有宝宝了…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're having a baby.{\r}
+Dialogue: 0,0:55:21.58,0:55:23.55,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What?{\r}
+Dialogue: 0,0:55:39.42,0:55:40.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我...{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I....{\r}
+Dialogue: 0,0:55:41.70,0:55:44.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我想现在是时候了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I think it's time.{\r}
+Dialogue: 0,0:55:44.93,0:55:47.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你该去找肯德瑞克医生了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's time you find Dr. Kendrick.{\r}
+Dialogue: 0,0:55:50.64,0:55:53.23,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你说你怎么找到我的？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How did you say you found me?{\r}
+Dialogue: 0,0:55:54.24,0:55:55.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我年纪较大时{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}When I'm older...{\r}
+Dialogue: 0,0:55:56.11,0:56:01.61,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我穿越时空回去见我妻子，她还是个小女孩{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...I travel back in time to see my wife when she's a little girl.{\r}
+Dialogue: 0,0:56:01.78,0:56:04.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她说我提到一位肯德瑞克医生{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She says I mentioned a Dr. Kendrick.{\r}
+Dialogue: 0,0:56:04.89,0:56:06.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我在芝加哥找到三位{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I found three in the Chicago area:{\r}
+Dialogue: 0,0:56:06.42,0:56:07.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一位是五官科{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}one an ENT,{\r}
+Dialogue: 0,0:56:07.69,0:56:09.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一位是足科，所以…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}one a podiatrist, so....{\r}
+Dialogue: 0,0:56:09.89,0:56:12.49,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我是遗传学家{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm a geneticist.{\r}
+Dialogue: 0,0:56:14.13,0:56:16.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}而我的基因不正常{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And I have a genetic anomaly.{\r}
+Dialogue: 0,0:56:16.80,0:56:19.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}称作“时间受损”{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's called Chrono-Impairment.{\r}
+Dialogue: 0,0:56:20.54,0:56:23.33,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}很显然这是你自己想出来的名称{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's a term you came up with, apparently.{\r}
+Dialogue: 0,0:56:23.51,0:56:25.67,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这都是她对我说的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's what she says.{\r}
+Dialogue: 0,0:56:25.84,0:56:26.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}当然，既然我先提到了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Of course, now I've mentioned it,{\r}
+Dialogue: 0,0:56:27.14,0:56:28.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你就会这样来称呼它{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}you will call it that...{\r}
+Dialogue: 0,0:56:29.01,0:56:31.64,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}很难说是哪一个先出现{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...and it'll be hard to tell which came first.{\r}
+Dialogue: 0,0:56:32.82,0:56:36.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你看，这就是穿越时空产生的混乱{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You see, that's the thing about time travel.{\r}
+Dialogue: 0,0:56:39.29,0:56:41.45,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是我学生找你来耍我的吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Did my students put you up to this?{\r}
+Dialogue: 0,0:56:41.62,0:56:44.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为，老兄，你真是太棒了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Because, man, you are good.{\r}
+Dialogue: 0,0:56:44.23,0:56:46.63,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}天啊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, God.{\r}
+Dialogue: 0,0:56:48.13,0:56:50.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你唬到我了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You got me.{\r}
+Dialogue: 0,0:56:55.67,0:56:58.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我就知道这肯定是浪费时间{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I knew this would be a waste of my time.{\r}
+Dialogue: 0,0:57:00.04,0:57:01.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}等一下，等等{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Wait a minute.Uh, wait. Here{\r}
+Dialogue: 0,0:57:01.68,0:57:03.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利，等等{\r}\N{\fnVrinda\fs14\1c&HFFFF00&} Henry, wait.{\r}
+Dialogue: 0,0:58:02.54,0:58:04.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hey.{\r}
+Dialogue: 0,0:58:12.68,0:58:14.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}孩子没了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I lost the baby.{\r}
+Dialogue: 0,0:58:39.84,0:58:40.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}肯德瑞克{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Kendrick.{\r}
+Dialogue: 0,0:58:43.51,0:58:45.45,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}德坦布尔先生{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Mr. DeTamble.{\r}
+Dialogue: 0,0:58:45.62,0:58:48.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我妻子流产了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}My wife had a miscarriage.{\r}
+Dialogue: 0,0:58:51.52,0:58:55.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我很遗憾，但我不知道我能帮你什么{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I am very sorry about that, but I don't see what I can do to help.{\r}
+Dialogue: 0,0:58:56.03,0:58:59.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}如果孩子也像我一样是个时间旅行者呢？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What if the baby's a traveler like me?{\r}
+Dialogue: 0,0:58:59.56,0:59:01.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}如果我们有相同的异常基因呢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What if it has the same genetic anomaly?{\r}
+Dialogue: 0,0:59:01.83,0:59:03.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}如果孩子穿越出了子宫呢？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What if it traveled out of the womb?{\r}
+Dialogue: 0,0:59:03.77,0:59:05.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你需要帮助{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You need help.{\r}
+Dialogue: 0,0:59:05.27,0:59:08.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但这种帮助我无法给你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Not the kind of help I can give you.{\r}
+Dialogue: 0,0:59:08.37,0:59:10.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我要怎么向你证明？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How can I prove it to you?{\r}
+Dialogue: 0,0:59:10.77,0:59:11.93,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你没法证明{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You can't.{\r}
+Dialogue: 0,0:59:12.11,0:59:14.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这是不可能的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's impossible.{\r}
+Dialogue: 0,0:59:14.91,0:59:17.54,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}要不然我们做个测试{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, just do one test.{\r}
+Dialogue: 0,0:59:17.71,0:59:19.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}如果没结果，我不会再烦你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}If you don't find anything, fine. I'll leave you alone,{\r}
+Dialogue: 0,0:59:19.92,0:59:22.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你可以继续过你的生活{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}you can go back to your life.{\r}
+Dialogue: 0,0:59:22.52,0:59:24.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我要叫保安了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm calling Security.{\r}
+Dialogue: 0,0:59:25.72,0:59:27.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}奖助金{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}The grant.{\r}
+Dialogue: 0,0:59:27.52,0:59:29.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}柏格奖{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}The Berger Grant.{\r}
+Dialogue: 0,0:59:32.26,0:59:34.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你申请了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Have you applied for it yet?{\r}
+Dialogue: 0,0:59:34.53,0:59:37.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你怎么知道这件事？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How did you find out about that?{\r}
+Dialogue: 0,0:59:38.63,0:59:40.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你会得奖{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You win.{\r}
+Dialogue: 0,0:59:50.81,0:59:52.11,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们要开始第一组测试{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're going to start the first series.{\r}
+Dialogue: 0,0:59:52.28,0:59:54.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}大概需要10分钟{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It'll take about 10 minutes.{\r}
+Dialogue: 0,1:00:31.05,1:00:32.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}哦，天啊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, shit.{\r}
+Dialogue: 0,1:00:37.73,1:00:42.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你的大脑在穿越的时候{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Your brain emits a blast of electromagnetic energy...{\r}
+Dialogue: 0,1:00:42.50,1:00:44.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}产生了类似癫痫症状的…。{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...akin to an epileptic's{\r}
+Dialogue: 0,1:00:44.33,1:00:46.89,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}电磁波反应{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}right at the moment you travel.{\r}
+Dialogue: 0,1:00:47.07,1:00:49.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}在这里就能看出来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And you can see it right here.{\r}
+Dialogue: 0,1:00:50.27,1:00:53.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}现在我们可以用一种抗癫痫症的药{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Now, there are drugs for epilepsy we can use.{\r}
+Dialogue: 0,1:00:53.88,1:00:58.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但是这类药对胎儿的刺激性很大{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But all of these drugs are way too strong for a fetus...{\r}
+Dialogue: 0,1:00:58.98,1:01:03.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}所以实际上，这跟造成流产的状况差不多{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...if, indeed, it is a similar condition which is causing the miscarriage.{\r}
+Dialogue: 0,1:01:03.35,1:01:05.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我目前怀孕十周了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm 10 weeks in now,{\r}
+Dialogue: 0,1:01:05.52,1:01:07.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们从来没有维持过这么久{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}and we've never been that far along...{\r}
+Dialogue: 0,1:01:07.69,1:01:09.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可能这个宝宝并不会穿越时空{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...so maybe the baby isn't gonna travel.{\r}
+Dialogue: 0,1:01:10.03,1:01:11.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们会知道的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're going to find out.{\r}
+Dialogue: 0,1:01:11.86,1:01:15.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们要研究一下亨利的基因密码{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're going to take a look at Henry's genetic code.{\r}
+Dialogue: 0,1:01:15.20,1:01:18.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}也要研究一下基因群{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We'd like to take a look at the clock genes.{\r}
+Dialogue: 0,1:01:18.77,1:01:22.36,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}然后我也要对胎儿做同样检测{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And then I would like to run the same test on the fetus.{\r}
+Dialogue: 0,1:01:22.54,1:01:23.23,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}别担心{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Not to worry.{\r}
+Dialogue: 0,1:01:23.41,1:01:25.90,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这是非侵入性的细胞提取{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's a noninvasive extraction of cells.{\r}
+Dialogue: 0,1:01:26.08,1:01:28.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}或许我们会找到一些办法{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But perhaps we'll get some sort of indication...{\r}
+Dialogue: 0,1:01:28.91,1:01:32.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}能帮助你稳定怀胎到生产{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...as how to bring you to full term.{\r}
+Dialogue: 0,1:01:52.23,1:01:53.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亲爱的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Honey.{\r}
+Dialogue: 0,1:01:54.04,1:01:56.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}醒醒，你在流血{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Wake up. You're bleeding.{\r}
+Dialogue: 0,1:01:57.24,1:01:58.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What?{\r}
+Dialogue: 0,1:02:09.95,1:02:11.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们可以领养{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We could adopt.{\r}
+Dialogue: 0,1:02:15.79,1:02:17.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}难道我想拥有一次…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What's wrong with me wanting{\r}
+Dialogue: 0,1:02:17.96,1:02:20.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}正常的人生有错吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}one normal thing in my life?{\r}
+Dialogue: 0,1:02:20.90,1:02:22.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我想成为母亲{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I wanna be a mother.{\r}
+Dialogue: 0,1:02:22.87,1:02:25.89,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我想要生个孩子，你的孩子{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I wanna bear a child, your child.{\r}
+Dialogue: 0,1:02:26.07,1:02:28.33,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}为什么就做不到？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Why can't I have that?{\r}
+Dialogue: 0,1:02:29.44,1:02:32.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我从没见到过我们有孩子，从来没有{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've never seen us with a baby，never{\r}
+Dialogue: 0,1:02:32.17,1:02:32.66,Default,,0000,0000,0000,,
+Dialogue: 0,1:02:32.84,1:02:34.28,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我曾穿越到未来，但我从没见过{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...and I've never seen it.{\r}
+Dialogue: 0,1:02:34.44,1:02:35.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不想听这种话{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't wanna hear that.{\r}
+Dialogue: 0,1:02:36.15,1:02:37.58,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你听见医生说的了，你会…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You heard what the doctor said. You'd be...{\r}
+Dialogue: 0,1:02:37.75,1:02:38.58,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}别说了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Stop.{\r}
+Dialogue: 0,1:02:50.66,1:02:52.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好吧，亨利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay, Henry.{\r}
+Dialogue: 0,1:02:53.03,1:02:54.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}只是流程需要…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Uh, just to be official about this,{\r}
+Dialogue: 0,1:02:54.96,1:02:56.52,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我得最后再问你一次{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I need to ask you one last time:{\r}
+Dialogue: 0,1:02:56.70,1:02:57.93,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你确定你要这么做吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're sure you wanna do this?{\r}
+Dialogue: 0,1:02:58.10,1:03:00.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的，我签过文件了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, yeah. I've signed the papers.{\r}
+Dialogue: 0,1:03:00.77,1:03:02.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这个我知道，但是…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah. Yeah, I know，but uh...{\r}
+Dialogue: 0,1:03:02.67,1:03:05.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}结扎手术很少是由单方决定的…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}vasectomy's rarely a one-party decision.{\r}
+Dialogue: 0,1:03:05.67,1:03:08.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的，但这次我说了算{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, well, this time it is.{\r}
+Dialogue: 0,1:03:08.91,1:03:11.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你还好吧？需要叫人吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You all right? You need us to call someone? {\r}
+Dialogue: 0,1:03:11.48,1:03:11.88,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不用了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,1:03:12.05,1:03:13.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}叫车？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}A cab?{\r}
+Dialogue: 0,1:03:27.13,1:03:28.43,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry.{\r}
+Dialogue: 0,1:03:35.14,1:03:37.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}怎么了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hey. What's the matter?{\r}
+Dialogue: 0,1:03:37.97,1:03:41.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我现在真不想待在这里{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't really feel like being here right now.{\r}
+Dialogue: 0,1:03:46.18,1:03:47.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是因为我吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Is it me?{\r}
+Dialogue: 0,1:03:48.25,1:03:50.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不是{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,1:03:50.95,1:03:53.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我做了一件事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I did something.{\r}
+Dialogue: 0,1:03:53.86,1:03:56.22,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}很难的决定，你也不会喜欢的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It was hard, and you won't like it.{\r}
+Dialogue: 0,1:03:57.93,1:03:59.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你做了什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What'd you do?{\r}
+Dialogue: 0,1:03:59.76,1:04:02.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你不会喜欢的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You won't like it.{\r}
+Dialogue: 0,1:04:02.30,1:04:04.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那你为什么要做？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, then why'd you do it?{\r}
+Dialogue: 0,1:04:05.53,1:04:06.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}为了停止我们的争吵{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}To stop us from fighting.{\r}
+Dialogue: 0,1:04:07.00,1:04:09.27,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们争吵了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're fighting?{\r}
+Dialogue: 0,1:04:09.44,1:04:11.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}为了什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Why?{\r}
+Dialogue: 0,1:04:13.44,1:04:16.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好吧，一次就好，你能…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, just once, one time, could you...?{\r}
+Dialogue: 0,1:04:16.28,1:04:19.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你能回答我这个问题吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Could you tell me the answer to something I'm asking you?{\r}
+Dialogue: 0,1:04:20.78,1:04:22.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}无论如何我不会告诉你的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You wouldn't get it anyway.{\r}
+Dialogue: 0,1:04:29.79,1:04:31.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这样子做可不好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That wasn't very nice.{\r}
+Dialogue: 0,1:04:36.43,1:04:38.99,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你以前从未吻过我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You've never kissed me before.{\r}
+Dialogue: 0,1:05:58.75,1:06:01.08,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我刚才和你在草地上{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I was with you in the meadow.{\r}
+Dialogue: 0,1:06:05.22,1:06:06.21,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}在什么时候？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}When?{\r}
+Dialogue: 0,1:06:06.39,1:06:08.12,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你大概18岁吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You looked about 18.{\r}
+Dialogue: 0,1:06:09.49,1:06:11.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那是我们的初吻{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It was our first kiss.{\r}
+Dialogue: 0,1:06:17.90,1:06:20.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你那天情绪很差…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You were having a bad day.{\r}
+Dialogue: 0,1:06:20.97,1:06:23.27,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我做了一件事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I did something.{\r}
+Dialogue: 0,1:06:24.31,1:06:26.93,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我觉得我不得不做{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I did something I felt I had to do.{\r}
+Dialogue: 0,1:06:27.11,1:06:30.64,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}拜托别说那是会让我恨你的事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, please don't tell me something that's gonna make me hate you.{\r}
+Dialogue: 0,1:06:37.12,1:06:40.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我做了结扎手术{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I had a vasectomy.{\r}
+Dialogue: 0,1:06:41.19,1:06:42.82,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不想生孩子…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm not gonna have a child...{\r}
+Dialogue: 0,1:06:42.99,1:06:46.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}却因遗传我的基因紊乱失调而夭折{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...with the same genetic disorder as me who's gonna die. I...{\r}
+Dialogue: 0,1:06:46.23,1:06:48.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不想这样{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm not gonna do it.{\r}
+Dialogue: 0,1:06:49.73,1:06:51.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你怎么能这么做{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How dare you?{\r}
+Dialogue: 0,1:06:54.37,1:06:56.67,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你诱骗我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You tricked me.{\r}
+Dialogue: 0,1:06:56.84,1:07:00.28,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你，来到草地上{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You...You came to that meadow...{\r}
+Dialogue: 0,1:07:00.44,1:07:02.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}故意让一个小女孩…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...and you forced yourself into the heart{\r}
+Dialogue: 0,1:07:02.48,1:07:05.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}真心真意爱上你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}and the mind of a little girl.{\r}
+Dialogue: 0,1:07:05.65,1:07:07.98,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}难道你以为我想要这种人生？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Wait, you think that I wanted this life...{\r}
+Dialogue: 0,1:07:08.15,1:07:10.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}丈夫一声招呼不打就玩消失？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...this husband that disappears without any kind of warning?{\r}
+Dialogue: 0,1:07:11.02,1:07:12.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你觉得会有人想要这样的生活吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do you think anyone would want that?{\r}
+Dialogue: 0,1:07:12.89,1:07:14.58,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谁会想要？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Who would want that?{\r}
+Dialogue: 0,1:07:17.73,1:07:18.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你有别的选择{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You have a choice.{\r}
+Dialogue: 0,1:07:18.86,1:07:21.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我根本就没得选{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I never had a choice.{\r}
+Dialogue: 0,1:08:28.30,1:08:29.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}喂？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hello?{\r}
+Dialogue: 0,1:09:16.41,1:09:19.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谢谢过来，外面太冷了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Thanks for coming. It's freezing out there.{\r}
+Dialogue: 0,1:09:21.35,1:09:23.28,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利呢？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Where's Henry?{\r}
+Dialogue: 0,1:09:23.45,1:09:26.11,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我没吵醒他{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Uh, I left him sleeping.{\r}
+Dialogue: 0,1:09:28.09,1:09:31.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我需要离开他一下{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I needed some time away from him.{\r}
+Dialogue: 0,1:09:31.69,1:09:34.09,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这样对你有帮助吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How's that working out for you?{\r}
+Dialogue: 0,1:09:39.33,1:09:41.10,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你没事吧？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You okay?{\r}
+Dialogue: 0,1:09:41.27,1:09:43.90,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们吵了一架{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We had a fight.{\r}
+Dialogue: 0,1:09:44.07,1:09:46.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}吵得很凶{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It was bad.{\r}
+Dialogue: 0,1:09:49.98,1:09:54.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是啊，那家伙有时很讨厌{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah, well, he can be a pain in the ass, that guy.{\r}
+Dialogue: 0,1:10:10.53,1:10:12.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}见到你真好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's really good to see you.{\r}
+Dialogue: 0,1:10:45.03,1:10:46.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hi.{\r}
+Dialogue: 0,1:10:46.47,1:10:48.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hi.{\r}
+Dialogue: 0,1:10:54.28,1:10:55.14,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hi.{\r}
+Dialogue: 0,1:10:55.31,1:10:56.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hi.{\r}
+Dialogue: 0,1:11:24.44,1:11:26.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你怎么了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What's up with you?{\r}
+Dialogue: 0,1:11:28.68,1:11:30.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What?{\r}
+Dialogue: 0,1:11:31.91,1:11:33.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你很奇怪{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're weird.{\r}
+Dialogue: 0,1:11:33.98,1:11:35.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你整周都很奇怪{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Been weird all week.{\r}
+Dialogue: 0,1:11:36.15,1:11:38.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我怀孕了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm pregnant.{\r}
+Dialogue: 0,1:11:41.26,1:11:44.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你还记得在停车场的那个晚上吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do you remember the night in the parking lot?{\r}
+Dialogue: 0,1:11:44.23,1:11:46.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我出来接你的时候？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}When I came to get you?{\r}
+Dialogue: 0,1:11:46.30,1:11:48.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你比现在年轻{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You were younger.{\r}
+Dialogue: 0,1:11:48.36,1:11:50.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}在手术之前{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Before the surgery.{\r}
+Dialogue: 0,1:11:55.50,1:11:56.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我的意思是{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I mean,{\r}
+Dialogue: 0,1:11:56.71,1:11:58.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我这可不算背叛你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}it's not like I cheated on you.{\r}
+Dialogue: 0,1:12:04.51,1:12:05.67,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}如果我们失去这个孩子{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}If we lose this baby,{\r}
+Dialogue: 0,1:12:05.85,1:12:06.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}又或是如果你出事…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}if something happens to you...{\r}
+Dialogue: 0,1:12:06.99,1:12:08.58,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}从现在起{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}From now on...{\r}
+Dialogue: 0,1:12:09.32,1:12:11.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们不能再吵架了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...we're not gonna fight anymore.{\r}
+Dialogue: 0,1:12:11.19,1:12:13.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}甚至不能情绪太起伏{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're not even getting excited.{\r}
+Dialogue: 0,1:12:14.09,1:12:18.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}如果压力是你穿越时空的原因{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I mean, if stress is what's causing the traveling...{\r}
+Dialogue: 0,1:12:18.23,1:12:20.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那我们就应该给这个孩子…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...then we should give this baby{\r}
+Dialogue: 0,1:12:20.33,1:12:23.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}世界上最平静的孕育期{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}the most serene gestation on the planet.{\r}
+Dialogue: 0,1:12:25.53,1:12:28.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}18周，非常健康{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Eighteen weeks and perfectly healthy.{\r}
+Dialogue: 0,1:12:31.67,1:12:33.73,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你问起性别{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And you asked about the sex.{\r}
+Dialogue: 0,1:12:33.91,1:12:35.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是个女孩{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's a girl.{\r}
+Dialogue: 0,1:12:36.78,1:12:38.44,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是个女孩{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's a girl.{\r}
+Dialogue: 0,1:12:42.38,1:12:45.55,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她的心跳强而有力{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's got a really strong heartbeat.{\r}
+Dialogue: 0,1:12:51.16,1:12:52.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}“米娅”怎么样？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What about "Mia"?{\r}
+Dialogue: 0,1:12:53.10,1:12:54.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}很可爱的名字{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's really pretty.{\r}
+Dialogue: 0,1:12:56.03,1:12:58.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你哪来的这本书？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Where'd you get the book?{\r}
+Dialogue: 0,1:12:58.77,1:13:00.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}查莉丝借的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}From Charisse.{\r}
+Dialogue: 0,1:13:01.97,1:13:03.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}“简”呢？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}"Jane"?{\r}
+Dialogue: 0,1:13:04.04,1:13:06.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}以前我的那些娃娃都叫简{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I used to name all my dolls Jane.{\r}
+Dialogue: 0,1:13:09.41,1:13:12.11,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不认为现在就该讨论名字{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm not sure we should be talking names yet.{\r}
+Dialogue: 0,1:13:12.28,1:13:15.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我只是想先有一些想法{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm just getting some ideas.{\r}
+Dialogue: 0,1:13:27.33,1:13:29.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看，里面有个人{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Look, there's a man in there. {\r}
+Dialogue: 0,1:13:29.50,1:13:31.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看，他什么都没穿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&} Oh, look. Doesn't have any clothes on.{\r}
+Dialogue: 0,1:13:32.13,1:13:32.93,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他在干嘛？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What is he doing in there?{\r}
+Dialogue: 0,1:13:33.10,1:13:34.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}该死{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Shit.{\r}
+Dialogue: 0,1:13:35.34,1:13:38.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}- 你们看啊   - 我真不敢相信{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}- Check this out.   - I don't believe that.{\r}
+Dialogue: 0,1:13:39.01,1:13:39.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他在干嘛？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What's he doing?{\r}
+Dialogue: 0,1:13:39.94,1:13:41.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不知道{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't know.{\r}
+Dialogue: 0,1:13:54.46,1:13:55.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Daddy.{\r}
+Dialogue: 0,1:13:59.53,1:14:00.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Daddy.{\r}
+Dialogue: 0,1:14:09.37,1:14:10.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}快点，我们走{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come on, let's go.{\r}
+Dialogue: 0,1:14:11.17,1:14:12.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}快点{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come on.{\r}
+Dialogue: 0,1:14:14.21,1:14:16.40,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这是我们第一次见面{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This is the first time we've ever met.{\r}
+Dialogue: 0,1:14:16.58,1:14:18.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨，你好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How do you do?{\r}
+Dialogue: 0,1:14:18.21,1:14:19.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你几岁了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How old are you?{\r}
+Dialogue: 0,1:14:19.18,1:14:20.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}10岁，你呢？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}10. How about you?{\r}
+Dialogue: 0,1:14:20.95,1:14:22.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}38岁{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}38.{\r}
+Dialogue: 0,1:14:23.62,1:14:24.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}告诉我你的事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So tell me about you.{\r}
+Dialogue: 0,1:14:24.92,1:14:26.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}学校怎么样？在学些什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How's school? What are you learning?{\r}
+Dialogue: 0,1:14:26.69,1:14:27.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}学校很无聊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, not much at school.{\r}
+Dialogue: 0,1:14:27.89,1:14:30.48,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但我喜欢看书，我看有关埃及的书{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But I read all the time. I read about Egypt.{\r}
+Dialogue: 0,1:14:30.66,1:14:32.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}妈妈和我一起看《魔戒》{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Mom and I are reading The Lord of the Rings.{\r}
+Dialogue: 0,1:14:32.73,1:14:35.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爷爷教我拉小提琴{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And Grandpa's teaching me the violin.{\r}
+Dialogue: 0,1:14:35.20,1:14:37.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我还去听过奶奶唱歌{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And I heard Grandma sing.{\r}
+Dialogue: 0,1:14:39.10,1:14:40.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}真是太好听了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It was beautiful.{\r}
+Dialogue: 0,1:14:40.47,1:14:42.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}在歌剧院，《阿依达》{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}At the opera. Aida.{\r}
+Dialogue: 0,1:14:42.87,1:14:44.24,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你也能穿越？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Did you time traveled?{\r}
+Dialogue: 0,1:14:44.41,1:14:46.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}妈妈说我们俩真是一模一样{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Mom says you and I are exactly alike.{\r}
+Dialogue: 0,1:14:46.78,1:14:48.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不过肯德瑞克医生说我是个天才{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Except Dr. Kendrick says I'm a prodigy.{\r}
+Dialogue: 0,1:14:49.14,1:14:51.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为有时我可以选择我想去的地方{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Because sometimes I can choose where I go.{\r}
+Dialogue: 0,1:14:51.55,1:14:53.14,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你可以控制了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You can control it?{\r}
+Dialogue: 0,1:14:53.32,1:14:54.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}什么时候走，什么时候回？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}When you go and when you come back?{\r}
+Dialogue: 0,1:14:55.08,1:14:56.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我正在慢慢练习{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm learning.{\r}
+Dialogue: 0,1:14:56.35,1:14:57.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我还没出生前就看到过{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I saw you and Mom walking in the street{\r}
+Dialogue: 0,1:14:58.09,1:14:59.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你和妈妈一起在街上{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}before I was born.{\r}
+Dialogue: 0,1:14:59.35,1:15:01.19,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你就从我身边走过…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You walked right by me.{\r}
+Dialogue: 0,1:15:01.36,1:15:02.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}而且你们俩还在吵架{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You were arguing.{\r}
+Dialogue: 0,1:15:02.79,1:15:04.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不是吧…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I bet.{\r}
+Dialogue: 0,1:15:06.50,1:15:08.49,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}很高兴见到你，阿尔芭{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's so good to meet you, Alba.{\r}
+Dialogue: 0,1:15:08.66,1:15:10.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}真的很高兴见到你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's so good to see you.{\r}
+Dialogue: 0,1:15:10.43,1:15:12.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我也是，爸爸，我也是{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Me too, Daddy. Me too.{\r}
+Dialogue: 0,1:15:13.10,1:15:16.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我真的很想你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've really missed you.{\r}
+Dialogue: 0,1:15:21.48,1:15:23.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我多久以后会死？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How long has it been?{\r}
+Dialogue: 0,1:15:23.98,1:15:27.44,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我死的时候你几岁？说吧没关系{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How old were you when I died? It's okay.{\r}
+Dialogue: 0,1:15:27.62,1:15:29.28,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}5岁{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Five.{\r}
+Dialogue: 0,1:15:29.45,1:15:30.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}5岁？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Five?{\r}
+Dialogue: 0,1:15:30.49,1:15:32.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对不起，我不应该告诉你的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm sorry, I shouldn't have told you.{\r}
+Dialogue: 0,1:15:32.19,1:15:35.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不，没关系，我只是…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No, no, it's okay. It's okay. I just....{\r}
+Dialogue: 0,1:15:36.12,1:15:40.19,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我之前没有穿越到我死之后{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I haven't traveled past my own life before.{\r}
+Dialogue: 0,1:15:41.80,1:15:43.23,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你妈妈好吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How's your mom?{\r}
+Dialogue: 0,1:15:43.40,1:15:45.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她还好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She's okay.{\r}
+Dialogue: 0,1:15:45.30,1:15:47.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}就是很伤心{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Sad.{\r}
+Dialogue: 0,1:15:48.37,1:15:50.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}阿尔芭，你在那儿干嘛？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Alba, what are you doing?{\r}
+Dialogue: 0,1:15:50.24,1:15:52.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}- 快过来   - 那是我老师{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}-  Get over here right now.   - That's my teacher.{\r}
+Dialogue: 0,1:15:52.94,1:15:55.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那你过去吧，我不想给你惹麻烦{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You better go. I don't want you to get in trouble.{\r}
+Dialogue: 0,1:15:55.51,1:15:56.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}过来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come here.{\r}
+Dialogue: 0,1:16:04.29,1:16:05.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}去吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Go.{\r}
+Dialogue: 0,1:16:10.99,1:16:12.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我爱你，爸爸{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I love you, Daddy.{\r}
+Dialogue: 0,1:16:12.49,1:16:14.99,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我也爱你，宝贝{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I love you too, honey.{\r}
+Dialogue: 0,1:16:41.66,1:16:43.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}阿尔芭{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Alba.{\r}
+Dialogue: 0,1:16:45.43,1:16:47.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}阿尔芭？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Alba?{\r}
+Dialogue: 0,1:16:49.46,1:16:51.99,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们给她取名叫阿尔芭{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We name her Alba.{\r}
+Dialogue: 0,1:16:54.27,1:16:55.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你见到她了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You met her?{\r}
+Dialogue: 0,1:16:55.94,1:16:57.67,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah.{\r}
+Dialogue: 0,1:16:57.84,1:17:00.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她是那么漂亮{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She's so beautiful.{\r}
+Dialogue: 0,1:17:00.24,1:17:02.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那么聪明{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And so smart.{\r}
+Dialogue: 0,1:17:02.48,1:17:04.95,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你会非常爱她的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're gonna love her so much.{\r}
+Dialogue: 0,1:17:13.19,1:17:16.06,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}所以一切会很顺利？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}So everything's gonna be okay?{\r}
+Dialogue: 0,1:17:16.22,1:17:18.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah.{\r}
+Dialogue: 0,1:17:19.56,1:17:21.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一切都会很顺利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Everything's gonna be okay.{\r}
+Dialogue: 0,1:17:22.00,1:17:23.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}保持呼吸{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Deep breathing.{\r}
+Dialogue: 0,1:17:23.35,1:17:24.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}用力，她要出来了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Push. She's coming.{\r}
+Dialogue: 0,1:17:25.13,1:17:27.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}继续 再用力{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Keep going. come on.{\r}
+Dialogue: 0,1:17:29.74,1:17:31.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}做得好，行了，行了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Good work. There you go.{\r}
+Dialogue: 0,1:17:33.14,1:17:35.58,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}恭喜你了，她真漂亮{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Congratulations. She's beautiful.{\r}
+Dialogue: 0,1:17:35.74,1:17:37.58,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}哦，我的天啊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, my God. Oh.{\r}
+Dialogue: 0,1:18:07.21,1:18:08.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hi.{\r}
+Dialogue: 0,1:18:43.24,1:18:44.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry?{\r}
+Dialogue: 0,1:18:54.86,1:18:57.22,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你知道阿尔芭在跟谁玩吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Do you know who Alba's playing with?{\r}
+Dialogue: 0,1:19:00.20,1:19:01.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那是阿尔芭{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's Alba. {\r}
+Dialogue: 0,1:19:01.90,1:19:04.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我知道，但她跟谁在一起？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yes, but who's she with?{\r}
+Dialogue: 0,1:19:04.57,1:19:06.33,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你女儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Your daughter.{\r}
+Dialogue: 0,1:19:06.50,1:19:08.40,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她们俩个都是你女儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}They're both your daughter.{\r}
+Dialogue: 0,1:19:08.57,1:19:11.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她是个时间旅行者{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She's time traveller.{\r}
+Dialogue: 0,1:19:11.21,1:19:13.07,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}就是今年{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This year.{\r}
+Dialogue: 0,1:19:14.91,1:19:17.14,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是不是有点怪？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Is it too weird?{\r}
+Dialogue: 0,1:19:17.81,1:19:21.41,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不，我觉得很神奇{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No. I think it's kind of magical.{\r}
+Dialogue: 0,1:19:28.59,1:19:31.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨，阿尔芭呢？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hey. Where's Alba?{\r}
+Dialogue: 0,1:19:31.73,1:19:33.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她走了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She's gone.{\r}
+Dialogue: 0,1:19:38.20,1:19:40.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}宝贝，你想跟我说说什么吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Honey, you wanna talk about it?{\r}
+Dialogue: 0,1:19:41.70,1:19:43.83,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,1:19:56.92,1:19:57.44,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}需要再来点吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hey. Do you want a hand?{\r}
+Dialogue: 0,1:19:57.62,1:19:58.02,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不用了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Nope.{\r}
+Dialogue: 0,1:19:58.19,1:19:59.48,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你确定？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Are you sure?{\r}
+Dialogue: 0,1:20:24.58,1:20:26.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你们刚才在说什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What was that about?{\r}
+Dialogue: 0,1:20:26.35,1:20:27.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}什么什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What was what?{\r}
+Dialogue: 0,1:20:27.85,1:20:30.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我看她情绪似乎很低落的样子{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Why is she so upset?{\r}
+Dialogue: 0,1:20:30.35,1:20:32.98,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我想她只是低落了一会儿吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She was upset for a minute, I guess.{\r}
+Dialogue: 0,1:20:34.99,1:20:37.12,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好吧，到底是什么事？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay, what does she know?{\r}
+Dialogue: 0,1:20:37.29,1:20:40.92,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}告诉我吧，不然我会胡思乱想的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Tell me, or I'll imagine the worst.{\r}
+Dialogue: 0,1:20:41.10,1:20:44.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}随便吧，反正也改变不了什么{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Go ahead and imagine it. I mean, you're gonna do it anyway.{\r}
+Dialogue: 0,1:20:55.74,1:20:57.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你没事吧？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You all right?{\r}
+Dialogue: 0,1:20:57.70,1:20:58.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗯{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Emm...{\r}
+Dialogue: 0,1:20:59.78,1:21:01.65,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谢谢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Thanks.{\r}
+Dialogue: 0,1:21:10.63,1:21:12.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}生日过的还开心吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Did you have a nice birthday?{\r}
+Dialogue: 0,1:21:16.83,1:21:19.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}宝贝，只要你有心事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Honey, you know, if something's bothering you...{\r}
+Dialogue: 0,1:21:19.50,1:21:22.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}永远可以跟妈妈讲{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...you can always tell Mommy.{\r}
+Dialogue: 0,1:21:22.77,1:21:25.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不，我不能{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No, I can't.{\r}
+Dialogue: 0,1:21:25.21,1:21:27.00,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}为什么？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Why not?{\r}
+Dialogue: 0,1:21:27.18,1:21:30.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为爸爸叫我别说{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Because Daddy told me not to.{\r}
+Dialogue: 0,1:21:32.38,1:21:34.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我知道你爱爸爸{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And you love Daddy.{\r}
+Dialogue: 0,1:21:34.42,1:21:37.25,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但有时爸爸也会犯错的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But sometimes Daddy can be wrong.{\r}
+Dialogue: 0,1:21:38.35,1:21:41.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}所以你可以告诉我是什么事，说吧没关系{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You wanna tell me what it is? It's okay if you do.{\r}
+Dialogue: 0,1:21:41.86,1:21:42.52,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你保证？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You promise?{\r}
+Dialogue: 0,1:21:42.69,1:21:44.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我保证{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I promise.{\r}
+Dialogue: 0,1:21:46.13,1:21:48.93,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸快死了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Daddy's going to die.{\r}
+Dialogue: 0,1:21:52.53,1:21:54.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谁告诉你的？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Who told you that?{\r}
+Dialogue: 0,1:21:55.14,1:21:57.66,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}阿尔芭告诉我的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Alba told me.{\r}
+Dialogue: 0,1:22:01.08,1:22:02.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}真的？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She did?{\r}
+Dialogue: 0,1:22:02.94,1:22:07.04,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她说爸爸在我5岁时会死去{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She told me that Daddy would die when I was 5 years old.{\r}
+Dialogue: 0,1:22:22.83,1:22:27.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}阿尔芭说她5岁时你会死{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Alba told me that you die when she's 5 years old.{\r}
+Dialogue: 0,1:22:33.57,1:22:36.57,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那天你躺在走廊里{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}The day that you landed in the hallway,{\r}
+Dialogue: 0,1:22:36.74,1:22:38.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你被枪击了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}you were shot.{\r}
+Dialogue: 0,1:22:40.05,1:22:43.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是那个时候，对吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's it, isn't it?{\r}
+Dialogue: 0,1:22:43.58,1:22:45.28,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你中弹了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You get shot.{\r}
+Dialogue: 0,1:22:48.72,1:22:50.45,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我真的不知道{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I honestly don't know. I...{\r}
+Dialogue: 0,1:23:06.17,1:23:07.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我很害怕{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm scared.{\r}
+Dialogue: 0,1:23:27.90,1:23:30.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}- 它死了   - 为什么会死？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}- It's dead.   - But why?{\r}
+Dialogue: 0,1:23:30.25,1:23:31.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这是自然规律{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's just what happens.{\r}
+Dialogue: 0,1:23:31.80,1:23:36.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}出生，长大，变老，死去{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're born, we live,and then when we get old，we just die{\r}
+Dialogue: 0,1:23:47.02,1:23:48.54,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}救我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Help me.{\r}
+Dialogue: 0,1:23:56.79,1:23:58.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他怎么会在十月份冻成这样？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How did he get hypothermia in October?{\r}
+Dialogue: 0,1:23:58.53,1:24:00.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}让医护人员给他急救{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We need to let them do their work.{\r}
+Dialogue: 0,1:24:00.63,1:24:02.49,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他说有一些人在追他{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He said that some guys were chasing him,{\r}
+Dialogue: 0,1:24:02.66,1:24:03.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}当时下着雪{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}and it was snowing...{\r}
+Dialogue: 0,1:24:04.13,1:24:05.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他躲进货运车厢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...and he got on this freight-car train,{\r}
+Dialogue: 0,1:24:05.80,1:24:07.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}结果被人锁在里面了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}and then somebody locked him in.{\r}
+Dialogue: 0,1:24:08.80,1:24:10.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}天啊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And... Oh, God.{\r}
+Dialogue: 0,1:24:10.20,1:24:13.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他们会保住他的脚的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}They're going to save his foot.{\r}
+Dialogue: 0,1:24:13.54,1:24:17.98,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他得坐几个月的轮椅，但之后会没事的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Now, he's going to be in a wheelchair for a few months, but he's going to be all right.{\r}
+Dialogue: 0,1:24:20.08,1:24:22.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但他必须要能走路{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}But he has to be able to walk.{\r}
+Dialogue: 0,1:24:22.95,1:24:24.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他必须能跑动{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}He has to be able to run.{\r}
+Dialogue: 0,1:24:24.89,1:24:26.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}要是他不能跑动…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}If he can't run....{\r}
+Dialogue: 0,1:24:36.06,1:24:37.55,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Daddy?{\r}
+Dialogue: 0,1:24:40.03,1:24:42.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你快死了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Are you dying?{\r}
+Dialogue: 0,1:24:42.67,1:24:44.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不是{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,1:24:46.41,1:24:50.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}现在起你必须坐在轮椅上吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Are you going to have to be in this chair from now on?{\r}
+Dialogue: 0,1:24:54.32,1:24:56.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}只需要一阵子，宝贝{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Only for a little while, honey.{\r}
+Dialogue: 0,1:25:06.43,1:25:11.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}现在发生的比较频繁，宝贝，我经常会穿越{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Things are happening fast now, honey. I'm traveling a lot.{\r}
+Dialogue: 0,1:25:11.50,1:25:15.23,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}可能是因为医生开的止痛剂的原因{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It might be because of what they're giving me for the pain.{\r}
+Dialogue: 0,1:25:16.64,1:25:19.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}试着留下，爸爸{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Try to stay, Daddy.{\r}
+Dialogue: 0,1:25:20.11,1:25:22.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你是怎么做到的？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, how do you do it?{\r}
+Dialogue: 0,1:25:22.34,1:25:24.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}当我有感觉要离开时…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}When I feel like I'm going...{\r}
+Dialogue: 0,1:25:24.98,1:25:26.64,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我就唱歌{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...I sing.{\r}
+Dialogue: 0,1:25:26.81,1:25:29.51,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我唱给自己听{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I sing to myself.{\r}
+Dialogue: 0,1:25:32.85,1:25:34.55,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们试试看{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Let's try that.{\r}
+Dialogue: 0,1:26:04.92,1:26:06.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}克莱儿！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Clare.{\r}
+Dialogue: 0,1:26:06.92,1:26:08.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}克莱儿！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Clare.{\r}
+Dialogue: 0,1:26:08.49,1:26:09.96,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我打给医院{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm calling the hospital.{\r}
+Dialogue: 0,1:26:47.09,1:26:49.09,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}总有一天这会派上用场{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This'll come in handy one day.{\r}
+Dialogue: 0,1:26:49.26,1:26:50.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}宝贝，你要去感受{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No, you need to feel it, honey.{\r}
+Dialogue: 0,1:26:50.57,1:26:52.69,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}它会告诉你什么时候应该转动{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It'll tell you when to twist.{\r}
+Dialogue: 0,1:26:56.07,1:26:57.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这才是我的好女儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, that's my girl.{\r}
+Dialogue: 0,1:26:59.27,1:27:00.33,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}闻起来太香了，妈妈{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}This smells great, Mommy.{\r}
+Dialogue: 0,1:27:00.51,1:27:01.20,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}做好了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's ready.{\r}
+Dialogue: 0,1:27:01.38,1:27:02.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}直接把料汁浇上去，别烫到{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Straight over. Don't forget the baster.{\r}
+Dialogue: 0,1:27:03.01,1:27:04.48,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I've got it.{\r}
+Dialogue: 0,1:27:04.65,1:27:05.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}浇多一点{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Be generous.{\r}
+Dialogue: 0,1:27:05.55,1:27:07.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}很烫喔{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah. It's hot.{\r}
+Dialogue: 0,1:27:07.18,1:27:08.65,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}越多越好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Lots.{\r}
+Dialogue: 0,1:27:09.02,1:27:10.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}- 哇   - 小心点{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}- Oh!    - Be careful.{\r}
+Dialogue: 0,1:27:10.89,1:27:13.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}准备好了吗，行了，放进去…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}There you go. Okay, it's ready.{\r}
+Dialogue: 0,1:27:16.82,1:27:18.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}完成了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Done.{\r}
+Dialogue: 0,1:27:18.76,1:27:21.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看，下雪了！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Look, everyone. It's snowing.{\r}
+Dialogue: 0,1:27:24.33,1:27:26.49,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}宝贝，穿上外套{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, honey, your coat.{\r}
+Dialogue: 0,1:27:31.31,1:27:34.30,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}过来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,1:27:34.48,1:27:36.64,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}快穿好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}There. There you go.{\r}
+Dialogue: 0,1:27:39.50,1:27:41.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}谢谢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Thank you.{\r}
+Dialogue: 0,1:27:51.66,1:27:52.99,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}哇哦{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Wow!{\r}
+Dialogue: 0,1:27:53.16,1:27:54.75,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}真漂亮{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's beautiful.{\r}
+Dialogue: 0,1:27:54.93,1:27:57.90,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们今晚可以拆礼物吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Can we open the presents tonight?{\r}
+Dialogue: 0,1:27:58.07,1:27:59.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}什么礼物？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What presents?{\r}
+Dialogue: 0,1:27:59.63,1:28:02.93,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}睡着后圣诞老人才会来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Santa doesn't come till you're asleep.{\r}
+Dialogue: 0,1:28:03.10,1:28:06.23,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我已经看过那个壁橱了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I already looked in the closet.{\r}
+Dialogue: 0,1:28:06.41,1:28:09.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}阿尔芭，那壁橱上了锁呢{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Alba, that closet was locked.{\r}
+Dialogue: 0,1:28:16.95,1:28:19.15,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}过了今晚才是圣诞节{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Christmas is in the morning.{\r}
+Dialogue: 0,1:28:19.32,1:28:22.62,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这是规则，平安夜可没有礼物{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That's the rule. No presents on Christmas Eve.{\r}
+Dialogue: 0,1:28:22.79,1:28:25.42,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好吧，那我们现在要干嘛？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, then what are we gonna do?{\r}
+Dialogue: 0,1:28:45.11,1:28:46.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我要抓你们了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm gonna get you!{\r}
+Dialogue: 0,1:28:47.08,1:28:49.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}慢点，你差点滑倒{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Slow down. You almost slipped there.{\r}
+Dialogue: 0,1:28:51.59,1:28:52.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}跟我来，这边{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come on, this way.{\r}
+Dialogue: 0,1:28:53.02,1:28:54.18,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,1:29:11.21,1:29:11.93,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}需要帮你拿点什么吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You need anything?{\r}
+Dialogue: 0,1:29:12.11,1:29:12.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不用了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,1:29:13.04,1:29:13.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,1:29:14.01,1:29:14.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨，戈麦斯{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hey, Gomez.{\r}
+Dialogue: 0,1:29:14.68,1:29:15.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗨{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hey.{\r}
+Dialogue: 0,1:29:15.54,1:29:17.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你出来一下{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come outside for a minute.{\r}
+Dialogue: 0,1:29:17.88,1:29:18.90,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}干嘛？外面好冷{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's cold out there.{\r}
+Dialogue: 0,1:29:19.08,1:29:22.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}别像个老头子一样，快点，一下就好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Don't be an old man. Come on, just take a second.{\r}
+Dialogue: 0,1:29:32.99,1:29:36.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}这个，怎么了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What, uh...? What's up?{\r}
+Dialogue: 0,1:29:40.74,1:29:43.70,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我只想谢谢你做的一切，哥们{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Just wanted to say thanks for everything, man.{\r}
+Dialogue: 0,1:29:43.87,1:29:44.84,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你一直是个很棒的朋友{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You've been a great friend.{\r}
+Dialogue: 0,1:29:45.01,1:29:47.44,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}说这些干嘛？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}What are you talking about?{\r}
+Dialogue: 0,1:29:48.78,1:29:53.27,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}今晚可能会发生一些事{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Something might happen tonight. All right?{\r}
+Dialogue: 0,1:29:54.01,1:29:56.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我只想让你知道…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And I just wanna let you know...{\r}
+Dialogue: 0,1:29:56.85,1:29:59.34,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我明白自己一向很惹人厌{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...that I know I've been a pain in the ass.{\r}
+Dialogue: 0,1:29:59.52,1:30:01.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但你总是在帮我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}but you've been great.{\r}
+Dialogue: 0,1:30:01.56,1:30:03.61,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}一切都做的很好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's all been great.{\r}
+Dialogue: 0,1:30:07.06,1:30:10.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}嗯，别提这个了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah. Don't mention it.{\r}
+Dialogue: 0,1:30:11.47,1:30:13.49,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}伙计们，你们疯了吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You guys crazy?{\r}
+Dialogue: 0,1:30:14.30,1:30:16.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}外面那么冷，亲爱的，把这个盖上{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}It's freezing. Baby, put this on.{\r}
+Dialogue: 0,1:30:16.70,1:30:20.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}戈麦斯，这是男人之间的秘密{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Gomez, this is just man and man.{\r}
+Dialogue: 0,1:30:38.79,1:30:41.23,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}让他们独处一下吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're gonna give them a minute or two.{\r}
+Dialogue: 0,1:30:45.93,1:30:47.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry?{\r}
+Dialogue: 0,1:30:52.47,1:30:54.24,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,1:30:57.28,1:30:59.08,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No.{\r}
+Dialogue: 0,1:30:59.58,1:31:01.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}过来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come here.{\r}
+Dialogue: 0,1:31:03.78,1:31:05.48,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}来吧{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Come on.{\r}
+Dialogue: 0,1:31:35.55,1:31:38.81,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}为什么你让我邀请这么多人来？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Why did you let me invite all these people?{\r}
+Dialogue: 0,1:31:40.09,1:31:42.28,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不想让你独自面对这一切{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I didn't want you to be alone.{\r}
+Dialogue: 0,1:31:52.37,1:31:54.56,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}听好，听好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Hey. Hey.{\r}
+Dialogue: 0,1:31:57.37,1:32:00.03,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}什么都不会改变{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I wouldn't change anything.{\r}
+Dialogue: 0,1:32:01.91,1:32:04.24,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不会放弃…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I would not give up...{\r}
+Dialogue: 0,1:32:04.41,1:32:07.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们在一起的每一秒{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...one second of our life together.{\r}
+Dialogue: 0,1:32:56.56,1:32:57.19,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}看到了？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Got it?{\r}
+Dialogue: 0,1:32:57.36,1:32:58.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}对{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah.{\r}
+Dialogue: 0,1:32:59.33,1:33:00.89,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Dad.{\r}
+Dialogue: 0,1:33:13.11,1:33:14.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我就知道我肯定打中了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I knew I clipped it.{\r}
+Dialogue: 0,1:33:14.92,1:33:15.94,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}但我没看到任何足迹{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't see any tracks.{\r}
+Dialogue: 0,1:33:16.12,1:33:17.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}是啊{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Yeah.{\r}
+Dialogue: 0,1:33:18.62,1:33:20.45,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}去那边找找看{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Let's try over here.{\r}
+Dialogue: 0,1:33:34.40,1:33:35.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}克莱儿！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Clare.{\r}
+Dialogue: 0,1:33:36.50,1:33:37.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}克莱儿！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Clare.{\r}
+Dialogue: 0,1:33:37.34,1:33:39.24,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我打给医院{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm calling the hospital.{\r}
+Dialogue: 0,1:33:39.41,1:33:40.90,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Okay.{\r}
+Dialogue: 0,1:33:42.68,1:33:46.74,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我爱你，超过一切{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I love you. More than anything.{\r}
+Dialogue: 0,1:33:46.91,1:33:48.31,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我爱你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I love you.{\r}
+Dialogue: 0,1:33:48.48,1:33:50.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我会永远爱你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'll always love you. Always.{\r}
+Dialogue: 0,1:33:50.88,1:33:52.75,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}待在这里{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Stay here.{\r}
+Dialogue: 0,1:34:00.39,1:34:01.86,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}阿尔芭，宝贝{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Alba, sweetie.{\r}
+Dialogue: 0,1:34:01.96,1:34:03.93,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Daddy.{\r}
+Dialogue: 0,1:34:05.18,1:34:07.47,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}噢 亨利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Oh, Henry.{\r}
+Dialogue: 0,1:34:09.85,1:34:11.60,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry.{\r}
+Dialogue: 0,1:34:13.27,1:34:15.35,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亲爱的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Sweetheart.{\r}
+Dialogue: 0,1:35:44.33,1:35:45.39,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Daddy?{\r}
+Dialogue: 0,1:35:45.57,1:35:47.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}阿尔芭{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Alba.{\r}
+Dialogue: 0,1:35:48.04,1:35:49.26,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}爸爸，我就知道会再见到你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Daddy, I knew I'd see you again.{\r}
+Dialogue: 0,1:35:49.44,1:35:50.93,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我知道的！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I knew it.{\r}
+Dialogue: 0,1:35:58.78,1:36:00.37,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你几岁了？现在什么时候？…。{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}How old are you? When is this?{\r}
+Dialogue: 0,1:36:00.55,1:36:01.01,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我9岁{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm 9.{\r}
+Dialogue: 0,1:36:01.18,1:36:04.17,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你9岁？你妈妈还留下衣服给我吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You're 9? And your mom still leaves clothes?{\r}
+Dialogue: 0,1:36:04.35,1:36:06.72,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她说永远不会知道以后会发生什么{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She says you never know.{\r}
+Dialogue: 0,1:36:06.89,1:36:08.82,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你记得麦克斯和罗莎吧？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}You remember Max and Rosa,{\r}
+Dialogue: 0,1:36:08.99,1:36:10.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}戈麦斯的小孩{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}don't you? Gomez's kids.{\r}
+Dialogue: 0,1:36:11.02,1:36:13.29,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他们已经长那么大了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}They're so grown up.{\r}
+Dialogue: 0,1:36:13.46,1:36:15.05,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你们快回去{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Run back to the house, you guys.{\r}
+Dialogue: 0,1:36:15.23,1:36:18.16,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}告诉我妈妈他来了，让她快来{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Tell Mom he's here. Tell her to come.{\r}
+Dialogue: 0,1:36:18.33,1:36:19.53,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}快点{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Let's go.{\r}
+Dialogue: 0,1:36:19.70,1:36:21.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}等等我{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Wait up.{\r}
+Dialogue: 0,1:36:22.14,1:36:25.54,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}跟我说说你和妈妈是怎么遇见的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Tell me the story of how you and Mama met.{\r}
+Dialogue: 0,1:36:25.71,1:36:26.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她没告诉你吗？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Doesn't she tell you?{\r}
+Dialogue: 0,1:36:26.94,1:36:29.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她有，但你没说过{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}She does, but not like you do.{\r}
+Dialogue: 0,1:36:30.08,1:36:33.14,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}当时就在这块草地上{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Well, it was right here in this meadow.{\r}
+Dialogue: 0,1:36:34.21,1:36:36.71,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}那天很晴朗{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}And one fine day...{\r}
+Dialogue: 0,1:36:36.88,1:36:39.91,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你妈妈...她那时还是个漂亮的小女孩{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...your mom, who's just a tiny little thing...{\r}
+Dialogue: 0,1:36:40.09,1:36:41.85,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}来到这块空地{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...goes out to the clearing,{\r}
+Dialogue: 0,1:36:42.02,1:36:43.32,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}有一个男人在那里{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}and there's a man there.{\r}
+Dialogue: 0,1:36:43.49,1:36:44.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}没穿衣服{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}With no clothes.{\r}
+Dialogue: 0,1:36:44.86,1:36:46.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}什么都没穿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Not a stitch on him.{\r}
+Dialogue: 0,1:36:46.93,1:36:49.79,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她把刚好带着的毯子给了他{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}After she gives him a blanket she happens to be carrying...{\r}
+Dialogue: 0,1:36:49.96,1:36:53.80,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他向她解释他是个时间旅行者{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...he explains to her that he's a time traveler.{\r}
+Dialogue: 0,1:36:53.97,1:36:58.67,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我到现在也不明白为什么…{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Now, for some reason I'll never understand...{\r}
+Dialogue: 0,1:36:58.84,1:36:59.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}她就相信了他{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...she believes him.{\r}
+Dialogue: 0,1:37:00.14,1:37:01.77,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}因为这是真的{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Because it's true.{\r}
+Dialogue: 0,1:37:03.98,1:37:05.67,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry?{\r}
+Dialogue: 0,1:37:08.25,1:37:08.87,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我要走了{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm going.{\r}
+Dialogue: 0,1:37:09.05,1:37:10.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}不，爸爸，唱歌！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}No, Daddy. Sing.{\r}
+Dialogue: 0,1:37:10.85,1:37:12.75,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我唱不好{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I can't sing.{\r}
+Dialogue: 0,1:37:28.67,1:37:29.76,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}亨利！{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Henry.{\r}
+Dialogue: 0,1:37:36.08,1:37:37.13,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}你从哪儿来？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Where are you from?{\r}
+Dialogue: 0,1:37:37.31,1:37:38.61,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我39岁时{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I'm 39.{\r}
+Dialogue: 0,1:37:38.78,1:37:39.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}阿尔芭还是个小婴儿{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Alba's just a baby.{\r}
+Dialogue: 0,1:37:40.15,1:37:42.24,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我们在家里，我们很开心{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}We're in the house. We're happy.{\r}
+Dialogue: 0,1:37:42.42,1:37:43.78,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}为什么不跟我说你会来？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Why didn't you tell me you were coming?{\r}
+Dialogue: 0,1:37:43.95,1:37:45.68,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我会一直在这里等{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I would've been here waiting.{\r}
+Dialogue: 0,1:37:45.85,1:37:48.45,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不想让你等{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I didn't want you to wait.{\r}
+Dialogue: 0,1:37:49.62,1:37:52.82,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我不想让你一生都在等待{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I don't want you to spend your life waiting.{\r}
+Dialogue: 0,1:37:54.26,1:37:56.59,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我爱你{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I love you.{\r}
+Dialogue: 0,1:37:58.57,1:38:00.50,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我无法留下{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I can't stay.{\r}
+Dialogue: 0,1:38:00.67,1:38:02.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我知道{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I know.{\r}
+Dialogue: 0,1:39:00.56,1:39:02.08,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}有时我觉得他会躲在树丛中{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}Sometimes I think he's in the trees...{\r}
+Dialogue: 0,1:39:02.26,1:39:04.73,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}想着什么时候出来给我个惊喜{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}...deciding when to come out and surprise me.{\r}
+Dialogue: 0,1:39:04.90,1:39:07.46,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}当我还是个小女孩时，我经常这样想{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I used to think that when I was a little girl.{\r}
+Dialogue: 0,1:39:07.63,1:39:10.54,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}他似乎就在我身边，就算他不在的时候{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}That he was always here, even when he wasn't.{\r}
+Dialogue: 0,1:39:10.70,1:39:13.97,Default,,0000,0000,0000,,{\fs22\1c&HFFFFFF&\b1}我想他一直都在，对吧？{\r}\N{\fnVrinda\fs14\1c&HFFFF00&}I guess he is, isn't he?{\r}
+
+Dialogue: 0,0:22:10.22,0:22:11.68,Default,,0000,0000,0000,,{\fs22\1c&H57C7FF&\b1}【 1984年2月14日 情人节 】
+Dialogue: 0,0:22:11.86,0:22:13.22,Default,,0000,0000,0000,,{\fs22\1c&H57C7FF&\b1}【 1984年3月 】
+Dialogue: 0,0:22:14.56,0:22:15.12,Default,,0000,0000,0000,,{\fs22\1c&H57C7FF&\b1}【 1986年5月14日 亨利终于回来了! 】
+Dialogue: 0,0:22:15.49,0:22:16.79,Default,,0000,0000,0000,,{\fs22\1c&H57C7FF&\b1}【 1987年11月19日 】
+Dialogue: 0,0:22:16.96,0:22:18.49,Default,,0000,0000,0000,,{\fs22\1c&H57C7FF&\b1}【 1990年7月3日 】
+Dialogue: 0,0:27:51.36,0:27:53.59,Default,,0000,0000,0000,,{\fs22\1c&H57C7FF&\b1}【 林登·约翰逊总统的五项对越政策 】
+Dialogue: 0,0:50:57.11,0:50:59.21,Default,,0000,0000,0000,,{\fs22\1c&H57C7FF&\b1}【 五码大乐透 】
+Dialogue: 0,1:13:42.01,1:13:43.77,Default,,0000,0000,0000,,{\fs22\1c&H57C7FF&\b1}【 厨房，闲人勿进 】
+
+Dialogue: 0,0:01:26.78,0:01:28.68,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ Jingle bells， jingle bells ♪
+Dialogue: 0,0:01:28.85,0:01:32.11,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ Jingle all the way ♪ …
+Dialogue: 0,0:01:34.39,0:01:35.82,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ …by my side ♪ 
+Dialogue: 0,0:01:35.99,0:01:38.08,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ The horse was lean and lank ♪
+Dialogue: 0,0:01:38.26,0:01:40.02,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ Misfortune seemed his lot ♪ …
+Dialogue: 0,0:42:27.50,0:42:30.62,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ When the routine bites hard ♪
+Dialogue: 0,0:42:32.06,0:42:36.00,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ And ambitions are low ♪…
+Dialogue: 0,0:42:47.76,0:42:58.02,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}…♪ Then love love will tear us apart again ♪
+Dialogue: 0,0:42:59.26,0:43:08.02,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ love love will tear us apart again ♪
+Dialogue: 0,1:25:35.52,1:25:38.01,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ Daisy ♪ 
+Dialogue: 0,1:25:38.19,1:25:40.39,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ Daisy ♪
+Dialogue: 0,1:25:40.56,1:25:45.26,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ Give me your answer, do ♪
+Dialogue: 0,1:25:45.43,1:25:50.34,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ I'm half crazy ♪
+Dialogue: 0,1:25:50.51,1:25:54.77,Default,,0000,0000,0000,,{\fnVrinda\fs18\1c&HFFFF00&\i1\be1}♪ All for the love of you ♪
+
+Dialogue: 0,0:00:44.00,0:00:55.00,Default,,0000,0000,0000,,{\fs12\pos(195,250)\1c&H57C7FF&\b1}（德语主题曲《 Es ist ein Ros 》 ,本片多次出现，原唱为Cambiata乐队，收录于2009年专辑《 Winter Delights 》）
+Dialogue: 0,0:01:27.00,0:01:32.00,Default,,0000,0000,0000,,{\fs12\pos(195,250)\1c&H57C7FF&\b1}（经典圣诞歌曲《 铃儿响叮当（Jingle Bells）》 ，由詹姆斯·皮尔彭特创作于1857年）
+Dialogue: 0,0:02:02.00,0:02:16.00,Default,,0000,0000,0000,,{\fs12\pos(192,250)\1c&H57C7FF&\b1}（此段出自《 侏儒怪（Rumpelstiltskin）》 ，格林童话于1819年修订收录）
+Dialogue: 0,0:18:12.08,0:18:15.61,Default,,0000,0000,0000,,{\fs12\pos(195,250)\1c&H57C7FF&\b1}（此时克莱儿手中拿的是亨利前女友的唇膏）
+Dialogue: 0,0:37:07.89,0:37:11.18,Default,,0000,0000,0000,,{\fs12\pos(190,250)\1c&H57C7FF&\b1}（意指在时空穿梭时经常被人追赶）
+Dialogue: 0,0:38:28.20,0:38:30.00,Default,,0000,0000,0000,,{\fs12\pos(192,250)\1c&H57C7FF&\b1}（你是个民主党员？）
+
+Dialogue: 0,0:42:27.50,0:42:58.02,Default,,0000,0000,0000,,{\fs12\pos(192,230)\1c&H57C7FF&\b1}（婚礼曲《 Love Will Tear Us Apart（爱会将我们分离）》）
+Dialogue: 0,0:42:27.50,0:42:58.02,Default,,0000,0000,0000,,{\fs12\pos(192,240)\1c&H57C7FF&\b1}（英国乐队Joy Division于1980年创作的单曲，片中由加拿大乐队broken social scene演唱）
+Dialogue: 0,0:42:27.50,0:42:58.02,Default,,0000,0000,0000,,{\fs12\pos(192,250)\1c&H57C7FF&\b1}（此曲一般认为不适合在婚礼上演奏，但在本片中却可以看做是一种隐喻）
+
+Dialogue: 0,0:46:26.08,0:46:33.00,Default,,0000,0000,0000,,{\fs12\pos(195,250)\1c&H57C7FF&\b1}（1939年美国电影《 卿何薄命/黑暗的胜利（Dark Victory）》,右边饰演亚力克的是当年28岁的罗纳德·里根）
+Dialogue: 0,1:14:40.47,1:14:42.70,Default,,0000,0000,0000,,{\fs12\pos(188,250)\1c&H57C7FF&\b1}（1870年由朱赛佩·威尔第创作的四幕歌剧）
+Dialogue: 0,1:25:38.20,1:25:50.30,Default,,0000,0000,0000,,{\fs12\pos(195,250)\1c&H57C7FF&\b1}（经典英文儿歌《 Daisy, Daisy (A Bicycle Built for Two) 》，原曲《 Daisy Bell 》由Harry Dacre创作于1892年）
+Dialogue: 0,1:28:03.10,1:28:09.40,Default,,0000,0000,0000,,{\fs12\pos(195,250)\1c&H57C7FF&\b1}（圣诞节礼物一般会放在壁橱里，而阿尔芭前面学会了撬锁）
+
+Dialogue: 0,1:39:25.02,1:39:29.42,Default,,0000,0000,0000,,{\fs26\1c&H57C7FF&\b1}后期制作：暮雪千山
+

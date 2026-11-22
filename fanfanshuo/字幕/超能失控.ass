@@ -1,0 +1,1433 @@
+﻿[Script Info]
+;aBu 2020-08-06
+
+Title: Chronicle.2012.Director's.Cut.BluRay
+Original Script: aBu 2020-08-06
+Original Translation: NA
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,微软雅黑,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+Style: Chs,微软雅黑,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+Style: Eng,微软雅黑,12,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:39.87,0:00:41.54,Default,,0000,0000,0000,,我准备上学去\N{\rEng}I'm getting ready for school.
+Dialogue: 0,0:00:42.58,0:00:44.71,Default,,0000,0000,0000,,把门打开 安德鲁\N{\rEng}Open this door, Andrew.
+Dialogue: 0,0:00:45.71,0:00:47.88,Default,,0000,0000,0000,,- 照我说的做 - 不 你醉了\N{\rEng}Listen to me. No, you're drunk.
+Dialogue: 0,0:00:47.96,0:00:49.46,Default,,0000,0000,0000,,我什么?\N{\rEng}I'm what?
+Dialogue: 0,0:00:50.13,0:00:51.63,Default,,0000,0000,0000,,再说一次?\N{\rEng}Excuse me?
+Dialogue: 0,0:00:53.30,0:00:56.77,Default,,0000,0000,0000,,我叫你开门\N{\rEng}I said unlock the door.
+Dialogue: 0,0:00:57.43,0:00:58.55,Default,,0000,0000,0000,,安德鲁?\N{\rEng}Andrew?
+Dialogue: 0,0:00:58.64,0:01:01.14,Default,,0000,0000,0000,,爸 现在才早上七点半 你已醉了\N{\rEng}Dad, it is 7:30 in the a.m., and you are drunk.
+Dialogue: 0,0:01:01.27,0:01:04.31,Default,,0000,0000,0000,,- 我醉不醉不是由你说的 你这小浑蛋 - 你不是吗?\N{\rEng}Listen. You don't tell me if I'm drunk or not, you little shit. Aren't you?
+Dialogue: 0,0:01:07.06,0:01:09.57,Default,,0000,0000,0000,,你在里面干什么?\N{\rEng}What are you doing in there, huh?
+Dialogue: 0,0:01:09.69,0:01:11.69,Default,,0000,0000,0000,,- 我把这录下来了 - 啊?\N{\rEng}I'm filming this. Huh?
+Dialogue: 0,0:01:13.28,0:01:17.66,Default,,0000,0000,0000,,- 什么? - 我买了个摄影机，从今以后我要把这些全录下来\N{\rEng}What? I bought a camera, and I'm filming everything from here on out.
+Dialogue: 0,0:01:30.38,0:01:36.56,Default,,0000,0000,0000,,现在只需花46.5美元你就能拥有它，没错！\N{\rEng}And it is yours right now for only 46.50! Yeah!
+Dialogue: 0,0:01:36.63,0:01:39.18,Default,,0000,0000,0000,,妈 妈\N{\rEng}Mom? Mom.
+Dialogue: 0,0:01:39.93,0:01:42.06,Default,,0000,0000,0000,,嘿\N{\rEng}Hey.
+Dialogue: 0,0:01:43.22,0:01:45.90,Default,,0000,0000,0000,,跟我的新摄影机打声招呼\N{\rEng}Say hello to my new camera for me.
+Dialogue: 0,0:01:46.02,0:01:51.28,Default,,0000,0000,0000,,- 观众是谁? - 只是在家里观看视频的几百万人而已\N{\rEng}Who's the audience? Just the millions of people that are watching at home.
+Dialogue: 0,0:01:51.40,0:01:53.78,Default,,0000,0000,0000,,- 我看起来很糟吗? - 不 不 妈\N{\rEng}Do I look awful? No, no, no, Mom.
+Dialogue: 0,0:01:53.86,0:01:55.83,Default,,0000,0000,0000,,你...你看起来好极了\N{\rEng}You look... You look great.
+Dialogue: 0,0:01:55.94,0:01:58.87,Default,,0000,0000,0000,,- 是个不错的摄影机 - 谢了 妈\N{\rEng}It's a nice camera. Well, thanks, Mom.
+Dialogue: 0,0:02:07.21,0:02:13.38,Default,,0000,0000,0000,,那么 我该问问这摄影机是怎么回事吗...\N{\rEng}So, um, should I ask about the camera or...
+Dialogue: 0,0:02:14.38,0:02:18.38,Default,,0000,0000,0000,,不 我只是...我要开始记录东西了\N{\rEng}Uh, I don't know. I'm... I'm filming things now.
+Dialogue: 0,0:02:19.34,0:02:21.60,Default,,0000,0000,0000,,- 我要把一切都录下来 - 你什么都录?\N{\rEng}I'm filming everything. You're filming everything?
+Dialogue: 0,0:02:21.72,0:02:24.14,Default,,0000,0000,0000,,- 是的 - 好吧\N{\rEng}Yeah. Okay.
+Dialogue: 0,0:02:25.31,0:02:27.94,Default,,0000,0000,0000,,为什么人人对此着迷？\N（Jessie J - Price Tag身价牌（ChsSub riqqer@youku））
+Dialogue: 0,0:02:28.06,0:02:30.65,Default,,0000,0000,0000,,满足与快乐 金钱无法买到
+Dialogue: 0,0:02:30.73,0:02:33.11,Default,,0000,0000,0000,,让我们放慢脚步 活在当下
+Dialogue: 0,0:02:33.19,0:02:35.03,Default,,0000,0000,0000,,人人向左看看
+Dialogue: 0,0:02:35.11,0:02:36.61,Default,,0000,0000,0000,,人人向右看看
+Dialogue: 0,0:02:36.69,0:02:38.16,Default,,0000,0000,0000,,天啊 别唱了吧\N{\rEng}God, make it stop.
+Dialogue: 0,0:02:38.24,0:02:39.61,Default,,0000,0000,0000,,不是关于金钱 金钱
+Dialogue: 0,0:02:39.74,0:02:42.12,Default,,0000,0000,0000,,也不是关于穿金戴银
+Dialogue: 0,0:02:42.20,0:02:44.54,Default,,0000,0000,0000,,只想让世人共舞
+Dialogue: 0,0:02:44.62,0:02:47.29,Default,,0000,0000,0000,,共同忘掉身价牌
+Dialogue: 0,0:02:47.37,0:02:50.17,Default,,0000,0000,0000,,你有没有读过亚瑟 叔本华?\N{\rEng}Have you ever read any Arthur Schopenhauer?
+Dialogue: 0,0:02:50.25,0:02:53.05,Default,,0000,0000,0000,,没有 谁是亚瑟 叔本华?\N{\rEng}No. What is Arthur Schopenhauer?
+Dialogue: 0,0:02:53.13,0:02:56.13,Default,,0000,0000,0000,,他是个哲学家 我现在正在读他的作品\N{\rEng}He's, um... He's this philosopher that I'm reading at the moment.
+Dialogue: 0,0:02:56.25,0:02:58.26,Default,,0000,0000,0000,,- 是学校作业? - 不是\N{\rEng}For school? No, no.
+Dialogue: 0,0:02:58.34,0:03:01.47,Default,,0000,0000,0000,,基本上 人类需要意识到...\N{\rEng}Uh, basically, human beings have to recognize themselves...
+Dialogue: 0,0:03:01.59,0:03:04.52,Default,,0000,0000,0000,,- 自己是充满纯意志的个体 懂吗? - 是的\N{\rEng}as beings of pure will, right? Okay.
+Dialogue: 0,0:03:04.60,0:03:09.23,Default,,0000,0000,0000,,这表示所有感情上与肉体上的欲望 都永远不能被满足\N{\rEng}So all emotional and physical desires can never be fulfilled.
+Dialogue: 0,0:03:09.31,0:03:12.48,Default,,0000,0000,0000,,你是说我们干脆都不要活下去了\N{\rEng}So basically you're telling me that I should give up on life.
+Dialogue: 0,0:03:12.60,0:03:15.23,Default,,0000,0000,0000,,- 是的 - 好吧\N{\rEng}Yes. Okay.
+Dialogue: 0,0:03:15.36,0:03:18.16,Default,,0000,0000,0000,,快点啊，大哥！天啊\N{\rEng}- Come on, man! - Oh, God.
+Dialogue: 0,0:03:18.28,0:03:20.65,Default,,0000,0000,0000,,待会见 好的，哥们，再见\N{\rEng}- I'll see you later. - All right, dude. Peace.
+Dialogue: 0,0:03:20.74,0:03:22.91,Default,,0000,0000,0000,,学习时间到了\N{\rEng}Learning time.
+Dialogue: 0,0:03:22.99,0:03:24.83,Default,,0000,0000,0000,,让路啊\N{\rEng}Get out of the way.
+Dialogue: 0,0:03:26.54,0:03:30.09,Default,,0000,0000,0000,,你不走吗? 我再待一会 好吗?\N{\rEng}Are you not coming in? I'm gonna hang back a while, okay?
+Dialogue: 0,0:03:30.16,0:03:32.67,Default,,0000,0000,0000,,第一节课你会迟到的\N{\rEng}Uh, you're gonna be late for first period.
+Dialogue: 0,0:03:32.79,0:03:35.14,Default,,0000,0000,0000,,-第七节后我会去接你
+Dialogue: 0,0:03:35.29,0:03:38.89,Default,,0000,0000,0000,,这是我的学校\N{\rEng}This is my school.
+Dialogue: 0,0:03:38.96,0:03:40.81,Default,,0000,0000,0000,,算是吧\N{\rEng}I guess.
+Dialogue: 0,0:03:42.63,0:03:44.89,Default,,0000,0000,0000,,好的\N{\rEng}Okay.
+Dialogue: 0,0:03:46.60,0:03:50.19,Default,,0000,0000,0000,,嘿 你 就是你 高年级生班导选举 投票给史蒂夫\N{\rEng}Hey, you! Hey, guy. Vote for Steve for senior class president.
+Dialogue: 0,0:03:50.31,0:03:51.61,Default,,0000,0000,0000,,- 投给史蒂夫 - 好 我知道了\N{\rEng}Vote for Steve. Yeah, I got it.
+Dialogue: 0,0:03:51.69,0:03:54.03,Default,,0000,0000,0000,,这是我吃午餐的地方\N{\rEng}This is where I eat lunch.
+Dialogue: 0,0:03:54.15,0:03:56.74,Default,,0000,0000,0000,,在看台上\N{\rEng}Out here on the bleachers.
+Dialogue: 0,0:03:56.82,0:04:00.12,Default,,0000,0000,0000,,…4,5,6,7,8  再来，1…\N{\rEng}...Four, five, six, seven, eight. And one...
+Dialogue: 0,0:04:00.19,0:04:02.95,Default,,0000,0000,0000,,我不想看到有人停下，对了\N{\rEng}'Cause I don't wanna see anybody pull up. That's right.
+Dialogue: 0,0:04:03.03,0:04:06.70,Default,,0000,0000,0000,,移到左边，就这样，杰克，对了，好的\N{\rEng}Way to your left. There you go, Jack. That's right. Okay.
+Dialogue: 0,0:04:06.78,0:04:09.33,Default,,0000,0000,0000,,一支团结的队伍\N{\rEng}A cohesive unit today.
+Dialogue: 0,0:04:09.45,0:04:13.25,Default,,0000,0000,0000,,…胜利！胜利！\N{\rEng}...O-R-Y! V-I-C-T-O-R-Y!
+Dialogue: 0,0:04:13.33,0:04:16.38,Default,,0000,0000,0000,,我不想看到偷懒，好吗？\N{\rEng}I don't want to see any crap out there. All right?
+Dialogue: 0,0:04:16.46,0:04:18.05,Default,,0000,0000,0000,,胜利！\N{\rEng}...T-O-R-Y!
+Dialogue: 0,0:04:18.17,0:04:20.51,Default,,0000,0000,0000,,哇哦！做得好，好的\N{\rEng}Whoo! Good job. All right.
+Dialogue: 0,0:04:20.59,0:04:22.31,Default,,0000,0000,0000,,嗨\N{\rEng}Hi.
+Dialogue: 0,0:04:23.22,0:04:24.56,Default,,0000,0000,0000,,嘿\N{\rEng}Hey.
+Dialogue: 0,0:04:24.63,0:04:28.01,Default,,0000,0000,0000,,你可以不要拍我们吗? 这挺诡异的\N{\rEng}Could you not videotape us, please? It's really creepy.
+Dialogue: 0,0:04:28.10,0:04:29.60,Default,,0000,0000,0000,,不 我不是在...\N{\rEng}Uh, no. I wasn't.
+Dialogue: 0,0:04:29.72,0:04:33.07,Default,,0000,0000,0000,,我的储物柜就在这走廊\N{\rEng}Hi! This is the hallway where my locker is.
+Dialogue: 0,0:04:33.14,0:04:35.69,Default,,0000,0000,0000,,这是怎么回事?\N{\rEng}What is this?
+Dialogue: 0,0:04:35.77,0:04:37.40,Default,,0000,0000,0000,,怎样 戴特摩?\N{\rEng}What's up, Detmer?
+Dialogue: 0,0:04:37.52,0:04:39.90,Default,,0000,0000,0000,,- 哇 你应该上电视 - 老兄 你在拍电影啊\N{\rEng}Wow, you should be on television. Man, you're on a film, man.
+Dialogue: 0,0:04:39.98,0:04:41.20,Default,,0000,0000,0000,,还挺上镜的嘛\N{\rEng}Pretty on camera.
+Dialogue: 0,0:04:41.32,0:04:43.91,Default,,0000,0000,0000,,- 笑一个 伙计 你很上镜 - 你要哭了吗? 要哭了吗?\N{\rEng}Smile, man. You look pretty. You gonna cry? You gonna cry?
+Dialogue: 0,0:04:44.03,0:04:45.78,Default,,0000,0000,0000,,萧恩 快还给我\N{\rEng}Sean, come on. Give it back.
+Dialogue: 0,0:04:45.86,0:04:48.79,Default,,0000,0000,0000,,你要你的摄影机吗? 什么2004年的破烂啊\N{\rEng}Huh? You want your camera? Piece of shit from, like, 2004?
+Dialogue: 0,0:04:48.87,0:04:51.21,Default,,0000,0000,0000,,给你吧 来 完好如初\N{\rEng}Here you go. Here she is. In one piece.
+Dialogue: 0,0:04:52.33,0:04:54.13,Default,,0000,0000,0000,,别这样\N{\rEng}- Oh! Oh, guys.
+Dialogue: 0,0:04:54.21,0:04:56.33,Default,,0000,0000,0000,,差不多吧\N{\rEng}Almost.
+Dialogue: 0,0:04:56.42,0:04:59.09,Default,,0000,0000,0000,,混蛋们！过来！\N{\rEng}Assholes! Come on!
+Dialogue: 0,0:04:59.21,0:05:01.68,Default,,0000,0000,0000,,好的，你们准备好“大干一场”了吗？\N{\rEng}All right. You ready to bounce? Yeah.
+Dialogue: 0,0:05:03.76,0:05:05.68,Default,,0000,0000,0000,,今晚有个派对\N{\rEng}There's a party tonight.
+Dialogue: 0,0:05:06.43,0:05:07.93,Default,,0000,0000,0000,,好的\N{\rEng}Okay.
+Dialogue: 0,0:05:09.51,0:05:11.73,Default,,0000,0000,0000,,黑文丘\N{\rEng}Haven Hills.
+Dialogue: 0,0:05:11.81,0:05:14.03,Default,,0000,0000,0000,,黑文丘不是关了吗?\N{\rEng}Wait. I thought Haven Hills was closed.
+Dialogue: 0,0:05:14.10,0:05:16.07,Default,,0000,0000,0000,,现在是报废的 是啊 你不想去吗?\N{\rEng}It's abandoned, yeah. What, you don't want to go?
+Dialogue: 0,0:05:16.14,0:05:17.65,Default,,0000,0000,0000,,不想\N{\rEng}No.
+Dialogue: 0,0:05:18.56,0:05:21.53,Default,,0000,0000,0000,,- 你上回去派对是什么时候? - 我从不去派对\N{\rEng}When was the last time you went to a party? I don't go to parties.
+Dialogue: 0,0:05:22.28,0:05:24.49,Default,,0000,0000,0000,,- 你是个高年级生 - 我不去派对\N{\rEng}You're a senior. You are a senior. I don't go to parties.
+Dialogue: 0,0:05:24.61,0:05:26.49,Default,,0000,0000,0000,,- 来就对了 - 我考虑考虑 好吗?\N{\rEng}Just come. I'll think about it, okay?
+Dialogue: 0,0:05:26.57,0:05:27.82,Default,,0000,0000,0000,,好吧\N{\rEng}Okay.
+Dialogue: 0,0:05:27.91,0:05:31.38,Default,,0000,0000,0000,,如果你真要去 安德鲁 我给你一个专家的建议\N{\rEng}But when we go tonight, Andrew, can I give you, like, a pro tip?
+Dialogue: 0,0:05:31.45,0:05:32.62,Default,,0000,0000,0000,,什么?\N{\rEng}What?
+Dialogue: 0,0:05:32.70,0:05:34.96,Default,,0000,0000,0000,,把摄影机留在家里\N{\rEng}Maybe leave your camera at home.
+Dialogue: 0,0:05:35.08,0:05:38.13,Default,,0000,0000,0000,,- 为什么? - 因为有点怪\N{\rEng}Why? Because it's a little weird.
+Dialogue: 0,0:05:38.21,0:05:39.68,Default,,0000,0000,0000,,这是有用处的\N{\rEng}It serves a purpose.
+Dialogue: 0,0:05:39.75,0:05:43.13,Default,,0000,0000,0000,,我...我只是想当个好表兄 好吗?\N{\rEng}I'm... I'm just trying to be a good cousin here, okay?
+Dialogue: 0,0:05:43.21,0:05:45.34,Default,,0000,0000,0000,,做为你的朋友 我告诉你...\N{\rEng}This is me being your friend and telling you...
+Dialogue: 0,0:05:45.42,0:05:49.14,Default,,0000,0000,0000,,你最好不要带个摄影机去参加派对\N{\rEng}you should probably not take the camera to a party.
+Dialogue: 0,0:05:50.05,0:05:52.18,Default,,0000,0000,0000,,好吧\N{\rEng}Okay.
+Dialogue: 0,0:05:52.26,0:05:54.48,Default,,0000,0000,0000,,这是我住的街\N{\rEng}This is my street.
+Dialogue: 0,0:05:55.48,0:05:59.53,Default,,0000,0000,0000,,那些是我们街上的头号混帐\N{\rEng}And those are the official douche bags of my street.
+Dialogue: 0,0:05:59.65,0:06:01.40,Default,,0000,0000,0000,,- 那他妈的是什么? - 太好了\N{\rEng}What the hell's that? Oh, great.
+Dialogue: 0,0:06:01.48,0:06:03.61,Default,,0000,0000,0000,,喂 你在干什么 安德鲁\N{\rEng}Hey! What you doing? Andrew!
+Dialogue: 0,0:06:03.73,0:06:05.86,Default,,0000,0000,0000,,- 不 我没有... - 别拍我 戴特摩 别拍我\N{\rEng}No, I wasn't... Don't film me, Detmer! Don't film me.
+Dialogue: 0,0:06:05.94,0:06:07.49,Default,,0000,0000,0000,,赶快跑回家吧 贱人\N{\rEng}Run to your house, bitch!
+Dialogue: 0,0:06:07.57,0:06:09.92,Default,,0000,0000,0000,,这是我吃午餐的地方\N{\rEng}This is where I eat lunch.
+Dialogue: 0,0:06:10.78,0:06:12.78,Default,,0000,0000,0000,,在看台上\N{\rEng}Out here on the bleachers.
+Dialogue: 0,0:06:25.05,0:06:27.64,Default,,0000,0000,0000,,你想怎样?\N{\rEng}What do you want?
+Dialogue: 0,0:06:29.43,0:06:32.65,Default,,0000,0000,0000,,我叫你开门 你就开门 懂吗?\N{\rEng}When I say open that door, you open the door. You got it?
+Dialogue: 0,0:06:33.35,0:06:35.57,Default,,0000,0000,0000,,把你该死的作业写完\N{\rEng}Finish your goddamn homework.
+Dialogue: 0,0:07:07.51,0:07:10.81,Default,,0000,0000,0000,,- 麦特 你确定在这里吗? - 伙计 在这里 放松点 好吗?\N{\rEng}Matt, are you sure it's here? Dude, it's here. Calm down, okay?
+Dialogue: 0,0:07:11.76,0:07:14.06,Default,,0000,0000,0000,,就是这\N{\rEng}It's here.
+Dialogue: 0,0:07:14.18,0:07:16.81,Default,,0000,0000,0000,,喔 太好了\N{\rEng}Oh, yeah.
+Dialogue: 0,0:07:16.89,0:07:18.48,Default,,0000,0000,0000,,哇 看这狂欢\N{\rEng}Wow. Look. A rave.
+Dialogue: 0,0:07:18.56,0:07:20.53,Default,,0000,0000,0000,,哇 看这拿个摄影机的书呆子\N{\rEng}Oh, wow. Look. A nerd with a camera.
+Dialogue: 0,0:07:20.64,0:07:23.19,Default,,0000,0000,0000,,别一整晚都跟着我 好吗?\N{\rEng}What? Just don't follow me around all night, okay?
+Dialogue: 0,0:07:23.31,0:07:25.94,Default,,0000,0000,0000,,你什么意思 我以为... 你不是要我跟你一起来的吗?\N{\rEng}What do you mean? I thought... I thought you wanted me to come with you.
+Dialogue: 0,0:07:26.02,0:07:29.62,Default,,0000,0000,0000,,是啊 但就这一次 你自己去找点乐子吧\N{\rEng}I did. I did. But just go and do your own thing for once, okay?
+Dialogue: 0,0:07:29.74,0:07:32.58,Default,,0000,0000,0000,,去喝杯酒 跟别人聊聊天
+Dialogue: 0,0:07:32.66,0:07:34.33,Default,,0000,0000,0000,,我不喝酒\N{\rEng}I don't drink.
+Dialogue: 0,0:07:56.51,0:07:59.27,Default,,0000,0000,0000,,嘿！嘿！\N{\rEng}Hey! Hey!
+Dialogue: 0,0:08:02.48,0:08:03.82,Default,,0000,0000,0000,,嘿\N{\rEng}Hey!
+Dialogue: 0,0:08:04.81,0:08:08.11,Default,,0000,0000,0000,,借过 嘿 你在拍什么?\N{\rEng}Excuse me. Hey! Hey, what are you filming for?
+Dialogue: 0,0:08:08.19,0:08:09.57,Default,,0000,0000,0000,,我不是...呃\N{\rEng}Oh, I don't... Um...
+Dialogue: 0,0:08:09.69,0:08:11.37,Default,,0000,0000,0000,,什么?\N{\rEng}Oh! What?
+Dialogue: 0,0:08:11.44,0:08:14.04,Default,,0000,0000,0000,,- 我听不到 - 我只是随便拍拍\N{\rEng}- I can't hear you. - I'm just filming.
+Dialogue: 0,0:08:14.11,0:08:17.62,Default,,0000,0000,0000,,酷喔 我是为了我的博客拍的\N{\rEng}- Oh. Oh, cool. Cool. I'm filming for my blog. - Oh.
+Dialogue: 0,0:08:17.74,0:08:19.67,Default,,0000,0000,0000,,- 安德鲁 - 你应该看看 它其实...\N{\rEng}Andrew. Andrew. You should check it out. It's actually...
+Dialogue: 0,0:08:19.79,0:08:21.83,Default,,0000,0000,0000,,- 嘿 凯西 - 嘿\N{\rEng}Oh, hey. Hey, Casey. Hey.
+Dialogue: 0,0:08:21.96,0:08:24.42,Default,,0000,0000,0000,,- 你好吗? - 我很好 很好\N{\rEng}How you doing? I'm good. I'm good.
+Dialogue: 0,0:08:24.50,0:08:27.17,Default,,0000,0000,0000,,这挺没劲的 对吧?\N{\rEng}This is pretty lame, right?
+Dialogue: 0,0:08:27.25,0:08:29.22,Default,,0000,0000,0000,,怎么没劲?\N{\rEng}Why is it lame?
+Dialogue: 0,0:08:29.30,0:08:31.97,Default,,0000,0000,0000,,你也知道 卡尔 荣格说过...\N{\rEng}You know, Jung said parties are just...
+Dialogue: 0,0:08:32.05,0:08:34.80,Default,,0000,0000,0000,,派对只是人们找寻大众的肯定的方法\N{\rEng}people's way of seeking widespread validation.
+Dialogue: 0,0:08:34.88,0:08:38.93,Default,,0000,0000,0000,,我不是那种需要耍酷的 懂吗\N{\rEng}I'm not one to clamor to be cool, you know.
+Dialogue: 0,0:08:39.01,0:08:45.32,Default,,0000,0000,0000,,哇 用心理学来分析一个农场派对 还真厉害呀 麦特\N{\rEng}Wow. Way to put an analytical psychology spin on this barn party, Matt.
+Dialogue: 0,0:08:46.15,0:08:48.37,Default,,0000,0000,0000,,真了不起\N{\rEng}That's awesome.
+Dialogue: 0,0:08:48.44,0:08:50.28,Default,,0000,0000,0000,,了不起\N{\rEng}Awesome.
+Dialogue: 0,0:08:51.07,0:08:53.20,Default,,0000,0000,0000,,- 你才了不起 - 喂 麦特\N{\rEng}- You're awesome. - Hey, Matt.
+Dialogue: 0,0:08:53.28,0:08:56.75,Default,,0000,0000,0000,,荣格对萤光棒有什么看法?\N{\rEng}Hey, what did Jung say about glow sticks?
+Dialogue: 0,0:08:56.82,0:08:58.79,Default,,0000,0000,0000,,你在拍我女朋友吗?\N{\rEng}You filming my girlfriend?
+Dialogue: 0,0:09:09.46,0:09:11.76,Default,,0000,0000,0000,,有还是没有?\N{\rEng}Yes or no?
+Dialogue: 0,0:09:13.13,0:09:14.93,Default,,0000,0000,0000,,不 我...我什么都没拍\N{\rEng}No, I... I'm not filming anything. 
+Dialogue: 0,0:09:15.05,0:09:18.15,Default,,0000,0000,0000,,我只是在拍派对\N{\rEng}I'm just filming the party. Okay.
+Dialogue: 0,0:09:18.22,0:09:20.72,Default,,0000,0000,0000,,我应该把你的贱鼻子打断 知道吗?\N{\rEng}I should break your bitch-ass nose. You know that?
+Dialogue: 0,0:09:20.81,0:09:22.77,Default,,0000,0000,0000,,- 不 我没有... - 别跟我回嘴\N{\rEng}No, I wasn't... Don't talk back to me.
+Dialogue: 0,0:09:22.85,0:09:24.77,Default,,0000,0000,0000,,- 贱人 - 好的\N{\rEng}Bitch. Okay.
+Dialogue: 0,0:09:40.99,0:09:43.34,Default,,0000,0000,0000,,安德鲁?\N{\rEng}Andrew?
+Dialogue: 0,0:09:43.41,0:09:44.91,Default,,0000,0000,0000,,安德鲁\N{\rEng}Andrew.
+Dialogue: 0,0:09:45.83,0:09:47.58,Default,,0000,0000,0000,,安德鲁\N{\rEng}Andrew.
+Dialogue: 0,0:09:48.67,0:09:50.42,Default,,0000,0000,0000,,拿摄影机的那人\N{\rEng}With the camera.
+Dialogue: 0,0:09:50.54,0:09:52.67,Default,,0000,0000,0000,,- 可以...可以借我们用用吗? - 什么?\N{\rEng}Can we... Can we use that thing? What?
+Dialogue: 0,0:09:52.75,0:09:55.60,Default,,0000,0000,0000,,我们发现了超屌的玩意 一定得录下来\N{\rEng}We found the craziest shit, and we gotta get it on tape.
+Dialogue: 0,0:09:55.72,0:09:58.56,Default,,0000,0000,0000,,- 这...这不是... - 你还好吗 老兄?\N{\rEng}Uh, it's not... What's up, man?
+Dialogue: 0,0:09:58.68,0:10:01.52,Default,,0000,0000,0000,,- 你没事吧? - 是的 我是安德鲁\N{\rEng}You okay? Yeah. I'm... I'm Andrew.
+Dialogue: 0,0:10:01.60,0:10:03.27,Default,,0000,0000,0000,,我是史蒂夫\N{\rEng}Okay. I'm Steve.
+Dialogue: 0,0:10:03.39,0:10:05.64,Default,,0000,0000,0000,,- 史蒂夫 蒙特高梅利 - 是的 我知道\N{\rEng}Steve Montgomery. Yeah, I know.
+Dialogue: 0,0:10:05.73,0:10:06.90,Default,,0000,0000,0000,,是吗?\N{\rEng}Really?
+Dialogue: 0,0:10:06.98,0:10:09.78,Default,,0000,0000,0000,,麦特和我随便混混...\N{\rEng}Matt and I were just hanging out,
+Dialogue: 0,0:10:09.85,0:10:12.45,Default,,0000,0000,0000,,我们找到一个很酷的一个...\N{\rEng}and we found this cool little...
+Dialogue: 0,0:10:12.57,0:10:15.07,Default,,0000,0000,0000,,- 一个东西 - 等等 你跟麦特在一起?\N{\rEng}this thing. Wait. You're with Matt?
+Dialogue: 0,0:10:15.19,0:10:17.70,Default,,0000,0000,0000,,- 你会想把它录下来 - 不 我只是...我真的不想...\N{\rEng}You might want to get it on tape. No, I just... I don't really.
+Dialogue: 0,0:10:17.78,0:10:20.66,Default,,0000,0000,0000,,伙计 来嘛 来录下来吧 很酷的\N{\rEng}Dude, just come on. Just come get it on tape. It'll be cool.
+Dialogue: 0,0:10:20.78,0:10:22.91,Default,,0000,0000,0000,,- 我不确定 - 相信我\N{\rEng}I don't know. Trust me.
+Dialogue: 0,0:10:23.03,0:10:24.79,Default,,0000,0000,0000,,- 好吧 - 好家伙\N{\rEng}All right. Yeah, man.
+Dialogue: 0,0:10:24.87,0:10:27.00,Default,,0000,0000,0000,,你也知道这里有一堆女孩吧?\N{\rEng}You know there are, like, tons of girls around here, right?
+Dialogue: 0,0:10:27.08,0:10:29.96,Default,,0000,0000,0000,,你却自己一个人 站在一棵树旁?\N{\rEng}And you're all by yourself next to a tree?
+Dialogue: 0,0:10:30.04,0:10:31.67,Default,,0000,0000,0000,,我很挑剔\N{\rEng}I'm just really picky.
+Dialogue: 0,0:10:31.79,0:10:35.17,Default,,0000,0000,0000,,- 听好 我真的不想... - 你那玩意上有灯吗?\N{\rEng}Listen. I really don't think... Is there a light on that thing? Like, on the camera?
+Dialogue: 0,0:10:35.26,0:10:37.05,Default,,0000,0000,0000,,有啊 在这\N{\rEng}Uh, yeah. Here.
+Dialogue: 0,0:10:38.34,0:10:40.84,Default,,0000,0000,0000,,你们跑到这来干什么?\N{\rEng}What were you guys doing out here?
+Dialogue: 0,0:10:40.97,0:10:45.27,Default,,0000,0000,0000,,原先来了一群人 因为大家都被那东西迷上了\N{\rEng}A bunch of people were out here 'cause we were, like, obsessed with the thing.
+Dialogue: 0,0:10:45.35,0:10:46.98,Default,,0000,0000,0000,,到底什么东西?\N{\rEng}What thing?
+Dialogue: 0,0:10:47.81,0:10:48.98,Default,,0000,0000,0000,,看就知道\N{\rEng}You'll see.
+Dialogue: 0,0:10:49.06,0:10:51.94,Default,,0000,0000,0000,,喔 对了 没错 你是安德鲁 戴特摩\N{\rEng}Oh, that's... that's right! Andrew Detmer!
+Dialogue: 0,0:10:52.02,0:10:54.02,Default,,0000,0000,0000,,高一主教室时 我记得你\N{\rEng}I remember you from homeroom, freshman year.
+Dialogue: 0,0:10:54.11,0:10:56.28,Default,,0000,0000,0000,,你总是穿着那件灰色的连帽外套\N{\rEng}You always had that gray zip-up hoodie.
+Dialogue: 0,0:10:56.36,0:10:59.11,Default,,0000,0000,0000,,- 加雷蒂! - 你还记得那些?\N{\rEng}Garetty! You remember that?
+Dialogue: 0,0:10:59.20,0:11:03.79,Default,,0000,0000,0000,,是啊 我对记脸孔很有一套 所以我才要搞政治\N{\rEng}Yeah, I got a... I got a thing for faces, which is why I'm going into politics.
+Dialogue: 0,0:11:03.87,0:11:06.34,Default,,0000,0000,0000,,挺讽刺的 因为我实在...\N{\rEng}Ironically enough, 'cause I'm so ridiculously hi...
+Dialogue: 0,0:11:06.45,0:11:08.25,Default,,0000,0000,0000,,- 在这 - 啊 来吧\N{\rEng}Down here! Ah, there we go.
+Dialogue: 0,0:11:08.37,0:11:09.96,Default,,0000,0000,0000,,- 加雷蒂 如何? 我看到你了 - 麦特\N{\rEng}Garetty, what's up? I see you! Matt!
+Dialogue: 0,0:11:10.08,0:11:13.09,Default,,0000,0000,0000,,- 你看到我了吗? - 是的 其他人都跑哪了?\N{\rEng}You see me? Yeah, where did everybody go?
+Dialogue: 0,0:11:13.17,0:11:15.64,Default,,0000,0000,0000,,都走了 都走了 来吧 快快快\N{\rEng}They left! They left! Come on. Let's go, let's go, let's go!
+Dialogue: 0,0:11:15.71,0:11:17.34,Default,,0000,0000,0000,,- 你看到了吗? - 伙计们 那是什么?\N{\rEng}Do you see that? Guys, what is that?
+Dialogue: 0,0:11:17.46,0:11:19.56,Default,,0000,0000,0000,,- 你看到了吗? 那是摄影机吗? - 是啊 我找到他了\N{\rEng}Do you see it? Is that the camera? Yeah, I got him!
+Dialogue: 0,0:11:19.76,0:11:22.31,Default,,0000,0000,0000,,- 你们知道回去的路吗? - 它还在发出那声响吗?\N{\rEng}Do you guys know how to get back from here? Is it still making that sound?
+Dialogue: 0,0:11:22.43,0:11:24.65,Default,,0000,0000,0000,,- 对 你告诉安德鲁了吗? - 安德鲁 那声音是它发出的\N{\rEng}Yes. Did you tell Andrew? Andrew, it's making that sound, dude.
+Dialogue: 0,0:11:24.72,0:11:26.97,Default,,0000,0000,0000,,伙计 过来听听看 听听\N{\rEng}Dude, come and listen to this. Listen to this.
+Dialogue: 0,0:11:28.14,0:11:30.27,Default,,0000,0000,0000,,- 不不不 你得靠近些 - 好啦 好啦\N{\rEng}No, no, no, no. You gotta get in. Okay, okay.
+Dialogue: 0,0:11:30.39,0:11:33.82,Default,,0000,0000,0000,,你得靠很近 几乎快进洞里了 好的，别推我，别推我下去啊\N{\rEng}You gotta get close, like literally almost in the hole. Okay, don't push me. Just don't push me.
+Dialogue: 0,0:11:33.94,0:11:37.41,Default,,0000,0000,0000,,- 听听这玩意 - 我们不会推你的  我们只想把它拍下来\N{\rEng}Check this shit out. We're not gonna push you in. We're just trying to get it on camera.
+Dialogue: 0,0:11:37.94,0:11:39.41,Default,,0000,0000,0000,,听着 你听到吗?嘘，嘘\N{\rEng}Listen. Can you hear that? Shh, shh.
+Dialogue: 0,0:11:39.53,0:11:41.75,Default,,0000,0000,0000,,什么...\N{\rEng}What...
+Dialogue: 0,0:11:41.86,0:11:43.49,Default,,0000,0000,0000,,应该录下来了\N{\rEng}I think we got it.
+Dialogue: 0,0:11:43.57,0:11:45.29,Default,,0000,0000,0000,,等等 这太诡异了\N{\rEng}Wait. How creepy is that?
+Dialogue: 0,0:11:45.41,0:11:48.96,Default,,0000,0000,0000,,- 你收得到这声音吗? - 我不知道 应该吧 挺大声的\N{\rEng}Is this sound coming up? I don't know. I mean, probably. It's pretty loud, right?
+Dialogue: 0,0:11:49.08,0:11:51.08,Default,,0000,0000,0000,,好了 伙计 我们进去吧\N{\rEng}Hello! All right, dude. We're going inside.
+Dialogue: 0,0:11:51.16,0:11:53.04,Default,,0000,0000,0000,,- 我要回去了 快啦 - 我要知道...\N{\rEng}I'm going back. Come on, you guys. I gotta know.
+Dialogue: 0,0:11:53.12,0:11:56.00,Default,,0000,0000,0000,,- 麦特 说真的 我们... - 等等 史蒂夫\N{\rEng}Matt, seriously, we... Hey, wait, wait. Steve!
+Dialogue: 0,0:11:56.13,0:11:57.09,Default,,0000,0000,0000,,史蒂夫\N{\rEng}Steve!
+Dialogue: 0,0:11:57.17,0:11:58.92,Default,,0000,0000,0000,,操 他活像个忍者\N{\rEng}Oh, shit! He's a ninja.
+Dialogue: 0,0:11:59.01,0:12:00.51,Default,,0000,0000,0000,,麦特...\N{\rEng}Matt!
+Dialogue: 0,0:12:00.59,0:12:02.81,Default,,0000,0000,0000,,麦特 麦特 你要去哪?\N{\rEng}Whoa, Matt, Matt, Matt. What are you doing?
+Dialogue: 0,0:12:03.93,0:12:05.90,Default,,0000,0000,0000,,你是认真的吗?\N{\rEng}Are you serious?
+Dialogue: 0,0:12:06.39,0:12:09.61,Default,,0000,0000,0000,,- 安德鲁 可以给我照点光吗? - 麦特 别傻了\N{\rEng}Andrew, can you give me some light? Matt, don't be an idiot.
+Dialogue: 0,0:12:10.35,0:12:11.60,Default,,0000,0000,0000,,哇哦！哇哦！\N{\rEng}Whoop! Whoop!
+Dialogue: 0,0:12:11.68,0:12:14.90,Default,,0000,0000,0000,,麦特 我靠你回家耶\N{\rEng}Matt! Matt, you're my ride home!
+Dialogue: 0,0:12:16.36,0:12:19.08,Default,,0000,0000,0000,,哈喽？\N{\rEng}Hello?
+Dialogue: 0,0:12:19.15,0:12:21.07,Default,,0000,0000,0000,,噢！\N{\rEng}Oh!
+Dialogue: 0,0:12:21.15,0:12:23.83,Default,,0000,0000,0000,,这里面好臭\N{\rEng}Smells terrible. You guys!
+Dialogue: 0,0:12:26.99,0:12:28.54,Default,,0000,0000,0000,,麦特\N{\rEng}Matt!
+Dialogue: 0,0:12:34.00,0:12:36.13,Default,,0000,0000,0000,,哈喽？\N{\rEng}Hello?
+Dialogue: 0,0:12:38.34,0:12:41.76,Default,,0000,0000,0000,,- 安德鲁是个胆小鬼 - 好啦 这隧道很深吗?\N{\rEng}Andrew's such a pussy. All right. Does it go down much deeper, or what?
+Dialogue: 0,0:12:41.88,0:12:44.48,Default,,0000,0000,0000,,- 是啊 伙计 深得很 - 安德鲁 照点光\N{\rEng}- Yeah, man. It goes really, really far. - Andrew, bring the light.
+Dialogue: 0,0:12:44.55,0:12:48.05,Default,,0000,0000,0000,,看那石壁 整个是垂直的\N{\rEng}Look at the walls. It's like a straight shot down.
+Dialogue: 0,0:12:48.14,0:12:50.56,Default,,0000,0000,0000,,我们说不定已走了四十到五十英尺\N{\rEng}Probably already come like 40 or 50 feet.
+Dialogue: 0,0:12:50.64,0:12:53.06,Default,,0000,0000,0000,,别讲了 好吗?\N{\rEng}Yeah, just don't talk about it, okay?
+Dialogue: 0,0:12:53.14,0:12:57.11,Default,,0000,0000,0000,,你没读过柏拉图的"地穴寓言"吗?\N{\rEng}You ever... You ever heard of Plato's “Allegory of the Cave”?
+Dialogue: 0,0:12:57.19,0:13:00.24,Default,,0000,0000,0000,,没有 麦特 我们快点了结这事吧\N{\rEng}I don't know, Matt. Let's just get this over with.
+Dialogue: 0,0:13:00.32,0:13:01.44,Default,,0000,0000,0000,,妈的\N{\rEng}Oh, Shit!
+Dialogue: 0,0:13:01.53,0:13:03.70,Default,,0000,0000,0000,,天啊\N{\rEng}Holy shit.
+Dialogue: 0,0:13:04.28,0:13:06.16,Default,,0000,0000,0000,,那他妈的是什么?\N{\rEng}The hell is that?
+Dialogue: 0,0:13:06.28,0:13:09.41,Default,,0000,0000,0000,,麦特 我不是在开玩笑 我呼吸不了\N{\rEng}Matt, I'm not kidding. I can't breathe.
+Dialogue: 0,0:13:09.49,0:13:11.84,Default,,0000,0000,0000,,安德鲁 看看这个\N{\rEng}Come on. Andrew, look at this.
+Dialogue: 0,0:13:12.79,0:13:14.29,Default,,0000,0000,0000,,什么...\N{\rEng}What...
+Dialogue: 0,0:13:14.37,0:13:16.50,Default,,0000,0000,0000,,你能相信吗?\N{\rEng}Can you believe this?
+Dialogue: 0,0:13:16.58,0:13:18.26,Default,,0000,0000,0000,,麦特\N{\rEng}Matt.
+Dialogue: 0,0:13:22.80,0:13:24.52,Default,,0000,0000,0000,,这是什么?\N{\rEng}What am I looking at?
+Dialogue: 0,0:13:24.63,0:13:27.35,Default,,0000,0000,0000,,- 妈的 - 我怕的要死\N{\rEng}Ah, shit! I am freaking out right now!
+Dialogue: 0,0:13:27.43,0:13:30.40,Default,,0000,0000,0000,,麦特 拜托我们出去吧?\N{\rEng}Matt! Can we get out of here, please?
+Dialogue: 0,0:13:30.47,0:13:32.47,Default,,0000,0000,0000,,这摄影机拍得到吗?\N{\rEng}Is it showing up on the camera like that?
+Dialogue: 0,0:13:32.60,0:13:35.73,Default,,0000,0000,0000,,我不知道\N{\rEng}I don't know, man. 
+Dialogue: 0,0:13:35.81,0:13:37.78,Default,,0000,0000,0000,,它干扰到了摄影机 我不想拍...\N{\rEng}It's messing with it. I don't really want to film...
+Dialogue: 0,0:13:37.85,0:13:40.07,Default,,0000,0000,0000,,伙计 我给你买个新的\N{\rEng}Dude, I'll buy you a new one.
+Dialogue: 0,0:13:40.15,0:13:41.32,Default,,0000,0000,0000,,摸摸看\N{\rEng}Touch one.
+Dialogue: 0,0:13:45.40,0:13:46.91,Default,,0000,0000,0000,,麦特\N{\rEng}Matt!
+Dialogue: 0,0:13:48.03,0:13:50.03,Default,,0000,0000,0000,,- 麦特 来看啊 - 什么?\N{\rEng}Matt, look at this! What?
+Dialogue: 0,0:13:50.53,0:13:52.13,Default,,0000,0000,0000,,看看这个\N{\rEng}Look at this!
+Dialogue: 0,0:13:53.16,0:13:55.08,Default,,0000,0000,0000,,伙计 这是...\N{\rEng}Dude, what is...
+Dialogue: 0,0:13:56.25,0:13:58.17,Default,,0000,0000,0000,,伙计 不会吧\N{\rEng}Dude, no way!
+Dialogue: 0,0:14:00.00,0:14:01.17,Default,,0000,0000,0000,,- 它在变色 - 我的天啊\N{\rEng}It's changing colors! Oh, my God.
+Dialogue: 0,0:14:01.29,0:14:03.26,Default,,0000,0000,0000,,应该是对温度产生反应\N{\rEng}Must be reacting to heat.
+Dialogue: 0,0:14:03.34,0:14:05.76,Default,,0000,0000,0000,,- 我听不到你... - 这太屌了\N{\rEng}I can't hear you over that... - This is awesome.
+Dialogue: 0,0:14:05.84,0:14:07.47,Default,,0000,0000,0000,,伙计 你的鼻子\N{\rEng}Oh! Dude, your nose!
+Dialogue: 0,0:14:07.55,0:14:09.02,Default,,0000,0000,0000,,史蒂夫，史蒂夫！\N{\rEng}Steve, Steve!
+Dialogue: 0,0:14:09.09,0:14:11.14,Default,,0000,0000,0000,,史蒂夫\N{\rEng}Steve!
+Dialogue: 0,0:14:11.22,0:14:13.35,Default,,0000,0000,0000,,史蒂夫\N{\rEng}- Steve!
+Dialogue: 0,0:14:21.69,0:14:23.99,Default,,0000,0000,0000,,麦特 把手机放下 关掉\N{\rEng}Matt, dude, put your phone down. Turn it off.
+Dialogue: 0,0:14:24.11,0:14:26.28,Default,,0000,0000,0000,,- 好啦 好啦 - 史蒂夫 你也是\N{\rEng}Okay, okay, okay. Steve, you too.
+Dialogue: 0,0:14:26.40,0:14:28.28,Default,,0000,0000,0000,,- 好的 - 我们要把这纪录下来\N{\rEng}All right. We have to document this.
+Dialogue: 0,0:14:28.40,0:14:30.91,Default,,0000,0000,0000,,- 好的 你们准备好了吗? - 我好了\N{\rEng}- Okay. Are you guys ready? - Yeah. I'm ready.
+Dialogue: 0,0:14:31.03,0:14:33.75,Default,,0000,0000,0000,,- 好 开始吧 史蒂夫... - 怎样?\N{\rEng}All right. Here we go. Okay, Steve... What?
+Dialogue: 0,0:14:33.83,0:14:35.29,Default,,0000,0000,0000,,你可以往左站一点吗?\N{\rEng}Can you move to your left?
+Dialogue: 0,0:14:35.41,0:14:38.09,Default,,0000,0000,0000,,- 这里? - 对 很好\N{\rEng}Here? Um, yeah. That's good.
+Dialogue: 0,0:14:38.62,0:14:40.42,Default,,0000,0000,0000,,然后 麦特...\N{\rEng}And then, Matt,
+Dialogue: 0,0:14:41.46,0:14:43.68,Default,,0000,0000,0000,,你可以站到史蒂夫前面吗?\N{\rEng}can you just go right in front of Steve?
+Dialogue: 0,0:14:44.75,0:14:45.97,Default,,0000,0000,0000,,额…\N{\rEng}Um...
+Dialogue: 0,0:14:46.05,0:14:48.10,Default,,0000,0000,0000,,- 这里? - 对 刚好 好的\N{\rEng}Here? Yeah, perfect. Yeah, yeah. Okay.
+Dialogue: 0,0:14:48.17,0:14:49.85,Default,,0000,0000,0000,,这是球体试验\N{\rEng}This is the ball test.
+Dialogue: 0,0:14:49.97,0:14:51.64,Default,,0000,0000,0000,,- 准备好了吗? - 好了\N{\rEng}You ready? Yep.
+Dialogue: 0,0:14:54.85,0:14:56.85,Default,,0000,0000,0000,,噢！\N{\rEng}Oh!
+Dialogue: 0,0:14:57.85,0:15:00.23,Default,,0000,0000,0000,,搞屁啊 史蒂夫?\N{\rEng}What the shit, Steve?
+Dialogue: 0,0:15:00.31,0:15:03.66,Default,,0000,0000,0000,,滚开 滚开 你在干什么? 叫你由下往上投的\N{\rEng}Get off! Get off! What are you doing? Underhand.
+Dialogue: 0,0:15:03.77,0:15:05.53,Default,,0000,0000,0000,,我尽力了 老兄\N{\rEng}I tried, man. I tried.
+Dialogue: 0,0:15:07.19,0:15:08.70,Default,,0000,0000,0000,,- 来 再来一次 - 好吧\N{\rEng}Let's do it. Let's do it. All right.
+Dialogue: 0,0:15:08.82,0:15:10.54,Default,,0000,0000,0000,,- 好的 等等 - 可以吗?\N{\rEng}All right. Wait, wait. We good?
+Dialogue: 0,0:15:10.66,0:15:12.45,Default,,0000,0000,0000,,- 说好由下往上投吧? - 是啊 由下往上\N{\rEng}We said underhand, right? Yeah, it is underhand. Yeah.
+Dialogue: 0,0:15:12.53,0:15:13.75,Default,,0000,0000,0000,,好的\N{\rEng}Okay.
+Dialogue: 0,0:15:16.45,0:15:18.50,Default,,0000,0000,0000,,我看好你了 你这次不会打到我了\N{\rEng}Underneath. I'm on you. You're not gonna get me this time.
+Dialogue: 0,0:15:18.62,0:15:19.87,Default,,0000,0000,0000,,- 准备好了吗? - 好了\N{\rEng}You ready? Yeah.
+Dialogue: 0,0:15:20.00,0:15:22.34,Default,,0000,0000,0000,,- 看准了 - 我不知道你在说什么\N{\rEng}I'm on it. Yeah. I don't know what you're talking about.
+Dialogue: 0,0:15:22.42,0:15:24.22,Default,,0000,0000,0000,,来吧\N{\rEng}Let's go.
+Dialogue: 0,0:15:24.34,0:15:25.88,Default,,0000,0000,0000,,喔！\N{\rEng}Oh!
+Dialogue: 0,0:15:25.96,0:15:29.06,Default,,0000,0000,0000,,好耶 球迷欢声雷动\N{\rEng}Yeah! The crowd goes wild!
+Dialogue: 0,0:15:29.17,0:15:31.22,Default,,0000,0000,0000,,- 好 我准备好了 - 麦特 给他个狠的\N{\rEng}Yeah, I'm ready. All right. Matt, beam him. Beam him.
+Dialogue: 0,0:15:31.34,0:15:33.31,Default,,0000,0000,0000,,- 我会的 - 狠狠的\N{\rEng}I'm... I'm going to. Beam him.
+Dialogue: 0,0:15:34.68,0:15:35.85,Default,,0000,0000,0000,,哦！\N{\rEng}Oh!
+Dialogue: 0,0:15:35.97,0:15:37.90,Default,,0000,0000,0000,,不可能 操\N{\rEng}Oh! No way! Shit!
+Dialogue: 0,0:15:37.97,0:15:39.69,Default,,0000,0000,0000,,等等 这太棒了\N{\rEng}Wait, wait, wait. That's great!
+Dialogue: 0,0:15:39.81,0:15:41.48,Default,,0000,0000,0000,,- 他做到了 - 我做到了 我做到了\N{\rEng}He did it! I did it! I did it!
+Dialogue: 0,0:15:41.60,0:15:43.28,Default,,0000,0000,0000,,- 这太疯狂了 - 我的天啊\N{\rEng}That is crazy! Oh, my God!
+Dialogue: 0,0:15:43.40,0:15:44.90,Default,,0000,0000,0000,,- 看那球 - 我的天\N{\rEng}Look at it! Oh, my God!
+Dialogue: 0,0:15:44.98,0:15:46.82,Default,,0000,0000,0000,,- 妈的 - 我的天\N{\rEng}Holy shit! Oh, my God.
+Dialogue: 0,0:15:46.90,0:15:48.70,Default,,0000,0000,0000,,我的天 喔 伙计 你流血了\N{\rEng}Oh, my God. Oh, dude, you're bleeding. You're bleeding.
+Dialogue: 0,0:15:48.78,0:15:50.82,Default,,0000,0000,0000,,- 停止 停止 - 去拿张纸吧\N{\rEng}Oh, man, shit. Stop, stop, stop. Get a tissue.
+Dialogue: 0,0:15:50.95,0:15:53.79,Default,,0000,0000,0000,,你成功了！是的！\N{\rEng}You did it! Yes!
+Dialogue: 0,0:15:53.91,0:15:56.38,Default,,0000,0000,0000,,哦，好的，高飞球，准备好了？好的\N{\rEng}Oh. All right. Pop-up. Ready? Yeah.
+Dialogue: 0,0:15:58.45,0:15:59.92,Default,,0000,0000,0000,,好的！\N{\rEng}Yes!
+Dialogue: 0,0:16:00.04,0:16:02.26,Default,,0000,0000,0000,,放音乐  喔，耶\N{\rEng}Put on the music. Oh, yeah.
+Dialogue: 0,0:16:02.37,0:16:05.47,Default,,0000,0000,0000,,好\N{\rEng}OK
+Dialogue: 0,0:16:05.54,0:16:07.17,Default,,0000,0000,0000,,好\N{\rEng}Yes.
+Dialogue: 0,0:16:11.34,0:16:15.64,Default,,0000,0000,0000,,麦特 你必须想像你用手把它们捏在一起\N{\rEng}Matt, you have... you have to pretend like you're squeezing them together with your hands.
+Dialogue: 0,0:16:15.72,0:16:19.44,Default,,0000,0000,0000,,我就是这么做啊 看\N{\rEng}That's what I'm doing. Look. That's what I'm doing.
+Dialogue: 0,0:16:23.35,0:16:25.78,Default,,0000,0000,0000,,我做不到 伙计 我放弃\N{\rEng}- I can't do it, dude. - I give up.
+Dialogue: 0,0:16:25.86,0:16:27.82,Default,,0000,0000,0000,,你来 你比我会弄这个\N{\rEng}You do it. You're better at this than I am.
+Dialogue: 0,0:16:27.90,0:16:29.62,Default,,0000,0000,0000,,真的吗 我吗?\N{\rEng}Oh, really? Am I? Really?
+Dialogue: 0,0:16:29.69,0:16:31.44,Default,,0000,0000,0000,,弄就对了\N{\rEng}Just do it.
+Dialogue: 0,0:16:36.62,0:16:37.79,Default,,0000,0000,0000,,噢\N{\rEng}Oh.
+Dialogue: 0,0:16:37.91,0:16:39.96,Default,,0000,0000,0000,,屌\N{\rEng}Sick.
+Dialogue: 0,0:16:41.04,0:16:43.59,Default,,0000,0000,0000,,伙计 我恨你 这...\N{\rEng}Dude, I hate you! That's...
+Dialogue: 0,0:16:44.29,0:16:46.59,Default,,0000,0000,0000,,- 我佩服 老兄 我佩服 - 这太惊人了\N{\rEng}I'm impressed, man. I am impressed. That's amazing.
+Dialogue: 0,0:16:46.67,0:16:48.14,Default,,0000,0000,0000,,太了不起了 伙计\N{\rEng}That was awesome, dude.
+Dialogue: 0,0:16:48.25,0:16:49.93,Default,,0000,0000,0000,,- 别这样 - 伙计\N{\rEng}Oh, no! Come on, dude.
+Dialogue: 0,0:16:50.05,0:16:51.76,Default,,0000,0000,0000,,- 太没风度了 - 怎样?\N{\rEng}That is not cool. What?
+Dialogue: 0,0:16:51.88,0:16:53.47,Default,,0000,0000,0000,,- 没风度 - 是我的乐高\N{\rEng}That is not cool. My Legos.
+Dialogue: 0,0:16:53.59,0:16:56.56,Default,,0000,0000,0000,,这三周你一直跟那两个家伙混\N{\rEng}You've been hanging out with those two guys for the last three weeks.
+Dialogue: 0,0:16:56.64,0:16:59.14,Default,,0000,0000,0000,,- "三周" - 我并不蠢\N{\rEng}“Three weeks.” I'm not stupid.
+Dialogue: 0,0:16:59.22,0:17:01.82,Default,,0000,0000,0000,,你在对我隐瞒着什么 你最好回我电话\N{\rEng}I think you're hiding something from me. You better call me back.
+Dialogue: 0,0:17:01.89,0:17:03.52,Default,,0000,0000,0000,,- 哇 - 我爱你\N{\rEng}Wow. I love you.
+Dialogue: 0,0:17:03.60,0:17:05.98,Default,,0000,0000,0000,,她会用砖头砸我窗户 我是真怕了\N{\rEng}I'm gonna get a brick through my window. I am legitimately scared.
+Dialogue: 0,0:17:06.06,0:17:08.36,Default,,0000,0000,0000,,我马上要竞选了 没时间搞这个\N{\rEng}I have an election coming up, and I don't have time for this.
+Dialogue: 0,0:17:08.44,0:17:11.16,Default,,0000,0000,0000,,伙计 你为啥向我们要感情的建议?\N{\rEng}Dude, why are you asking us for advice on girls?
+Dialogue: 0,0:17:11.23,0:17:12.91,Default,,0000,0000,0000,,因为我们是他的情妇\N{\rEng}Because we're his mistress.
+Dialogue: 0,0:17:15.07,0:17:17.62,Default,,0000,0000,0000,,那么你认为是辐射之类的吗?\N{\rEng}So, what, you think it's, like, radiation or something?
+Dialogue: 0,0:17:17.74,0:17:19.99,Default,,0000,0000,0000,,- 哪来的辐射? - 伙计 都是政府啦\N{\rEng}- Radiation from what? - Dude, it's the government.
+Dialogue: 0,0:17:20.08,0:17:21.79,Default,,0000,0000,0000,,麦特 你在说什么?\N{\rEng}What? Matt, what are you talking about?
+Dialogue: 0,0:17:21.87,0:17:24.62,Default,,0000,0000,0000,,我其实已经冒够了险\N{\rEng}I'm feeling pretty spelunked out actually.
+Dialogue: 0,0:17:24.71,0:17:26.25,Default,,0000,0000,0000,,安德鲁 放心\N{\rEng}Andrew, relax.
+Dialogue: 0,0:17:28.33,0:17:31.51,Default,,0000,0000,0000,,好奇怪啊 在白天看起来完全不一样\N{\rEng}That's so weird. It looks completely different during the day.
+Dialogue: 0,0:17:31.63,0:17:34.63,Default,,0000,0000,0000,,听着 我不管 好吗 我不会再进那洞穴了\N{\rEng}Look. I don't care, okay? I am not going in the hole again.
+Dialogue: 0,0:17:36.30,0:17:37.80,Default,,0000,0000,0000,,混蛋\N{\rEng}Asshole.
+Dialogue: 0,0:17:39.97,0:17:41.97,Default,,0000,0000,0000,,好像往里面塌了还是什么\N{\rEng}It's like sunk in or something.
+Dialogue: 0,0:17:42.10,0:17:45.82,Default,,0000,0000,0000,,- 你的老摄影机也埋了 - 妈的\N{\rEng}There goes your old camera, dude. Oh, shit.
+Dialogue: 0,0:17:47.14,0:17:49.49,Default,,0000,0000,0000,,真奇怪 我还是能感觉到它的存在\N{\rEng}That's weird. I can still feel it down there.
+Dialogue: 0,0:17:50.90,0:17:53.24,Default,,0000,0000,0000,,我真无法相信我们活着出来\N{\rEng}I can't believe we made it out of there.
+Dialogue: 0,0:17:53.32,0:17:56.54,Default,,0000,0000,0000,,那么 我是说 这就算完了 对吧?\N{\rEng}Well, I mean, that answers that, right?
+Dialogue: 0,0:17:56.65,0:17:59.83,Default,,0000,0000,0000,,什么完了? 我们还是不知道发生了什么事\N{\rEng}Um, what does? We still don't know what happened.
+Dialogue: 0,0:17:59.95,0:18:01.42,Default,,0000,0000,0000,,- 不... - 但我们还活着\N{\rEng}No Well, we're still alive.
+Dialogue: 0,0:18:01.53,0:18:03.63,Default,,0000,0000,0000,,- 我是说 我绝对... - 喂\N{\rEng}I mean, I was definitely Hey!
+Dialogue: 0,0:18:03.74,0:18:06.87,Default,,0000,0000,0000,,你们不能待在那 懂吗?\N{\rEng}You kids can't be here, okay? 
+Dialogue: 0,0:18:07.00,0:18:10.30,Default,,0000,0000,0000,,- 你们必须离开 - 什么?\N{\rEng}You gotta move on out. What?
+Dialogue: 0,0:18:10.38,0:18:12.00,Default,,0000,0000,0000,,地基不稳定 我们要把整个空地封锁\N{\rEng}The ground's unstable. We're taping the whole place off.
+Dialogue: 0,0:18:12.09,0:18:13.93,Default,,0000,0000,0000,,好的 我们走了\N{\rEng}Okay. We're going.
+Dialogue: 0,0:18:14.01,0:18:15.60,Default,,0000,0000,0000,,投票给史蒂夫\N{\rEng}Vote for Steve!
+Dialogue: 0,0:18:15.72,0:18:19.56,Default,,0000,0000,0000,,新摄影机用得不错 很好 是啊 还挺酷的吧?\N{\rEng}New camera's working out for you. That's good. Yeah, it's pretty cool, right?
+Dialogue: 0,0:18:19.64,0:18:22.10,Default,,0000,0000,0000,,是啊 小型的 那录到录影带上吗?\N{\rEng}Yeah, smaller. Does that shoot on tape?
+Dialogue: 0,0:18:22.18,0:18:24.02,Default,,0000,0000,0000,,不 直接存在摄影机里吧\N{\rEng}No, it just... It, like, records right onto the camera.
+Dialogue: 0,0:18:25.39,0:18:28.74,Default,,0000,0000,0000,,我只是想把我们的能力全纪录下来\N{\rEng}No, I just want to record all the stuff that we can do, you know.
+Dialogue: 0,0:18:28.81,0:18:31.44,Default,,0000,0000,0000,,好 但你随时随地都在拍\N{\rEng}Yeah, but it's like all the time.
+Dialogue: 0,0:18:31.52,0:18:33.62,Default,,0000,0000,0000,,你不觉得这有一点怪吗...\N{\rEng}You don't feel like it's a little weird,
+Dialogue: 0,0:18:33.69,0:18:36.70,Default,,0000,0000,0000,,就好像你和其他事物隔了一层障碍吗?\N{\rEng}like it puts a barrier between you and everything else?
+Dialogue: 0,0:18:36.78,0:18:39.75,Default,,0000,0000,0000,,我不知道\N{\rEng}Uh, I don't know.
+Dialogue: 0,0:18:40.87,0:18:42.74,Default,,0000,0000,0000,,或许我想要有一层障碍\N{\rEng}Maybe I want a barrier.
+Dialogue: 0,0:18:42.87,0:18:47.09,Default,,0000,0000,0000,,那么你老爸是怎么回事? 他的背景事业是什么?\N{\rEng}So, like, what's up with your dad? What's his story? What does he do?
+Dialogue: 0,0:18:47.16,0:18:50.21,Default,,0000,0000,0000,,呃 我爸是救火员\N{\rEng}Um, my dad's a firefighter.
+Dialogue: 0,0:18:50.33,0:18:54.71,Default,,0000,0000,0000,,- 那很酷啊 一定挺了不起的... - 是啊 我是说 他曾经是\N{\rEng}Okay. That's cool. Oh, man, that must have been awesome... Yeah, well, he was, I guess.
+Dialogue: 0,0:18:55.25,0:18:58.18,Default,,0000,0000,0000,,- 发生了什么事? - 我也不知道 他没死\N{\rEng}What happened? Uh, I don't know. He didn't die or anything.
+Dialogue: 0,0:18:58.26,0:19:01.64,Default,,0000,0000,0000,,他只是...在火场受了伤\N{\rEng}He just... He got injured on the job, and now he, um...
+Dialogue: 0,0:19:02.55,0:19:04.56,Default,,0000,0000,0000,,现在他领那保险金 你知道\N{\rEng}he collects the insurance, you know.
+Dialogue: 0,0:19:04.64,0:19:07.02,Default,,0000,0000,0000,,所以他啥都不干\N{\rEng}Um, so he doesn't really do anything.
+Dialogue: 0,0:19:07.14,0:19:11.74,Default,,0000,0000,0000,,他救是...白天他会出门 但我也不知道他去哪里\N{\rEng}He just... He, um... He'll go out during the day, but I don't know where he goes.
+Dialogue: 0,0:19:12.98,0:19:16.08,Default,,0000,0000,0000,,他喝很多酒\N{\rEng}Uh, he drinks a lot.
+Dialogue: 0,0:19:17.23,0:19:18.99,Default,,0000,0000,0000,,这点我知道\N{\rEng}I know that much.
+Dialogue: 0,0:19:19.07,0:19:22.57,Default,,0000,0000,0000,,我其实也跟我父母有点矛盾\N{\rEng}I've actually been having some problems with my parents too.
+Dialogue: 0,0:19:22.66,0:19:24.16,Default,,0000,0000,0000,,是吗？\N{\rEng}Oh, yeah?
+Dialogue: 0,0:19:24.24,0:19:26.12,Default,,0000,0000,0000,,是啊，我是说他们跟你父母一点都不一样\N{\rEng}Yeah. I mean, they're nothing like yours.
+Dialogue: 0,0:19:26.20,0:19:31.21,Default,,0000,0000,0000,,我是说不像那样…我只是…算了\N{\rEng}I mean, not like that... I just... Never mind.
+Dialogue: 0,0:19:34.92,0:19:37.51,Default,,0000,0000,0000,,他们最近老吵架\N{\rEng}They just been fighting a lot lately.
+Dialogue: 0,0:19:37.59,0:19:41.14,Default,,0000,0000,0000,,我觉得老妈背着老爸在外面瞎搞\N{\rEng}And I think my mom is actually cheating on my dad.
+Dialogue: 0,0:19:44.60,0:19:47.90,Default,,0000,0000,0000,,你就不能说点什么吗？\N{\rEng}Can you not say anything about that?
+Dialogue: 0,0:19:48.02,0:19:51.19,Default,,0000,0000,0000,,是啊，没门，谢了\N{\rEng}Yeah. No way. Thanks.
+Dialogue: 0,0:19:52.31,0:19:58.66,Default,,0000,0000,0000,,是的 凯伦 戴特摩\N{\rEng}Yes. Karen Detmer. D-E-T-M-E-R.
+Dialogue: 0,0:20:00.15,0:20:02.20,Default,,0000,0000,0000,,是的 谢谢你\N{\rEng}Yes. Thank you.
+Dialogue: 0,0:20:04.99,0:20:06.96,Default,,0000,0000,0000,,她很痛苦\N{\rEng}She's in pain.
+Dialogue: 0,0:20:09.33,0:20:12.71,Default,,0000,0000,0000,,她需要更强的药\N{\rEng}She needs something stronger.
+Dialogue: 0,0:20:13.75,0:20:15.88,Default,,0000,0000,0000,,她的呼吸恶化了\N{\rEng}Her breathing's worse.
+Dialogue: 0,0:20:18.00,0:20:20.47,Default,,0000,0000,0000,,先生 她很痛苦\N{\rEng}Sir, she's suffering.
+Dialogue: 0,0:20:20.55,0:20:22.47,Default,,0000,0000,0000,,请帮帮我\N{\rEng}Please help me.
+Dialogue: 0,0:20:22.55,0:20:26.10,Default,,0000,0000,0000,,我是靠残疾辅助金的 我付不起$700\N{\rEng}I'm on disability. I can't afford $700.
+Dialogue: 0,0:20:27.64,0:20:32.74,Default,,0000,0000,0000,,请别让我等 她不能呼吸 好吗? 我不知该怎么做了\N{\rEng}Please, don't put me on hold! She can't breathe, okay? I don't know what to do any more.
+Dialogue: 0,0:20:37.06,0:20:38.07,Default,,0000,0000,0000,,开了吗?\N{\rEng}Is it on?
+Dialogue: 0,0:20:39.48,0:20:41.61,Default,,0000,0000,0000,,是的 是的\N{\rEng}Yeah. Yeah. You got it.
+Dialogue: 0,0:20:41.69,0:20:43.70,Default,,0000,0000,0000,,我想要记得这样的你\N{\rEng}I want to remember you like this.
+Dialogue: 0,0:20:43.78,0:20:45.70,Default,,0000,0000,0000,,妈\N{\rEng}Oh, Mom.
+Dialogue: 0,0:20:49.74,0:20:52.00,Default,,0000,0000,0000,,你比这更坚强\N{\rEng}You're stronger than this.
+Dialogue: 0,0:20:53.54,0:20:55.92,Default,,0000,0000,0000,,你可以为我说出来吗?\N{\rEng}Can you say that for me?
+Dialogue: 0,0:20:56.00,0:20:57.50,Default,,0000,0000,0000,,拜托?\N{\rEng}Please?
+Dialogue: 0,0:21:02.67,0:21:04.77,Default,,0000,0000,0000,,我比这更坚强\N{\rEng}I'm stronger than this.
+Dialogue: 0,0:21:10.22,0:21:11.97,Default,,0000,0000,0000,,喔 不错\N{\rEng}Oh, nice.
+Dialogue: 0,0:21:13.43,0:21:15.44,Default,,0000,0000,0000,,好了 看清楚\N{\rEng}All right. Here. Watch this.
+Dialogue: 0,0:21:16.44,0:21:18.44,Default,,0000,0000,0000,,- 烂 - 嘿 麦特\N{\rEng}Weak. Hey, Matt.
+Dialogue: 0,0:21:20.19,0:21:22.16,Default,,0000,0000,0000,,怎样?\N{\rEng}Yeah?
+Dialogue: 0,0:21:22.86,0:21:24.86,Default,,0000,0000,0000,,你喜欢我吗?\N{\rEng}Do you like me?
+Dialogue: 0,0:21:26.99,0:21:29.24,Default,,0000,0000,0000,,是啊 当然\N{\rEng}Um, yeah, of course.
+Dialogue: 0,0:21:29.33,0:21:31.70,Default,,0000,0000,0000,,我是说 你也知道 我不是...\N{\rEng}I mean, you know, I didn't...
+Dialogue: 0,0:21:32.66,0:21:35.04,Default,,0000,0000,0000,,- 我不是一直喜欢你的 - 什么意思?\N{\rEng}I mean, you know, I didn't always. What do you mean?
+Dialogue: 0,0:21:35.12,0:21:37.25,Default,,0000,0000,0000,,我不知道 你...\N{\rEng}I don't know. Like, you haven't...
+Dialogue: 0,0:21:37.92,0:21:41.59,Default,,0000,0000,0000,,你不是那么容易相处的 你知道...\N{\rEng}You haven't always been super easy to talk to, you know.
+Dialogue: 0,0:21:41.67,0:21:44.22,Default,,0000,0000,0000,,我不是说你现在不一样了 只是...\N{\rEng}I mean, I'm not saying that you're not now. I'm just...
+Dialogue: 0,0:21:44.30,0:21:46.80,Default,,0000,0000,0000,,你真是个混蛋\N{\rEng}You're such an asshole.
+Dialogue: 0,0:21:50.43,0:21:53.43,Default,,0000,0000,0000,,我就是这个意思 你不友善 懂吗?\N{\rEng}That's what I'm talking about, dude. You're hostile, see?
+Dialogue: 0,0:21:53.52,0:21:55.02,Default,,0000,0000,0000,,好多了\N{\rEng}Better.
+Dialogue: 0,0:21:55.10,0:21:56.90,Default,,0000,0000,0000,,- 嘿 麦特 - 怎样?\N{\rEng}Hey, Matt. Yeah?
+Dialogue: 0,0:21:56.98,0:21:58.90,Default,,0000,0000,0000,,你有没有想过用这...\N{\rEng}Do you ever think about, like,
+Dialogue: 0,0:22:00.36,0:22:02.48,Default,,0000,0000,0000,,做其他的事?\N{\rEng}doing more with it?
+Dialogue: 0,0:22:02.57,0:22:04.32,Default,,0000,0000,0000,,用这能力吗?\N{\rEng}What, with this?
+Dialogue: 0,0:22:04.40,0:22:06.15,Default,,0000,0000,0000,,没怎么想过\N{\rEng}Not really.
+Dialogue: 0,0:22:06.78,0:22:08.45,Default,,0000,0000,0000,,怎么? 还有什么能做的?\N{\rEng}Why? What else is there?
+Dialogue: 0,0:22:08.57,0:22:11.12,Default,,0000,0000,0000,,- "隔空移物" - 是的 请指教\N{\rEng}“Telekinesis.” Yes. Do tell.
+Dialogue: 0,0:22:11.20,0:22:14.00,Default,,0000,0000,0000,,"能够移动 抬起 震动"...\N{\rEng}“The ability to move, lift, vibrate”.
+Dialogue: 0,0:22:14.08,0:22:16.55,Default,,0000,0000,0000,,震动是我最喜欢的\N{\rEng}That's my favorite.
+Dialogue: 0,0:22:16.62,0:22:19.34,Default,,0000,0000,0000,,"旋转 扭曲 破碎 或碰撞物体的能力"\N{\rEng}“Spin, bend, break or impact objects...
+Dialogue: 0,0:22:19.42,0:22:24.17,Default,,0000,0000,0000,,"透过念力的影响 或其他非碰触的方法\N{\rEng}through the direct influence of mental power or other nonphysical means.”.
+Dialogue: 0,0:22:24.30,0:22:25.64,Default,,0000,0000,0000,,- 好 - 听起来很熟悉\N{\rEng}Okay. Sounds familiar.
+Dialogue: 0,0:22:25.76,0:22:27.38,Default,,0000,0000,0000,,- 听起来是很熟悉 - 非常熟悉\N{\rEng}It does sound familiar. Very familiar.
+Dialogue: 0,0:22:27.47,0:22:29.59,Default,,0000,0000,0000,,你想见识念力的影响?\N{\rEng}You want to see direct influence?
+Dialogue: 0,0:22:29.68,0:22:31.18,Default,,0000,0000,0000,,安德鲁\N{\rEng}Andru
+Dialogue: 0,0:22:34.81,0:22:36.94,Default,,0000,0000,0000,,她今天穿黑的\N{\rEng}She's wearing black today.
+Dialogue: 0,0:22:37.02,0:22:38.82,Default,,0000,0000,0000,,这才是念力的影响\N{\rEng}Hi. That's direct influence.
+Dialogue: 0,0:22:38.94,0:22:40.69,Default,,0000,0000,0000,,- ...在我房间里 - 听着\N{\rEng}...week, in my room. Just listen.
+Dialogue: 0,0:22:40.77,0:22:44.74,Default,,0000,0000,0000,,我变得越来越强 昨晚我甚至把床抬了起来\N{\rEng}I'm just that much stronger. Even last night I got my whole bed off the ground.
+Dialogue: 0,0:22:44.86,0:22:47.49,Default,,0000,0000,0000,,- 没流鼻血 - 是吗? 我也有在举重\N{\rEng}No nosebleed. Yeah? I've been lifting weights too.
+Dialogue: 0,0:22:47.57,0:22:50.37,Default,,0000,0000,0000,,我的理论是 这能力像是条肌肉\N{\rEng}This is my theory though is that it's like a muscle.
+Dialogue: 0,0:22:50.45,0:22:54.29,Default,,0000,0000,0000,,它有伸缩性 如果一次张得太多太快 它会断\N{\rEng}Like, it's elastic. If you stretch it too far, too quick, it'll tear.
+Dialogue: 0,0:22:54.37,0:22:55.87,Default,,0000,0000,0000,,额\N{\rEng}Ew.
+Dialogue: 0,0:22:56.37,0:22:58.37,Default,,0000,0000,0000,,这就是为什么我们渐渐变强...\N{\rEng}That's why I think we're getting stronger, you know,
+Dialogue: 0,0:22:58.46,0:23:02.09,Default,,0000,0000,0000,,因为我们在训练它 变得更壮\N{\rEng}because we're working it out, getting buff.
+Dialogue: 0,0:23:02.17,0:23:04.04,Default,,0000,0000,0000,,更壮\N{\rEng}Buff.
+Dialogue: 0,0:23:04.13,0:23:06.10,Default,,0000,0000,0000,,这个当训练怎么样?\N{\rEng}How about this for a workout?
+Dialogue: 0,0:23:07.34,0:23:09.31,Default,,0000,0000,0000,,妈的\N{\rEng}Holy shit!
+Dialogue: 0,0:23:10.30,0:23:11.89,Default,,0000,0000,0000,,那太屌了\N{\rEng}That was awesome.
+Dialogue: 0,0:23:11.97,0:23:13.39,Default,,0000,0000,0000,,真有礼貌\N{\rEng}Classy.
+Dialogue: 0,0:23:13.47,0:23:15.94,Default,,0000,0000,0000,,是啊 有魅力\N{\rEng}Mm-hmm. Attractive.
+Dialogue: 0,0:23:16.02,0:23:18.81,Default,,0000,0000,0000,,我认为我们该闯闯后院以外了\N{\rEng}I think it's time we took this out of the backyard.
+Dialogue: 0,0:23:21.31,0:23:23.82,Default,,0000,0000,0000,,停停停 就在这 这里刚好\N{\rEng}Stop, stop, stop, stop. Right here. This is perfect.
+Dialogue: 0,0:23:23.90,0:23:25.40,Default,,0000,0000,0000,,- 真的吗? - 就是这\N{\rEng}Really? This is it.
+Dialogue: 0,0:23:25.48,0:23:27.61,Default,,0000,0000,0000,,麦特\N{\rEng}Matt. Yah!
+Dialogue: 0,0:23:27.69,0:23:29.66,Default,,0000,0000,0000,,来整这个\N{\rEng}Let's get this one.
+Dialogue: 0,0:23:36.99,0:23:39.25,Default,,0000,0000,0000,,喔！嘿！哈喽！\N{\rEng}Whoa! Hey! Hello!
+Dialogue: 0,0:23:40.16,0:23:41.84,Default,,0000,0000,0000,,- 怎么搞的... - 安德鲁\N{\rEng}Hey, what Andrew.
+Dialogue: 0,0:23:41.92,0:23:44.04,Default,,0000,0000,0000,,请帮我拦住\N{\rEng}Help! Somebody grab that!
+Dialogue: 0,0:23:44.17,0:23:46.42,Default,,0000,0000,0000,,喔！喔！打住！\N{\rEng}Whoa! Whoa! Stop!
+Dialogue: 0,0:23:48.09,0:23:50.93,Default,,0000,0000,0000,,- 好 我弄上面的 - 知道了\N{\rEng}- Okay, I'll get the top. - I'll get the top. Got it. Got it.
+Dialogue: 0,0:23:51.01,0:23:52.85,Default,,0000,0000,0000,,- 我们弄腿 - 好 等等\N{\rEng}- Let's get the legs. - Okay. Wait.
+Dialogue: 0,0:23:52.93,0:23:55.02,Default,,0000,0000,0000,,"我在飞翔"\N{\rEng}I'm flying!
+Dialogue: 0,0:23:55.10,0:23:57.19,Default,,0000,0000,0000,,她就盯着看\N{\rEng}She's just looking at it.
+Dialogue: 0,0:23:57.26,0:23:59.02,Default,,0000,0000,0000,,你看什么 小女孩? 别翘课啊\N{\rEng}What you looking at, girl? Stay in school!
+Dialogue: 0,0:23:59.14,0:24:03.11,Default,,0000,0000,0000,,看到那个嚼口香糖的家伙吗? 我要从他嘴里拉出口香糖\N{\rEng}Okay, see the guy chewing the gum? I'm gonna get the gum and pull it right out of his mouth.
+Dialogue: 0,0:24:03.19,0:24:04.86,Default,,0000,0000,0000,,好 我拍着呢\N{\rEng}Okay, I got him.
+Dialogue: 0,0:24:08.86,0:24:10.45,Default,,0000,0000,0000,,哦！\N{\rEng}Oh!
+Dialogue: 0,0:24:12.40,0:24:15.50,Default,,0000,0000,0000,,等一下 等等 我们跑什么? 我们不用跑啊\N{\rEng}Wait, wait, wait, wait. Why are we running? We don't need to run.
+Dialogue: 0,0:24:15.57,0:24:17.12,Default,,0000,0000,0000,,- 五... - 我不想干\N{\rEng}Five... I don't want to do it.
+Dialogue: 0,0:24:17.20,0:24:18.67,Default,,0000,0000,0000,,- 四... - 伙计 我不想干\N{\rEng}Four... Dude, I don't want to do it.
+Dialogue: 0,0:24:18.79,0:24:22.01,Default,,0000,0000,0000,,- 你太招人耳目了 我不想干 - 来嘛 麦特\N{\rEng}You're creating a scene. I don't want to do it. Come on, Matt. Don't be a bitch about it.
+Dialogue: 0,0:24:22.08,0:24:23.92,Default,,0000,0000,0000,,- 别耍孬 快 - 把手放桌上就好了\N{\rEng}Just do it. Put your hand on the table.
+Dialogue: 0,0:24:24.04,0:24:26.09,Default,,0000,0000,0000,,- 好你准备好了吗? - 给我一个倒数\N{\rEng}Okay. Are you ready? Do it. Give me a countdown.
+Dialogue: 0,0:24:26.21,0:24:28.05,Default,,0000,0000,0000,,我会 我发誓...\N{\rEng}I will. I promi... Owh!
+Dialogue: 0,0:24:28.13,0:24:29.63,Default,,0000,0000,0000,,被耍了\N{\rEng}Oh, snap!
+Dialogue: 0,0:24:29.76,0:24:31.72,Default,,0000,0000,0000,,- 就像我说的... - 你得赔人家钱\N{\rEng}Like I said You gotta pay for that now.
+Dialogue: 0,0:24:31.84,0:24:33.59,Default,,0000,0000,0000,,就像我说的 看吧 妈呀\N{\rEng}Like I said. See? Holy crap.
+Dialogue: 0,0:24:35.72,0:24:38.52,Default,,0000,0000,0000,,就想像你手上方有个屏障 然后...\N{\rEng}Man! Just pretend that there's a barrier over your hand, right? And then...
+Dialogue: 0,0:24:38.64,0:24:41.19,Default,,0000,0000,0000,,有物体要碰到你时 只要你准备好...\N{\rEng}Mm-hmm. When things are gonna hit you, as long as you're ready,
+Dialogue: 0,0:24:41.31,0:24:44.23,Default,,0000,0000,0000,,- 你就有屏障保护 不会受到伤害 - 这太屌了\N{\rEng}- they will not hurt you because of the barrier. - That's so sick.
+Dialogue: 0,0:24:44.35,0:24:47.61,Default,,0000,0000,0000,,那个我喜欢 史蒂夫，史蒂夫，你得试试这个\N{\rEng}That's me right there. I need that. Steve, Steve, you have to try this, dude.
+Dialogue: 0,0:24:47.69,0:24:49.16,Default,,0000,0000,0000,,把手给我\N{\rEng}Give me your hand.
+Dialogue: 0,0:24:49.23,0:24:54.29,Default,,0000,0000,0000,,当我还是小孩子的时候，我其实…其实想当一名警察\N{\rEng}When I was a kid though, I actually... I actually did want to be a police officer.
+Dialogue: 0,0:24:54.41,0:24:56.28,Default,,0000,0000,0000,,-警察？没开玩笑吧\N-是啊，是啊\N{\rEng}A cop? No shit? Yeah. Yeah.
+Dialogue: 0,0:24:56.41,0:24:59.71,Default,,0000,0000,0000,,你知道当警察就不能抽大麻了，对吧，麦特？\N{\rEng}You do know that you can't smoke weed when you're a cop, right, Matt?
+Dialogue: 0,0:24:59.79,0:25:03.04,Default,,0000,0000,0000,,哦，不，真的？额，我不知道\N{\rEng}Oh, no. Really? Uh, I didn't know.
+Dialogue: 0,0:25:03.12,0:25:07.50,Default,,0000,0000,0000,,额，但是，不，我只是，我有些利他主义\N{\rEng}Uh, but, no, I... I... I just... I really got into, like, altruism.
+Dialogue: 0,0:25:07.58,0:25:10.13,Default,,0000,0000,0000,,什么意思？利他主义是什么，麦特？\N{\rEng}What does that mean? What does “altruism” mean, Matt?
+Dialogue: 0,0:25:10.21,0:25:13.18,Default,,0000,0000,0000,,就是为了别人让世界变得美好\N{\rEng}It's like wanting to make things better for everyone.
+Dialogue: 0,0:25:13.30,0:25:16.55,Default,,0000,0000,0000,,真的？这话居然从一个整天抱怨生活无意义的人口中说出来\N{\rEng}Really? This coming from the man who is always talking about how pointless life is.
+Dialogue: 0,0:25:16.64,0:25:19.35,Default,,0000,0000,0000,,是啊，我知道，但这就是我最近在思考的\N{\rEng}Yeah, I know, but this is what I've been thinking about lately.
+Dialogue: 0,0:25:19.43,0:25:21.77,Default,,0000,0000,0000,,就好像，我在回想，我只是觉得…\N{\rEng}Like, I'm looking back, and I just think...
+Dialogue: 0,0:25:21.85,0:25:25.44,Default,,0000,0000,0000,,我以前看事情的角度可能更好，你知道吗\N{\rEng}the way I used to think about things was probably a lot better, you know.
+Dialogue: 0,0:25:25.52,0:25:29.82,Default,,0000,0000,0000,,那又如何，你要出去开始做慈善什么的吗？\N{\rEng}So, what, you want to go out and start a charity or something?
+Dialogue: 0,0:25:29.94,0:25:32.82,Default,,0000,0000,0000,,-这不靠谱\N-等等，为什么不靠谱？\N{\rEng}That's lame. Wait. Why is that lame?
+Dialogue: 0,0:25:34.78,0:25:36.20,Default,,0000,0000,0000,,额，我不知道\N{\rEng}Uh, I don't know.
+Dialogue: 0,0:25:36.28,0:25:37.53,Default,,0000,0000,0000,,白痴\N{\rEng}Douche bag.
+Dialogue: 0,0:25:37.61,0:25:40.49,Default,,0000,0000,0000,,我对什么事都不擅长，我只是尽力而为\N{\rEng}I'm not good at everything. I just do my best at everything.
+Dialogue: 0,0:25:40.58,0:25:43.20,Default,,0000,0000,0000,,好吗？事情就是这样的\N{\rEng}All right? That's what it's about.
+Dialogue: 0,0:25:43.29,0:25:45.46,Default,,0000,0000,0000,,我是说，你一直谈论哲学之类的狗屁玩意\N{\rEng}I mean, you talk about philosophy and shit all the time,
+Dialogue: 0,0:25:45.54,0:25:48.13,Default,,0000,0000,0000,,但是他真的做了什么呢，啊？\N{\rEng}but what has he really done, hmm?
+Dialogue: 0,0:25:48.21,0:25:50.71,Default,,0000,0000,0000,,你甚至有申请过大学吗？\N{\rEng}Have you even applied to colleges yet?
+Dialogue: 0,0:25:50.79,0:25:52.67,Default,,0000,0000,0000,,不，但是我正要…正要申请\N{\rEng}No, but I'm getting... I'm getting to it.
+Dialogue: 0,0:25:52.80,0:25:55.05,Default,,0000,0000,0000,,-耶，好吧，你是该申请，我是说…\N-我在申请\N{\rEng}Yeah, well, you should get to it. I'm just saying. I am.
+Dialogue: 0,0:25:55.13,0:25:56.73,Default,,0000,0000,0000,,你可以采纳我的部分意见\N{\rEng}You could use some of that.
+Dialogue: 0,0:25:56.80,0:25:59.39,Default,,0000,0000,0000,,你可以闭上鸟嘴，怎么样？\N{\rEng}You could use some “Shut the hell up.” How about that?
+Dialogue: 0,0:25:59.51,0:26:02.52,Default,,0000,0000,0000,,-你只是缺乏主动，这没什么大不了的\N-是吗？你“缺乏”鸡巴\N{\rEng}You just lack initiative. It's not that big... Oh, yeah? You lack a dick.
+Dialogue: 0,0:26:03.81,0:26:05.73,Default,,0000,0000,0000,,兄弟们，告诉我们这里怎么回事\N{\rEng}Boys, please tell us what's going on here.
+Dialogue: 0,0:26:05.81,0:26:10.03,Default,,0000,0000,0000,,额，好的，这里好像圣母玛利亚出现了…\N{\rEng}Uh, well, it would seem that a Virgin Mary has appeared...
+Dialogue: 0,0:26:10.11,0:26:12.73,Default,,0000,0000,0000,,在一名本地男子的煎饼糖浆里\N{\rEng}in the syrup of a local man's pancake.
+Dialogue: 0,0:26:12.82,0:26:14.78,Default,,0000,0000,0000,,不，没有啊\N{\rEng}No, it has not.
+Dialogue: 0,0:26:14.86,0:26:17.33,Default,,0000,0000,0000,,额，好吧，马上就出现，好吗？稍等\N{\rEng}Uh, well, it will in a second, okay? Just hold on.
+Dialogue: 0,0:26:18.70,0:26:21.75,Default,,0000,0000,0000,,哦，现在肯定发生了某种超自然现象\N{\rEng}Oh, that is definitely some supernatural shit going on here.
+Dialogue: 0,0:26:24.66,0:26:27.26,Default,,0000,0000,0000,,额，不好意思，你能过来一下吗？\N{\rEng}Um, excuse me. Can you come here real quick?
+Dialogue: 0,0:26:27.33,0:26:29.83,Default,,0000,0000,0000,,额，你能看下这个吗？\N{\rEng}Um, can you just look at that?
+Dialogue: 0,0:26:30.33,0:26:32.51,Default,,0000,0000,0000,,哦，上帝啊！\N（西班牙语）\N{\rEng}Ay, Dios mio!
+Dialogue: 0,0:26:34.17,0:26:36.97,Default,,0000,0000,0000,,滚地球，用力过大了\N{\rEng}Grounder. Too much pressure.
+Dialogue: 0,0:26:37.05,0:26:38.55,Default,,0000,0000,0000,,安德鲁\N{\rEng}Andrew.
+Dialogue: 0,0:26:40.26,0:26:43.01,Default,,0000,0000,0000,,哦，伙计，得了，别去弄她\N{\rEng}Oh, dude. Come on. Leave her alone.
+Dialogue: 0,0:26:44.81,0:26:46.61,Default,,0000,0000,0000,,哦，你来真的？\N{\rEng}Oh, seriously?
+Dialogue: 0,0:26:46.68,0:26:48.36,Default,,0000,0000,0000,,伙计！\N{\rEng}Dude!
+Dialogue: 0,0:26:48.44,0:26:50.03,Default,,0000,0000,0000,,哦，拜托，这样很不好\N{\rEng}Oh, come on. That is so messed up.
+Dialogue: 0,0:26:50.15,0:26:51.65,Default,,0000,0000,0000,,-她要被炒鱿鱼了\N-我不知道…\N{\rEng}She's gonna get fired. I didn't know...
+Dialogue: 0,0:26:51.86,0:26:54.15,Default,,0000,0000,0000,,- 真恶心 - 你们队上会共用护裆吗?\N{\rEng}That is disgusting. But do you guys share cups on the team?
+Dialogue: 0,0:26:54.27,0:26:56.40,Default,,0000,0000,0000,,不 当然不共用护裆 老兄\N{\rEng}No, we don't share cups, man.
+Dialogue: 0,0:26:56.49,0:26:58.24,Default,,0000,0000,0000,,看到那车吗?\N{\rEng}You see that car though?
+Dialogue: 0,0:26:58.32,0:26:59.99,Default,,0000,0000,0000,,- 红色的那辆 - 看到了\N{\rEng}The red one. Yeah.
+Dialogue: 0,0:27:00.70,0:27:03.00,Default,,0000,0000,0000,,口香糖那招挺酷的\N{\rEng}All right. The gum was cool.
+Dialogue: 0,0:27:03.08,0:27:06.71,Default,,0000,0000,0000,,你尽力了 但是算失败的\N{\rEng}All right. You tried. It was a failed attempt though.
+Dialogue: 0,0:27:07.79,0:27:08.54,Default,,0000,0000,0000,,看我的\N{\rEng}Watch this.
+Dialogue: 0,0:27:08.54,0:27:09.54,Default,,0000,0000,0000,,- 你要干什么? - 看着\N{\rEng}What are you doing? Watch.
+Dialogue: 0,0:27:10.92,0:27:12.38,Default,,0000,0000,0000,,去啊\N{\rEng}Go, go, go.
+Dialogue: 0,0:27:16.05,0:27:17.76,Default,,0000,0000,0000,,什么?\N{\rEng}What?
+Dialogue: 0,0:27:17.84,0:27:19.76,Default,,0000,0000,0000,,不会吧\N{\rEng}No way!
+Dialogue: 0,0:27:22.39,0:27:24.06,Default,,0000,0000,0000,,妈的\N{\rEng}Holy shit!
+Dialogue: 0,0:27:24.14,0:27:26.06,Default,,0000,0000,0000,,伙计 天啊\N{\rEng}Dude! Holy crap!
+Dialogue: 0,0:27:30.02,0:27:31.52,Default,,0000,0000,0000,,怎么样? 怎么样?\N{\rEng}What? What?
+Dialogue: 0,0:27:31.65,0:27:33.36,Default,,0000,0000,0000,,- 就是这么回事 - 有人看到吗?\N{\rEng}That's what I'm talking about! Did anybody see?
+Dialogue: 0,0:27:33.44,0:27:35.28,Default,,0000,0000,0000,,史蒂夫 蒙特加梅利当选班长\N{\rEng}Steve Montgomery for president!
+Dialogue: 0,0:27:35.40,0:27:38.65,Default,,0000,0000,0000,,- 我好像脸上流经血 - 太恶心了\N{\rEng}- I'm having, like, a face period. - Oh, man.
+Dialogue: 0,0:27:38.74,0:27:40.03,Default,,0000,0000,0000,,暂停\N{\rEng}Pause.
+Dialogue: 0,0:27:40.15,0:27:42.83,Default,,0000,0000,0000,,伙计们 她来了\N{\rEng}You guys. You guys, here she comes.
+Dialogue: 0,0:27:42.91,0:27:45.28,Default,,0000,0000,0000,,她来了\N{\rEng}Here she comes! Oh...
+Dialogue: 0,0:27:45.41,0:27:48.13,Default,,0000,0000,0000,,麦特 别盯着看 别看\N{\rEng}Don't look. Don't look, don't look.
+Dialogue: 0,0:27:48.20,0:27:49.75,Default,,0000,0000,0000,,史蒂夫 别看\N{\rEng}Steve, don't look.
+Dialogue: 0,0:27:49.83,0:27:53.05,Default,,0000,0000,0000,,她找不到...她以为被偷了\N{\rEng}She can't find... She thinks it's stolen.
+Dialogue: 0,0:27:53.17,0:27:56.67,Default,,0000,0000,0000,,她完全不知 没错 这次还真是那黑人干的\N{\rEng}She has no idea. Yes, it was the black guy this time.
+Dialogue: 0,0:27:58.76,0:28:02.06,Default,,0000,0000,0000,,"我发誓我停在这的 我的车呢?"\N{\rEng}“I could have sworn I parked it right here. Where is my car?"
+Dialogue: 0,0:28:02.13,0:28:03.64,Default,,0000,0000,0000,,别理我们\N{\rEng}Ignore us.
+Dialogue: 0,0:28:03.72,0:28:05.94,Default,,0000,0000,0000,,我们是...摩门教的\N{\rEng}We're just... Mormons.
+Dialogue: 0,0:28:06.05,0:28:08.90,Default,,0000,0000,0000,,那啥意思?\N{\rEng}What does that mean?
+Dialogue: 0,0:28:09.02,0:28:12.11,Default,,0000,0000,0000,,那啥意思?\N{\rEng}What does that mean?
+Dialogue: 0,0:28:12.19,0:28:14.44,Default,,0000,0000,0000,,啊哦！啊哦！\N{\rEng}Uh-oh! Uh-oh!
+Dialogue: 0,0:28:14.52,0:28:16.90,Default,,0000,0000,0000,,加雷蒂快笑死了\N{\rEng}Garetty's... Garetty's having a giggle fit.
+Dialogue: 0,0:28:17.11,0:28:20.95,Default,,0000,0000,0000,,那实在太了不起了\N{\rEng}That was so... It was amazing.
+Dialogue: 0,0:28:21.03,0:28:23.28,Default,,0000,0000,0000,,我懂 但别那么激动\N{\rEng}I know. Just take it easy with the merchandise.
+Dialogue: 0,0:28:23.36,0:28:26.04,Default,,0000,0000,0000,,在光天化日下 怎么会没人看见?\N{\rEng}How did nobody see that? It was out in the open.
+Dialogue: 0,0:28:26.16,0:28:29.16,Default,,0000,0000,0000,,她的表情 我忘不掉她那表情\N{\rEng}Her face! I cannot get her face out of my mind!
+Dialogue: 0,0:28:29.24,0:28:30.67,Default,,0000,0000,0000,,太棒了\N{\rEng}That was awesome.
+Dialogue: 0,0:28:30.75,0:28:32.04,Default,,0000,0000,0000,,那是谁啊?\N{\rEng}Who is this?
+Dialogue: 0,0:28:32.12,0:28:33.67,Default,,0000,0000,0000,,我有好多主意\N{\rEng}So many ideas of stuff that we can do!
+Dialogue: 0,0:28:33.79,0:28:36.09,Default,,0000,0000,0000,,- 绕过去啊 - 只是某个乡巴佬混蛋\N{\rEng}Go around. That's just some redneck asshole.
+Dialogue: 0,0:28:36.21,0:28:39.21,Default,,0000,0000,0000,,- 绕过去 - 史蒂夫 史蒂夫\N{\rEng}Go around. Steve, Steve, Steve, Steve. Take the camera. Take the camera.
+Dialogue: 0,0:28:39.30,0:28:41.67,Default,,0000,0000,0000,,拿着摄影机 拿着\N{\rEng}All right. Just make sure it's zoomed out all the way.
+Dialogue: 0,0:28:41.80,0:28:43.93,Default,,0000,0000,0000,,好 确定镜头拉到最远\N{\rEng}- Got ya. I can see you. - Okay, buddy.
+Dialogue: 0,0:28:44.01,0:28:45.85,Default,,0000,0000,0000,,- 知道了 我拍着呢 - 好啦 兄弟\N{\rEng}What you gonna do?
+Dialogue: 0,0:28:45.93,0:28:48.15,Default,,0000,0000,0000,,你要干什么?\N{\rEng}What the hell is this guy's problem?
+Dialogue: 0,0:28:48.22,0:28:49.97,Default,,0000,0000,0000,,这家伙有什么问题啊?\N{\rEng}What are you doing?
+Dialogue: 0,0:28:50.06,0:28:51.90,Default,,0000,0000,0000,,你在干什么?\N{\rEng}Abracadabra!
+Dialogue: 0,0:28:51.98,0:28:54.07,Default,,0000,0000,0000,,安德鲁 操\N{\rEng}Whoa, whoa, whoa! Andrew, shit!
+Dialogue: 0,0:28:54.14,0:28:56.82,Default,,0000,0000,0000,,你他妈干了什么? 麦特 停车 停\N{\rEng}What the hell did you just do? Matt, stop the car! Stop! Stop!
+Dialogue: 0,0:28:56.94,0:28:59.61,Default,,0000,0000,0000,,- 你疯了吗? - 开到路旁 我们得马上下去\N{\rEng}Are you crazy? Pull down the road. We gotta go down there right now.
+Dialogue: 0,0:28:59.69,0:29:01.07,Default,,0000,0000,0000,,伙计们 我很抱歉\N{\rEng}Guys, I'm sorry!
+Dialogue: 0,0:29:01.15,0:29:03.53,Default,,0000,0000,0000,,你做了什么? 你为什么那么做?\N{\rEng}What did you do? Why did you do that?
+Dialogue: 0,0:29:03.61,0:29:05.41,Default,,0000,0000,0000,,我不是故意的 我...\N{\rEng}I didn't mean to. I didn't...
+Dialogue: 0,0:29:05.49,0:29:07.66,Default,,0000,0000,0000,,操 你有什么毛病啊? 你看\N{\rEng}Shit! What the hell is wrong with you? Look at this!
+Dialogue: 0,0:29:07.78,0:29:09.79,Default,,0000,0000,0000,,- 你放松好吗? - 那人说不定还在车里呢\N{\rEng}Will you just calm down! The guy's probably still in there!
+Dialogue: 0,0:29:09.87,0:29:11.62,Default,,0000,0000,0000,,对不起 好吗?\N{\rEng}I'm sorry, okay?
+Dialogue: 0,0:29:12.66,0:29:14.92,Default,,0000,0000,0000,,- 安德鲁 别 别 - 但我...我可以帮忙\N{\rEng}Andrew, stop, stop! But I can... I can help!
+Dialogue: 0,0:29:15.00,0:29:17.25,Default,,0000,0000,0000,,- 我可以救他出来 - 你什么都别做\N{\rEng}I can get him out. Stop doing things!
+Dialogue: 0,0:29:17.33,0:29:19.71,Default,,0000,0000,0000,,史蒂夫 史蒂夫\N{\rEng}Steve! Steve!
+Dialogue: 0,0:29:23.97,0:29:25.81,Default,,0000,0000,0000,,史蒂夫 小心!\N{\rEng}Steve, be careful!
+Dialogue: 0,0:29:26.30,0:29:27.89,Default,,0000,0000,0000,,操操\N{\rEng}Shit! Shit!
+Dialogue: 0,0:29:28.68,0:29:31.48,Default,,0000,0000,0000,,我的天啊 安德鲁 你开什么玩笑?\N{\rEng}Oh, my God, Andrew. Are you kidding me?
+Dialogue: 0,0:29:31.56,0:29:33.93,Default,,0000,0000,0000,,史蒂夫\N{\rEng}Steve!
+Dialogue: 0,0:29:34.02,0:29:36.90,Default,,0000,0000,0000,,天啊 天啊\N{\rEng}Oh, God. Oh, God.
+Dialogue: 0,0:29:36.98,0:29:38.98,Default,,0000,0000,0000,,他妈的\N{\rEng}Goddamn it!
+Dialogue: 0,0:29:39.06,0:29:40.61,Default,,0000,0000,0000,,史蒂夫\N{\rEng}Steve!
+Dialogue: 0,0:29:42.57,0:29:45.32,Default,,0000,0000,0000,,安德鲁\N{\rEng}Andrew! Oh...
+Dialogue: 0,0:29:45.40,0:29:46.53,Default,,0000,0000,0000,,操\N{\rEng}Shit!
+Dialogue: 0,0:29:47.41,0:29:50.25,Default,,0000,0000,0000,,操操操\N{\rEng}Shit, Shit, Shit, Shit!
+Dialogue: 0,0:29:51.87,0:29:53.92,Default,,0000,0000,0000,,麦特 他救到他了 他救到了...\N{\rEng}Oh, Matt, he's got him! He's got him. He's got...
+Dialogue: 0,0:29:54.00,0:29:55.59,Default,,0000,0000,0000,,帮我一把\N{\rEng}Help me.
+Dialogue: 0,0:30:02.00,0:30:03.97,Default,,0000,0000,0000,,我抓着他的背\N{\rEng}I'll get in back of him.
+Dialogue: 0,0:30:04.05,0:30:05.97,Default,,0000,0000,0000,,把他弄上去\N{\rEng}Get him up.
+Dialogue: 0,0:30:12.64,0:30:15.61,Default,,0000,0000,0000,,等等 史蒂夫 看着他 我去找帮手\N{\rEng}Hang on. Steve, stay with him. I'm gonna go get some help.
+Dialogue: 0,0:30:15.73,0:30:16.94,Default,,0000,0000,0000,,- 你在报警吗? - 对\N{\rEng}Are you calling the cops? Yeah, yeah.
+Dialogue: 0,0:30:17.06,0:30:19.15,Default,,0000,0000,0000,,- 你别吵好吗? 我听不到 - 你快挂电话好吗?\N{\rEng}Will you stop? I can't hear them. Will you hang up the phone?
+Dialogue: 0,0:30:19.27,0:30:21.57,Default,,0000,0000,0000,,- 是的 就在白弯桥旁 - 麦特 他没事的\N{\rEng}Yeah. It's just down past, uh, White Crescent Bridge. Matt, he's fine.
+Dialogue: 0,0:30:21.69,0:30:23.36,Default,,0000,0000,0000,,- 麦特 他没事 - 是的 是的\N{\rEng}Matt, he's fine. Yeah. Yeah.
+Dialogue: 0,0:30:23.48,0:30:25.08,Default,,0000,0000,0000,,- 麦特 - 别吵 我听不到...\N{\rEng}Fine, Matt! Stop! Stop! I can't hear...
+Dialogue: 0,0:30:25.15,0:30:27.25,Default,,0000,0000,0000,,喂\N{\rEng}Hey!
+Dialogue: 0,0:30:27.36,0:30:30.04,Default,,0000,0000,0000,,喂 在这里\N{\rEng}Hey! Hey! Over here!
+Dialogue: 0,0:30:30.16,0:30:33.96,Default,,0000,0000,0000,,-...冲破了护栏 - 喂 那开着吗?\N{\rEng}...Peeled off the road and went straight through the guardrail. Hey, is that on?
+Dialogue: 0,0:30:34.08,0:30:37.17,Default,,0000,0000,0000,,- 你认为这是游戏吗? - 我不懂你们为什么这么生气\N{\rEng}...This is a game or something? I don't understand how you guys can be so angry.
+Dialogue: 0,0:30:37.25,0:30:38.72,Default,,0000,0000,0000,,你不懂我们为什么生气?\N{\rEng}You don't understand how we can be angry?
+Dialogue: 0,0:30:38.79,0:30:41.67,Default,,0000,0000,0000,,安德鲁 你把人送进医院了耶\N{\rEng}Andrew, you... you put somebody in the hospital tonight, okay?
+Dialogue: 0,0:30:41.75,0:30:43.17,Default,,0000,0000,0000,,你不明白吗?\N{\rEng}Do you understand that?
+Dialogue: 0,0:30:43.25,0:30:46.05,Default,,0000,0000,0000,,安德鲁 看着我 你让人进医院了\N{\rEng}Andrew, look at me. You put a guy in the hospital!
+Dialogue: 0,0:30:46.13,0:30:49.06,Default,,0000,0000,0000,,对此你有什么感觉? 你伤害别人了\N{\rEng}How do you feel about that? You hurt somebody!
+Dialogue: 0,0:30:50.26,0:30:52.68,Default,,0000,0000,0000,,妈的 我们需要定几条规则 好吗?\N{\rEng}Shit. We need rules, okay?
+Dialogue: 0,0:30:52.76,0:30:55.02,Default,,0000,0000,0000,,第一条: 不准用在生物上\N{\rEng}No using it on living things.
+Dialogue: 0,0:30:55.10,0:30:58.19,Default,,0000,0000,0000,,第二条: 不能在生气时用 就是这么回事\N{\rEng}You can't use it when you're angry. That's it.
+Dialogue: 0,0:30:58.31,0:31:02.07,Default,,0000,0000,0000,,第三条: 我认为我们不该在公共场所用 或者告诉别人这事\N{\rEng}I don't think we should be using it in public or telling anybody about it.
+Dialogue: 0,0:31:02.19,0:31:04.91,Default,,0000,0000,0000,,- 你不能就自己定规则 好吗? - 我就是要定规则\N{\rEng}Look, you can't just declare rules, okay? I will declare rules...
+Dialogue: 0,0:31:05.03,0:31:07.62,Default,,0000,0000,0000,,- 是你说没关系的 - 我要定规则\N{\rEng}You're the one that said that nothing matters. I will declare rules.
+Dialogue: 0,0:31:07.69,0:31:10.66,Default,,0000,0000,0000,,我们如果要继续下去 能力又越来越强的话 我们需要规则\N{\rEng}If we're gonna keep going, and we're getting stronger, we need rules.
+Dialogue: 0,0:31:10.74,0:31:12.24,Default,,0000,0000,0000,,我们需要规则 对吧?\N{\rEng}We need rules, right?
+Dialogue: 0,0:31:13.74,0:31:15.24,Default,,0000,0000,0000,,麦特是对的 我们需要规则\N{\rEng}Matt's right. We need rules.
+Dialogue: 0,0:31:29.47,0:31:31.89,Default,,0000,0000,0000,,安德鲁 接那该死的电话\N{\rEng}Andrew! Answer the goddamn phone!
+Dialogue: 0,0:31:34.72,0:31:35.89,Default,,0000,0000,0000,,安德鲁\N{\rEng}Andrew!
+Dialogue: 0,0:31:35.97,0:31:37.85,Default,,0000,0000,0000,,麦特 他怎么说的?\N{\rEng}Matt, what did he say?
+Dialogue: 0,0:31:42.81,0:31:43.99,Default,,0000,0000,0000,,你还在生我的气吗??\N{\rEng}Are you still mad at me?
+Dialogue: 0,0:31:44.11,0:31:46.36,Default,,0000,0000,0000,,- 不 我没生气 - 你看起来在生气\N{\rEng}No, I'm not mad. Well, you seem mad.
+Dialogue: 0,0:31:46.44,0:31:48.11,Default,,0000,0000,0000,,我没生气 我只是...\N{\rEng}I'm not mad. I just...
+Dialogue: 0,0:31:48.19,0:31:51.49,Default,,0000,0000,0000,,我只是觉得我们应该更小心 懂吗? 我们不能...\N{\rEng}I just think that we need to be more careful now, you know? We can't...
+Dialogue: 0,0:31:52.49,0:31:57.59,Default,,0000,0000,0000,,我们必须多考虑清楚 不能就直接做 要先想清楚 好吗?\N{\rEng}We have to think a little bit more. We can't just do things. We have to think first, okay?
+Dialogue: 0,0:32:00.04,0:32:02.09,Default,,0000,0000,0000,,- 我懂 - 好的\N{\rEng}I understand. Okay.
+Dialogue: 0,0:32:02.29,0:32:04.92,Default,,0000,0000,0000,,史蒂夫在这鬼地方干什么?\N{\rEng}Why is Steve out in the boonies?
+Dialogue: 0,0:32:05.00,0:32:06.50,Default,,0000,0000,0000,,这是哪里?\N{\rEng}Where are we?
+Dialogue: 0,0:32:06.59,0:32:07.59,Default,,0000,0000,0000,,史蒂夫?\N{\rEng}Steve?
+Dialogue: 0,0:32:08.88,0:32:10.13,Default,,0000,0000,0000,,他的车在这啊\N{\rEng}His car's right there.
+Dialogue: 0,0:32:10.22,0:32:11.81,Default,,0000,0000,0000,,对啊 史蒂夫 你在哪?\N{\rEng}Yeah. Steve, where you at?
+Dialogue: 0,0:32:13.97,0:32:15.69,Default,,0000,0000,0000,,史蒂夫\N{\rEng}Steve!
+Dialogue: 0,0:32:17.26,0:32:18.77,Default,,0000,0000,0000,,"往上看"\N鈥淟ook up.鈥?\N{\rEng}“Look up.”
+Dialogue: 0,0:32:19.56,0:32:20.73,Default,,0000,0000,0000,,你好啊 孩子们\N{\rEng}Hello, boys.
+Dialogue: 0,0:32:20.81,0:32:22.40,Default,,0000,0000,0000,,不会吧\N{\rEng}Noway
+Dialogue: 0,0:32:22.48,0:32:24.28,Default,,0000,0000,0000,,- 怎么样? - 不 不\N{\rEng}What is up? No. No.
+Dialogue: 0,0:32:24.35,0:32:26.32,Default,,0000,0000,0000,,等等 伙计们 听我说\N{\rEng}Wait, guys. Wait, wait, wait. Check me out. Hear me out.
+Dialogue: 0,0:32:26.44,0:32:28.07,Default,,0000,0000,0000,,- 你在飞耶 - 我的妈啊\N{\rEng}- You're flying! - Holy shit!
+Dialogue: 0,0:32:28.19,0:32:31.29,Default,,0000,0000,0000,,- 等等 等等 听我说 听我说 - 不会吧 不会吧\N{\rEng}Wait, wait, wait. Hear me out. Hear me out. No way! No way!
+Dialogue: 0,0:32:31.36,0:32:32.49,Default,,0000,0000,0000,,你在干什么?\N{\rEng}What are you doing?
+Dialogue: 0,0:32:32.57,0:32:36.58,Default,,0000,0000,0000,,比看上去简单 我发誓 比看上去简单\N{\rEng}It's much easier than it looks. I swear. It's much easier than it looks.
+Dialogue: 0,0:32:36.66,0:32:38.08,Default,,0000,0000,0000,,我的天啊 伙计\N{\rEng}Oh, my God, dude.
+Dialogue: 0,0:32:38.20,0:32:41.46,Default,,0000,0000,0000,,你要确定能支撑自己 别跳...不然你会翻过去 - 我懂了\N{\rEng}Make sure you catch yourself. Don't try and jump, or you'll just flip yourself. I got it. I got it.
+Dialogue: 0,0:32:41.58,0:32:43.13,Default,,0000,0000,0000,,- 来吧 麦特 - 好的\N{\rEng}Come on, Matt. Come on. All right.
+Dialogue: 0,0:32:43.25,0:32:45.59,Default,,0000,0000,0000,,该死\N{\rEng}Oh, shit!
+Dialogue: 0,0:32:45.67,0:32:47.29,Default,,0000,0000,0000,,靠啊，哥们！\N{\rEng}Oh, man!
+Dialogue: 0,0:32:47.42,0:32:48.92,Default,,0000,0000,0000,,摔个狗吃屎 你怎么不到我后面去\N{\rEng}Eating dirt, man. Why don't you get behind me?
+Dialogue: 0,0:32:49.05,0:32:51.14,Default,,0000,0000,0000,,- 你碍到我了 - 什么意思?\N{\rEng}You were in my way. What do you mean?
+Dialogue: 0,0:32:51.21,0:32:53.76,Default,,0000,0000,0000,,想想“鹞”式飞机“ 想想“鹞”式飞机“\N{\rEng}Think Harrier jet. Think Harrier jet.
+Dialogue: 0,0:32:55.84,0:32:57.69,Default,,0000,0000,0000,,靠啊，哥们\N{\rEng}Oh, man.
+Dialogue: 0,0:32:58.22,0:32:59.97,Default,,0000,0000,0000,,- 他妈的 - 你还好吗?\N{\rEng}Goddamn it! Are you okay?
+Dialogue: 0,0:33:00.10,0:33:01.52,Default,,0000,0000,0000,,- 我看着你 - 让我集中精神\N{\rEng}I'm watching. Just let me concentrate.
+Dialogue: 0,0:33:01.64,0:33:03.74,Default,,0000,0000,0000,,- 专心 - 好啦 等一下\N{\rEng}Focus! Focus! Okay! Hold on.
+Dialogue: 0,0:33:05.19,0:33:06.66,Default,,0000,0000,0000,,那是你专心的表情吗?\N{\rEng}Is that your focus face?
+Dialogue: 0,0:33:06.73,0:33:08.23,Default,,0000,0000,0000,,我的天啊 伙计\N{\rEng}Oh, my God, dude.
+Dialogue: 0,0:33:09.77,0:33:10.95,Default,,0000,0000,0000,,哇哦！狗屁！\N{\rEng}Whoo! Bullshit!
+Dialogue: 0,0:33:11.07,0:33:13.29,Default,,0000,0000,0000,,- 我飞起来了 - 开什么玩笑?\N{\rEng}I'm up! I'm up! Are you kidding me?
+Dialogue: 0,0:33:13.40,0:33:15.16,Default,,0000,0000,0000,,- 天啊 - 撑住\N{\rEng}Holy crap! Hold it! Hold it!
+Dialogue: 0,0:33:15.28,0:33:18.25,Default,,0000,0000,0000,,- 我做到了 老兄 - 妈呀 伙计\N{\rEng}Oh, my God, dude. I am doing it. Holy crap, dude.
+Dialogue: 0,0:33:19.87,0:33:22.50,Default,,0000,0000,0000,,就是这样 你做到了\N{\rEng}Yeah! That's it, man. You're doing it.
+Dialogue: 0,0:33:22.58,0:33:23.63,Default,,0000,0000,0000,,哇哈！\N{\rEng}Whoo-hoo!
+Dialogue: 0,0:33:23.75,0:33:26.84,Default,,0000,0000,0000,,安德鲁 别放屁不然我们永远追不上你了\N{\rEng}Okay. Okay. Andrew, don't fart. We'll never find you again.
+Dialogue: 0,0:33:26.92,0:33:28.79,Default,,0000,0000,0000,,抓住我 抓住我\N{\rEng}Steve, stop me. Stop me, stop me.
+Dialogue: 0,0:33:28.92,0:33:30.42,Default,,0000,0000,0000,,我的天啊\N{\rEng}Oh, my God. Whoa, whoa.
+Dialogue: 0,0:33:30.55,0:33:32.92,Default,,0000,0000,0000,,- 你现在在飞 - 你们俩看起来真可爱\N{\rEng}You are flying now. You guys look so cute together.
+Dialogue: 0,0:33:33.05,0:33:36.93,Default,,0000,0000,0000,,我要带着摄影机上去了 好吗?\N{\rEng}Whoa! I'm coming up. I'm bringing the camera, okay?
+Dialogue: 0,0:33:37.05,0:33:38.68,Default,,0000,0000,0000,,好\N{\rEng}All right.
+Dialogue: 0,0:33:40.47,0:33:41.85,Default,,0000,0000,0000,,好吧 我们怎么下去?\N{\rEng}All right. How do we get down?
+Dialogue: 0,0:33:45.98,0:33:47.82,Default,,0000,0000,0000,,哇哈！耶！\N{\rEng}Whoo-hoo! Yeah!
+Dialogue: 0,0:33:49.27,0:33:52.37,Default,,0000,0000,0000,,安德鲁 这里冷死人了\N{\rEng}Andrew! It's freezing up here!
+Dialogue: 0,0:33:52.44,0:33:55.24,Default,,0000,0000,0000,,我听不到\N{\rEng}I can't hear you.
+Dialogue: 0,0:33:56.32,0:33:57.87,Default,,0000,0000,0000,,超速启动\N{\rEng}Activate hyperdrive!
+Dialogue: 0,0:33:57.95,0:33:59.50,Default,,0000,0000,0000,,哇！\N{\rEng}Whoo!
+Dialogue: 0,0:33:59.62,0:34:04.42,Default,,0000,0000,0000,,我们到底在哪?\N{\rEng}Where the hell are we?
+Dialogue: 0,0:34:04.54,0:34:07.04,Default,,0000,0000,0000,,- 快跟上 来啊 - 什么?\N{\rEng}Catch up! Let's go! What?
+Dialogue: 0,0:34:07.12,0:34:12.55,Default,,0000,0000,0000,,这太疯狂了\N{\rEng}Whoo! This is insane!
+Dialogue: 0,0:34:12.63,0:34:14.18,Default,,0000,0000,0000,,哇哈！\N{\rEng}Whoo-hoo!
+Dialogue: 0,0:34:14.26,0:34:16.10,Default,,0000,0000,0000,,- 伙计 - 好了 安德鲁\N{\rEng}Dude! All right, Andrew!
+Dialogue: 0,0:34:18.84,0:34:19.81,Default,,0000,0000,0000,,哇！\N{\rEng}Whoo!
+Dialogue: 0,0:34:19.93,0:34:21.98,Default,,0000,0000,0000,,- 你是鬼了 - 小心\N{\rEng}Tag, you're it! Watch out.
+Dialogue: 0,0:34:22.06,0:34:24.93,Default,,0000,0000,0000,,煞车！哇！啊！\N{\rEng}Pump the brakes! Whoa! Aah!
+Dialogue: 0,0:34:25.02,0:34:29.24,Default,,0000,0000,0000,,嘿 麦特 你终于有个长项了\N{\rEng}Hey, Matt! You're finally good at something!
+Dialogue: 0,0:34:29.31,0:34:31.99,Default,,0000,0000,0000,,很简单的 好耶\N{\rEng}It's so easy! Yeah!
+Dialogue: 0,0:34:33.48,0:34:35.36,Default,,0000,0000,0000,,啊！耶！\N{\rEng}Aah! Yeah!
+Dialogue: 0,0:34:36.65,0:34:37.75,Default,,0000,0000,0000,,哇！\N{\rEng}Whoo!
+Dialogue: 0,0:34:39.16,0:34:41.00,Default,,0000,0000,0000,,呜啊！\N{\rEng}Whoa!
+Dialogue: 0,0:34:41.07,0:34:42.50,Default,,0000,0000,0000,,接到了\N{\rEng}Got it!
+Dialogue: 0,0:34:43.99,0:34:47.12,Default,,0000,0000,0000,,准备接球，宝贝！\N{\rEng}Tebow time, baby!
+Dialogue: 0,0:34:47.83,0:34:48.83,Default,,0000,0000,0000,,好耶\N{\rEng}Yeah!
+Dialogue: 0,0:34:50.42,0:34:51.79,Default,,0000,0000,0000,,漂亮 史蒂夫\N{\rEng}Oh! Nice hands, Steve!
+Dialogue: 0,0:34:51.92,0:34:54.51,Default,,0000,0000,0000,,- 得分 - 扔回来\N{\rEng}Touchdown! Throw it back to Daddy!
+Dialogue: 0,0:34:56.42,0:34:59.77,Default,,0000,0000,0000,,伙计 接的好\N{\rEng}Oh, dude. Nice catch, man! Yes!
+Dialogue: 0,0:35:02.01,0:35:03.64,Default,,0000,0000,0000,,- 史蒂夫 再远一点 - 嘿 麦特\N{\rEng}Steve! Go deep! Hey, Matt!
+Dialogue: 0,0:35:03.72,0:35:05.27,Default,,0000,0000,0000,,你听到那声音吗?\N{\rEng}Do you hear that?
+Dialogue: 0,0:35:05.97,0:35:08.19,Default,,0000,0000,0000,,那是什么?\N{\rEng}What is that?
+Dialogue: 0,0:35:09.06,0:35:10.23,Default,,0000,0000,0000,,史蒂夫\N{\rEng}Whoa! Steve!
+Dialogue: 0,0:35:10.90,0:35:13.52,Default,,0000,0000,0000,,妈的 差点死了 伙计 天啊\N{\rEng}Oh, shit. Holy shit.
+Dialogue: 0,0:35:48.22,0:35:51.69,Default,,0000,0000,0000,,我差点死了 伙计 差点...我靠，我靠\N{\rEng}Almost died, dude. Holy shit. 
+Dialogue: 0,0:35:51.77,0:35:53.57,Default,,0000,0000,0000,,差点死了，伙计！差点…\N{\rEng}Almost died, man! Almost...
+Dialogue: 0,0:35:53.65,0:35:55.78,Default,,0000,0000,0000,,安德鲁 你救了我一命\N{\rEng}Andrew, you saved my life!
+Dialogue: 0,0:35:55.86,0:35:57.53,Default,,0000,0000,0000,,我的天啊 你救了我一命\N{\rEng}Oh, my God. You saved my life!
+Dialogue: 0,0:35:57.61,0:35:59.83,Default,,0000,0000,0000,,我的天啊 你救了我的命\N{\rEng}Oh, God, you saved my life!
+Dialogue: 0,0:35:59.90,0:36:02.41,Default,,0000,0000,0000,,喔 天啊\N{\rEng}Oh, my God!
+Dialogue: 0,0:36:02.49,0:36:04.37,Default,,0000,0000,0000,,好的 我靠\N{\rEng}Okay. Holy shit.
+Dialogue: 0,0:36:04.45,0:36:07.00,Default,,0000,0000,0000,,那是摄影机吗? 你把我和摄影机都救了?\N{\rEng}Is that the camera? You saved me and the camera?
+Dialogue: 0,0:36:07.08,0:36:09.05,Default,,0000,0000,0000,,告诉我你全部都录下来了...\N{\rEng}Please tell me you got that on tape! You have to...
+Dialogue: 0,0:36:10.75,0:36:13.00,Default,,0000,0000,0000,,妈的\N{\rEng}Ah, shit.
+Dialogue: 0,0:36:13.08,0:36:15.09,Default,,0000,0000,0000,,- 搞什么... - 我们活着\N{\rEng}What the hell We're alive!
+Dialogue: 0,0:36:15.21,0:36:17.71,Default,,0000,0000,0000,,- 什么叫怎么回事? - 你没看到发生了什么事?\N{\rEng}What do you mean? The hell happened? You didn't see what happened?
+Dialogue: 0,0:36:17.80,0:36:21.85,Default,,0000,0000,0000,,妈的 安德鲁 安德鲁 你是个天才\N{\rEng}Oh, shit! Andrew! Andrew! You're a genius!
+Dialogue: 0,0:36:21.93,0:36:23.85,Default,,0000,0000,0000,,我们得看一看...\N{\rEng}We got to see this! Holy...
+Dialogue: 0,0:36:23.93,0:36:25.98,Default,,0000,0000,0000,,好的，哦，我靠\N{\rEng}All right. Oh. Holy shit.
+Dialogue: 0,0:36:26.05,0:36:29.73,Default,,0000,0000,0000,,等等，哦，上帝！我们落地了，耶！\N{\rEng}Wait. Oh, God! We're on the ground. Yes!
+Dialogue: 0,0:36:29.85,0:36:31.40,Default,,0000,0000,0000,,哇！\N{\rEng}Whoo!
+Dialogue: 0,0:36:31.48,0:36:32.77,Default,,0000,0000,0000,,我们创了历史\N{\rEng}We have broken history!
+Dialogue: 0,0:36:32.85,0:36:34.82,Default,,0000,0000,0000,,我是说 自山顶洞人时代以来...\N{\rEng}I mean, I'm talking about since the caveman times.
+Dialogue: 0,0:36:34.90,0:36:37.62,Default,,0000,0000,0000,,还有埃及人啊 莱特兄弟...\N{\rEng}Uh, the Egyptians, the Wright brothers.
+Dialogue: 0,0:36:37.69,0:36:40.11,Default,,0000,0000,0000,,过来 麦特 进来 进来\N{\rEng}Come here, Matt. Come here. Get in here. Get in.
+Dialogue: 0,0:36:40.19,0:36:41.45,Default,,0000,0000,0000,,说出来 "我会飞"\NSay it. 鈥淚 can fly.鈥?\N{\rEng}Say it. “I can fly.”
+Dialogue: 0,0:36:41.57,0:36:43.41,Default,,0000,0000,0000,,- 我会飞 - 我会飞\N{\rEng}I can fly. I can fly!
+Dialogue: 0,0:36:43.53,0:36:44.87,Default,,0000,0000,0000,,- 拜托 - 发自内心地说\N{\rEng}Oh, come on. Say it with your chest!
+Dialogue: 0,0:36:44.99,0:36:46.46,Default,,0000,0000,0000,,- 我会飞 - 大声说 麦特\N{\rEng}I can fly! Say it, Matt.
+Dialogue: 0,0:36:46.57,0:36:48.79,Default,,0000,0000,0000,,- 喊出来 - 我会飞\N{\rEng}Shout it out! I can fly!
+Dialogue: 0,0:36:48.87,0:36:50.71,Default,,0000,0000,0000,,我会飞 我会飞\N{\rEng}I can fly! I can fly!
+Dialogue: 0,0:36:50.91,0:36:52.88,Default,,0000,0000,0000,,我想救你的 安德鲁只是比我快\N{\rEng}I tried to save you, man. Andrew was just quicker.
+Dialogue: 0,0:36:52.96,0:36:54.08,Default,,0000,0000,0000,,再来一次如何？\N{\rEng}How does that go again?
+Dialogue: 0,0:36:54.17,0:36:56.13,Default,,0000,0000,0000,,我们差点死了\N{\rEng}We almost died.
+Dialogue: 0,0:36:56.21,0:36:58.71,Default,,0000,0000,0000,,拜托喔\N{\rEng}Oh, please. Gestures...
+Dialogue: 0,0:36:58.80,0:37:00.80,Default,,0000,0000,0000,,她怎么会没察觉?\N{\rEng}How does she not notice though?
+Dialogue: 0,0:37:00.88,0:37:02.76,Default,,0000,0000,0000,,我们说真的 伙计们\N{\rEng}Come on. Let's be serious, guys.
+Dialogue: 0,0:37:02.84,0:37:05.44,Default,,0000,0000,0000,,她当然察觉到比以前更爽\N{\rEng}She definitely noticed that it's gotten better.
+Dialogue: 0,0:37:05.55,0:37:07.35,Default,,0000,0000,0000,,- 你需要 你知道... - 怎样?\N{\rEng}You just gotta be, you know... Yeah?
+Dialogue: 0,0:37:07.43,0:37:08.90,Default,,0000,0000,0000,,你要做微妙的改变\N{\rEng}You just gotta be subtle.
+Dialogue: 0,0:37:08.97,0:37:11.10,Default,,0000,0000,0000,,你真酷啊\N{\rEng}That is so cool.
+Dialogue: 0,0:37:12.02,0:37:14.99,Default,,0000,0000,0000,,伙计 我自从暑假就没做过爱了\N{\rEng}Dude. And I haven't had sex since summer.
+Dialogue: 0,0:37:15.06,0:37:17.91,Default,,0000,0000,0000,,我从没做过爱\N{\rEng}I haven't had sex since ever.
+Dialogue: 0,0:37:17.98,0:37:19.36,Default,,0000,0000,0000,,真的吗?\N{\rEng}Really? Really?
+Dialogue: 0,0:37:19.48,0:37:21.95,Default,,0000,0000,0000,,这我实在无法接受\N{\rEng}That is completely unacceptable. Well...
+Dialogue: 0,0:37:22.03,0:37:25.03,Default,,0000,0000,0000,,你们怎么忍得住 怎么忍得住 伙计?\N{\rEng}How are you guys so cool? How are you guys so cool, man?
+Dialogue: 0,0:37:25.16,0:37:27.70,Default,,0000,0000,0000,,液氮冷却小弟弟的吧\N{\rEng}Liquid nitrogen.
+Dialogue: 0,0:37:47.18,0:37:48.60,Default,,0000,0000,0000,,嘿 伙计们\N{\rEng}Hey, guys?
+Dialogue: 0,0:37:48.72,0:37:51.47,Default,,0000,0000,0000,,伙计们 你们还醒着吗?\N{\rEng}Guys? You guys up?
+Dialogue: 0,0:37:53.06,0:37:54.31,Default,,0000,0000,0000,,是啊\N{\rEng}Yeah.
+Dialogue: 0,0:37:55.19,0:37:59.36,Default,,0000,0000,0000,,嘿 今天真是...\N{\rEng}Hey, uh... Today was like...
+Dialogue: 0,0:38:01.07,0:38:05.74,Default,,0000,0000,0000,,我觉得是我一生中最美好的一天\N{\rEng}It was like, I think, the best day of my life.
+Dialogue: 0,0:38:06.86,0:38:08.21,Default,,0000,0000,0000,,我是说...\N{\rEng}Like, I mean...
+Dialogue: 0,0:38:10.28,0:38:13.54,Default,,0000,0000,0000,,我回想起来 实在想不出...\N{\rEng}I'm thinking about it, and I can't think of any day...
+Dialogue: 0,0:38:13.62,0:38:16.72,Default,,0000,0000,0000,,有比今天更让我快乐的一天 知道吗?\N{\rEng}that I liked better than today, you know?
+Dialogue: 0,0:38:18.50,0:38:22.51,Default,,0000,0000,0000,,我真的...真的这么认为\N{\rEng}I really... I think it was.
+Dialogue: 0,0:38:27.72,0:38:28.97,Default,,0000,0000,0000,,是啊\N{\rEng}Yeah.
+Dialogue: 0,0:38:31.30,0:38:34.18,Default,,0000,0000,0000,,一致赞同\N{\rEng}Unanimous.
+Dialogue: 0,0:38:34.27,0:38:35.52,Default,,0000,0000,0000,,没错\N{\rEng}Yes.
+Dialogue: 0,0:38:35.60,0:38:38.07,Default,,0000,0000,0000,,好啊 很好\N{\rEng}Okay. Good.
+Dialogue: 0,0:38:40.61,0:38:42.11,Default,,0000,0000,0000,,好 听着 不管你们怎么说...\N{\rEng}Okay, check this out. Say what you want,
+Dialogue: 0,0:38:42.19,0:38:44.07,Default,,0000,0000,0000,,我想要这个周末飞去茂宜岛\N{\rEng}but I'm thinking about booking it to Maui for the weekend.
+Dialogue: 0,0:38:44.19,0:38:45.49,Default,,0000,0000,0000,,- 如何? - 真的吗?\N{\rEng}What's up with that? Seriously?
+Dialogue: 0,0:38:45.57,0:38:48.16,Default,,0000,0000,0000,,反正我们做得到 我也想过类似的事...\N{\rEng}Well, we could do it. I mean, I was thinking the same thing,
+Dialogue: 0,0:38:48.24,0:38:50.29,Default,,0000,0000,0000,,只不过我一直向往去西藏\N{\rEng}except I've always wanted to go to Tibet.
+Dialogue: 0,0:38:50.91,0:38:52.41,Default,,0000,0000,0000,,- 为什么是西藏? - 西藏?\N{\rEng}Why Tibet? Tibet?
+Dialogue: 0,0:38:52.49,0:38:53.99,Default,,0000,0000,0000,,我也不知道\N{\rEng}Yeah. I don't know.
+Dialogue: 0,0:38:54.08,0:38:55.83,Default,,0000,0000,0000,,应该很美丽 你知道吗? 很多的...\N{\rEng}It seems really beautiful, you know, with all the...
+Dialogue: 0,0:38:58.58,0:39:00.38,Default,,0000,0000,0000,,你闭嘴好吗? 闭嘴...\N{\rEng}Will you shut up? Shut...
+Dialogue: 0,0:39:00.50,0:39:03.55,Default,,0000,0000,0000,,那些纪念碑和山峰 你知道吗?\N{\rEng}The monuments and mountains, you know? Mm-hmm.
+Dialogue: 0,0:39:03.67,0:39:08.18,Default,,0000,0000,0000,,况且那些喇嘛们已达到了如此高深的启示...\N{\rEng}I don't know. And the monks have achieved such a high level of enlightenment...
+Dialogue: 0,0:39:08.26,0:39:10.98,Default,,0000,0000,0000,,他们还会飘浮之类的 你知道吗?\N{\rEng}that they can, like, float and shit, you know?
+Dialogue: 0,0:39:11.09,0:39:14.69,Default,,0000,0000,0000,,- 所以我们可以轻易融入 - 我们也可以耍耍他们\N{\rEng}So we would fit right in. We could really mess with their heads as well.
+Dialogue: 0,0:39:16.22,0:39:18.77,Default,,0000,0000,0000,,不过说真的 我认为我们应该去\N{\rEng}Yeah, but, like, seriously, I think we should go.
+Dialogue: 0,0:39:20.44,0:39:25.03,Default,,0000,0000,0000,,会挺酷的 也很平静\N{\rEng}It would be really cool. Peaceful.
+Dialogue: 0,0:39:25.11,0:39:28.53,Default,,0000,0000,0000,,不 我觉得是个很好的主意 我还真的挺想去的\N{\rEng}No, I think it's a really good idea. I actually would like to go.
+Dialogue: 0,0:39:28.61,0:39:30.45,Default,,0000,0000,0000,,我赞成 你呢 史蒂夫?\N{\rEng}I'm down. You down, Steve?
+Dialogue: 0,0:39:31.57,0:39:33.33,Default,,0000,0000,0000,,啥? 我不知道 老兄\N{\rEng}What... I... I don't know, man.
+Dialogue: 0,0:39:33.41,0:39:36.58,Default,,0000,0000,0000,,在西藏不穿比基尼 所以我不知道我赞不赞成\N{\rEng}There's no bikinis in Tibet. So I don't know if I'm down with that.
+Dialogue: 0,0:39:36.70,0:39:40.17,Default,,0000,0000,0000,,真是聪明啊，棒极了，她可能已经丢了工作\N{\rEng}It was brilliant. Ch, it was so amazing. She might have lost her job.
+Dialogue: 0,0:39:40.25,0:39:43.42,Default,,0000,0000,0000,,哦，糟了，伙计，今天是我老妈生日，我得走了\N{\rEng}Oh, shit, dude. I got my mom's birthday. I gotta go.
+Dialogue: 0,0:39:43.54,0:39:46.30,Default,,0000,0000,0000,,-今天是德布阿姨的生日？ -是啊，我得走了，我得走了\N{\rEng}It's Aunt Deb's birthday today? Yeah. I gotta go. I gotta go.
+Dialogue: 0,0:39:47.51,0:39:49.55,Default,,0000,0000,0000,,-替我问候她 -回见，麦特\N{\rEng}Tell her I said hi. Later, Matt.
+Dialogue: 0,0:39:49.63,0:39:52.26,Default,,0000,0000,0000,,好吧，你们现在想干嘛？你们想去哪儿？\N{\rEng}All right, what do you want to do now? Where do you want to go?
+Dialogue: 0,0:39:52.34,0:39:54.77,Default,,0000,0000,0000,,我不知道，我是说，我不想回家\N{\rEng}I don't know. I mean, I don't want to go home.
+Dialogue: 0,0:39:54.85,0:39:56.35,Default,,0000,0000,0000,,你们想去城里吗？\N{\rEng}Oh, do you want to go into the city?
+Dialogue: 0,0:39:56.47,0:40:00.23,Default,,0000,0000,0000,,-不行，现在是高峰时期，兄弟，会有很多车 -那又如何？\N{\rEng}Nah, it's rush hour, bro. It's gonna be so much traffic. So what?
+Dialogue: 0,0:40:00.31,0:40:01.98,Default,,0000,0000,0000,,说得对 哥们，我们走！\N{\rEng}Oh, yeah. That's right. Duh! Let's go.
+Dialogue: 0,0:40:08.53,0:40:10.40,Default,,0000,0000,0000,,喔 嘿 抱歉 我只是...\N{\rEng}Oh, hey. Sorry, I just...
+Dialogue: 0,0:40:10.49,0:40:11.95,Default,,0000,0000,0000,,嗨\N{\rEng}Hi.
+Dialogue: 0,0:40:12.78,0:40:14.45,Default,,0000,0000,0000,,你介意被拍吗?\N{\rEng}Do you mind if I film you?
+Dialogue: 0,0:40:14.53,0:40:17.96,Default,,0000,0000,0000,,一点点 我不是很喜欢上镜头\N{\rEng}Uh, a little bit. I don't really like being on camera actually.
+Dialogue: 0,0:40:18.87,0:40:21.84,Default,,0000,0000,0000,,说不定越上越习惯\N{\rEng}Well, maybe it's, like, exposure therapy.
+Dialogue: 0,0:40:21.92,0:40:24.54,Default,,0000,0000,0000,,不 我来只是要给你一个东西\N{\rEng}Yeah. No, I just came by to give you something actually.
+Dialogue: 0,0:40:25.88,0:40:27.30,Default,,0000,0000,0000,,- 是吗? - 是啊\N{\rEng}You did? Yeah.
+Dialogue: 0,0:40:28.80,0:40:29.76,Default,,0000,0000,0000,,什么?\N{\rEng}What?
+Dialogue: 0,0:40:29.84,0:40:31.59,Default,,0000,0000,0000,,我看了你的...\N{\rEng}I was watching your, um...
+Dialogue: 0,0:40:32.97,0:40:35.27,Default,,0000,0000,0000,,你的...你知道 你的博客\N{\rEng}your... your... you know, your blog?
+Dialogue: 0,0:40:35.35,0:40:37.89,Default,,0000,0000,0000,,在中非共和国有个旱灾 对吧?\N{\rEng}There's a drought in the Central African Republic, right?
+Dialogue: 0,0:40:38.01,0:40:41.11,Default,,0000,0000,0000,,我看到你写的 感觉不错 而且不太贵...\N{\rEng}Yeah. So I saw that and I thought it seems pretty cool, and it's cheap too,
+Dialogue: 0,0:40:41.18,0:40:42.69,Default,,0000,0000,0000,,所以我想说何不呢?\N{\rEng}so I thought why not?
+Dialogue: 0,0:40:44.10,0:40:45.57,Default,,0000,0000,0000,,- 可不是吗 - 是啊\N{\rEng}Totally. Yeah.
+Dialogue: 0,0:40:45.69,0:40:50.57,Default,,0000,0000,0000,,是啊 我看得出你对全球的这种大事...\N{\rEng}Yeah, I can tell that you're really global and big picture,
+Dialogue: 0,0:40:50.69,0:40:53.29,Default,,0000,0000,0000,,- 还挺关心的 - 对\N{\rEng}concerned about that kind of stuff. Yeah.
+Dialogue: 0,0:40:54.74,0:40:57.79,Default,,0000,0000,0000,,你知道 麦特 这你可以自己寄出去的\N{\rEng}You know, Matt, you can just mail this yourself.
+Dialogue: 0,0:40:57.87,0:40:59.34,Default,,0000,0000,0000,,我不是你妈\N{\rEng}I'm not your mom.
+Dialogue: 0,0:40:59.83,0:41:01.12,Default,,0000,0000,0000,,好吧 我是说 我只是...\N{\rEng}Okay. I mean, I just...
+Dialogue: 0,0:41:01.20,0:41:04.05,Default,,0000,0000,0000,,这是怎么搞的? 这是改头换面的你吗?\N{\rEng}What is this? Is this, like, the new you?
+Dialogue: 0,0:41:04.62,0:41:07.55,Default,,0000,0000,0000,,中一时你高高在上的 现在算什么?\N{\rEng}You got too smart to have fun in eighth grade. So now what?
+Dialogue: 0,0:41:07.63,0:41:08.63,Default,,0000,0000,0000,,不是的\N{\rEng}No.
+Dialogue: 0,0:41:08.71,0:41:10.18,Default,,0000,0000,0000,,凯西\N{\rEng}Casey, Casey, Casey, Casey, Casey, Casey.
+Dialogue: 0,0:41:10.25,0:41:13.76,Default,,0000,0000,0000,,听着 听着 我可以跟你谈一谈吗?\N{\rEng}Listen, listen. Can I just talk to you for a second?
+Dialogue: 0,0:41:13.88,0:41:15.81,Default,,0000,0000,0000,,我可以告诉你一些事吗?\N{\rEng}Can I just tell you something? Mm-hmm.
+Dialogue: 0,0:41:15.89,0:41:18.64,Default,,0000,0000,0000,,我只是...我...\N{\rEng}I just... I... I...
+Dialogue: 0,0:41:18.72,0:41:21.47,Default,,0000,0000,0000,,我想让你知道 我不是以前的那个我了\N{\rEng}I just want you to know I'm not, you know, who I was... now.
+Dialogue: 0,0:41:21.56,0:41:23.36,Default,,0000,0000,0000,,-你懂吗 我没事了 我...\N{\rEng}You know, I'm cool. I'm just...
+Dialogue: 0,0:41:24.27,0:41:25.32,Default,,0000,0000,0000,,你没事?\N{\rEng}You're cool?
+Dialogue: 0,0:41:25.40,0:41:28.99,Default,,0000,0000,0000,,高中比人气这回事像是古怪的竞赛...\N{\rEng}High school popularity just seemed like this weird backward contest,
+Dialogue: 0,0:41:29.07,0:41:30.94,Default,,0000,0000,0000,,我当时以为我看清了这一点就...\N{\rEng}and I thought since I knew that, I could just...
+Dialogue: 0,0:41:31.03,0:41:33.20,Default,,0000,0000,0000,,就等于你比其他人都优越\N{\rEng}That made you better than everybody else.
+Dialogue: 0,0:41:33.28,0:41:34.40,Default,,0000,0000,0000,,不 不 不是的\N{\rEng}No. No, no, no.
+Dialogue: 0,0:41:34.53,0:41:36.78,Default,,0000,0000,0000,,- 我懂你的意思 - 我尽量不去接触那些\N{\rEng}I know what you mean. I would separate myself from that.
+Dialogue: 0,0:41:36.91,0:41:38.16,Default,,0000,0000,0000,,- 我懂 - 你懂吗?\N{\rEng}I get it. You get it?
+Dialogue: 0,0:41:38.24,0:41:39.54,Default,,0000,0000,0000,,嗯\N{\rEng}Mm-hmm.
+Dialogue: 0,0:41:39.62,0:41:42.50,Default,,0000,0000,0000,,我知道听起来很怪 我只是希望你知道这点\N{\rEng}I know it sounds weird. I just wanted you to know that.
+Dialogue: 0,0:41:42.58,0:41:44.17,Default,,0000,0000,0000,,知道你没事了\N{\rEng}To know that you're cool.
+Dialogue: 0,0:41:44.25,0:41:45.97,Default,,0000,0000,0000,,哇 我真的搞砸了 是吧\N{\rEng}Wow, I really screwed this up.
+Dialogue: 0,0:41:48.79,0:41:50.55,Default,,0000,0000,0000,,没你想像的那么糟\N{\rEng}Not as much as you might think.
+Dialogue: 0,0:41:50.67,0:41:51.89,Default,,0000,0000,0000,,- 真的吗? - 再见\N{\rEng}Really? Good-bye.
+Dialogue: 0,0:41:51.96,0:41:53.39,Default,,0000,0000,0000,,- 凯西... - 我得走了 拜\N{\rEng}Casey... I gotta go. Bye.
+Dialogue: 0,0:41:54.42,0:41:55.93,Default,,0000,0000,0000,,真是的\N{\rEng}Come on.
+Dialogue: 0,0:41:57.30,0:42:00.98,Default,,0000,0000,0000,,伙计 你什么时候开始这样弄的?\N{\rEng}Dude! When did you start doing this?
+Dialogue: 0,0:42:01.10,0:42:02.47,Default,,0000,0000,0000,,- 什么时候? - 怎么 你说摄影机吗?\N{\rEng}Like, since when? What, with the camera?
+Dialogue: 0,0:42:02.56,0:42:04.03,Default,,0000,0000,0000,,是的 你的摄影机\N{\rEng}Yes, with the camera. Um...
+Dialogue: 0,0:42:04.10,0:42:05.90,Default,,0000,0000,0000,,我也不记得 我想有一段时间了吧\N{\rEng}I don't know. It's been a little while, I guess.
+Dialogue: 0,0:42:05.98,0:42:07.78,Default,,0000,0000,0000,,我就没法那么做\N{\rEng}See... Oh. I can't do that.
+Dialogue: 0,0:42:07.85,0:42:10.03,Default,,0000,0000,0000,,我没法做那种灵巧的事\N{\rEng}I can't do stuff that requires finesse.
+Dialogue: 0,0:42:10.11,0:42:13.24,Default,,0000,0000,0000,,昨天我试着打出我的名字 结果把键盘给折了\N{\rEng}I tried to type my name out yesterday, and I cracked my keyboard in half.
+Dialogue: 0,0:42:13.32,0:42:17.45,Default,,0000,0000,0000,,不 伙计 其实很简单 就想像你用手拿着它\N{\rEng}No, dude. It's really easy. You just... You think that you're holding it.
+Dialogue: 0,0:42:17.57,0:42:21.20,Default,,0000,0000,0000,,-你看，这就是我所要说的\N-什么？\N{\rEng}See, that's what I'm talking about right there. What?
+Dialogue: 0,0:42:21.28,0:42:25.51,Default,,0000,0000,0000,,你总是在想一些我们能做的新招式，伙计\N{\rEng}You're always thinking up new shit that we can do, man.
+Dialogue: 0,0:42:25.62,0:42:28.42,Default,,0000,0000,0000,,-这太疯狂了，你知道吗\N-我是说…\N{\rEng}This is insane. You know... I mean...
+Dialogue: 0,0:42:28.50,0:42:29.67,Default,,0000,0000,0000,,是啊，是啊\N{\rEng}Yeah. Yeah.
+Dialogue: 0,0:42:29.75,0:42:32.05,Default,,0000,0000,0000,,是啊，是的，我想我是的\N{\rEng}Yeah. Yes. I guess that I am.
+Dialogue: 0,0:42:33.80,0:42:37.22,Default,,0000,0000,0000,,哦！\N{\rEng}Whoo!
+Dialogue: 0,0:42:38.97,0:42:41.22,Default,,0000,0000,0000,,老妈像是永远不会回家了\N{\rEng}Mom's, like, never home any more.
+Dialogue: 0,0:42:42.60,0:42:46.32,Default,,0000,0000,0000,,我是说，你看我爸那个样子，他就这样安静地…\N{\rEng}I mean, you saw how my dad is. He's just... quiet.
+Dialogue: 0,0:42:47.06,0:42:48.78,Default,,0000,0000,0000,,闲坐着\N{\rEng}Sits around.
+Dialogue: 0,0:42:48.85,0:42:53.07,Default,,0000,0000,0000,,跟他说这些都没意义，因为他没什么可说的\N{\rEng}And it's pointless to talk to him about it 'cause he's got... nothing to say.
+Dialogue: 0,0:42:54.15,0:42:56.24,Default,,0000,0000,0000,,你看，这不一样 因为你一直都很有人缘\N{\rEng}See, it's different, 'cause you've always had friends,
+Dialogue: 0,0:42:56.32,0:42:59.70,Default,,0000,0000,0000,,大家都想跟你聊天 跟你相处\N{\rEng}and people want to talk to you and be around you.
+Dialogue: 0,0:42:59.78,0:43:02.71,Default,,0000,0000,0000,,我从来没有过 我是说 在这之前...\N{\rEng}I never had any of that. I mean, before this,
+Dialogue: 0,0:43:02.83,0:43:06.42,Default,,0000,0000,0000,,我跟麦特都不怎么相处了 他还是我表兄呢\N{\rEng}I barely even hung out with Matt, and he's my cousin.
+Dialogue: 0,0:43:06.50,0:43:08.34,Default,,0000,0000,0000,,我们小时候时很亲近 但...\N{\rEng}We were close when we were little, but...
+Dialogue: 0,0:43:10.00,0:43:12.59,Default,,0000,0000,0000,,我不知道 到了高中后 一切都改变了\N{\rEng}I don't know. In high school, everything changed.
+Dialogue: 0,0:43:12.67,0:43:15.47,Default,,0000,0000,0000,,去过太空针塔吗？\N（西雅图地标建筑）\N{\rEng}Ever been to the Space Needle?
+Dialogue: 0,0:43:15.55,0:43:18.22,Default,,0000,0000,0000,,有啊，好像我5岁时去的\N{\rEng}Yep. When I was, like, five.
+Dialogue: 0,0:43:19.97,0:43:21.31,Default,,0000,0000,0000,,那是给游客看的\N{\rEng}It's for tourists.
+Dialogue: 0,0:43:22.35,0:43:25.60,Default,,0000,0000,0000,,额，我不知道，我是说，我去了…\N{\rEng}Well, I don't know. I mean, I went, um...
+Dialogue: 0,0:43:26.10,0:43:27.98,Default,,0000,0000,0000,,我好像是7岁去的\N{\rEng}I think I was, like, seven...
+Dialogue: 0,0:43:28.73,0:43:31.95,Default,,0000,0000,0000,,有一次跟我老爸\N{\rEng}with my dad one time and...
+Dialogue: 0,0:43:33.44,0:43:35.53,Default,,0000,0000,0000,,我不知道，那真的是美好的一天\N{\rEng}I don't know. It was actually a really good day.
+Dialogue: 0,0:43:36.32,0:43:38.19,Default,,0000,0000,0000,,你记得吗？\N{\rEng}You remember that?
+Dialogue: 0,0:43:39.24,0:43:41.16,Default,,0000,0000,0000,,是啊，我记得\N{\rEng}Yeah. Actually, I do.
+Dialogue: 0,0:43:43.91,0:43:45.63,Default,,0000,0000,0000,,你知道吗，我一直想问你的\N{\rEng}You know, I've been meaning to ask you.
+Dialogue: 0,0:43:46.12,0:43:48.09,Default,,0000,0000,0000,,寒假快到了\N{\rEng}Winter break is coming up.
+Dialogue: 0,0:43:48.96,0:43:50.80,Default,,0000,0000,0000,,你应该跟我一起参加才艺秀\N{\rEng}You should do the talent show with me.
+Dialogue: 0,0:43:52.17,0:43:53.46,Default,,0000,0000,0000,,不可能\N{\rEng}No way.
+Dialogue: 0,0:43:53.54,0:43:55.67,Default,,0000,0000,0000,,何不? 这会对你很好的\N{\rEng}Why not? It'd be good for you to get out there, you know.
+Dialogue: 0,0:43:55.80,0:43:59.10,Default,,0000,0000,0000,,- 认识些朋友 认识些女孩 - 伙计 我不...这不...\N{\rEng}Meet some people, meet some girls. Dude, I'm not... it's just not...
+Dialogue: 0,0:44:00.38,0:44:02.43,Default,,0000,0000,0000,,- 怎样? - 我就是很害羞 好吗?\N{\rEng}What? Look, I'm just really shy, okay?
+Dialogue: 0,0:44:02.51,0:44:07.06,Default,,0000,0000,0000,,还有 我根本没有任何才艺\N{\rEng}And I don't... I don't even have any talents, so...
+Dialogue: 0,0:44:07.14,0:44:10.19,Default,,0000,0000,0000,,你在说啥呢? 你当然有才艺\N{\rEng}What are you talking about, you don't have... You have talent.
+Dialogue: 0,0:44:12.06,0:44:13.73,Default,,0000,0000,0000,,你有才艺\N{\rEng}You've got talent.
+Dialogue: 0,0:44:15.48,0:44:17.36,Default,,0000,0000,0000,,伙计 不可能吧\N{\rEng}Oh, dude, no way.
+Dialogue: 0,0:44:17.48,0:44:19.95,Default,,0000,0000,0000,,你看起来很帅\N{\rEng}You look handsome.
+Dialogue: 0,0:44:20.07,0:44:23.12,Default,,0000,0000,0000,,谢谢 史蒂夫...\N{\rEng}Thanks, yes. Steve...
+Dialogue: 0,0:44:23.24,0:44:29.17,Default,,0000,0000,0000,,把他的衣服借给我，好让我看起来酷一点还是什么的\N{\rEng}let me borrow some of his clothes to make me look cool or whatever.
+Dialogue: 0,0:44:29.91,0:44:33.17,Default,,0000,0000,0000,,我很高兴你这么常跟朋友们相处\N{\rEng}I'm glad you're spending so much time with your friends.
+Dialogue: 0,0:44:33.25,0:44:36.55,Default,,0000,0000,0000,,是啊 我也是\N{\rEng}Yeah. Yeah, me too.
+Dialogue: 0,0:44:47.97,0:44:49.90,Default,,0000,0000,0000,,- 喂 - 怎样?\N{\rEng}Hey. What?
+Dialogue: 0,0:44:52.85,0:44:54.35,Default,,0000,0000,0000,,你是怎么上学的?\N{\rEng}How are you getting to school?
+Dialogue: 0,0:44:56.02,0:44:58.87,Default,,0000,0000,0000,,- 我不懂你的意思 - 别跟我胡扯 你这白痴\N{\rEng}I don't know what you mean. Don't bullshit me, you idiot.
+Dialogue: 0,0:44:59.48,0:45:02.61,Default,,0000,0000,0000,,麦特都不过来了 没看到他的车\N{\rEng}Matt doesn't come. He doesn't drive up.
+Dialogue: 0,0:45:03.61,0:45:06.83,Default,,0000,0000,0000,,你自己外出 是谁载你去学校的?\N{\rEng}You leave the house. Who the hell's giving you rides to school?
+Dialogue: 0,0:45:07.91,0:45:11.00,Default,,0000,0000,0000,,- 麦特 - 好吧 你知道吗?\N{\rEng}M... Matt. All right. You know what?
+Dialogue: 0,0:45:11.08,0:45:12.25,Default,,0000,0000,0000,,你在骗我\N{\rEng}You're lying.
+Dialogue: 0,0:45:15.04,0:45:18.39,Default,,0000,0000,0000,,不知道你在干什么 但你藏不了的\N{\rEng}You're up to something, and you can't hide it.
+Dialogue: 0,0:45:19.13,0:45:21.80,Default,,0000,0000,0000,,你以为你可以偷偷摸摸的吗?\N{\rEng}You think you can just slink, hmm?
+Dialogue: 0,0:45:21.88,0:45:24.13,Default,,0000,0000,0000,,笑咪咪的在我的屋檐下摸进摸出的?\N{\rEng}Sneak in, sneak around my house, smiling?
+Dialogue: 0,0:45:27.18,0:45:28.60,Default,,0000,0000,0000,,我看准你了\N{\rEng}I'm onto your shit.
+Dialogue: 0,0:45:29.97,0:45:32.73,Default,,0000,0000,0000,,这蠢东西到底怎么操作啊?\N{\rEng}How do you even work this stupid thing?
+Dialogue: 0,0:45:34.98,0:45:37.57,Default,,0000,0000,0000,,好戏准备上场了\N{\rEng}Ah! And we're in business.
+Dialogue: 0,0:45:59.21,0:46:00.26,Default,,0000,0000,0000,,啵\N{\rEng}Boo!
+Dialogue: 0,0:46:01.09,0:46:03.43,Default,,0000,0000,0000,,- 嘿 - 嗨\N{\rEng}Hey. Hi.
+Dialogue: 0,0:46:03.51,0:46:05.68,Default,,0000,0000,0000,,你来干什么?\N{\rEng}Um, what are you doing here?
+Dialogue: 0,0:46:06.38,0:46:09.76,Default,,0000,0000,0000,,我在拍才艺秀啊\N{\rEng}I'm filming for the talent show.
+Dialogue: 0,0:46:10.68,0:46:14.44,Default,,0000,0000,0000,,- 麦特 加雷蒂来拍才艺秀? - 没错\N{\rEng}Matt Garetty is filming for the talent show. Yes, I am.
+Dialogue: 0,0:46:14.52,0:46:15.81,Default,,0000,0000,0000,,哇\N{\rEng}Wow.
+Dialogue: 0,0:46:17.73,0:46:20.57,Default,,0000,0000,0000,,这算什么 新发现的校园精神吗?\N{\rEng}What is this, some kind of newfound school spirit?
+Dialogue: 0,0:46:20.69,0:46:22.49,Default,,0000,0000,0000,,自己被人拍感觉如何?\N{\rEng}- How do you like it, huh? - Being on camera?
+Dialogue: 0,0:46:22.57,0:46:24.53,Default,,0000,0000,0000,,- 我自己其实不排斥上镜头 - 开始了\N{\rEng}- I actually don't mind being on camera. - Oh. Here we go.
+Dialogue: 0,0:46:24.61,0:46:26.24,Default,,0000,0000,0000,,女士们 先生们 即将上台的...\N{\rEng}Ladies and gentlemen, now coming to the stage...
+Dialogue: 0,0:46:26.36,0:46:30.46,Default,,0000,0000,0000,,- 怎么? 不用一套哲学来回我吗? - 班长史蒂夫 蒙特加梅利\N{\rEng}What? No philosophical comeback for me? Steve Montgomery.
+Dialogue: 0,0:46:30.53,0:46:32.33,Default,,0000,0000,0000,,你最好把这录下来\N{\rEng}You're probably gonna want to get this on camera.
+Dialogue: 0,0:46:32.45,0:46:36.21,Default,,0000,0000,0000,,大家好 准备看个才艺秀了吗?\N{\rEng}Every body get ready to enjou the show
+Dialogue: 0,0:46:38.21,0:46:41.26,Default,,0000,0000,0000,,我的学弟妹们 大声点 这不够大声\N{\rEng}All my underclassmen, come on. Make some noise. That's not loud enough.
+Dialogue: 0,0:46:42.59,0:46:45.14,Default,,0000,0000,0000,,我的学长姐们怎么样? 也来点声音吧\N{\rEng}How about my upperclassmen? Come on. Make some noise!
+Dialogue: 0,0:46:45.21,0:46:46.31,Default,,0000,0000,0000,,耶，史蒂夫！\N{\rEng}Yeah, Steve!
+Dialogue: 0,0:46:46.42,0:46:50.18,Default,,0000,0000,0000,,我的同学们 2012年的毕业班级呢?\N{\rEng}Let me hear it from my seniors, class of 2012!
+Dialogue: 0,0:46:51.68,0:46:54.56,Default,,0000,0000,0000,,耶，嘘\N{\rEng}Yeah. Shh.
+Dialogue: 0,0:46:54.68,0:46:59.48,Default,,0000,0000,0000,,我要你们热烈欢迎 年经又非常有才华的 安德鲁 戴特摩先生\N{\rEng}Now I want you guys to give it up for the young and very talented Mr. Andrew Detmer.
+Dialogue: 0,0:47:02.27,0:47:04.28,Default,,0000,0000,0000,,-上场了 -快，大伙\N{\rEng}- And you're on. - Come on, y'all.
+Dialogue: 0,0:47:04.40,0:47:06.57,Default,,0000,0000,0000,,-你们在干什么? -我们走！我们走！\N{\rEng}- What are you guys doing? - Let's go, let's go!
+Dialogue: 0,0:47:06.69,0:47:10.67,Default,,0000,0000,0000,,你们在欺负你表弟吗?\N{\rEng}Are you playing a prank on your cousin?
+Dialogue: 0,0:47:10.78,0:47:12.78,Default,,0000,0000,0000,,这太坏了 麦特\N{\rEng}That's mean, Matt.
+Dialogue: 0,0:47:12.87,0:47:14.04,Default,,0000,0000,0000,,看就对了\N{\rEng}Just watch.
+Dialogue: 0,0:47:17.46,0:47:18.63,Default,,0000,0000,0000,,真的？\N{\rEng}Really?
+Dialogue: 0,0:47:22.21,0:47:24.01,Default,,0000,0000,0000,,他在做什么?\N{\rEng}- Good luck! - What's he doing?
+Dialogue: 0,0:47:24.09,0:47:26.56,Default,,0000,0000,0000,,我们要看才艺\N{\rEng}Show us some talent!
+Dialogue: 0,0:47:28.17,0:47:31.14,Default,,0000,0000,0000,,真好啊 麦特\N{\rEng}Nice, Matt.
+Dialogue: 0,0:47:37.93,0:47:39.78,Default,,0000,0000,0000,,把它们捡起来！捡起来！\N{\rEng}Fifty-two Pickup! Pick 'em up!
+Dialogue: 0,0:47:40.77,0:47:44.15,Default,,0000,0000,0000,,不会吧\N{\rEng}No way!
+Dialogue: 0,0:47:47.44,0:47:50.37,Default,,0000,0000,0000,,耶！\N{\rEng}Yeah!
+Dialogue: 0,0:47:50.45,0:47:52.04,Default,,0000,0000,0000,,呜！\N{\rEng}Whoo!
+Dialogue: 0,0:47:52.53,0:47:54.33,Default,,0000,0000,0000,,安德鲁加油\N{\rEng}Go, Andrew!
+Dialogue: 0,0:47:54.41,0:47:56.50,Default,,0000,0000,0000,,怎么可能?\N{\rEng}What? What?
+Dialogue: 0,0:48:03.88,0:48:06.22,Default,,0000,0000,0000,,- 他要走在那上面吗?? - 你想呢?\N{\rEng}- Are they gonna walk on that? - What do you think?
+Dialogue: 0,0:48:14.22,0:48:16.81,Default,,0000,0000,0000,,哇哦！他没事 他没事\N{\rEng}Whoa. He's got it. He's got it. He's got it.
+Dialogue: 0,0:48:18.52,0:48:20.19,Default,,0000,0000,0000,,小心\N{\rEng}Easy.
+Dialogue: 0,0:48:20.27,0:48:21.77,Default,,0000,0000,0000,,你可以的\N{\rEng}Yeah, you got it.
+Dialogue: 0,0:48:22.65,0:48:24.07,Default,,0000,0000,0000,,天啊\N{\rEng}Holy crap!
+Dialogue: 0,0:48:25.15,0:48:28.07,Default,,0000,0000,0000,,耶！小菜一碟！\N{\rEng}Yeah! Cakewalk!
+Dialogue: 0,0:48:28.15,0:48:30.99,Default,,0000,0000,0000,,鼓掌，鼓掌，鼓掌！\N{\rEng}Give it up, give it up, give it up!
+Dialogue: 0,0:48:31.78,0:48:35.63,Default,,0000,0000,0000,,天啊 安德鲁太惊人了\N{\rEng}Oh, my God. Andrew is so amazing.
+Dialogue: 0,0:48:39.83,0:48:42.88,Default,,0000,0000,0000,,哇哦！\N{\rEng}Whoa!
+Dialogue: 0,0:48:43.00,0:48:45.92,Default,,0000,0000,0000,,鼓掌！响起来！\N{\rEng}Give it up! Let's go!
+Dialogue: 0,0:48:46.04,0:48:49.09,Default,,0000,0000,0000,,- 说真的 他是怎么办到的? - 我不知道\N{\rEng}Seriously, how are they doing this? I don't know.
+Dialogue: 0,0:48:50.38,0:48:51.63,Default,,0000,0000,0000,,魔法吧\N{\rEng}Magic.
+Dialogue: 0,0:48:54.39,0:48:56.39,Default,,0000,0000,0000,,呜！\N{\rEng}Whoo!
+Dialogue: 0,0:48:56.51,0:48:59.11,Default,,0000,0000,0000,,太神奇了\N{\rEng}That was amazing! Yeah!
+Dialogue: 0,0:48:59.22,0:49:03.73,Default,,0000,0000,0000,,呜啊！安德鲁！\N{\rEng}Whoo! Whoo! Andrew!
+Dialogue: 0,0:49:03.85,0:49:09.03,Default,,0000,0000,0000,,- 天啊 我看得出来你脑袋快爆炸了 - 什么?\N{\rEng}Oh, my God. I can see your head is, like, exploding right now. What?
+Dialogue: 0,0:49:09.11,0:49:12.78,Default,,0000,0000,0000,,这就是你的骄傲的瓦解 现在开始\N{\rEng}This is the beginning of your downfall. Hubris. Right there.
+Dialogue: 0,0:49:13.86,0:49:15.74,Default,,0000,0000,0000,,什么骄傲?\N{\rEng}What's hubris? Ha, ha, ha.
+Dialogue: 0,0:49:15.87,0:49:18.29,Default,,0000,0000,0000,,- 不 骄傲是什么意思 麦特? - 你说真的?\N{\rEng}No, what does “hubris” mean, Matt? Seriously?
+Dialogue: 0,0:49:19.03,0:49:21.33,Default,,0000,0000,0000,,- 那又是什么意思?\N- 啥? 我...\N{\rEng}What does “seriously” mean? What? I'm....
+Dialogue: 0,0:49:21.54,0:49:24.26,Default,,0000,0000,0000,,- 快走啊 - 别推我 伙计 我走着呢\N{\rEng}Get in there. Don't push me, dude. I'm going.
+Dialogue: 0,0:49:24.33,0:49:26.30,Default,,0000,0000,0000,,你的粉丝都在等你 你是今晚的大明星\N{\rEng}Your fans await. You're the man of the hour.
+Dialogue: 0,0:49:26.42,0:49:28.64,Default,,0000,0000,0000,,- 看看这房子 - 太屌了\N{\rEng}Look at this house! Oh, sick!
+Dialogue: 0,0:49:28.75,0:49:31.01,Default,,0000,0000,0000,,- 伙计 这地方好大 - 是啊\N{\rEng}Dude, this place looks huge. I know.
+Dialogue: 0,0:49:31.13,0:49:32.30,Default,,0000,0000,0000,,- 太大了 - 伙计\N{\rEng}It's enormous. Dude.
+Dialogue: 0,0:49:32.38,0:49:33.80,Default,,0000,0000,0000,,麦特 安德鲁\N{\rEng}Matt! Andrew!
+Dialogue: 0,0:49:33.92,0:49:35.55,Default,,0000,0000,0000,,哦，天啊！哦，天啊！史蒂夫，天啊！\N{\rEng}Oh, my God! Oh, my God! Steve! Oh, my God!
+Dialogue: 0,0:49:35.68,0:49:38.35,Default,,0000,0000,0000,,- 大伙都傻了 - 来吧 大家都在等你\N{\rEng}Everybody's freaking out. Come on, man. Everybody's been waiting for you.
+Dialogue: 0,0:49:39.64,0:49:41.48,Default,,0000,0000,0000,,给贵宾让路 让个路！\N{\rEng}V.I.P. coming through. Coming through!
+Dialogue: 0,0:49:41.56,0:49:43.56,Default,,0000,0000,0000,,大魔术家安德鲁到了\N{\rEng}Andrew Copperfield coming through!
+Dialogue: 0,0:49:43.64,0:49:45.69,Default,,0000,0000,0000,,让开 让开\N{\rEng}Make way, make way.
+Dialogue: 0,0:49:46.73,0:49:49.03,Default,,0000,0000,0000,,麦特 安德鲁 来这边\N{\rEng}Matt, come this way. Drew, over here.
+Dialogue: 0,0:49:50.57,0:49:52.99,Default,,0000,0000,0000,,安德鲁 戴特摩来了\N{\rEng}Andrew Detmer's in the house!
+Dialogue: 0,0:49:56.91,0:50:00.41,Default,,0000,0000,0000,,- 你感觉如何? - 我 我很好啊\N{\rEng}How are you feeling? I'm... I'm... I'm doing good.
+Dialogue: 0,0:50:00.49,0:50:03.17,Default,,0000,0000,0000,,- 是吗? 你确定吗? - 嘿\N{\rEng}- Yeah? Are you sure? Are you sure? - Hey. Hey.
+Dialogue: 0,0:50:03.25,0:50:04.17,Default,,0000,0000,0000,,- 你好 - 安德鲁\N{\rEng}Hello. Andrew.
+Dialogue: 0,0:50:04.29,0:50:06.84,Default,,0000,0000,0000,,- 你的魔术太帅了 - 哇 谢了\N{\rEng}Magic is so hot. Oh, wow. Thanks.
+Dialogue: 0,0:50:06.96,0:50:11.18,Default,,0000,0000,0000,,你完全不记得我吗?\N{\rEng}So, do you not remember me at all? Um...
+Dialogue: 0,0:50:11.25,0:50:13.01,Default,,0000,0000,0000,,- 摩妮卡 对吧? 摩妮卡? - 对\N{\rEng}Monica, right? Monica. Yes!
+Dialogue: 0,0:50:13.09,0:50:15.81,Default,,0000,0000,0000,,...把摄影机放下 我在放呢\N{\rEng}...Setting the camera down. I'm setting the camera down.
+Dialogue: 0,0:50:15.93,0:50:16.89,Default,,0000,0000,0000,,什么…哦\N{\rEng}What... Oh.
+Dialogue: 0,0:50:17.01,0:50:18.98,Default,,0000,0000,0000,,借过\N{\rEng}Oh. Excuse me.
+Dialogue: 0,0:50:19.09,0:50:21.60,Default,,0000,0000,0000,,你有没有玩过那边那游戏?\N{\rEng}Have you ever played that, over there?
+Dialogue: 0,0:50:21.68,0:50:24.18,Default,,0000,0000,0000,,呃 没有 我没玩过\N{\rEng}Uh, no. I have never played that, over there.
+Dialogue: 0,0:50:24.31,0:50:25.90,Default,,0000,0000,0000,,- 没有吗? - 从没有过\N{\rEng}No? Never.
+Dialogue: 0,0:50:26.02,0:50:28.19,Default,,0000,0000,0000,,我赌你一定很会玩\N{\rEng}I bet you're good at it. Uh...
+Dialogue: 0,0:50:28.31,0:50:30.82,Default,,0000,0000,0000,,- 怎样 不就是把球丢进杯子里吗? - 是啊\N{\rEng}What, you just throw the ball into the cups? Yep. Yep.
+Dialogue: 0,0:50:30.94,0:50:34.91,Default,,0000,0000,0000,,- 我是应该满会玩的 - 是吗?\N{\rEng}I actually could be good at that right now. Yeah?
+Dialogue: 0,0:50:35.03,0:50:36.32,Default,,0000,0000,0000,,- 或许吧 - 试过才知\N{\rEng}Maybe. Let's find out.
+Dialogue: 0,0:50:36.45,0:50:37.66,Default,,0000,0000,0000,,- 不 不 不 - 来吧\N{\rEng}No, no, no, no, no. Come on!
+Dialogue: 0,0:50:37.78,0:50:39.16,Default,,0000,0000,0000,,- 什么? - 来啊\N{\rEng}What? Come on.
+Dialogue: 0,0:50:39.28,0:50:40.66,Default,,0000,0000,0000,,- 好吧 - 来吧\N{\rEng}Okay, okay. Come on.
+Dialogue: 0,0:50:40.74,0:50:41.87,Default,,0000,0000,0000,,好啦 我来了\N{\rEng}Okay, I'm coming. I'm coming.
+Dialogue: 0,0:50:41.95,0:50:44.70,Default,,0000,0000,0000,,你在这啊\N{\rEng}There you are.
+Dialogue: 0,0:50:47.50,0:50:48.72,Default,,0000,0000,0000,,棒极了\N{\rEng}Amazing.
+Dialogue: 0,0:50:48.79,0:50:50.71,Default,,0000,0000,0000,,这就对了\N{\rEng}That's what I'm talking about.
+Dialogue: 0,0:51:06.31,0:51:08.81,Default,,0000,0000,0000,,耶！哇哈！\N{\rEng}Yeah! Whoo-hoo!
+Dialogue: 0,0:51:08.89,0:51:10.44,Default,,0000,0000,0000,,喂 安德鲁到底在哪?\N{\rEng}Hey, where is Andrew anyway?
+Dialogue: 0,0:51:10.52,0:51:12.24,Default,,0000,0000,0000,,哦\N{\rEng}Oh.
+Dialogue: 0,0:51:13.07,0:51:16.16,Default,,0000,0000,0000,,安德鲁和那粉红头发的女孩上楼了\N{\rEng}Andrew's upstairs with the girl with the pink hair.
+Dialogue: 0,0:51:16.24,0:51:17.95,Default,,0000,0000,0000,,怎么 他们一起上去的?\N{\rEng}What, like, they went together?
+Dialogue: 0,0:51:18.03,0:51:21.25,Default,,0000,0000,0000,,我的好小子 当然一起上去的 你在说什么?\N{\rEng}That's my boy. Of course they went together. What are you talking 'bout?
+Dialogue: 0,0:51:21.32,0:51:23.54,Default,,0000,0000,0000,,嘿 安德鲁 希望你看得到\N{\rEng}Hey, Andrew. I hope you're seeing this.
+Dialogue: 0,0:51:23.62,0:51:25.75,Default,,0000,0000,0000,,恭喜你 先生\N{\rEng}Congratulations, sir.
+Dialogue: 0,0:51:25.83,0:51:27.67,Default,,0000,0000,0000,,我想让你知道 伙计...\N{\rEng}I just wanted you to know, dude...
+Dialogue: 0,0:51:27.75,0:51:31.42,Default,,0000,0000,0000,,在这之前 我真的挺担心你 你知道吗?\N{\rEng}I was really worried about you before all this, you know?
+Dialogue: 0,0:51:31.50,0:51:35.13,Default,,0000,0000,0000,,但伙计 从今以后一切都会好转了\N{\rEng}But, dude, things are gonna get so much better for you now.
+Dialogue: 0,0:51:35.21,0:51:37.76,Default,,0000,0000,0000,,我真的这么认为\N{\rEng}I really, really feel that.
+Dialogue: 0,0:51:37.84,0:51:40.72,Default,,0000,0000,0000,,然后我要告诉你 我爱你 知道吗?\N{\rEng}And I want you to know I love you, you know?
+Dialogue: 0,0:51:40.80,0:51:43.43,Default,,0000,0000,0000,,我爱你 伙计 你和我\N{\rEng}I love you, man. It's you and me.
+Dialogue: 0,0:51:43.51,0:51:47.56,Default,,0000,0000,0000,,戴特摩和加雷蒂，一辈子的表亲\N{\rEng}It's Detmer and Garetty, extended family for life.
+Dialogue: 0,0:51:48.68,0:51:50.73,Default,,0000,0000,0000,,-喔 抱歉，抱歉 -哦，没事没事\N{\rEng}Oh, sorry. Sorry. No, man. Excuse yourself.
+Dialogue: 0,0:51:54.23,0:51:55.90,Default,,0000,0000,0000,,喔，伙计\N{\rEng}Oh, man.
+Dialogue: 0,0:51:56.03,0:52:00.33,Default,,0000,0000,0000,,- 什么时候变成是我在那里自拍的家伙? - 嘿 麦特\N{\rEng}When did I become the one who's out here filming myself? Hey, Matt.
+Dialogue: 0,0:52:00.40,0:52:03.50,Default,,0000,0000,0000,,嘿 凯西\N{\rEng}Oh, hey. Hey, Casey.
+Dialogue: 0,0:52:03.57,0:52:05.42,Default,,0000,0000,0000,,你在拍什么?\N{\rEng}So what are you filming?
+Dialogue: 0,0:52:05.49,0:52:07.29,Default,,0000,0000,0000,,只是随便拍拍\N{\rEng}Uh, it's just a thing.
+Dialogue: 0,0:52:07.37,0:52:09.96,Default,,0000,0000,0000,,不是什么头号新闻之类的\N{\rEng}It's not like eye of the storm or anything.
+Dialogue: 0,0:52:10.04,0:52:13.38,Default,,0000,0000,0000,,我只是...我想告诉你...\N{\rEng}Hey, I wanted to... I wanted to tell you...
+Dialogue: 0,0:52:13.46,0:52:15.88,Default,,0000,0000,0000,,我最近...最近让我想了很多\N{\rEng}I've really been... it's been making me think a lot.
+Dialogue: 0,0:52:15.96,0:52:18.31,Default,,0000,0000,0000,,我最近生活中常想到...\N{\rEng}I've been kind of thinking about it in my...
+Dialogue: 0,0:52:18.38,0:52:20.30,Default,,0000,0000,0000,,不 我说真的 我的生活中\N{\rEng}No, I have. Like, in my life.
+Dialogue: 0,0:52:20.38,0:52:22.89,Default,,0000,0000,0000,,我在想 如果我认真付出 能做到的事\N{\rEng}I've been thinking, if I applied myself, what I could do.
+Dialogue: 0,0:52:22.97,0:52:25.10,Default,,0000,0000,0000,,我可以...我真的可以改变世界\N{\rEng}I could really... I could change the world.
+Dialogue: 0,0:52:25.22,0:52:27.85,Default,,0000,0000,0000,,- 我是说 真的很... - 你醉了\N{\rEng}I mean, it's really been... You're drunk.
+Dialogue: 0,0:52:27.93,0:52:29.52,Default,,0000,0000,0000,,什么?\N{\rEng}What?
+Dialogue: 0,0:52:29.64,0:52:32.82,Default,,0000,0000,0000,,嘿 凯西?\N{\rEng}Hey, Casey?
+Dialogue: 0,0:52:32.90,0:52:36.70,Default,,0000,0000,0000,,差不多高二开始 我就算是一直在注意你\N{\rEng}I've basically been stalking you since, like, sophomore year.
+Dialogue: 0,0:52:36.77,0:52:38.99,Default,,0000,0000,0000,,抱歉 用词不对 我不该说"注意"...\N{\rEng}Sorry, use of the word “stalking.” I shouldn't have said...
+Dialogue: 0,0:52:39.07,0:52:40.70,Default,,0000,0000,0000,,想不想离开这?\N{\rEng}You want to get out of here?
+Dialogue: 0,0:52:41.95,0:52:43.20,Default,,0000,0000,0000,,- 好啊 - 好吗?\N{\rEng}Yeah. Yeah?
+Dialogue: 0,0:52:43.28,0:52:44.78,Default,,0000,0000,0000,,好的 当然好\N{\rEng}Yes. Yes, definitely.
+Dialogue: 0,0:52:44.87,0:52:48.04,Default,,0000,0000,0000,,呃 我必须先把摄影机还回去\N{\rEng}Uh, I... I have to drop off the camera first though.
+Dialogue: 0,0:52:51.16,0:52:54.79,Default,,0000,0000,0000,,好了 大家准备好目击历史了没?\N{\rEng}Okay, you guys are getting ready to witness history, all right?
+Dialogue: 0,0:52:54.88,0:52:57.75,Default,,0000,0000,0000,,我现在像个骄傲的老爸 因为在这扇门后...\N{\rEng}I'm like a proud dad right now because behind these doors,
+Dialogue: 0,0:52:57.84,0:53:00.26,Default,,0000,0000,0000,,安德鲁 戴特摩要成为男人了\N{\rEng}Andrew Detmer becomes a man.
+Dialogue: 0,0:53:02.68,0:53:04.52,Default,,0000,0000,0000,,他还是个害怕的小男孩\N{\rEng}He's a little boy behind there. He's scared.
+Dialogue: 0,0:53:04.59,0:53:06.19,Default,,0000,0000,0000,,像个等着破蛹而出的蝴蝶...\N{\rEng}He's like a butterfly, getting ready to emerge...
+Dialogue: 0,0:53:06.30,0:53:08.60,Default,,0000,0000,0000,,- 噢 天啊 - 还是什么类似的狗屁\N{\rEng}Oh, God! From a cocoon or some shit like that.
+Dialogue: 0,0:53:08.68,0:53:10.68,Default,,0000,0000,0000,,恶心的怪胎\N{\rEng}Disgusting weirdo!
+Dialogue: 0,0:53:10.81,0:53:12.81,Default,,0000,0000,0000,,等等 怎么搞的?\N{\rEng}Wait. What happened? Ha-ha. Okay...
+Dialogue: 0,0:53:12.94,0:53:14.69,Default,,0000,0000,0000,,- 那是... - 快滚开\N{\rEng}Is that... Out of my way now!
+Dialogue: 0,0:53:14.81,0:53:17.07,Default,,0000,0000,0000,,-噢 真是的 -莫妮卡，发生什么了？\N{\rEng}- Oh, man. - Monica, what happened?
+Dialogue: 0,0:53:17.15,0:53:20.12,Default,,0000,0000,0000,,安德鲁 没事的 伙计 别在意\N{\rEng}Drew! Drew! It's okay, man. Don't worry about it.
+Dialogue: 0,0:53:20.23,0:53:22.03,Default,,0000,0000,0000,,- 听着 任谁都有可能发生 - 伙计\N{\rEng}Look, it happens to the best of us, okay? Dude!
+Dialogue: 0,0:53:22.11,0:53:23.66,Default,,0000,0000,0000,,你喝了太多...\N{\rEng}You had a little too much to drink...
+Dialogue: 0,0:53:23.78,0:53:26.66,Default,,0000,0000,0000,,朋友...\N{\rEng}You... Oh. Oh. Whoa, buddy.
+Dialogue: 0,0:53:26.78,0:53:28.58,Default,,0000,0000,0000,,- 怎么回事 伙计? - 你在笑什么?\N{\rEng}The hell's going on, dude? Why are you laughing?
+Dialogue: 0,0:53:28.66,0:53:30.21,Default,,0000,0000,0000,,真是的 还弄上了我的衣服\N{\rEng}Aw, man. All over my jacket.
+Dialogue: 0,0:53:30.33,0:53:32.67,Default,,0000,0000,0000,,- 别 别笑了 - 你在说什么?\N{\rEng}Stop. Stop laughing. What are you talking about?
+Dialogue: 0,0:53:32.79,0:53:35.79,Default,,0000,0000,0000,,- 没关系的 老兄 - 不 没有没关系 史蒂夫 别\N{\rEng}It's cool, man. No, it's not cool, Steve. Stop.
+Dialogue: 0,0:53:35.92,0:53:38.76,Default,,0000,0000,0000,,- 别怎样 没事的 - 你可以出去吗?\N{\rEng}Stop what? It's cool, man. Will you just get out of here?
+Dialogue: 0,0:53:38.88,0:53:40.50,Default,,0000,0000,0000,,- 滚 你有什么毛病啊? - 安德鲁\N{\rEng}Get out! What's your problem? Drew, Drew!
+Dialogue: 0,0:53:40.63,0:53:42.22,Default,,0000,0000,0000,,- 你觉得这很好笑吗? - 不 我不是在笑...\N{\rEng}You think this is funny? No, I'm not laughing...
+Dialogue: 0,0:53:42.30,0:53:43.26,Default,,0000,0000,0000,,快滚\N{\rEng}Get out!
+Dialogue: 0,0:54:17.58,0:54:19.51,Default,,0000,0000,0000,,爸\N{\rEng}Dad!
+Dialogue: 0,0:54:19.59,0:54:24.39,Default,,0000,0000,0000,,安德鲁 求你了 我需要我的药\N{\rEng}Andrew! Please! I need my medicine.
+Dialogue: 0,0:54:24.47,0:54:28.10,Default,,0000,0000,0000,,妈在受苦 懂吗? 她需要药 你在哪里?\N{\rEng}Mom's in pain, all right? She needs her pills! Where are you?
+Dialogue: 0,0:54:31.97,0:54:36.19,Default,,0000,0000,0000,,你在哪里?\N{\rEng}Where are you?
+Dialogue: 0,0:54:39.86,0:54:40.78,Default,,0000,0000,0000,,爸\N{\rEng}Dad!
+Dialogue: 0,0:54:40.90,0:54:46.70,Default,,0000,0000,0000,,你妈快死了，你自己却藏个$500的摄影机? 你是有多自私?\N{\rEng}Hoarding a $500 camera while your mom dies in there? I mean, how selfish can you be?
+Dialogue: 0,0:54:50.95,0:54:52.45,Default,,0000,0000,0000,,我看过你拍的东西\N{\rEng}I went through your camera.
+Dialogue: 0,0:54:54.87,0:54:56.37,Default,,0000,0000,0000,,你看到了什么?\N{\rEng}What did you see?
+Dialogue: 0,0:54:57.87,0:54:59.88,Default,,0000,0000,0000,,看到你像个废物\N{\rEng}Just you being a loser.
+Dialogue: 0,0:55:01.21,0:55:03.21,Default,,0000,0000,0000,,你以为那些人是你的朋友吗?\N{\rEng}You think that those people are your friends?
+Dialogue: 0,0:55:04.21,0:55:06.47,Default,,0000,0000,0000,,他们不是\N{\rEng}Huh? They're not.
+Dialogue: 0,0:55:06.55,0:55:08.27,Default,,0000,0000,0000,,你是个耻辱\N{\rEng}You're an embarrassment.
+Dialogue: 0,0:55:09.09,0:55:12.14,Default,,0000,0000,0000,,你到处跑来跑去，花我的钱\N{\rEng}You're running around this town, spending my money.
+Dialogue: 0,0:55:12.22,0:55:13.77,Default,,0000,0000,0000,,我对你说话时你看着我\N{\rEng}Look at me when I'm talking to you!
+Dialogue: 0,0:55:13.85,0:55:16.02,Default,,0000,0000,0000,,我没花你的钱 理查\N{\rEng}I didn't spend any of your money, Richard.
+Dialogue: 0,0:55:16.10,0:55:19.10,Default,,0000,0000,0000,,因为我没钱给你花\N{\rEng}'Cause I don't have a dime to spend.
+Dialogue: 0,0:55:19.19,0:55:21.69,Default,,0000,0000,0000,,每一分...看着我\N{\rEng}Every last cent... Look at me!
+Dialogue: 0,0:55:21.81,0:55:24.28,Default,,0000,0000,0000,,- 每一分都花在你的学校上... - 学校?\N{\rEng}Every last cent goes to school for you... School?
+Dialogue: 0,0:55:24.40,0:55:26.45,Default,,0000,0000,0000,,- 还有你妈的药 - 我上的是公立学校\N{\rEng}And medication for your mother. I go to a public school!
+Dialogue: 0,0:55:26.57,0:55:29.57,Default,,0000,0000,0000,,- 我连一个该死的... - 公立学校是不收钱的 你这白痴\N{\rEng}I can't even pay for a goddamn... You don't pay for a public school, you idiot!
+Dialogue: 0,0:55:31.32,0:55:33.04,Default,,0000,0000,0000,,你叫我什么?\N{\rEng}What did you call me?
+Dialogue: 0,0:55:33.12,0:55:34.83,Default,,0000,0000,0000,,你叫我白痴吗 你这人渣?\N{\rEng}Did you call me an idiot, you shit?
+Dialogue: 0,0:55:34.91,0:55:37.04,Default,,0000,0000,0000,,你叫我白痴吗? 啊?\N{\rEng}Did you call me an idiot? Huh?
+Dialogue: 0,0:55:38.08,0:55:39.71,Default,,0000,0000,0000,,你这死人渣\N{\rEng}You piece of shit!
+Dialogue: 0,0:55:39.79,0:55:42.92,Default,,0000,0000,0000,,起来 我叫你起来\N{\rEng}Get up. I said get up!
+Dialogue: 0,0:55:43.00,0:55:44.25,Default,,0000,0000,0000,,起来\N{\rEng}Get up!
+Dialogue: 0,0:55:47.92,0:55:49.72,Default,,0000,0000,0000,,- 我可以把你捏碎 你知道吗? - 住手\N{\rEng}I could crush you, you know that? Stop it!
+Dialogue: 0,0:55:49.80,0:55:52.35,Default,,0000,0000,0000,,捏碎\N{\rEng}Crush you! Get...
+Dialogue: 0,0:56:19.79,0:56:21.42,Default,,0000,0000,0000,,笑一个 麦特\N{\rEng}Smile, Matt.
+Dialogue: 0,0:56:21.54,0:56:23.34,Default,,0000,0000,0000,,我的天啊 麦特\N{\rEng}Oh, my God, Matt. Oh.
+Dialogue: 0,0:56:23.42,0:56:26.17,Default,,0000,0000,0000,,现在可不可以先别拍 拜托?\N{\rEng}Can we not do the camera thing right now, please?
+Dialogue: 0,0:56:26.30,0:56:28.47,Default,,0000,0000,0000,,发生了什么事?\N{\rEng}What happened?
+Dialogue: 0,0:56:28.55,0:56:31.85,Default,,0000,0000,0000,,呃 就突然开始的\N{\rEng}Uh... It just started out of nowhere.
+Dialogue: 0,0:56:31.97,0:56:34.22,Default,,0000,0000,0000,,你没事吗?\N{\rEng}Are you okay?
+Dialogue: 0,0:56:34.30,0:56:36.02,Default,,0000,0000,0000,,我头挺痛的\N{\rEng}My head hurts really bad.
+Dialogue: 0,0:56:37.72,0:56:39.90,Default,,0000,0000,0000,,那应该又是史蒂夫打给你的\N{\rEng}That's probably Steve calling your cell again.
+Dialogue: 0,0:56:39.98,0:56:41.44,Default,,0000,0000,0000,,我待会再回他电\N{\rEng}I'll call him back later.
+Dialogue: 0,0:56:41.56,0:56:43.36,Default,,0000,0000,0000,,我想现在先...\N{\rEng}I think it's time to take...
+Dialogue: 0,0:56:43.48,0:56:45.23,Default,,0000,0000,0000,,麦特！麦特！\N{\rEng}Matt! Matt! Come on! Oh, wow. I did not expect this.
+Dialogue: 0,0:56:45.36,0:56:46.23,Default,,0000,0000,0000,,Give me my- Whoa!\N{\rEng}Give me my... Whoa!
+Dialogue: 0,0:56:55.49,0:56:58.16,Default,,0000,0000,0000,,喂 喂 混帐\N{\rEng}Hey! Hey, asshole!
+Dialogue: 0,0:56:58.24,0:56:59.62,Default,,0000,0000,0000,,你在这里干什么?\N{\rEng}What are you doing up here?
+Dialogue: 0,0:56:59.70,0:57:01.38,Default,,0000,0000,0000,,别管我 史蒂夫\N{\rEng}Just leave me alone, Steve!
+Dialogue: 0,0:57:01.46,0:57:03.83,Default,,0000,0000,0000,,你不该上来的 很不安全\N{\rEng}You can't be up here, dude. This isn't safe.
+Dialogue: 0,0:57:03.92,0:57:05.54,Default,,0000,0000,0000,,我不想跟别人说话\N{\rEng}I don't want to talk to anyone.
+Dialogue: 0,0:57:05.63,0:57:07.75,Default,,0000,0000,0000,,老兄 你在这干什么?\N{\rEng}Bro! What are you doing up here?
+Dialogue: 0,0:57:07.84,0:57:09.51,Default,,0000,0000,0000,,别管我\N{\rEng}Leave me alone!
+Dialogue: 0,0:57:10.42,0:57:12.80,Default,,0000,0000,0000,,你是怎么找到我的?\N{\rEng}How did you find me?
+Dialogue: 0,0:57:12.88,0:57:15.35,Default,,0000,0000,0000,,我也不知道 伙计 我鼻子流血\N{\rEng}I don't know, man. My nose was bleeding.
+Dialogue: 0,0:57:15.43,0:57:16.97,Default,,0000,0000,0000,,我似乎听到了你的声音...\N{\rEng}I heard your voice or something like...
+Dialogue: 0,0:57:17.05,0:57:18.90,Default,,0000,0000,0000,,你的脸怎么回事?\N{\rEng}What the hell happened to your face?
+Dialogue: 0,0:57:18.97,0:57:20.82,Default,,0000,0000,0000,,没事 伙计 别管我\N{\rEng}Nothing, man. Just leave me alone.
+Dialogue: 0,0:57:20.89,0:57:23.52,Default,,0000,0000,0000,,那可不是没事 那...是你爸\N{\rEng}No, dude, that's not nothing. That... Your dad!
+Dialogue: 0,0:57:23.60,0:57:26.20,Default,,0000,0000,0000,,你爸又痛揍你 他不能再这么对待你了\N{\rEng}Your dad beat the shit out of you. He can't do that to you now.
+Dialogue: 0,0:57:26.27,0:57:28.52,Default,,0000,0000,0000,,你别装得一付你很关心的样子 好吧?\N{\rEng}Will you stop acting like you give a shit?
+Dialogue: 0,0:57:28.61,0:57:32.11,Default,,0000,0000,0000,,伙计 你为什么这么对我说话? 我是你最好的朋友啊\N{\rEng}Dude. Why are you talking to me like this? I'm your best friend.
+Dialogue: 0,0:57:32.19,0:57:33.95,Default,,0000,0000,0000,,我没有朋友\N{\rEng}I don't have any friends!
+Dialogue: 0,0:57:34.03,0:57:36.08,Default,,0000,0000,0000,,在这之前 你从来不是我的朋友\N{\rEng}You were never my friend before any of this.
+Dialogue: 0,0:57:36.16,0:57:38.88,Default,,0000,0000,0000,,我和你还有麦特每天都在一起啊\N{\rEng}I hang out with you and Matt, like, every day!
+Dialogue: 0,0:57:38.99,0:57:42.92,Default,,0000,0000,0000,,我们约好了要一起环游世界的 你...你不记得吗?\N{\rEng}We're supposed to fly around the world together. Don't you... Do you remember that?
+Dialogue: 0,0:57:43.04,0:57:45.46,Default,,0000,0000,0000,,- 你认为我只是... - 别说了 别跟我说话\N{\rEng}You think I'm... Stop! Just stop talking to me!
+Dialogue: 0,0:57:45.58,0:57:47.80,Default,,0000,0000,0000,,- 你为什么要一直烦我? - 来吧 伙计\N{\rEng}Why won't you just leave me alone? Come on, man.
+Dialogue: 0,0:57:47.88,0:57:50.25,Default,,0000,0000,0000,,史蒂夫 我警告你 离我远点\N{\rEng}Steve, I'm telling you, get away from me!
+Dialogue: 0,0:57:50.34,0:57:53.47,Default,,0000,0000,0000,,拜托你马上离我远点\N{\rEng}Get away from me now! Please!
+Dialogue: 0,0:57:58.89,0:58:05.40,Default,,0000,0000,0000,,奇妙的的恩赐
+Dialogue: 0,0:58:05.48,0:58:12.03,Default,,0000,0000,0000,,这声音好温柔
+Dialogue: 0,0:58:12.82,0:58:22.25,Default,,0000,0000,0000,,救了我这样的可怜人
+Dialogue: 0,0:58:24.79,0:58:28.09,Default,,0000,0000,0000,,我曾…
+Dialogue: 0,0:58:28.17,0:58:31.89,Default,,0000,0000,0000,,...受到上帝的仁慈与恩惠\N{\rEng}...who, by the power of God, are safeguarded in faith.
+Dialogue: 0,0:58:32.00,0:58:34.80,Default,,0000,0000,0000,,...虽然你现在看不见祂\N{\rEng}Even though you do not see him now,
+Dialogue: 0,0:58:34.88,0:58:38.39,Default,,0000,0000,0000,,...无法形容与美丽的喜悦使你欣喜\N{\rEng}you rejoice with an indescribable and glorious joy...
+Dialogue: 0,0:58:39.09,0:58:41.44,Default,,0000,0000,0000,,...因为你得到了信念的意愿\N{\rEng}as you attain the goal of your faith...
+Dialogue: 0,0:58:41.51,0:58:43.44,Default,,0000,0000,0000,,...和灵魂的救赎\N{\rEng}the salvation of your soul.
+Dialogue: 0,0:58:45.60,0:58:47.48,Default,,0000,0000,0000,,你在干什么? 拍摄墓碑吗?\N{\rEng}What are you doing? You filming graves?
+Dialogue: 0,0:58:49.02,0:58:51.52,Default,,0000,0000,0000,,- 我不懂 - 你这么在乎干什么?\N{\rEng}I don't get it. What do you care?
+Dialogue: 0,0:58:51.61,0:58:54.20,Default,,0000,0000,0000,,你都不回我电话 你为什么不回我电?\N{\rEng}You haven't been returning my calls. Why aren't you returning my calls?
+Dialogue: 0,0:58:54.99,0:58:56.49,Default,,0000,0000,0000,,- 我最近很忙 - 你才没有\N{\rEng}I've been busy. No, you haven't.
+Dialogue: 0,0:58:56.57,0:58:58.04,Default,,0000,0000,0000,,你为什么不回我电\N{\rEng}Why aren't you returning my calls?
+Dialogue: 0,0:58:58.11,0:58:59.62,Default,,0000,0000,0000,,我只是不想跟人聊天\N{\rEng}I just don't feel like talking.
+Dialogue: 0,0:58:59.74,0:59:01.71,Default,,0000,0000,0000,,- 把摄影机关掉 - 不\N{\rEng}Turn off the camera. No.
+Dialogue: 0,0:59:01.78,0:59:03.91,Default,,0000,0000,0000,,安德鲁 把摄影机关掉\N{\rEng}Andrew. Andrew, turn off the camera.
+Dialogue: 0,0:59:05.12,0:59:07.37,Default,,0000,0000,0000,,安德鲁 在没有闪电纪录的情况下...\N{\rEng}Andrew? How did he get struck by lightning...
+Dialogue: 0,0:59:07.46,0:59:09.71,Default,,0000,0000,0000,,他是怎么被闪电击死的?\N{\rEng}during a storm with no recorded lightning strikes?
+Dialogue: 0,0:59:11.08,0:59:12.21,Default,,0000,0000,0000,,怎么会?\N{\rEng}How?
+Dialogue: 0,0:59:12.29,0:59:14.26,Default,,0000,0000,0000,,他们还在旷野中找到史蒂夫的\N{\rEng}And they found Steve out in the middle of a field.
+Dialogue: 0,0:59:14.38,0:59:17.35,Default,,0000,0000,0000,,史蒂夫为何在闪电暴雨中外出 安德鲁?\N{\rEng}Why would Steve go out in the middle of a field during a lightning storm, Andrew?
+Dialogue: 0,0:59:17.47,0:59:18.64,Default,,0000,0000,0000,,- 我不知道 - 为什么? 什么?\N{\rEng}I don't know. Why? What?
+Dialogue: 0,0:59:18.72,0:59:20.39,Default,,0000,0000,0000,,我不知道发生了什么事 麦特\N{\rEng}I don't know what happened, Matt!
+Dialogue: 0,0:59:20.47,0:59:22.06,Default,,0000,0000,0000,,我不相信你 好吗? 我不相信你\N{\rEng}I don't believe you, okay? I don't believe you.
+Dialogue: 0,0:59:22.18,0:59:24.43,Default,,0000,0000,0000,,- 我要你把摄影机关掉 跟我说话 - 为什么?\N{\rEng}I want you to turn off the camera and talk to me. Why?
+Dialogue: 0,0:59:24.56,0:59:27.23,Default,,0000,0000,0000,,- 因为我想跟你好好聊聊 - 不要命令我怎么做 麦特\N{\rEng}'Cause I want to have a conversation with you. Don't tell me what to do, Matt.
+Dialogue: 0,0:59:27.31,0:59:29.48,Default,,0000,0000,0000,,你不能命令我怎么做 永远别...\N{\rEng}You can't tell me what to do! Don't ever tell...
+Dialogue: 0,0:59:29.60,0:59:31.36,Default,,0000,0000,0000,,- 给我...关掉它 - 放开我\N{\rEng}Give me... Shut it off! Get off of me!
+Dialogue: 0,0:59:35.48,0:59:37.74,Default,,0000,0000,0000,,安德鲁 你现在在开玩笑吗?\N{\rEng}Andrew... Are you joking right now?
+Dialogue: 0,0:59:37.82,0:59:40.66,Default,,0000,0000,0000,,这对你来说是个游戏吗? 我...\N{\rEng}Is this a joke to you? I...
+Dialogue: 0,0:59:46.79,0:59:48.29,Default,,0000,0000,0000,,你干了什么 安德鲁?\N{\rEng}What did you do, Andrew?
+Dialogue: 0,0:59:48.37,0:59:50.04,Default,,0000,0000,0000,,你干了什么?\N{\rEng}What did you do?
+Dialogue: 0,0:59:51.12,0:59:52.75,Default,,0000,0000,0000,,我要跟谁谈这件事?\N{\rEng}Who am I supposed to tell about this?
+Dialogue: 0,0:59:52.83,0:59:55.80,Default,,0000,0000,0000,,谁? 我能跟谁谈这事?\N{\rEng}Who do I talk to? Who do I talk to about this?
+Dialogue: 0,0:59:55.88,0:59:58.88,Default,,0000,0000,0000,,你为什么就不告诉我发生了什么事 安德鲁?\N{\rEng}Why won't you just tell me what happened, Andrew?
+Dialogue: 0,1:00:11.90,1:00:14.15,Default,,0000,0000,0000,,请相信我 史蒂夫\N{\rEng}Please believe me, Steve.
+Dialogue: 0,1:00:15.19,1:00:17.32,Default,,0000,0000,0000,,求求你 我只是...\N{\rEng}Please, it's just I...
+Dialogue: 0,1:00:17.40,1:00:19.28,Default,,0000,0000,0000,,我不知道我做了什么 我...\N{\rEng}I don't know what I did. I...
+Dialogue: 0,1:00:19.36,1:00:21.61,Default,,0000,0000,0000,,我失去了控制 然后...\N{\rEng}I lost control, and...
+Dialogue: 0,1:00:22.28,1:00:24.20,Default,,0000,0000,0000,,我很对不起\N{\rEng}and I'm so sorry.
+Dialogue: 0,1:00:25.37,1:00:29.12,Default,,0000,0000,0000,,这能力现在已成为我的一部分了...\N{\rEng}This thing is just becoming a part of me now,
+Dialogue: 0,1:00:29.20,1:00:30.88,Default,,0000,0000,0000,,而我不...\N{\rEng}and I don't...
+Dialogue: 0,1:00:32.12,1:00:33.63,Default,,0000,0000,0000,,我想念你 史蒂夫\N{\rEng}I miss you, Steve.
+Dialogue: 0,1:01:25.18,1:01:27.56,Default,,0000,0000,0000,,…所有步骤，我们都做得不错，是吧？\N{\rEng}...all the drills. Good. We're all pretty good, right?
+Dialogue: 0,1:01:27.64,1:01:29.06,Default,,0000,0000,0000,,准备，上！\N{\rEng}Get ready. Go!
+Dialogue: 0,1:01:29.14,1:01:31.27,Default,,0000,0000,0000,,兄弟们？别犹豫\N{\rEng}You guys? Do not hesitate.
+Dialogue: 0,1:01:34.23,1:01:35.85,Default,,0000,0000,0000,,你听说谁做了吗？\N{\rEng}Did you hear who worked?
+Dialogue: 0,1:01:41.07,1:01:44.29,Default,,0000,0000,0000,,他吐得...\N{\rEng}He was like.
+Dialogue: 0,1:01:45.03,1:01:48.50,Default,,0000,0000,0000,,哦！安德鲁！\N{\rEng}Oh! Oh, Andrew!
+Dialogue: 0,1:01:48.62,1:01:50.54,Default,,0000,0000,0000,,去擦干净！\N{\rEng}Dry off!
+Dialogue: 0,1:01:50.62,1:01:52.34,Default,,0000,0000,0000,,完全…\N{\rEng}Totally.
+Dialogue: 0,1:01:55.17,1:01:57.17,Default,,0000,0000,0000,,喂 伟恩\N{\rEng}Hey, Wayne!
+Dialogue: 0,1:02:03.30,1:02:06.72,Default,,0000,0000,0000,,那么 看到这颗了吗?\N{\rEng}Okay, so, see this one here?
+Dialogue: 0,1:02:06.80,1:02:09.81,Default,,0000,0000,0000,,这颗我拔得很干净 因为我...\N{\rEng}This one I got really clean 'cause I did this little, like,
+Dialogue: 0,1:02:09.89,1:02:12.94,Default,,0000,0000,0000,,在牙根那做了个拉弹的动作 懂吗?\N{\rEng}lasso thing around the root, you know?
+Dialogue: 0,1:02:13.02,1:02:15.14,Default,,0000,0000,0000,,但这两颗...\N{\rEng}But then these two...
+Dialogue: 0,1:02:15.23,1:02:18.40,Default,,0000,0000,0000,,就没拔得那么好\N{\rEng}these, I did not get as good.
+Dialogue: 0,1:02:18.48,1:02:20.48,Default,,0000,0000,0000,,有没有看到都是断的?\N{\rEng}See how they're broken?
+Dialogue: 0,1:02:20.57,1:02:23.91,Default,,0000,0000,0000,,我想是因为我是从中间拔的 而不是从牙根\N{\rEng}I think it's because I got them from the middle, you know, instead of the root.
+Dialogue: 0,1:02:23.99,1:02:25.99,Default,,0000,0000,0000,,噢，噢\N{\rEng}Oh. Oh.
+Dialogue: 0,1:02:27.03,1:02:29.62,Default,,0000,0000,0000,,不利落\N{\rEng}Oh. Sloppy.
+Dialogue: 0,1:02:29.70,1:02:32.50,Default,,0000,0000,0000,,我在网上做了很多研究 你知道...\N{\rEng}I've been doing a lot of reading, you know, like, online about, like...
+Dialogue: 0,1:02:32.58,1:02:35.75,Default,,0000,0000,0000,,有关进化论和适者生存之类的...\N{\rEng}just like evolution and, like... and natural selection...
+Dialogue: 0,1:02:35.83,1:02:38.08,Default,,0000,0000,0000,,有种东西 好吗?\N{\rEng}and how, like, there's this thing, right?
+Dialogue: 0,1:02:38.17,1:02:40.84,Default,,0000,0000,0000,,叫做顶级掠食者\N{\rEng}It is called the apex predator, right?
+Dialogue: 0,1:02:40.92,1:02:45.64,Default,,0000,0000,0000,,基本上 它是整个生态系统里最强的动物 对吧?\N{\rEng}And basically what this is is the strongest animal in the ecosystem, right?
+Dialogue: 0,1:02:45.72,1:02:48.09,Default,,0000,0000,0000,,做为人类嘛...\N{\rEng}And as human beings,
+Dialogue: 0,1:02:48.18,1:02:50.43,Default,,0000,0000,0000,,我们...我们被认为是顶级掠食者...\N{\rEng}we are... we're considered the apex predator,
+Dialogue: 0,1:02:50.51,1:02:53.77,Default,,0000,0000,0000,,但那只因为我们有枪和其他东西...\N{\rEng}but only because, like, smaller animals can't feed on us...
+Dialogue: 0,1:02:53.85,1:02:55.60,Default,,0000,0000,0000,,所以小型动物吃不了我们 对吧?\N{\rEng}because of weapons and stuff, right?
+Dialogue: 0,1:02:55.68,1:03:00.36,Default,,0000,0000,0000,,狮子杀死羚羊时 不会感到罪恶感 对吧?\N{\rEng}The lion does not feel guilty when it kills a gazelle. Right?
+Dialogue: 0,1:03:00.44,1:03:03.16,Default,,0000,0000,0000,,就像人拍死苍蝇时不会感到罪恶感\N{\rEng}You do not feel guilty when you squash a fly.
+Dialogue: 0,1:03:05.69,1:03:08.12,Default,,0000,0000,0000,,我认为这有意义\N{\rEng}And I think that means something.
+Dialogue: 0,1:03:08.24,1:03:11.87,Default,,0000,0000,0000,,我就是觉得这有意义\N{\rEng}I just think that really means something.
+Dialogue: 0,1:03:21.88,1:03:24.80,Default,,0000,0000,0000,,这颗我拔得很干净 因为我...\N{\rEng}This one I got really clean 'cause I did this little, like,
+Dialogue: 0,1:03:24.88,1:03:26.38,Default,,0000,0000,0000,,用了套索的办法\N{\rEng}lasso thing.
+Dialogue: 0,1:03:30.55,1:03:34.68,Default,,0000,0000,0000,,安德鲁 学校今天发生了什么事?\N{\rEng}Andrew, what happened at school? Huh?
+Dialogue: 0,1:03:34.81,1:03:37.31,Default,,0000,0000,0000,,- 我得去拿我妈的药 - 是吗?\N{\rEng}I need to go and pick up my mom's medication! Oh, yeah?
+Dialogue: 0,1:03:37.39,1:03:39.94,Default,,0000,0000,0000,,你又要不遵守规则吗? 我们现在太强大了 安德鲁\N{\rEng}You're gonna break the rules again? We're too strong for that now, Andrew!
+Dialogue: 0,1:03:40.06,1:03:42.61,Default,,0000,0000,0000,,- 你如果要这么做 你知道我必须怎么做! - 你必须做什么?\N{\rEng}If you did that, you know what I'd have to do! You'd have to what?
+Dialogue: 0,1:03:42.73,1:03:44.78,Default,,0000,0000,0000,,- 你要想清楚 - 你必须怎么做 麦特?\N{\rEng}You have to start thinking. What would you have to do, Matt?
+Dialogue: 0,1:03:44.86,1:03:46.36,Default,,0000,0000,0000,,你这么做会有后果的\N{\rEng}There are consequences to what you do!
+Dialogue: 0,1:03:46.48,1:03:49.16,Default,,0000,0000,0000,,- 你动不了我 因为我比你强 - 马上停止这些狗屁\N{\rEng}You could not do anything to me because I am stronger than you. Stop that bullshit!
+Dialogue: 0,1:03:49.28,1:03:52.83,Default,,0000,0000,0000,,我知道你做了什么 我不会再让你那么做的\N{\rEng}I know what you did. I'm not gonna let you do it again! 
+Dialogue: 0,1:03:52.91,1:03:57.58,Default,,0000,0000,0000,,我不会破坏你的蠢规则 好吗?\N{\rEng}I am not going to break your stupid rules! Okay? 
+Dialogue: 0,1:04:18.56,1:04:21.11,Default,,0000,0000,0000,,所以滚吧 别烦我的生活\N{\rEng}So just screw off and stay out of my life!
+Dialogue: 0,1:04:29.19,1:04:31.45,Default,,0000,0000,0000,,我呼吸不了\N{\rEng}I can't breathe.
+Dialogue: 0,1:04:34.87,1:04:36.37,Default,,0000,0000,0000,,谢谢\N{\rEng}Thank you.
+Dialogue: 0,1:04:39.16,1:04:41.46,Default,,0000,0000,0000,,- 凯伦 戴特摩 - 请稍等\N{\rEng}Karen Detmer. Just one moment.
+Dialogue: 0,1:04:43.71,1:04:45.93,Default,,0000,0000,0000,,药明天才能订\N{\rEng}We're gonna need a next... day delivery.
+Dialogue: 0,1:04:46.00,1:04:49.93,Default,,0000,0000,0000,,价钱是$750.83.\N{\rEng}Co-pay on that is $750.83.
+Dialogue: 0,1:04:50.05,1:04:53.35,Default,,0000,0000,0000,,- 我没这钱\N- 孩子 就像我跟你爸说的一样...\N{\rEng}Well, I don't have all that. Son, I told your dad, and I'll tell you.
+Dialogue: 0,1:04:53.43,1:04:56.18,Default,,0000,0000,0000,,你可以现在先付 我们明天就会订\N{\rEng}You can pay up front, and we can order next... day delivery.
+Dialogue: 0,1:04:56.26,1:04:58.81,Default,,0000,0000,0000,,- 要不然我无法帮助你 - 混蛋\N{\rEng}Other than that, I can't help you. Prick.
+Dialogue: 0,1:04:58.97,1:05:01.15,Default,,0000,0000,0000,,我他妈的才不管，随便你吧\N{\rEng}I don't give a shit. Do whatever you want.
+Dialogue: 0,1:05:22.71,1:05:24.50,Default,,0000,0000,0000,,噢！\N{\rEng}Oh!
+Dialogue: 0,1:05:30.09,1:05:33.22,Default,,0000,0000,0000,,哦，耶\N（David Bowie，专辑名Ziggy Stardus）
+Dialogue: 0,1:05:36.34,1:05:39.14,Default,,0000,0000,0000,,杰基弹着吉他
+Dialogue: 0,1:05:39.22,1:05:42.60,Default,,0000,0000,0000,,同韦德和吉利配合默契
+Dialogue: 0,1:05:42.68,1:05:45.69,Default,,0000,0000,0000,,还有来自火星的蜘蛛
+Dialogue: 0,1:05:45.77,1:05:48.65,Default,,0000,0000,0000,,他用的左手弹奏
+Dialogue: 0,1:05:48.73,1:05:51.58,Default,,0000,0000,0000,,但伸的很长
+Dialogue: 0,1:05:52.61,1:05:55.71,Default,,0000,0000,0000,,成为一个特殊的人
+Dialogue: 0,1:05:55.78,1:05:59.88,Default,,0000,0000,0000,,他可以让他们暂时停歇
+Dialogue: 0,1:05:59.95,1:06:02.96,Default,,0000,0000,0000,,他们承受重压
+Dialogue: 0,1:06:03.04,1:06:06.59,Default,,0000,0000,0000,,长期等待，肤色雪白
+Dialogue: 0,1:06:08.00,1:06:11.01,Default,,0000,0000,0000,,苍蝇在破坏我们的舞会却不见蜘蛛的影子
+Dialogue: 0,1:06:14.09,1:06:15.59,Default,,0000,0000,0000,,嘿\N{\rEng}Hey.
+Dialogue: 0,1:06:15.68,1:06:17.27,Default,,0000,0000,0000,,喂！\N{\rEng}Hey!
+Dialogue: 0,1:06:17.39,1:06:20.14,Default,,0000,0000,0000,,- 把你们的钱都给我 - 啥? 那是谁?\N{\rEng}Give me all your money. Uh, what? Who is that?
+Dialogue: 0,1:06:20.22,1:06:23.44,Default,,0000,0000,0000,,你别管是谁 把钱都给我 要不然...\N{\rEng}Doesn't matter who it is. Just give me all your money or else.
+Dialogue: 0,1:06:23.56,1:06:25.90,Default,,0000,0000,0000,,要不然怎样? 妈的\N{\rEng}Or else? Shit, man.
+Dialogue: 0,1:06:26.90,1:06:28.86,Default,,0000,0000,0000,,妈的 伙计 那是安德鲁吗?\N{\rEng}Shit, man. Is that Andrew?
+Dialogue: 0,1:06:28.94,1:06:31.32,Default,,0000,0000,0000,,听起来倒像是安德鲁\N{\rEng}It sounds kind of like Andrew under there.
+Dialogue: 0,1:06:31.40,1:06:34.24,Default,,0000,0000,0000,,你还背着安德鲁那破背包\N{\rEng}And you got Andrew's broke-ass backpack on.
+Dialogue: 0,1:06:34.36,1:06:37.28,Default,,0000,0000,0000,,- 你有枪吗 - 我也有一把 混帐\N{\rEng}Oh, you got a gat? I got a gat too, bitch.
+Dialogue: 0,1:06:39.20,1:06:40.75,Default,,0000,0000,0000,,伙计\N{\rEng}Dude!
+Dialogue: 0,1:06:49.00,1:06:50.84,Default,,0000,0000,0000,,哇哦！伙计！\N{\rEng}Whoa, dude!
+Dialogue: 0,1:07:56.53,1:07:58.62,Default,,0000,0000,0000,,快快快\N{\rEng}Come on, come on, come on, come on, come on, come on!
+Dialogue: 0,1:07:58.70,1:08:00.49,Default,,0000,0000,0000,,快啊 快啊\N{\rEng}Come on, come on, come on!
+Dialogue: 0,1:08:09.50,1:08:10.50,Default,,0000,0000,0000,,喂\N{\rEng}Hey!
+Dialogue: 0,1:08:36.36,1:08:39.11,Default,,0000,0000,0000,,为了调查 摄影机必须开着\N{\rEng}The camera needs to stay on for our investigation.
+Dialogue: 0,1:08:40.11,1:08:41.95,Default,,0000,0000,0000,,天啊\N{\rEng}Jesus Christ.
+Dialogue: 0,1:08:42.03,1:08:44.58,Default,,0000,0000,0000,,可以给我和儿子一点私人时间吗?\N{\rEng}Can I have a moment alone with my son?
+Dialogue: 0,1:08:44.66,1:08:47.04,Default,,0000,0000,0000,,如果他醒了 请告知外面的警官\N{\rEng}If he regains consciousness, notify the officer outside.
+Dialogue: 0,1:08:47.12,1:08:48.29,Default,,0000,0000,0000,,好的\N{\rEng}Yeah, yeah.
+Dialogue: 0,1:09:23.36,1:09:25.87,Default,,0000,0000,0000,,哦！\N{\rEng}Oh!
+Dialogue: 0,1:09:36.17,1:09:38.09,Default,,0000,0000,0000,,你妈死了\N{\rEng}Your mother's dead.
+Dialogue: 0,1:09:44.59,1:09:47.10,Default,,0000,0000,0000,,我昨晚在找你时 她就死了\N{\rEng}She died last night while I was out looking for you.
+Dialogue: 0,1:09:52.18,1:09:54.44,Default,,0000,0000,0000,,我回到家 然后...\N{\rEng}I came home, and, uh,
+Dialogue: 0,1:09:56.98,1:09:59.40,Default,,0000,0000,0000,,她躺在她的床上\N{\rEng}she was there in her bed.
+Dialogue: 0,1:09:59.48,1:10:01.99,Default,,0000,0000,0000,,如果我当时在她身旁就好了\N{\rEng}If I just could have been there for her.
+Dialogue: 0,1:10:04.45,1:10:07.49,Default,,0000,0000,0000,,你在外头鬼混时 我总是在她身旁\N{\rEng}I was always there for her when you were out screwing around.
+Dialogue: 0,1:10:08.66,1:10:10.63,Default,,0000,0000,0000,,但这一次...\N{\rEng}And this one time...
+Dialogue: 0,1:10:11.79,1:10:14.84,Default,,0000,0000,0000,,就这一次...\N{\rEng}this... one time...
+Dialogue: 0,1:10:14.91,1:10:18.29,Default,,0000,0000,0000,,她需要我的时候 你却把我带走了\N{\rEng}that she needed me, and you took me away!
+Dialogue: 0,1:10:18.38,1:10:20.72,Default,,0000,0000,0000,,我要你对我道歉\N{\rEng}I want you to apologize to me.
+Dialogue: 0,1:10:24.63,1:10:28.23,Default,,0000,0000,0000,,我知道你听得到 所以我要你现在就坐起来...\N{\rEng}I know you can hear me, so I want you to sit up right now...
+Dialogue: 0,1:10:28.30,1:10:29.98,Default,,0000,0000,0000,,然后对我道歉\N{\rEng}and apologize to me.
+Dialogue: 0,1:10:30.89,1:10:33.69,Default,,0000,0000,0000,,你这自私的混帐\N{\rEng}You selfish, selfish asshole!
+Dialogue: 0,1:10:35.64,1:10:37.40,Default,,0000,0000,0000,,这是你的错\N{\rEng}This is your fault!
+Dialogue: 0,1:10:37.48,1:10:38.45,Default,,0000,0000,0000,,你...\N{\rEng}You...
+Dialogue: 0,1:10:44.15,1:10:46.25,Default,,0000,0000,0000,,你听到了吗?\N{\rEng}Do you hear me?
+Dialogue: 0,1:10:46.32,1:10:48.74,Default,,0000,0000,0000,,你妈的死是你的错\N{\rEng}Your mother is dead, and it is your fault!
+Dialogue: 0,1:10:51.66,1:10:53.88,Default,,0000,0000,0000,,生日快乐\N{\rEng}Happy birthday!
+Dialogue: 0,1:10:53.95,1:10:56.58,Default,,0000,0000,0000,,用力打它？用力打它？\N{\rEng}Pound it? Pound it?
+Dialogue: 0,1:10:56.66,1:10:58.96,Default,,0000,0000,0000,,去选个礼物，去选个礼物\N{\rEng}Go and get a present. Go and get a present. Yeah.
+Dialogue: 0,1:10:59.04,1:11:02.59,Default,,0000,0000,0000,,- 大的那个 - 我的天 麦特\N{\rEng}- Yes, the big one. - Oh, my God. Matt.
+Dialogue: 0,1:11:02.67,1:11:04.67,Default,,0000,0000,0000,,麦特 你鼻子又开始了\N{\rEng}Matt, your nose again.
+Dialogue: 0,1:11:05.72,1:11:07.43,Default,,0000,0000,0000,,你还好吗?\N{\rEng}Are you okay?
+Dialogue: 0,1:11:07.55,1:11:11.23,Default,,0000,0000,0000,,- 该死 - 宝贝 你流了很多血\N{\rEng}Oh, shit! Baby, you're really bleeding.
+Dialogue: 0,1:11:12.26,1:11:15.36,Default,,0000,0000,0000,,麦特 你的鼻子 天啊\N{\rEng}Matt, your nose! Oh, my God.
+Dialogue: 0,1:11:15.43,1:11:17.19,Default,,0000,0000,0000,,你听到了吗? 你怎么会听不到?\N{\rEng}Did you hear that? How can you not hear that?
+Dialogue: 0,1:11:17.31,1:11:19.03,Default,,0000,0000,0000,,什么? 你听到什么?\N{\rEng}Hear what? What are you hearing? It's so...
+Dialogue: 0,1:11:19.15,1:11:20.77,Default,,0000,0000,0000,,- 安德鲁出事了 - 凯西 快进来\N{\rEng}- Something's wrong with Andrew. - Come in here! Casey!
+Dialogue: 0,1:11:22.77,1:11:25.12,Default,,0000,0000,0000,,打扰您的节目 我们为此抱歉 但现在...\N{\rEng}We apologize for the delay, but as of right now,
+Dialogue: 0,1:11:25.23,1:11:29.03,Default,,0000,0000,0000,,大金县的所有新闻直升机都飞往西雅图... - 我的天啊\N{\rEng}every news helicopier in Greater King County is headed to Seattle. Oh, my God.
+Dialogue: 0,1:11:29.11,1:11:31.37,Default,,0000,0000,0000,,我们目前得知的讯息不多...\N{\rEng}Again, right now, we have verry little information,
+Dialogue: 0,1:11:31.45,1:11:35.17,Default,,0000,0000,0000,,但显然在巴拉综合医院发生了一起爆炸事件\N{\rEng}but if appears a bomb has gone oh' at Ballard Community Hospital.
+Dialogue: 0,1:11:35.24,1:11:37.25,Default,,0000,0000,0000,,凯西 过来 过来 拜托\N{\rEng}Casey, come here. Come here. Come here. Please. Please.
+Dialogue: 0,1:11:37.37,1:11:39.50,Default,,0000,0000,0000,,- 什么? 麦特 你看到这了吗? - 你的车钥匙在哪?\N{\rEng}What? No, Matt. Are you seeing this? Where are your keys at?
+Dialogue: 0,1:11:39.62,1:11:41.50,Default,,0000,0000,0000,,- 什么? 麦特... - 留在这 我马上回来\N{\rEng}What? Matt... Just stay here. I'll be back.
+Dialogue: 0,1:11:41.63,1:11:44.76,Default,,0000,0000,0000,,- 我必须开过去 好吗? - 拜托等等 麦特\N{\rEng}I just have to drive there, okay? Please, wait! Matt, please!
+Dialogue: 0,1:11:44.88,1:11:47.88,Default,,0000,0000,0000,,- 听着 安德鲁有大麻烦了? - 安德鲁什么?\N{\rEng}Listen, Andrew's in trouble, okay? Andrew's what?
+Dialogue: 0,1:11:48.01,1:11:50.39,Default,,0000,0000,0000,,我相信安德鲁没事的\N{\rEng}I'm sure that Andrew is fine.
+Dialogue: 0,1:11:52.22,1:11:54.64,Default,,0000,0000,0000,,- 安德鲁需要我 我得进城去 - 告诉我发生了什么事\N{\rEng}Andrew needs me! I need to get to the city. Tell me what's going on.
+Dialogue: 0,1:11:54.72,1:11:56.85,Default,,0000,0000,0000,,该死 我必须...那是路障吗?\N{\rEng}Shit. I gotta get... Is that a roadblock?
+Dialogue: 0,1:11:56.93,1:11:58.94,Default,,0000,0000,0000,,没有车往这开 告诉我怎么回事\N{\rEng}Nobody else is driving this way! Talk to me!
+Dialogue: 0,1:11:59.06,1:12:01.31,Default,,0000,0000,0000,,凯西 我必须思考 好吗?\N{\rEng}- Casey, I need to think, okay? - Stop!
+Dialogue: 0,1:12:01.40,1:12:03.11,Default,,0000,0000,0000,,我要找其他的路进城 妈的\N{\rEng}I gotta find another way downtown. Shit!
+Dialogue: 0,1:12:03.19,1:12:04.69,Default,,0000,0000,0000,,开回去 走麦德森出口\N{\rEng}Go back and take the Madison exit.
+Dialogue: 0,1:12:04.82,1:12:07.41,Default,,0000,0000,0000,,快啊\N{\rEng}Come on.
+Dialogue: 0,1:12:11.82,1:12:13.67,Default,,0000,0000,0000,,- 待在这 凯西 待在这 - 等等\N{\rEng}Stay here, Casey. Stay here. Wait!
+Dialogue: 0,1:12:13.74,1:12:15.37,Default,,0000,0000,0000,,麦特 等等我\N{\rEng}Matt, wait for me!
+Dialogue: 0,1:12:15.49,1:12:18.84,Default,,0000,0000,0000,,各单位请去巴拉德支援\N{\rEng}All units, report to Ballard Community Hospital.
+Dialogue: 0,1:12:20.25,1:12:21.50,Default,,0000,0000,0000,,借过\N{\rEng}Excuse me.
+Dialogue: 0,1:12:21.58,1:12:23.08,Default,,0000,0000,0000,,先生 借过\N{\rEng}Sir, excuse me.
+Dialogue: 0,1:12:24.25,1:12:27.22,Default,,0000,0000,0000,,麦特 我们来这做什么?\N{\rEng}Matt! What are we doing here?
+Dialogue: 0,1:12:31.18,1:12:33.55,Default,,0000,0000,0000,,喔 我的天啊\N{\rEng}Oh, my God!
+Dialogue: 0,1:12:34.55,1:12:37.56,Default,,0000,0000,0000,,把我放下来 求求你住手\N{\rEng}You gotta put me down! Please! Stop!
+Dialogue: 0,1:12:37.64,1:12:39.27,Default,,0000,0000,0000,,是你害我变成这样的\N{\rEng}You did this to me!
+Dialogue: 0,1:12:42.06,1:12:44.44,Default,,0000,0000,0000,,麦特 我的天啊\N{\rEng}Matt! Oh, my God!
+Dialogue: 0,1:12:48.94,1:12:51.54,Default,,0000,0000,0000,,天啊 天啊\N{\rEng}Holy shit! Holy shit!
+Dialogue: 0,1:12:51.65,1:12:53.95,Default,,0000,0000,0000,,- 麦特 - 凯西 我们得走了 现在就得走\N{\rEng}Matt! Casey, we gotta go! We gotta go right now!
+Dialogue: 0,1:12:54.03,1:12:56.08,Default,,0000,0000,0000,,快上车 我们快走\N{\rEng}Get in the car! Let's go.
+Dialogue: 0,1:12:56.20,1:12:58.00,Default,,0000,0000,0000,,- 安德鲁不可受控了 - 你在说什么?\N{\rEng}Andrew's out of control. What are you talking about?
+Dialogue: 0,1:12:58.12,1:13:00.62,Default,,0000,0000,0000,,我真对不起 我想告诉你的 我...\N{\rEng}I'm so sorry. I wanted to tell you. I...
+Dialogue: 0,1:13:01.62,1:13:03.59,Default,,0000,0000,0000,,我的天 麦特 停车\N{\rEng}Oh, my God, Matt! Stop the car!
+Dialogue: 0,1:13:03.67,1:13:06.29,Default,,0000,0000,0000,,要坠了 天啊\N{\rEng}It's gonna crash. Holy shit!
+Dialogue: 0,1:13:06.42,1:13:08.22,Default,,0000,0000,0000,,该死的\N{\rEng}Oh, shit!
+Dialogue: 0,1:13:10.38,1:13:12.88,Default,,0000,0000,0000,,- 对不起 - 赶快离开道路\N{\rEng}- I'm sorry. I'm sorry. - Get off the road now!
+Dialogue: 0,1:13:12.97,1:13:15.31,Default,,0000,0000,0000,,我的天啊\N{\rEng}Oh, my God!
+Dialogue: 0,1:13:15.39,1:13:17.35,Default,,0000,0000,0000,,抓紧我\N{\rEng}Hold on to me!
+Dialogue: 0,1:13:17.47,1:13:19.97,Default,,0000,0000,0000,,不是我弄的 是安德鲁\N{\rEng}It's not me, it's Andrew!
+Dialogue: 0,1:13:22.27,1:13:24.52,Default,,0000,0000,0000,,抓紧了\N{\rEng}Hold on!
+Dialogue: 0,1:13:24.60,1:13:29.41,Default,,0000,0000,0000,,我无法制止他 我无法控制车\N{\rEng}I can't stop it! I can't control the car! I can't control it.
+Dialogue: 0,1:13:29.48,1:13:31.16,Default,,0000,0000,0000,,妈的\N{\rEng}Shit!
+Dialogue: 0,1:13:31.24,1:13:33.41,Default,,0000,0000,0000,,安德鲁 天啊 抓紧了\N{\rEng}Andrew! Oh, God, hold on!
+Dialogue: 0,1:13:33.53,1:13:35.70,Default,,0000,0000,0000,,抓紧我\N{\rEng}Hold on to me!
+Dialogue: 0,1:13:37.99,1:13:40.59,Default,,0000,0000,0000,,我打不开门\N{\rEng}I can't get the door open!
+Dialogue: 0,1:13:45.58,1:13:48.51,Default,,0000,0000,0000,,- 我的天 - 安德鲁 安德鲁 住手\N{\rEng}Oh, my God! Andrew! Andrew, stop!
+Dialogue: 0,1:13:52.59,1:13:54.64,Default,,0000,0000,0000,,- 凯西 - 麦特\N{\rEng}Casey! Matt!
+Dialogue: 0,1:13:54.76,1:13:56.73,Default,,0000,0000,0000,,- 麦特\N{\rEng}Matt!
+Dialogue: 0,1:14:00.72,1:14:02.44,Default,,0000,0000,0000,,救我\N{\rEng}Help me!
+Dialogue: 0,1:14:04.06,1:14:06.03,Default,,0000,0000,0000,,凯西 抓紧了\N{\rEng}Casey, hold on!
+Dialogue: 0,1:14:10.07,1:14:13.41,Default,,0000,0000,0000,,麦特\N{\rEng}Matt.
+Dialogue: 0,1:14:14.45,1:14:16.99,Default,,0000,0000,0000,,待在这 好吗? 你必须待在这\N{\rEng}Stay here. Okay? You have to stay here. Okay?
+Dialogue: 0,1:14:17.07,1:14:19.20,Default,,0000,0000,0000,,麦特 求你别走 麦特\N{\rEng}Matt, please don't go! Matt!
+Dialogue: 0,1:14:19.37,1:14:22.17,Default,,0000,0000,0000,,在针塔下有车辆着火 或许有人伤亡\N{\rEng}We got a car on fire under the Needle. Possible casualties.
+Dialogue: 0,1:14:22.24,1:14:25.29,Default,,0000,0000,0000,,马上需要紧急应变小组\N{\rEng}We need emergency response now.
+Dialogue: 0,1:14:25.37,1:14:27.55,Default,,0000,0000,0000,,我不知怎么形容我所目击的\N{\rEng}I don't know how to describe this.
+Dialogue: 0,1:14:30.71,1:14:33.09,Default,,0000,0000,0000,,那是针塔 而如你所见的...\N{\rEng}That is the Needle we're looking at, and as you can see, there are...
+Dialogue: 0,1:14:33.21,1:14:35.39,Default,,0000,0000,0000,,你不会相信的\N{\rEng}You're not gonna believe this.
+Dialogue: 0,1:14:35.47,1:14:37.47,Default,,0000,0000,0000,,你看到了吗?\N{\rEng}Are you seeing this?
+Dialogue: 0,1:14:41.39,1:14:43.06,Default,,0000,0000,0000,,离窗户远点！\N{\rEng}Back away from the window!
+Dialogue: 0,1:14:43.14,1:14:45.31,Default,,0000,0000,0000,,他们在干什么?\N{\rEng}What the hell are they doing up there?
+Dialogue: 0,1:14:45.39,1:14:47.90,Default,,0000,0000,0000,,趴下\N{\rEng}Get down!
+Dialogue: 0,1:14:53.65,1:14:56.20,Default,,0000,0000,0000,,17号，注意\N{\rEng}Seventeen, beware.
+Dialogue: 0,1:14:56.28,1:14:58.08,Default,,0000,0000,0000,,你们得马上转移\N{\rEng}You Te gonna ha ve to divert
+Dialogue: 0,1:14:58.16,1:15:01.03,Default,,0000,0000,0000,,安德鲁 安德鲁 看着我\N{\rEng}Andrew! Andrew, look at me!
+Dialogue: 0,1:15:01.12,1:15:04.54,Default,,0000,0000,0000,,不能再这样下去了 好吗? 这实在糟透了\N{\rEng}This has to stop right now, okay? This is really, really bad!
+Dialogue: 0,1:15:04.62,1:15:06.25,Default,,0000,0000,0000,,你为什么要接住他?\N{\rEng}Why did you catch him?
+Dialogue: 0,1:15:06.33,1:15:09.50,Default,,0000,0000,0000,,- 听我说 好吗? - 我都把他扔下去了\N{\rEng}- Listen! Just focus, okay? - I dropped him!
+Dialogue: 0,1:15:09.63,1:15:11.67,Default,,0000,0000,0000,,- 你为什么要接住他? - 安德鲁 这不是在玩游戏\N{\rEng}Why did you catch him? Andrew, this is not a game!
+Dialogue: 0,1:15:11.75,1:15:14.22,Default,,0000,0000,0000,,你懂吗 你伤害了很多人\N{\rEng}Do you understand? You're hurting people.
+Dialogue: 0,1:15:14.30,1:15:16.77,Default,,0000,0000,0000,,你太弱小了 麦特 你们全都是\N{\rEng}You're weak, Matt! You're all weak!
+Dialogue: 0,1:15:16.84,1:15:19.01,Default,,0000,0000,0000,,- 安德鲁... - 我比你们都要强大\N{\rEng}- Andrew... - I'm stronger than all of this!
+Dialogue: 0,1:15:19.09,1:15:21.52,Default,,0000,0000,0000,,安德鲁 听我说 好吗? 我需要你听我说话\N{\rEng}Andrew, listen to me, okay? Just... Just... I need you to listen.
+Dialogue: 0,1:15:21.60,1:15:23.35,Default,,0000,0000,0000,,先集中精神\N{\rEng}Just focus for a second.
+Dialogue: 0,1:15:23.43,1:15:25.85,Default,,0000,0000,0000,,不要命令我怎么做\N{\rEng}Do not tell me what to do!
+Dialogue: 0,1:15:25.93,1:15:29.03,Default,,0000,0000,0000,,我正试着解释，这里有两个人...\N{\rEng}I'm trying to explain. I got two individuals.
+Dialogue: 0,1:15:29.15,1:15:32.02,Default,,0000,0000,0000,,- 他们阻止不了我们 我们直接离开还不算迟 - 是太迟了\N{\rEng}They can't stop us. It's not too late for us to go. It is too late!
+Dialogue: 0,1:15:32.11,1:15:34.86,Default,,0000,0000,0000,,我受够了 一切都结束了\N{\rEng}I'm done! It's over!
+Dialogue: 0,1:15:34.94,1:15:37.99,Default,,0000,0000,0000,,你把我当人渣一样对待 你把我扔在一旁\N{\rEng}You treated me like shit! You left me alone!
+Dialogue: 0,1:15:38.07,1:15:41.12,Default,,0000,0000,0000,,安德鲁 你不是一个人在这啊 我和你在一起\N{\rEng}Andrew, you're not alone up here! I'm here with you!
+Dialogue: 0,1:15:41.20,1:15:43.87,Default,,0000,0000,0000,,我应该一直守在你旁边的 但我现在在这啊\N{\rEng}I should have been with you all along! But I'm here now!
+Dialogue: 0,1:15:43.95,1:15:47.30,Default,,0000,0000,0000,,我们可以停止这一切 就你和我\N{\rEng}And we can stop this right now, you and me!
+Dialogue: 0,1:15:48.29,1:15:51.67,Default,,0000,0000,0000,,安德鲁 我们可以直接飞走 远离这里\N{\rEng}Andrew, we can just fly away. We can get out of here.
+Dialogue: 0,1:15:51.75,1:15:53.88,Default,,0000,0000,0000,,我们可以当家人\N{\rEng}We can be family.
+Dialogue: 0,1:15:53.96,1:15:56.89,Default,,0000,0000,0000,,安德鲁 安德鲁 看看你自己\N{\rEng}Andrew. Andrew, look at yourself.
+Dialogue: 0,1:15:57.01,1:16:00.14,Default,,0000,0000,0000,,- 这不是你啊 - 我是顶级掠食者\N{\rEng}This isn't who you are. I'm an apex predator.
+Dialogue: 0,1:16:00.22,1:16:01.56,Default,,0000,0000,0000,,什么?\N{\rEng}What?
+Dialogue: 0,1:16:04.01,1:16:05.89,Default,,0000,0000,0000,,我是顶级掠食者\N{\rEng}I'm an apex predator.
+Dialogue: 0,1:16:08.23,1:16:10.85,Default,,0000,0000,0000,,不 不\N{\rEng}No! No!
+Dialogue: 0,1:16:19.99,1:16:21.74,Default,,0000,0000,0000,,噢，天啊，叫警察！\N{\rEng}Oh, my gosh! Call the police!
+Dialogue: 0,1:16:28.16,1:16:30.34,Default,,0000,0000,0000,,安德鲁 不\N{\rEng}Andrew, no!
+Dialogue: 0,1:16:34.71,1:16:37.18,Default,,0000,0000,0000,,噢，哇哦！\N{\rEng}Oh! Whoa!
+Dialogue: 0,1:16:42.68,1:16:45.65,Default,,0000,0000,0000,,- 保罗 离窗户远一点 - 好的 好的\N{\rEng}Paul! Paul, stay away from the window! Okay, okay!
+Dialogue: 0,1:16:45.76,1:16:49.56,Default,,0000,0000,0000,,- 保罗 别站在窗户旁 - 你看到了吗?\N{\rEng}Paul! Don't stand at the window! Are you seeing this? Hey!
+Dialogue: 0,1:16:52.48,1:16:54.32,Default,,0000,0000,0000,,趴下 亲爱的\N{\rEng}Stay down, babe! Stay down!
+Dialogue: 0,1:17:10.45,1:17:12.67,Default,,0000,0000,0000,,安德鲁\N{\rEng}Andrew!
+Dialogue: 0,1:17:14.71,1:17:17.34,Default,,0000,0000,0000,,两人落地 一人受伤\N{\rEng}Two subjects down. One injured, one mobile.
+Dialogue: 0,1:17:17.46,1:17:20.72,Default,,0000,0000,0000,,安德鲁? 安德鲁 看着我\N{\rEng}Andrew? Andrew, look at me.
+Dialogue: 0,1:17:20.80,1:17:23.68,Default,,0000,0000,0000,,没事的 你不会有事的 好吗?\N{\rEng}This is all gonna be fine. You're gonna be all right, okay?
+Dialogue: 0,1:17:25.51,1:17:27.31,Default,,0000,0000,0000,,我会找人救你 好吗?\N{\rEng}I'm gonna get you help, okay?
+Dialogue: 0,1:17:27.39,1:17:29.64,Default,,0000,0000,0000,,各单位注意，丹尼街发生4级事件，速支援\N{\rEng}All units, respond Code 4 to Denny Way.
+Dialogue: 0,1:17:29.72,1:17:33.23,Default,,0000,0000,0000,,快走 这里不安全\N{\rEng}Get out of here! It's not safe!
+Dialogue: 0,1:17:35.23,1:17:37.57,Default,,0000,0000,0000,,安德鲁? 安德鲁?\N{\rEng}Andrew? Andrew?
+Dialogue: 0,1:17:40.07,1:17:42.49,Default,,0000,0000,0000,,你还不明白吗？ 不准动！\N{\rEng}Are you getting this? Don't move!
+Dialogue: 0,1:17:42.57,1:17:44.41,Default,,0000,0000,0000,,别开枪 别开枪\N{\rEng}Don't shoot! Don't shoot!
+Dialogue: 0,1:17:44.49,1:17:48.37,Default,,0000,0000,0000,,等一下 等等 等等 我需要救援 我需要救援\N{\rEng}Hold on! Wait, wait, wait, wait, wait! I need help! I need help!
+Dialogue: 0,1:17:48.45,1:17:50.12,Default,,0000,0000,0000,,他看起来像是被人拿枪指着，但是…\N{\rEng}He appears to be held at gunpoint but...
+Dialogue: 0,1:17:50.20,1:17:51.12,Default,,0000,0000,0000,,噢上帝啊！\N{\rEng}Oh, my God!
+Dialogue: 0,1:17:51.25,1:17:54.37,Default,,0000,0000,0000,,手举起来！ 请别开枪！\N{\rEng}- Arms up in the air! - Don't shoot, please!
+Dialogue: 0,1:17:54.46,1:17:56.42,Default,,0000,0000,0000,,他受伤了\N{\rEng}He's hurt!
+Dialogue: 0,1:17:57.46,1:17:59.05,Default,,0000,0000,0000,,- 趴在地上 - 等等 等等\N{\rEng}Get on the ground! Wait! Wait!
+Dialogue: 0,1:17:59.13,1:18:01.47,Default,,0000,0000,0000,,- 照他说的坐 - 马上趴下\N{\rEng}Do what he says! Now, get down!
+Dialogue: 0,1:18:01.55,1:18:04.77,Default,,0000,0000,0000,,- 不准起来 - 趴在地上\N{\rEng}- Do not get up! - Get on the ground!
+Dialogue: 0,1:18:04.84,1:18:06.84,Default,,0000,0000,0000,,请别开枪！ 我们会开枪的！\N{\rEng}Please don't shoot! We will shoot you!
+Dialogue: 0,1:18:06.93,1:18:10.40,Default,,0000,0000,0000,,- 我什么都不会做 - 小心玻璃\N{\rEng}- I'm not gonna do anything! - Whoa, whoa, whoa! The glass!
+Dialogue: 0,1:18:10.51,1:18:13.11,Default,,0000,0000,0000,,开他一枪！\N{\rEng}Take him out!
+Dialogue: 0,1:18:16.19,1:18:18.44,Default,,0000,0000,0000,,别来烦我\N{\rEng}Leave me alone!
+Dialogue: 0,1:18:28.03,1:18:29.38,Default,,0000,0000,0000,,靠！\N{\rEng}Shit!
+Dialogue: 0,1:18:29.45,1:18:32.20,Default,,0000,0000,0000,,哇哦！哇哦！ 喔喔！\N{\rEng}Whoa! Whoa! Wow!
+Dialogue: 0,1:18:46.51,1:18:48.85,Default,,0000,0000,0000,,我们看到发生多起爆炸\N{\rEng}We have multiple explosions.
+Dialogue: 0,1:18:48.97,1:18:51.06,Default,,0000,0000,0000,,- 赶快就位 - 我们看到他们了\N{\rEng}Get in position! We have 'em in our sights!
+Dialogue: 0,1:18:51.14,1:18:53.77,Default,,0000,0000,0000,,已就位！ 原地待命！\N{\rEng}- We're covered! - Hold it right there!
+Dialogue: 0,1:18:55.02,1:18:57.15,Default,,0000,0000,0000,,不！住手！\N{\rEng}No! Stop!
+Dialogue: 0,1:18:59.02,1:19:00.77,Default,,0000,0000,0000,,我们已经把你包围了\N{\rEng}We have you surrounded!
+Dialogue: 0,1:19:01.65,1:19:03.95,Default,,0000,0000,0000,,- 不 - 手举高让我们看见\N{\rEng}No! Hands where we can see 'em!
+Dialogue: 0,1:19:04.03,1:19:06.15,Default,,0000,0000,0000,,趴下 趴下\N{\rEng}Stay down! Stay down!
+Dialogue: 0,1:19:06.24,1:19:09.08,Default,,0000,0000,0000,,趴下！重覆，不准动！\N{\rEng}Stay down! I repeat, do not move!
+Dialogue: 0,1:19:14.50,1:19:16.50,Default,,0000,0000,0000,,其他单位在远处那边！\N{\rEng}Additional units on the far side!
+Dialogue: 0,1:19:19.33,1:19:21.13,Default,,0000,0000,0000,,趴下！\N{\rEng}Yo, stay down!
+Dialogue: 0,1:19:21.21,1:19:23.63,Default,,0000,0000,0000,,趴下 不许动\N{\rEng}Stay down! Don't move!
+Dialogue: 0,1:19:23.71,1:19:26.43,Default,,0000,0000,0000,,安德鲁！安德鲁！\N{\rEng}Andrew! Andrew!
+Dialogue: 0,1:19:26.51,1:19:28.18,Default,,0000,0000,0000,,住手！别伤害他们！安德鲁！\N{\rEng}Stop! Don't hurt them! Andrew!
+Dialogue: 0,1:19:32.30,1:19:33.43,Default,,0000,0000,0000,,开火！\N{\rEng}Open fire!
+Dialogue: 0,1:19:57.20,1:19:58.50,Default,,0000,0000,0000,,安德鲁!\N{\rEng}Andrew!
+Dialogue: 0,1:20:01.04,1:20:04.39,Default,,0000,0000,0000,,安德鲁 快住手\N{\rEng}Andrew! Andrew, stop!
+Dialogue: 0,1:20:04.46,1:20:06.05,Default,,0000,0000,0000,,求求你 住手\N{\rEng}Please, stop!
+Dialogue: 0,1:20:12.51,1:20:13.01,Default,,0000,0000,0000,,安德鲁！\N{\rEng}Andrew!
+Dialogue: 0,1:20:14.39,1:20:15.98,Default,,0000,0000,0000,,别逼我这么做\N{\rEng}Don't make me do this!
+Dialogue: 0,1:20:17.73,1:20:18.98,Default,,0000,0000,0000,,住手\N{\rEng}Stop!
+Dialogue: 0,1:20:36.58,1:20:39.21,Default,,0000,0000,0000,,汇报伤亡情况\N{\rEng}...reports of casualties.
+Dialogue: 0,1:20:39.29,1:20:43.09,Default,,0000,0000,0000,,至少击毁两个物体\N{\rEng}At least two structures have been destroyed.
+Dialogue: 0,1:20:43.21,1:20:46.18,Default,,0000,0000,0000,,我认为他们都倒下了！\N{\rEng}I think they're both down!
+Dialogue: 0,1:20:46.25,1:20:47.51,Default,,0000,0000,0000,,死亡两人\N{\rEng}Two men out.
+Dialogue: 0,1:20:47.59,1:20:50.51,Default,,0000,0000,0000,,显示给我看东面情况…\N{\rEng}Show me right now eastbound on...
+Dialogue: 0,1:20:50.59,1:20:52.89,Default,,0000,0000,0000,,是，长官 我在两街区外，我看到了\N{\rEng}Yes, sir. I'm about two blocks away. I see it.
+Dialogue: 0,1:20:53.76,1:20:55.26,Default,,0000,0000,0000,,行动\N{\rEng}Move up.
+Dialogue: 0,1:21:02.60,1:21:04.53,Default,,0000,0000,0000,,喂 你在干什么?\N{\rEng}Hey! Oh! What are you doing?
+Dialogue: 0,1:21:50.73,1:21:52.24,Default,,0000,0000,0000,,嘿 安德鲁\N{\rEng}Hey, Andrew.
+Dialogue: 0,1:21:59.41,1:22:01.91,Default,,0000,0000,0000,,我只是想说...\N{\rEng}I just wanted to say that...
+Dialogue: 0,1:22:04.00,1:22:06.22,Default,,0000,0000,0000,,我很抱歉 还有..\N{\rEng}I'm sorry and, uh,
+Dialogue: 0,1:22:10.38,1:22:13.01,Default,,0000,0000,0000,,我...我希望...\N{\rEng}I... I hope...
+Dialogue: 0,1:22:13.09,1:22:16.19,Default,,0000,0000,0000,,你懂我做了我必须做的事\N{\rEng}that you know that I did what I had to do.
+Dialogue: 0,1:22:17.51,1:22:20.01,Default,,0000,0000,0000,,你并不是个坏人 这我知道\N{\rEng}You're not a bad person. I know that.
+Dialogue: 0,1:22:21.01,1:22:23.02,Default,,0000,0000,0000,,这是唯一重要的\N{\rEng}That's all that matters.
+Dialogue: 0,1:22:24.52,1:22:26.90,Default,,0000,0000,0000,,还有 我要告诉你...\N{\rEng}And, uh, I want you to know...
+Dialogue: 0,1:22:26.98,1:22:29.11,Default,,0000,0000,0000,,我从今以后会变更好的\N{\rEng}that I'm gonna be better from now on.
+Dialogue: 0,1:22:29.19,1:22:31.49,Default,,0000,0000,0000,,我会帮助人们\N{\rEng}I'm gonna help people.
+Dialogue: 0,1:22:31.57,1:22:33.95,Default,,0000,0000,0000,,我要查明我们在那洞里发生了什么事\N{\rEng}I'm gonna find out what happened to us down there.
+Dialogue: 0,1:22:34.03,1:22:36.00,Default,,0000,0000,0000,,我不在乎需要多少时间\N{\rEng}I don't care how long it takes.
+Dialogue: 0,1:22:36.07,1:22:38.07,Default,,0000,0000,0000,,我要找到答案\N{\rEng}I'm gonna get answers.
+Dialogue: 0,1:22:38.95,1:22:42.20,Default,,0000,0000,0000,,为了你和史蒂夫 我会找到的\N{\rEng}I'm gonna do it for you, and I'm gonna do it for Steve.
+Dialogue: 0,1:22:42.29,1:22:43.96,Default,,0000,0000,0000,,还有...\N{\rEng}And...
+Dialogue: 0,1:22:44.04,1:22:45.66,Default,,0000,0000,0000,,我...\N{\rEng}I just...
+Dialogue: 0,1:22:49.21,1:22:51.34,Default,,0000,0000,0000,,我爱你 伙计\N{\rEng}I love you, man.
+Dialogue: 0,1:22:51.42,1:22:54.17,Default,,0000,0000,0000,,我到最后都没有机会告诉你...\N{\rEng}I didn't ever get a chance to tell you,
+Dialogue: 0,1:22:54.26,1:22:56.22,Default,,0000,0000,0000,,我爱你\N{\rEng}but I love you.
+Dialogue: 0,1:23:03.56,1:23:05.23,Default,,0000,0000,0000,,还有\N{\rEng}And guess what.
+Dialogue: 0,1:23:09.86,1:23:11.78,Default,,0000,0000,0000,,你做到了\N{\rEng}You made it.
+Dialogue: 0,1:23:20.41,1:23:23.00,Default,,0000,0000,0000,,喔喔！\N{\rEng}Whoo-hoo!
+Dialogue: 0,1:23:23.08,1:23:26.58,Default,,0000,0000,0000,,喔喔！\N{\rEng}Whoo-hoo!
+Dialogue: 0,1:23:28.50,1:23:30.42,Default,,0000,0000,0000,,多美啊\N{\rEng}Isn't it beautiful?
+Dialogue: 0,1:23:33.59,1:23:35.51,Default,,0000,0000,0000,,再见了 安德鲁\N{\rEng}Good-bye, Andrew.
+
