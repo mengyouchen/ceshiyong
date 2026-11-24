@@ -925,4 +925,5 @@ description: |
 - `references/case-notes.md`：32 篇逐篇拆解（故事 / 他怎么讲 / 为什么），后补 7 篇在最后。
 - `references/voice-samples.md`：28 段校正过的原文，对应上面的做法。
 - `references/hook-close-reading.md`：32 篇钩子逐篇细读（从第一句读到进主线：意图、措辞、换个写法对照、怎么进主线），以及读完后的横向结论和本节需要修正的说法。**写钩子前读这一份。**
+- `references/hooks-full/`：32 篇钩子**全段逐行**细读（从第一句到进入主线，每一行、每一段原声都讲：在干什么、为什么用这个词、为什么在这个位置、换个写法会怎样），分四个文件。`hook-close-reading.md` 是读完这四份以后的横向结论。
 - 原始稿件：仓库根目录 `fanfanshuo/1.txt`–`25.txt`，以及以片名命名的 7 篇。
